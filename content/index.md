@@ -1,7 +1,7 @@
 ---
-title: LLMWiki
+title: "Research Library"
 ---
 
-# LLMWiki
+# Research Library
 
 A connected library of papers and concepts.
