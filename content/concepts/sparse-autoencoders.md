@@ -22,11 +22,13 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - A feature can be interpretable without being causally effective when its activation correlates with a concept but intervening on it does not reliably change model behavior. Interpretability and [[Model Steerability]] should therefore be evaluated separately.
 - Feature coverage is not guaranteed by dictionary size. An SAE may miss user-relevant concepts or represent them only through entangled or composite features.
 - Post-hoc evaluation can assign concepts to neurons using tools such as CLIP-Dissect, but the resulting labels depend on the probing data, concept vocabulary, and evaluator model.
+- SAE features can also be treated as thematic atoms in a [[Continuous Topic Models|continuous topic model]], with activations representing topic weights for embedding-space dataset analysis rather than single-feature steering.
 - SAE variants can be combined with explicit concept supervision. [[Concept Bottleneck Sparse Autoencoders]] retain useful discovered features while adding a bottleneck for missing user-specified concepts.
 
 ## Important Papers
 
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
+- [[Sparse Autoencoders are Topic Models]]
 - Pach et al. (2025), "Sparse autoencoders learn monosemantic features in vision-language models."
 - Gao et al. (2025), "Scaling and evaluating sparse autoencoders."
 - Huben et al. (2024), "Sparse autoencoders find highly interpretable features in language models."
@@ -37,5 +39,6 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[Concept Bottleneck Models]]
 - [[Concept Bottleneck Sparse Autoencoders]]
 - [[Model Steerability]]
+- [[Continuous Topic Models]]
 - Feature disentanglement
 - Dictionary learning
