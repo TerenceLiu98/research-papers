@@ -24,6 +24,7 @@ Causal inference with unstructured outcomes studies how an intervention changes 
 
 ## Important Papers
 
+- [[Exploratory Causal Inference in Science]]
 - [[Causal Inference with Unstructured Outcomes]]
 - Egami et al. (2022), "How to make causal inferences using texts."
 - Feder et al. (2022), "Causal inference in natural language processing: Estimation, prediction, interpretation and beyond."
@@ -33,6 +34,7 @@ Causal inference with unstructured outcomes studies how an intervention changes 
 
 - [[Maximally Contrasting Feature]]
 - [[Maximally Influential Treatment Features]]
+- [[Exploratory Causal Inference]]
 - Potential outcomes
 - Propensity scores
 - Causal representation learning
