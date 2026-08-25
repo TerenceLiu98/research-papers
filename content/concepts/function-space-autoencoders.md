@@ -29,6 +29,7 @@ Function-space autoencoders learn low-dimensional representations of objects tre
 
 ## Important Papers
 
+- [[Functional Autoencoders for Functional Data Representation Learning]]
 - [[Functional Autoencoder for Smoothing and Representation Learning]]
 - [[Autoencoders in Function Space]]
 - Seidman, Kissas, Pappas, and Perdikaris (2023), "Variational autoencoding neural operators."
