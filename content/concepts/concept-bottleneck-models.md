@@ -19,12 +19,14 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 
 - A bottleneck typically predicts a fixed concept set and then maps those concept activations to the final task output.
 - Supervised concept labels provide explicit alignment, while label-free and vision-language-guided variants use model-generated or weak concept targets.
+- Language-guided variants can generate category descriptions with a language model, encode them with a vision-language model such as CLIP, and select a task-specific concept set. In continual learning, retaining these bottlenecks across tasks can expose how a model's rationale changes over time.
 - Concept interventions can support explanation and [[Model Steerability]], but their usefulness depends on concept quality, coverage, and whether the downstream predictor actually uses the bottleneck as intended.
 - A fixed bottleneck guarantees coverage only for its chosen vocabulary. It can miss novel features that an unsupervised representation might discover.
 - Hybrid approaches such as [[Concept Bottleneck Sparse Autoencoders]] combine a concept bottleneck with unsupervised sparse features to cover user-specified concepts without discarding discovered structure.
 
 ## Important Papers
 
+- [[Language Guided Concept Bottleneck Models for Interpretable Continual Learning]]
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
 - Koh et al. (2020), "Concept bottleneck models."
 - Yuksekgonul, Wang, and Zou (2023), "Post-hoc concept bottleneck models."
@@ -36,6 +38,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 
 - [[Sparse Autoencoders]]
 - [[Concept Bottleneck Sparse Autoencoders]]
+- [[Continual Learning]]
 - [[Model Steerability]]
 - Interpretable machine learning
 - Concept supervision
