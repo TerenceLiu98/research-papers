@@ -22,11 +22,13 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - Language-guided variants can generate category descriptions with a language model, encode them with a vision-language model such as CLIP, and select a task-specific concept set. In continual learning, retaining these bottlenecks across tasks can expose how a model's rationale changes over time.
 - Concept interventions can support explanation and [[Model Steerability]], but their usefulness depends on concept quality, coverage, and whether the downstream predictor actually uses the bottleneck as intended.
 - A fixed bottleneck guarantees coverage only for its chosen vocabulary. It can miss novel features that an unsupervised representation might discover.
+- [[Vision-to-Concept Tokenizers]] provide a label-free route to a vision-oriented bottleneck by filtering a common-word vocabulary against task-related unlabeled images.
 - Hybrid approaches such as [[Concept Bottleneck Sparse Autoencoders]] combine a concept bottleneck with unsupervised sparse features to cover user-specified concepts without discarding discovered structure.
 - A concept bottleneck can also control a generative model: [[Concept-based Visual Counterfactual Explanations with Diffusion Models]] intervenes on concept targets inside a diffusion U-Net to generate localized visual counterfactuals.
 
 ## Important Papers
 
+- [[V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer]]
 - [[Language Guided Concept Bottleneck Models for Interpretable Continual Learning]]
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
 - [[Concept-based Visual Counterfactual Explanations with Diffusion Models]]
@@ -44,5 +46,6 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - [[Model Steerability]]
 - [[Visual Counterfactual Explanations]]
 - [[Diffusion Models]]
+- [[Vision-to-Concept Tokenizers]]
 - Interpretable machine learning
 - Concept supervision
