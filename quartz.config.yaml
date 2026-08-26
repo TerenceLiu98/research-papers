@@ -44,7 +44,7 @@ plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:
-      defaultDateType: modified
+      defaultDateType: created
       priority:
         - frontmatter
         - git
@@ -148,6 +148,7 @@ plugins:
     layout:
       position: right
       priority: 50
+      condition: not-index
   - source: github:quartz-community/article-title
     enabled: true
     layout:
@@ -201,7 +202,11 @@ plugins:
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    layout:
+      position: afterBody
+      priority: 10
+      condition: index-only
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
