@@ -27,6 +27,7 @@ LLM-assisted web retrieval is a domain-focused information-gathering workflow th
 
 ## Important Papers
 
+- [[A Real-Time System to Populate FRA Form 57 from News]]
 - [[An Application for Development and Interactive Visual Engagement with the SHARECITY 200 Food Sharing Initiative (FSI) Database in the CULTIVATE Project]]
 - Wu, Cho, Davies, and Jones (2024), "LLM-based Automated Web Retrieval and Text Classification of Food Sharing Initiatives." [DOI](https://doi.org/10.1145/3627673.3680090)
 - Jagerman et al. (2023), "Query expansion by prompting large language models." [arXiv](https://arxiv.org/abs/2305.03653)
