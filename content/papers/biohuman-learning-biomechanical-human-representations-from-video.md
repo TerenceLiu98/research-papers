@@ -94,7 +94,7 @@ The underlying OpenSim model lacks neck degrees of freedom, so neck motion is in
 
 ## Related Papers
 
-- Schneider et al. (2024), "Muscles in Time: Learning to Understand Human Motion In-Depth by Simulating Muscle Activations."
+- [[Muscles in Time: Learning to Understand Human Motion by Simulating Muscle Activations]]
 - Uhlrich et al. (2023), "OpenCap: Human Movement Dynamics from Smartphone Videos."
 - Werling et al. (2023), "AddBiomechanics: Automating Model Scaling, Inverse Kinematics, and Inverse Dynamics from Human Motion Data through Sequential Optimization."
 - Keller et al. (2023), "From Skin to Skeleton: Towards Biomechanically Accurate 3D Digital Humans."

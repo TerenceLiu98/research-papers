@@ -26,7 +26,7 @@ Muscle activation estimation infers time-varying muscle excitation or activation
 ## Important Papers
 
 - [[BioHuman: Learning Biomechanical Human Representations from Video]]
-- Schneider et al. (2024), "Muscles in Time: Learning to Understand Human Motion In-Depth by Simulating Muscle Activations."
+- [[Muscles in Time: Learning to Understand Human Motion by Simulating Muscle Activations]]
 - Chiquier and Vondrick (2023), "Muscles in Action."
 - Van Hooren and Meijer (2024), "Dataset of Running Kinematics, Kinetics and Muscle Activation at Different Speeds, Surface Gradients, Cadences and with Forward Trunk Lean."
 - Uhlrich et al. (2023), "OpenCap: Human Movement Dynamics from Smartphone Videos."
