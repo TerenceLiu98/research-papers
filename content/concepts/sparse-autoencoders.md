@@ -27,6 +27,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 ## Important Papers
 
+- [[Learning Concept Bottleneck Models from Mechanistic Explanations]]
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
 - [[Sparse Autoencoders are Topic Models]]
 - Pach et al. (2025), "Sparse autoencoders learn monosemantic features in vision-language models."
