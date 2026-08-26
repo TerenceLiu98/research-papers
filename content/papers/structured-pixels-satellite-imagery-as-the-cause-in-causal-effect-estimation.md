@@ -97,3 +97,5 @@ The causal interpretation depends on unconfoundedness and positivity. The sensit
 - Jerzak, Johansson, and Daoud (2023), "Integrating earth observation data into causal inference: Challenges and opportunities."
 - Thorat, Kolla, and Pedanekar (2024), "I see, therefore I do: Estimating causal effects for image treatments."
 - Koch et al. (2019), "Agricultural productivity and forest conservation: Evidence from the Brazilian Amazon."
+
+[[index|Library home]]

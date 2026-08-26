@@ -82,3 +82,5 @@ The inference result presumes that observations can distinguish herding-generate
 - Castellano, Munoz, and Pastor-Satorras (2009), "Nonlinear q-voter model."
 - Herpich, Cossetto, Falasco, and Esposito (2020), "Stochastic thermodynamics of all-to-all interacting many-body systems."
 - Llabrés, San Miguel, and Toral (2026), "Universality of noise-induced transitions in nonlinear voter models."
+
+[[index|Library home]]

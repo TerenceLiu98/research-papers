@@ -77,3 +77,5 @@ V2C-CBM is weaker than language-model-guided LaBo in the most data-scarce one- a
 - Menon and Vondrick (2023), "Visual Classification via Description from Large Language Models."
 - Rao, Mahajan, Bohle, and Schiele (2024), "Discover-then-Name: Task-Agnostic Concept Bottlenecks via Automated Concept Discovery."
 - [[Language Guided Concept Bottleneck Models for Interpretable Continual Learning]]
+
+[[index|Library home]]

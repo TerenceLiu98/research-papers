@@ -79,3 +79,5 @@ Full DDPM sampling remains computationally slow, and the current implementation 
 - Koh, Nguyen, Tang, Mussmann, Pierson, Kim, and Liang (2020), "Concept bottleneck models."
 
 Code: https://github.com/yassine2331/ex_difuser
+
+[[index|Library home]]

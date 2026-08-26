@@ -59,3 +59,5 @@ The framework is an early conceptualization of a rapidly changing technical doma
 - Hohenstein and Jung (2019), ["AI as a moral crumple zone: The effects of AI-mediated communication on attribution of responsibility and perception of trust"](https://doi.org/10.1016/j.chb.2019.106190).
 - Jakesch et al. (2019), "AI-mediated communication: How the perception that profile text was written by AI affects trustworthiness."
 - Hohenstein and Jung (2018), "AI-supported messaging: An investigation of human-human text conversation with AI support."
+
+[[index|Library home]]

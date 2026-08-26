@@ -66,3 +66,5 @@ The measured positions can reflect changes in the salience of policies within th
 - Budge, Ezrow, and McDonald (2010), "Ideology, party factionalism and policy change: An integrated dynamic theory."
 - Mair and Mudde (1998), "The party family and its study."
 - [[The PARTYPRESS Database A New Comparative Database of Parties Press Releases]]
+
+[[index|Library home]]

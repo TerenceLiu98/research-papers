@@ -68,3 +68,5 @@ The conclusions require strong structural assumptions: ergodicity modulo scaling
 - Gurel-Gurevich, Jerison, and Nachmias (2019), "A combinatorial criterion for macroscopic circles in planar triangulations."
 - Bou-Rabee and Gwynne (2024), "Random walk on sphere packings and Delaunay triangulations in arbitrary dimension."
 - Gwynne, Miller, and Sheffield (2020, 2021), work on Tutte embeddings and Liouville quantum gravity.
+
+[[index|Library home]]

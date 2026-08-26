@@ -84,3 +84,5 @@ The TinyStories setting uses a restricted vocabulary and computes theoretical ma
 - Tian et al. (2023), "Scan and Snap: Understanding Training Dynamics and Token Composition in 1-Layer Transformer."
 - Li, Li, and Risteski (2023), "How Do Transformers Learn Topic Structure: Towards a Mechanistic Understanding."
 - Olsson et al. (2022), "In-Context Learning and Induction Heads."
+
+[[index|Library home]]

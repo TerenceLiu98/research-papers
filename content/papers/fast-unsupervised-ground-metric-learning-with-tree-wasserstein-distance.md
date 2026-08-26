@@ -72,3 +72,5 @@ Tree-Wasserstein approximation quality is not theoretically guaranteed for the s
 - Takezawa, Sato, and Yamada (2021), "Supervised Tree-Wasserstein Distance."
 - Peyre and Cuturi (2019), "Computational Optimal Transport."
 - Wolf, Angerer, and Theis (2018), "SCANPY: Large-Scale Single-Cell Gene Expression Data Analysis."
+
+[[index|Library home]]

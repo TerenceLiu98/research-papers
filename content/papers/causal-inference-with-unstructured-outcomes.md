@@ -76,3 +76,5 @@ The estimation results rely on regularity conditions for uniform convergence, pr
 - Veitch, Sridhar, and Blei (2020), "Adapting text embeddings for causal inference."
 - Wibisono and Wang (2026), "Causal inference with unstructured treatments," arXiv:2608.00657.
 - Modarressi, Spiess, and Venugopal (2025), "Causal inference on outcomes learned from text," arXiv:2503.00725.
+
+[[index|Library home]]

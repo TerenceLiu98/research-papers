@@ -72,3 +72,5 @@ The analysis is restricted to continuous univariate distributions, linear transf
 - Bickel and Freedman (1981), "Some Asymptotic Theory for the Bootstrap."
 - Fang, Zhou, and Wang (2014), "Applications of the Representative Points in Statistical Simulations."
 - Xu, Fang, and He (2022), "Properties and Generation of Representative Points of the Exponential Distribution."
+
+[[index|Library home]]

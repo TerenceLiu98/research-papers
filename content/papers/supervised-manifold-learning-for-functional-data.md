@@ -82,3 +82,5 @@ The theoretical results depend on regularity conditions for curve recovery, geod
 - Delaigle and Hall (2012), "Achieving near perfect classification for functional data."
 - Dai, Muller, and Yao (2017), "Optimal Bayes classifiers for functional data and density ratios."
 - Budninskiy, Yin, Feng, Tong, and Desbrun (2019), "Parallel transport unfolding: A connection-based manifold learning approach."
+
+[[index|Library home]]

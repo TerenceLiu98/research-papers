@@ -80,3 +80,5 @@ The model is a stylized agent-based abstraction. Its sources have fixed or highl
 - Stern and Livan (2021), "The impact of noise and topology on opinion dynamics in social networks."
 - Lewandowsky and van der Linden (2021), "Countering misinformation and fake news through inoculation and prebunking."
 - Jhaver et al. (2021), "Evaluating the effectiveness of deplatforming as a moderation strategy on Twitter."
+
+[[index|Library home]]

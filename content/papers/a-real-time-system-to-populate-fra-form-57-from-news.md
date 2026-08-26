@@ -74,3 +74,5 @@ The evaluation is centered on California railway-crossing incidents and a curate
 - Hong et al. (2022), "BROS: A Pre-trained Language Model Focusing on Text and Layout for Better Information Extraction from Documents." [arXiv:2108.04539](https://arxiv.org/abs/2108.04539)
 - Huang et al. (2022), "LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking." [arXiv:2204.08387](https://arxiv.org/abs/2204.08387)
 - Lee et al. (2023), "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding." [arXiv:2210.03347](https://arxiv.org/abs/2210.03347)
+
+[[index|Library home]]

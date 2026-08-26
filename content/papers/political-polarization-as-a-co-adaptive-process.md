@@ -72,3 +72,5 @@ The definition of media polarization deliberately combines content, platforms, m
 - Prior (2013), "Media and Political Polarization."
 - Chadwick (2013), "The Hybrid Media System: Politics and Power."
 - Wlezien and Soroka (2024), "Media Reflect! Policy, the Public, and the News."
+
+[[index|Library home]]

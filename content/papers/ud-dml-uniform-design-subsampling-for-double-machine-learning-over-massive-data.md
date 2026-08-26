@@ -77,3 +77,5 @@ The empirical comparison is limited to three synthetic designs and one natality 
 - Zhou et al. (2024), "Efficient Model-Free Subsampling Method for Massive Data."
 - Su, Wang, and Wang (2022), "A Two-Stage Optimal Subsampling Estimation for Missing Data Problems with Large-Scale Data."
 - Su (2025), "Fast and Efficient Causal Inference in Large-Scale Data via Subsampling and Projection Calibration."
+
+[[index|Library home]]

@@ -95,3 +95,5 @@ The concept bank is built automatically from web captions, so it can contain bia
 - Yuksekgonul, Wang, and Zou (2023), "Post-hoc concept bottleneck models."
 - Yang et al. (2023), "Language in a bottle: Language model guided concept bottlenecks for interpretable image classification."
 - Panousis, Ienco, and Marcos (2023), "Sparse linear concept discovery models."
+
+[[index|Library home]]

@@ -89,3 +89,5 @@ The causal interpretation depends on SUTVA, latent ignorability, positivity, and
 - Reich et al. (2021), "A review of spatial causal inference methods for environmental and epidemiological applications."
 - Gill et al. (2017), "Capacity shortfalls hinder the performance of marine protected areas globally."
 - Gill et al. (2024), "A diverse portfolio of marine protected areas can better advance global conservation and equity."
+
+[[index|Library home]]

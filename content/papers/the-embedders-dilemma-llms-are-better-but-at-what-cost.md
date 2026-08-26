@@ -82,3 +82,5 @@ The corpus-in-context retrieval protocol uses small corpora of 82-415 documents.
 - Thakur et al. (2021), "BEIR: A heterogenous benchmark for zero-shot evaluation of information retrieval models." [arXiv](https://arxiv.org/abs/2104.08663)
 - Su et al. (2024), "BRIGHT: A realistic and challenging benchmark for reasoning-intensive retrieval." [arXiv](https://arxiv.org/abs/2407.12883)
 - Lewis et al. (2020), "Retrieval-augmented generation for knowledge-intensive NLP tasks." [arXiv](https://arxiv.org/abs/2005.11401)
+
+[[index|Library home]]

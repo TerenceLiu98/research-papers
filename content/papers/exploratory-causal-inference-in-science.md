@@ -69,3 +69,5 @@ The guarantees depend on strong and partly untestable representation assumptions
 - Movva et al. (2025), "Sparse autoencoders for hypothesis generation."
 - Schölkopf et al. (2021), "Toward causal representation learning."
 
+
+[[index|Library home]]

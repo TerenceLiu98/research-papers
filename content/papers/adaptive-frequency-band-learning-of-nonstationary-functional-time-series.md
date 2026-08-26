@@ -74,3 +74,5 @@ The simulations use controlled settings and 100 replications; performance decrea
 - van Delft and Eichler (2018), "Locally stationary functional time series."
 - Brubaker, Manning, Yentes, and Bruce (2026), "Frequency band analysis of multiple stationary time series."
 - Granados-Garcia, Prado, and Ombao (2024), "Bayesian nonparametric multivariate mixture of autoregressive processes with application to brain signals."
+
+[[index|Library home]]

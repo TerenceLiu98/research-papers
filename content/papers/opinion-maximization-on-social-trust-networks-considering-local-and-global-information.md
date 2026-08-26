@@ -76,3 +76,5 @@ The model assumes continuous and rational opinion updating, homogeneous interact
 - He, Wang, Huang, and Yi (2021), "Multi-stage opinion maximization in social networks."
 - He, Zeng, Zhang, and Liu (2022), "Generalized opinion dynamics model for social trust networks."
 - Kempe, Kleinberg, and Tardos (2003), "Maximizing the spread of influence through a social network."
+
+[[index|Library home]]

@@ -67,3 +67,5 @@ Encoding descriptive column and category text can expose more semantic informati
 - Gorishniy et al. (2021), "Revisiting Deep Learning Models for Tabular Data."
 - Ucar, Hajiramezanali, and Edwards (2021), "SubTab: Subsetting Features of Tabular Data for Self-Supervised Representation Learning."
 - Bahri et al. (2022), "SCARF: Self-Supervised Contrastive Learning Using Random Feature Corruption."
+
+[[index|Library home]]

@@ -74,3 +74,5 @@ The results are based on selected synthetic and benchmark datasets and clusterin
 - Hinton and Salakhutdinov (2006), "Reducing the dimensionality of data with neural networks."
 - Kingma and Ba (2014), "Adam: A method for stochastic optimization."
 - Wang, Chiou, and Müller (2016), "Functional data analysis."
+
+[[index|Library home]]

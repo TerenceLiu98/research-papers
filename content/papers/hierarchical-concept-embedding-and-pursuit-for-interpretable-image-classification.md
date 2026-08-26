@@ -73,3 +73,5 @@ The Euclidean construction becomes restrictive for deep or highly branching hier
 - Bhalla et al. (2024), "Interpreting CLIP with Sparse Linear Concept Embeddings."
 - Park et al. (2025), "The Geometry of Categorical and Hierarchical Concepts in Large Language Models."
 - Jenatton et al. (2011), "Proximal Methods for Hierarchical Sparse Coding."
+
+[[index|Library home]]

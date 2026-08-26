@@ -70,3 +70,5 @@ The study evaluates one platform, one year of activity, and 42 selected accounts
 - Silva and Filho (2020), "Sorting with TOPSIS through Boundary and Characteristic Profiles."
 - Rezaei (2016), "Best-Worst Multi-Criteria Decision-Making Method: Some Properties and a Linear Model."
 - Gao et al. (2022), "Strategies and Effectiveness of the Chinese Government Debunking COVID-19 Rumors on Sina Weibo: Evaluating from Emotions."
+
+[[index|Library home]]

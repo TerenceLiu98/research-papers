@@ -97,3 +97,5 @@ The task remains ambiguous under monocular observation and depends on estimated 
 - Lei et al. (2025), "MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds."
 - Liang, Xu, and Kikuchi (2025), "HiMoR: Monocular Deformable Gaussian Reconstruction with Hierarchical Motion Representation."
 - Li et al. (2022), "Neural 3D Video Synthesis from Multi-View Video."
+
+[[index|Library home]]

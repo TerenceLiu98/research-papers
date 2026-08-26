@@ -88,3 +88,5 @@ The paper evaluates the method on three public datasets and two GPU types, so it
 - Feng et al. (2025), "FlashGS: Efficient 3D Gaussian Splatting for Large-Scale and High-Resolution Rendering."
 - Chen et al. (2025), "DashGaussian: Optimizing 3D Gaussian Splatting in 200 Seconds."
 - Yu et al. (2024), "Mip-Splatting: Alias-Free 3D Gaussian Splatting."
+
+[[index|Library home]]

@@ -90,3 +90,5 @@ The model assigns every skeptical user the same global skepticism level and does
 - Xia, Jiang, Song, and Song (2015), "Rumor spreading model considering hesitating mechanism in complex social networks."
 - Hu, Pan, Hou, and He (2018), "Rumor spreading model with the different attitudes towards rumors."
 - Moreno, Nekovee, and Pacheco (2004), "Dynamics of rumor spreading in complex networks."
+
+[[index|Library home]]

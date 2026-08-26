@@ -68,3 +68,5 @@ The validation corpus is small, restricted to one Irish parliamentary debate, an
 - Grimmer and King (2011), "General purpose computer-assisted clustering and conceptualization."
 - Grimmer and Stewart (Forthcoming), "Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts."
 - Benoit, Laver, and Mikhaylov (2009), "Treating Words as Data with Error: Uncertainty in Text Statements of Policy Positions."
+
+[[index|Library home]]

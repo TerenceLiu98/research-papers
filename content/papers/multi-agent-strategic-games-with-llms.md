@@ -73,3 +73,5 @@ The evidence does not test prompt variants, and the authors argue only for stabi
 - Lamparth et al. (2024), "Human vs. Machine: Behavioral Differences Between Expert Humans and Language Models in Wargame Simulations."
 - Tingley and Walter (2011), "Can Cheap Talk Deter? An Experimental Analysis."
 - Kreps et al. (1982), "Rational Cooperation in the Finitely Repeated Prisoners' Dilemma."
+
+[[index|Library home]]

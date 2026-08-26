@@ -70,3 +70,5 @@ The primary labels capture issue focus rather than reliable issue-specific posit
 - Sagarzazu and Klüver (2017), "Coalition governments and party competition: Political communication strategies of coalition parties."
 - Grimmer (2010), "A Bayesian hierarchical topic model for political texts: Measuring expressed agendas in Senate press releases."
 - Barbera et al. (2021), ["Automated text classification of news articles: A practical guide"](https://doi.org/10.1017/pan.2020.8).
+
+[[index|Library home]]

@@ -74,3 +74,5 @@ The MLLM-generated names and annotations are hypotheses, not guarantees that the
 - [[V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer]]
 - [[Language Guided Concept Bottleneck Models for Interpretable Continual Learning]]
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
+
+[[index|Library home]]

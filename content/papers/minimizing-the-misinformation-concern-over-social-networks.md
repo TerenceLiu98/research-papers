@@ -78,3 +78,5 @@ The C-cC model assumes that correction is completely trustworthy and that users 
 - Kempe, Kleinberg, and Tardos (2003), "Maximizing the spread of influence through a social network."
 - Zhang, Zhang, Li, and Thai (2015), "Limiting the spread of misinformation while effectively raising awareness in social networks."
 
+
+[[index|Library home]]

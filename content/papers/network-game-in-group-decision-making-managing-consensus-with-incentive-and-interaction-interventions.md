@@ -78,3 +78,5 @@ The model assumes that decision makers are myopic rational utility maximizers, t
 - Dong et al. (2018), "Consensus Reaching in Social Network Group Decision Making: Research Paradigms and Challenges."
 - Zhang et al. (2020), "An Overview on Feedback Mechanisms with Minimum Adjustment or Cost in Consensus Reaching in Group Decision Making."
 - Lang, Zha, and Wang (2023), "Competitive Targeted Marketing in Social Networks with Switching Topology: Seed Selection and Consensus Shaping."
+
+[[index|Library home]]

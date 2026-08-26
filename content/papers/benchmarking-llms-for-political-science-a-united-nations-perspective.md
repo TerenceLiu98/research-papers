@@ -88,3 +88,5 @@ Statement generation is evaluated through ROUGE and Sentence-BERT similarity to 
 - Bailey, Strezhnev, and Voeten (2017), "Estimating Dynamic State Preferences from United Nations Voting Data."
 - Kohlenberg et al. (2019), "Introducing UNSCdeb8 (beta): A Database for Corpus-Driven Research on the United Nations Security Council."
 - Hendrycks et al. (2021), "Measuring Massive Multitask Language Understanding."
+
+[[index|Library home]]

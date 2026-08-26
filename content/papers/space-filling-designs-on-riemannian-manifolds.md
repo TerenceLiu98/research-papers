@@ -81,3 +81,5 @@ The principal guarantees are asymptotic and depend on regularity assumptions, in
 - De Marchi and Elefante (2018), "Quasi-Monte Carlo integration on manifolds with mapped low-discrepancy points and greedy minimal Riesz s-energy points."
 - Rhee, Zhou, and Qiu (2017), "Space-filling design for nonlinear models."
 - Ehler, Graef, and Oates (2019), "Optimal Monte Carlo integration on closed manifolds."
+
+[[index|Library home]]

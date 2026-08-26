@@ -75,3 +75,5 @@ Feature interpretation depends on text or model-generated captions, a vocabulary
 - Gao et al. (2025), "Scaling and Evaluating Sparse Autoencoders."
 - Wu, Nguyen, Zhang, Wang, and Luu (2024), "FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model."
 - Zheng et al. (2025), "Model Directions, Not Words: Mechanistic Topic Models Using Sparse Autoencoders."
+
+[[index|Library home]]

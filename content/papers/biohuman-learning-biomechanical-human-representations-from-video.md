@@ -100,3 +100,5 @@ The underlying OpenSim model lacks neck degrees of freedom, so neck motion is in
 - Keller et al. (2023), "From Skin to Skeleton: Towards Biomechanically Accurate 3D Digital Humans."
 - Gozlan et al. (2025), "OpenCapBench: A Benchmark to Bridge Pose Estimation and Biomechanics."
 - Gilon et al. (2026), "OpenCap Monocular: 3D Human Kinematics and Musculoskeletal Dynamics from a Single Smartphone Video."
+
+[[index|Library home]]

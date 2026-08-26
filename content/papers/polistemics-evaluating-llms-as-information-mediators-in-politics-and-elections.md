@@ -74,3 +74,5 @@ The evidence standardization process can lengthen and intensify original rationa
 - Kirichenko et al. (2025), "AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions."
 - Xu et al. (2024), "Knowledge Conflicts for LLMs: A Survey."
 - Rottger et al. (2024), "Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models."
+
+[[index|Library home]]

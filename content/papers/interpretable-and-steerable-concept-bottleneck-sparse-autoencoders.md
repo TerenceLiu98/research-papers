@@ -109,3 +109,5 @@ The retained SAE neurons are generally more steerable than the added CB neurons,
 - Kulkarni et al. (2025), "Interpretable generative models through post-hoc concept bottlenecks."
 - Srivastava, Yan, and Weng (2024), "VLG-CBM: Training concept bottleneck models with vision-language guidance."
 - Yang et al. (2025), "AlignSAE: Concept-aligned sparse autoencoders."
+
+[[index|Library home]]

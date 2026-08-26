@@ -70,3 +70,5 @@ The evidence is more associational than causal. The design cannot establish that
 - Mutz (2016), ["In-your-face politics: The consequences of uncivil media"](https://doi.org/10.1515/9781400865871).
 - Van't Riet and Van Stekelenburg (2022), ["The effects of political incivility on political trust and political participation: A meta-analysis of experimental research"](https://doi.org/10.1093/hcr/hqab022).
 - Scolari (2012), ["Media ecology: Exploring the metaphor to expand the theory"](https://doi.org/10.1111/j.1468-2885.2012.01404.x).
+
+[[index|Library home]]

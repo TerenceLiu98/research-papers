@@ -83,3 +83,5 @@ FAE avoids these probabilistic compatibility requirements but remains dependent 
 - Li, Kovachki, Azizzadenesheli, Liu, Bhattacharya, Stuart, and Anandkumar (2021), "Fourier neural operator for parametric partial differential equations."
 - Lu, Jin, Pang, Zhang, and Karniadakis (2021), "Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators."
 - Ghosh, Sajjadi, Vergari, Black, and Schoelkopf (2020), "From variational to deterministic autoencoders."
+
+[[index|Library home]]

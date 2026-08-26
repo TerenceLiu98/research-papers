@@ -73,3 +73,5 @@ The method still depends on 2D pose extraction, camera-motion estimation, catego
 - Shin, Kim, Halilaj, and Black (2024), "WHAM: Reconstructing world-grounded humans with accurate 3D motion."
 - Bhatnagar et al. (2022), "BEHAVE: Dataset and method for tracking human object interactions."
 - Xie, Bhatnagar, and Pons-Moll (2023), "Visibility aware human-object interaction tracking from single RGB camera."
+
+[[index|Library home]]

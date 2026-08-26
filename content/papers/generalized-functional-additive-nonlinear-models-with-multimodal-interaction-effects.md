@@ -80,3 +80,5 @@ The paper reports a tension in the Gini analysis: it says the goodness-of-fit te
 - James (2002), "Generalized linear models with functional predictors."
 - Yao, Müller, and Wang (2005), "Functional data analysis for sparse longitudinal data."
 - Ramsay and Silverman (2005), "Functional Data Analysis."
+
+[[index|Library home]]

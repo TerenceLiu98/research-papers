@@ -85,3 +85,5 @@ MinT provides simulation targets rather than direct measurements of human muscle
 - Uhlrich et al. (2023), "OpenCap: Human Movement Dynamics from Smartphone Videos."
 - Lai, Arnold, and Wakeling (2017), "Why are antagonist muscles co-activated in my simulation? A musculoskeletal model for analysing human locomotor tasks."
 - Bruno, Bouxsein, and Anderson (2015), "Development and validation of a musculoskeletal model of the fully articulated thoracolumbar spine and rib cage."
+
+[[index|Library home]]

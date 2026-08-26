@@ -65,3 +65,5 @@ The data are retrospective public narratives rather than direct records of conve
 - Brandtzaeg, Skjuve, and Folstad (2022), ["My AI friend: How users of a social chatbot understand their human-AI friendship"](https://doi.org/10.1093/hcr/hqac008).
 - Skjuve et al. (2021), ["My chatbot companion: A study of human-chatbot relationships"](https://doi.org/10.1016/j.ijhcs.2021.102601).
 - Ashktorab et al. (2019), ["Resilient chatbots: Repair strategy preferences for conversational breakdowns"](https://doi.org/10.1145/3290605.3300484).
+
+[[index|Library home]]

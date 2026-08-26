@@ -74,3 +74,5 @@ Interpretability depends on the selected concepts. The authors report that langu
 - Rymarczyk, van de Weijer, Zielinski, and Twardowski (2023), "ICICLE: Interpretable Class Incremental Continual Learning."
 - Yu et al. (2020), "Semantic Drift Compensation for Class-Incremental Learning."
 - Yan et al. (2023), "Learning Concise and Descriptive Attributes for Visual Recognition."
+
+[[index|Library home]]

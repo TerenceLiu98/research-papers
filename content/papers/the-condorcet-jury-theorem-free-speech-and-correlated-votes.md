@@ -62,3 +62,5 @@ The main proposition gives a sufficient lower bound, not the exact majority-succ
 - Miller (1986), "Information, Electorates, and Democracy: Some Extensions and Interpretations of the Condorcet Jury Theorem."
 - Lindley (1985), "Reconciliation of Discrete Probability Distributions."
 - Ladha (n.d.), "Condorcet's Jury Theorem in Light of De Finetti's Theorem: Majority-Rule Voting with Correlated Votes."
+
+[[index|Library home]]
