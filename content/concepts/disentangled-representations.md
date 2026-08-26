@@ -18,6 +18,7 @@ Disentangled representations aim to organize learned coordinates so that separat
 ## Key Ideas
 
 - Disentanglement is a structural goal, not merely a measure of similarity between two learned representations. It therefore depends on assumptions about the data-generating factors and on the chosen equivalence class.
+- [[Causal Representation Learning]] extends disentanglement toward representations whose variables and mechanisms support interventions, counterfactuals, and transfer across environments.
 - Unsupervised disentanglement is impossible in full generality without inductive biases or additional information. The relevant assumptions may concern the decoder, the data-generating process, augmentations, supervision, sparsity, or independence.
 - [[Independent Component Analysis]] provides a simple post-processing route when a representation is already near-identifiable and the latent sources are independent and non-Gaussian. It can reduce rotational ambiguity while leaving signs and permutations unresolved.
 - The paper by Nelson et al. tests this recipe with vanilla autoencoders whose latent spaces are followed by ICA, rather than relying on a specialized disentanglement regularizer. The result is competitive on several synthetic benchmarks, but not uniformly superior across datasets.
@@ -26,6 +27,7 @@ Disentangled representations aim to organize learned coordinates so that separat
 
 ## Important Papers
 
+- [[Toward Causal Representation Learning]]
 - [[Statistical and Structural Identifiability in Representation Learning]]
 - Locatello et al. (2019), "Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations."
 - Higgins et al. (2017), "beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework."
@@ -34,6 +36,7 @@ Disentangled representations aim to organize learned coordinates so that separat
 
 ## Related Concepts
 
+- [[Causal Representation Learning]]
 - [[Structural Identifiability]]
 - [[Statistical Identifiability]]
 - [[Independent Component Analysis]]

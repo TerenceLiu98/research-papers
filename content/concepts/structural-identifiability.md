@@ -39,4 +39,4 @@ Structural identifiability asks whether a learned representation recovers a part
 - [[Disentangled Representations]]
 - Data-generating process
 - Nonlinear independent component analysis
-- Causal representation learning
+- [[Causal Representation Learning]]
