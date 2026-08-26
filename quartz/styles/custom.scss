@@ -1,3 +1,25 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Give research pages more room while preserving Quartz's tablet and mobile layouts.
+@media all and (min-width: 1200px) {
+  .page {
+    width: 100%;
+    max-width: 1800px;
+  }
+
+  .page > #quartz-body {
+    grid-template-columns:
+      minmax(260px, 300px)
+      minmax(0, 1fr)
+      minmax(260px, 300px);
+    column-gap: clamp(0.5rem, 1.5vw, 2rem);
+  }
+
+  .page > #quartz-body .sidebar {
+    padding-inline: clamp(1rem, 2vw, 2rem);
+  }
+
+  .page > #quartz-body .center {
+    min-width: 0;
+  }
+}
