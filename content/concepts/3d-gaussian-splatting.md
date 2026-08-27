@@ -22,10 +22,12 @@ tags:
 - **Tile-based rasterization:** The image is partitioned into tiles; a preprocessing stage assigns Gaussians to potentially intersecting tiles, depth sorting orders those assignments, and a render stage performs front-to-back alpha compositing.
 - **Representation-computation trade-off:** More or larger Gaussians can improve scene coverage but increase tile assignments and compositing work. Conservative footprints can therefore become a rendering bottleneck even when the scene representation itself is unchanged.
 - **Rasterizer optimization:** Methods such as [[Geometry-Aware Gaussian-Tile Culling]] reduce false-positive tile assignments by using more informed approximations of projected Gaussian support.
+- **Stochastic alternatives:** [[Stochastic Transparency]] can replace sorted alpha compositing with randomized opaque coverage. [[Gaussian Point Splating]] uses this route to distribute rendering work independently across GPU threads while correcting sample collisions to retain the intended opacity.
 
 ## Important Papers
 
 - [[QuadBox: Accelerating 3D Gaussian Splatting with Geometry-Aware Boxes]]
+- [[Gaussian Point Splating]]
 - Kerbl, Kopanas, Leimkuehler, and Drettakis (2023), "3D Gaussian Splatting for Real-Time Radiance Field Rendering."
 - Zwicker, Pfister, van Baar, and Gross (2002), "EWA Splatting."
 - Yu et al. (2024), "Mip-Splatting: Alias-Free 3D Gaussian Splatting."
@@ -34,6 +36,7 @@ tags:
 ## Related Concepts
 
 - [[Geometry-Aware Gaussian-Tile Culling]]
+- [[Stochastic Transparency]]
 - [[Multi-View Motion Diffusion]]
 - Differentiable rendering
 - Neural radiance fields
