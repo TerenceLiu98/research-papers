@@ -19,6 +19,8 @@ Party-system polarization describes how widely consequential political parties a
 
 - Polarization can refer to dispersion, distinct ideological modes, or the presence of parties at extreme positions. These definitions are not interchangeable and may move differently when a party changes position.
 - A common dispersion measure is the vote- or seat-share-weighted standard deviation of party positions. Dalton's index is a scaled version of this quantity for party positions measured on a 0-10 left-right scale.
+- A multidimensional measure must account for both dispersion within dimensions and dependence across them. [[Multidimensional Party Polarization in Europe: Cross-Cutting Divides and Effective Dimensionality]] weights the sum of dimensional variances by the ratio of effective to potential dimensionality, preventing correlated dimensions from being counted as if each added fully independent conflict.
+- Cross-cutting and mutually reinforcing divides can have equal marginal variances but different spatial structures. When issue axes correlate perfectly, the effective space collapses to one dimension; when they are orthogonal, distinct party differences on each axis contribute fully to multidimensional polarization.
 - Standardizing party-position measures before comparison separates relative system dispersion from the arbitrary units of mass surveys, expert surveys, or manifesto-based scales. It also gives a reference standard deviation of 1, though substantive interpretation then depends on the population used for standardization.
 - Range measures are intuitive but highly sensitive to the inclusion and measurement of small extremist parties. Truncating the range to the largest parties reduces that sensitivity but changes the estimand.
 - Seat-level and vote-level polarization can differ because electoral rules transform vote shares into seat shares. Empirically, they may nevertheless be close when the same major parties dominate both distributions.
@@ -28,6 +30,7 @@ Party-system polarization describes how widely consequential political parties a
 ## Important Papers
 
 - [[Party system polarization and the effective number of parties]]
+- [[Multidimensional Party Polarization in Europe: Cross-Cutting Divides and Effective Dimensionality]]
 - Dalton (2008), "The quantity and the quality of party systems: Party system polarization, its measurement, and its consequences."
 - Esteban and Ray (1994), "On the measurement of polarization."
 - Gross and Sigelman (1984), "Comparing party systems: A multidimensional approach."
