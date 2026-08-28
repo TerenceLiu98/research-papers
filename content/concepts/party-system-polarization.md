@@ -25,12 +25,14 @@ Party-system polarization describes how widely consequential political parties a
 - Range measures are intuitive but highly sensitive to the inclusion and measurement of small extremist parties. Truncating the range to the largest parties reduces that sensitivity but changes the estimand.
 - Seat-level and vote-level polarization can differ because electoral rules transform vote shares into seat shares. Empirically, they may nevertheless be close when the same major parties dominate both distributions.
 - The number of parties and polarization need not be independent. A one-party system has zero dispersion by construction, while additional parties can increase expected dispersion at a decreasing rate without determining the position of any particular party.
+- The number of parties can also change parties' strategic locations. In [[A computational model of spatial politics: Hotelling-Downs model as statistical physics]], two parties converge near the center under baseline assumptions, while three or more parties form increasingly polarized configurations. This is a mechanism within a stylized spatial model, not an empirical claim that adding parties necessarily causes polarization.
 - Party-system polarization is distinct from affective polarization among citizens. Ideological distance between parties may shape affective division, but the two require different measurements and evidence.
 
 ## Important Papers
 
 - [[Party system polarization and the effective number of parties]]
 - [[Multidimensional Party Polarization in Europe: Cross-Cutting Divides and Effective Dimensionality]]
+- [[A computational model of spatial politics: Hotelling-Downs model as statistical physics]]
 - Dalton (2008), "The quantity and the quality of party systems: Party system polarization, its measurement, and its consequences."
 - Esteban and Ray (1994), "On the measurement of polarization."
 - Gross and Sigelman (1984), "Comparing party systems: A multidimensional approach."
@@ -39,6 +41,7 @@ Party-system polarization describes how widely consequential political parties a
 ## Related Concepts
 
 - [[Effective Number of Parties]]
+- [[Hotelling-Downs Model]]
 - [[Quantitatively Predictive Logical Models]]
 - [[Satisficing Spatial Competition]]
 - [[Co-Adaptive Political Polarization]]
