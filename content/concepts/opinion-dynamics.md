@@ -23,10 +23,12 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 - Stationary distributions can be unimodal, bimodal, or metastable. In the large-population limit, changes in their maxima identify second-order symmetry-breaking transitions and first-order switches between competing consensus states.
 - Reaction-resolved trajectories expose currents and activity that are hidden by an aggregate stationary distribution. This makes opinion dynamics a setting in which nonequilibrium methods can study both directional bias and volatility.
 - Network topology, heterogeneous agents, zealots, aging, multiple opinions, and changing populations alter the state space and closure assumptions without changing the basic role of reversible update mechanisms.
+- Multilayer models let one agent carry context-specific opinions. In [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]], symmetric reconciliation between two personal states can increase within-agent consistency while delaying population-wide consensus.
 
 ## Important Papers
 
 - [[Stochastic Thermodynamics of Social Imitation beyond Energetics]]
+- [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]
 - Castellano, Muñoz, and Pastor-Satorras (2009), "Nonlinear q-voter model."
 - Castellano, Fortunato, and Loreto (2009), "Statistical physics of social dynamics."
 - Siedlecki, Szwabiński, and Weron (2016), "The Interplay Between Conformity and Anticonformity and its Polarizing Effect on Society."
@@ -35,6 +37,8 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 ## Related Concepts
 
 - [[Stochastic Thermodynamics]]
+- [[Voter Model]]
+- [[Dynamic Hysteresis]]
 - [[Thermodynamic Uncertainty Relations]]
 - [[Co-Adaptive Political Polarization]]
 - Agent-based modeling
