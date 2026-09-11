@@ -52,7 +52,7 @@ $$
 \alpha(q)=\alpha\exp\left(-\frac{1}{2}(q-\mu)^\top\Sigma^{-1}(q-\mu)\right).
 $$
 
-Independent samples can collide in a subpixel, where repeated opaque writes have no additional effect. The method draws the number of points from a Poisson distribution. Requiring the probability of zero points in a subpixel of area $A$ to equal $1-\alpha(q)$ gives the corrected sampling density
+Independent samples can collide in a subpixel, where repeated opaque writes have no additional effect. The method draws the number of points from a Poisson distribution. Approximating the density integral over a subpixel of area $A$ by its center value times $A$, and requiring the probability of zero points to equal $1-\alpha(q)$, gives the corrected sampling density (Section 3.3, Equations 1-2)
 
 $$
 p(q)=-\frac{1}{\lambda A}\ln(1-\alpha(q)).
@@ -82,7 +82,9 @@ The main evaluation uses an NVIDIA RTX 4070 with 12 GiB VRAM at 1920 x 1080. Fiv
 
 At the default 2 x 2 supersampling, $K=4$, and with culling, the method reports that frame rate never falls below 24 Hz across the five paths. It is the only evaluated method that renders the full 106-million-Gaussian Jastrzebia Gora scene on the RTX 4070. Splatshop obtains similar timing only by rendering 8.2 million of those 106 million Gaussians, which the paper shows causes strong visual differences. On an RTX 4070 Ti SUPER, four copies of that scene, totaling 425 million Gaussians, render in 24.3 to 65.6 ms for the three reported views.
 
-Quality converges toward the 3DGS reference as sample count increases. Averaged over scenes from Mip-NeRF 360, Deep Blending, and Tanks & Temples, the paper reports PSNR rising from 16.94 at one sample per pixel to 25.73 at 1024 samples per pixel, compared with 25.71 for 3DGS. At 256 samples per pixel, the reported SSIM is 0.750 versus 0.759 for 3DGS, while LPIPS is 0.166 versus 0.178. In the $K$ ablation at 2 x 2 supersampling, using $K=4$ reduces frame time from 13.3 ms to 9.7 ms relative to $K=1$, with a small reported bias.
+The 425-million-Gaussian demonstration uses 1 x 1 supersampling for the overview and 2 x 2 for the close views, with $K=4$; its displayed images are converged through temporal accumulation (Section 4.2, Figure 1). The underlying village scene omits spherical harmonics, unlike the other four main test scenes, which matters when comparing memory capacity.
+
+Quality converges toward the 3DGS reference as sample count increases. Table 1 uses 1 x 1 supersampling and $K=1$, rather than the default performance settings. Averaged over scenes from Mip-NeRF 360, Deep Blending, and Tanks & Temples, the paper reports PSNR rising from 16.94 at one sample per pixel to 25.73 at 1024 samples per pixel, compared with 25.71 for 3DGS. At 256 samples per pixel, the reported SSIM is 0.750 versus 0.759 for 3DGS, while LPIPS is 0.166 versus 0.178. In the $K$ ablation at 2 x 2 supersampling, using $K=4$ reduces frame time from 13.3 ms to 9.7 ms relative to $K=1$, with a small reported bias (Figure 7).
 
 ## Limitations
 

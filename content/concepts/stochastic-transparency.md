@@ -19,6 +19,7 @@ Stochastic transparency replaces deterministic alpha blending with randomized op
 - **Independent parallel work:** Random trials can be generated independently, which maps well to massively parallel GPU execution.
 - **Noise-quality trade-off:** More spatial or temporal samples reduce variance but require additional rendering work. Reprojection can reuse history during motion, although disocclusion and inaccurate correspondence may produce ghosting.
 - **Sampling formulation matters:** A renderer that samples points directly must account for multiple samples landing on the same pixel. [[Gaussian Point Splatting]] models these collisions with a Poisson point process and modifies both the expected point count and spatial density to preserve the target coverage probability.
+- **Exactness depends on the sampling model:** In Gaussian Point Splatting, the opacity derivation approximates the density as constant within each subpixel. Pixel-scale Gaussians can therefore retain aliasing differences after convergence; rounding Poisson point counts to multiples of a per-thread sample count introduces a separate bias (Sections 3.3-3.4 and 4.3).
 
 ## Important Papers
 
