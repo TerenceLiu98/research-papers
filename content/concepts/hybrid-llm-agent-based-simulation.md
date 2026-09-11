@@ -16,6 +16,8 @@ Hybrid LLM agent-based simulation combines explicit rules or probabilistic model
 ## Key Ideas
 
 - **Divide decisions by function.** Frequent, structured choices can use inexpensive sampling and feature scores; semantic tasks can use the LLM. The resulting division determines which outcomes arise from specified rules and which depend on generation.
+- **Divide agents by role and constrain their states.** FDE-LLM uses LLM opinion leaders with cellular-automaton attitude constraints and rule-based followers with probabilistic decay toward neutrality. This extends hybridization from action selection to explicit control of opinion trajectories.
+- **Distinguish reconstruction from forecasting.** Supplying historical news reversals and their timing can help reproduce observed trajectories, but does not test prediction of unknown future reversals. Shared LLM attitude scoring also calls for independent validation of the observed labels.
 - **Calibrate separately from validating.** Fitting participation frequencies to one observed event supplies a behavioral prior. Testing the complete simulation on other events requires separate evidence about trajectories and individual interactions.
 - **Represent heterogeneity explicitly.** Role profiles, topic preferences, attitude distributions, and contextual memories create different agent inputs. Behavioral differences consistent with these inputs do not by themselves validate their correspondence to real populations.
 - **Coordinate state and workflows.** Shared memory and standardized procedures let agents act within a common evolving environment. Lan et al. implement these through GISP and PSOP; these names describe their implementation rather than universal requirements.
@@ -25,6 +27,7 @@ Hybrid LLM agent-based simulation combines explicit rules or probabilistic model
 ## Important Papers
 
 - [[Public opinion dissemination simulation based on large language model multi-agent systems]] couples probabilistic behavior and target selection with LLM text generation in two small Weibo event simulations. Its evidence supports a demonstration of the architecture, while limited validation and reporting inconsistencies constrain stronger fidelity claims.
+- [[Social opinions prediction utilizes fusing dynamics equation with LLM-based agents]] combines constrained LLM leaders with followers subject to recovery-inspired attitude decay. Across four Weibo events it improves both reported trajectory metrics over LLM-only and LLM+CA baselines, with exceptions to superiority over all traditional models and no explicit held-out forecasting test.
 
 ## Related Concepts
 
