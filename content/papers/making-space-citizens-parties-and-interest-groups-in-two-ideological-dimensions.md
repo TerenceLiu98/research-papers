@@ -17,6 +17,8 @@ tags:
 
 ## TL;DR
 
+Published in *Journal of European Public Policy*, 31(7), 1799-1830 (2024); first published online 15 March 2023. DOI: [10.1080/13501763.2023.2182819](https://doi.org/10.1080/13501763.2023.2182819).
+
 Across Belgium, Lithuania, the Netherlands, Slovenia, and Sweden, interest groups attach meaningful salience to both economic left-right and [[GAL-TAN Dimension|socio-cultural GAL-TAN]] politics and occupy all four quadrants of the resulting [[Ideological Dimensionality|two-dimensional ideological space]]. Activity-weighted group positions point toward party-system representation gaps in the Netherlands, Sweden, and Lithuania, but not in Belgium or Slovenia. The evidence therefore shows that [[Interest Group Representation|interest-group representation]] can supplement parties, not that it necessarily does so or produces congruent policy.
 
 ## Research Question
@@ -39,9 +41,11 @@ Studies of political representation usually examine parties and interest groups 
 
 The study combines three 2014-era sources. Political-party positions come from the 2014 Chapel Hill Expert Survey (CHES). Interest-group positions, salience, and lobbying activity come from an original survey in Belgium, Lithuania, the Netherlands, Slovenia, and Sweden. Inclusive national mappings identified 7,812 groups, of which 3,084 responded; country response rates range from 36% to 42%. Party placements are expert-coded, whereas group placements are self-reported using questions adapted from CHES.
 
-Citizen preferences come from the 2014 European Election Study. Because it does not ask the same GAL-TAN placement question, the authors construct an 11-point additive index from same-sex marriage, civil-liberties, and immigration items. A parallel economic index combines state intervention, redistribution, and the tax-public-services trade-off. Lower scores indicate left or GAL positions, and higher scores indicate right or TAN positions.
+Citizen preferences come from the 2014 European Election Study. Because it does not ask the same GAL-TAN placement question, the authors construct an additive index from three 11-point items on same-sex marriage, civil liberties, and immigration. A parallel economic index combines state intervention, redistribution, and the tax-public-services trade-off. Lower scores indicate left or GAL positions, and higher scores indicate right or TAN positions; the immigration item is reversed to match this direction (note 7). The raw group economic-position question in Appendix 2 runs in the opposite direction to CHES, from a reduced to an active government role, so its endpoints must be aligned for comparison.
 
 Groups rating a dimension entirely unimportant were not asked for a position on it. To reflect potential political presence rather than group counts alone, the principal comparisons weight groups by the reported weekly frequency of inside and outside lobbying activities. The analysis compares quadrant coverage and whether the aggregate activity-weighted position of groups points toward or away from the citizen blocs underserved by parties.
+
+Figure 5 uses differences in shares on either side of each scale's midpoint, rather than mean ideological scores: the economic coordinate is the percentage on the right minus the percentage on the left, and the cultural coordinate is TAN minus GAL. Citizen coordinates use respondent shares; group coordinates use shares of total lobbying activity. For example, Belgium's 40% right and 60% left citizen shares yield an economic coordinate of -20. Arrows from citizen to group coordinates indicate relative overrepresentation, not observed changes in policy or citizen preferences. Appendix 2 computes activity weights by summing weekly equivalents across tactics; monthly ministry contact, annual research publication, and weekly website statements yield 12/52 + 1/52 + 52/52 = 1.25 activities per week.
 
 ## Experiments
 
@@ -50,6 +54,8 @@ Both dimensions matter to substantial portions of the surveyed group populations
 Interest groups occupy all four ideological quadrants in each country, unlike the party systems. In the western cases, the party-sparse left-TAN quadrant contains 21% of Belgian groups, 22% of Dutch groups, and nearly 15% of Swedish groups; the corresponding citizen shares are 26%, 11%, and 11%. Lithuania differs because parties already occupy the left-TAN quadrant, while Slovenia resembles the western diagonal from left-GAL to right-TAN.
 
 The activity-weighted comparison indicates compensation in three cases. Dutch and Swedish groups pull toward the left-TAN citizens underserved by parties, while Lithuanian groups pull toward its underserved left-GAL citizens. Belgian and Slovenian groups instead pull toward left-GAL positions already supplied by parties. Across all five countries, group activity lies to the economic left of citizen preferences, a result that complicates a simple expectation of uniformly business- or upper-class-biased lobbying.
+
+Two reported robustness checks support particular descriptive patterns. Factor-based citizen measures recover a substantively similar two-dimensional preference space to the additive indices (note 8). Weighting groups by inside lobbying alone preserves the general patterns in Figures 3 and 4, while reducing activity intensity and excluding groups engaged only in outside lobbying (note 12). These checks do not establish policy influence or a causal compensation mechanism.
 
 ## Limitations
 
