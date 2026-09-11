@@ -13,11 +13,12 @@ tags:
 
 ## Overview
 
-Dynamic 3D Gaussian Splatting extends [[3D Gaussian Splatting]] from static scenes to time-varying geometry and appearance. A canonical set of Gaussian primitives is transformed at each time step, either by directly parameterizing Gaussian motion or by using a smaller set of control nodes whose trajectories are interpolated to the Gaussians. The goal is to preserve 3DGS rendering efficiency while modeling non-rigid motion and temporal consistency.
+Dynamic 3D Gaussian Splatting extends [[3D Gaussian Splatting]] from static scenes to time-varying geometry and appearance. Deformation-based approaches transform a canonical set of Gaussian primitives at each time step, either by directly parameterizing Gaussian motion or by using a smaller set of control nodes whose trajectories are interpolated to the Gaussians. An alternative represents joint space-time Gaussians and conditions them on time for rendering. The goal is to preserve 3DGS rendering efficiency while modeling non-rigid motion and temporal consistency.
 
 ## Key Ideas
 
 - **Canonical representation:** Gaussians are stored in a reference state, and time-dependent transforms produce the scene at each frame.
+- **Joint space-time representation:** In the 4D Gaussian approach of Zeyu Yang et al. (2024), conditioning a joint Gaussian on time yields a 3D mean and covariance, while the temporal marginal weights opacity. [[Faster-GS: Analyzing and Improving Gaussian Splatting Optimization]] extends its optimized rasterizer and gradients to this representation and reports 2.8x faster training on synthetic D-NeRF scenes.
 - **Sparse motion control:** Control nodes, scaffolds, or other compact structures reduce the number of independently optimized motion parameters relative to per-Gaussian deformation.
 - **Motion-aware allocation:** Uniform geometric sampling can waste control capacity on static backgrounds. Semantic, tracking, depth, or foreground cues can instead preserve higher node density where motion is complex.
 - **Trajectory regularization:** Splines and other low-dimensional temporal parameterizations impose smoothness and can improve optimization stability under sparse monocular supervision.

@@ -22,6 +22,7 @@ tags:
 - **Tile-based rasterization:** The image is partitioned into tiles; a preprocessing stage assigns Gaussians to potentially intersecting tiles, depth sorting orders those assignments, and a render stage performs front-to-back alpha compositing.
 - **Representation-computation trade-off:** More or larger Gaussians can improve scene coverage but increase tile assignments and compositing work. Conservative footprints can therefore become a rendering bottleneck even when the scene representation itself is unchanged.
 - **Rasterizer optimization:** Methods such as [[Geometry-Aware Gaussian-Tile Culling]] reduce false-positive tile assignments by using more informed approximations of projected Gaussian support.
+- **Training bottlenecks:** [[Faster-GS: Analyzing and Improving Gaussian Splatting Optimization]] combines memory-efficient rasterization with per-Gaussian gradient accumulation and fused Adam updates. As rendering accelerates, parameter updates can become the dominant cost. Spatial reordering helps locality, but its interaction with atomic gradient accumulation means benefits depend on the backward-pass design.
 - **Stochastic alternatives:** [[Stochastic Transparency]] can replace sorted alpha compositing with randomized opaque coverage. [[Gaussian Point Splatting]] uses this route to distribute rendering work independently across GPU threads while correcting sample collisions to retain the intended opacity.
 
 ## Important Papers

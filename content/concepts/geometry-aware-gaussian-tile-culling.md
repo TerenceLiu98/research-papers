@@ -23,6 +23,7 @@ Geometry-aware Gaussian-tile culling reduces rasterization work by rejecting ima
 - **Geometry-aware stretching:** For inverse covariance $\Lambda=[a,b;b,c]$, the QuadBox stretch factor is $f=\sqrt{1-b^2/(ac)}$. It is independent of the opacity threshold and center translation, so the geometry can be constructed once per Gaussian.
 - **Discrete traversal:** QPass converts sub-box bounds to tile coordinates, scans the shorter global tile axis, and merges active intervals with integer min/max tests. This avoids repeated tile visits and reduces branch divergence from independently traversing every box.
 - **Coverage versus speed:** The method trades the complexity of exact ellipse intersection for conservative box coverage. Its value is highest when the baseline bounding box includes many non-contributing tiles; aggressive simplifications such as DualBox alone can harm image fidelity.
+- **Pipeline-dependent gains:** [[Faster-GS: Analyzing and Improving Gaussian Splatting Optimization]] integrates opacity-aware rectangular bounds with load-balanced ellipse-tile tests. Its ablations show that fewer tile instances do not guarantee a large training speedup: warp divergence, uncoalesced accesses, and the gradient-accumulation strategy also determine runtime.
 
 ## Important Papers
 
