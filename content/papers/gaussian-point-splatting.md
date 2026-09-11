@@ -1,5 +1,5 @@
 ---
-title: Gaussian Point Splating
+title: Gaussian Point Splatting
 type: paper
 authors:
   - Joris Rijsdijk
@@ -19,7 +19,7 @@ tags:
 
 ## TL;DR
 
-Gaussian Point Splating replaces sorted alpha compositing in [[3D Gaussian Splatting]] with independently sampled, opaque, pixel-sized points written through 64-bit atomic depth tests. A Poisson point-process formulation corrects the opacity lost when multiple samples from one Gaussian hit the same pixel. Combined with scan-based GPU work distribution and hierarchical frustum and occlusion culling, the renderer handles scenes containing hundreds of millions of Gaussians interactively, at the cost of stochastic noise and different aliasing behavior.
+Gaussian Point Splatting replaces sorted alpha compositing in [[3D Gaussian Splatting]] with independently sampled, opaque, pixel-sized points written through 64-bit atomic depth tests. A Poisson point-process formulation corrects the opacity lost when multiple samples from one Gaussian hit the same pixel. Combined with scan-based GPU work distribution and hierarchical frustum and occlusion culling, the renderer handles scenes containing hundreds of millions of Gaussians interactively, at the cost of stochastic noise and different aliasing behavior.
 
 ## Research Question
 
@@ -40,7 +40,7 @@ Conventional 3DGS software rasterizers assign every visible Gaussian to at least
 
 ## Method
 
-### Atomic point splating
+### Atomic point splatting
 
 Each sampled point is projected to a pixel and packed into a 64-bit unsigned integer containing 28 depth bits and three 12-bit sRGB channels. An atomic minimum keeps the nearest point, updating depth and color together. The renderer normally uses a 2 x 2 supersampled framebuffer, resolves subpixels with a box filter, and reduces noise through temporal accumulation for static cameras or basic temporal reprojection for moving cameras.
 
@@ -103,7 +103,7 @@ Performance is not uniformly better: 3DGS can be faster for small scenes, and cl
 
 - Kerbl, Kopanas, Leimkuehler, and Drettakis (2023), "3D Gaussian Splatting for Real-Time Radiance Field Rendering."
 - Schuetz, Kerbl, and Wimmer (2021), "Rendering Point Clouds with Compute Shaders and Vertex Order Optimization."
-- Kheradmand et al. (2025), "StochasticSplats: Stochastic Rasterization for Sorting-Free 3D Gaussian Splating."
+- Kheradmand et al. (2025), "StochasticSplats: Stochastic Rasterization for Sorting-Free 3D Gaussian Splatting."
 - Schuetz et al. (2025), "Splatshop: Efficiently Editing Large Gaussian Splat Models."
 - Enderton, Sintorn, Shirley, and Luebke (2010), "Stochastic Transparency."
 - Kerbl et al. (2024), "A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets."

@@ -18,13 +18,13 @@ Stochastic transparency replaces deterministic alpha blending with randomized op
 - **Depth-buffer visibility:** Surviving samples use conventional opaque depth tests, avoiding the sequential depth-ordered blending required by standard transparency.
 - **Independent parallel work:** Random trials can be generated independently, which maps well to massively parallel GPU execution.
 - **Noise-quality trade-off:** More spatial or temporal samples reduce variance but require additional rendering work. Reprojection can reuse history during motion, although disocclusion and inaccurate correspondence may produce ghosting.
-- **Sampling formulation matters:** A renderer that samples points directly must account for multiple samples landing on the same pixel. [[Gaussian Point Splating]] models these collisions with a Poisson point process and modifies both the expected point count and spatial density to preserve the target coverage probability.
+- **Sampling formulation matters:** A renderer that samples points directly must account for multiple samples landing on the same pixel. [[Gaussian Point Splatting]] models these collisions with a Poisson point process and modifies both the expected point count and spatial density to preserve the target coverage probability.
 
 ## Important Papers
 
 - Enderton, Sintorn, Shirley, and Luebke (2010), "Stochastic Transparency."
-- [[Gaussian Point Splating]]
-- Kheradmand et al. (2025), "StochasticSplats: Stochastic Rasterization for Sorting-Free 3D Gaussian Splating."
+- [[Gaussian Point Splatting]]
+- Kheradmand et al. (2025), "StochasticSplats: Stochastic Rasterization for Sorting-Free 3D Gaussian Splatting."
 - Sun et al. (2025), "Stochastic Ray Tracing of Transparent 3D Gaussians."
 
 ## Related Concepts
