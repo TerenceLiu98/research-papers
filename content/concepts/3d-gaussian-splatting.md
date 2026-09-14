@@ -24,6 +24,7 @@ tags:
 - **Rasterizer optimization:** Methods such as [[Geometry-Aware Gaussian-Tile Culling]] reduce false-positive tile assignments by using more informed approximations of projected Gaussian support.
 - **Training bottlenecks:** [[Faster-GS: Analyzing and Improving Gaussian Splatting Optimization]] combines memory-efficient rasterization with per-Gaussian gradient accumulation and fused Adam updates. As rendering accelerates, parameter updates can become the dominant cost. Spatial reordering helps locality, but its interaction with atomic gradient accumulation means benefits depend on the backward-pass design.
 - **Stochastic alternatives:** [[Stochastic Transparency]] can replace sorted alpha compositing with randomized opaque coverage. [[Gaussian Point Splatting]] uses this route to distribute rendering work independently across GPU threads while correcting sample collisions to retain the intended opacity.
+- **Learned order-independent blending:** [[Weighted Sum Rendering]] replaces depth-ordered transmittance with normalized weighted sums and trains the scene for that renderer. Learned depth weights and view-dependent opacity can recover comparable aggregate quality, but approximate occlusion can make dark foreground objects appear transparent and hardware blending limits early termination.
 
 ## Important Papers
 
