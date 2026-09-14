@@ -46,6 +46,8 @@ Each simulation runs for 30 rounds, with an intervention after round 15. It can 
 
 Context varies by group-size ratio, initial intergroup connectivity, initial cooperation, social learning, and hierarchical versus flat social organization. Initial cooperation ranges from 0.1 to 0.4; group-size ratios range from 0.5 to 0.9. The principal outcome is final-round cooperation, treated as a post-intervention equilibrium proxy. It is distinct from the immediate peak, which largely reflects assumed treatment strength and coverage.
 
+The paper's illustrative application compares a community restaurant, intergroup soccer matches, joint reconstruction, and a primary-school peace curriculum in a hypothetical post-civil-war locality. Practitioners assign common contextual parameters and separate intervention parameters using local information and expert judgment, then vary assumptions to explore combinations and contextual sensitivity. This is a scenario-planning procedure, not an evaluated case study or an empirical ranking of those programs ("Illustrative Example").
+
 ## Experiments
 
 The authors report 1,536,000 simulations with ten stochastic replications per unique parameter configuration. They analyze outputs with a 500-tree random forest using a bias-correcting splitting method, then OLS regressions with selected interaction terms (Table 2). Regression outcomes are multiplied by 100, so coefficients describe changes on a percentage-point scale, not proportional percentage changes. Appendix analyses of peak cooperation and a 100-tree forest are mentioned but absent from the supplied Markdown.
@@ -65,6 +67,8 @@ Higher initial intergroup connectivity has a negative coefficient in the regress
 There is no validation against real-world intervention outcomes. Individual treatment effects are inputs, and the stochastic choice rule makes rewards operate through imitation by construction. The model assumes two groups and no within-group conflict, and targets peer-to-peer interactions rather than direct institutional reform. A prisoner's dilemma applies only to some conflict situations; the authors explicitly exclude treating it as a universal account of violence. Thirty-round outcomes do not establish persistence over real calendar years or an infinite-horizon equilibrium.
 
 The supplied text lacks the technical appendix, code, and detailed update rules. Its payoff description labels cooperation against defection as a worst outcome valued at positive 1, which conflicts with the stated prisoner's-dilemma ordering; an exact payoff matrix cannot be recovered confidently from this text. Table 1's displayed parameter grid also does not transparently reconcile with the reported run count. These source ambiguities limit reproduction and are not resolved here. The issue year is 2026, while the article copyright is 2025.
+
+The data-availability statement says that no datasets were generated or analyzed, despite the main text describing a large simulated dataset and its analysis. It therefore does not establish access to the simulation outputs. Supplemental material and an interactive scenario tool are mentioned, but their contents are not included in the supplied Markdown.
 
 ## Related Concepts
 
