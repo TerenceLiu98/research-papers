@@ -20,15 +20,18 @@ International polarity describes the distribution of capabilities among major ce
 - Military, economic, and institutional influence need not have identical distributions. Economic size alone does not settle a state's status as a pole.
 - Global polarity and regional order are related but need not coincide. Regional institutions and middle powers may constrain great powers without possessing equivalent global capabilities.
 - The relationship between the number of poles and stability is contested. A period without direct superpower war can still contain extensive proxy violence.
+- Conflict probability and destructive consequences are separate dimensions of stability. Rosecrance's [[bi-multipolarity|Bi-multipolarity]] proposal seeks to combine superpower restraint on local conflict with autonomous states' buffering of superpower rivalry; its advantages are conditional theoretical predictions.
 - Dispersed power does not by itself establish whether existing institutions will be reformed or replaced. That requires examining actors' interests and institutional behavior.
 
 ## Important Papers
 
+- [[bipolarity-multipolarity-and-the-future|Bipolarity, multipolarity, and the future]]: critiques general claims for bipolar and multipolar stability and proposes an intermediate system of mixed cooperation and competition.
 - [[asian-multipolarity-and-the-future-of-the-liberal-international-order-lio|Asian Multipolarity and the Future of the Liberal International Order (LIO)]]: uses historical and contemporary Asian examples to argue that dispersed influence can coexist with continued participation in existing institutions.
 - Waltz (1964), "The stability of a bipolar world." Cited by Aryal as a foundational argument for bipolar stability.
 - Jervis (2009), "Unipolarity: A structural perspective." Cited by Aryal in the discussion of dominant-power capabilities.
 
 ## Related Concepts
 
+- [[bi-multipolarity|Bi-multipolarity]]
 - [[liberal-international-order|Liberal International Order]]
 - [[multiplex-world-order|Multiplex World Order]]
