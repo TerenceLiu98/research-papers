@@ -21,18 +21,20 @@ Continuous topic models represent observations in an embedding space as mixtures
 - Gaussian direction distributions and observation noise provide a continuous analogue of word emissions and support embeddings outside a discrete vocabulary simplex.
 - Under a high-activity, small-contribution limit with concentrated directions and independent topic strengths, the CTM yields a nonnegative linear decoder with an $L_1$ sparsity term as a MAP objective.
 - Sparse autoencoders can serve as fine-grained topic-atom models. A separate interpretation layer can associate atoms with word distributions and merge them into a flexible number of coarser topics without retraining.
+- [[Mechanistic Topic Models]] instead use labeled SAE directions as a topic vocabulary: probabilistic variants model aggregated feature counts, while a clustering variant constructs document embeddings from the corresponding decoder directions.
 - Embedding-based topics can support cross-modal dataset analysis, but their interpretations may reflect non-thematic information retained by the embedding model and errors in text or caption supervision.
 
 ## Important Papers
 
 - [[Sparse Autoencoders are Topic Models]]
+- [[Model Directions, Not Words: Mechanistic Topic Models Using Sparse Autoencoders]]
 - Dieng, Ruiz, and Blei (2020), "Topic Modeling in Embedding Spaces."
 - Blei, Ng, and Jordan (2003), "Latent Dirichlet Allocation."
-- Zheng et al. (2025), "Model Directions, Not Words: Mechanistic Topic Models Using Sparse Autoencoders."
 
 ## Related Concepts
 
 - [[Sparse Autoencoders]]
+- [[Mechanistic Topic Models]]
 - [[Text Embedding Models]]
 - Topic modeling
 - Multimodal learning

@@ -22,11 +22,13 @@ Model steerability is the ability to change a model's output in a targeted, sema
 - Steerability is not equivalent to interpretability. A feature may be easy to name but weakly causal, while an abstract or entangled feature may strongly influence output.
 - Scores are downstream-model dependent. The same representation intervention can behave differently for text generation, image generation, or different vision backbones.
 - A useful steering feature must also preserve output quality and reconstruction fidelity; a high concept score accompanied by noisy or degraded outputs is not sufficient.
+- [[Mechanistic Topic Models]] form topic-level steering vectors from weighted combinations of SAE decoder directions, allowing corpus-discovered themes rather than single features to guide generation.
 - [[Concept Bottleneck Sparse Autoencoders]] target steerability with a cyclic reconstruction objective that encourages decoded concept interventions to remain recognizable when re-encoded.
 
 ## Important Papers
 
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
+- [[Model Directions, Not Words: Mechanistic Topic Models Using Sparse Autoencoders]]
 - Arad, Mueller, and Belinkov (2025), "SAEs are good for steering - if you select the right features."
 - Wu et al. (2025), "AxBench: Steering LLMs? Even simple baselines outperform sparse autoencoders."
 - Wang et al. (2025), "Does higher interpretability imply better utility? A pairwise analysis on sparse autoencoders."
@@ -34,6 +36,7 @@ Model steerability is the ability to change a model's output in a targeted, sema
 ## Related Concepts
 
 - [[Sparse Autoencoders]]
+- [[Mechanistic Topic Models]]
 - [[Concept Bottleneck Models]]
 - [[Concept Bottleneck Sparse Autoencoders]]
 - Causal representation interventions
