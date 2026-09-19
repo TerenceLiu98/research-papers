@@ -23,10 +23,12 @@ Zero-shot concept bottleneck models (Z-CBMs) extend [[Concept Bottleneck Models]
 - **Large, open vocabulary:** build a bank from noun phrases extracted from Flickr30K, CC3M, CC12M, and YFCC-15M captions. The reported pipeline filters an approximately 20-million-phrase base set to about 5.12 million concepts.
 - **Intervention:** delete retrieved concepts or insert arbitrary concepts described in natural language, rerun regression, and recompute the label from the reconstructed representation. This makes the bottleneck dynamic rather than limited to a fixed training vocabulary.
 - **Performance trade-offs:** on the paper's 12-dataset evaluation, Z-CBM (ALL) reaches 54.28% average zero-shot top-1 accuracy versus 53.73% for zero-shot CLIP. With a trained linear head, LP-Z-CBM reaches 78.31% versus 78.98% for CLIP linear probing, while preserving concept-level explanations.
+- **Task-specific reconstruction:** [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations|PCBM-ReD]] learns a fixed concept bank from the target data and encoder, then reconstructs image embeddings with sparse concept coefficients. Unlike retrieval from a large open bank, its reconstruction-guided selection is task-specific; the reconstructed representation nevertheless retains the reported zero-shot accuracy of the underlying CLIP representation.
 
 ## Important Papers
 
 - [[papers/zero-shot-concept-bottleneck-models|Zero-shot Concept Bottleneck Models]]
+- [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations]]
 - [[Concept Bottleneck Models]]
 - [[V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer]]
 - [[Language Guided Concept Bottleneck Models for Interpretable Continual Learning]]

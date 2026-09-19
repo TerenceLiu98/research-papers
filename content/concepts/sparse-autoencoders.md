@@ -24,11 +24,13 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - Post-hoc evaluation can assign concepts to neurons using tools such as CLIP-Dissect, but the resulting labels depend on the probing data, concept vocabulary, and evaluator model.
 - SAE features can also be treated as thematic atoms in a [[Continuous Topic Models|continuous topic model]], with activations representing topic weights for embedding-space dataset analysis rather than single-feature steering.
 - SAE variants can be combined with explicit concept supervision. [[Concept Bottleneck Sparse Autoencoders]] retain useful discovered features while adding a bottleneck for missing user-specified concepts.
+- SAE features can seed a post-hoc concept bottleneck rather than serve as the final explanation vocabulary. [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations|PCBM-ReD]] finds candidate visual features with an SAE, assigns them language labels from highly activating images, and then selects text-embedded concepts by representation reconstruction.
 
 ## Important Papers
 
 - [[Learning Concept Bottleneck Models from Mechanistic Explanations]]
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
+- [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations]]
 - [[Sparse Autoencoders are Topic Models]]
 - Pach et al. (2025), "Sparse autoencoders learn monosemantic features in vision-language models."
 - Gao et al. (2025), "Scaling and evaluating sparse autoencoders."

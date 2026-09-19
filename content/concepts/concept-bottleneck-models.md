@@ -24,6 +24,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - A fixed bottleneck guarantees coverage only for its chosen vocabulary. It can miss novel features that an unsupervised representation might discover.
 - [[concepts/zero-shot-concept-bottleneck-models|Zero-shot Concept Bottleneck Models]] remove the need for target-task concept annotations and specialized training by retrieving input-related concepts from a large bank and using sparse regression over their VLM embeddings.
 - [[Vision-to-Concept Tokenizers]] provide a label-free route to a vision-oriented bottleneck by filtering a common-word vocabulary against task-related unlabeled images.
+- Post-hoc representation decomposition offers another route: [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations|PCBM-ReD]] mines concepts from an encoder's own activations, selects a subset that reconstructs its representation space, and predicts from sparse concept reconstructions without retaining an opaque residual path.
 - Hybrid approaches such as [[Concept Bottleneck Sparse Autoencoders]] combine a concept bottleneck with unsupervised sparse features to cover user-specified concepts without discarding discovered structure.
 - A concept bottleneck can also control a generative model: [[Concept-based Visual Counterfactual Explanations with Diffusion Models]] intervenes on concept targets inside a diffusion U-Net to generate localized visual counterfactuals.
 
@@ -31,6 +32,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 
 - [[Learning Concept Bottleneck Models from Mechanistic Explanations]]
 - [[V2C-CBM: Building Concept Bottlenecks with Vision-to-Concept Tokenizer]]
+- [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations]]
 - [[Language Guided Concept Bottleneck Models for Interpretable Continual Learning]]
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
 - [[concepts/zero-shot-concept-bottleneck-models|Zero-shot Concept Bottleneck Models]]
