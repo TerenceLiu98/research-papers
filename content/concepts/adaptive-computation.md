@@ -20,13 +20,16 @@ Adaptive computation varies the amount of model processing across inputs. In rec
 - Ground-truth-dependent minimum loss is available during training; inference must use an observable criterion such as prediction certainty. A certainty threshold and maximum tick budget define an operational stopping rule.
 - The CTM ImageNet analysis suggests that a threshold of 0.8 could stop most examples before 10 of 50 ticks. Fewer ticks alone do not establish wall-clock savings because per-tick cost, feature extraction, and execution overhead also matter.
 - Additional computation can hurt an individual prediction. Calibration and the choice between instantaneous, most-certain, and averaged predictions must be assessed with the intended stopping procedure.
+- [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] provides a different anytime mechanism: a shared timestep-free update improves with recurrent depth far beyond its training rollouts, and inference can stop after the decoded output remains stable for a patience window. Its strongest Sudoku result uses 10,000 steps, so accuracy scaling does not by itself establish compute efficiency.
 
 ## Important Papers
 
 - Graves (2016), "Adaptive computation time for recurrent neural networks": explicit adaptive computation in recurrent models, cited as reference 18 in CTM.
 - Banino, Balaguer, and Blundell (2021), "Pondernet: Learning to ponder": learned halting, cited as reference 17 in CTM.
 - [[papers/continuous-thought-machines|Continuous Thought Machines]]: internal dynamics and certainty-based prediction selection, with ImageNet early-stopping analysis (Sections 3.5 and 5.1; Appendix E.3).
+- [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]]: timestep-free recurrence with a persistent hidden state and stability-based stopping on structured reasoning tasks.
 
 ## Related Concepts
 
 - [[concepts/neural-synchronization-representations|Neural Synchronization Representations]]: CTM uses temporal pairwise activity to construct predictions and attention queries across internal ticks.
+- [[concepts/diffusion-models|Diffusion Models]]: ordered corruption can provide local supervision for an iterative solver even when annealing is unnecessary at inference.

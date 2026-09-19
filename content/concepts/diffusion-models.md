@@ -24,12 +24,14 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - Diffusion priors can also model temporal 2D motion and support multi-view completion when combined with geometric constraints. [[Multi-View Motion Diffusion]] applies this idea to 3D motion lifting.
 - [[AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion]] conditions motion diffusion on camera trajectories and epipolar lines to synthesize multi-view evidence for dynamic-camera 3D reconstruction.
 - Guidance and reconstruction terms create a quality-control tradeoff: stronger conditioning can improve target validity but increase distortion or instability. [[Visual Counterfactual Explanations]] make this tradeoff explicit by combining semantic validity with proximity to a source image.
+- Diffusion can also act as a training curriculum for recurrent computation rather than solely as a sampling procedure. [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] trains a timestep-free denoiser with ordered annealed corruption, then preserves its hidden memory while injecting fresh maximal noise during iterative Sudoku inference.
 
 ## Important Papers
 
 - [[Concept-based Visual Counterfactual Explanations with Diffusion Models]]
 - [[Lifting Motion to the 3D World via 2D Diffusion]]
 - [[AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion]]
+- [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]]
 - Ho, Jain, and Abbeel (2020), "Denoising diffusion probabilistic models."
 - Ho and Salimans (2022), "Classifier-free diffusion guidance."
 - Dhariwal and Nichol (2021), "Diffusion models beat GANs on image synthesis."
@@ -40,5 +42,6 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - [[Visual Counterfactual Explanations]]
 - [[Concept Bottleneck Models]]
 - [[Model Steerability]]
+- [[concepts/adaptive-computation|Adaptive Computation]]
 - Generative modeling
 - Conditional generation
