@@ -22,6 +22,7 @@ Text scaling models estimate the relative position of documents or speakers alon
 - Parschan and Jakob distinguish three measurement decisions: generating numerical textual variation, capturing the variation relevant to a construct, and aggregating it into positions. These are conceptual roles that may be jointly estimated rather than separate software stages.
 - Their four families differ in what is used to estimate positions: word counts, topic structure, semantic vectors, or prompted LLM judgments. An embedding-based topic model still belongs to the topic family when topics mediate position estimation; classification depends on the whole pipeline.
 - A common Poisson scaling formulation models each document--word count as a Poisson variable whose log rate combines document length, word-specific baseline frequency, and the document's latent position multiplied by a word-specific discrimination parameter.
+- The [[concepts/text-based-ideal-point-model|Text-Based Ideal Point Model]] jointly learns latent topics and ideological changes in word choice within them. It accommodates mixed-topic documents without debate labels, but all topics share one scalar author position. Its documented sentiment failure shows why mentioning a policy need not imply support for it.
 - Identification requires a substantive interpretation of the dimension and a normalization or anchor. A statistically separated scale is not automatically a semantically valid measure of the intended political trait.
 - Unidimensionality is consequential. Topic, framing, party identity, and other correlated forms of textual variation can be represented as position when the model has only one latent axis.
 - Bag-of-words representations simplify lexical dependence, collocations, document structure, over- or under-dispersion, and structural zeros. These assumptions may still yield useful rankings, but they can make standard errors too small.
@@ -33,6 +34,7 @@ Text scaling models estimate the relative position of documents or speakers alon
 
 ## Important Papers
 
+- [[papers/text-based-ideal-points|Text-Based Ideal Points]]: introduces unsupervised topic-based author scaling and reports stronger agreement with voting estimates than the tested Wordfish and Wordshoal baselines on Senate corpora.
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: synthesizes 25 contributions using a four-family typology and a generate-capture-aggregate framework; proposes systematic benchmarking without conducting it.
 - [[Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]
 - [[papers/scaling-political-texts-with-large-language-models-asking-a-chatbot-might-be-all-you-need|Scaling Political Texts with Large Language Models: Asking a Chatbot Might Be All You Need]]: validates direct LLM scores against expert placements, crowdsourced judgments, and roll-call estimates across four political-text settings.
@@ -42,6 +44,7 @@ Text scaling models estimate the relative position of documents or speakers alon
 
 ## Related Concepts
 
+- [[concepts/text-based-ideal-point-model|Text-Based Ideal Point Model]]
 - [[concepts/direct-query-text-scaling|Direct-Query Text Scaling]]
 - [[concepts/text-embedding-models|Text Embedding Models]]
 - [[concepts/ideological-dimensionality|Ideological Dimensionality]]
