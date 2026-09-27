@@ -41,6 +41,10 @@ Annotators identify a relation in which one event causes a change in another, la
 
 Potential effects, prevention, and counterfactual policy claims qualify as causal language. Factual truth is outside the annotation task. An optional "subject" span identifies the entity responsible for or affected by an event, rather than necessarily its grammatical subject. This is intended to reduce disagreement over event-span boundaries. Annotators also record confidence; Section 3 specifies a 1-5 scale, while Section 4 describes it as 0-5.
 
+Appendix 9.1 illustrates the boundary: a statement that international solidarity can prevent a climate disaster is causal, as is one attributing tensions to disagreement over the Iran nuclear deal. A fragment listing aims such as combating terrorism is non-causal because it omits the cause event. Thus, prevention can qualify even when the effect does not occur, while a stated purpose alone need not form a complete causal relation.
+
+Appendix 9.2 distinguishes agreement on a relation from agreement on its spans. Annotators agree that COVID-19 causes a recession but differ on how much of the recession description belongs in the effect span. A second example illustrates the intended benefit of tagging France separately as a participant. These examples motivate the annotation design; they do not quantify an improvement in span agreement.
+
 ### Corpus Construction
 
 The source collections comprise 8,872 UN General Debate documents, including official English translations, and 429 UK press conference transcripts (Table 1). Twelve political science graduate students annotate over five months after three training and feedback iterations. Section 4.1 describes 60,000 annotated sentences before filtering; Section 4.3 distinguishes the retained 17,780 unique sentences from 55,754 individual annotations.
@@ -82,6 +86,7 @@ All three fine-tuned models misclassify the same 248 sentences, comprising 157 g
 
 - Implicit, incomplete, and cross-sentence causal relations are excluded. Results concern English-language political text from two source collections and do not establish transfer to other languages or institutions.
 - Filtering on agreement and confidence removes ambiguous cases. Majority labels and confidence measure adherence to the annotation convention; they do not verify causal claims. The supplied text reports no aggregate span-agreement coefficient or span-extraction benchmark.
+- Majority voting resolves sentence labels, but the supplied text does not specify how differing annotator spans are consolidated into a single reference annotation. The span-disagreement examples in Appendix 9.2 make this relevant for reusing the corpus in extraction tasks.
 - The stated split preserves class proportions, but the paper does not establish document-, speaker-, or time-disjoint evaluation. Repeated-run variability and confidence intervals are not reported.
 - The supplied text has unresolved reporting inconsistencies. Table 4 reverses the full-corpus majority-label ratios relative to the prose. Section 4.5 calls the shared errors an overestimation of causality, although its stated gold-label counts imply more false negatives than false positives within that subset. These counts do not establish error direction across the whole test set.
 - Table 3's comparator F1 is inconsistent with its precision and recall under the usual binary definition. Table 5 prints the learning rate as `2e5`; the intended value cannot be recovered confidently from this Markdown. Neither entry is silently corrected here.
