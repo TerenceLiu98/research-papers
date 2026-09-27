@@ -6,7 +6,7 @@ authors:
   - Maxi San Miguel
   - Raul Toral
 year: 2023
-source_job_id: b847af6f-dca7-41de-94af-91c16a5d1d62
+source_job_id: 1f772205-0dd7-400e-b582-840e7e64b6a1
 tags:
   - voter-model
   - opinion-dynamics
@@ -77,6 +77,8 @@ The evidence is analytical and computational, with Gillespie simulations of the 
 | Quasi-stationarity | At $N=1000$, $\varepsilon=0.15$, the symmetric distribution peaks at zero. For $q=0.55$, its mode is approximately $0.393$, near but not equal to the deterministic value $0.383\ldots$ (Figure 6). |
 | Symmetric noisy regimes | At $q=0.5$, $N=1000$, $\varepsilon=0.05$, Figure 10 compares noise ratios $a/h=0.00035$, $0.00045$, and $0.001$ with the reduced stationary density. Boundary-dominant trimodality gives way to center-dominant trimodality, followed by unimodality. |
 | Asymmetric noisy regimes | For $q=0.6$, Figures 11-13 show five regimes. Depending on preference strength, increasing noise moves the dominant peak continuously from the favored boundary or switches it discontinuously to an interior peak. |
+
+The asymmetric examples distinguish two parameter paths. Figure 12 fixes $q=0.6$ and $\varepsilon=0.1<2q-1$ and increases $a/h$, showing a continuous departure of the dominant mode from the favored consensus boundary. Figure 13 instead fixes $q=0.6$ and $a/h=0.0004$ and increases $\varepsilon$, passing through regions IV, V, I, and II; the dominant mode jumps only at the I-to-II transition. At finite $N$, an interior stationary mode need not coincide with the deterministic fixed point (Section III.B.2).
 
 For the noiseless coexistence regime, the reduced large-$N$ consensus-time asymptotic is
 
