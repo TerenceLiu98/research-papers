@@ -60,6 +60,16 @@ CAS clusters each concept's representations using k-medoids and summarizes clust
 
 **Setup.** XOR, Trigonometric, and Dot each contain 3,000 synthetic samples. CUB uses 112 binary bird attributes and 200 classes; the paper treats this concept set as complete for its task. The constructed CelebA task uses six balanced attributes as concepts and eight attributes to define 256 classes, deliberately withholding two task-relevant attributes from concept supervision. It uses about 16,900 subsampled images. Baselines are Boolean, fuzzy, and hybrid CBMs plus a model without concept supervision. CEM and hybrid bottlenecks both have $km$ activations; scalar bottlenecks have $k$. Image experiments use pretrained ResNet-34 encoders and $m=16$; synthetic experiments use MLPs and $m=128$ (Appendices A.3 and A.6).
 
+**Training.** Appendix A.6 specifies the following settings. Epoch counts are maximum budgets, with early stopping after 15 epochs without validation-loss improvement.
+
+| Tasks | Concept-loss weight $\alpha$ | Optimizer | Initial learning rate | Batch size | Maximum epochs |
+| --- | ---: | --- | ---: | ---: | ---: |
+| Synthetic | 1 | Adam | $10^{-2}$ | 256 | 500 |
+| CUB | 5 | SGD, momentum 0.9 | $10^{-2}$ | 128 | 300 |
+| CelebA | 1 | SGD, momentum 0.9 | $5\times10^{-3}$ | 512 | 200 |
+
+All tasks use weight decay $4\times10^{-5}$ and reduce the learning rate by a factor of 0.1 after 10 epochs without validation-loss improvement. CUB and CelebA use class-weighted concept losses. Synthetic tasks and CelebA use 70%/10%/20% training/validation/test splits; CUB follows the splits used by Koh et al. The model without concept supervision uses the hybrid architecture with concept-loss weight zero.
+
 **Task accuracy.** Table 1 reports the following test means in percent across five seeds. CelebA results are top-1 accuracy for the constructed 256-class task.
 
 | Dataset | No concepts | Boolean CBM | Fuzzy CBM | Hybrid CBM | CEM |
@@ -74,6 +84,8 @@ CEM's reported 95% confidence intervals are [75.89, 78.10] on CUB and [29.62, 31
 
 **Alignment and transfer.** Table 2 reports CAS on a percentage scale: CEM scores 95.98 on Dot, 86.14 on CUB, and 79.47 on CelebA, versus 72.66, 83.19, and 77.48 for the hybrid model. CEM does not have the highest CAS on every synthetic dataset. When trained with only 28 of CUB's 112 concepts, [[concepts/linear-probing|linear probes]] recover the 84 held-out concepts from the full CEM bottleneck at $94.33\%\pm0.88\%$ mean concept accuracy, versus $91.83\%\pm0.51\%$ for the hybrid bottleneck (reported 95% intervals; Appendix A.9). This measures accessible information rather than establishing that every embedding contains only its named concept.
 
+In that same 28-concept experiment, CEM's original task accuracy is $76.76\%\pm0.27\%$, compared with the hybrid model's $77.15\%\pm0.33\%$. The better held-out concept probes therefore do not imply a higher task-accuracy mean in this setting (Appendix A.9).
+
 **Interventions.** Correct and deliberately incorrect interventions use randomly selected concepts; CUB interventions operate on 28 groups of mutually exclusive attributes. CEM responds more strongly to corrections than hybrid CBMs, and RandInt improves its intervention performance. Incorrect interventions still reduce CEM accuracy, although it tolerates some mistakes better than scalar CBMs. Appendix A.13 qualifies the overall comparison: on concept-complete CUB, fuzzy CBMs other than the sequential variant tend to respond better to correct interventions than CEM; on concept-incomplete CelebA, CEM outperforms sequential and independent scalar CBMs by a large margin.
 
 **Ablations.** Reducing CUB concept supervision harms embedding-based models less than scalar CBMs. Increasing RandInt probability introduces a small validation-accuracy trade-off, and its benefits do not transfer uniformly to standard CBMs: it can hurt them on CelebA. Embedding sizes around 8--16 suffice in the image-task ablations. Appendix A.11 reports less than 10% increases in per-epoch runtime on CUB and CelebA relative to vanilla CBMs, with no statistically significant difference in convergence epochs (Appendices A.5, A.8, and A.11--A.14).
@@ -81,6 +93,8 @@ CEM's reported 95% confidence intervals are [75.89, 78.10] on CUB and [29.62, 31
 ## Limitations
 
 Concept labels still require careful selection and annotation. The evaluation covers three constructed tasks and two image datasets; intervention experiments simulate corrections and errors rather than measuring expert behavior or user trust directly. The deliberately incomplete CelebA classification task should not be conflated with standard CelebA attribute prediction.
+
+The CUB scarcity experiment selects a smaller fixed vocabulary of concept types and retains their annotations across examples (Appendix A.8). It does not test arbitrary missing concept labels on individual training examples. Likewise, XOR's concepts fully determine its label, but the shared linear downstream predictor cannot express XOR directly from Boolean concept coordinates. Concept completeness and downstream predictor capacity are distinct constraints in interpreting these results.
 
 The classifier consumes full embeddings, so the concept-probability vector alone does not exhaust the information used for prediction. High CAS and successful linear probes support alignment and information availability, but do not guarantee exclusive concept semantics or causal explanations. Appendix A.7 notes that class-specific concept correlations can give a model without concept supervision a high CAS. Mutual-information estimates additionally depend on noise and representation dimension.
 
