@@ -43,6 +43,8 @@ The main protocol uses temperature 0, at most 20 output tokens, and JSON mode wh
 
 Tweet classifiers learn party labels and convert party typicalities into positions. The manifesto BERT baseline instead learns crowd-coded sentence categories, with approximately 98,000 training, 10,000 validation, and 107,000 test ratings, keeping all ratings of a sentence in one split (Appendix D.1). These supervision targets differ from each other and from direct ideological scoring.
 
+For the senator task, the classifier training set contains about 246,000 tweets, excluding the 100 evaluation tweets per senator from training and validation. Classifiers for the individual post-cutoff tweets use approximately one million congressional tweets from the 116th and 117th Congress sessions (Section 3.1, Appendix D.2).
+
 ## Experiments
 
 ### Settings and Benchmarks
@@ -80,6 +82,8 @@ Table 2 reports Spearman-Brown-corrected split-half reliability of 0.92 overall,
 - **Prompt definitions and language:** Adding policy definitions gives similar manifesto results. Translation checks show that strong multilingual performance can coexist with language-dependent errors (Appendices G.1 and H.2).
 - **Party typicality:** Subtracting Democratic typicality from Republican typicality produces scores for every tweet, similar overall correlations, and some within-party gains. It measures relative party association without explicitly restricting judgment to an ideological dimension (Appendix E.2).
 - **Human-rating equivalents:** Appendix E.3 uses 598 tweets with at least 15 numeric human ratings and 100 random criterion/predictor selections. Table A2 gives pooled equivalent numbers of observations of 7 for GPT-4o and 5 for GPT-4, Mixtral 8x22B, and quantized Llama 3 70B. These quantify prediction of another human rating on each model's scored subset, not a general replacement rate for experts.
+
+The discussion reports a historical cost of USD 1.50 for GPT-4 scoring of 900 tweets versus GBP 1,626 for human coding. These figures describe the study's particular model and annotation setup, not current prices or a full accounting of computation and validation costs.
 
 ## Limitations
 
