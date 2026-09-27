@@ -23,12 +23,14 @@ Direct-query text scaling uses an instruction-tuned language model to place a su
 - **Report abstention alongside agreement.** An `NA` option avoids forcing irrelevant content onto a scale, but model-specific missingness changes the sample on which accuracy is assessed. Correlations should be accompanied by scored-document counts and within-group checks.
 - **Distinguish position from typicality.** Subtracting a text's typicality in two parties can provide full coverage, but its construct is relative party association. Agreement with an ideological benchmark does not make it equivalent to directly querying a specified policy dimension.
 - **Validate in the intended setting.** Expert placements, human ratings, and behavioral measures can provide complementary benchmarks. Strong overall correlations do not imply calibration, equal accuracy across languages, or reliable within-party distinctions.
+- **Inspect the response distribution.** Numeric outputs can heap around a few scale points. [[concepts/probability-weighted-llm-scoring|Probability-Weighted LLM Scoring]] averages over allowed score tokens, but concentrated probabilities can preserve heaping. Licht et al. show that better rank correlation can coexist with worse RMSE than [[concepts/bradley-terry-scaling|Bradley-Terry Scaling]] of pairwise judgments.
 - **Retain the implementation context.** Prompts, model versions, inference settings, and aggregation rules are part of the measure. Downloadable weights support repeatability, while API version changes can alter it.
 - **Distinguish direct scoring from other LLM-based estimators.** Parschan and Jakob's review also includes pairwise-comparison methods and survey-like responses scaled with item response models. A shared pretrained representation does not make these prompting and aggregation choices equivalent measurements.
 - **Check the source of apparent knowledge.** A pretrained model may have encountered published actor positions or evaluation material. The review identifies this as a validity concern: agreement with known positions alone cannot distinguish inference from supplied text from retrieval of prior estimates.
 
 ## Important Papers
 
+- [[papers/measuring-scalar-constructs-in-social-science-with-llms|Measuring Scalar Constructs in Social Science with LLMs]]: distinguishes direct numeric output from probability-weighted scoring and compares both with pairwise measurement and fine-tuning across three political constructs.
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: situates direct scoring within a broader LLM family and identifies transparency, aggregation, and possible training-data contamination as measurement concerns.
 - [[papers/scaling-political-texts-with-large-language-models-asking-a-chatbot-might-be-all-you-need|Scaling Political Texts with Large Language Models: Asking a Chatbot Might Be All You Need]]: evaluates direct scoring across four political-text settings, with substantial variation in both model agreement and scoring coverage.
 - [[papers/positioning-political-texts-with-large-language-models-by-asking-and-averaging|Positioning Political Texts with Large Language Models by Asking and Averaging]]: September 2024 source emphasizing sentence-level averaging, with evidence that whole-document scoring performs differently across tasks and that model agreement must be reported alongside coverage.
@@ -36,6 +38,8 @@ Direct-query text scaling uses an instruction-tuned language model to place a su
 
 ## Related Concepts
 
+- [[concepts/probability-weighted-llm-scoring|Probability-Weighted LLM Scoring]]
+- [[concepts/bradley-terry-scaling|Bradley-Terry Scaling]]
 - [[concepts/text-scaling-models|Text Scaling Models]]
 - Human judgment benchmarking
 - Construct validity
