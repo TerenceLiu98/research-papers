@@ -57,6 +57,15 @@ $$
 
 For equal widths $\sigma_1=\sigma_2=\sigma$, symmetric separated equilibria merge at the center at $\sigma_c/\sigma_0\approx0.807$. High inclusiveness supports central convergence; below the threshold, stable separated positions are possible. The equilibrium distance is not globally monotone in width: Equation 6 also approaches zero as $\sigma\to0$. The negative inclusiveness-polarization relationship emphasized in the empirical analysis therefore concerns a relevant parameter range, not every possible width.
 
+Specifically, the symmetric positions $\mu_2=-\mu_1=\mu^\star$ satisfy (Equation 6)
+
+$$
+(\mu^\star)^2=\sigma^2\frac{\sigma^2+\sigma_0^2}{\sigma^2+2\sigma_0^2}
+\ln\left[\frac{(\sigma^2+\sigma_0^2)^3}{4\sigma^4(\sigma^2+2\sigma_0^2)}\right].
+$$
+
+Party separation is $2|\mu^\star|$. Setting the logarithm's argument to one gives the critical width; a negative right-hand side admits no real separated equilibrium. This expression describes the equal-width case, while the historical simulations allow the two parties' widths to differ.
+
 For estimation, the authors use first-dimension DW-NOMINATE scores for the combined House and Senate. Each party's mean gives its position, and its standard deviation supplies $\sigma_i=b\sigma_{\mathrm{data},i}$. Starting from observed positions in 1861, simulations update inclusiveness every Congress while keeping the electorate fixed. Minimizing absolute trajectory errors gives $\sigma_0=0.93$, $b=3.73$, and $k=2.54$ (Section 4.5).
 
 ## Experiments
@@ -75,6 +84,8 @@ Nearest-party utility-maximizing voters restore central convergence in the compa
 ## Limitations
 
 The empirical results establish compatibility with the proposed mechanism. Both modeled inclusiveness and observed polarization are primarily derived from the same congressional score distributions, and the three parameters are fitted to the historical trajectories. The independent ANES check supports the association but does not identify its causal direction or directly observe individual satisficing choices in elections.
+
+The ANES check concerns feelings toward liberals and conservatives, rather than satisfaction with particular parties or candidates. Treating a neutral thermometer response of 50 as satisfaction and assigning the target groups to the ideological scale's endpoints are operational assumptions (Supplement Section 3.1).
 
 The main model assumes one ideological dimension, Gaussian voter and satisfaction profiles, a stationary electorate, equal choice probabilities among acceptable parties, and local gradient adjustment. Congressional dispersion is a proxy for voter tolerance and party appeal. Party inclusiveness is supplied externally rather than explained by the model; primaries, campaign finance, Southern realignment, and other institutional changes are omitted. Deviations from the historical data occur around the World Wars and the recent Republican rightward shift.
 

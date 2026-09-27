@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Satisficing spatial competition models voters as evaluating each party against an acceptability threshold that varies smoothly with ideological distance. Unlike nearest-party models, a voter may accept neither party, one party, or both parties. A tolerance or width parameter controls how broadly each party appeals and can therefore change the equilibrium from convergence to polarization.
+Satisficing spatial competition models the probability that a voter finds a party acceptable as a decreasing function of ideological distance. A voter may accept neither party, one party, or both parties. A tolerance or width parameter controls how broadly each party appeals and can therefore change the equilibrium from convergence to polarization.
 
 ## Key Ideas
 
@@ -22,6 +22,7 @@ Satisficing spatial competition models voters as evaluating each party against a
 - Independent satisfaction judgments allow abstention when neither party is acceptable and equal splitting when both are acceptable. For two parties, the probability of supporting party $i$ is $p_i=s_i(1-s_j)+s_is_j/2$.
 - Party objectives require a denominator distinction. Expected support $V_i=\int\rho(x)p_i(x)\,dx$ counts votes (or the fraction of all potential voters if $\rho$ is normalized). The share of votes actually cast is $V_i/\sum_jV_j$; abstention makes these different objectives. In Yang et al.'s model, local increases in vote counts can produce two-party separation, whereas the strict two-party vote-share variant converges to the median. Their minor-party extensions restore separation under the latter objective.
 - A fixed, centrist electorate can coexist with party polarization. Yang et al. estimate party appeal widths from within-party congressional ideological dispersion and obtain a historical fit between predicted and observed interparty distance of $r=0.75$ for 1861-2015. This supports consistency with the mechanism, not causal identification. Their negative width-separation relationship is not global: in the symmetric Gaussian model, separation also tends to zero as the width vanishes.
+- Satisfaction widths require empirical proxies. Yang et al. also estimate widths from survey feelings toward liberals and conservatives, counting neutral or favorable responses as satisfaction. This independent check supports the association with congressional polarization, but group evaluations and within-party legislative dispersion do not directly measure voters' acceptance of particular candidates.
 - Center-distance coordinates distinguish where competition occurs from how differentiated the parties are: $m=(u_1+u_2)/2$ is the endogenous center and $2d=u_1-u_2$ is party separation.
 - In a symmetric electorate, party-label symmetry makes the polarization equilibrium condition odd in $d$. Under transversality and cubic nondegeneracy conditions, tolerance can act as a bifurcation parameter: high tolerance supports co-location, while lower tolerance supports two label-symmetric polarized equilibria.
 - Electorate asymmetry can shift the endogenous center and imperfectly unfold the symmetric bifurcation. When stable branches are separated by an unstable branch, slow changes in tolerance can produce history-dependent switching and political hysteresis.
