@@ -94,6 +94,10 @@ The authors' autoregressive Transformer reports exact NLL 1.23 and sample time 0
 
 The best D3PM improves on the original DDPM's reported NLL bounds of 3.70 or 3.75, but its FID remains worse than the original DDPM trained with the simplified loss (3.17). Improved DDPM reports stronger bounds, including 2.94 with its variational loss. Gaussian corruption and the logistic parameterization provide the strongest image results, while the auxiliary loss alone improves FID without improving every NLL bound.
 
+**Loss and schedule ablations (Appendix Tables 4-6).** On text8, Table 5 reports an NLL upper bound of 1.91 for uniform diffusion with $\lambda=0.01$, versus 1.61 with the variational loss alone. For absorbing diffusion, the corresponding bounds are 1.44 and 1.47; these appendix entries are separate from Table 1's two-seed summaries. In the smaller six-layer uniform model, Table 6 reports bounds of 2.37 with $\beta_t=1/(T-t+1)$, 1.73 with cosine scheduling, and 1.74 with mutual-information scheduling, all at 1000 steps. Appendix A.7 explicitly notes that the reciprocal schedule is not generally the mutual-information schedule for uniform corruption.
+
+For uniform CIFAR-10 diffusion, changing from a linear to a cosine schedule improves FID from $79.86\pm1.64$ to $51.27\pm2.15$, while the NLL upper bound worsens from $4.99\pm0.03$ to $5.08\pm0.02$. Table 4 reports three linear-schedule seeds and four cosine-schedule seeds. This comparison reinforces that a schedule can improve sample quality without improving the likelihood bound.
+
 ## Limitations
 
 - Text quality remains below strong autoregressive baselines; the LM1B study demonstrates feasibility at a larger vocabulary rather than parity with those models.
