@@ -21,11 +21,13 @@ The noisy voter model extends the voter model by combining social copying with s
 - For a well-mixed population with symmetric opinions, the number of agents in one state is sufficient to describe the macroscopic birth-death process. Its stationary distribution is symmetric around equal coexistence.
 - In the local formulation, weak noise relative to herding produces a bimodal finite-population distribution concentrated near consensus, while stronger noise produces a unimodal distribution centered on coexistence. The associated critical noise scale decreases with population size, so this standard transition is a finite-size effect.
 - State-dependent or nonlinear update rates can create additional stationary shapes. [[Polarization-induced stress in the noisy voter model]] modifies the intrinsic rate using the fraction of unlike pairs and obtains W- and M-shaped distributions in addition to the standard bimodal and unimodal phases.
+- Fixed individual preferences provide another mechanism. The noisy [[concepts/partisan-voter-model|Partisan Voter Model]] can have a trimodal stationary distribution for balanced preferences and a discontinuous switch of its dominant peak despite a single stable deterministic fixed point. These additional regimes disappear in the thermodynamic limit at fixed positive noise. Numerical critical ratios depend on the copying convention: adopting a selected disagreeing neighbor with probability one-half gives the zero-preference threshold $a/h=1/(2N)$ in the partisan-model paper.
 - The distinction between local and global parameter scaling matters. A transition that vanishes when fixed per-agent rates are taken to the thermodynamic limit can persist under a different population-size scaling of the rates.
 - Stationary-distribution modality summarizes where the system spends time, but it does not by itself identify mechanism-level probability currents or establish that a stylized state variable measures empirical social polarization.
 
 ## Important Papers
 
+- [[papers/partisan-voter-model-stochastic-description-and-noise-induced-transitions|Partisan Voter Model: Stochastic description and noise-induced transitions]]
 - [[Polarization-induced stress in the noisy voter model]]
 - [[Stochastic Thermodynamics of Social Imitation beyond Energetics]]
 - Kirman (1993), "Ants, rationality, and recruitment."
@@ -35,6 +37,7 @@ The noisy voter model extends the voter model by combining social copying with s
 
 ## Related Concepts
 
+- [[concepts/partisan-voter-model|Partisan Voter Model]]
 - [[Opinion Dynamics]]
 - [[Stochastic Thermodynamics]]
 - Birth-death processes
