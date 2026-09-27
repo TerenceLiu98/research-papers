@@ -17,8 +17,9 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 
 ## Key Ideas
 
-- The forward process adds Gaussian noise over a sequence of timesteps; the reverse process iteratively predicts less noisy states until a sample is obtained.
-- Denoising diffusion probabilistic models can be understood through score estimation: the predicted noise is a scaled form of the gradient of log data density.
+- In continuous Gaussian diffusion, the forward process adds Gaussian noise over a sequence of timesteps; the reverse process iteratively predicts less noisy states until a sample is obtained.
+- Gaussian denoising diffusion probabilistic models can be understood through score estimation: predicted noise is related to the gradient of the noisy data's log density by a noise-level-dependent scaling and sign.
+- [[concepts/discrete-diffusion-models|Discrete Diffusion Models]] instead corrupt categorical states through transition matrices. Structured kernels can encode ordinal locality or use [[concepts/absorbing-state-diffusion|Absorbing-State Diffusion]] to replace tokens with persistent masks. Austin et al.'s D3PM experiments show that the useful corruption structure depends on the data domain.
 - Classifier guidance adds gradients from an external noisy-image classifier, while classifier-free guidance interpolates conditional and unconditional denoising predictions without that classifier.
 - Latent diffusion performs the process in a lower-dimensional VAE latent space, reducing computation while relying on the decoder to recover image-space detail.
 - Diffusion priors can also model temporal 2D motion and support multi-view completion when combined with geometric constraints. [[Multi-View Motion Diffusion]] applies this idea to 3D motion lifting.
@@ -28,6 +29,7 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 
 ## Important Papers
 
+- [[papers/structured-denoising-diffusion-models-in-discrete-state-spaces|Structured Denoising Diffusion Models in Discrete State-Spaces]]
 - [[Concept-based Visual Counterfactual Explanations with Diffusion Models]]
 - [[Lifting Motion to the 3D World via 2D Diffusion]]
 - [[AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion]]
@@ -39,6 +41,8 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 
 ## Related Concepts
 
+- [[concepts/discrete-diffusion-models|Discrete Diffusion Models]]
+- [[concepts/absorbing-state-diffusion|Absorbing-State Diffusion]]
 - [[Visual Counterfactual Explanations]]
 - [[Concept Bottleneck Models]]
 - [[Model Steerability]]
