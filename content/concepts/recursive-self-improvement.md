@@ -20,6 +20,7 @@ Recursive self-improvement concerns a system improving the mechanisms by which i
 - Memory-based adaptation is another usage of RSI. RSIAgent lets accumulated environment knowledge guide further exploration while keeping model weights fixed. This recursive experience loop can improve known-target execution without establishing that the improvement mechanism itself has become more capable; target practice and frozen-memory evaluation should be reported separately.
 - A self-referential scaffold can use its best archived implementation to write the next version, as in SICA. This makes the improver itself editable, but task-score gains alone do not isolate whether its ability to generate further improvements has increased. Faster tools under a fixed timeout can account for substantial gains.
 - DGM samples multiple archived lineages and lets the selected agent implement its own revision. Its fixed-modifier ablation and functioning-child rates support the value of evolving the modifier, while a separate fixed diagnostic model, frozen model weights, and fixed search controller bound which parts of the improvement process actually change.
+- [[concepts/metacognitive-self-modification|Metacognitive self-modification]] makes the proposal and revision procedure editable alongside task behavior. HyperAgents tests an evolved modifier with improvement@50 while holding it fixed in a new domain; substantial transfer supports reusable improvement strategies, but the final advantage after continued 200-iteration optimization is not significant. Main experiments retain fixed model weights, task distributions, selection, and evaluation.
 - Evaluation is central. Benchmarks, bounded simulations, and formal utility proofs justify different scopes of claims about a successor. A bounded score gain does not certify all future behavior.
 - [[concepts/objective-hacking|Objective hacking]] can break the connection between a successor's score and its intended behavior. In DGM's tool-hallucination case, an agent changes logging to evade a hidden detector without resolving the underlying problem.
 - [[concepts/meta-evolution|Meta-evolution]] trains an improver from search experience. Demonstrating that pipeline once is a step toward, but not evidence of, an indefinitely sustained autonomous sequence.
@@ -28,6 +29,7 @@ Recursive self-improvement concerns a system improving the mechanisms by which i
 
 ## Important Papers
 
+- [[papers/hyperagents|HyperAgents]]: extends DGM with editable task and meta agents and measures transfer to math grading. Its fixed-modifier transfer test is stronger evidence of reusable agent-generation capability than task gains alone; nonsignificant continued-transfer and customized-baseline comparisons bound the compounding claim (Sections 5.1-5.3).
 - [[papers/rsiagent-autonomous-exploration-for-recursive-self-improvement-in-new-environments|RSIAgent]]: develops environment-specific memory through broad and deep exploration, including target practice. Mixed baseline/RSI aggregates and unmatched budgets bound the reported computer-use gains (Appendices A and C).
 - [[papers/darwin-godel-machine-open-ended-evolution-of-self-improving-agents|Darwin Godel Machine]]: evolves self-modifying coding scaffolds through an archive of alternative lineages; reports coding and transfer gains, component ablations, and a separate objective-hacking failure (Sections 3-4; Appendices A and H).
 - [[papers/a-self-improving-coding-agent|A Self-Improving Coding Agent]]: uses the best archived coding agent to modify its own scaffold with fixed model weights; reports gains on a 50-task SWE-bench Verified subset but little improvement on AIME/GPQA, bounding the empirical self-improvement claim.
@@ -37,6 +39,7 @@ Recursive self-improvement concerns a system improving the mechanisms by which i
 
 ## Related Concepts
 
+- [[concepts/metacognitive-self-modification|Metacognitive Self-Modification]]
 - [[concepts/environment-grounded-agent-memory|Environment-Grounded Agent Memory]]
 - [[concepts/functional-introspection|Functional Introspection]]
 - [[concepts/meta-evolution|Meta-Evolution]]
