@@ -8,6 +8,8 @@ authors:
   - Sunshine Hillygus
   - Alexander Volfovsky
 year: 2025
+date: "2025-10-13"
+source_job_id: "e82e1bc4-1a9e-4066-9c32-2d1ea76b6400"
 tags:
   - causal-inference
   - text-as-treatment
@@ -93,6 +95,8 @@ The authors create 100 replicas using real participant texts and evaluations. Re
 
 Comparators include difference in means, topic adjustment, bag-of-words outcome regression, inverse propensity weighting (IPW), augmented IPW, TextCause, and the Treatment Ignorant (TI) estimator with propensity trimming or winsorization. Both neural implementations use DistilBERT. Bag-of-words nuisance models use random forests and five-fold cross-fitting. Appendix A.1 documents implementation adaptations, including sample splitting for TextCause and cross-fitting for TI, while retaining default representation-learning hyperparameters.
 
+Appendix A.1 also reports that the evaluated TextCause code retains a treatment-prediction term in its training objective, despite the original method's stated treatment-ignorant loss. The benchmark uses known treatment labels rather than TextCause's proxy-label procedure. TI instead estimates propensity scores with a random forest using predicted outcomes from the language model as its representation. These details matter when attributing the observed failures to particular learning objectives.
+
 Under amplified confounding, naive and topic-adjusted estimates miss the reference effects. Bag-of-words IPW is consistently within the reference bands; bag-of-words outcome regression is less reliable. TextCause produces near-null estimates, while trimmed and winsorized TI estimates fail to recover the reference effects. For every outcome, all 100 amplified-confounding replicas contain at least one TI propensity estimate equal to zero or one, making unmodified AIPW non-computable. In the displayed aggression run, 33% of TI propensities lie at or beyond 0.1 and 0.9, versus 17% for bag-of-words propensities (Tables 2 and 6).
 
 The authors interpret the neural failures as treatment encoding and inadequate confounder recovery. TI propensity estimates directly demonstrate estimated-overlap problems; the explanation of TextCause's null estimates is an interpretation of its behavior rather than a direct measurement of its latent representation.
@@ -109,6 +113,7 @@ The authors interpret the neural failures as treatment encoding and inadequate c
 ## Related Concepts
 
 - [[concepts/text-as-treatment|Text as Treatment]]: separates document exposure effects from effects of specific linguistic features.
+- [[concepts/treatment-confounder-separability|Treatment-Confounder Separability]]: connects the requirement that edits reverse treatment while preserving other outcome-relevant content to the broader feature-intervention problem.
 - [[concepts/causal-overlap|Causal Overlap]]: clarifies why encoding treatment in an adjustment representation undermines causal comparisons.
 - [[concepts/intellectual-humility|Intellectual Humility]]: the manipulated linguistic property in the substantive experiment.
 - [[concepts/causal-representation-learning|Causal Representation Learning]]: connects representation objectives to identification requirements.
@@ -126,6 +131,7 @@ The following works are cited in the supplied manuscript:
 
 Related library reading, rather than citations attributed to this manuscript:
 
+- [[papers/causal-inference-with-generative-artificial-intelligence-application-to-texts-as-treatments|Causal Inference with Generative Artificial Intelligence: Application to Texts as Treatments]]: the library's later, June 2026 Imai and Nakamura manuscript studies generative representations and separability. It should be distinguished from the 2024 version cited above.
 - [[papers/structured-pixels-satellite-imagery-as-the-cause-in-causal-effect-estimation|Structured Pixels: Satellite Imagery as the Cause in Causal Effect Estimation]]: considers rich objects as treatments through an observational image representation and covariate-adjustment approach.
 - [[papers/toward-causal-representation-learning|Toward Causal Representation Learning]]: reviews the broader problem of defining intervention-relevant variables from unstructured observations.
 

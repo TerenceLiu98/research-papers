@@ -31,6 +31,7 @@ Text as treatment studies how exposure to messages or changes in their linguisti
 
 ## Related Concepts
 
+- [[concepts/treatment-confounder-separability|Treatment-Confounder Separability]]: makes explicit whether the target feature can change while other outcome-relevant content stays fixed, as required by paired editing.
 - [[concepts/causal-overlap|Causal Overlap]]: requires meaningful comparisons between treatment states in the adjustment space.
 - [[concepts/structured-treatments|Structured Treatments]]: includes interventions represented by rich objects such as documents or images.
 - [[concepts/causal-representation-learning|Causal Representation Learning]]: concerns representations that support causal questions beyond prediction.
