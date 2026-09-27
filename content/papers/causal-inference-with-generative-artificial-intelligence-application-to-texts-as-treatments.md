@@ -6,7 +6,7 @@ authors:
   - Kentaro Nakamura
 year: 2026
 date: "2026-06-12"
-source_job_id: "f0c7c0a2-208d-4af4-9b1d-6a0f03178a4f"
+source_job_id: "e01baff0-3203-4dff-93f4-8563bdfab6b5"
 tags:
   - causal-inference
   - text-as-treatment
@@ -69,11 +69,15 @@ The implementation uses Llama 3-8B's final-token hidden state, a 4,096-dimension
 
 Appendix S3 uses the coded textual feature as an instrument for the respondent's perceived feature. Both must be observed. Under the extended separability conditions, monotonicity, a nonzero first stage, and exclusion, the target becomes the local average treatment effect among respondents whose perception changes with the actual feature. Exclusion can fail if wording affects a respondent without conscious recognition; measuring perception can itself prime responses.
 
+The extended network predicts both the outcome and perceived treatment under each actual-treatment arm. Its deconfounder must retain information relevant to both quantities. The identified LATE is the ratio of the population-averaged adjusted outcome contrast to the population-averaged adjusted perception contrast, rather than an unweighted average of conditional ratios. Estimation uses cross-fitted augmented scores for these two contrasts, with additional convergence conditions for the perception model and a first stage bounded away from zero (Appendix S3.2-S3.3).
+
 ## Experiments
 
 ### Semi-synthetic biographies
 
 The authors generate 4,000 biographies and also regenerate the same texts for reuse. In the scenario intended to satisfy separability, treatment indicates the keywords "military," "veteran," or "army"; confounders are a BERTopic politics/education topic and TextBlob sentiment. The nonseparable scenario uses overlapping topics. Synthetic outcomes vary confounding strength while the corpus and features remain fixed. The main comparison uses 200 Monte Carlo trials, with difference in means and two BERT-based approaches as baselines (Sections 4.1-4.3).
+
+Section 4.2 describes a 40% training, 10% validation, and 50% downstream effect-estimation split. The BERT comparators additionally optimize treatment prediction and masked-language modeling. DML with BERT fits a Gaussian-process propensity model using its two outcome predictions and clips scores to [0.01, 0.99]. The authors report clipping even in the separable settings, at rates of 5% under weak and moderate confounding and 45% under strong confounding; without it, their BERT DML bias and RMSE are not computable. They report that GPI does not require this clipping.
 
 Selected results from Table S5 follow. Coverage is the fraction of reported 95% intervals containing the simulation target.
 
