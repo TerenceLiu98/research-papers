@@ -20,11 +20,13 @@ World models learn predictive descriptions of an environment from observation hi
 - **Action sensitivity is a diagnostic.** Compare predictions under ground-truth, zero, and random actions within the same representation, and compare predicted goal distance with the initial observation's goal distance. The latter tests whether a rollout predicts progress beyond remaining at the initial state. In NanoWM's tested PushT checkpoints, VAE predictions respond to actions and ground-truth-action rollouts reduce goal distance; Web-DINO and V-JEPA 2.1 predictions barely change across action choices and increase goal distance relative to the initial observation (Table 5). This finding is limited to those checkpoints and their training recipe; absolute latent distances are not comparable across encoders.
 - **Longer generation is not sustained accuracy.** Sliding-window prediction extends beyond the training horizon, but errors in generated context can accumulate. NanoWM's CSGO experiment preserves coarse scene structure while losing fine visual detail.
 - **Generated views are inputs to geometry estimation.** Exporting predicted video to a reconstruction system can produce persistent scene assets. Their geometric accuracy depends on both the generated observations and the separate reconstruction system.
+- **Encoder recovery and dynamics learning are separate.** The LeJEPA identifiability analysis recovers Gaussian OU latents up to rotation or reflection under its assumptions. Planning equivalence then requires correct pushforward dynamics and invariant costs, or consistent transformation of goals and cost parameters. Its Reacher interpolation/retrieval experiment tests representation geometry; it does not establish learning of action-conditioned dynamics or closed-loop control.
 
 ## Important Papers
 
 - Ha and Schmidhuber (2018), "Recurrent world models facilitate policy evolution," is a foundational world-model reference cited by NanoWM.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]] compares video prediction and planning across modeling choices, including a negative result for semantic-latent planning under its tested recipe.
+- [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]] supplies a conditional representation-identifiability result and connects orthogonal recovery to preservation of planning costs.
 - Zhou et al. (2024), "DINO-WM: World models on pre-trained visual features enable zero-shot planning," is cited by NanoWM as a feature-based world-model approach and dataset source.
 
 ## Related Concepts
@@ -32,3 +34,4 @@ World models learn predictive descriptions of an environment from observation hi
 - [[concepts/diffusion-forcing|Diffusion Forcing]] connects conditional sequence prediction and progressive generation through per-frame noise levels.
 - [[concepts/diffusion-models|Diffusion Models]] support generative observation prediction in pixel or latent spaces.
 - [[concepts/joint-embedding-predictive-architectures|Joint-Embedding Predictive Architectures]] learn predictive representations; downstream controllability depends on more than representation prediction alone.
+- [[concepts/structural-identifiability|Structural Identifiability]] formalizes recovery of a designated latent state up to specified ambiguities.

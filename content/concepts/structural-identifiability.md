@@ -23,10 +23,13 @@ Structural identifiability asks whether a learned representation recovers a part
 - Structural identifiability can fail under model misspecification or imperfect reconstruction even when the learned representation remains statistically identifiable. A model may consistently recover the best approximation available within its class rather than the true generating process.
 - Disentanglement is a prominent special case, but structural identifiability is broader: it concerns recovery of a specified latent structure, not only factor-wise separation.
 - Structural near-identifiability does not eliminate scientific interpretation. The recovered coordinates can retain signs, permutations, nuisance factors, or approximation error that require domain knowledge.
+- Temporal structure can identify Gaussian sources up to an orthogonal transformation: for isotropic Gaussian OU pairs, LeJEPA's population alignment objective with centered, whitened outputs recovers the latent linear span at matched dimension. Rotation can still mix individual factors, so this result does not identify named coordinate axes or a causal graph.
+- Approximate objective satisfaction and misspecification are different issues. The LeJEPA recovery bound controls error through alignment excess and covariance deviation while retaining the Gaussian OU assumptions; it does not bound departures from those assumptions.
 
 ## Important Papers
 
 - [[Statistical and Structural Identifiability in Representation Learning]]
+- [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]] gives exact orthogonal recovery and an approximate squared-error bound under Gaussian OU positive pairs.
 - Locatello et al. (2019), "Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations."
 - Khemakhem et al. (2020), "Variational Autoencoders and Nonlinear ICA: A Unifying Framework."
 - Zimmermann et al. (2021), "Contrastive Learning Inverts the Data Generating Process."
@@ -40,3 +43,5 @@ Structural identifiability asks whether a learned representation recovers a part
 - Data-generating process
 - Nonlinear independent component analysis
 - [[Causal Representation Learning]]
+- [[concepts/slow-feature-analysis|Slow Feature Analysis]]
+- [[concepts/joint-embedding-predictive-architectures|Joint-Embedding Predictive Architectures]]
