@@ -32,6 +32,7 @@ Dynamic ideal point models estimate how an unobserved position changes over time
 
 ## Related Concepts
 
+- [[concepts/item-response-theory|Item Response Theory]]: supplies the response model to which temporal priors are added.
 - [[concepts/non-ignorable-missingness-in-latent-trait-models|Non-Ignorable Missingness in Latent Trait Models]]
 - [[concepts/text-scaling-models|Text Scaling Models]]
 - [[concepts/political-polarization|Political Polarization]]

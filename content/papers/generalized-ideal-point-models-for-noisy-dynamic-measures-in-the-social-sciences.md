@@ -5,7 +5,7 @@ authors:
   - Robert Kubinec
 year: 2025
 date: "2025-07-16"
-source_job_id: "6a8da36e-a696-40f1-a881-6fe715ad753b"
+source_job_id: "8d1e3e01-6a65-4379-ba42-9281d10eaaec"
 tags:
   - political-methodology
   - ideal-point-estimation
@@ -66,6 +66,8 @@ The proposed identification scheme puts generalized-beta priors on discriminatio
 
 Stan supplies HMC and noncentered parameterizations. Pathfinder approximates the posterior to initialize HMC near a common mode. Conditional likelihood computations are parallelized across people for dynamic models. Pathfinder and Laplace can also supply final approximate posterior estimates, with accuracy assessed separately from HMC. Parallel speedups depend on data size, available cores, and communication overhead.
 
+The "Big Data Inference" section reports that moving from one to four cores reduces estimation time for a medium-sized dataset from approximately 20 to 7 minutes. This is an illustrative result attributed to supplementary Section 3, which is not included in the supplied Markdown; it is not a general runtime guarantee.
+
 ## Experiments
 
 ### Monte Carlo Comparison
@@ -100,6 +102,7 @@ Aggregated party trajectories suggest separation increasing toward 2012 and mode
 
 ## Related Concepts
 
+- [[concepts/item-response-theory|Item Response Theory]]: the latent response-model foundation extended with temporal and selection components.
 - [[concepts/dynamic-ideal-point-models|Dynamic Ideal Point Models]]: temporal priors, identification, and sparse latent-trait measurement.
 - [[concepts/non-ignorable-missingness-in-latent-trait-models|Non-Ignorable Missingness in Latent Trait Models]]: joint modeling of participation and observed responses.
 - [[concepts/text-scaling-models|Text Scaling Models]]: a related measurement family; the paper discusses Poisson Wordfish as an example of extending beyond binary outcomes.
@@ -112,5 +115,6 @@ Aggregated party trajectories suggest separation increasing toward 2012 and mode
 - Imai, Lo, and Olmsted (2016), "Fast Estimation of Ideal Points with Massive Data": the cited variational estimation approach.
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: a library comparison on how modeling decisions turn text into political positions; not a citation in this manuscript.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: a library comparison on external validation of positions and uncertainty; not a citation in this manuscript.
+- [[papers/modeling-item-response-theory-with-stochastic-variational-inference|Modeling Item Response Theory with Stochastic Variational Inference]]: a library comparison on scalable approximate Bayesian measurement; its static response-prediction task differs from this paper's dynamic recovery and selection-model evaluation. Not a citation in this manuscript.
 
 [[index|Library home]]

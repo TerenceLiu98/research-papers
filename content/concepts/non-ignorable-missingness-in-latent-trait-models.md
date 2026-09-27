@@ -21,6 +21,17 @@ Nonresponse is non-ignorable for latent-trait measurement when the observation p
 - **Association is not motive:** A fitted association can be compatible with strategic abstention, but it does not establish why an actor was absent. Political incentives need separate substantive evidence.
 - **Adjustment has assumptions:** Joint estimation can correct selection represented by the model. It does not identify arbitrary nonresponse processes or eliminate the need for anchors, sufficient observations, and sensitivity to specification. Dynamic applications also depend on the temporal prior.
 
+### Shared-Trait Hurdle
+
+Writing $r_{ijt}=1$ for an observed response, Kubinec's selection model (Equation 8) uses
+
+$$
+q_{ijt}=\Pr(r_{ijt}=0\mid\alpha_{it},\nu_j,\omega_j)
+=\operatorname{logit}^{-1}(\alpha_{it}\nu_j-\omega_j).
+$$
+
+The contribution to the joint likelihood is $q_{ijt}$ when the response is missing, and $(1-q_{ijt})p(Y_{ijt}\mid\alpha_{it},\gamma_j,\beta_j)$ when it is observed. The response distribution can vary by item while retaining this selection component. If $\nu_j=0$, the nonresponse probability is $\operatorname{logit}^{-1}(-\omega_j)$, constant across latent positions for that item; the intercept itself is not a probability.
+
 ## Important Papers
 
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: integrates a shared-trait selection hurdle with multiple temporal processes and response distributions; studies recovery under simulated missingness and changes in legislative trajectories.
@@ -29,5 +40,6 @@ Nonresponse is non-ignorable for latent-trait measurement when the observation p
 
 ## Related Concepts
 
+- [[concepts/item-response-theory|Item Response Theory]]: distinguishes modeling recorded answers from modeling their availability.
 - [[concepts/dynamic-ideal-point-models|Dynamic Ideal Point Models]]
 - [[concepts/text-scaling-models|Text Scaling Models]]: selective production or observation of text raises a related measurement concern, though it does not by itself specify an appropriate selection model.
