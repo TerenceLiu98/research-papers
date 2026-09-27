@@ -21,6 +21,7 @@ Scenario-conditioned claim verification evaluates whether a model's truthfulness
 - **Inspect individual classes.** With imbalanced labels, high accuracy or strong majority-class F1 can coexist with poor recognition of minority-class claims. Baseline performance and class-specific shifts should be read together.
 - **Distinguish score stability from judgment stability.** Equal F1 scores can arise from different predictions. An aggregate F1 gap is not a direct measure of how often individual claims change labels.
 - **Treat scenarios as compound interventions.** A role description may also change emotional language, expertise cues, or market maturity. Effects of the complete prompt do not isolate each attribute unless the design varies it separately.
+- **Account for task instructions.** Explicitly asking a model to use scenario information changes the instruction as well as the context. MFMD-Scen uses this design, so its baseline contrast measures their combined effect rather than sensitivity to incidental context alone.
 - **Keep the interpretation at the model level.** Identity-conditioned responses reveal behavior under hypothetical prompts. They do not establish characteristics of real social groups, and resemblance to a human average score is insufficient to validate a human simulation.
 
 ## Important Papers
