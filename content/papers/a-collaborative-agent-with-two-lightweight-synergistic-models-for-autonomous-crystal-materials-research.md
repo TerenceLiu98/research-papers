@@ -99,6 +99,6 @@ Researchers chose CoV4S8 for experimental follow-up and prepared it using the pr
 
 ## Source
 
-Processed from the supplied Markdown for Cognitio job `0606f00e-e2cc-425e-ab23-411f59b0e5cb`. The manuscript lists [MAIC-SIAT/matbrain](https://github.com/MAIC-SIAT/matbrain) for code and source data; repository availability was not independently checked.
+Processed from the supplied Markdown for Cognitio job `0606f00e-e2cc-425e-ab23-411f59b0e5cb` and revalidated against the complete supplied Markdown for job `afb06355-2c55-49d7-add2-bca98be4d054`. The existing canonical Paper and Concept pages were reused. The manuscript lists [MAIC-SIAT/matbrain](https://github.com/MAIC-SIAT/matbrain) for code and source data; repository availability was not independently checked.
 
 [[index|Library home]]
