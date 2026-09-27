@@ -45,7 +45,7 @@ Can fine-tuned LLMs extract useful fuzzy cognitive maps from text, and can simil
 
 The [[concepts/causal-text-mining|Causal Text Mining]] task produces `(source, target, direction)` triples, where direction means a positive/increasing or negative/decreasing effect. Source and target order separately encodes which factor affects which. Although FCMs generally include numerical edge weights, this extraction task predicts signs rather than calibrated effect magnitudes. The rater guidelines prioritize text-grounded node names and correct endpoint order, and exclude transitive edges unless explicitly stated in the passage.
 
-The datasheet gives 224 training, 38 validation, and 56 test passages. Fine-tuning uses cross-entropy loss, 4-bit quantization, a learning rate of 2e-4, batch size 4, and at most 15 epochs with early stopping after three epochs without validation improvement. LoRA rank is selected by validation loss from 2 through 256; the selected ranks are 128 for Llama-2, 64 for Llama-3, and 128 for Mistral. Other training hyperparameters are held fixed (Appendix C).
+The 318 passages cover offshore wind development, banditry and food systems in northern Nigeria, food and medical aid in conflict regions, and maternal and child health in countries with low Human Development Index scores (Section 3.1). The datasheet gives 224 training, 38 validation, and 56 test passages. Fine-tuning uses cross-entropy loss, 4-bit quantization, a learning rate of 2e-4, batch size 4, and at most 15 epochs with early stopping after three epochs without validation improvement. LoRA rank is selected by validation loss from 2 through 256; the selected ranks are 128 for Llama-2, 64 for Llama-3, and 128 for Mistral. Other training hyperparameters are held fixed (Appendix C).
 
 ### Soft Edge Scores
 
@@ -62,6 +62,8 @@ The [[concepts/soft-edge-based-graph-evaluation|Soft Edge-Based Graph Evaluation
 ### Human Benchmark
 
 Twenty selected passages receive multiple human and LLM annotations. The appendices describe seven human annotators/raters; the main text more broadly says all authors annotated them. Raters choose a preferred annotation or a tie, excluding their own annotations. Each passage forms a separate Elo tournament, initialized at 1000 with a K-factor of 32. Its winning annotation becomes the reference against which automatic scores rank the other annotations. Spearman correlations between human and automatic rankings are then averaged across passages.
+
+Appendix I orders the rating heuristics: prefer useful tuples, avoid invented concepts, preserve source-target order, exclude unstated transitive relations, keep node names close to the text, retain descriptive modifiers, split distinct concepts joined by conjunctions, and prefer the correct causal sign. When heuristics conflict, raters are asked to favor earlier ones while exercising judgment. Agreement with these rankings therefore reflects this particular ordering of annotation priorities.
 
 ## Experiments
 
