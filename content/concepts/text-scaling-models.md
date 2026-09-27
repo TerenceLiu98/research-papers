@@ -13,7 +13,7 @@ tags:
 
 ## Overview
 
-Text scaling models estimate the relative position of documents or speakers along a latent dimension from word-use patterns. In political methodology, they are used to infer quantities such as ideological or policy positions from speeches, manifestos, and other texts without requiring hand-labeled positions for every document.
+Text scaling models estimate the relative position of documents or speakers along a latent dimension from textual content. In political methodology, they are used to infer quantities such as ideological or policy positions from speeches, manifestos, and other texts without requiring hand-labeled positions for every document. Approaches include statistical models of word-use patterns and instruction-tuned language models queried about an explicit dimension.
 
 ## Key Ideas
 
@@ -22,16 +22,20 @@ Text scaling models estimate the relative position of documents or speakers alon
 - Unidimensionality is consequential. Topic, framing, party identity, and other correlated forms of textual variation can be represented as position when the model has only one latent axis.
 - Bag-of-words representations simplify lexical dependence, collocations, document structure, over- or under-dispersion, and structural zeros. These assumptions may still yield useful rankings, but they can make standard errors too small.
 - Human placements, pairwise judgments, and bootstrap procedures provide complementary checks. Word-level or block-level resampling can relax reliance on a fully specified text-generating model while preserving different amounts of textual structure.
+- [[concepts/direct-query-text-scaling|Direct-Query Text Scaling]] asks an instruction-tuned LLM for a numerical position on a named dimension without task-specific training. Its measurement choices include scale endpoints, contextual instructions, abstention, and aggregation across chunks or texts.
+- Agreement and coverage are separate validation targets when a model can abstain. Pooled correlations may conceal weaker within-party agreement, and models scoring different subsets are not evaluated on an identical population.
 
 ## Important Papers
 
 - [[Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]
+- [[papers/scaling-political-texts-with-large-language-models-asking-a-chatbot-might-be-all-you-need|Scaling Political Texts with Large Language Models: Asking a Chatbot Might Be All You Need]]: validates direct LLM scores against expert placements, crowdsourced judgments, and roll-call estimates across four political-text settings.
 - Slapin and Proksch (2008), "A scaling model for estimating time-series party positions from texts."
 - Laver, Benoit, and Garry (2003), "Estimating the policy positions of political actors using words as data."
 - Benoit, Laver, and Mikhaylov (2009), "Treating Words as Data with Error: Uncertainty in Text Statements of Policy Positions."
 
 ## Related Concepts
 
+- [[concepts/direct-query-text-scaling|Direct-Query Text Scaling]]
 - Text as data
 - Latent trait estimation
 - Quantitative content analysis
