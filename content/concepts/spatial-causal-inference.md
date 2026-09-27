@@ -21,9 +21,12 @@ Spatial causal inference estimates treatment or policy effects when observations
 - Identification still requires causal assumptions such as SUTVA, conditional ignorability, and positivity. In spatial applications, ignorability may be formulated conditional on latent spatial processes as well as measured covariates.
 - Spatial point-process models can represent treatment assignment or sampling locations directly. In the presence of preferential sampling, policy-specific sampling intensities can induce spatially varying propensity scores.
 - Grid approximations, Gaussian processes, and Bayesian hierarchical models make spatial causal models computationally tractable, but introduce choices about resolution, covariance structure, and extrapolation across unsampled regions.
+- Event-based designs can compare what follows interventions within spatial and temporal neighborhoods. Matched Wake Analysis varies these windows and matches on geographic covariates and prior outcome trends before estimating treatment differences. This addresses sensitivity to aggregation choices, but does not itself eliminate unmeasured confounding or spillovers between events.
 
 ## Important Papers
 
+- [[papers/saving-human-lives-what-complexity-science-and-information-systems-can-contribute|Saving Human Lives: What Complexity Science and Information Systems can Contribute]]: Section 3.2 applies Matched Wake Analysis to raids versus detentions in Baghdad and subsequent nearby IED attacks. Its local observational estimates should not be generalized to all conflict interventions.
+- Schutte and Donnay (2014), "Matched wake analysis: finding causal relationships in spatiotemporal event data," Political Geography 41, 1-10: the method cited as reference 81 by that overview.
 - [[Spatial Causal Inference in the Presence of Preferential Sampling to Study the Impacts of Marine Protected Areas]]
 - Reich et al. (2021), "A review of spatial causal inference methods for environmental and epidemiological applications."
 - "Addressing geographic confounding through spatial propensity scores" (2019).
