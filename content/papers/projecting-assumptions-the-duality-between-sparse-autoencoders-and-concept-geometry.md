@@ -7,7 +7,7 @@ authors:
   - Thomas Fel
   - Demba Ba
 year: null
-source_job_id: "379c5bf6-6a22-4eb4-a7cf-317ee92fcb7d"
+source_job_id: "5c5ce4de-27f4-41ce-90c5-c586c594a8f9"
 tags:
   - sparse-autoencoders
   - mechanistic-interpretability
@@ -58,6 +58,8 @@ where sparsemax is Euclidean projection onto the probability simplex $\Delta^s=\
 
 The main baselines are ReLU, JumpReLU, and TopK SAEs. Evaluation includes concept-specific F1 scores, reconstruction MSE normalized by concept variance, active latent counts, and cosine similarities between samples' codes and between latents' activation profiles. These measure different aspects of representation quality.
 
+The synthetic evaluations use 1,000 points per concept. In the separability experiment, latent activations are thresholded at $10^{-6}$ to compute precision, recall, and F1 (Appendix C.1). In the heterogeneity experiment, normalized MSE of 1 corresponds to predicting a concept's mean; lower values indicate reconstruction of within-concept variation (Appendix C.2; Section 5.2). Sample-code similarities measure whether inputs share latent representations, whereas latent-profile similarities measure whether features activate together across the dataset. Low cross-concept similarity in the former can coexist with co-occurrence in the latter, as the formal-language results illustrate.
+
 | Setting | Setup | Reported result |
 | --- | --- | --- |
 | Nonlinear separability | Six 2D Gaussian clusters with alternating center norms of 1 and 3; 128 SAE latents | For the highlighted linearly separable concept, ReLU and JumpReLU reach F1 = 1; for the highlighted nonlinearly separable concept, their F1 is at most 0.5. SpaDE's best latents reach F1 = 1 for both. TopK performs less well on both (Section 5.1; Figure 5). |
@@ -76,6 +78,7 @@ The formal-language comparison selects baseline hyperparameters using the best t
 - The experiments focus on mutually exclusive concepts. Co-occurring concepts require a different interpretation of latent co-occurrence, even if receptive-field analysis remains applicable to individual concept presence.
 - The language evidence uses a small transformer trained on a formal grammar, and the naturalistic evaluation uses one vision backbone and a 10-class dataset. These results do not establish general recovery of concepts in large natural-language models.
 - Best-latent F1 is not an average over the whole dictionary or evidence of causal usefulness. No downstream steering intervention establishes improved [[Model Steerability]] here.
+- Error bars are not reported uniformly across experiments: the checklist says they are included when experiments were not too expensive. Figure 5 reports one-standard-deviation shading, which should not be generalized to uncertainty estimates for every comparison.
 - The supplied Markdown does not state a publication year or stable identifier for this paper; the year is left unset. Its NeurIPS checklist is not treated as evidence of acceptance.
 
 ## Related Concepts
