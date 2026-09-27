@@ -5,7 +5,7 @@ authors:
   - Edward D. Lee
 year: 2026
 date: "2026-09-09"
-source_job_id: bef384ff-abe8-4954-8567-57b25b3f68f3
+source_job_id: 046ebe51-c5cf-4f7c-a1b4-396058cd5aa2
 tags:
   - political-polarization
   - roll-call-voting
@@ -49,7 +49,14 @@ P_K(\mathbf s)=\frac{1}{Z_K}
 \exp\left[\sum_i s_i(\boldsymbol\sigma\cdot\mathbf h_i)-g(\boldsymbol\sigma)\right].
 $$
 
-Here $g$ parameterizes contextual energy. Its induced context marginal includes the conditional partition factors; it is not simply the normalized exponential of $-g$. One component of every $\mathbf h_i$ is constrained to the same value, allowing context to favor consensus toward yea or nay. Thus $K=3$ includes two heterogeneous preference dimensions and one consensus dimension.
+Here $g$ parameterizes contextual energy. Summing the joint model over votes gives the context marginal
+
+$$
+Q(\boldsymbol\sigma)=\frac{e^{-g(\boldsymbol\sigma)}}{Z_K}
+\prod_i 2\cosh(\boldsymbol\sigma\cdot\mathbf h_i).
+$$
+
+Thus context frequencies depend on both $g$ and the voter fields; they are not simply the normalized exponential of $-g$. One component of every $\mathbf h_i$ is constrained to the same value, allowing context to favor consensus toward yea or nay. Thus $K=3$ includes two heterogeneous preference dimensions and one consensus dimension.
 
 The paper fits Bayesian posteriors using NumPyro's Hamiltonian Monte Carlo No-U-Turn Sampler, reporting 1,000 independently initialized chains, $5{,}000K$ steps, and tree depth 6. Discrete rotation and reflection symmetries create equivalent parameterizations, which are aligned across samples. Adding the consensus constraint improves the numerical fits relative to unconstrained fields.
 
@@ -68,6 +75,15 @@ Marginalizing symmetric binary context produces effective even-order interaction
 ## Experiments
 
 The observational analysis uses Voteview Senate roll calls and congress-legislators metadata. The main text describes 1971-2025 coverage; Appendix B labels maps from the 92nd through the 119th Congress. Filtering transient senators retains about 94% of votes cast, generally with 97-100 senators per session, with three smaller exceptions. Missing votes are unobserved rather than a third modeled voting state. Simulated margin checks reproduce the observed absence patterns.
+
+For the median-voter checks, voters are selected by their average recorded vote, rather than by a separately estimated ideological score. Writing their empirical joint distribution as $\widehat P$, Equation 12 measures the fraction of multi-information captured as
+
+$$
+\mathrm{MI}=1-\frac{D_{\mathrm{KL}}(\widehat P\Vert P_K)}
+{D_{\mathrm{KL}}(\widehat P\Vert P_0)},
+$$
+
+where $P_0$ is the independent-voter baseline. Zero denotes baseline performance and one a perfect distributional fit; the reported 90% is not individual-vote classification accuracy.
 
 | Check | Reported finding | Scope |
 | --- | --- | --- |
