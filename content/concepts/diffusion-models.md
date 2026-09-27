@@ -26,6 +26,7 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - [[AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion]] conditions motion diffusion on camera trajectories and epipolar lines to synthesize multi-view evidence for dynamic-camera 3D reconstruction.
 - Guidance and reconstruction terms create a quality-control tradeoff: stronger conditioning can improve target validity but increase distortion or instability. [[Visual Counterfactual Explanations]] make this tradeoff explicit by combining semantic validity with proximity to a source image.
 - Diffusion can also act as a training curriculum for recurrent computation rather than solely as a sampling procedure. [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] trains a timestep-free denoiser with ordered annealed corruption, then preserves its hidden memory while injecting fresh maximal noise during iterative Sudoku inference.
+- Diffusion can jointly generate data and parameters for a downstream dynamics model. Diff-MN learns the joint distribution of regularized time series and NCDE expert-mixture weights, then uses each generated pair for [[concepts/continuous-time-series-generation|Continuous Time Series Generation]]. It generates mixture coefficients over pretrained experts, rather than all neural-network parameters.
 
 ## Important Papers
 
@@ -35,6 +36,7 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - [[AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion]]
 - [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]]
 - Ho, Jain, and Abbeel (2020), "Denoising diffusion probabilistic models."
+- [[papers/diff-mn-diffusion-parameterized-moe-ncde-for-continuous-time-series-generation-with-irregular-observations|Diff-MN: Diffusion Parameterized MoE-NCDE for Continuous Time Series Generation with Irregular Observations]]
 - Ho and Salimans (2022), "Classifier-free diffusion guidance."
 - Dhariwal and Nichol (2021), "Diffusion models beat GANs on image synthesis."
 - Jeanneret, Simon, and Jurie (2022), "Diffusion models for counterfactual explanations."
