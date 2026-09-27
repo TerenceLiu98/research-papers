@@ -20,6 +20,7 @@ Day-of-week effects are systematic differences in an observed outcome across day
 - **Separate weekends from weekday contrasts.** A seven-day test can reject uniformity entirely because weekends differ. A Monday-Friday test answers whether the working-week distribution is itself nonuniform.
 - **Define the calendar consistently.** Weekend conventions, changes in those conventions, holidays, and server time zones can affect day classification. A recorded resubmission date may differ from the first submission date.
 - **Distinguish raw shares from adjusted contrasts.** A regression coefficient compares a modeled outcome with a reference day conditional on the included controls. It need not rank days in the same order as raw counts, particularly when outcomes are normalized within weeks.
+- **Interpret normalization at its own scale.** Dividing a day's count by one seventh of its weekly total measures concentration within that week. The ratio is unchanged if all daily counts in the week increase proportionally, so a calendar association with this ratio does not establish a change in total research output.
 - **Respect aggregation and dependence.** Pooled findings can be dominated by one journal. Repeating a daily outcome across articles does not create independent daily measurements, and geographic patterns can be summarized with [[concepts/location-quotients|Location Quotients]] without assigning them a causal explanation.
 
 ## Important Papers

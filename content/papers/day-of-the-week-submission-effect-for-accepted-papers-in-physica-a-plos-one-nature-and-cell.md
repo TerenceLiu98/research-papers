@@ -48,6 +48,14 @@ These are publication windows, not identical submission-date windows. The covera
 
 **Outcome.** Chi-square tests compare submission-day counts with a uniform distribution over seven days and, separately, over five weekdays. The regression outcome is a transformed ratio to uniform distribution (RUD). Table 2's worked examples divide the daily count of eventually accepted submissions by one seventh of the corresponding weekly journal total. Every article in the same journal-day receives that ratio. The displayed Equations (2.1)-(2.2) in the supplied Markdown do not consistently express this construction; the worked examples provide the clearest operational description.
 
+Writing $n_{kij}$ for the accepted-paper count submitted on day $k$ of week $i$ to journal $j$, and $N_{ij}$ for that journal-week's total, the Table 2 calculation is
+
+$$
+\mathrm{RUD}_{kij}=\frac{n_{kij}}{N_{ij}/7}=\frac{7n_{kij}}{N_{ij}},\qquad N_{ij}>0.
+$$
+
+For example, Table 2 records 16 PLOS ONE papers received on August 7, 2006 out of 26 received that week, giving $16/(26/7)\approx4.31$. This means 4.31 times the uniform daily count within that observed week, not a greater chance of acceptance. The expression above reconstructs the worked example rather than reproducing the inconsistent displayed equation.
+
 **Article models.** Weekday indicators use Friday as reference, with a weekend indicator adjusted for country-specific weekend conventions and changes over time. Additional covariates include seasons, continent, a December 20-January 10 holiday indicator, and log-transformed author count, Human Development Index (HDI), and long-term orientation (LTO). Outcome transformations address skewness and kurtosis. After residual diagnostics, the authors use robust least squares with bisquare M-estimation and median-centered scale estimates; robust estimation fails for PLOS ONE, for which they report OLS. Models are also fitted within five time windows spanning 2000-2016.
 
 **Panel and spatial analyses.** The country-day panel retains 120,258 papers from 11 major contributing countries over 2,435 days, January 1, 2010-August 31, 2016, giving 26,785 cells. Random-effects EGLS models use country-day averages of log RUD and log author count, with and without article-count weighting. GIS maps compare each country's share of submissions in Tuesday-Thursday or Saturday-Monday with the corresponding pooled share, using location quotients.
