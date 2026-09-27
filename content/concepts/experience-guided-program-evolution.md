@@ -16,6 +16,7 @@ Experience-guided program evolution searches over executable programs while usin
 
 - Separate evidence storage from generated summaries. Deterministic records preserve scores, failures, ancestry, method families, and resource use; natural-language summaries interpret retrieved evidence when an operator needs it.
 - Current score is only one selection signal. OpenMLE-Evo also considers positive gain over the strongest parent and underexplored method families, using stochastic selection to keep promising alternatives available.
+- DGM weights eligible parents by sigmoid-scaled task accuracy and the inverse of one plus their functioning-child count. It archives functioning agents even after score declines, preserving lineages that may enable later gains. This underexploration bonus does not directly measure behavioral diversity; its greedy-parent ablation tests the value of retaining alternative branching opportunities.
 - The evolving program can also be the improver. SICA selects the best archived agent using accuracy, cost, and time, then asks that version to revise its own code. Its retained failures inform future proposals, although the authors observe path dependence in which early ideas constrain later exploration.
 - Match context to the transformation. Improve benefits from ancestors and siblings, Crossover from complementary branches, and Debug from attempts with related errors.
 - Bounded retrieval and cached summaries prevent growing histories from being replayed on every call. Failures remain useful evidence about approaches to avoid or repairs to reuse.
@@ -26,6 +27,7 @@ Experience-guided program evolution searches over executable programs while usin
 
 ## Important Papers
 
+- [[papers/darwin-godel-machine-open-ended-evolution-of-self-improving-agents|Darwin Godel Machine]]: combines log-informed self-modification with stochastic archive selection; lower-scoring ancestors appear in successful lineages, and a greedy-parent ablation performs worse in the reported setting (Section 4.4; Appendices A.3 and C).
 - [[papers/a-self-improving-coding-agent|A Self-Improving Coding Agent]]: archives agent versions and benchmark traces to guide scaffold revisions; utility combines task score with resource use, so reported improvements depend on the evaluation budget (Sections 3-5.1).
 - [[papers/frontis-ma1-training-an-ai4ai-model-towards-recursive-self-improvement-in-machine-learning-engineering|Frontis-MA1]]: OpenMLE-Evo instantiates structured experience cards, a task-global board, three-factor parent selection, and lazy operator-specific memory (Section 5; Appendix C).
 - [[papers/socia-evo-automated-simulator-construction-via-dual-anchored-bi-level-optimization|SOCIA-EVO]]: a metric-linked repair Playbook supports simulator evolution. Reported recurrence decreases across iterations, but the Llama backbone experiment shows that avoiding old errors does not guarantee accurate final programs (Section 3.4; Appendix A.5).
