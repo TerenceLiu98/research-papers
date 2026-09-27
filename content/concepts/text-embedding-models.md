@@ -23,10 +23,12 @@ Text embedding models map text to fixed-length numerical representations so that
 - Bi-encoders encode queries and documents independently, enabling offline document indexing and high throughput but limiting direct cross-document or query-document reasoning.
 - Decoder-only LLMs can also be adapted to produce embeddings. Once the output is used as a fixed vector, its inference and evaluation behavior belongs to the embedding-pipeline comparison.
 - Quality is workload-dependent. Reasoning-heavy retrieval can favor a model that jointly reads documents, while classification, similarity, and clustering can be served efficiently with specialized embeddings.
+- Behavioral supervision can encode associations beyond semantic resemblance. In [[concepts/belief-embeddings|Belief Embeddings]], debate co-voting triplets improve held-out belief-triplet discrimination while reducing S-BERT's GLUE-STSB Spearman correlation from 0.877 to 0.718. Domain-specific geometry therefore needs evaluation alongside general semantic similarity.
 
 ## Important Papers
 
 - [[The Embedder's Dilemma: LLMs Are Better, but at What Cost?]]
+- [[papers/a-semantic-embedding-space-based-on-large-language-models-for-modelling-human-beliefs|A semantic embedding space based on large language models for modelling human beliefs]]
 - Reimers and Gurevych (2019), "Sentence-BERT: Sentence embeddings using siamese BERT-networks." [arXiv](https://arxiv.org/abs/1908.10084)
 - Wang et al. (2022), "Text embeddings by weakly-supervised contrastive pre-training." [arXiv](https://arxiv.org/abs/2212.03533)
 - Su et al. (2023), "One embedder, any task: Instruction-finetuned text embeddings." [arXiv](https://arxiv.org/abs/2212.09741)
@@ -35,6 +37,7 @@ Text embedding models map text to fixed-length numerical representations so that
 ## Related Concepts
 
 - [[Massive Text Embedding Benchmark (MTEB)]]
+- [[concepts/belief-embeddings|Belief Embeddings]]
 - [[Cost-Aware Model Selection]]
 - Semantic textual similarity
 - Dense retrieval
