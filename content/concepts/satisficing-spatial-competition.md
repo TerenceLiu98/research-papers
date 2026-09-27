@@ -19,7 +19,9 @@ Satisficing spatial competition models voters as evaluating each party against a
 ## Key Ideas
 
 - A satisfaction kernel $f(|x-u_i|/q)$ assigns higher acceptance probability to a party nearer a voter's ideal point $x$. Larger $q$ makes satisfaction decay more slowly with ideological distance and represents greater voter tolerance or broader party appeal.
-- Independent satisfaction judgments allow abstention when neither party is acceptable and equal splitting when both are acceptable. Parties maximize expected vote share under this partitioning rule.
+- Independent satisfaction judgments allow abstention when neither party is acceptable and equal splitting when both are acceptable. For two parties, the probability of supporting party $i$ is $p_i=s_i(1-s_j)+s_is_j/2$.
+- Party objectives require a denominator distinction. Expected support $V_i=\int\rho(x)p_i(x)\,dx$ counts votes (or the fraction of all potential voters if $\rho$ is normalized). The share of votes actually cast is $V_i/\sum_jV_j$; abstention makes these different objectives. In Yang et al.'s model, local increases in vote counts can produce two-party separation, whereas the strict two-party vote-share variant converges to the median. Their minor-party extensions restore separation under the latter objective.
+- A fixed, centrist electorate can coexist with party polarization. Yang et al. estimate party appeal widths from within-party congressional ideological dispersion and obtain a historical fit between predicted and observed interparty distance of $r=0.75$ for 1861-2015. This supports consistency with the mechanism, not causal identification. Their negative width-separation relationship is not global: in the symmetric Gaussian model, separation also tends to zero as the width vanishes.
 - Center-distance coordinates distinguish where competition occurs from how differentiated the parties are: $m=(u_1+u_2)/2$ is the endogenous center and $2d=u_1-u_2$ is party separation.
 - In a symmetric electorate, party-label symmetry makes the polarization equilibrium condition odd in $d$. Under transversality and cubic nondegeneracy conditions, tolerance can act as a bifurcation parameter: high tolerance supports co-location, while lower tolerance supports two label-symmetric polarized equilibria.
 - Electorate asymmetry can shift the endogenous center and imperfectly unfold the symmetric bifurcation. When stable branches are separated by an unstable branch, slow changes in tolerance can produce history-dependent switching and political hysteresis.
@@ -30,7 +32,7 @@ Satisficing spatial competition models voters as evaluating each party against a
 ## Important Papers
 
 - [[Symmetry Breaking, Hysteresis, and Convergence to the Mean Voter in two-party Spatial Competition]]
-- Yang, Abrams, Kernell, and Motter (2020), "Why Are U.S. Parties So Polarized? A 'Satisficing' Dynamical Model."
+- [[papers/why-are-us-parties-so-polarized-a-satisficing-dynamical-model|Why are U.S. Parties So Polarized? A 'Satisficing' Dynamical Model]] (Yang et al., 2020).
 - [[Beyond the median voter: A model of how the ideological dimension shapes party polarization]]
 
 ## Related Concepts
