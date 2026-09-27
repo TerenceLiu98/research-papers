@@ -39,9 +39,9 @@ Narratives may shape economic beliefs and decisions, but keyword counts and sent
 
 An economist constructs the ontology using domain knowledge, web searches, and LLM-assisted exploration (Appendix B). Tables 1 and 6 enumerate eight cause categories and eleven effect categories. Examples distinguish government policy causing inflation (`fiscal`) from inflation affecting government policy or finances (`govt`). A sentence can express several causes and effects. This shares the fixed-category approach of [[concepts/ontology-constrained-relation-extraction|Ontology-Constrained Relation Extraction]], although the output here is target-relative narrative labels rather than linked entity triples.
 
-Articles are segmented into sentences and filtered for the word "inflation." Three team members annotate the data; all three annotate the test sentences, and majority agreement supplies evaluation labels. Historical test texts longer than 150 words are removed after sentence-segmentation failures, reducing that set from 500 to 488. The results captions state that 14 test instances without a majority annotation are excluded.
+Articles are segmented into sentences and filtered for the word "inflation." Contemporary news uses spaCy's Sentencizer; historical news uses BlingFire because the authors found spaCy segmentation unsuitable for that corpus (Sections 4.1-4.2). Three team members annotate the data; all three annotate the test sentences, and majority agreement supplies evaluation labels. Historical test texts longer than 150 words are removed after sentence-segmentation failures, reducing that set from 500 to 488. The results captions state that 14 test instances without a majority annotation are excluded.
 
-GPT-4o receives label definitions and 24 demonstrations: one per cause/effect category plus five non-narratives. It uses greedy decoding without constrained generation; the authors report reliable JSON formatting. Llama 3.1 8B and Phi-2 receive definitions and instructions, with LoRA fine-tuning that applies language-model loss only to label tokens rather than JSON notation. Appendix E reports 600 maximum steps, effective batch size 16, AdamW, learning rate 1e-4, and LoRA rank 16 with alpha 32. Additional JSON fields for time, direction, and foreign context are outside the reported evaluation.
+GPT-4o receives label definitions and 24 demonstrations: one per cause/effect category plus five non-narratives. It uses greedy decoding without constrained generation; the authors report reliable JSON formatting. Llama 3.1 8B and Phi-2 receive definitions and instructions, with LoRA fine-tuning that applies language-model loss only to label tokens rather than JSON notation. Table 7 reports 600 maximum steps, effective batch size 16, AdamW, learning rate 1e-4, and LoRA rank 16 with alpha 32. Additional JSON fields for time, direction, and foreign context are outside the reported evaluation.
 
 ## Experiments
 
@@ -85,6 +85,7 @@ Publication year, venue, and a stable identifier are not supplied in the parsed 
 ## Related Concepts
 
 - [[concepts/causal-micro-narrative-classification|Causal Micro-Narrative Classification]]
+- [[concepts/causal-text-mining|Causal Text Mining]]: the broader extraction problem; this paper assigns target-relative semantic labels and includes implicit explanations.
 - [[concepts/ontology-constrained-relation-extraction|Ontology-Constrained Relation Extraction]]
 - Human annotation disagreement
 - Temporal domain shift
@@ -94,6 +95,7 @@ Publication year, venue, and a stable identifier are not supplied in the parsed 
 - Shiller (2017), "Narrative economics": cited motivation for studying economic narratives.
 - Ash, Gauthier, and Widmer (2021), "Relatio: Text semantics capture political and economic narratives": cited narrative-extraction approach, discussed through its extension by Lange et al. (2022).
 - Andre et al. (2023), "Narratives about the macroeconomy": cited survey and experimental work on household and expert causal narratives.
+- [[papers/politicause-an-annotation-scheme-and-corpus-for-causality-in-political-texts|PolitiCause: An Annotation Scheme and Corpus for Causality in Political Texts]]: a library comparison, not a citation in this paper, that annotates complete, explicit causal relations and cause-effect spans in political sentences. Its annotation scope differs from this paper's inclusion of implicit target-relative explanations.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: a library comparison on human validation of text-based measurements; it studies latent positions rather than narrative labels and is not cited by this paper.
 
 [[index|Library home]]

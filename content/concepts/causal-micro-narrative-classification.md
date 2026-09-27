@@ -17,6 +17,7 @@ Causal micro-narrative classification identifies sentence-level explanations of 
 
 - **Anchor the task to a target.** An event or phenomenon such as inflation organizes the ontology. Keyword filtering works for a clearly named target but can omit paraphrases and requires reconsideration for more varied expressions.
 - **Separate presence from category.** A sentence can mention the target without explaining it, or express several causes and consequences at once. Evaluate binary detection separately from multi-label classification.
+- **Evaluate adherence to the narrative definition.** Well-formed structured output does not guarantee that a model distinguishes a causal explanation from a target mention. In the inflation study, few-shot GPT-4o reliably produces JSON but more often labels non-narratives as narratives than fine-tuned Llama; schema validity and semantic detection require separate checks.
 - **Preserve direction.** Government policy causing inflation and inflation changing government finances represent opposite directions relative to the target and need distinct labels.
 - **Treat the ontology as a measurement choice.** Expert-defined categories make aggregation possible but restrict discovery to specified explanations. An "other" label does not itself identify new mechanisms.
 - **Retain uncertainty in the human benchmark.** Implicit causation, missing context, and ambiguous antecedents can cause disagreement about whether a narrative exists. Majority-vote evaluation measures agreement with an annotation convention, not objective causal validity.
@@ -28,6 +29,7 @@ Causal micro-narrative classification identifies sentence-level explanations of 
 
 ## Related Concepts
 
+- [[concepts/causal-text-mining|Causal Text Mining]]: the broader task of detecting causal claims and extracting their components; target-centered classification adds an ontology of causes and effects without necessarily locating text spans.
 - [[concepts/ontology-constrained-relation-extraction|Ontology-Constrained Relation Extraction]]: shares a predefined semantic inventory; causal micro-narrative classification labels explanations relative to one target rather than extracting arbitrary entity triples.
 - Narrative economics
 - Multi-label text classification
