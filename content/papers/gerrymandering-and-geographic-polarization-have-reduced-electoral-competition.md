@@ -15,7 +15,7 @@ authors:
   - Kosuke Imai
 year: 2025
 date: 2025-08-21
-source_job_id: 24edb1eb-9ca1-4311-96e1-26437aa90b40
+source_job_id: 40091d97-48d2-4da2-be0b-944bec694ccf
 tags:
   - redistricting
   - gerrymandering
@@ -47,6 +47,8 @@ Democratic concentration in cities can produce a Republican seat advantage even 
 ### Simulated Maps and Geography
 
 Appendix A reports 5,000 simulated plans per state and cycle using the sequential Monte Carlo algorithm of McCartan and Imai (2023). The simulations incorporate population balance, contiguity, compactness, limits on splitting political subdivisions, Voting Rights Act considerations, and state-specific criteria. The 2010 simulations use 2010 Census data and the rules applicable to that cycle. Legal criteria are approximated by the simulation specification rather than mechanically guaranteed by a single nationwide rule.
+
+The manuscript identifies the [ALARM fifty-states repository](https://github.com/alarm-redist/fifty-states) as the source of simulation-generation code for both cycles.
 
 District urbanity is the proportion of voters residing in urban census blocks, using the 2020 Census classification for both cycles. Figure 1 uses a random sample of 1,000 plans per cycle to display the relationship between urbanity and Democratic win probability. The median simulated district is approximately 84% urban.
 
@@ -84,7 +86,7 @@ The most urban quarter of simulated districts sees average Democratic win probab
 
 ### Electoral Competition
 
-The main-text competitive category uses an expected two-party victory margin of about five percentage points or less. This concerns the gap between the parties' vote shares, not a five-point deviation of one party's share from 50%.
+The main-text competitive category uses an expected two-party victory margin of about five percentage points or less, corresponding to a Democratic two-party vote share of approximately 47.5%-52.5%. This concerns the gap between the parties' vote shares, not a five-point deviation of one party's share from 50%.
 
 | Approximate competitive districts | 2010 | 2020 | Change |
 | --- | ---: | ---: | ---: |
