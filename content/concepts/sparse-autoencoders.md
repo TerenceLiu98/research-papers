@@ -21,6 +21,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - Reconstruction fidelity and sparsity are competing objectives. Top-k, Batch Top-k, ReLU-threshold, JumpReLU, and Matryoshka variants make different choices about this tradeoff.
 - A feature can be interpretable without being causally effective when its activation correlates with a concept but intervening on it does not reliably change model behavior. Interpretability and [[Model Steerability]] should therefore be evaluated separately.
 - Feature coverage is not guaranteed by dictionary size. An SAE may miss user-relevant concepts or represent them only through entangled or composite features.
+- [[Sparse Autoencoder Receptive Fields]] connect encoder architecture to concept geometry. Half-space receptive fields restrict single-latent selectivity in ReLU and JumpReLU, while TopK's shared activity budget can underrepresent higher-dimensional concepts. SpaDE uses prototype distances and simplex projection to support local receptive fields and adaptive sparsity, under a Euclidean-distance assumption.
 - Post-hoc evaluation can assign concepts to neurons using tools such as CLIP-Dissect, but the resulting labels depend on the probing data, concept vocabulary, and evaluator model.
 - SAE features can also be treated as thematic atoms in a [[Continuous Topic Models|continuous topic model]], with activations representing topic weights for embedding-space dataset analysis rather than single-feature steering.
 - [[Mechanistic Topic Models]] aggregate SAE activations into document-feature counts, learn corpus-level topic mixtures over those features, and combine topic-weighted decoder directions for controlled text generation.
@@ -29,6 +30,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 ## Important Papers
 
+- [[Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]]
 - [[Learning Concept Bottleneck Models from Mechanistic Explanations]]
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
 - [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations]]
@@ -41,6 +43,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 ## Related Concepts
 
+- [[Sparse Autoencoder Receptive Fields]]
 - [[Concept Bottleneck Models]]
 - [[Concept Bottleneck Sparse Autoencoders]]
 - [[Model Steerability]]
