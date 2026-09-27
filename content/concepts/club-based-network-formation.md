@@ -17,6 +17,7 @@ Club-based network formation models individuals choosing group affiliations that
 ## Key Ideas
 
 - **Group size trades reach against quality.** In Fershtman and Persitz's model, link quality $h(m)$ falls weakly with club size. If two people share several clubs, the smallest one determines their direct-link weight. The direct value of a club is $k_h(m)=(m-1)h(m)$: more contacts need not mean greater total direct benefit.
+- **Congestion elasticity determines direct returns to size.** With discrete elasticity $\eta_h(m)=m[h(m+1)-h(m)]/h(m)$ for positive $h(m)$, direct club value rises when elasticity exceeds $-1$ and falls when it is below $-1$. This describes direct benefits; stable club size also depends on indirect paths and deviation incentives and need not respond monotonically to congestion.
 - **Indirect access also loses value.** A path's value is the product of its link weights, and a pair's benefit uses its highest-value path. A direct connection through a large club may be better or worse than an indirect connection through small clubs.
 - **Fees are paid per affiliation.** One large club can provide many weak contacts cheaply per contact; many small clubs offer stronger contacts at higher total membership cost. This differs from charging separately for each network edge.
 - **Entry and exit create externalities.** A new member can improve access to other groups but reduce incumbents' existing link quality through congestion. Leaving a club can sever paths used by third parties.

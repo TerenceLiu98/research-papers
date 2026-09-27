@@ -68,6 +68,7 @@ The supplied article reports analytical propositions and constructed examples, w
 | Very low positive fees | All Paired is uniquely open-stable and strongly efficient for $0<c<\min\{h(2)-h(2)^2,h(2)-h(3)\}$, when this interval is nonempty. | Section III.C |
 | $m$-Complete, $m<n$ | Fees must deter formation of smaller clubs yet remain low enough to prevent exit. The upper bound is $(m-1)[h(m)-h(m)^2]$; the admissible interval can be empty. | Proposition 3 |
 | $m$-Star | The central individual's exit incentive imposes $c\leq(m-1)h(m)$. Lower bounds deter peripheral entry and new clubs, including groups drawn from different original clubs. | Proposition 4 |
+| Empty environment | Open-stable if and only if $c\geq\max_{2\leq m\leq n}(m-1)h(m)$: no prospective club provides enough direct value to justify its fee. This is a stability threshold, distinct from the fixed-$m$ welfare threshold below. | Section III |
 | Reciprocal congestion | A 2-Star is open-stable for $c\in[0,1]$; a Grand Club is open-stable for $c\in[1-1/(n-1),1]$. A 3-Star with $n\geq9$ is stable only at $c=1$, where that architecture exists. | Claims 1-3 |
 
 More precisely, Proposition 2's two welfare thresholds for fixed $m$ are
@@ -79,11 +80,15 @@ $$
 
 An $m$-Complete environment maximizes welfare for $0\leq c\leq c_1$, an $m$-Star for $c_1\leq c\leq c_2$, and Empty for $c\geq c_2$. Boundary ties are allowed. Comparing different club sizes additionally requires the congestion function; arbitrary mixtures of sizes are outside this result.
 
+The direct club value is $k_h(m)=(m-1)h(m)$. Lemma 2 relates its change with size to the discrete elasticity $\eta_h(m)=m[h(m+1)-h(m)]/h(m)$ where $h(m)>0$: inelastic congestion ($\eta_h(m)>-1$ at every size) gives strictly increasing direct club value, while elastic congestion ($\eta_h(m)<-1$) gives strictly decreasing value. Inelastic congestion guarantees some fee range supporting a stable Grand Club (Claim 1(ii)). Stable club size nevertheless need not vary monotonically with congestion: the article describes congestion functions for which intermediate-size $m$-Complete environments are never stable although small- and large-club complete environments can be stable.
+
 ### Weak connections and institutional examples
 
 Section III.E compares $h(3)$, a direct link in a three-person club, with $h(2)^2$, an indirect connection through two two-person clubs. When congestion is stronger, $h(3)<h(2)^2$, a 2-Star becomes stable over a fee interval where 3-Complete is not. When $h(3)>h(2)^2$, the paper shows how 3-Complete can instead emerge as stable, using the additional sufficient condition $h(3)\geq0.15$. These are conditional architecture comparisons, not a unique prediction for every environment. A stable 3-Complete environment can still yield less welfare than a 2-Star because individuals do not internalize all congestion effects.
 
 Section IV constructs an Almost Grand Club with one excluded individual. That person would gain from entry, but incumbents would lose from congestion: the environment can be closed-stable while failing open stability. Section V.A gives a six-person example with four type-X individuals, $h_X(m)=1/3$, and two type-Y individuals, $h_Y(2)=1$ and $h_Y(m)=0$ for $m>2$. Separate clubs are open-stable for $c\in[2/3,1]$, despite no preference over partners' types.
+
+Open and closed stability coincide in the no-congestion baseline: entry cannot harm incumbents through weaker links, so no incumbent has a payoff-based reason to veto it (Section IV).
 
 Clustering arises because each club projects to a clique (Section V.B). This supplies an alternative mechanism to preferences for similar partners or transitive ties, but the paper does not estimate their relative empirical importance.
 
