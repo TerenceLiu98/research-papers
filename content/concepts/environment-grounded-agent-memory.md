@@ -22,6 +22,7 @@ Environment-grounded agent memory retains procedures, constraints, and failure l
 - Distinguish a local verdict from the official task score. A verifier can accept an artifact that still misses a scoring requirement; unsupported memory updates may then propagate the error into later practice.
 - Freeze memory to measure reuse. Resetting the environment, disabling writeback, and checking memory integrity separate final execution from ongoing learning. These controls do not remove prior target exposure or unequal exploration budgets.
 - Evaluate applicability as well as recall. RSIAgent's case studies show agents checking current artifact identity, layout, and native application settings before applying retained procedures. Such checks bound a lesson's scope without proving general causal validity.
+- Retain uncertainty in interpretations and tool behavior. RSIAgent's audio case preserves qualifications about ambiguous source-fragment choices and revises rendering advice after a sample-level discrepancy. A configuration that resolves the discrepancy in tested builds supports a conditional procedure, not an unrestricted explanation of renderer behavior (Appendix E.7).
 
 ## Important Papers
 

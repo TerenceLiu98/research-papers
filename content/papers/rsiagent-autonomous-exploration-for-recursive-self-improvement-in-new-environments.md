@@ -9,7 +9,7 @@ authors:
   - Kun Zhou
   - Biwei Huang
 year: null
-source_job_id: 13ef99ca-20db-464d-a1b2-3c653717e127
+source_job_id: e725ea9b-6f87-4f4f-98a9-153f67b682c0
 tags:
   - llm-agents
   - agent-memory
@@ -76,6 +76,8 @@ GLM-5.3-Flash supplies the development actor and verifier; Qwen3.8-27B performs 
 
 **Trace-level evidence.** T049's presentation score rises from 0.40 to 0.80 after correcting an arrow endpoint; another slide still earns no credit despite local acceptance. T044 rises from 0.40 to 1.00 by using Shotcut's native crop settings, although both runs remove the watermark and the memory run takes more actor iterations. T065's 0-to-1 booking improvement also involves an explicit current-date clarification absent from the baseline. These selected historical comparisons illustrate memory retrieval and changed artifacts, with confounds that prevent a matched causal estimate (Appendices E.2 and E.5).
 
+**CAD and audio cases.** T103's FreeCAD reconstruction improves from an archival baseline of 0.2500 to 0.6789 and 0.6897 in two frozen-memory evaluations. Traces show reuse of drawing-interpretation procedures and geometric probes, but the first evaluation still has incorrect support and mounting-hole geometry. T085's REAPER task improves from 0.6800 to 0.9417 and 0.9413. Its first evaluation retrieves the retained source-fragment interpretation and revised rendering settings; sentence-gap credit rises from 0.8250 to 1.0000, and processed-ending credit from 0.2837 to 0.8996, removing a binding 0.68 score cap. Source-order credit is unchanged. These are historical known-target comparisons, not matched-budget memory ablations; the audio evaluator approximates sentence boundaries through acoustic activity rather than establishing complete semantic or perceptual correctness (Appendices E.6-E.7).
+
 ## Limitations
 
 - Exploration is target-conditioned, and DRS practices the target itself. Frozen-memory evaluation demonstrates reuse on known targets; it does not establish transfer to entirely unseen tasks.
@@ -85,6 +87,7 @@ GLM-5.3-Flash supplies the development actor and verifier; Qwen3.8-27B performs 
 - Additional exploration can be expensive. The ten-hour reference target watchdog applies to one run, not an entire exploration lineage; finite budgets, stopping policies, and verifier quality constrain the method (Section 7; Appendix C.2).
 - Model weights remain fixed, and the demonstrated adaptation primarily changes memory under a supplied learning framework. This does not by itself establish improved ability to redesign the improvement mechanism or indefinite compounding gains.
 - The supplied Markdown states no explicit publication year, DOI, or arXiv identifier for RSIAgent. The year is left unspecified; dated experiment records are not publication metadata.
+- The supplied Markdown ends at Table A8's caption without its table body. The audio component scores above come from the preceding prose in Appendix E.7; missing table entries are not reconstructed.
 
 ## Related Concepts
 
@@ -98,6 +101,7 @@ The source cites the following works in Section 5:
 
 - [[papers/a-self-improving-coding-agent|A Self-Improving Coding Agent]]: SICA modifies its own agent scaffold; RSIAgent instead emphasizes environment-specific memory under fixed model weights.
 - [[papers/darwin-godel-machine-open-ended-evolution-of-self-improving-agents|Darwin Godel Machine]]: archive-based scaffold evolution using benchmark feedback, contrasted with RSIAgent's local environment verification during learning.
+- [[papers/hyperagents|HyperAgents]]: makes both the task agent and its modification procedure editable, whereas RSIAgent's described adaptation updates memory through a supplied exploration framework.
 - Shinn et al. (2023), "Reflexion: Language Agents with Verbal Reinforcement Learning": a predecessor for learning through retained verbal experience.
 - Wang et al. (2023), "Voyager: An Open-Ended Embodied Agent with Large Language Models": a predecessor combining automatic curriculum and skill acquisition.
 - Zhu et al. (2026), "Hybrid Self-Evolving Structured Memory for Computer-Use Agents": HyMEM combines symbolic nodes and trajectory embeddings for memory retrieval and inference-time updates.
