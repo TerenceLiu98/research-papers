@@ -17,6 +17,7 @@ Fixed-effects instrumental-variable estimation combines control for stable unit 
 
 - Individual fixed effects cannot by themselves remove confounding from unobserved characteristics that change over time. Instrument validity must be justified after accounting for the included controls and fixed effects.
 - A strong first stage supports relevance. It does not establish that the instrument affects the outcome only through treatment or is unrelated to residual outcome shocks.
+- Adding location-by-time fixed effects requires instrument and treatment variation that survives those controls. In pollution applications, [[concepts/thermal-inversions-as-pollution-instruments|Thermal Inversions as Pollution Instruments]] also require attention to exposure windows: instrument strength can fall substantially when the window changes.
 - When infrastructure expansion instruments individual adoption, regional economic changes and spillovers to non-users can threaten exclusion. Baseline regional characteristics interacted with trends address particular patterns of confounding, not every possible regional shock.
 - The treatment population matters. Kohara and Shen interpret their estimate as local to people induced to use the Internet by provincial broadband availability; applying it to all users requires additional generalization assumptions.
 - Inference should reflect the level of instrument variation. The application clusters by province and supplements conventional inference with a wild cluster bootstrap because the number of clusters is limited.
@@ -24,6 +25,7 @@ Fixed-effects instrumental-variable estimation combines control for stable unit 
 ## Important Papers
 
 - [[papers/the-cost-of-internet-use-an-examination-of-the-causal-impact-on-body-weight|The Cost of Internet Use: An Examination of the Causal Impact on Body Weight]]: Uses provincial broadband ports per capita to instrument Internet use in an individual panel and explicitly discusses regional shocks and spillovers as limitations.
+- [[papers/impacts-of-pm2-5-air-pollution-on-high-skilled-worker-productivity-in-china|Impacts of PM2.5 air pollution on high-skilled worker productivity in China]]: Instruments pollution with thermal inversions while controlling for author and city-by-year fixed effects; its baseline excludes zero-publication years and its alternative exposure windows illustrate specification-dependent first-stage strength.
 
 ## Related Concepts
 
