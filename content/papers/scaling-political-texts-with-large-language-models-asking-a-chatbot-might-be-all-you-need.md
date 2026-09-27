@@ -16,7 +16,7 @@ tags:
 
 ## TL;DR
 
-Directly asking an instruction-tuned LLM for a political text's position on a specified scale produces strong agreement with expert, crowd, and roll-call benchmarks in four settings. On congressional tweets published after the reported training cutoff of GPT-4, GPT-4 Turbo reaches Pearson r = 0.93 on 484 of 899 benchmark tweets; Mixtral 8x22B reaches 0.90 on 552. These correlations apply to different subsets because models can return `NA`. The paper supports task-specific validation of direct scoring, rather than assuming that any recent LLM measures any political dimension reliably.
+Directly asking an instruction-tuned LLM for a political text's position on a specified scale produces strong agreement with expert, crowd, and roll-call benchmarks in four settings. On congressional tweets published after the reported training cutoff of `gpt-4-0613`, GPT-4 Turbo reaches Pearson r = 0.93 on 484 of 899 benchmark tweets; Mixtral 8x22B reaches 0.90 on 552. The cutoff claim concerns `gpt-4-0613`, not all models evaluated on these tweets. These correlations apply to different subsets because models can return `NA`. The paper supports task-specific validation of direct scoring, rather than assuming that any recent LLM measures any political dimension reliably.
 
 ## Research Question
 
@@ -40,6 +40,8 @@ Each query supplies the text and a named dimension with endpoints on a 0-100 sca
 The authors set temperature to 0, cap responses at 20 tokens, and request JSON mode where available. Prompts are limited to 4,096 tokens because their tests found worse performance with longer inputs. Long documents are split and their chunk scores combined with token-count weights. Senators are positioned by averaging scores from random samples of 100 tweets; scoring aggregated tweet collections provides an alternative checked in Appendix G.2.
 
 The main model comparison includes GPT-4 Turbo, GPT-4, GPT-3.5 Turbo, Mixtral 8x22B, quantized Mixtral 8x7B, and Llama 3 at 70B and 8B. Tweet classifiers learn party membership, from which positions are derived; the manifesto BERT baseline instead learns crowd-coded sentence positions. Thus, baseline supervision does not always target exactly the same construct as direct ideological scoring.
+
+The economic/social manifesto BERT baseline uses a 45%/5%/50% sentence split for training, validation, and prediction, keeping all ratings of each sentence in one split. These sets contain approximately 98,000, 10,000, and 107,000 human ratings, respectively (Appendix D.1). The senator classifiers use about 220,000 tweets, with the sampled evaluation tweets excluded from training and validation; classifiers for the post-cutoff task use approximately one million congressional tweets (Sections 3.3-3.4, Appendix D.2).
 
 ## Experiments
 
