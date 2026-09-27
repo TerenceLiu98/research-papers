@@ -17,6 +17,7 @@ Recursive self-improvement concerns a system improving the mechanisms by which i
 
 - Distinguish self-modification from improvement under a fixed optimizer, and both from improvement of the optimization mechanism itself. The reviewed threshold paper calls the latter strong RSI.
 - Specify the system boundary. Revising agent scaffolding leaves the underlying model unchanged unless its parameters or training process are also accessible; improving an external artifact is another distinct target.
+- A self-referential scaffold can use its best archived implementation to write the next version, as in SICA. This makes the improver itself editable, but task-score gains alone do not isolate whether its ability to generate further improvements has increased. Faster tools under a fixed timeout can account for substantial gains.
 - Evaluation is central. Benchmarks, bounded simulations, and formal utility proofs justify different scopes of claims about a successor. A bounded score gain does not certify all future behavior.
 - [[concepts/meta-evolution|Meta-evolution]] trains an improver from search experience. Demonstrating that pipeline once is a step toward, but not evidence of, an indefinitely sustained autonomous sequence.
 - The introspection-threshold thesis proposes [[concepts/functional-introspection|functional introspection]] as a prerequisite. Its recursion-theoretic construction motivates self-reference without establishing the availability of unlimited beneficial modifications.
@@ -24,6 +25,7 @@ Recursive self-improvement concerns a system improving the mechanisms by which i
 
 ## Important Papers
 
+- [[papers/a-self-improving-coding-agent|A Self-Improving Coding Agent]]: uses the best archived coding agent to modify its own scaffold with fixed model weights; reports gains on a 50-task SWE-bench Verified subset but little improvement on AIME/GPQA, bounding the empirical self-improvement claim.
 - [[papers/self-reference-in-large-language-models-the-introspection-threshold-for-recursive-self-improvement|Self-Reference in Large Language Models]]: proposes an introspection threshold and discusses bounded simulation, structural barriers, and successor evaluation.
 - [[papers/frontis-ma1-training-an-ai4ai-model-towards-recursive-self-improvement-in-machine-learning-engineering|Frontis-MA1]]: demonstrates trained improvement operators and evolutionary search, while distinguishing these results from sustained autonomous RSI.
 - Schmidhuber (2003), "Godel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements," as discussed in the threshold paper: a proof-based approach to code rewriting under formal utility assumptions.
