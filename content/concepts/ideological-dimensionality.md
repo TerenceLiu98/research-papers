@@ -26,11 +26,13 @@ Ideological dimensionality is the number of substantively independent axes neede
 - Economic left-right and the [[GAL-TAN Dimension|socio-cultural GAL-TAN dimension]] form one widely used two-axis space in European politics. [[Making space: citizens, parties and interest groups in two ideological dimensions]] shows why actor coverage matters as well as voter distribution: parties can leave a quadrant sparse even when citizens and organized interests occupy it.
 - Consensus in every marginal issue distribution does not imply consensus in the joint space. [[A computational model of spatial politics: Hotelling-Downs model as statistical physics]] constructs a correlated two-dimensional electorate with unimodal opinion on each issue but two off-center modes jointly; its party equilibria then differ sharply between two-party and multiparty competition.
 - Dimensionality is measurement-dependent. The relevant issues, their correlations, and their salience can change across electorates and elections, so the effective space must be estimated for the setting under study.
+- Roll-call dimensionality can also be assessed through compatibility of voter orderings across issue groups. [[concepts/nonparametric-ideal-point-inference|Nonparametric Ideal-Point Inference]] tests that restriction under one-dimensional preferences within groups, shared concave utility, and independent errors. A rejection supports different issue-specific orderings under those assumptions; it does not estimate the number of Euclidean dimensions, and non-rejection does not prove a single dimension.
 - In [[Beyond the median voter: A model of how the ideological dimension shapes party polarization]], increasing dimension lowers the modeled vote-share threshold for two parties to prefer centrist positions. Voter-cluster separation has a smaller effect in the paper's numerical cases.
 - That result establishes a mechanism under the model's symmetry and distributional assumptions, not an empirical causal estimate. Real party systems may also respond to institutions, party entry, activist constraints, and identity-based or affective polarization.
 
 ## Important Papers
 
+- [[papers/nonparametric-ideal-point-estimation-and-inference|Nonparametric Ideal-Point Estimation and Inference]]: tests common Supreme Court orderings across issue areas and reports evidence against that restriction in the 1960s; other decades do not reject at the stated level.
 - [[Beyond the median voter: A model of how the ideological dimension shapes party polarization]]
 - [[A computational model of spatial politics: Hotelling-Downs model as statistical physics]]
 - [[Making space: citizens, parties and interest groups in two ideological dimensions]]
