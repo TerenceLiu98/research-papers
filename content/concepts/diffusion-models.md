@@ -21,6 +21,7 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - Gaussian denoising diffusion probabilistic models can be understood through score estimation: predicted noise is related to the gradient of the noisy data's log density by a noise-level-dependent scaling and sign.
 - [[concepts/discrete-diffusion-models|Discrete Diffusion Models]] instead corrupt categorical states through transition matrices. Structured kernels can encode ordinal locality or use [[concepts/absorbing-state-diffusion|Absorbing-State Diffusion]] to replace tokens with persistent masks. Austin et al.'s D3PM experiments show that the useful corruption structure depends on the data domain.
 - Classifier guidance adds gradients from an external noisy-image classifier, while classifier-free guidance interpolates conditional and unconditional denoising predictions without that classifier.
+- Diffusion can model reward distributions rather than images or trajectories. [[papers/difusion-reward-models|Difusion Reward Models]] conditions a lightweight denoising head on a frozen language-model representation and samples multimodal rewards for human-feedback alignment.
 - Latent diffusion performs the process in a lower-dimensional VAE latent space, reducing computation while relying on the decoder to recover image-space detail.
 - Diffusion priors can also model temporal 2D motion and support multi-view completion when combined with geometric constraints. [[Multi-View Motion Diffusion]] applies this idea to 3D motion lifting.
 - [[AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion]] conditions motion diffusion on camera trajectories and epipolar lines to synthesize multi-view evidence for dynamic-camera 3D reconstruction.
@@ -37,6 +38,7 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]]
 - Ho, Jain, and Abbeel (2020), "Denoising diffusion probabilistic models."
 - [[papers/diff-mn-diffusion-parameterized-moe-ncde-for-continuous-time-series-generation-with-irregular-observations|Diff-MN: Diffusion Parameterized MoE-NCDE for Continuous Time Series Generation with Irregular Observations]]
+- [[papers/difusion-reward-models|Difusion Reward Models]]
 - Ho and Salimans (2022), "Classifier-free diffusion guidance."
 - Dhariwal and Nichol (2021), "Diffusion models beat GANs on image synthesis."
 - Jeanneret, Simon, and Jurie (2022), "Diffusion models for counterfactual explanations."
