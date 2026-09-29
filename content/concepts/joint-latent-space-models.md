@@ -10,10 +10,11 @@ tags:
 
 ## Overview
 
-Joint latent space models connect multiple kinds of observations through shared unobserved positions. For rankings and networks, an individual's position can determine both preferences over items and the probability of links to other individuals. This lets both observation types inform the same latent features while preserving distinct likelihoods for rankings and ties.
+Joint latent space models connect multiple kinds of observations through shared unobserved positions. For rankings and networks, an individual's position can determine both preferences over items and the probability of links to other individuals. For media networks, an outlet's position can drive both audience-overlap counts and a text-derived slant indicator. Distinct observation likelihoods inform the same latent features.
 
 ## Key Ideas
 
+- **Auxiliary measurements can interpret a network axis.** Casarin, Peruzzi, and Steel combine a Poisson audience-network likelihood with Beta-logistic text-slant observations. Their text signal contributes unevenly across countries, illustrating that interpretation and improved network fit are separate goals. A shared Markov state allows the coordinates to switch between recurring configurations.
 - **Two geometries in one space.** In Gu and Yu's model, item-vector projections determine mean preference utilities, while Euclidean distances between individuals determine network tie probabilities. Similar positions therefore imply similar preference tendencies and a higher probability of connection.
 - **Conditional independence is an assumption.** Dependence between observation types is mediated by the shared features. Residual association after fitting can indicate that the shared representation is insufficient; a non-significant diagnostic does not prove sufficiency.
 - **Joint estimation differs from sequential fitting.** Estimating positions from rankings alone or from a network alone and then holding those estimates fixed discards feedback from the second likelihood. Whether joint fitting helps must be evaluated for the data and task.
