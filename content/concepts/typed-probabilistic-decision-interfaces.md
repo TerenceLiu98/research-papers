@@ -29,6 +29,7 @@ Typed probabilistic decision interfaces map a state and a caller-defined set of 
 - [[papers/decision-hijacking-prompt-injection-attacks-on-jevs-typed-probabilistic-decisions|Decision Hijacking: Prompt Injection Attacks on Jev's Typed Probabilistic Decisions]]: tests whether indirect prompt injection changes Jev's probabilities and choices when the action set is declared and fixed.
 - [[papers/jev-thinks-i-dont-know-but-doesnt-say-it-introducing-sys1cal-v1-dataset-for-probability-calibration|Jev thinks I don't know, but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration]]: compares Jev's structured output primitives against constructed probability targets and studies representation sensitivity.
 - [[papers/jev-as-a-judge-accept-when-confident-escalate-when-unsure|JEV-as-a-Judge: Accept When Confident, Escalate When Unsure]]: evaluates a decision-only Jev interface for judgment accuracy, probability quality, confidence, and escalation.
+- [[papers/decide-dont-generate-competitive-dimensional-absa-with-jevs-typed-decisions|Decide, Don't Generate: Competitive Dimensional ABSA with Jev's Typed Decisions]]: composes SCORE, CHOICE, and NOUL decisions with learned calibration and reranking for dimensional ABSA.
 
 ## Related Concepts
 
