@@ -26,6 +26,7 @@ Bradley-Terry scaling estimates relative item scores from pairwise judgments or 
 - **Distinguish utility and rank uncertainty.** Uniform utility consistency supports ranking recovery only with sufficient score separation. Confidence intervals for individual utilities do not automatically give valid rank confidence sets; graph topology and degree imbalance affect the available guarantees (Fang et al., Sections 4.3-4.4).
 - **Check representational limits.** A single BT utility vector imposes strong stochastic transitivity and cannot reproduce intrinsic preference cycles. [[concepts/plackett-luce-model|Plackett-Luce]] extends the model to ranked subsets, while mixtures and covariate-assisted models address different forms of heterogeneity (Fang et al., Section 2).
 - **Match the solver to the graph.** The survey's supplementary comparison favors asynchronous Newman's iteration in full-data passes, but synchronous updates can diverge on near-bipartite graphs. Computational convergence is distinct from statistical accuracy (Fang et al., Section 5.1 and Supplement S.3).
+- **Allow tied latent ranks explicitly.** [[concepts/bayesian-rank-clustering|Bayesian Rank Clustering]] can assign a shared strength to a latent group. The BT-SBM learns these groups and their count, giving within-group win probability one half while retaining a transitive ordering between groups. This represents uncertainty about ranking granularity, not a model of drawn match outcomes.
 
 ## Important Papers
 
