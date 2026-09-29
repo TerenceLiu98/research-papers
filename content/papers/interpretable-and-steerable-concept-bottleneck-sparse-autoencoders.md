@@ -19,7 +19,7 @@ tags:
 
 ## TL;DR
 
-This paper introduces Concept Bottleneck Sparse Autoencoders (CB-SAE), a post-hoc hybrid of [[Sparse Autoencoders]] and [[Concept Bottleneck Models]]. CB-SAE prunes sparse-autoencoder neurons with low interpretability or steerability, then adds a lightweight bottleneck aligned to user-specified concepts. Across LLaVA and UnCLIP experiments, the authors report average gains of 32.1% in interpretability and 14.5% in steerability over a standard SAE baseline, while retaining unsupervised feature discovery.
+This paper introduces Concept Bottleneck Sparse Autoencoders (CB-SAE), a post-hoc hybrid of [[concepts/sparse-autoencoders|Sparse Autoencoders]] and [[concepts/concept-bottleneck-models|Concept Bottleneck Models]]. CB-SAE prunes sparse-autoencoder neurons with low interpretability or steerability, then adds a lightweight bottleneck aligned to user-specified concepts. Across LLaVA and UnCLIP experiments, the authors report average gains of 32.1% in interpretability and 14.5% in steerability over a standard SAE baseline, while retaining unsupervised feature discovery.
 
 ## Research Question
 
@@ -47,6 +47,8 @@ For each SAE neuron, the method computes interpretability $I$ and steerability $
 
 CB-SAE is trained with three objectives: mean-squared reconstruction of the original vision activation; a cosine-cubed loss aligning concept-encoder outputs with CLIP zero-shot concept predictions; and a cyclic reconstruction loss that re-encodes the reconstructed activation and aligns it with the same pseudo-labels. The encoder and decoder are updated by alternating Adam optimizers, while the retained SAE remains fixed.
 
+The interpretability loss updates only the concept encoder; the cyclic loss updates only the concept decoder. Top-$k$ sparsity is applied only during decoding, so the encoder can describe more than $k$ concepts. The main setup uses the VLG-CBM ImageNet concept set and CLIP-ViT-B/16 pseudo-labels, with a stronger CLIP model for evaluation (Sections 5.2 and 6.1).
+
 ## Experiments
 
 ### SAE analysis
@@ -62,9 +64,13 @@ In the main CLIP/LLaVA analysis, neurons fall into four groups according to whet
 
 Concept coverage also depends strongly on the concept set. The baseline SAE covers 96.3% of Broden concepts, but only 72.8% of VLG-CBM concepts, 55.3% of DECIDER concepts, 61.9% of 3,000 common English words, and 28.0% of 20,000 common English words.
 
+These groups depend on the evaluation threshold. Appendix C.2 replaces the mean steerability threshold of 0.232 with a null baseline of 0.173 from the original CLIP layer's neurons; the share high on both measures rises from 18.84% to 29.14%. The 18.84% figure therefore describes a relative ranking under the main protocol, not an absolute fraction of usable features.
+
 ### Quantitative comparison
 
 All scores below are normalized so higher is better. CD is the CLIP-Dissect interpretability score, MS is monosemanticity, and the two steerability columns use unit-vector and white-image interventions.
+
+Both interventions set the selected neuron to 50. Unit-vector steering zeros the other neurons; white-image steering retains their activations for a blank white input. LLaVA scores compare generated text with the assigned concept in sentence-embedding space; UnCLIP scores compare the generated image with the top-16 activating images in DINOv2 space. Their absolute steerability scores are therefore not directly comparable across tasks (Section 6.1 and Appendix C.2).
 
 | Downstream model | Method | CD | MS | Unit-vector | White-image |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -77,14 +83,18 @@ All scores below are normalized so higher is better. CD is the CLIP-Dissect inte
 
 The reported average improvements are 33.0% in interpretability and 27.5% in steerability for LLaVA-1.5-7B, 29.0% and 14.0% for LLaVA-MORE, and 34.3% and 2.1% for UnCLIP. Thus, interpretability gains are consistent, while steerability gains are smaller and more dependent on the downstream model.
 
+**Source inconsistency:** Section 6.2 reports the LLaVA-MORE steerability gain as 14.0%, but Table 1 implies relative gains of approximately 7.3% and 6.8%, averaging 7.0%. The abstract's overall 14.5% gain is also not reproduced by averaging the six relative steerability gains in the displayed table (approximately 12.2%). These calculations use rounded table entries; the reported headline gains should be read with this discrepancy in mind.
+
 ### Ablations and analysis
 
 - Discarded SAE neurons score 0.084 on CLIP-Dissect and 0.144/0.162 on the two steerability measures. Retained SAE neurons score 0.238 and 0.263/0.252, while CB neurons score 0.323 and 0.231/0.219. CB neurons are the most interpretable, but retained SAE neurons remain more steerable.
 - Pruning by both interpretability and steerability gives a more balanced result than using either score alone. Steerability-only pruning substantially harms reconstruction, whereas pruning by interpretability or by both scores preserves reconstruction more closely.
-- Removing the steerability loss leaves interpretability similar but reduces steerability by 2.9%.
+- Adding the steerability loss leaves interpretability similar and improves steerability by a reported 2.9% (Figure 5C).
 - A CB-AE without any retained SAE has higher interpretability than CB-SAE but lower steerability, supporting the value of combining supervised concepts with retained SAE features.
 - The number of active concept neurons affects a reconstruction-steerability tradeoff: reconstruction improves as $k$ grows, while concept steerability peaks and then declines at larger $k$.
 - Steerability scores for 1,329 shared CB concepts across LLaVA and UnCLIP have Pearson correlation 0.06 ($p=0.035$), suggesting that steerability is substantially downstream-task dependent.
+
+Table 5 reports zero-shot ImageNet accuracy of 74.07% for the baseline SAE reconstruction, 73.78% for CB-SAE with both pruning scores, and 70.99% for steerability-only pruning. Appendix C.2 also finds that low-interpretability neurons can contribute more to reconstruction than high-interpretability neurons, so low semantic utility does not imply negligible reconstruction value.
 
 ## Limitations
 
@@ -94,11 +104,11 @@ The retained SAE neurons are generally more steerable than the added CB neurons,
 
 ## Related Concepts
 
-- [[Sparse Autoencoders]]
-- [[Concept Bottleneck Models]]
-- [[Concept Bottleneck Sparse Autoencoders]]
-- [[Model Steerability]]
-- [[Hierarchical Concept Embedding]]
+- [[concepts/sparse-autoencoders|Sparse Autoencoders]]
+- [[concepts/concept-bottleneck-models|Concept Bottleneck Models]]
+- [[concepts/concept-bottleneck-sparse-autoencoders|Concept Bottleneck Sparse Autoencoders]]
+- [[concepts/model-steerability|Model Steerability]]
+- [[concepts/hierarchical-concept-embedding|Hierarchical Concept Embedding]]
 
 ## Related Papers
 
