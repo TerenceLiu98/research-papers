@@ -12,6 +12,8 @@ tags:
 
 Experience-guided program evolution searches over executable programs while using accumulated outcomes to choose parents and construct revision context. A language model proposes changes, an evaluator measures their results, and structured records preserve evidence for later selection, repair, and recombination. The model can remain fixed during this inference process; training it from the resulting experience adds [[concepts/meta-evolution|meta-evolution]].
 
+Growing Harness is a related accumulation pattern: instead of selecting among an archive of candidate programs, it keeps one shared agent harness and uses failure traces to localize bounded repairs. Its failure-window curriculum and held-out gate are useful examples of combining reuse pressure with regression control.
+
 ## Key Ideas
 
 - Separate evidence storage from generated summaries. Deterministic records preserve scores, failures, ancestry, method families, and resource use; natural-language summaries interpret retrieved evidence when an operator needs it.
@@ -25,6 +27,7 @@ Experience-guided program evolution searches over executable programs while usin
 - Keep task constraints separate from changing repair memory. SOCIA-EVO retains a fixed, expert-reviewed specification while updating its Playbook; numerical calibration within each candidate structure reduces, but does not eliminate, confusion between parameter error and structural error.
 - Distinguish training-time state selection from inference-time search. Frontis-MA1's training selector uses reward, child-reward variance, and visit cooling; OpenMLE-Evo's inference selector uses quality, progress, and novelty.
 - Evaluate both final outcomes and resource use. Validation gains per token describe search productivity, while held-out evaluation tests whether the selected programs generalize. A full-harness comparison does not isolate the benefit of any one memory or selection component.
+- Trace-localize repairs when the evolving artifact is one shared harness. Function-level execution traces can constrain the edit surface, while a bounded failure window supplies joint supervision and a held-out gate can roll back a repair sequence that harms prior success.
 
 ## Important Papers
 
@@ -33,6 +36,7 @@ Experience-guided program evolution searches over executable programs while usin
 - [[papers/a-self-improving-coding-agent|A Self-Improving Coding Agent]]: archives agent versions and benchmark traces to guide scaffold revisions; utility combines task score with resource use, so reported improvements depend on the evaluation budget (Sections 3-5.1).
 - [[papers/frontis-ma1-training-an-ai4ai-model-towards-recursive-self-improvement-in-machine-learning-engineering|Frontis-MA1]]: OpenMLE-Evo instantiates structured experience cards, a task-global board, three-factor parent selection, and lazy operator-specific memory (Section 5; Appendix C).
 - [[papers/socia-evo-automated-simulator-construction-via-dual-anchored-bi-level-optimization|SOCIA-EVO]]: a metric-linked repair Playbook supports simulator evolution. Reported recurrence decreases across iterations, but the Llama backbone experiment shows that avoiding old errors does not guarantee accurate final programs (Section 3.4; Appendix A.5).
+- [[papers/grow-the-harness-not-the-context-from-strategy-free-scaffolds-to-reusable-specialist-agents|Grow the Harness, Not the Context]]: grows one agent harness from a strategy-free scaffold using function-level failure traces, a bounded repair window, and success-first gate rollback. It complements archive-based evolution with local continual repair within a task family.
 - Jiang et al. (2025), "AIDE: AI-Driven Exploration in the Space of Code" (arXiv:2502.13138), and Toledo et al. (2025), "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-Bench" (arXiv:2507.02554): cited predecessors for executable program search.
 
 ## Related Concepts
