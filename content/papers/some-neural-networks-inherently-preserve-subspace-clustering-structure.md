@@ -74,12 +74,14 @@ The theorem is conditional on spectral gaps, signal rank, bounded noise, and sma
 
 Several details in the supplied text require caution. Projector entries can be negative, whereas the theorem states a positive-entry threshold; the support argument instead concerns absolute nonzero entries. A block-diagonal projector does not by itself guarantee that every within-cluster pair has a nonzero entry. The linear-invariance explanation cites $\operatorname{rank}(W)\ge r$, which alone does not ensure that $W$ preserves the signal subspace. The parsed proof also contains inconsistent norm powers and notation, so the displayed bound above is a report of the paper's theorem rather than an independently verified proof.
 
+In particular, Lemma 4.1 uses $\|Z\|_F\le\sqrt{r}\|Z\|$, which would require a rank restriction on the noise when the unadorned norm is the spectral norm; the stated model does not impose that restriction. This is a limitation of the displayed proof, not evidence that projector preservation cannot occur.
+
 Section 8 calls the evaluation a collection of 12 datasets but lists 13, and the appendix captions do not show a separate Flowers-102 result. Exact plot values are not available in the supplied Markdown. The stated publication year, venue, and stable identifier are absent and are left unspecified. The broader suggestion that these results explain deep learning's success across images, audio, and text exceeds the directly described synthetic and image-data evidence.
 
 ## Related Concepts
 
-- [[Subspace Clustering]]: the union-of-subspaces model and projector-based clustering representation used throughout the analysis.
-- [[Statistical Identifiability]]: a related concern with representation invariance, although this paper compares input and layer projectors rather than independently trained models.
+- [[concepts/subspace-clustering|Subspace Clustering]]: the union-of-subspaces model and projector-based clustering representation used throughout the analysis.
+- [[concepts/statistical-identifiability|Statistical Identifiability]]: a related concern with representation invariance, although this paper compares input and layer projectors rather than independently trained models.
 
 ## Related Papers
 
@@ -87,6 +89,6 @@ Section 8 calls the evaluation a collection of 12 datasets but lists 13, and the
 - Vidal, Ma, and Sastry (2005), "Generalized Principal Component Analysis (GPCA)." Cited background on unions of subspaces.
 - Davis and Kahan (1970), "The Rotation of Eigenvectors by a Perturbation. III." The perturbation-theory foundation cited in the proof.
 - Pimentel-Alarcon and Nowak (2016), "The Information-Theoretic Requirements of Subspace Clustering with Missing Data." Cited for identifiability requirements.
-- [[Statistical and Structural Identifiability in Representation Learning]]: a Wiki comparison concerning invariance of learned representations; it is not a citation claimed by the supplied paper.
+- [[papers/statistical-and-structural-identifiability-in-representation-learning|Statistical and Structural Identifiability in Representation Learning]]: a Wiki comparison concerning invariance of learned representations; it is not a citation claimed by the supplied paper.
 
 [[index|Library home]]

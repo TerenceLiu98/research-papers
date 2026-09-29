@@ -24,13 +24,13 @@ Subspace clustering groups observations according to the low-dimensional linear 
 
 ## Important Papers
 
-- [[Some Neural Networks Inherently Preserve Subspace Clustering Structure]]: develops conditional projector-preservation bounds and examines whether trained networks approach this behavior.
+- [[papers/some-neural-networks-inherently-preserve-subspace-clustering-structure|Some Neural Networks Inherently Preserve Subspace Clustering Structure]]: develops conditional projector-preservation bounds and examines whether trained networks approach this behavior.
 - Elhamifar and Vidal (2013), "Sparse Subspace Clustering: Algorithm, Theory, and Applications." A foundational reference cited by the neural-preservation paper.
 - Vidal, Ma, and Sastry (2005), "Generalized Principal Component Analysis (GPCA)." A union-of-subspaces reference cited there.
 
 ## Related Concepts
 
-- [[Statistical Identifiability]]: addresses representation equivalence across model solutions, a distinct question from recovering subspace membership or preserving a sample projector.
+- [[concepts/statistical-identifiability|Statistical Identifiability]]: addresses representation equivalence across model solutions, a distinct question from recovering subspace membership or preserving a sample projector.
 - Principal component analysis
 - Spectral perturbation theory
 - Representation geometry
