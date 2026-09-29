@@ -27,6 +27,7 @@ A hypergraph $\mathcal H=(V,E)$ represents entities as nodes and interactions as
 ## Important Papers
 
 - [[papers/higher-order-interactions-shape-collective-human-behaviour|Higher-order interactions shape collective human behaviour]]: reviews social applications and illustrates representation-dependent findings with arXiv coauthorship data from 2007-2022.
+- [[papers/when-groups-attract-coevolutionary-dynamics-of-cooperation-and-individual-and-group-based-imitating-rules|When groups attract: coevolutionary dynamics of cooperation and individual- and group-based imitating rules]]: models public goods games and coevolving individual- and group-level imitation on hypergraphs.
 - Battiston et al. (2020), "Networks beyond pairwise interactions: structure and dynamics": foundational review cited as reference 17 by the Perspective.
 - Benson et al. (2018), "Simplicial closure and higher-order link prediction": work on group closure cited as reference 28 by the Perspective.
 
@@ -34,5 +35,7 @@ A hypergraph $\mathcal H=(V,E)$ represents entities as nodes and interactions as
 
 - [[concepts/social-network-analysis|Social Network Analysis]]: measures and questions about relational structure extended to groups.
 - [[concepts/higher-order-social-contagion|Higher-Order Social Contagion]]: one class of dynamics on explicit groups.
+- [[concepts/group-biased-imitation|Group-Biased Imitation]]: a group-level learning rule whose effects depend on group payoffs and overlap.
+- [[concepts/public-goods-games|Public Goods Games]]: multiplayer strategic interactions whose payoffs can depend on explicit hyperedges.
 - [[concepts/network-games|Network Games]]: hyperedges can specify the groups participating in multiplayer strategic interactions.
 - [[concepts/activity-driven-networks|Activity-Driven Networks]]: a temporal pairwise modeling approach; changing links and retaining explicit groups are distinct modeling choices.
