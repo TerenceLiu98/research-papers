@@ -1,5 +1,5 @@
 ---
-title: When groups attract: coevolutionary dynamics of cooperation and individual- and group-based imitating rules
+title: "When groups attract: coevolutionary dynamics of cooperation and individual- and group-based imitating rules"
 type: paper
 authors:
   - Dini Wang
