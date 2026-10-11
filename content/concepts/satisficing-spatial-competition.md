@@ -29,15 +29,20 @@ Satisficing spatial competition models the probability that a voter finds a part
 - At very high tolerance, a quadratic expansion of the satisfaction kernel makes expected vote maximization approximate squared-distance minimization. With suitable regularity and moment conditions, party positions approach the voter mean. The classical median-voter location is recovered when symmetry makes the mean and median coincide.
 - Multidimensional versions distinguish the number of issues from [[Ideological Dimensionality|the number of independent ideological axes]]. In a symmetric Gaussian model, higher effective dimension sharply lowers the expected vote-share threshold above which centrist positioning is strategically favored.
 - The framework separates equilibrium claims from dynamics. A bifurcation diagram describes possible equilibria and their local stability; claims about delayed switching or observed lock-in additionally require an adjustment process and empirical evidence.
+- For any fixed number of parties with conditionally independent acceptance, uniform choice within the accepted set gives $p_i=a_i\int_0^1\prod_{j\ne i}[1-(1-z)a_j]\,dz$ and abstention $p_0=\prod_j(1-a_j)$. This extends the binary formula without enumerating every consideration set.
+- Distributional party models distinguish voter tolerance from internal party breadth: acceptance averages a compatibility kernel over a party's ideological density, while entropy-driven diffusion maintains its internal dispersion. In Liu and Lin's homogeneous PR model, the local reflection-odd seat-share feedback cancels for two parties but survives for three or more. A raw-vote objective restores a binary feedback channel; instability still requires that strategic gain exceed diffusion. These are local statements around an even common stationary profile, not universal claims about electoral convergence.
 
 ## Important Papers
 
+- [[papers/a-dynamic-model-of-party-differentiation-under-electoral-competition|A Dynamic Model of Party Differentiation under Electoral Competition]] (Liu and Lin, 2026): distributional party adaptation, mixed vote and seat objectives, and geographic institutional feedback.
 - [[Symmetry Breaking, Hysteresis, and Convergence to the Mean Voter in two-party Spatial Competition]]
 - [[papers/why-are-us-parties-so-polarized-a-satisficing-dynamical-model|Why are U.S. Parties So Polarized? A 'Satisficing' Dynamical Model]] (Yang et al., 2020).
 - [[Beyond the median voter: A model of how the ideological dimension shapes party polarization]]
 
 ## Related Concepts
 
+- [[concepts/wasserstein-gradient-flows|Wasserstein Gradient Flows]]
+- [[concepts/party-system-polarization|Party-System Polarization]]
 - [[Co-Adaptive Political Polarization]]
 - [[Ideological Dimensionality]]
 - [[Opinion Dynamics]]
