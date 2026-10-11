@@ -22,10 +22,13 @@ Group preference distribution estimation infers the location and dispersion of l
 - **Identification and comparability:** A reference mean and standard deviation fix location and scale, while substantive information fixes orientation. Separate period normalizations permit relative comparisons but do not identify absolute changes; shared item parameters provide a possible temporal bridge under measurement stability.
 - **Information limits:** Very few items, nearly unanimous responses, and groups far from item cutpoints can yield imprecise estimates. Normality, conditional independence, and common item response functions are substantive modeling assumptions.
 - **Different variance targets:** Group preference dispersion describes differences in latent positions across people. It is distinct from a respondent-specific error scale that describes unpredictable votes conditional on position.
+- **Hierarchical group-level IRT:** Caughey and Warshaw integrate a normal individual trait distribution out of a normal-ogive response model, giving $p_{gjt}=\Phi((\bar\theta_{gt}-\kappa_j)/\sqrt{\sigma_{\theta,t}^2+\sigma_j^2})$. Adjusted item-group counts then enter a binomial likelihood. Their within-group trait dispersion is common across groups in a year, unlike Lewis's group-specific dispersions. Each respondent may contribute only one item, while information is pooled across respondents and items.
+- **Dynamic population estimates:** Hierarchical demographic and geographic coefficients can evolve under random-walk priors, stabilizing sparse group means across both groups and years. Population-weighted posterior draws yield geographic opinion estimates with propagated uncertainty. Stable item parameters provide the temporal bridge, and smoothing can suppress abrupt changes.
 
 ## Important Papers
 
 - [[papers/estimating-voter-preference-distributions-from-individual-level-voting-data|Estimating Voter Preference Distributions from Individual-Level Voting Data]]: Lewis (2001) develops marginal likelihood estimation of group means and variances and applies it to ballots, roll calls, and survey responses.
+- [[papers/dynamic-estimation-of-latent-opinion-using-a-hierarchical-group-level-irt-model|Dynamic Estimation of Latent Opinion Using a Hierarchical Group-Level IRT Model]]: Caughey and Warshaw (2015) combine group-level response modeling, hierarchical and temporal pooling, and poststratification to estimate annual U.S. state policy liberalism from sparse surveys.
 
 ## Related Concepts
 
