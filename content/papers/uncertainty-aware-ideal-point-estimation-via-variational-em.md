@@ -8,7 +8,7 @@ authors:
   - Xinlei Wang
   - Johan Lim
 year: null
-source_job_id: "7b07e351-cc1b-4930-9fe1-143bf18d9614"
+source_job_id: "0d111674-e7de-4719-85c7-69cab40b5ead"
 tags:
   - ideal-point-estimation
   - variational-inference
@@ -79,7 +79,7 @@ The comparisons include PG-VEM and JJ-VEM with either parametric-bootstrap (PB) 
 | Simulation II | PG-VEM fit to the 112th Congress supplies generating parameters; 395 legislators, 1,455 bills, and the original missingness pattern | Similar position recovery and bootstrap agreement; standard errors rise with more extreme positions and greater missingness. |
 | Congressional applications | 113th Congress in Section 5; 118th Congress in Appendix C | Similar positions across methods; PG-VEM-Louis agrees closely with its bootstrap comparator, while JJ-VEM-Louis does not. |
 
-The paper attributes congressional voting data to Voteview. Findings are presented primarily through scatter plots and a runtime figure; the supplied prose provides no exact speedup factors or numerical coverage rates. BIRT posterior standard deviations are generally larger than the likelihood-based standard errors, but the different models and uncertainty targets preclude treating this difference alone as evidence of better calibration.
+The paper attributes congressional voting data to Voteview. Findings are presented primarily through scatter plots and a runtime figure; the supplied prose provides no exact speedup factors or numerical coverage rates. BIRT posterior standard deviations are generally larger than the likelihood-based standard errors, particularly near central ideal points in Simulation II and the 113th Congress application (Figures 7 and 10). Section 5 describes the latter difference as underestimation relative to BIRT; the different models and uncertainty targets mean that this comparison alone establishes neither undercoverage nor better calibration.
 
 ## Limitations
 
