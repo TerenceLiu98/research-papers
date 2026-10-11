@@ -20,10 +20,12 @@ Higher-order social contagion models the spread of behaviors, norms, or innovati
 - **Reinforcement requires a rule.** Transmission rates can vary with group size, and group effects can supplement pairwise transmission. A hyperedge alone does not determine the strength or direction of influence.
 - **Abrupt adoption is conditional.** In models reviewed by Battiston et al., sufficiently strong group reinforcement can turn a gradual transition into an abrupt one. This result depends on the specified dynamics and parameter regime.
 - **Critical mass follows from coexistence.** When stable non-adopting and adopting states coexist, the initial number of adopters can determine the eventual outcome. Equal transmission parameters need not imply equal long-run adoption.
+- **Group influence can govern cessation.** In the rumor model of Oliveira et al., spreaders stop when sufficiently many of their groups are informed. Whether stopping is immediately possible or requires another spreading event changes subcritical extinction times; heterogeneous seed groups can mix these behaviors. The examined transitions are continuous, showing that group thresholds alone do not guarantee abrupt adoption.
 - **Model outcomes are not direct behavioral measurements.** Spreading simulated on an empirical collaboration hypergraph remains a model result. Establishing actual social contagion requires evidence about exposure, adoption, and alternative explanations.
 
 ## Important Papers
 
+- [[papers/rumor-propagation-on-hypergraphs|Rumor propagation on hypergraphs]]: couples group-threshold transmission to awareness-dependent stifling and compares simulated cascades with Telegram activity; the empirical match does not identify unobserved cessation behavior.
 - [[papers/higher-order-interactions-shape-collective-human-behaviour|Higher-order interactions shape collective human behaviour]]: distinguishes simple, complex, and group-explicit contagion in Figure 5 and reviews reinforcement and critical mass.
 - Iacopini, Petri, Barrat, and Latora (2019), "Simplicial models of social contagion," Nature Communications 10, 2485: the simplicial reinforcement model discussed as reference 124 in the Perspective.
 - de Arruda, Petri, and Moreno (2020), "Social contagion models on hypergraphs," Physical Review Research 2, 023032: hypergraph generalization cited as reference 127 in the Perspective.

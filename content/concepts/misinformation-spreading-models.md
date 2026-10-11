@@ -19,6 +19,8 @@ Misinformation spreading models describe how false or misleading information mov
 ## Key Ideas
 
 - Compartment models classify users as ignorant, spreaders, stiflers or recovery states, and can add hesitators, debunkers, or other response states to represent behavioral differences.
+- Rumor dynamics need not imply false content. URL-based cascades operationalize circulating information without verifying its truth, so empirical rumor-model results should not automatically be interpreted as misinformation-specific findings.
+- Stifling can depend on informed contacts rather than spontaneous recovery. On hypergraphs, a spreader may stop only after enough of their groups are informed; waiting for further transmission can then control extinction time. Shared-URL timestamps reveal spreading activity but do not directly observe this stopping mechanism.
 - Static-network models expose the role of topology, while temporal models represent changing contacts. [[Activity-Driven Networks]] provide a tractable temporal setting in which activity heterogeneity affects exposure and thresholds.
 - A spreading threshold separates parameter regimes in which misinformation dies out from regimes in which a nonzero outbreak can persist or reach a large final prevalence. Network moments and recovery rates commonly enter this threshold.
 - Skepticism can delay or reduce transmission. In the IHSR model, a skeptical user's level controls the relative rates of entering a hesitator state and becoming a spreader after first exposure.
@@ -29,6 +31,7 @@ Misinformation spreading models describe how false or misleading information mov
 
 ## Important Papers
 
+- [[papers/rumor-propagation-on-hypergraphs|Rumor propagation on hypergraphs]]: introduces group-aware stifling, reports continuous transitions in tested regimes, and finds Telegram cascade statistics compatible with simulations near criticality.
 - [[How the Hesitation Mechanism Suppresses Misinformation Spreading on Time-Varying Networks]]
 - [[Who Should Fight the Spread of Fake News?]]
 - [[Minimizing the Misinformation Concern over Social Networks]]
@@ -38,6 +41,7 @@ Misinformation spreading models describe how false or misleading information mov
 
 ## Related Concepts
 
+- [[concepts/higher-order-social-contagion|Higher-Order Social Contagion]]
 - [[Activity-Driven Networks]]
 - [[Rumor Refutation on Social Media]]
 - [[Opinion Dynamics]]
