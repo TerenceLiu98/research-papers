@@ -19,12 +19,15 @@ Uniform design subsampling chooses a small working sample by covering the covari
 - A low-discrepancy point set supplies a skeleton in a normalized design space. Discrepancy measures how far empirical integration over this skeleton can deviate from integration over a target distribution for a specified function class.
 - Empirical marginal inverse CDFs can map a design on the unit hypercube into the observed covariate distribution. Nearest-neighbor search then replaces synthetic skeleton points with actual records.
 - Rotating or reducing covariates before design construction can make geometric search more effective, but the resulting guarantees apply primarily to functions represented by those retained coordinates.
+- Generalized empirical F-discrepancy (GEFD) measures the difference between full-data and subdata empirical distributions using a kernel after marginal empirical-CDF transformation. Its pairwise-sum expression provides a representation criterion without evaluating a multivariate empirical CDF.
+- In Zhang et al.'s DDS method, equivalence between squared GEFD and squared uniform discrepancy requires joint independence, bounded point repetitions, and a Lipschitz product kernel; the approximation error depends on the smallest number of distinct marginal values. PCA decorrelation alone does not establish independence. The separate empirical Koksma-Hlawka bound does not require independence, but controls averages only for the stated bounded-variation function class.
+- DDS maps a fixed uniform design through rotated-data marginal quantiles and retrieves original records with a KD-tree. Randomly shifting the design permits repeated runs. Nearest-neighbor replacement is an additional approximation, and the published algorithm does not specify a rule preventing repeated selection of the same record.
 - In observational causal inference, selecting one treated and one control record around every common skeleton point adds a balance objective. The same anchors can control both full-sample representativeness and between-arm discrepancy when matching radii are small.
 - Uniform-design selection trades extra preprocessing for a smaller downstream learning problem. Its advantage depends on low discrepancy, dense enough treatment arms, manageable working dimension, and alignment between the retained geometry and the inferential target.
 
 ## Important Papers
 
-- Zhang et al. (2023), "Model-Free Subsampling Method Based on Uniform Designs."
+- [[papers/model-free-subsampling-method-based-on-uniform-designs|Model-Free Subsampling Method Based on Uniform Designs]]: introduces GEFD and rotation-inversion DDS, with prediction and runtime comparisons against random and model-based selection.
 - Zhou et al. (2024), "Efficient Model-Free Subsampling Method for Massive Data."
 - Zhou, Fang, and Ning (2013), "Mixture Discrepancy for Quasi-Random Point Sets."
 - [[UD-DML: Uniform Design Subsampling for Double Machine Learning over Massive Data]]
