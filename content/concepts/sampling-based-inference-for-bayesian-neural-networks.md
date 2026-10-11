@@ -19,10 +19,12 @@ Sampling-based inference represents a Bayesian neural-network posterior through 
 - **Optimization can initialize exploration.** Independent optimized networks can warm-start parallel chains. An ensemble of point estimates does not generally constitute posterior samples; subsequent exploration and appropriate aggregation remain necessary.
 - **Scalability has several costs.** Stochastic gradients reduce per-step data processing, while parallel chains distribute exploration. Neither removes the storage of sampled weights or repeated forward passes at prediction time.
 - **Diagnostics and prediction answer different questions.** Parameter symmetries complicate parameter-space convergence checks. Predictive agreement can also conceal inadequate exploration, and good accuracy or calibration does not prove posterior fidelity.
+- **Useful prediction can precede adequate exploration.** Small-network experiments show high classification accuracy despite poor parameter diagnostics. This is evidence of predictive utility, not convergence of the predictive distribution: different nonconverged chains can still learn different input regions. A near-one PSRF should also be checked alongside ESS, since low between-chain disagreement can coexist with slow mixing.
 - **The stochastic subset is a modeling choice.** Sampling a subnetwork or adapter with remaining weights fixed can make inference feasible, but it changes the inferential target relative to a fully stochastic network.
 
 ## Important Papers
 
+- [[papers/challenges-in-markov-chain-monte-carlo-for-bayesian-neural-networks|Challenges in Markov Chain Monte Carlo for Bayesian Neural Networks]]: reviews inference obstacles and tests 9-29-parameter MLPs on four classification datasets; accurate predictions can coexist with failed diagnostics, without establishing calibrated uncertainty or posterior recovery.
 - [[papers/position-the-time-for-sampling-is-now-charting-a-new-course-for-bayesian-deep-learning|Position: The Time for Sampling Is Now! Charting a New Course for Bayesian Deep Learning]]: argues for parallel warm starts and an end-to-end workflow covering sampling, storage, compression, and serving; acknowledges finite-budget convergence limits.
 - [[papers/do-bayesian-neural-networks-need-to-be-fully-stochastic|Do Bayesian Neural Networks Need To Be Fully Stochastic?]]: compares full and subset inference and finds predictive disagreement across released HMC chains under corruption.
 
