@@ -22,10 +22,12 @@ Circular voting models place ideal points and policy outcomes on a circle. They 
 - **Identification:** Periodicity, rotation, and reflection require conventions. The cited model uses a single angular interval, a centered von Mises prior, and a sign constraint. Its likelihood is not invariant to arbitrary rescaling of the policy space.
 - **Ordering is additional structure:** A circle has no natural total order. Unwinding it yields rankings, but those near the chosen cut can be unstable. Reliable voting predictions alone do not validate every rank interpretation.
 - **Interpretation:** Coalitions between extremes need not imply identical beliefs or motivations. Empirical support for circular fit does not rule out non-monotonic utility or other explanations of the same voting patterns.
+- **Cross-model projection:** A tangent transformation can facilitate comparison with linear scores but has singularities. Correlations or downstream regressions that remove extreme projections are conditional on those exclusions. Similar configurations across geometries establish neither equivalent scales nor a predictive advantage for either model.
 
 ## Important Papers
 
 - [[papers/spatial-voting-models-in-circular-spaces-a-case-study-of-the-us-house-of-representatives|Spatial voting models in circular spaces: A case study of the U.S. House of Representatives]]: develops Bayesian circular scaling and reports a grouped-WAIC advantage over 1D Euclidean scaling from the 112th through the first session of the 116th House, with earlier Houses mostly favoring the Euclidean model.
+- [[papers/parapolitics-and-roll-call-voting-in-colombia-a-bayesian-euclidean-and-spherical-spatial-analysis|Parapolitics and Roll-Call Voting in Colombia: A Bayesian Euclidean and Spherical Spatial Analysis]]: finds a similar opposition/non-opposition alignment under linear and circular models in the 2006-2010 Senate; projected estimates correlate at 0.824 after three exclusions, and both models show a positive association with recorded scandal implication.
 
 ## Related Concepts
 
