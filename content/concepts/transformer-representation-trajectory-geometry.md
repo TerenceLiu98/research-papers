@@ -1,0 +1,31 @@
+---
+title: Transformer Representation Trajectory Geometry
+type: concept
+tags:
+  - mechanistic-interpretability
+  - representation-learning
+  - transformer-dynamics
+---
+
+## Overview
+
+Transformer representation trajectory geometry studies the ordered sequence of hidden states across network depth. Instead of decoding a feature from one layer, it measures how a token or pooled sequence representation moves through the hidden space during a forward pass. The trajectory axis is layer depth, not generated-token time or training time.
+
+## Key Ideas
+
+- **Path length and turning angles:** Sum the norms of consecutive hidden-state differences to measure travel distance; compare adjacent differences by their angle to measure directional change. These measurements require consistent extraction sites and a stated treatment of zero-length steps.
+- **Category separation:** A between-category minus within-category distance index measures relative semantic organization. Increasing separation can arise through between-category expansion as well as within-category contraction, so it does not by itself identify an attractor.
+- **Two kinds of cosine similarity:** Adjacent-layer similarity measures persistence along a single path; similarity between lexical variants at the same layer measures robustness to surface-form changes.
+- **Measurement choices matter:** Token selection, sequence pooling, normalization, and coordinate transformations can change the geometry. Full-space computation avoids projection distortion in metrics but does not make them coordinate-independent.
+- **Controls answer different questions:** Random labels test category assignments, random weights test learned structure, and shuffled layers test ordering. Visual agreement across projections does not replace quantitative full-space analysis.
+- **Description versus mechanism:** Curvature differences across prompt families can motivate hypotheses about computation. Establishing complexity prediction, stable attraction, or causal relevance requires additional behavioral or intervention evidence. No trained probe is needed for these metrics, but category-based analyses still require labels.
+
+## Important Papers
+
+- [[papers/trajectory-geometry-of-transformer-representations-across-layers|Trajectory Geometry of Transformer Representations Across Layers]] defines five metrics and reports depthwise patterns in three small decoder-only models. Its observational scope, mock-data figure, and inconsistent disambiguation reporting constrain the empirical interpretation.
+
+## Related Concepts
+
+- [[concepts/feature-dynamics-distillation|Feature Dynamics Distillation]]: aligns depthwise vocabulary-prediction trajectories between teacher and student models.
+- [[concepts/attribution-patching|Attribution Patching]]: predicts the output effects of local activation changes rather than characterizing unperturbed paths alone.
+- [[concepts/temporal-straightening|Temporal Straightening]]: uses directional penalties on latent trajectories over environment time for planning.
