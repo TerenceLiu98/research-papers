@@ -28,10 +28,12 @@ This construction includes squared Euclidean distance, KL divergence on probabil
 - **Argument order:** For a Legendre potential, $d_\phi(x,y)=d_{\phi^*}(\nabla\phi(y),\nabla\phi(x))$. Reversing the centroid objective therefore leads to averaging in dual coordinates when these maps are defined.
 - **Likelihood connection:** With $\phi=\psi^*$ for a regular exponential-family cumulant, the density can be expressed as $b_\phi(x)e^{-d_\phi(x,\mu)}$ in sufficient-statistic coordinates. The converse correspondence in Banerjee and colleagues uses their regular subclass of divergences, not every convex potential.
 - **Feature combinations:** Positive weighted sums of compatible potentials combine losses across feature groups. Their domains and strict convexity must remain appropriate for the intended data.
+- **Functional observations:** In a Banach space, replace the gradient pairing by the Fréchet derivative: $d_\phi(x,c)=\phi(x)-\phi(c)-D_c\phi(x-c)$. With the required integrability and admissible conditional means, cluster representatives remain conditional expectations. Existence and statistical consistency require further assumptions, such as weak lower semicontinuity, bounded convex support, and bounded derivatives in Fischer's general-space results; the divergence definition alone does not ensure them.
 
 ## Important Papers
 
 - [[papers/clustering-with-bregman-divergences|Clustering with Bregman Divergences]]: unifies hard clustering, expectation-parameter EM, and finite-support rate-distortion analysis.
+- [[papers/quantization-and-clustering-with-bregman-divergences|Quantization and Clustering with Bregman Divergences]]: studies optimal quantizer existence and distortion consistency for functional observations, and reports Rademacher-based excess-distortion bounds under additional conditions.
 - [[papers/curved-representational-bregman-divergences-and-their-applications|Curved Representational Bregman Divergences and Their Applications]]: studies restrictions to embedded parameter sets and the resulting centroid projection problem.
 
 ## Related Concepts
