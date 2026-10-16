@@ -25,9 +25,10 @@ Spatiotemporal analog forecasting retrieves historical configurations resembling
 ## Important Papers
 
 - [[papers/the-geometry-of-conflict-3d-spatio-temporal-patterns-in-fatalities-prediction|The geometry of conflict: 3D Spatio-temporal patterns in fatalities prediction]]: adapts ShapeFinder to normalized longitude-latitude-time patterns and tests six-month state-based fatality forecasts in Africa and the Middle East. Reported gains over ViEWS are qualified by horizon mismatch and limits on onset prediction.
-- Schincariol, Frank, and Chadefaux (2025), "Accounting for variability in conflict dynamics: A pattern-based predictive model": the country-level predecessor cited by the three-dimensional application.
+- [[papers/accounting-for-variability-in-conflict-dynamics-a-pattern-based-predictive-model|Accounting for variability in conflict dynamics: A pattern-based predictive model]]: the country-level predecessor retrieves temporal analogs with Dynamic Time Warping and forecasts from the largest cluster of historical continuations. Its compound with VIEWS balances fatality-level accuracy and temporal variability.
 
 ## Related Concepts
 
+- [[concepts/dynamic-time-warping|Dynamic Time Warping]]: aligns temporal sequences of different lengths or speeds in the country-level predecessor.
 - [[concepts/optimal-transport|Optimal Transport]]: compares distributions while accounting for the cost of moving mass across coordinates.
 - [[concepts/spatial-autocorrelation|Spatial Autocorrelation]]: summarizes geographic dependence; analog matching instead compares whole historical configurations.
