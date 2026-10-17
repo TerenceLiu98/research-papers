@@ -31,6 +31,7 @@ Direct-query text scaling uses an instruction-tuned language model to place a su
 
 ## Important Papers
 
+- [[papers/the-ai-gpr-index-measuring-geopolitical-risk-using-artificial-intelligence|The AI-GPR Index: Measuring Geopolitical Risk using Artificial Intelligence]]: aggregates rubric-based article scores into daily coverage shares. Its stratified audit includes articles excluded before scoring, illustrating why end-to-end measurement validation must extend beyond the model's retrieved sample.
 - [[papers/measuring-scalar-constructs-in-social-science-with-llms|Measuring Scalar Constructs in Social Science with LLMs]]: distinguishes direct numeric output from probability-weighted scoring and compares both with pairwise measurement and fine-tuning across three political constructs.
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: situates direct scoring within a broader LLM family and identifies transparency, aggregation, and possible training-data contamination as measurement concerns.
 - [[papers/scaling-political-texts-with-large-language-models-asking-a-chatbot-might-be-all-you-need|Scaling Political Texts with Large Language Models: Asking a Chatbot Might Be All You Need]]: evaluates direct scoring across four political-text settings, with substantial variation in both model agreement and scoring coverage.
@@ -39,6 +40,7 @@ Direct-query text scaling uses an instruction-tuned language model to place a su
 
 ## Related Concepts
 
+- [[concepts/news-based-geopolitical-risk-measurement|News-Based Geopolitical Risk Measurement]]
 - [[concepts/probability-weighted-llm-scoring|Probability-Weighted LLM Scoring]]
 - [[concepts/bradley-terry-scaling|Bradley-Terry Scaling]]
 - [[concepts/text-scaling-models|Text Scaling Models]]
