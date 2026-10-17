@@ -11,6 +11,7 @@ year: 2026
 doi: "10.1145/3802922"
 venue: "ACM Transactions on Information Systems, 44(4), Article 95"
 source_job_id: "f2352bea-bab1-4782-93b8-087b8696fe39"
+last_verified_job_id: "a1931372-9747-43d9-8bab-0bc2f8696ca2"
 tags:
   - event-forecasting
   - large-language-models
@@ -75,6 +76,8 @@ Baselines combine direct retrieval (DR) or generated-query retrieval (GQR) with 
 
 Values are the reported Overall columns of Tables 2-3 on a percentage scale. StkFEP leads overall for each listed backbone, but does not lead every question category. The small-model baselines score 14.67 for Chinese and 18.74 for English. Table 2 reports GPT-3.5 time accuracy of 45.92; Table 3 reports 44.85 for English.
 
+Section 5.2 additionally reports GPT-3.5 time-prediction accuracy of 25.23% when using six intervals. The supplied text does not fully specify this alternative partition, so the result indicates sensitivity to temporal granularity without supporting a precisely matched comparison to the four-choice setup.
+
 ### Ablations and Diagnostics
 
 | Variant, Table 4 | GPT-3.5 | GLM-4 |
@@ -101,6 +104,7 @@ The full pipeline averages about 24.8K tokens per instance. Preliminary offloadi
 ## Related Concepts
 
 - [[concepts/open-ended-event-forecasting|Open-Ended Event Forecasting]]: free-form outcomes with explicit temporal information boundaries.
+- [[concepts/temporal-leakage-in-language-models|Temporal Leakage in Language Models]]: later outcome knowledge in models or retrieved evidence can invalidate retrospective forecasting evaluations.
 - [[concepts/structured-complex-temporal-events|Structured Complex Temporal Events]]: a contrasting representation that conditions forecasting on structured event fields.
 - [[concepts/llm-as-a-judge|LLM-as-a-Judge]]: rubric-based semantic evaluation and the need for human validation.
 
