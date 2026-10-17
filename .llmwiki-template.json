@@ -1,4 +1,6 @@
 {
+  "designSha256": "169f651389e562e28a10852c2aa8fa55359746fa7474c0eb67996611f875229f",
+  "designVersion": 2,
   "quartzCommit": "9cf87ff1c248a8ca551093214b0fec3b31415009",
   "sha256": "197a1ce6ff79b8cda6f2d08d3c87b474e0f3ffd3cf8f45c9897f9f903c1ee0c7",
   "templateInstalled": true
