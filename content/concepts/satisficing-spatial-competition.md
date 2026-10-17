@@ -32,7 +32,11 @@ Satisficing spatial competition models the probability that a voter finds a part
 - For any fixed number of parties with conditionally independent acceptance, uniform choice within the accepted set gives $p_i=a_i\int_0^1\prod_{j\ne i}[1-(1-z)a_j]\,dz$ and abstention $p_0=\prod_j(1-a_j)$. This extends the binary formula without enumerating every consideration set.
 - Distributional party models distinguish voter tolerance from internal party breadth: acceptance averages a compatibility kernel over a party's ideological density, while entropy-driven diffusion maintains its internal dispersion. In Liu and Lin's homogeneous PR model, the local reflection-odd seat-share feedback cancels for two parties but survives for three or more. A raw-vote objective restores a binary feedback channel; instability still requires that strategic gain exceed diffusion. These are local statements around an even common stationary profile, not universal claims about electoral convergence.
 
+- Internal breadth can evolve separately from voter tolerance even without diffusion. Lanzetti, Hajar, and Doerfler integrate candidate-level support over both party distributions and transport candidates along expected vote gradients. Their unregularized model can produce both between-party separation and within-party collapse; convergence is proved for initial supports close to the relevant Dirac equilibria, not arbitrary heterogeneous parties.
+
 ## Important Papers
+
+- [[papers/modeling-of-political-systems-using-wasserstein-gradient-flows|Modeling of Political Systems using Wasserstein Gradient Flows]] (Lanzetti, Hajar, and Doerfler, 2022): full candidate distributions evolve by vote-count ascent with support-restricted convergence to Dirac equilibria.
 
 - [[papers/a-dynamic-model-of-party-differentiation-under-electoral-competition|A Dynamic Model of Party Differentiation under Electoral Competition]] (Liu and Lin, 2026): distributional party adaptation, mixed vote and seat objectives, and geographic institutional feedback.
 - [[Symmetry Breaking, Hysteresis, and Convergence to the Mean Voter in two-party Spatial Competition]]
