@@ -8,7 +8,8 @@ authors:
 year: 2021
 doi: "10.1017/pan.2020.21"
 venue: Political Analysis
-source_job_id: "00c823f6-bcb3-46cb-98be-80c28cf149fd"
+source_job_id: "abfe479b-5b39-45fd-8cd8-6b65012ef672"
+source_revision: "2020-06-24"
 tags:
   - ideal-point-estimation
   - legislative-behavior
@@ -18,6 +19,8 @@ tags:
 ## TL;DR
 
 The paper estimates legislators' domain-specific ideal points on a common scale by learning which legislators have identical preferences across domains. A constrained clustering prior permits exact equality and partial pooling. Applied separately to 18 U.S. Houses, it finds increasing cross-issue consistency over much of 1981-2016, with a sharp exception in the 112th House. This consistency captures a different feature of voting from the fit of a conventional one-dimensional spatial model.
+
+This entry summarizes the supplied manuscript revised 24 June 2020 (first draft 5 March 2019). The publication year, venue, and DOI above are retained from the existing library record.
 
 ## Research Question
 
@@ -90,6 +93,7 @@ Replication resources reported by the paper are [Code Ocean](https://doi.org/10.
 - Lofland, Rodríguez, and Moser (2017), "Assessing Differences in Legislators' Revealed Preferences: A Case Study on the 107th U.S. Senate": the cited two-domain predecessor extended here to arbitrary domain partitions.
 - [[papers/the-issue-adjusted-ideal-point-model|The Issue-Adjusted Ideal Point Model]]: the Gerrish and Blei (2012b) comparison in Section 5.3 agrees on movement in Government Operations but differs on Civil Rights in the 111th House. Its topic-weighted deviations and this paper's discrete domain partitions are different parameterizations.
 - [[papers/how-they-vote-issue-adjusted-models-of-legislative-behavior|How They Vote: Issue-Adjusted Models of Legislative Behavior]]: cited related work by Gerrish and Blei using bill content and issue adjustments. The present model instead takes curated domain labels and learns exact equality through clustering.
+- [[papers/scaling-politically-meaningful-dimensions-using-texts-and-votes|Scaling Politically Meaningful Dimensions Using Texts and Votes]]: the introduction contrasts Lauderdale and Clark's text-derived issue mixtures, shared across voters, with the present model's curated vote groups and voter-specific partitions.
 - Shor, Berry, and McCarty (2010), "A Bridge to Somewhere: Mapping State and Congressional Ideology on a Cross-Institutional Common Space": cited bridging approach that assumes invariant actors in advance.
 
 [[index|Library home]]
