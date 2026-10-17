@@ -11,7 +11,7 @@ tags:
 
 ## Overview
 
-Group preference distribution estimation infers the location and dispersion of latent political preferences within predefined groups from individual binary choices. It is useful when each person answers too few items for a precise individual ideal point, but many people contribute evidence about a small set of group parameters. Groups can represent partisan affiliations, districts, or observed voting categories.
+Group preference distribution estimation infers the location and dispersion of latent political preferences within predefined groups from individual choices or survey responses. It is useful when each person answers too few items for a precise individual ideal point, but many people contribute evidence about a small set of group parameters. Groups can represent partisan affiliations, districts, or observed voting categories.
 
 ## Key Ideas
 
@@ -25,8 +25,11 @@ Group preference distribution estimation infers the location and dispersion of l
 - **Hierarchical group-level IRT:** Caughey and Warshaw integrate a normal individual trait distribution out of a normal-ogive response model, giving $p_{gjt}=\Phi((\bar\theta_{gt}-\kappa_j)/\sqrt{\sigma_{\theta,t}^2+\sigma_j^2})$. Adjusted item-group counts then enter a binomial likelihood. Their within-group trait dispersion is common across groups in a year, unlike Lewis's group-specific dispersions. Each respondent may contribute only one item, while information is pooled across respondents and items.
 - **Dynamic population estimates:** Hierarchical demographic and geographic coefficients can evolve under random-walk priors, stabilizing sparse group means across both groups and years. Population-weighted posterior draws yield geographic opinion estimates with propagated uncertainty. Stable item parameters provide the temporal bridge, and smoothing can suppress abrupt changes.
 
+Distributional comparisons can also measure group-based polarization. Traber, Stoetzer, and Burri estimate group means and variances from policy responses with hierarchical IRT, allowing both to vary over time through covariate interactions and B-splines. Bhattacharyya distance then measures dissimilarity between fitted distributions. Weighting pairwise distances by products of group shares makes the aggregate sensitive to group sizes as well as ideological distributions. Repeated cross-sections describe these changes but cannot distinguish individual preference shifts from sorting into groups.
+
 ## Important Papers
 
+- [[papers/group-based-public-opinion-polarisation-in-multi-party-systems|Group-based public opinion polarisation in multi-party systems]]: combines hierarchical IRT and distributional distance to study Swiss partisan and education groups; changing dispersion produces trends that group-mean differences alone miss.
 - [[papers/estimating-voter-preference-distributions-from-individual-level-voting-data|Estimating Voter Preference Distributions from Individual-Level Voting Data]]: Lewis (2001) develops marginal likelihood estimation of group means and variances and applies it to ballots, roll calls, and survey responses.
 - [[papers/dynamic-estimation-of-latent-opinion-using-a-hierarchical-group-level-irt-model|Dynamic Estimation of Latent Opinion Using a Hierarchical Group-Level IRT Model]]: Caughey and Warshaw (2015) combine group-level response modeling, hierarchical and temporal pooling, and poststratification to estimate annual U.S. state policy liberalism from sparse surveys.
 
