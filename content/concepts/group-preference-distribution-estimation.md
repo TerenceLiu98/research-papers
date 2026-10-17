@@ -38,5 +38,6 @@ Distributional comparisons can also measure group-based polarization. Traber, St
 ## Related Concepts
 
 - [[concepts/item-response-theory|Item Response Theory]]: links observed responses to item characteristics and latent traits.
+- [[concepts/marginal-maximum-likelihood-em-for-irt|Marginal Maximum Likelihood EM for IRT]]: computational framework for integrating individual traits while estimating group distributions.
 - [[concepts/heteroskedastic-ideal-point-estimation|Heteroskedastic Ideal Point Estimation]]: models variation in individual response noise rather than group preference dispersion.
 - [[concepts/dynamic-ideal-point-models|Dynamic Ideal Point Models]]: explicitly models changing positions; separate group distributions require additional restrictions for temporal comparability.

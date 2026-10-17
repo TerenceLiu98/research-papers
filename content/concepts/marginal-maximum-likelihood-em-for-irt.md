@@ -26,6 +26,7 @@ Marginal maximum likelihood estimates item and population parameters after integ
 
 ## Important Papers
 
+- [[papers/estimating-voter-preference-distributions-from-individual-level-voting-data|Estimating Voter Preference Distributions from Individual-Level Voting Data]]: Lewis (2001) uses response-pattern counts, Gauss-Hermite quadrature, and EM to estimate means and dispersions for predetermined voter groups from a few binary items; uncertainty is calculated from the full marginal likelihood.
 - [[papers/maximum-marginal-likelihood-estimation-with-an-expectation-maximization-algorithm-for-multigroup-mixture-multidimensional-item-response-theory-models|Fu (2019), Maximum Marginal Likelihood Estimation With an Expectation-Maximization Algorithm for Multigroup/Mixture Multidimensional Item Response Theory Models]]: explicit quadrature, derivative, and scoring formulas, with recovery simulations for GPCM-related models.
 - [[papers/generalized-full-information-item-bifactor-analysis|Generalized Full-Information Item Bifactor Analysis]]: illustrates EM with structural integration reduction and supplemented-EM uncertainty estimation.
 
