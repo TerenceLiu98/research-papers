@@ -39,10 +39,17 @@ Nonlinear transformations require particular care: averaging a transformed field
 
 For aggregated event counts, [[papers/continuous-inference-for-aggregated-point-process-data|Continuous inference for aggregated point process data]] uses a common latent grid and multinomial count augmentation. Observation regions may overlap or have specified boundary uncertainty, while posterior predictive cell counts can be reaggregated onto a new partition. Overlapping reporting catchments require a model for which region records each event; geometric overlap alone does not specify that mechanism. The paper supports changing historical boundaries methodologically, but its electoral application demonstrates prediction onto proposed boundaries rather than fitting observations with changing historical boundaries.
 
+### Temporal Contrasts under Changing Boundaries
+
+When two elections are reconstructed separately onto fixed targets, fixed linear reconstruction operators imply $\widehat{\Delta}=H_1\Delta+(H_1-H_0)p_0$. The second term can generate apparent change from a stable heterogeneous baseline. Improving each endpoint independently does not guarantee an accurate difference. A shared baseline-change model can use both native reporting systems to estimate the contrast, but stronger change regularization can suppress genuine hotspots alongside artificial swing.
+
+Exact count aggregation to a common coarse support identifies the contrast there. It does not recover variation within merged areas, and centroid-based proximity classifications can change with the support. A fixed weighted average of fine changes additionally requires common within-unit weights across elections. Method choice therefore depends on whether counts aggregate exactly to the substantive target, retained supports cross it, or historical fine reporting detail has been lost.
+
 ## Important Papers
 
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: Introduces geometric diagnostics and compares measurement and regression errors across transformation methods.
 - [[papers/spatial-latent-gaussian-modelling-with-change-of-support|Spatial Latent Gaussian Modelling with Change of Support]]: Jointly models misaligned responses and predictors using continuous spline fields and explicit support projections.
+- [[papers/electoral-change-on-moving-maps-joint-inference-under-misaligned-supports|Electoral Change on Moving Maps: Joint Inference under Misaligned Supports]]: Decomposes boundary-induced pseudo-change and evaluates shared baseline-change estimation, including hotspot attenuation and simultaneous-band undercoverage.
 - Gotway and Young (2002), "Combining Incompatible Spatial Data." Foundational reference cited by that paper.
 
 ## Related Concepts
