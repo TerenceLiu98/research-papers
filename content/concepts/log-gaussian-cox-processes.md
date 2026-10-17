@@ -22,6 +22,7 @@ A log-Gaussian Cox process models point locations with a random intensity whose 
 - **Clustering is not triggering:** Shared spatial conditions can cluster events without one event causing another. Temporal self-excitation requires a separate model and supporting assumptions.
 - **Observation processes matter:** Uneven reporting can remain in the fitted surface. Modeling population density alone does not identify or correct differential detection. In preferential-sampling applications, the point process instead explicitly models where observations are collected.
 - **Validation:** Simulated counts and spatial density surfaces assess different aspects of fit. Mesh-resolution checks test numerical sensitivity; neither substitutes for checking reporting bias or substantive assumptions.
+- **Aggregated observations:** Exact event locations need not be observed. Multinomial augmentation can allocate regional totals to latent grid-cell counts while alternating updates of the Gaussian field and its parameters. Overlapping reporting catchments require explicit allocation probabilities so shared areas do not acquire inflated intensity merely from their geometry.
 
 ## Important Papers
 

@@ -18,11 +18,13 @@ Bayesian spatial disaggregation infers a fine-scale spatial process from observa
 - The observation model must connect regional measurements to the underlying spatial process through aggregation. Merely assigning an area's observed rate to finer cells does not estimate within-area variation.
 - Covariates represent systematic spatial variation, while a Gaussian random field represents remaining spatial dependence. Aggregated observations constrain the surface but do not directly reveal fine-scale truth.
 - An INLA-SPDE implementation approximates the latent field on a triangular mesh and uses a projection matrix adapted to areal observations. Moraga and Alahmadi build on the integration framework of Moraga et al. (2017).
+- A complementary MCMC approach augments regional totals with latent fine-grid counts and alternates multinomial reallocations with updates of a log-Gaussian Cox process. Taylor, Andrade-Pacheco, and Sturrock (2018) extend this approach to overlapping catchments and specified boundary uncertainty; allocation assumptions and spatial-range priors affect the resulting surface.
 - [[posterior-exceedance-probabilities|Posterior Exceedance Probabilities]] can turn the inferred risk surface into a cluster map whose boundaries cross administrative borders.
 - Finer output resolution is conditional on model assumptions, covariate information, mesh construction, and priors. Independent fine-scale validation is needed to establish the accuracy of inferred boundaries.
 
 ## Important Papers
 
+- [[papers/continuous-inference-for-aggregated-point-process-data|Continuous inference for aggregated point process data]]: develops count augmentation for overlapping, uncertain, and spatiotemporal observation regions, with malaria and electoral-boundary applications.
 - [[bayesian-spatial-disaggregation-modeling-for-the-detection-of-disease-clusters|Bayesian spatial disaggregation modeling for the detection of disease clusters]]: compares continuous exceedance-based clustering with areal models and scan statistics, including the false-positive tradeoff.
 - Moraga et al. (2017), "A geostatistical model for combined analysis of point-level and area-level data using INLA and SPDE," cited by the cluster-detection paper as its spatial integration foundation.
 - Nandi et al. (2023), "disaggregation: An R package for Bayesian spatial disaggregation modeling," cited as a related implementation using TMB.
@@ -30,5 +32,6 @@ Bayesian spatial disaggregation infers a fine-scale spatial process from observa
 ## Related Concepts
 
 - [[posterior-exceedance-probabilities|Posterior Exceedance Probabilities]]: posterior classification of high-risk locations on a disaggregated surface.
-- Change of spatial support and Bayesian melding: connecting observations measured at different geographic resolutions.
+- [[concepts/change-of-spatial-support|Change of Spatial Support]] and Bayesian melding: connecting observations measured at different geographic resolutions.
+- [[concepts/log-gaussian-cox-processes|Log-Gaussian Cox Processes]]: a continuous event model that can be fitted to aggregated counts through augmentation.
 - Gaussian random fields and SPDE approximations: representing continuous spatial dependence computationally.

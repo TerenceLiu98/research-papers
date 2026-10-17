@@ -37,6 +37,8 @@ Changing support changes the design matrix while preserving the latent coefficie
 
 Nonlinear transformations require particular care: averaging a transformed field generally differs from transforming its average. Thresholding an areal-average latent field produces an areal binary label, not the fraction of positive point-level labels. The aggregation operation must follow the measurement mechanism.
 
+For aggregated event counts, [[papers/continuous-inference-for-aggregated-point-process-data|Continuous inference for aggregated point process data]] uses a common latent grid and multinomial count augmentation. Observation regions may overlap or have specified boundary uncertainty, while posterior predictive cell counts can be reaggregated onto a new partition. Overlapping reporting catchments require a model for which region records each event; geometric overlap alone does not specify that mechanism. The paper supports changing historical boundaries methodologically, but its electoral application demonstrates prediction onto proposed boundaries rather than fitting observations with changing historical boundaries.
+
 ## Important Papers
 
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: Introduces geometric diagnostics and compares measurement and regression errors across transformation methods.
