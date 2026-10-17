@@ -9,9 +9,11 @@ venue: Political Analysis
 volume: 23
 issue: 2
 pages: "197-211"
+doi: "10.1093/pan/mpu021"
 jstor: "24572968"
 url: https://www.jstor.org/stable/24572968
-source_job_id: "1f0b576c-0227-460c-897b-5cfcc1b71a86"
+source_job_id: "96884db1-16ad-46e7-b1f4-504ba12f018e"
+source_version: "Original manuscript, 2014-08-03"
 tags:
   - item-response-theory
   - public-opinion
@@ -40,7 +42,9 @@ Historical surveys often contain too few policy items per person for individual 
 
 ## Method
 
-The individual normal-ogive response model is $\Pr(y_{ij}=1)=\Phi((\theta_i-\kappa_j)/\sigma_j)$, with item threshold $\kappa_j$ and item error scale $\sigma_j$. Assuming normally distributed individual traits within each group gives the marginalized response model (Sections 3.1 and 3.5):
+This summary follows the August 3, 2014 manuscript supplied by MIT's repository, whose cover identifies the 2015 journal publication. Section and appendix references below refer to that manuscript.
+
+The individual normal-ogive response model is $\Pr(y_{ij}=1)=\Phi((\theta_i-\kappa_j)/\sigma_j)$, with item threshold $\kappa_j$ and item error scale $\sigma_j$. Assuming normally distributed individual traits within each group gives the marginalized response model (Sections 4.1 and 4.5; Appendix A):
 
 $$
 s^*_{gjt}\sim\operatorname{Binomial}(n^*_{gjt},p_{gjt}),\qquad
@@ -57,9 +61,13 @@ $$
 
 The intercept and demographic coefficients evolve through random-walk priors, for example $\gamma_{pt}\sim\mathcal N(\gamma_{p,t-1},\sigma_\gamma^2)$. Geographic effects can also depend on geographic covariates and a lag coefficient. Standard deviations evolve on a log scale. Thus temporal smoothing acts on hierarchical parameters; group means are re-estimated each period. Sparse and empty groups borrow information through the hierarchy.
 
-Survey-weight variation yields a group-year design effect $d_{gt}=1+[\operatorname{sd}(w)/\operatorname{ave}(w)]^2$. If respondent $i$ answers $r_i$ questions, the adjusted sample size is $n^*_{gjt}=\lceil\sum_i1/(r_i d_{gt})\rceil$. Responses are averaged using weights $w_i/r_i$, and adjusted successes are rounded to the nearest integer. This reduces the influence of repeated answers and accounts for unequal weights (Section 3.4).
+Survey-weight variation yields a group-year design effect $d_{gt}=1+[\operatorname{sd}(w)/\operatorname{ave}(w)]^2$. If respondent $i$ answers $r_i$ questions, the adjusted sample size is $n^*_{gjt}=\lceil\sum_i1/(r_i d_{gt})\rceil$. Responses are averaged using weights $w_i/r_i$, and adjusted successes are rounded to the nearest integer. This reduces the influence of repeated answers and accounts for unequal weights (Section 4.4).
 
-All items are coded in the same substantive direction with positive discrimination. Rescaling difficulties to mean zero and discriminations to product one identifies location and scale. Item thresholds and error scales are held constant across time to put annual estimates on a common metric. The authors estimate the model in Stan through R. For every posterior draw, demographic group means are weighted by population shares to obtain state means and their uncertainty (Sections 3.6-3.7).
+All items are coded in the same substantive direction with positive discrimination. Rescaling difficulties to mean zero and discriminations to product one identifies location and scale. Item thresholds and error scales are held constant across time to put annual estimates on a common metric. The authors estimate the model in Stan through R. For every posterior draw, demographic group means are weighted by population shares to obtain state means and their uncertainty (Sections 4.6-4.7).
+
+### Proposed Extensions
+
+Section 6 sketches random-walk item difficulties, group-specific within-group variances, and multiple latent dimensions. Item drift requires restrictions on its innovation scale relative to opinion change and complicates temporal comparisons. A lognormal variance-function regression could model differences in group heterogeneity. Multidimensionality increases identification and computational demands. These are proposed extensions, not demonstrated improvements in the reported validation. Appendix D supplies Stan code, including priors and options for changing difficulties and separate-period estimation.
 
 ## Experiments
 
@@ -85,13 +93,20 @@ Pooling lowers MAE and RMSE in every replication and lowers absolute bias in nin
 
 State policy liberalism is strongly associated with Democratic presidential vote share, with the association strengthening over time. The national series correlates 0.67 with Stimson's policy mood, despite differences in construct definition and limited data overlap. Both series are most liberal around 1990 and most conservative around 1980, with a divergence in the early 2000s. These comparisons support interpretation of the estimates but do not provide direct observations of the latent trait.
 
+### Historical Applications
+
+Appendix B estimates New Deal support from 453 question series and 644,370 respondents in quota-sampled Gallup polls fielded from November 1936 through December 1952. Three-quarters of the questions appear in only one year. Estimates show an almost half-standard-deviation conservative shift between 1940 and 1942 and a reversal of the South's relative position between 1937 and 1943. State opinion also covaries with Senate delegation voting records. These aggregates explicitly exclude Black Southerners through population weights, although their responses enter estimation; the authors cite disenfranchisement and severe undersampling. The findings therefore concern that restricted population, not all U.S. adults.
+
+Appendix C uses 72 polls from 1963-2010, approximately 166,000 respondents, and four question series to estimate confidence in the Supreme Court; its state maps cover 1965-2010. Ordinal answers are converted into threshold indicators, with one indicator sampled per respondent. Estimated regional and racial differences change substantially over time. The authors report that their disapproval measure predicts court-curbing sponsorship in both chambers, whereas Clark's comparison measure predicts House sponsorship but not Senate sponsorship. This is construct-validation evidence, not an identified causal effect of opinion on legislation.
+
 ## Limitations
 
 - Temporal smoothing can attenuate rapid state or demographic shifts, especially when observations are sparse. The authors suggest the separated model may suit questions about abrupt change better.
 - The response model assumes a single latent dimension, normal within-group traits, and common item response functions across groups and time. Temporal comparability depends on measurement stability, not simply repeated wording.
 - Empty-cell estimates depend on the hierarchy. Producing an estimate for an unsampled group does not independently validate its value or solve selective nonresponse.
 - Held-out response prediction and correlations with related constructs offer different, incomplete evidence about latent opinion. Presidential votes can change for reasons other than policy preferences.
-- The supplied Markdown omits the referenced supplementary materials and footnote bodies. Additional historical applications, detailed priors, Stan code, and extensions allowing item drift cannot be assessed from this source alone. The paper claims computational advantages but the main text supplies no runtime benchmark.
+- Quota-sample weighting in the New Deal application addresses observed population discrepancies but does not establish representativeness on unobserved characteristics. Its exclusion of Black Southerners materially restricts the target population.
+- The supplied manuscript includes derivations, historical applications, and Stan code, but many footnote bodies are absent and some equations or code fragments have extraction artifacts. The code is documentary evidence here, not a verified executable implementation. The paper claims computational advantages without a systematic runtime benchmark.
 
 ## Related Concepts
 

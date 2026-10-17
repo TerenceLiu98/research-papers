@@ -28,6 +28,10 @@ Group preference distribution estimation infers the location and dispersion of l
 
 Distributional comparisons can also measure group-based polarization. Traber, Stoetzer, and Burri estimate group means and variances from policy responses with hierarchical IRT, allowing both to vary over time through covariate interactions and B-splines. Bhattacharyya distance then measures dissimilarity between fitted distributions. Weighting pairwise distances by products of group shares makes the aggregate sensitive to group sizes as well as ideological distributions. Repeated cross-sections describe these changes but cannot distinguish individual preference shifts from sorting into groups.
 
+### Population Weights Define the Target
+
+For population shares $w_{gt}$ summing to one within a geographic unit, its latent mean is $\sum_g w_{gt}\bar\theta_{gt}$. Applying this aggregation within each posterior draw propagates uncertainty in the group means. The weights also define whose opinion is represented: changing them changes the target population even when fitted group means stay fixed. Caughey and Warshaw's New Deal application includes Black Southern respondents in estimation but assigns their group means zero weight in the reported aggregates because of disenfranchisement and severe undersampling. Those estimates consequently describe a restricted population. Poststratification can address observed composition differences; it does not by itself validate extrapolation to poorly sampled groups.
+
 ### Joint Distributions from Repeated Member Records
 
 When the same members respond across policy domains, group-specific covariance can become an estimand alongside location and breadth. Liu and Chadefaux model $\theta_i\mid g\sim\mathcal N_K(m_g,\Omega_g)$ and integrate the product of all of a member's response probabilities over this law. Multiplication precedes integration: repeated responses from the same people identify dependence that separate item-group response counts do not retain. Two groups can share all domain marginals but differ in which positions their members hold together.
