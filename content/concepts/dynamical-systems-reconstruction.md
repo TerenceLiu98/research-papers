@@ -21,6 +21,7 @@ Dynamical systems reconstruction infers a generative surrogate from observed tim
 - **Preserve coupling and observability.** Independently forecasting interacting coordinates can destroy joint state-space structure. Delay embeddings can make partially observed dynamics accessible under suitable assumptions; embedding dimension and sampling resolution remain consequential choices.
 - **Specify the transfer regime.** Fitting a surrogate to a target context differs from conditioning a pretrained model on that context with fixed weights. DynaMix demonstrates the latter for held-out systems, with separate architecture/pretraining choices when the number of input coordinates increases.
 - **Detect context repetition.** Replaying a finite context can imitate spatial coverage while replacing chaotic evolution with periodic behavior. Power spectra and divergence diagnostics help distinguish such repetition from successful reconstruction.
+- **Evaluate rollout tails and estimator sensitivity.** Panda's full-rollout spectral metrics can remain favorable while its late predictions regress to the mean. Tail-only diagnostics expose this failure, and switching between GMM-based and geometric-misalignment KL estimates changes baseline rankings. Reconstruction claims should identify both the evaluated interval and the estimator.
 
 ## Important Papers
 
