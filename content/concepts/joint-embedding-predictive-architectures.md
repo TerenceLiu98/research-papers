@@ -17,6 +17,7 @@ Joint-embedding predictive architectures learn representations by predicting a t
 ## Key Ideas
 
 - **Context, predictor, and target:** A context encoder processes observed portions of an input, a predictor estimates representations of held-out portions, and a target encoder supplies the embeddings to match. This differs from reconstructing missing raw values.
+- **Iterative stochastic prediction:** JEDI uses conditional diffusion to predict future embeddings from past embeddings and actions. Stop-gradient future targets allow denoising gradients to train the encoder through context representations; the default uses no EMA target encoder. Its information-bottleneck decomposition motivates the loss, while the full context-prior regularizer remains outside the implemented objective.
 - **Moving targets and collapse:** A target encoder updated by an exponential moving average supplies slowly changing targets. TS-JEPA uses this mechanism to stabilize training and discourage constant representations; its results do not establish that EMA alone guarantees avoidance of collapse.
 - **Temporal adaptation:** TS-JEPA embeds non-overlapping time-series patches with a 1D convolution and positional encodings, then minimizes an L1 discrepancy between predicted and target embeddings at masked positions.
 - **Evaluation matters:** Classification and forecasting test different properties of a representation. TS-JEPA's mixed results show that latent prediction need not dominate raw-value autoregression, and transfer between related datasets can still fail to improve on competing objectives.
@@ -25,6 +26,7 @@ Joint-embedding predictive architectures learn representations by predicting a t
 
 ## Important Papers
 
+- [[papers/jedi-joint-embedding-diffusion-world-model-for-online-model-based-reinforcement-learning|JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning]] extends predictive embedding learning to online latent diffusion world models with reward and termination supervision.
 - [[papers/joint-embeddings-go-temporal|Joint Embeddings Go Temporal]] introduces TS-JEPA and evaluates frozen representations for classification and forecasting.
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]] analyzes exact and approximate latent recovery for alignment with Gaussian regularization, with explicit limits on dynamics and planning claims.
 - Assran et al. (2023), "Self-supervised learning from images with a joint-embedding predictive architecture," is cited by TS-JEPA as an image-domain predecessor.
