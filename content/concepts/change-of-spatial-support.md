@@ -25,9 +25,22 @@ Change of spatial support means estimating a variable for destination geographic
 
 Ecological inference and the modifiable areal unit problem are related: the former concerns inference about lower-level variation from aggregate data, while the latter concerns sensitivity to geographic grouping. Change of support also covers transfers between non-nested aggregate units.
 
+### Joint Latent-Process Modelling
+
+An alternative to transforming data before regression is to model continuous latent responses and predictors jointly, then project each field to its observed support. For a basis representation $W(\mathbf{s})=\mathbf{b}(\mathbf{s})^\top\boldsymbol{\delta}$, an areal mean is
+
+$$
+\overline{W}(c)=\left[|c|^{-1}\int_c\mathbf{b}(\mathbf{s})\,d\mathbf{s}\right]^\top\boldsymbol{\delta}.
+$$
+
+Changing support changes the design matrix while preserving the latent coefficients. Chacon-Montalvan et al. (2024) use tensor-product B-splines with Gaussian Markov random field coefficients to compute these integrals analytically on rectangles. Source-specific biases and measurement variances belong in a separate observation layer; posterior draws propagate uncertainty to new supports. The exactness concerns integration of the specified basis expansion, and does not guarantee that the inferred surface matches fine-scale truth.
+
+Nonlinear transformations require particular care: averaging a transformed field generally differs from transforming its average. Thresholding an areal-average latent field produces an areal binary label, not the fraction of positive point-level labels. The aggregation operation must follow the measurement mechanism.
+
 ## Important Papers
 
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: Introduces geometric diagnostics and compares measurement and regression errors across transformation methods.
+- [[papers/spatial-latent-gaussian-modelling-with-change-of-support|Spatial Latent Gaussian Modelling with Change of Support]]: Jointly models misaligned responses and predictors using continuous spline fields and explicit support projections.
 - Gotway and Young (2002), "Combining Incompatible Spatial Data." Foundational reference cited by that paper.
 
 ## Related Concepts
