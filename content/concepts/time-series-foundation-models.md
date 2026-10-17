@@ -15,6 +15,7 @@ Time series foundation models learn reusable temporal representations or forecas
 
 ## Key Ideas
 
+- **Long-term dynamics require distinct evaluation:** [[concepts/dynamical-systems-reconstruction|Dynamical Systems Reconstruction]] assesses attractor occupation and temporal statistics beyond pointwise forecast error. DynaMix's synthetic-system experiments show how context repetition or eventual collapse can coexist with plausible near-term forecasts; its empirical results also show that stronger dynamical metrics need not yield lower MAE.
 - **Specialization can occur within a series:** MOIRAI-MOE uses shared projections and [[concepts/sparse-mixture-of-experts|sparse expert routing]] to specialize by patch-token patterns rather than sampling frequency. Its results distinguish the small parameter subset activated per token from the substantially larger total model capacity.
 - **Architecture and pretraining are separate choices:** Temporal models can use transformers or MLP mixing, as illustrated by TTM in Marconi's report. Using a language-model architecture does not by itself establish that a model inherited text-pretrained weights.
 - **Patches connect numeric data to sequence models:** TimesFM embeds consecutive observations as tokens and trains a causal transformer to forecast after each input patch. Output patches can be longer than input patches, reducing autoregressive rollout steps. Partial first-patch masking exposes different history lengths during training.
