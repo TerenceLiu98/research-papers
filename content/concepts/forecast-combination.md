@@ -1,0 +1,38 @@
+---
+title: Forecast Combination
+type: concept
+aliases:
+  - Forecast Averaging
+tags:
+  - forecasting
+  - model-averaging
+  - covariance-estimation
+---
+
+## Overview
+
+Forecast combination pools several predictions of the same target. Its value depends on both individual predictive accuracy and dependence among errors: numerous nearly redundant forecasts do not supply the same information as complementary forecasts.
+
+## Key Ideas
+
+For unbiased forecast errors with positive-definite covariance $\Omega$, the minimum-variance weights subject to $\mathbf 1^\top\mathbf w=1$ are
+
+$$
+\mathbf w=\frac{\Omega^{-1}\mathbf 1}{\mathbf 1^\top\Omega^{-1}\mathbf 1}.
+$$
+
+- The sum-to-one constraint does not ensure nonnegative weights. Minimum variance coincides with minimum mean squared error under the unbiased-error assumption.
+- A sample covariance becomes singular when there are too many forecasts relative to observed errors. Linear shrinkage combines it with a structured target to make estimation feasible and more stable.
+- A constant-correlation target can retain different marginal error variances. Equal weighting follows under additional symmetry conditions; it is not a general consequence of shrinkage.
+- Weights estimated from past out-of-sample errors target predictive performance. In-sample likelihood weights instead reflect historical fit and can favor indicators that arrive too late to help early nowcasts.
+- Weight estimation should match forecast horizon and available information. In the GDP application, survey indicators help early nowcasts, while production indicators gain relevance as observations arrive.
+
+## Important Papers
+
+- [[papers/nowcasting-monthly-gdp-with-big-data-a-model-averaging-approach|Nowcasting monthly GDP with big data: A model averaging approach]]: applies shrinkage error-covariance weights to hundreds of bivariate GDP models.
+- Newbold and Granger (1974), "Experience with Forecasting Univariate Time Series and the Combination of Forecasts": theoretical antecedent cited in the GDP paper's combination argument.
+- Ledoit and Wolf (2004), "Honey, I Shrunk the Sample Covariance Matrix": covariance regularization used by the GDP application.
+
+## Related Concepts
+
+- [[concepts/temporal-disaggregation|Temporal Disaggregation]]: combining latent monthly paths can retain their observed quarterly totals when weights satisfy the appropriate constraints.
