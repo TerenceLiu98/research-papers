@@ -21,9 +21,11 @@ Maximum mean discrepancy (MMD) compares distributions through their mean embeddi
 - Under an equality null, the squared discrepancy has a vanishing first derivative. Its leading fluctuation can therefore have a weighted chi-square limit rather than an ordinary Gaussian limit.
 - Estimated counterfactuals require additional uncertainty accounting. In [[concepts/distributional-difference-in-differences|Distributional Difference-in-Differences]], an estimated transport map contributes to the covariance spectrum used for calibration; ordinary independent two-sample calibration is not automatically valid.
 - The discrepancy measures distributional separation. A causal interpretation requires an independently justified identification design, and the scalar discrepancy alone does not identify affected individuals or the direction of a policy's effect.
+- MMD can also serve as a training penalty rather than a hypothesis test. In the Neural Ideal Point Model, an empirical squared MMD term compares encoded latent positions with prior draws alongside reconstruction and optional outcome-prediction losses. Matching these distributions does not by itself establish calibrated uncertainty for individual positions.
 
 ## Important Papers
 
+- [[papers/the-neural-ideal-point-model|The Neural Ideal Point Model]]: a July 2025 presentation using MMD regularization in a Wasserstein autoencoder for multimodal latent-ideology estimation.
 - Gretton et al. (2012), "A kernel two-sample test," the foundational testing reference cited by the ingested paper.
 - Sriperumbudur et al. (2010), "Hilbert space embeddings and metrics on probability measures," cited there for characteristic mean embeddings.
 - [[papers/a-test-for-treatment-heterogeneity-under-a-distributional-difference-in-difference-framework|A Test for Treatment Heterogeneity under a Distributional Difference-in-Difference Framework]]: Applies squared MMD to an observed and a transported counterfactual law, accounting for the estimated map.
