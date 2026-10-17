@@ -18,6 +18,7 @@ Topic-factorized ideal points connect a multidimensional voting model to topics 
 
 - **Topic-weighted interaction:** The yes-vote probability is $\operatorname{logistic}(\sum_k\theta_{dk}x_{uk}a_{dk}+b_d)$. Topic proportions determine how much each legislator-bill interaction contributes; topic membership alone does not determine support.
 - **Joint text and behavior modeling:** A word-mixture likelihood and a voting likelihood share bill topic proportions. Their relative weight determines how strongly textual coherence and vote prediction influence the representation.
+- **Neural and network extensions:** NIPEN couples an autoencoded bill representation to a separate voting representation through a regularized offset. Its PGM variant retains topic-wise ideal-point interactions and adds a signed, directed term based on other legislators' votes; its tensor variant applies nonlinear transformations across topic interactions. These extensions broaden prediction without making learned voting associations causal measures of influence.
 - **Separate topic coefficients:** Unlike a general position plus issue offsets multiplied by one bill polarity, this model gives each bill a separate coefficient for each topic. It therefore changes both the voting structure and the treatment of topic estimation.
 - **Regularization and interpretation:** L2 penalties control the magnitude of legislator and bill parameters. Text supplies semantic labels, but labels do not remove all identification ambiguities. Simultaneously reversing legislator and bill signs within a topic preserves the vote probability and penalty.
 - **Prediction targets:** Predicting missing votes on observed bills uses bill parameters fitted from other votes. Predicting votes for wholly unseen bills additionally requires a mapping from available text to those parameters.
@@ -26,6 +27,7 @@ Topic-factorized ideal points connect a multidimensional voting model to topics 
 ## Important Papers
 
 - [[papers/topic-factorized-ideal-point-estimation-model-for-legislative-voting-network|Topic-Factorized Ideal Point Estimation Model for Legislative Voting Network]]: introduces joint topic and vote estimation with alternating optimization, evaluates congressional roll calls, and demonstrates a text-based unseen-bill extension.
+- [[papers/neural-ideal-point-estimation-network|Neural Ideal Point Estimation Network]]: combines autoencoded bill content, topic-specific ideal points, and learned legislator networks; compares graphical-model and tensor variants on two congressional datasets, with dataset- and metric-dependent gains.
 
 ## Related Concepts
 
