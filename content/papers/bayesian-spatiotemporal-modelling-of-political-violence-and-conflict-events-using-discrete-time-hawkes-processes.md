@@ -7,7 +7,7 @@ authors:
   - Judith Rousseau
   - Kerrie Mengersen
 year: null
-source_job_id: "b33a5972-a08f-40de-9629-7486367d7200"
+source_job_id: "1ad5055b-8ee0-4968-ab63-6224e5447898"
 tags:
   - hawkes-processes
   - bayesian-inference
@@ -32,7 +32,7 @@ Historical moving averages can produce unstable anomaly thresholds and provide l
 - Combines a spatially varying baseline, temporal excitation, optional spatial triggering, and a zero-inflated Poisson observation model within a Bayesian framework.
 - Compares models across 24 country/event-type combinations, distinguishing spatial heterogeneity in baseline rates from spatial propagation of excitation.
 - Demonstrates subnational risk maps, posterior predictive checks, and an early-warning illustration benchmarked against historical moving averages.
-- Examines maximum excitation lag, kernel choice, prior sensitivity, and intensity-estimation behavior in a supplementary simulation study.
+- Compares maximum excitation lags and kernel choices, and reports convergence difficulties under weakly informative priors.
 
 ## Method
 
@@ -45,11 +45,11 @@ $$
 
 The alternative, `nospatialSE`, retains only the region's own past counts in the excitation term. Both models use an intrinsic conditional autoregressive (ICAR) prior over regional log-baselines, borrowing information across adjacent regions. This represents [[concepts/spatial-autocorrelation|Spatial Autocorrelation]] in background activity independently of the optional triggering kernel (Section 2.3).
 
-The observation model is a mixture of a structural zero with probability $\pi$ and a Poisson count with probability $1-\pi$. Thus $\lambda_{t,r}$ is the Poisson-component rate; the full conditional mean is $(1-\pi)\lambda_{t,r}$. The temporal kernel is a geometric probability mass function truncated and renormalized over 52 weeks. The source defines its spatial kernel as $h(z_r,z_l)=\exp[-d(z_r,z_l)/(2\sigma^2)]$, with $d$ the Euclidean distance between latitude-longitude centroids (Equations 5-8). This expression uses distance, not squared distance.
+The observation model is a mixture of a structural zero with probability $\pi$ and a Poisson count with probability $1-\pi$. Thus $\lambda_{t,r}$ is the Poisson-component rate; the full conditional mean is $(1-\pi)\lambda_{t,r}$. The temporal kernel is a geometric probability mass function truncated and renormalized over 52 weeks. The source defines its spatial kernel as $h(z_r,z_l)=\exp[-d(z_r,z_l)/(2\sigma^2)]$, with $d$ the Euclidean distance between latitude-longitude centroids (Section 2.3). This expression uses distance, not squared distance.
 
-Stan's No-U-Turn Sampler estimates the posterior. Weakly informative priors produced convergence problems, so non-spatial parameters receive priors centered on maximum-likelihood estimates obtained with R's `optim`; regional effects retain the ICAR prior. Excitation magnitude $\alpha$ must be interpreted jointly with zero inflation and spatial weights: $\alpha>1$ alone does not establish explosive dynamics (Section 2.3; Appendix B).
+Stan's No-U-Turn Sampler estimates the posterior. Weakly informative priors produced convergence problems, so non-spatial parameters receive priors centered on maximum-likelihood estimates obtained with R's `optim`; regional effects retain the ICAR prior. Excitation magnitude $\alpha$ must be interpreted jointly with zero inflation and spatial weights: $\alpha>1$ alone does not establish explosive dynamics (Section 2.3).
 
-The paper supplies [implementation code](https://github.com/RaihaTuiTaura/st-hawkes-thesis). The supplied Markdown does not state a publication year, venue, DOI, or arXiv identifier for this manuscript.
+The paper supplies [implementation code](https://github.com/RaihaTuiTaura/st-hawkes-paper) and identifies *Journal of the Royal Statistical Society: Series A* as the location of supplementary material. The supplied Markdown contains no publication year, DOI, or arXiv identifier for this manuscript; the supplementary material itself is not included.
 
 ## Experiments
 
@@ -57,7 +57,7 @@ The paper supplies [implementation code](https://github.com/RaihaTuiTaura/st-haw
 
 Weekly ACLED counts cover 2010-2014 in Bangladesh, Nepal, Pakistan, and Sri Lanka. Each country and each of six event types is fitted separately: battles, explosions/remote violence, protests, riots, strategic developments, and violence against civilians. Administrative units are GADM level 2 in Nepal and Pakistan and level 1 in Bangladesh and Sri Lanka. The fitting period begins in 2011, using 2010 as event history for the 52-week lag (Sections 2.1 and 3).
 
-Maximum-likelihood/BIC comparisons favor a 52-week excitation window over 12 and 26 weeks. Baseline-only models underperform overall, while more complex power-law kernels do not consistently justify their additional parameters. Neither temporal-only nor spatiotemporal excitation wins across all scenarios (Appendix A).
+The reported model comparisons favor a 52-week excitation window over 12 and 26 weeks. Baseline-only models underperform overall, while more complex power-law kernels do not substantially improve fit. Neither temporal-only nor spatiotemporal excitation wins across all scenarios (Section 2.3).
 
 For the Bayesian fits, convergence diagnostics are checked first. The temporal-only model fails these checks for battles and protests in Nepal. Otherwise, spatial triggering is selected only if it wins more than half of six criteria covering predictive coverage, residual behavior, zeros, and BIC. Table 1 gives:
 
@@ -75,15 +75,15 @@ All entries retain spatially varying baselines; "Spatial" denotes additional spa
 ### Reported Findings
 
 - **Temporal and spatial patterns:** Bangladesh and Pakistan generally show longer excitation memories than Nepal and Sri Lanka, especially for battles, explosions/remote violence, and strategic developments. Estimated spatial influence is relatively localized in Bangladesh, while several Nepal event types have broader spatial kernels (Section 3, Figure 9).
-- **Predictive checks:** Using 100 posterior samples, the authors simulate the first three months of 2015 without updating forecasts with held-out observations. Reported 95% intervals usually encompass observed counts, but miss unusually high riots, protests, and explosions/remote violence in Bangladesh during the political crisis. The preceding year had low activity, leaving little endogenous excitation from which to anticipate the surge (Figure 10; Appendix E).
-- **Warning illustration:** The historical comparator flags counts more than two standard deviations above a rolling 12-month mean. The proposed illustration instead uses a rolling average of posterior-median Poisson 97.5% quantiles. Pakistan protest plots show smoother thresholds and different responses to isolated events. The 97.5% level is illustrative, not an optimized operational threshold (Section 4, Figure 11).
-- **Simulation:** Appendix G fits MLEs, rather than full Bayesian posteriors, to 10 simulated series at each length of 50, 100, 250, 500, and 1,000 intervals, using Pakistan's regional structure and a 12-interval lag. Intensity residuals become more stable from about 250 intervals, with decreasing variability at longer lengths. This is a finite simulation result, not a posterior-consistency theorem.
+- **Predictive checks:** Using 100 posterior samples, the authors simulate the first three months of 2015 without updating forecasts with held-out observations. Reported 95% intervals usually encompass observed counts, but miss unusually high riots, protests, and explosions/remote violence in Bangladesh during the political crisis. The preceding year had low activity, leaving little endogenous excitation from which to anticipate the surge (Section 3, Figure 10).
+- **Warning illustration:** The historical comparator flags counts more than two standard deviations above a rolling 12-month mean. The proposed illustration instead uses a rolling 12-month average of the posterior median of zero-inflated Poisson 97.5% quantiles. Pakistan protest plots show smoother thresholds and different responses to isolated events. The 97.5% level is illustrative, not an optimized operational threshold (Section 4, Figure 11).
+- **Weak excitation in some settings:** Estimated excitation magnitude is essentially zero in several scenarios, particularly in Sri Lanka. Despite the overall model-comparison results, baseline-only models may suffice for those settings (Section 3, Figure 8).
 
 ## Limitations
 
 - Countries and event types are fitted independently; cross-border and cross-type excitation are not estimated. Event counts also do not directly quantify fatalities or humanitarian impact.
 - The model misses some extreme counts and responds to new events only in the following interval. Exogenous warning signals, overdispersed likelihoods, and richer regime dynamics remain proposed extensions.
-- MLE-centered priors address observed convergence difficulties, but uncertainty is conditional on this data-dependent prior construction. The supplementary simulation evaluates MLE intensity recovery rather than Bayesian interval calibration.
+- MLE-centered priors address observed convergence difficulties, but uncertainty is conditional on this data-dependent prior construction. Detailed prior-sensitivity results are deferred to supplementary material absent from the supplied source.
 - Weekly aggregation excludes within-week excitation and can shift apparent activity into the baseline. Spatial aggregation and centroid distances likewise affect interpretation; Euclidean latitude-longitude distances become problematic over larger domains or at higher latitudes.
 - Fitted excitation describes event-history dependence; it does not by itself identify causal transmission. The warning comparison supplies illustrative behavior rather than measured intervention benefits or a head-to-head forecast evaluation against CAST.
 - The source sums regional quantiles for some national summaries and notes inflated upper bounds; sums of marginal quantiles should not be interpreted automatically as quantiles of the joint total. Figure 6's prose specifies 90% intervals while its caption says 95%, so no single coverage level is assigned to that figure here.
