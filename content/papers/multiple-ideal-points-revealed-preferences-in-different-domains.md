@@ -8,7 +8,7 @@ authors:
 year: 2021
 doi: "10.1017/pan.2020.21"
 venue: Political Analysis
-source_job_id: "a6ec244b-6c81-4600-8d63-b7b886c2221c"
+source_job_id: "00c823f6-bcb3-46cb-98be-80c28cf149fd"
 tags:
   - ideal-point-estimation
   - legislative-behavior
@@ -56,6 +56,8 @@ The individual staying frequency is $SF_i=\Pr(L_i=1\mid y)$, where $L_i$ is the 
 
 The empirical illustration fits each of the 97th-114th U.S. Houses independently, using recorded votes from 1981-2016 and $D=1$. Policy Agendas Project major topics supply the domain labels. The analysis retains 17 of 20 topics, choosing topics that tend to have at least 20 votes in most Houses, and excludes legislators missing more than 25% of session votes. This is an empirical illustration with model comparisons, not a held-out predictive benchmark (Section 5).
 
+Domain sizes remain uneven after selection: Appendix B reports 440 Government Operations votes but only 27 Housing votes in the 111th House. The selection criterion is not a minimum of 20 votes in every domain-session cell; for example, Energy has eight votes in the 105th House. This imbalance helps motivate borrowing information across domains.
+
 ### Reported Findings
 
 - **Chamber consistency:** ASF is low during the Reagan and George H. W. Bush presidencies and generally increases subsequently, with a marked fall in the 112th House. The suggested Tea Party explanation is interpretive, not causally identified (Figure 1).
@@ -86,6 +88,7 @@ Replication resources reported by the paper are [Code Ocean](https://doi.org/10.
 ## Related Papers
 
 - Lofland, Rodríguez, and Moser (2017), "Assessing Differences in Legislators' Revealed Preferences: A Case Study on the 107th U.S. Senate": the cited two-domain predecessor extended here to arbitrary domain partitions.
+- [[papers/the-issue-adjusted-ideal-point-model|The Issue-Adjusted Ideal Point Model]]: the Gerrish and Blei (2012b) comparison in Section 5.3 agrees on movement in Government Operations but differs on Civil Rights in the 111th House. Its topic-weighted deviations and this paper's discrete domain partitions are different parameterizations.
 - [[papers/how-they-vote-issue-adjusted-models-of-legislative-behavior|How They Vote: Issue-Adjusted Models of Legislative Behavior]]: cited related work by Gerrish and Blei using bill content and issue adjustments. The present model instead takes curated domain labels and learns exact equality through clustering.
 - Shor, Berry, and McCarty (2010), "A Bridge to Somewhere: Mapping State and Congressional Ideology on a Cross-Institutional Common Space": cited bridging approach that assumes invariant actors in advance.
 
