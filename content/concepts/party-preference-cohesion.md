@@ -20,6 +20,7 @@ Party preference cohesion is the similarity of policy preferences among a party'
 - **Separate disagreement from measurement uncertainty.** Variation among experts about a party's location is not the same quantity as variation in members' own policy preferences.
 - **Distinguish recruitment from discipline.** National nomination control may select ideologically similar candidates; legislative sanctions may produce common voting among dissimilar members. Behavioral unity alone cannot distinguish these mechanisms.
 - **Treat electoral incentives conditionally.** In Carroll and Kubo's observational study, district magnitude has opposite associations with preference heterogeneity depending on intraparty competition. Competition itself has no significant overall association, so personal-vote incentives cannot simply be equated with ideological diversity.
+- **Internal dispersion can shape party images.** [[papers/intra-party-heterogeneity-and-voter-perceptions-of-party-positions|Imre's study of voter perceptions]] finds economic candidate heterogeneity associated with greater distance between voter placements and party-position benchmarks, especially as parties emphasize economic issues. Sociocultural results change with the benchmark. Preference dispersion therefore need not translate uniformly into perceptual disagreement across dimensions, and disagreement with a benchmark need not imply voter ignorance.
 
 ## Important Papers
 
