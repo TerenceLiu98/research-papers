@@ -27,10 +27,12 @@ It is the Jensen gap of the convex potential. Its value depends on both the repr
 - **Hard clustering:** Minimizing the information lost by replacing observations with conditional means is equivalent to minimizing expected Bregman distortion. The squared-error instance connects directly to [[concepts/representative-points|Representative Points]].
 - **Compression:** For conditional-mean reproductions, $I(Z;\hat Z)+\beta\mathbb E[d_\phi(Z,\hat Z)]$ differs from $I(Z;\hat Z)-\beta I_\phi(\hat Z)$ by a fixed source term. Shannon mutual information measures encoding rate; Bregman information measures retained structure under the selected loss.
 - **Information bottleneck:** KL distortion on $p(Y\mid X)$ recovers the trade-off between compression of $X$ and preservation of information about $Y$, under the corresponding conditional-expectation and Markov assumptions.
+- **Monotonic representations:** Applying the loss to $\rho(X)$ gives the representative $\rho^{-1}(\mathbb E[\rho(X)])$ when the represented mean is admissible. The optimal value is $\mathbb E[\phi(\rho(X))]-\phi(\mathbb E[\rho(X)])$. For density inputs and an integral generator, this produces [[concepts/quasi-arithmetic-annealing-paths|Quasi-Arithmetic Annealing Paths]]. The representation fixes the mean; the generator still controls the information value.
 
 ## Important Papers
 
 - [[papers/clustering-with-bregman-divergences|Clustering with Bregman Divergences]]: defines Bregman information, proves the clustering decomposition, and develops its compression interpretation.
+- [[papers/variational-representations-of-annealing-paths-bregman-information-under-monotonic-embedding|Variational representations of annealing paths: Bregman information under monotonic embedding]]: extends the barycenter and Jensen-gap identities to monotonic embeddings and relates their density versions to annealing paths.
 - Banerjee, Guo, and Wang (2004), "Optimal Bregman prediction and Jensen's equality": cited by that paper for the Jensen-gap connection.
 - Tishby, Pereira, and Bialek (1999), "The information bottleneck method": the conditional-distribution/KL special case discussed in the clustering paper.
 
