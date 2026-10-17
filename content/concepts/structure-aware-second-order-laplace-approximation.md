@@ -19,6 +19,8 @@ Second-order Laplace approximation improves a local Gaussian approximation to a 
 - **Structural sparsity:** If an item depends on only a few latent coordinates, many of its mixed derivatives vanish. For a Gaussian latent distribution, derivatives above order two of the log prior vanish, so higher derivatives come from item likelihoods.
 - **Symmetry and multiplicity:** Compute each unique nonzero derivative product once, then multiply by its frequency in the full sum. This preserves the stated approximation while removing redundant work.
 - **Model-dependent cost:** Independent-clusters models offer substantial savings. Cross-loadings increase the number of distinct terms; dense structures can sharply reduce the advantage.
+- **Simple-structure latent regression:** Covariates can shift the Gaussian latent mean without introducing higher-order derivatives from the log prior. With one latent loading per item, the largest correction sums involve pairs of dimensions, enabling simultaneous estimation of item, regression, and covariance parameters. This reduction concerns the correction sums, not the full optimization cost.
+- **Indicators matter:** A higher-order correction can reduce bias without eliminating it. The latent regression IRT study finds residual bias and nonconvergence with few binary indicators, while six indicators per dimension yield substantially more competitive recovery. Increasing respondent count alone need not remove approximation bias.
 - **Comparison with quadrature:** Tensor-product adaptive Gauss-Hermite quadrature uses $Q^p$ points. Four to six points per dimension have the same theoretical error order as second-order Laplace in the framework analyzed by Andersson, Jin, and Zhang (2023), but finite-sample accuracy differs.
 - **Estimation needs more derivatives:** Directly differentiating the second-order approximated likelihood can require fifth derivatives and must account for changes in the posterior mode as parameters change. Computing the likelihood alone needs derivatives only through order four.
 
@@ -26,6 +28,7 @@ The method is useful when multidimensional integration is expensive and the load
 
 ## Important Papers
 
+- [[papers/estimation-of-latent-regression-item-response-theory-models-using-a-second-order-laplace-approximation|Estimation of Latent Regression Item Response Theory Models Using a Second-Order Laplace Approximation]]: develops simultaneous simple-structure IRT and latent regression estimation, with simulations up to twelve latent dimensions and a separate five-dimensional assessment design with 60,000 respondents.
 - [[papers/fast-estimation-of-multiple-group-generalized-linear-latent-variable-models-for-categorical-observed-variables|Fast estimation of multiple group generalized linear latent variable models for categorical observed variables]]: develops multiple-group estimation with structural filtering and compares it with adaptive quadrature in simulations and PISA data.
 
 ## Related Concepts
