@@ -75,6 +75,16 @@ Section 4 studies sample sizes 50, 100, and 200, Gaussian and Student-$t(5)$ inn
 
 The target is the advance release of U.S. real GDP growth using ALFRED vintages. Training begins with 1984 Q1-2007 Q4 and expands from 2008 Q1 onward. Predictors comprise 76 monthly FRED-MD macroeconomic series and 36 weekly financial series, largely NFCI components. Nuclear-norm matrix completion fills missing weekly histories. Four GDP lags are included. Horizons are two months before quarter-end, one month before quarter-end, and quarter-end.
 
+Section 5 uses observations from the current and previous quarters, with the lag window expanding as the quarter progresses:
+
+| Months remaining in quarter | Monthly observations per macro series | Weekly observations per financial series |
+| --- | ---: | ---: |
+| 2 | 4 | 17 |
+| 1 | 5 | 21 |
+| 0 | 6 | 26 |
+
+These are high-frequency observation counts before compression into four polynomial features per series. The advance GDP release usually arrives near the end of the following month's reporting cycle, so even the quarter-end prediction precedes the target release.
+
 Table 1 reports the following RMSE ratios to AR(4); lower is better. The benchmark's absolute RMSE is 9.553 in the full sample and 1.934 before COVID, at each horizon.
 
 | Evaluation period | Method | 2-month | 1-month | Quarter-end |
