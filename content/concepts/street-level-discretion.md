@@ -20,12 +20,15 @@ Street-level discretion is the latitude frontline public officials have to inter
 - **Information and justification are distinct resources.** In the Chinese tax study, interviews suggest that AI assists risk assessment and supplies organizationally defensible grounds for decisions. Human judgment remains salient in contested cases, sanctions, and field verification.
 - **Institutional context bounds interpretation.** Regulatory work emphasizes legality, evidence, and defensibility; service-oriented work may depend more heavily on relational and contextual knowledge. The tax study proposes this distinction as a boundary condition without directly comparing those settings.
 - **User competence can condition perceptions.** [[concepts/algorithm-literacy|Algorithm Literacy]] may affect how officials interpret and selectively use recommendations. Exploratory component-level interactions should not be treated as general causal laws.
+- **Discretion has a normative role beyond perceived autonomy.** Anastasopoulos argues that contextual judgment helps supply accountability, substantive equity, individual consideration, and reason-giving. This argument concerns [[concepts/public-value-failure|Public Value Failure]], a different evaluative question from whether officials report having more decision latitude under automation.
 
 ## Important Papers
 
+- [[papers/artificial-intelligence-bureaucratic-discretion-and-democratic-administration|Artificial Intelligence, Bureaucratic Discretion, and Democratic Administration]]: normative institutional analysis proposing a centaur model with retained human authority in consequential decisions.
 - [[papers/does-ai-erode-street-level-discretion-a-mixed-methods-study-on-automated-decision-making-in-chinas-tax-authorities|Does AI erode street-level discretion? A mixed-methods study on automated decision-making in China's tax authorities]]: a 310-person vignette experiment and nine interviews; the positive adjusted automation result concerns perceived discretion and is nonsignificant without covariates.
 
 ## Related Concepts
 
+- [[concepts/public-value-failure|Public Value Failure]]
 - [[concepts/human-oversight-of-ai|Human Oversight of AI]]
 - [[concepts/algorithm-literacy|Algorithm Literacy]]

@@ -20,11 +20,15 @@ Human oversight of AI comprises the responsibilities and procedures through whic
 - In [[concepts/ai-assisted-public-procurement-auditing|AI-Assisted Public Procurement Auditing]], PRO-Trust proposes mandatory human review of high-risk alerts, audit committees, feedback on misleading alerts, monitoring dashboards, recalibration criteria, and supplier dispute mechanisms.
 - Feedback can support model revision, while domain experts assess legal and procedural context that may be absent from the training data. Responsibility must be explicit across technical teams and institutional decision-makers.
 - Evidence that experts consider oversight procedures relevant differs from evidence that those procedures improve decisions in practice. The PRO-Trust study provides the former through limited expert feedback and leaves deployment evaluation for future work.
+- **Centaur administration requires retained authority.** Anastasopoulos proposes that AI advise while officials decide in high-stakes or value-laden cases, with training to challenge outputs, authority to override them, and meaningful human appeal. Statutory review requirements and impact assessments are proposed protections against cost-cutting pressures that could otherwise make oversight nominal. These are normative recommendations, not evaluated intervention effects.
 
 ## Important Papers
 
+- [[papers/artificial-intelligence-bureaucratic-discretion-and-democratic-administration|Artificial Intelligence, Bureaucratic Discretion, and Democratic Administration]]: grounds a centaur model in accountability, equity, individual consideration, and reason-giving.
 - [[papers/trustworthy-ai-in-public-administration-the-pro-trust-pipeline-for-ethical-fraud-detection-in-public-procurement|Trustworthy AI in public administration: The PRO-Trust pipeline for ethical fraud detection in public procurement]]: distinguishes strategic control from operational oversight and proposes concrete procedures for procurement auditing.
 
 ## Related Concepts
 
+- [[concepts/public-value-failure|Public Value Failure]]
+- [[concepts/street-level-discretion|Street-Level Discretion]]
 - [[concepts/ai-assisted-public-procurement-auditing|AI-Assisted Public Procurement Auditing]]
