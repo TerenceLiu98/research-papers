@@ -48,6 +48,8 @@ This is an observational measurement and regression study, not a randomized expe
 
 **External agreement.** Party medians correlate at 0.87 with the Chapel Hill Expert Survey (CHES), 0.89 with DALP, and 0.69 with the Comparative Manifestos Project (CMP). CMP is a manifesto measure, despite the source's Figure 4 caption grouping all three comparisons as expert surveys. These comparisons assess aggregate positions, not the accuracy of within-party dispersion.
 
+**Response composition.** Appendix A.2 compares parties' shares of survey responses with their proximate electoral vote shares. It reports gaps below 10 percentage points for 76% of parties and no apparent pattern by party family or ideological quartile. This aggregate diagnostic does not establish that responding candidates represent the preference distribution within each party.
+
 **Heterogeneity regressions.** Selected Table 3 coefficients are shown below; parentheses contain standard errors.
 
 | Predictor | All parties (78) | No intraparty competition (55) | Intraparty competition (23) |
@@ -83,3 +85,7 @@ In the full sample, national selection and policy emphasis are negatively associ
 - [[papers/power-to-the-parties-cohesion-and-competition-in-the-european-parliament-1979-2001|Power to the Parties: Cohesion and Competition in the European Parliament, 1979-2001]]: a library comparison studying behavioral cohesion through roll calls, rather than candidate preference dispersion; not a cited source in this paper.
 
 [[index|Library home]]
+
+## Source Note
+
+The parsed manuscript supplied for Cognitio job `6bf6a9ed-3c69-49a2-a8bc-3b121e9cba6c` has the same title and authors as this existing entry. It provides no publication year or DOI; the publication metadata above is retained from the existing Wiki record. Its footnote markers lack corresponding note text, so this version does not independently establish the five-respondent inclusion threshold, the 12-country-year regression count, or the interaction test recorded above from the earlier source. Its Appendix A.2 supplies the response-composition diagnostic summarized here. The candidate-selection sign contradiction also appears in this manuscript: Table 3, the abstract, and the discussion support the negative association summarized above.
