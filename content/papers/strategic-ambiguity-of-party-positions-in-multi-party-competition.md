@@ -47,6 +47,8 @@ $$
 
 The decisive party member has a more concentrated prior centered on their own ideal point. Updating this prior with the platform produces a uniform posterior over the overlapping intervals. Ambiguity can therefore preserve activist support while allowing the platform mean to move toward voters. Holding location fixed, ambiguity lowers electoral support in the model; its strategic value comes from balancing the two objectives and permitting a different location.
 
+As an electoral-only benchmark, setting $\alpha=0$ removes the party-office objective. The model then yields convergence to an unambiguous platform at the mean voter position. Internal party accountability and different audience priors are therefore central to the proposed explanation of ambiguity.
+
 Equilibrium conditions are implicit because voting probabilities depend on every party's strategy. The authors characterize local Nash equilibria and simulate 100 scenarios with 1,000 normally distributed voters, 3, 5, or 7 parties, normally distributed decisive-member positions, and ten initializations per scenario. The weaker observable predictions are that platforms are more centrist than decisive members and that platform ambiguity is U-shaped in platform location.
 
 For measurement, a Wordscores variant uses reference manifestos around 2002 and Comparative Manifesto Project left-right scores rescaled to 1–10. With relative word frequencies $w_i$ and reference-derived word scores $\xi_i$, the manifesto position and ambiguity are
@@ -70,6 +72,8 @@ The empirical analysis is observational. The paper describes coverage of 14 West
 | Ambiguity, Table 2 Model 3 | Quadratic coefficient: 0.018 (SE 0.004); 294 observations. |
 | U-shape test | The authors report rejection of the null of no U-shape over the pooled interquartile interval 4.7–5.9, with $p=0.002$. |
 | Measurement simulation | Across 100 repetitions using random 1,000-word hypothetical manifestos, no repetition rejects the null of no U-shape. |
+
+The U-shape test requires a negative slope at the lower endpoint and a positive slope at the upper endpoint of the selected interval. A positive quadratic coefficient alone would also permit a monotone convex relationship, so it is not sufficient evidence for the hypothesis.
 
 Government parties have less ambiguous manifestos in the controlled models. Niche-party status is associated with greater ambiguity under the categorical definition, but the alternative manifesto-share measure is not significant. Group-specific patterns vary: Denmark in 1987 and 1988 shows little relationship, and Italy in 1983 shows a slightly inverted U. These exceptions limit any claim that the pooled pattern holds in every election.
 
