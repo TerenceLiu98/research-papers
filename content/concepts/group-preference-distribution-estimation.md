@@ -28,7 +28,19 @@ Group preference distribution estimation infers the location and dispersion of l
 
 Distributional comparisons can also measure group-based polarization. Traber, Stoetzer, and Burri estimate group means and variances from policy responses with hierarchical IRT, allowing both to vary over time through covariate interactions and B-splines. Bhattacharyya distance then measures dissimilarity between fitted distributions. Weighting pairwise distances by products of group shares makes the aggregate sensitive to group sizes as well as ideological distributions. Repeated cross-sections describe these changes but cannot distinguish individual preference shifts from sorting into groups.
 
+### Joint Distributions from Repeated Member Records
+
+When the same members respond across policy domains, group-specific covariance can become an estimand alongside location and breadth. Liu and Chadefaux model $\theta_i\mid g\sim\mathcal N_K(m_g,\Omega_g)$ and integrate the product of all of a member's response probabilities over this law. Multiplication precedes integration: repeated responses from the same people identify dependence that separate item-group response counts do not retain. Two groups can share all domain marginals but differ in which positions their members hold together.
+
+The diagonal of $\Omega_g$ describes within-domain heterogeneity; its correlations describe cross-domain alignment. Average variance, $\operatorname{tr}(\Omega_g)/K$, depends on the declared coordinate metric. The geometric mean of between-group coordinate variance ratios cancels common coordinate rescalings. Neither quantity is the posterior uncertainty of an individual position, and the fitted population law is distinct from the finite empirical distribution of a particular caucus.
+
+Long voting records can concentrate each member's posterior far from shared quadrature nodes. Member-adaptive importance proposals centered on posterior modes improve integration while preserving the statistical model. Numerical stability still requires independent integration checks, especially for nearly singular covariance matrices. Comparing a joint model with a product of its unchanged marginals on held-out whole-member records isolates the predictive contribution of dependence; single-response predictions cannot distinguish that pair.
+
+Shared response functions are also identifying assumptions. A uniform group-specific slope multiplier $c$ can be absorbed into latent positions, multiplying fitted variance ratios by $c^2$. Consequently, measured party breadth cannot by itself separate preference homogeneity from different response sensitivity, and legislative interpretations remain conditional on the observed agenda and member inclusion rules.
+
 ## Important Papers
+
+- [[papers/measuring-party-ideological-distributions-from-legislative-roll-calls|Measuring Party Ideological Distributions from Legislative Roll Calls]]: Liu and Chadefaux (2026) estimate party-specific means and full covariances across eight policy domains from complete member records, with member-adaptive marginal integration.
 
 - [[papers/modgirt-multidimensional-dynamic-scaling-of-aggregate-survey-data|MODGIRT: Multidimensional Dynamic Scaling of Aggregate Survey Data]]: Berwick and Caughey (2025) extend aggregate response modeling to multiple dimensions and align posterior loadings, group means, and covariance matrices.
 - [[papers/group-based-public-opinion-polarisation-in-multi-party-systems|Group-based public opinion polarisation in multi-party systems]]: combines hierarchical IRT and distributional distance to study Swiss partisan and education groups; changing dispersion produces trends that group-mean differences alone miss.
