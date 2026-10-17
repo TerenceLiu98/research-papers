@@ -11,6 +11,7 @@ pages: "275-297"
 jstor: "25791649"
 url: https://www.jstor.org/stable/25791649
 source_job_id: "ea31d11b-cbfb-4ac2-80e2-6b250a3100a1"
+last_validated_job_id: "1daeb30f-1e5b-489b-8931-3dce393907e8"
 tags:
   - ideal-point-estimation
   - item-response-theory
@@ -78,6 +79,8 @@ Twelve propositions measure preferences in 20 groups defined by presidential vot
 | Perot | 0.38 | 1.03 |
 
 Table 6 places Perot supporters closer to Bush supporters on average and shows less dispersion than either major candidate's supporters. Ticket splitters are intermediate between straight-ticket Democrats and Republicans. These are descriptive preference estimates, not causal estimates of whose votes Perot took. Table 4 reports 2,752,683 voters, while Table 5 reports 2,795,083; the supplied text does not explicitly reconcile the counts.
+
+Figure 2 plots histograms of expected a posteriori individual scores by voter type, with presidential support shown within score intervals. These score histograms are distinct from the fitted normal group distributions summarized by Table 6's means and standard deviations.
 
 ### Partisan Differences on Abortion
 
