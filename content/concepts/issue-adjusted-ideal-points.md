@@ -20,11 +20,13 @@ Issue-adjusted ideal points represent a political actor with a general latent po
 - **Shrinkage toward the baseline:** Laplace priors discourage large or widespread issue deviations. Zero offsets recover the standard one-dimensional model; Bayesian shrinkage need not produce exact zeros.
 - **Named issues aid interpretation:** Gerrish and Blei use labeled topics derived from Congressional Research Service subject codes. These provide a substantive vocabulary for offsets, but do not independently validate them as actors' sincere preferences.
 - **Two-stage uncertainty:** Estimating topic mixtures first and holding them fixed makes inference simpler but leaves text-representation uncertainty outside the voting posterior.
+- **Corrected issue adjustments:** Regressing issue offsets on general ideal points gives residuals $\hat z_{uk}=z_{uk}-\beta_k x_u$. These distinguish a legislator's exceptional issue voting from systematic shifts shared by actors at similar general positions. In *The Issue-Adjusted Ideal Point Model*, bill-topic permutations provide an exploratory reference for residual magnitudes.
 - **Prediction targets differ:** Filling in missing votes requires some observed votes to estimate each bill's polarity and popularity. Predicting votes on wholly unseen bills requires an additional mechanism for estimating those parameters from available information.
 - **Evaluation should separate fit and interpretation:** Held-out votes assess prediction; shuffling topic-to-bill assignments probes the relevance of content matching. Training improvements and illustrative legislators serve a different, exploratory purpose. Diffuse topic mixtures can reduce fit for individual bills.
 
 ## Important Papers
 
+- [[papers/the-issue-adjusted-ideal-point-model|The Issue-Adjusted Ideal Point Model]]: compares inferred topics with direct subject labels, develops corrected offsets, and includes inference and corpus-preparation appendices. Its direct labels match or outperform labeled LDA in the displayed House results; preliminary external validation finds little correlation with stated positions.
 - [[papers/how-they-vote-issue-adjusted-models-of-legislative-behavior|How They Vote: Issue-Adjusted Models of Legislative Behavior]]: introduces topic-weighted legislative offsets, variational inference, and an evaluation across six U.S. Congresses, with modest aggregate predictive gains and individual examples of issue-dependent voting.
 
 ## Related Concepts
