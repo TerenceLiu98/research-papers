@@ -24,6 +24,7 @@ Redistricting ensembles are collections of simulated districting plans used to c
 
 ## Important Papers
 
+- [[papers/a-decomposition-of-partisan-advantage-in-electoral-district-maps|A Decomposition of Partisan Advantage in Electoral District Maps]]: uses a state-specific ensemble mean as the neutral benchmark in a four-factor decomposition of partisan seat advantage and shows why the ensemble's encoded legal criteria affect the attribution.
 - [[papers/gerrymandering-and-geographic-polarization-have-reduced-electoral-competition|Gerrymandering and geographic polarization have reduced electoral competition]]: compares 2010 and 2020 ensembles and separates changes in expected seats from changes in competition.
 - McCartan and Imai (2023), "Sequential Monte Carlo for Sampling Balanced and Compact Redistricting Plans": algorithmic foundation cited by the ingested paper.
 - McCartan et al. (2022), "Simulated Redistricting Plans for the Analysis and Evaluation of Redistricting in the United States": state-specific ensemble framework cited by the ingested paper.
