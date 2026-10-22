@@ -31,6 +31,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - Post-hoc representation decomposition offers another route: [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations|PCBM-ReD]] mines concepts from an encoder's own activations, selects a subset that reconstructs its representation space, and predicts from sparse concept reconstructions without retaining an opaque residual path.
 - Hybrid approaches such as [[Concept Bottleneck Sparse Autoencoders]] combine a concept bottleneck with unsupervised sparse features to cover user-specified concepts without discarding discovered structure.
 - A concept bottleneck can also control a generative model: [[Concept-based Visual Counterfactual Explanations with Diffusion Models]] intervenes on concept targets inside a diffusion U-Net to generate localized visual counterfactuals.
+- [[concepts/causal-concept-bottlenecks|Causal Concept Bottlenecks]] replace the usual flat concept-to-task graph with directed relations among concepts, so interventions propagate through specified descendants rather than every concept acting as an independent direct cause of the task.
 
 ## Important Papers
 
@@ -42,6 +43,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
 - [[concepts/zero-shot-concept-bottleneck-models|Zero-shot Concept Bottleneck Models]]
 - [[Concept-based Visual Counterfactual Explanations with Diffusion Models]]
+- [[Causally Reliable Concept Bottleneck Models]]
 - Koh et al. (2020), "Concept bottleneck models."
 - Yuksekgonul, Wang, and Zou (2023), "Post-hoc concept bottleneck models."
 - Oikarinen, Das, Nguyen, and Weng (2023), "Label-free concept bottleneck models."
@@ -58,5 +60,6 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - [[Diffusion Models]]
 - [[Vision-to-Concept Tokenizers]]
 - [[Knowledge Distillation]]
+- [[concepts/causal-concept-bottlenecks|Causal Concept Bottlenecks]]
 - Interpretable machine learning
 - Concept supervision
