@@ -7,7 +7,7 @@ authors:
   - Jonathan Olmsted
 year: 2016
 doi: "10.1017/S000305541600037X"
-source_job_id: "61323028-3717-46c0-8a80-9dd24f10321e"
+source_job_id: "55c096ae-721e-4824-906f-21c137315ddb"
 tags:
   - ideal-point-estimation
   - political-methodology
