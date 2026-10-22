@@ -29,6 +29,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - MonoTM shows that feature utility is role-dependent: the SAE configuration and feature subset that best estimate document-topic mixtures need not maximize validated feature interpretability. It therefore uses the full activation vocabulary for inference and a separately validated vocabulary for topic description.
 - SAE variants can be combined with explicit concept supervision. [[Concept Bottleneck Sparse Autoencoders]] retain useful discovered features while adding a bottleneck for missing user-specified concepts.
 - SAE features can seed a post-hoc concept bottleneck rather than serve as the final explanation vocabulary. [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations|PCBM-ReD]] finds candidate visual features with an SAE, assigns them language labels from highly activating images, and then selects text-embedded concepts by representation reconstruction.
+- Separate SAEs can also induce concept dictionaries in different modalities. [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] learns visual and textual dictionaries independently, uses usage-entropy regularization to broaden basis utilization, and fuses bases afterward rather than forcing both modalities into one pretrained joint embedding space.
 
 ## Important Papers
 
@@ -39,6 +40,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[Sparse Autoencoders are Topic Models]]
 - [[Model Directions, Not Words: Mechanistic Topic Models Using Sparse Autoencoders]]
 - [[Beyond Top Words: MonoTM for Topic Modeling with Interpretable Monosemantic Features]]
+- [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
 - Pach et al. (2025), "Sparse autoencoders learn monosemantic features in vision-language models."
 - Gao et al. (2025), "Scaling and evaluating sparse autoencoders."
 - Huben et al. (2024), "Sparse autoencoders find highly interpretable features in language models."

@@ -23,6 +23,7 @@ Optimal transport compares probability distributions by finding a transport plan
 - Tree-Wasserstein distance is an optimal-transport distance on a tree metric and has a closed form based on weighted mass differences across tree edges.
 - In unsupervised ground-metric learning, samples and features can be treated symmetrically as distributions over one another, allowing their geometries to be learned jointly from a data matrix.
 - Transport plans can also serve directly as normalized semantic relations. [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic]] uses separate entropic plans from documents to topics and from topics to words as its document-topic and topic-word distributions.
+- Unbalanced structured transport can align learned dictionaries whose active supports and total semantic mass differ. [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] alternates sample-local and dictionary-global couplings, combining within-modality geometry, weak cross-modal evidence, usage-aware marginals, and anti-hubness feedback.
 - Population equality does not imply zero empirical distance: independent finite samples generally differ, producing a positive expected transport cost even under the null. The magnitude depends on sample sizes and support geometry, and can be substantial in sparse or high-dimensional settings.
 - [[concepts/permutation-based-null-calibration|Permutation-Based Null Calibration]] tests whether an observed distance is unusually large under exchangeable group labels. Subtracting the mean null distance gives a descriptive excess, not generally an unbiased estimate of population distance; ordinary within-group bootstrap intervals do not supply this null reference.
 
@@ -31,6 +32,7 @@ Optimal transport compares probability distributions by finding a transport plan
 - [[papers/the-earth-moves-but-so-does-the-bias-systematic-upward-bias-of-the-wasserstein-earth-movers-distance-and-permutation-based-null-calibration|The Earth Moves, But So Does the Bias]] (Hung, 2026): Examines finite-sample null distances and permutation calibration for distributional comparisons.
 - [[Fast Unsupervised Ground Metric Learning with Tree-Wasserstein Distance]]
 - [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model]]
+- [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
 - Peyre and Cuturi (2019), "Computational Optimal Transport."
 - Cuturi (2013), "Sinkhorn Distances: Lightspeed Computation of Optimal Transport."
 - Paty and Cuturi (2020), "Regularized Optimal Transport is Ground Cost Adversarial."

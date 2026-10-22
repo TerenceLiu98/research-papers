@@ -30,6 +30,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - [[CLIP-Free, Label Free, Unsupervised Concept Bottleneck Models|U-F2-CBM]] provides a CLIP-free route for frozen visual classifiers: it distribution-matches a learned visual-to-text projection to the original classifier, then derives concept activations and concept-to-class weights from a text encoder without fitting a supervised probe.
 - Post-hoc representation decomposition offers another route: [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations|PCBM-ReD]] mines concepts from an encoder's own activations, selects a subset that reconstructs its representation space, and predicts from sparse concept reconstructions without retaining an opaque residual path.
 - Hybrid approaches such as [[Concept Bottleneck Sparse Autoencoders]] combine a concept bottleneck with unsupervised sparse features to cover user-specified concepts without discarding discovered structure.
+- [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] constructs a domain-grounded bottleneck without a predefined vocabulary by learning separate visual and textual sparse dictionaries, then aligning their bases with alternating local and global structured optimal-transport couplings. Visual bases carry spatial predictive evidence and coupled textual bases provide natural-language semantics.
 - A concept bottleneck can also control a generative model: [[Concept-based Visual Counterfactual Explanations with Diffusion Models]] intervenes on concept targets inside a diffusion U-Net to generate localized visual counterfactuals.
 - [[concepts/causal-concept-bottlenecks|Causal Concept Bottlenecks]] replace the usual flat concept-to-task graph with directed relations among concepts, so interventions propagate through specified descendants rather than every concept acting as an independent direct cause of the task.
 
@@ -44,6 +45,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - [[concepts/zero-shot-concept-bottleneck-models|Zero-shot Concept Bottleneck Models]]
 - [[Concept-based Visual Counterfactual Explanations with Diffusion Models]]
 - [[Causally Reliable Concept Bottleneck Models]]
+- [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
 - Koh et al. (2020), "Concept bottleneck models."
 - Yuksekgonul, Wang, and Zou (2023), "Post-hoc concept bottleneck models."
 - Oikarinen, Das, Nguyen, and Weng (2023), "Label-free concept bottleneck models."

@@ -20,12 +20,14 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - The coupling accommodates different numbers of support points. The quadratic dependence on the coupling makes optimization more demanding than ordinary linear transport.
 - A GW barycenter represents multiple spaces through a representative distance matrix and associated probability weights. It differs from a Wasserstein barycenter on a shared ground space.
 - In geo-referenced time-series clustering, GW compares the arrangements of measurement sites across regions. It does not directly enforce geographic adjacency or temporal ordering.
+- GW can align concept dictionaries that live in different feature spaces by comparing their internal relational geometry. [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] combines this structural term with activation-signature evidence and unbalanced marginal penalties at both sample-local and full-dictionary scales.
 
 ## Important Papers
 
 - Memoli (2011), "Gromov-Wasserstein Distances and the Metric Approach to Object Matching": foundational reference cited in the ingested clustering paper.
 - Peyre, Cuturi, and Solomon (2016), "Gromov-Wasserstein Averaging of Kernel and Distance Matrices": cited basis for structural barycenters.
 - [[papers/a-new-clustering-strategy-for-geo-referenced-time-series-based-on-optimal-transport|A New Clustering Strategy for Geo-Referenced Time Series Based on Optimal Transport]]: uses spatial GW discrepancies to weight temporal Gromov-DTW costs and constructs spatial cluster prototypes.
+- [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
 
 ## Related Concepts
 
