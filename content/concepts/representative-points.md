@@ -25,12 +25,14 @@ Representative points are finite support values used to approximate a population
 - Conditional-mean iteration and sample-based k-means offer practical constructions, but self-consistency is necessary rather than sufficient for global MSE optimality. Initialization and the accuracy of the training distribution matter.
 - For elliptically symmetric populations, optimal points have a connection to leading principal-component subspaces. Rotation symmetry can make optimal configurations nonunique.
 - No construction dominates for every target: the review by Fang and Pan reports an arcsine-distribution example in which QMC points match the first four population moments, despite MSE points performing better in other examples.
+- FM representative points minimize integrated squared CDF error under exact moment-matching constraints. When those constraints are infeasible, quasi-FM points prioritize successive moment errors lexicographically before optimizing CDF fit. This makes the construction explicitly sensitive to the chosen moment order and tolerances.
 - Representative points provide a compact, weighted alternative to empirical support points for simulation and resampling. Their statistical benefit depends on how they are obtained: when the population is unknown, estimating them typically introduces distributional assumptions or an additional fitting procedure.
 - A nonparametric construction first fits a kernel density estimate, then computes the centroids and Voronoi-cell probabilities under that density. Resampling from these weighted points differs from drawing directly from the smooth KDE. Density consistency and quantization convergence are separate requirements; neither alone establishes valid confidence intervals for the combined fitted procedure.
 
 ## Important Papers
 
 - [[A Review of Representative Points of Statistical Distributions and Their Applications]]: surveys MC, QMC, and MSE constructions, their algorithms, and statistical applications.
+- [[papers/fm-criterion-for-representative-points|FM-Criterion for Representative Points]]: combines integrated squared CDF error with exact or lexicographically relaxed moment matching.
 - [[The Resampling Method via Representative Points]]
 - [[papers/a-new-non-parametric-resampling-method-based-on-representative-points|A New Non-parametric Resampling Method Based on Representative Points]]: replaces parametric fitting with KDE and reports improved coverage in many small-sample settings, while leaving the combined KDE-to-population theory and median asymptotics open.
 - Flury (1990), "Principal Points."
