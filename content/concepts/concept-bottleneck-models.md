@@ -34,6 +34,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] constructs a domain-grounded bottleneck without a predefined vocabulary by learning separate visual and textual sparse dictionaries, then aligning their bases with alternating local and global structured optimal-transport couplings. Visual bases carry spatial predictive evidence and coupled textual bases provide natural-language semantics.
 - A concept bottleneck can also control a generative model: [[Concept-based Visual Counterfactual Explanations with Diffusion Models]] intervenes on concept targets inside a diffusion U-Net to generate localized visual counterfactuals.
 - [[concepts/causal-concept-bottlenecks|Causal Concept Bottlenecks]] replace the usual flat concept-to-task graph with directed relations among concepts, so interventions propagate through specified descendants rather than every concept acting as an independent direct cause of the task.
+- [[papers/question-driven-decision-tree-via-knowledge-distillation-for-interpretable-prediction|Question-Driven Decision Tree]] replaces flat concept aggregation with a task-specific hierarchy of binary clinical questions. Its deterministic inference path is auditable, while output and attention distillation reduce the predictive cost of the constrained rule.
 
 ## Important Papers
 
@@ -48,6 +49,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - [[Causally Reliable Concept Bottleneck Models]]
 - [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
 - [[DCBM: Data-Efficient Visual Concept Bottleneck Models]]
+- [[papers/question-driven-decision-tree-via-knowledge-distillation-for-interpretable-prediction|Question-Driven Decision Tree via Knowledge Distillation for Interpretable Prediction]]
 - Koh et al. (2020), "Concept bottleneck models."
 - Yuksekgonul, Wang, and Zou (2023), "Post-hoc concept bottleneck models."
 - Oikarinen, Das, Nguyen, and Weng (2023), "Label-free concept bottleneck models."
