@@ -11,12 +11,16 @@ tags:
 
 ## Overview
 
-A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions between a continuum of labels. It can describe a stochastic network formation model: sample labels uniformly, then connect pairs with probabilities specified by the kernel. Graphons also arise as limits of dense graph sequences. Symmetric kernels describe undirected interactions; the contagion framework of Erol, Parise, and Teytelboym also permits asymmetric kernels.
+A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions between a continuum of labels. It can describe a stochastic network formation model: sample labels uniformly, then connect pairs with probabilities specified by the kernel. Symmetric graphons are also the limit objects and cut-metric completion of dense undirected finite graphs. The contagion framework of Erol, Parise, and Teytelboym additionally permits asymmetric kernels.
 
 ## Key Ideas
 
 - **Labels encode heterogeneity.** A label can represent a community, location, or other characteristic governing connection probabilities. Labels with identical incoming and outgoing kernel profiles have the same interaction type.
 - **Familiar models are special cases.** A constant kernel gives an Erdos-Renyi model. A kernel constant on block pairs gives a stochastic block model. Continuously varying kernels can represent infinitely many types.
+- **Finite graphs embed as pixel pictures.** Dividing $[0,1]$ into one interval per vertex turns an adjacency matrix into a step-function graphon. This connects ordinary graphs to the analytic limit space.
+- **Homomorphism densities are coordinates.** For every finite graph $H$, the integral $t(H,W)$ measures its homomorphism density in $W$. Two graphons are weakly isomorphic exactly when all of these densities agree.
+- **Relabeling removes arbitrary vertex names.** Measure-preserving transformations of $[0,1]$ can change a graphon's picture without changing the represented unlabeled structure. Cut distance minimizes over such relabelings.
+- **Compactness makes limits attainable.** Modulo weak isomorphism, graphon space is compact in cut distance, finite graphs are dense in it, and homomorphism densities are continuous. These facts turn asymptotic extremal questions into optimization problems with graphon solutions.
 - **Integrals replace neighbor sums.** The quantity $d(u,X)=\int_X W(u,v)\,dv$ is interaction mass with labels in $X$. This allows a continuum process to be studied before drawing a finite network.
 - **Process approximation needs additional conditions.** A graphon representation alone does not guarantee stable dynamics. Threshold contagion needs regularity and appropriate strict margins to resolve infected and uninfected regions.
 - **Intervention can target types.** Optimizing community seed allocations may avoid observing every edge. Implementation still requires the relevant model parameters and information about agents' types.
@@ -24,7 +28,9 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 
 ## Important Papers
 
+- [[papers/what-is-a-graphon|What Is ... a Graphon?]]: an expository introduction to homomorphism densities, cut distance, weak isomorphism, compactness, and extremal optimization.
 - [[papers/contagion-in-graphons|Contagion in graphons]]: defines continuum threshold dynamics, proves qualified sampled-network approximation results, and derives structured seeding policies.
+- Lovasz and Szegedy (2006), "Limits of dense graph sequences": foundational graph-limit treatment cited in Glasscock's exposition.
 - Parise and Ozdaglar (2023), "Graphon games: a statistical framework for network games and interventions": related network-game framework cited by Erol et al.
 
 ## Related Concepts
