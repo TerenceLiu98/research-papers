@@ -10,7 +10,7 @@ venue: Journal of the Royal Statistical Society, Series A
 volume: 181
 issue: 4
 pages: "1125-1150"
-source_job_id: d4cd6e96-c8eb-4d7c-9d99-573e4c960826
+source_job_id: 02d9f134-d5f0-4570-b6ff-3a8c5e18430d
 tags:
   - spatial-statistics
   - point-processes
