@@ -23,14 +23,17 @@ Circular voting models place ideal points and policy outcomes on a circle. They 
 - **Ordering is additional structure:** A circle has no natural total order. Unwinding it yields rankings, but those near the chosen cut can be unstable. Reliable voting predictions alone do not validate every rank interpretation.
 - **Interpretation:** Coalitions between extremes need not imply identical beliefs or motivations. Empirical support for circular fit does not rule out non-monotonic utility or other explanations of the same voting patterns.
 - **Cross-model projection:** A tangent transformation can facilitate comparison with linear scores but has singularities. Correlations or downstream regressions that remove extreme projections are conditional on those exclusions. Similar configurations across geometries establish neither equivalent scales nor a predictive advantage for either model.
+- **Dynamic extension:** Projecting paired Gaussian autoregressive processes onto the circle produces temporally dependent angular ideal points. The resulting stationary distribution can be bimodal, but temporal smoothness and the assumed stability of item-position distributions jointly shape the inferred trajectories.
 
 ## Important Papers
 
 - [[papers/spatial-voting-models-in-circular-spaces-a-case-study-of-the-us-house-of-representatives|Spatial voting models in circular spaces: A case study of the U.S. House of Representatives]]: develops Bayesian circular scaling and reports a grouped-WAIC advantage over 1D Euclidean scaling from the 112th through the first session of the 116th House, with earlier Houses mostly favoring the Euclidean model.
 - [[papers/parapolitics-and-roll-call-voting-in-colombia-a-bayesian-euclidean-and-spherical-spatial-analysis|Parapolitics and Roll-Call Voting in Colombia: A Bayesian Euclidean and Spherical Spatial Analysis]]: finds a similar opposition/non-opposition alignment under linear and circular models in the 2006-2010 Senate; projected estimates correlate at 0.824 after three exclusions, and both models show a positive association with recorded scandal implication.
+- [[papers/dynamic-factor-models-for-binary-data-in-circular-spaces-an-application-to-the-us-supreme-court|Dynamic factor models for binary data in circular spaces: an application to the US Supreme Court]]: adds projected Gaussian autoregressive trajectories and finds that circular geometry improves term-level WAIC fit for most of the 1937-2020 Supreme Court series.
 
 ## Related Concepts
 
 - [[concepts/geodesic-distance|Geodesic Distance]]: intrinsic distance replaces straight-line distance in spatial utility.
 - [[concepts/item-response-theory|Item Response Theory]]: latent positions and item parameters explain binary observations.
 - [[concepts/ideological-dimensionality|Ideological Dimensionality]]: a circular space is intrinsically one-dimensional despite its usual 2D embedding.
+- [[concepts/dynamic-ideal-point-models|Dynamic Ideal Point Models]]: adds temporal structure to latent political positions.
