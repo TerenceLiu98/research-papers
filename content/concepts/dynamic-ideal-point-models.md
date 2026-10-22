@@ -28,6 +28,7 @@ Dynamic ideal point models estimate how an unobserved position changes over time
 
 ## Important Papers
 
+- [[papers/dynamic-ideal-point-estimation-for-the-european-parliament-1980-2009|Dynamic Ideal Point Estimation for the European Parliament, 1980-2009]]: uses structured variational estimation to place 2,710 MEPs on a common six-monthly scale from 1980 to 2009, then studies individual movement, party-group shifts, and ideological heterogeneity.
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: combines temporal priors, mixed outcomes, missingness adjustment, and Bayesian computation; contrasts flexibility with sparsity in monthly U.S. House estimates.
 - [[papers/dynamic-factor-models-for-binary-data-in-circular-spaces-an-application-to-the-us-supreme-court|Dynamic factor models for binary data in circular spaces: an application to the US Supreme Court]]: combines a circular spatial-voting likelihood with projected Gaussian AR(1) trajectories for Supreme Court justices.
 - Martin and Quinn (2002), "Dynamic Ideal Point Estimation via Markov Chain Monte Carlo for the U.S. Supreme Court, 1953-1999": random-walk approach discussed by Kubinec.
