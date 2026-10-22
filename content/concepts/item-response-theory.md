@@ -25,6 +25,7 @@ Item response theory models an observed answer using a respondent's latent trait
 
 ## Important Papers
 
+- [[papers/bayesian-analysis-of-dynamic-item-response-models-in-educational-testing|Bayesian Analysis of Dynamic Item Response Models in Educational Testing]]: embeds ability in an irregular-time state-space process and models local dependence with daily and test random effects.
 - [[papers/a-modified-expectation-maximization-algorithm-for-accelerated-item-response-theory-model-estimation-with-large-datasets|A Modified Expectation-Maximization Algorithm for Accelerated Item Response Theory Model Estimation with Large Datasets]]: accelerates unidimensional 2PL marginal maximum-likelihood estimation by switching from full-data EM to sequential subset updates with iterate averaging.
 - [[papers/marginal-maximum-likelihood-estimation-of-item-response-models-in-r|Marginal Maximum Likelihood Estimation of Item Response Models in R]]: reviews core IRT response models and estimators, then implements quadrature-based GPCM estimation and EAP scoring in R.
 - [[papers/bayesian-item-response-modeling-in-r-with-brms-and-stan|Bayesian Item Response Modeling in R with brms and Stan]]: unifies binary, ordinal, and response-time IRT models through nonlinear and distributional multilevel formulas with full Bayesian inference.
@@ -33,6 +34,7 @@ Item response theory models an observed answer using a respondent's latent trait
 
 ## Related Concepts
 
+- [[concepts/dynamic-item-response-models|Dynamic Item Response Models]]: allow latent traits to evolve across irregular longitudinal observations.
 - [[concepts/amortized-variational-inference|Amortized Variational Inference]]: scalable approximate Bayesian estimation of respondent abilities.
 - [[concepts/dynamic-ideal-point-models|Dynamic Ideal Point Models]]: connects latent positions across time.
 - [[concepts/non-ignorable-missingness-in-latent-trait-models|Non-Ignorable Missingness in Latent Trait Models]]: jointly models responses and participation.
