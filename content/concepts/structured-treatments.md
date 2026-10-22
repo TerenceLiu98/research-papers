@@ -21,11 +21,13 @@ Structured treatments are causal treatments whose values are rich objects rather
 - A generalized Robinson decomposition residualizes both the outcome and treatment representation against observed covariates, reducing bias from treatment-confounder associations.
 - For two structured treatments, a conditional effect can be written as $\psi(x)^\top [\phi(\bar{s}) - \phi(s)]$, making the estimand depend on the chosen representation and the covariate context.
 - Identification still depends on causal assumptions such as conditional unconfoundedness and positivity. Learned representations do not remove bias from omitted confounders, and sensitivity analyses are needed when those assumptions are doubtful.
+- A structured object can mix outcome-causing latents with non-causal latents that proxy for covariates. In the structural setting of Corcoll et al. (2026), directly modeling the full object can therefore assign effects to changes that should leave the outcome invariant; contrastive matching on covariates and outcomes is used to learn a representation that discards those dimensions under strong invertibility assumptions.
 - The treatment encoder can be modular: convolutional networks, pretrained remote-sensing encoders, or other models can be used according to the structure of the treatment data.
 
 ## Important Papers
 
 - [[Structured Pixels: Satellite Imagery as the Cause in Causal Effect Estimation]]
+- [[papers/contrastive-representations-of-structured-treatments|Contrastive Representations of Structured Treatments]]
 - Kaddour et al. (2021), "Causal effect inference for structured treatments."
 - Harada and Kashima (2021), "GraphITE: Estimating individual effects of graph-structured treatments."
 - Thorat, Kolla, and Pedanekar (2024), "I see, therefore I do: Estimating causal effects for image treatments."
@@ -36,4 +38,4 @@ Structured treatments are causal treatments whose values are rich objects rather
 - [[Unstructured Outcome Causal Inference]]
 - [[Double Machine Learning]]
 - Treatment-effect heterogeneity
-- Causal representation learning
+- [[concepts/causal-representation-learning|Causal Representation Learning]]
