@@ -50,6 +50,7 @@ Exact count aggregation to a common coarse support identifies the contrast there
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: Introduces geometric diagnostics and compares measurement and regression errors across transformation methods.
 - [[papers/spatial-latent-gaussian-modelling-with-change-of-support|Spatial Latent Gaussian Modelling with Change of Support]]: Jointly models misaligned responses and predictors using continuous spline fields and explicit support projections.
 - [[papers/electoral-change-on-moving-maps-joint-inference-under-misaligned-supports|Electoral Change on Moving Maps: Joint Inference under Misaligned Supports]]: Decomposes boundary-induced pseudo-change and evaluates shared baseline-change estimation, including hotspot attenuation and simultaneous-band undercoverage.
+- [[papers/spatial-vote-redistribution-in-redrawn-polling-units|Spatial Vote Redistribution in Redrawn Polling Units]]: Compares overlap weighting with centroid, surface, and voter-density-weighted interpolation for transferring historical election results to redrawn polling units.
 - Gotway and Young (2002), "Combining Incompatible Spatial Data." Foundational reference cited by that paper.
 
 ## Related Concepts
