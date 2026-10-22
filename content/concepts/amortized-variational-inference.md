@@ -24,10 +24,12 @@ Amortized variational inference learns a shared mapping from observations to an 
 
 ## Important Papers
 
+- [[papers/topic-modeling-in-embedding-spaces|Topic Modeling in Embedding Spaces]] uses a shared encoder to approximate document-specific logistic-normal topic proportions while jointly learning topic embeddings.
 - [[papers/modeling-item-response-theory-with-stochastic-variational-inference|Modeling Item Response Theory with Stochastic Variational Inference]]: demonstrates shared ability inference for IRT, with non-amortized item distributions and ablations of posterior dependence and response aggregation.
 - Gershman and Goodman (2014), "Amortized inference in probabilistic reasoning": cited foundation for sharing inference computations in the VIBO paper.
 - Kingma and Welling (2013), "Auto-encoding variational bayes": cited foundation for jointly learning a generative model and a reparameterized inference network.
 
 ## Related Concepts
 
+- [[concepts/embedded-topic-models|Embedded Topic Models]]: apply amortized inference to document-level topic proportions.
 - [[concepts/item-response-theory|Item Response Theory]]: VIBO applies amortization to respondent ability inference while retaining uncertainty about items.

@@ -34,7 +34,7 @@ Continuous topic models represent observations in an embedding space as mixtures
 - [[Beyond Top Words: MonoTM for Topic Modeling with Interpretable Monosemantic Features]]
 - [[papers/an-image-is-worth-k-topics-a-visual-structural-topic-model-with-pretrained-image-embeddings|An Image is Worth $K$ Topics: A Visual Structural Topic Model with Pretrained Image Embeddings]]
 - [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model]]
-- Dieng, Ruiz, and Blei (2020), "Topic Modeling in Embedding Spaces."
+- [[papers/topic-modeling-in-embedding-spaces|Topic Modeling in Embedding Spaces]] parameterizes categorical word distributions with word-topic embedding affinities; unlike continuous topic models, its observations remain discrete tokens.
 - Blei, Ng, and Jordan (2003), "Latent Dirichlet Allocation."
 
 ## Related Concepts

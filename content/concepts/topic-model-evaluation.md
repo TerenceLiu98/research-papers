@@ -25,6 +25,7 @@ Topic model evaluation distinguishes the quality of topic word lists from the us
 
 ## Important Papers
 
+- [[papers/topic-modeling-in-embedding-spaces|Topic Modeling in Embedding Spaces]] evaluates predictive document completion separately from a topic-quality product combining NPMI coherence and topic diversity.
 - Chang et al. (2009), "Reading Tea Leaves: How Humans Interpret Topic Models," provides the intrusion-task reference used by CGTM.
 - Hoyle et al. (2021), "Is Automated Topic Model Evaluation Broken? The Incoherence of Coherence," motivates complementing automatic scores with human assessment.
 - [[Neural Topic Modeling via Contextual and Graph Information Fusion]] reports higher coherence and word intrusion scores while trailing FASTopic on document-clustering metrics.
@@ -34,6 +35,7 @@ Topic model evaluation distinguishes the quality of topic word lists from the us
 
 ## Related Concepts
 
+- [[concepts/embedded-topic-models|Embedded Topic Models]]
 - [[Contextual and Graph Fusion for Topic Modeling]]
 - [[Hierarchical Topic Models]]
 - [[Continuous Topic Models]]
