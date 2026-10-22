@@ -33,7 +33,9 @@ The profile is an $\varepsilon$-equilibrium exactly when this gap is at most $\v
 ## Important Papers
 
 - [[papers/efficiently-computing-approximate-nash-equilibria-in-multi-adversarial-team-games|Efficiently Computing Approximate Nash Equilibria in Multi-Adversarial Team Games]] (2026): uses maximum unilateral gain as its stopping criterion and proves an FPTAS for a structured class with efficiently computable expectations.
+- [[papers/graphon-mean-field-games-and-the-gmfg-equations|Graphon Mean Field Games and the GMFG Equations]]: proves that graphon-limit feedback laws form an epsilon-Nash equilibrium on finite clustered networks, with the approximation error vanishing under population and graph convergence assumptions.
 
 ## Related Concepts
 
 - [[concepts/multi-adversarial-team-games|Multi-Adversarial Team Games]]: a structured class admitting efficient additive equilibrium approximation under explicit assumptions.
+- [[concepts/graphon-mean-field-games|Graphon Mean Field Games]]: derive decentralized controls from a continuum network limit and justify them through an asymptotic finite-game equilibrium guarantee.
