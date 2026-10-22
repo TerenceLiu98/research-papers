@@ -21,6 +21,7 @@ Topic model evaluation distinguishes the quality of topic word lists from the us
 - **Classification and clustering:** Classification from topic proportions and clustering agreement with known labels test representation utility. They need not establish that individual topic dimensions have meaningful word descriptions.
 - **Label alignment:** Human or LLM judgments can match topics to known categories. This depends on label coverage and evaluator behavior; meaningful themes outside the label set may be missed.
 - **Reporting discipline:** State the evaluator, sampled topics and documents, number of runs, and checkpoint-selection criterion. Keep human judgments distinct from automated coherence and LLM ratings.
+- **Efficiency scope:** Distinguish model fitting time from end-to-end processing. For example, [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic]] reports runtime after data loading, so document embedding computation is outside its primary timing comparison.
 
 ## Important Papers
 
@@ -29,6 +30,7 @@ Topic model evaluation distinguishes the quality of topic word lists from the us
 - [[Neural Topic Modeling via Contextual and Graph Information Fusion]] reports higher coherence and word intrusion scores while trailing FASTopic on document-clustering metrics.
 - [[Sparse Autoencoders are Topic Models]] evaluates topic coherence with LLM intruder detection and topic ratings, alongside diversity and topic relevance.
 - [[papers/an-image-is-worth-k-topics-a-visual-structural-topic-model-with-pretrained-image-embeddings|An Image is Worth $K$ Topics: A Visual Structural Topic Model with Pretrained Image Embeddings]] adapts intrusion testing to images and compares models with 10, 45, and 150 topics.
+- [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model]] combines coherence and diversity with clustering, downstream classification, transfer, runtime, and configuration-sensitivity tests.
 
 ## Related Concepts
 

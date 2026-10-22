@@ -25,6 +25,7 @@ Continuous topic models represent observations in an embedding space as mixtures
 - MonoTM uses corpus-trained SAE activations as weighted pseudo-tokens rather than directly modeling continuous embeddings. Its two-stage design estimates mixtures from the full feature space, then learns descriptors in a separately validated semantic-feature space.
 - Embedding-based topics can support cross-modal dataset analysis, but their interpretations may reflect non-thematic information retained by the embedding model and errors in text or caption supervision.
 - [[Visual Structural Topic Models]] model image embeddings as convex mixtures of topic embeddings and add covariate-dependent topic prevalence.
+- [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic]] places pretrained document embeddings and learnable topic and word embeddings in one space, then turns optimal transport plans between them into explicit document-topic and topic-word distributions.
 
 ## Important Papers
 
@@ -32,6 +33,7 @@ Continuous topic models represent observations in an embedding space as mixtures
 - [[Model Directions, Not Words: Mechanistic Topic Models Using Sparse Autoencoders]]
 - [[Beyond Top Words: MonoTM for Topic Modeling with Interpretable Monosemantic Features]]
 - [[papers/an-image-is-worth-k-topics-a-visual-structural-topic-model-with-pretrained-image-embeddings|An Image is Worth $K$ Topics: A Visual Structural Topic Model with Pretrained Image Embeddings]]
+- [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model]]
 - Dieng, Ruiz, and Blei (2020), "Topic Modeling in Embedding Spaces."
 - Blei, Ng, and Jordan (2003), "Latent Dirichlet Allocation."
 
