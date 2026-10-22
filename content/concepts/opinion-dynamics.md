@@ -25,12 +25,14 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 - Network topology, heterogeneous agents, zealots, aging, multiple opinions, and changing populations alter the state space and closure assumptions without changing the basic role of reversible update mechanisms.
 - In [[Bounded Confidence Models]], agents interact only within an opinion-distance threshold. Structured initial distributions and heterogeneous willingness to compromise can then shift the boundaries between fragmentation, polarization, and consensus.
 - Multilayer models let one agent carry context-specific opinions. In [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]], symmetric reconciliation between two personal states can increase within-agent consistency while delaying population-wide consensus.
+- Coupled-spin representations can encode multiple attitude dimensions at each site. [[From modeling of political opinion formation to two-spin statistical physics model]] maps personal and economic positions to two Ising spins and studies the resulting stationary thermodynamic analogue, while cautioning that its social interpretation is not a dynamical or empirical validation.
 
 ## Important Papers
 
 - [[Stochastic Thermodynamics of Social Imitation beyond Energetics]]
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]
 - [[Political opinion formation: Initial opinion distribution and individual heterogeneity of tolerance]]
+- [[From modeling of political opinion formation to two-spin statistical physics model]]
 - Castellano, Muñoz, and Pastor-Satorras (2009), "Nonlinear q-voter model."
 - Castellano, Fortunato, and Loreto (2009), "Statistical physics of social dynamics."
 - Siedlecki, Szwabiński, and Weron (2016), "The Interplay Between Conformity and Anticonformity and its Polarizing Effect on Society."
