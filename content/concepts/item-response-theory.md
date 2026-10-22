@@ -25,6 +25,7 @@ Item response theory models an observed answer using a respondent's latent trait
 
 ## Important Papers
 
+- [[papers/marginal-maximum-likelihood-estimation-of-item-response-models-in-r|Marginal Maximum Likelihood Estimation of Item Response Models in R]]: reviews core IRT response models and estimators, then implements quadrature-based GPCM estimation and EAP scoring in R.
 - [[papers/bayesian-item-response-modeling-in-r-with-brms-and-stan|Bayesian Item Response Modeling in R with brms and Stan]]: unifies binary, ordinal, and response-time IRT models through nonlinear and distributional multilevel formulas with full Bayesian inference.
 - [[papers/modeling-item-response-theory-with-stochastic-variational-inference|Modeling Item Response Theory with Stochastic Variational Inference]]: introduces VIBO and compares conventional and neural response functions on synthetic, language, and educational data.
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: develops related latent response models with temporal priors, mixed outcomes, and informative nonresponse.
