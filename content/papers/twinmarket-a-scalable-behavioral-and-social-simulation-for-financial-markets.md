@@ -95,8 +95,8 @@ Temperature tests from 0.3 to 1.3 leave buy/sell counts broadly stable while rep
 
 ### Emergence, Repeated Runs, and Scale
 
-- **Belief-price feedback:** Figure 10 shows co-moving belief scores and prices in a simulated boom-bust pattern. This supports feedback within the model but does not independently identify a human causal mechanism.
-- **Rumors:** Negative rumor exposure lowers beliefs and prices, and the sell/buy ratio rises from 0.495 to 0.997. High-centrality users receive more engagement, and trading-similarity clusters intensify under rumor exposure (Figures 11-13).
+- **Belief-price feedback:** Figure 11 shows co-moving belief scores and prices in a simulated boom-bust pattern. This supports feedback within the model but does not independently identify a human causal mechanism.
+- **Rumors:** Negative rumor exposure lowers beliefs and prices, and the sell/buy ratio rises from 0.495 to 0.997. High-centrality users receive more engagement, and trading-similarity clusters intensify under rumor exposure (Figures 12-14).
 - **Repeated runs:** Appendix B.3 runs GPT-4o and Gemini-1.5-Flash three times each over June 15-August 15. Mean RMSE is 0.023 and 0.024, respectively, with relative standard deviations of 31.13% and 16.34%. GPT-4o kurtosis averages 4.433 with 20.85% relative standard deviation; its GARCH alpha has 63.17% relative standard deviation. These percentages are relative standard deviations, not confidence intervals or absolute error bars (Table 10).
 - **Scaling:** Section 7 varies daily activation among 10%, 20%, 40%, and 80% of agents and reports decreasing RMSE/MAE with increasing participation. Figure 15 shows a 1,000-agent simulation. The supplied prose gives no fitted scaling exponent, numerical curve values, or matched runtime/cost benchmark.
 
@@ -119,10 +119,10 @@ Temperature tests from 0.3 to 1.3 leave buy/sell counts broadly stable while rep
 
 ## Related Papers
 
-- Rao and Georgeff et al. (1995), "BDI agents: From theory to practice": the cited cognitive-architecture foundation (reference 20).
-- Li et al. (2024), "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities": cited background on LLM economic agents (reference 23).
-- Gao et al. (2024), "Simulating Financial Market via Large Language Model Based Agents": a cited financial-market simulator discussed as ASFM (reference 24).
-- Cont (2001), "Empirical properties of asset returns: Stylized facts and statistical issues": the cited market-validation framework (reference 37).
+- Rao and Georgeff et al. (1995), "BDI agents: From theory to practice": the cited cognitive-architecture foundation (reference 19).
+- Li et al. (2024), "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities": cited background on LLM economic agents (reference 22).
+- Gao et al. (2024), "Simulating Financial Market via Large Language Model Based Agents": a cited financial-market simulator discussed as ASFM (reference 23).
+- Cont (2001), "Empirical properties of asset returns: Stylized facts and statistical issues": the cited market-validation framework (reference 36).
 - [[papers/from-economic-agents-to-agentic-economies-a-systems-blueprint-for-economic-world-models|From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models]]: a library comparison on endogenous economic feedback and empirical alignment, not a citation in TwinMarket.
 - [[papers/public-opinion-dissemination-simulation-based-on-large-language-model-multi-agent-systems|Public opinion dissemination simulation based on large language model multi-agent systems]]: a library comparison using explicit interaction rules with LLM-generated social behavior, not a citation in TwinMarket.
 
