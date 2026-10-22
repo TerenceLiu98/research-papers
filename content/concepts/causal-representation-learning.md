@@ -29,6 +29,7 @@ Causal representation learning seeks to recover useful high-level variables and 
 ## Important Papers
 
 - [[Toward Causal Representation Learning]]
+- [[papers/couce-a-unified-causal-framework-for-debiased-deep-metric-learning|CouCE: A Unified Causal Framework for Debiased Deep Metric Learning]]
 - [[Causal Graph Representation Learning for Robust Out-of-Distribution Crop Pest Recognition]]
 - [[Statistical and Structural Identifiability in Representation Learning]]
 - Bengio et al. (2019), "A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms."
