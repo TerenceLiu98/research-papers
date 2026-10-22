@@ -27,6 +27,7 @@ Riemannian representation learning constrains latent variables to a smooth manif
 ## Important Papers
 
 - [[Riemannian Generative Decoder]]
+- [[Social Centralization and Semantic Collapse: Hyperbolic Embeddings of Networks and Text]]
 - Mathieu, Le Lan, Maddison, Tomioka, and Teh (2019), "Continuous Hierarchical Representations with Poincare Variational Auto-Encoders."
 - Davidson, Falorsi, De Cao, Kipf, and Tomczak (2018), "Hyperspherical Variational Auto-Encoders."
 - Kalatzis, Eklund, Arvanitidis, and Hauberg (2020), "Variational Autoencoders with Riemannian Brownian Motion Priors."
