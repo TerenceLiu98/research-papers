@@ -29,7 +29,7 @@ Text as treatment studies how exposure to messages or changes in their linguisti
 
 - [[papers/a-design-based-solution-for-causal-inference-with-text-can-a-language-model-be-too-large|A Design-based Solution for Causal Inference with Text: Can a Language Model Be Too Large?]]: develops participant-generated paired edits, a within-original estimator, and an intellectual-humility application.
 - [[papers/causal-inference-with-generative-artificial-intelligence-application-to-texts-as-treatments|Causal Inference with Generative Artificial Intelligence: Application to Texts as Treatments]]: uses generative-model internal states for feature-effect estimation, formalizes separability, and extends identification to perceived features with an instrument.
-- Fong and Grimmer (2023), "Causal inference with latent treatments": text curation as described in the linked paper.
+- [[papers/causal-inference-with-latent-treatments|Causal Inference with Latent Treatments]]: shows why random assignment of whole texts does not isolate a coded feature and proposes many texts per condition to support marginalization and retrospective adjustment.
 - Pryzant et al. (2020), "Causal effects of linguistic properties": representation-based estimation evaluated in the linked paper.
 
 ## Related Concepts
