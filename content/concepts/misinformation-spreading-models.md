@@ -28,6 +28,7 @@ Misinformation spreading models describe how false or misleading information mov
 - Continuous node-level control can allocate an instantaneous resource budget using evolving susceptible and infected states. In [[papers/structure-aware-optimal-intervention-for-rumor-dynamics-on-networks|Structure-aware optimal intervention for rumor dynamics on networks]], simulated allocations shift from central nodes early to peripheral nodes later. This is a model-dependent pattern; the supplied theoretical and numerical inconsistencies limit stronger conclusions. An instantaneous allocation cap also differs from a cumulative expenditure budget.
 - Distinguish outbreak thresholds from endemic persistence. In a closed SIR model with positive recovery and no replenishment, the equilibrium condition for recovered states forces infection to zero; an above-threshold outbreak does not by itself establish a positive endemic equilibrium.
 - Competitive correction models can optimize concern-weighted misinformation exposure rather than only the number of affected users. [[Competitive Concern Minimization]] adds delayed correction, user concern dynamics, and a herd-based state transition to an independent-cascade-style model.
+- Multiplex models distinguish a person from accounts on several platforms and allow diffusion to move through different network layers. [[papers/minimizing-rumor-influence-in-multiplex-online-social-networks-based-on-human-individual-and-social-behaviors|Minimizing Rumor Influence in Multiplex Online Social Networks Based on Human Individual and Social Behaviors]] combines this structure with time-varying attraction, opinion updates, and a model-based truth campaign.
 - Mean-field equations and simulations answer different questions: the former provide analytical thresholds and aggregate trajectories, while Monte Carlo experiments test the approximation and reveal finite-network behavior.
 - Model-defined prevalence, recovery, or truth-related quantities should not be treated as direct measurements of real users without empirical calibration.
 
@@ -37,6 +38,7 @@ Misinformation spreading models describe how false or misleading information mov
 - [[How the Hesitation Mechanism Suppresses Misinformation Spreading on Time-Varying Networks]]
 - [[Who Should Fight the Spread of Fake News?]]
 - [[Minimizing the Misinformation Concern over Social Networks]]
+- [[papers/minimizing-rumor-influence-in-multiplex-online-social-networks-based-on-human-individual-and-social-behaviors|Minimizing Rumor Influence in Multiplex Online Social Networks Based on Human Individual and Social Behaviors]]
 - Moreno, Nekovee, and Pacheco (2004), "Dynamics of rumor spreading in complex networks."
 - Xia, Jiang, Song, and Song (2015), "Rumor spreading model considering hesitating mechanism in complex social networks."
 - Hu, Pan, Hou, and He (2018), "Rumor spreading model with the different attitudes towards rumors."

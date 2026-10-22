@@ -22,12 +22,14 @@ Rumor refutation on social media is the organized production and dissemination o
 - A multi-criteria account evaluation can represent content, subjects, audiences, behaviors, and network context together rather than reducing RRE to reposts, likes, or comments.
 - Corrections should be adapted to public concerns and supported by credible evidence. The paper's keyword analysis emphasizes practical health and safety information and official or scientific responses during major events.
 - Correction can also be treated as a constrained agent-selection problem: [[Competitive Concern Minimization]] targets the expected concern of users who accept misinformation, while accounting for correction delay and competing diffusion.
+- Truth campaigns can be formulated as seed-selection interventions rather than account evaluation. [[papers/minimizing-rumor-influence-in-multiplex-online-social-networks-based-on-human-individual-and-social-behaviors|Minimizing Rumor Influence in Multiplex Online Social Networks Based on Human Individual and Social Behaviors]] selects likely influential spreaders of a denying opinion across multiplex networks, while its evidence remains simulation-based.
 - Platform-specific indicators create transfer risks: a Weibo-based measure of followers, verification, repost layers, or big-V followers needs reinterpretation elsewhere.
 
 ## Important Papers
 
 - [[A Novel Multi-Criteria Evaluation Method for Rumor-Refutation Effectiveness of Rumor-Refutation Accounts on Social Media Platforms Integrating Social Network Analysis]]
 - [[Minimizing the Misinformation Concern over Social Networks]]
+- [[papers/minimizing-rumor-influence-in-multiplex-online-social-networks-based-on-human-individual-and-social-behaviors|Minimizing Rumor Influence in Multiplex Online Social Networks Based on Human Individual and Social Behaviors]]
 - Li, Zhang, Du, Ma, and Wan (2021), "Social Media Rumor Refutation Effectiveness: Evaluation Modelling and Enhancement."
 - Gao et al. (2022), "Strategies and Effectiveness of the Chinese Government Debunking COVID-19 Rumors on Sina Weibo: Evaluating from Emotions."
 - Tu et al. (2023), "How to Improve the Rumor-Confutation Ability of Official Rumor-Refuting Account on Social Media: A Chinese Case Study."
