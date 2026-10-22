@@ -28,6 +28,7 @@ Double machine learning is a framework for estimating low-dimensional causal or 
 ## Important Papers
 
 - Chernozhukov et al. (2018), "Double/Debiased Machine Learning for Treatment and Structural Parameters."
+- [[papers/generative-ai-and-causal-spatial-modeling-for-understanding-nighttime-pedestrian-risk-in-urban-systems|Generative AI and Causal-Spatial Modeling for Understanding Nighttime Pedestrian Risk in Urban Systems]]: combines cross-fitted residualization with a geographically weighted causal forest to estimate spatially heterogeneous effects of street environments on crash risk.
 - [[UD-DML: Uniform Design Subsampling for Double Machine Learning over Massive Data]]
 - Semenova and Chernozhukov (2021), "Debiased Machine Learning of Conditional Average Treatment Effects and Other Causal Functions."
 - [[papers/a-practical-guide-to-estimating-conditional-marginal-effects-modern-approaches|A Practical Guide to Estimating Conditional Marginal Effects: Modern Approaches]]: develops moderator-indexed estimation workflows and compares smooth basis methods with flexible learners across nuisance structures.

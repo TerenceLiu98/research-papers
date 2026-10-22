@@ -25,6 +25,7 @@ Spatial causal inference estimates treatment or policy effects when observations
 
 ## Important Papers
 
+- [[papers/generative-ai-and-causal-spatial-modeling-for-understanding-nighttime-pedestrian-risk-in-urban-systems|Generative AI and Causal-Spatial Modeling for Understanding Nighttime Pedestrian Risk in Urban Systems]]: adds geographic kernel weights to a causal forest after DML residualization to estimate location-specific environmental effects on pedestrian crash risk.
 - [[papers/saving-human-lives-what-complexity-science-and-information-systems-can-contribute|Saving Human Lives: What Complexity Science and Information Systems can Contribute]]: Section 3.2 applies Matched Wake Analysis to raids versus detentions in Baghdad and subsequent nearby IED attacks. Its local observational estimates should not be generalized to all conflict interventions.
 - Schutte and Donnay (2014), "Matched wake analysis: finding causal relationships in spatiotemporal event data," Political Geography 41, 1-10: the method cited as reference 81 by that overview.
 - [[Spatial Causal Inference in the Presence of Preferential Sampling to Study the Impacts of Marine Protected Areas]]
