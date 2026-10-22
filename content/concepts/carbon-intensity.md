@@ -26,6 +26,7 @@ Carbon intensity measures carbon dioxide emissions relative to economic output, 
 ## Important Papers
 
 - [[papers/does-low-carbon-pilot-city-program-reduce-carbon-intensity|Does Low-Carbon Pilot City Program Reduce Carbon Intensity? Evidence from Chinese Cities]] (Feng et al., 2021): estimates that China's pilot program slowed city-level intensity declines relative to comparison cities during 2005-2018.
+- [[papers/evaluation-of-low-carbon-city-pilot-policy-effect-on-carbon-abatement-in-china|Evaluation of Low Carbon City Pilot Policy Effect on Carbon Abatement in China]] (Liu et al., 2022): reports lower carbon intensity and per-capita emissions under a staggered city-panel DID, with delayed effects concentrated in eastern and non-sub-provincial cities.
 - Narayan and Narayan (2010), "Carbon Dioxide Emissions and Economic Growth: Panel Data Evidence from Developing Countries": examines the relationship between emissions and growth in developing economies.
 - Shan et al. (2018), "China CO2 Emission Accounts 1997-2015": develops emissions accounts used in subsequent Chinese carbon-intensity research.
 
