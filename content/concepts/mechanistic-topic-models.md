@@ -22,12 +22,14 @@ Mechanistic Topic Models (MTMs) discover corpus-level themes using interpretable
 - Topics can be interpreted from automatically generated descriptions of their highest-weight SAE features. An LLM can summarize those descriptions, but summarization may hide mislabeled or irrelevant features.
 - A topic's feature weights can be used to combine SAE decoder directions into a normalized topic steering vector. This gives topic modeling a direct control interface, subject to the usual distinction between feature interpretability and [[Model Steerability|causal steerability]].
 - Feature quality is a central bottleneck. Useful pipelines filter ubiquitous, low-level, and poorly labeled features and may refine topic descriptions after fitting.
+- [[Beyond Top Words: MonoTM for Topic Modeling with Interpretable Monosemantic Features|MonoTM]] separates filtering from inference: all active corpus-trained SAE features estimate document-topic mixtures, while only independently validated and labeled features enter a second topic-descriptor model with those mixtures fixed. This avoids assuming that feature interpretability and statistical utility coincide.
 - MTMs are related to [[Continuous Topic Models]], but they need not model continuous embeddings directly: mLDA and mETM operate on aggregated SAE feature counts, while mBERTopic uses decoder directions to construct continuous document embeddings.
 
 ## Important Papers
 
 - [[Model Directions, Not Words: Mechanistic Topic Models Using Sparse Autoencoders]]
 - [[Sparse Autoencoders are Topic Models]]
+- [[Beyond Top Words: MonoTM for Topic Modeling with Interpretable Monosemantic Features]]
 - Blei, Ng, and Jordan (2003), "Latent Dirichlet Allocation."
 - Dieng, Ruiz, and Blei (2020), "Topic Modeling in Embedding Spaces."
 - Grootendorst (2022), "BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure."

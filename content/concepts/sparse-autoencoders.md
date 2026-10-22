@@ -26,6 +26,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - SAE features can also be treated as thematic atoms in a [[Continuous Topic Models|continuous topic model]], with activations representing topic weights for embedding-space dataset analysis rather than single-feature steering.
 - [[concepts/adaptive-sparse-embeddings|Adaptive Sparse Embeddings]] use SAE latents directly for efficient retrieval. CSR combines reconstruction with a nonnegative contrastive objective on frozen embeddings; its experiments show improved latent utilization but persistent dead latents under stringent multimodal sparsity. Retrieval fidelity is a distinct objective from feature interpretability.
 - [[Mechanistic Topic Models]] aggregate SAE activations into document-feature counts, learn corpus-level topic mixtures over those features, and combine topic-weighted decoder directions for controlled text generation.
+- MonoTM shows that feature utility is role-dependent: the SAE configuration and feature subset that best estimate document-topic mixtures need not maximize validated feature interpretability. It therefore uses the full activation vocabulary for inference and a separately validated vocabulary for topic description.
 - SAE variants can be combined with explicit concept supervision. [[Concept Bottleneck Sparse Autoencoders]] retain useful discovered features while adding a bottleneck for missing user-specified concepts.
 - SAE features can seed a post-hoc concept bottleneck rather than serve as the final explanation vocabulary. [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations|PCBM-ReD]] finds candidate visual features with an SAE, assigns them language labels from highly activating images, and then selects text-embedded concepts by representation reconstruction.
 
@@ -37,6 +38,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations]]
 - [[Sparse Autoencoders are Topic Models]]
 - [[Model Directions, Not Words: Mechanistic Topic Models Using Sparse Autoencoders]]
+- [[Beyond Top Words: MonoTM for Topic Modeling with Interpretable Monosemantic Features]]
 - Pach et al. (2025), "Sparse autoencoders learn monosemantic features in vision-language models."
 - Gao et al. (2025), "Scaling and evaluating sparse autoencoders."
 - Huben et al. (2024), "Sparse autoencoders find highly interpretable features in language models."
