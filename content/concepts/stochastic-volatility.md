@@ -32,6 +32,7 @@ $$
 
 ## Important Papers
 
+- [[papers/nowcasting-gdp-using-dynamic-factor-model-with-unknown-number-of-factors-and-stochastic-volatility|Nowcasting GDP Using Dynamic Factor Model with Unknown Number of Factors and Stochastic Volatility]]: gives monthly DFM measurement errors correlated random-walk log standard deviations and estimates their paths with particle Gibbs and backward simulation.
 - [[papers/nowcasting-gdp-with-a-pool-of-factor-models-and-a-fast-estimation-algorithm|Nowcasting GDP with a Pool of Factor Models and a Fast Estimation Algorithm]]: approximates changing variances with exponentially weighted updates; volatility adaptation provides the clearest reported GDP-nowcast gains during COVID-19.
 - [[papers/bayesian-neural-networks-for-macroeconomic-analysis|Bayesian neural networks for macroeconomic analysis]]: combines BNN mean functions with AR(1) log volatility; removing volatility dynamics worsens most reported density-forecast results (Sections 2.4 and 4.2.3).
 - Stock and Watson (2007), "Why has US inflation become harder to forecast?": cited source for the unobserved-components stochastic-volatility benchmark in that application.

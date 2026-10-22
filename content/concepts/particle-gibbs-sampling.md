@@ -25,6 +25,7 @@ Particle Gibbs is a particle Markov chain Monte Carlo method for sampling latent
 ## Important Papers
 
 - Andrieu, Doucet, and Holenstein (2010), "Particle Markov Chain Monte Carlo Methods": foundational framework cited by NetCP.
+- [[papers/nowcasting-gdp-using-dynamic-factor-model-with-unknown-number-of-factors-and-stochastic-volatility|Nowcasting GDP Using Dynamic Factor Model with Unknown Number of Factors and Stochastic Volatility]]: uses backward simulation in particle Gibbs to update high-dimensional stochastic-volatility paths in a Bayesian nowcasting DFM.
 - Whiteley, Andrieu, and Doucet (2011), "Bayesian Computational Methods for Inference in Multiple Change-points Models": discrete change-point particle MCMC method adapted by NetCP.
 - [[papers/network-modeling-of-asynchronous-change-points-in-multivariate-time-series|Network Modeling of Asynchronous Change-Points in Multivariate Time Series]]: blocked multivariate application with learned lead-lag dependencies.
 

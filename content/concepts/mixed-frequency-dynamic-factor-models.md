@@ -23,6 +23,7 @@ Mixed-frequency dynamic factor models represent co-movement across observed seri
 
 ## Important Papers
 
+- [[papers/nowcasting-gdp-using-dynamic-factor-model-with-unknown-number-of-factors-and-stochastic-volatility|Nowcasting GDP Using Dynamic Factor Model with Unknown Number of Factors and Stochastic Volatility]]: estimates factor dimension and measurement-error volatility jointly while updating quarterly GDP nowcasts from ragged-edge monthly releases.
 - [[papers/nowcasting-gdp-with-a-pool-of-factor-models-and-a-fast-estimation-algorithm|Nowcasting GDP with a Pool of Factor Models and a Fast Estimation Algorithm]]: combines mixed-frequency aggregation with time-varying parameters, variance discounting, and dynamic averaging over 49,152 U.S. GDP models.
 - [[papers/nowcasting-economic-activity-in-european-regions-using-a-mixed-frequency-dynamic-factor-model|Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model]]: combines annual regional GVA and quarterly national GVA with factor dynamics, horseshoe shrinkage, and stochastic aggregation restrictions.
 - [[papers/predictor-preselection-for-mixed-frequency-dynamic-factor-models|Predictor Preselection for Mixed-Frequency Dynamic Factor Models]]: studies how screening indicators changes downstream factor-model nowcast accuracy.
