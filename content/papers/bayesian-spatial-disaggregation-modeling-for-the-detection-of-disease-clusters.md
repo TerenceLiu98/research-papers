@@ -5,7 +5,7 @@ authors:
   - Paula Moraga
   - Hanan Alahmadi
 year: null
-source_job_id: 44631c22-210f-47e7-bdd1-cee607ceda6d
+source_job_id: 0b55eb3a-a21c-44b7-a91b-26c1a598adfc
 tags:
   - spatial-statistics
   - bayesian-modeling
