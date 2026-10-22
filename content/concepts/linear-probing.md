@@ -24,6 +24,7 @@ Linear probing trains a linear prediction head on a model's representations to a
 
 ## Important Papers
 
+- [[papers/a-law-of-next-token-prediction-in-large-language-models|A law of next-token prediction in large language models]] uses least-squares probes of intermediate token representations and reports an approximately geometric decline in unexplained next-token-index variance across layers; the result depends on the target encoding, normalization, and probing corpus.
 - [[papers/layerwise-change-of-knowledge-in-neural-networks|Layerwise Change of Knowledge in Neural Networks]] uses linear classifiers on intermediate features for interaction extraction and discusses probe limitations in Appendix D.
 - Belinkov (2022), "Probing Classifiers: Promises, Shortcomings, and Advances." is the methodological reference used in that discussion.
 - Pimentel et al. (2020), "Information-Theoretic Probing for Linguistic Structure." is cited there to distinguish estimating available information with richer probes from testing direct linear accessibility.
