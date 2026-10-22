@@ -24,12 +24,14 @@ Protest event analysis systematically codes observable collective political acti
 ## Important Papers
 
 - [[papers/dynamics-and-determinants-of-right-wing-populist-mobilisation-in-germany|Dynamics and determinants of right-wing populist mobilisation in Germany]]: Applies report-level coding and event aggregation to Pegida, then models annual city-level counts.
+- [[papers/how-police-behavior-shapes-perceptions-of-protests-evidence-from-black-lives-matter|How Police Behavior Shapes Perceptions of Protests: Evidence from Black Lives Matter]]: combines news and social-media sources to code more than 1,000 BLM street protests, including police presence, arrests, crowd-control measures, tactics, timing, and approximate size.
 - Hutter (2014), "Protest Event Analysis and Its Offspring." Methodological reference cited in the Pegida study.
 - Weidmann and Rød (2015), "Making Uncertainty Explicit: Separating Reports and Events in the Coding of Violence and Contention." Cited basis for retaining uncertainty across multiple event reports.
 
 ## Related Concepts
 
 - [[concepts/right-wing-populist-mobilisation|Right-Wing Populist Mobilisation]]: A substantive application of event-based measurement.
+- [[concepts/protest-policing|Protest Policing]]: an event attribute that can also influence how protests unfold and how outside audiences perceive them.
 - Media reporting bias
 - Count-data models
 - Ecological inference
