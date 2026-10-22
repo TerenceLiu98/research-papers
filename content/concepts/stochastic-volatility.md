@@ -32,6 +32,7 @@ $$
 
 ## Important Papers
 
+- [[papers/nowcasting-gdp-with-a-pool-of-factor-models-and-a-fast-estimation-algorithm|Nowcasting GDP with a Pool of Factor Models and a Fast Estimation Algorithm]]: approximates changing variances with exponentially weighted updates; volatility adaptation provides the clearest reported GDP-nowcast gains during COVID-19.
 - [[papers/bayesian-neural-networks-for-macroeconomic-analysis|Bayesian neural networks for macroeconomic analysis]]: combines BNN mean functions with AR(1) log volatility; removing volatility dynamics worsens most reported density-forecast results (Sections 2.4 and 4.2.3).
 - Stock and Watson (2007), "Why has US inflation become harder to forecast?": cited source for the unobserved-components stochastic-volatility benchmark in that application.
 
@@ -39,3 +40,4 @@ $$
 
 - [[concepts/sampling-based-inference-for-bayesian-neural-networks|Sampling-Based Inference for Bayesian Neural Networks]]: jointly handles uncertain mean parameters and latent volatility in the cited application.
 - [[concepts/bayesian-activation-function-averaging|Bayesian Activation-Function Averaging]]: models uncertainty in mean-function shape, complementing a separate variance process.
+- [[concepts/mixed-frequency-dynamic-factor-models|Mixed-Frequency Dynamic Factor Models]]: can incorporate changing measurement and factor-innovation variances while handling asynchronous observations.

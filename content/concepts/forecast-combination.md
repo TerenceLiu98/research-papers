@@ -26,10 +26,12 @@ $$
 - A constant-correlation target can retain different marginal error variances. Equal weighting follows under additional symmetry conditions; it is not a general consequence of shrinkage.
 - Weights estimated from past out-of-sample errors target predictive performance. In-sample likelihood weights instead reflect historical fit and can favor indicators that arrive too late to help early nowcasts.
 - Weight estimation should match forecast horizon and available information. In the GDP application, survey indicators help early nowcasts, while production indicators gain relevance as observations arrive.
+- Dynamic model averaging recursively discounts older model probabilities and updates horizon-specific weights from recent forecast performance. It can adapt to model instability, but its behavior depends on the chosen forgetting factor and the diversity of the candidate models.
 - Distribution-based aggregation can use contemporaneous disagreement as a signal of changing information relevance. PRISM-Now's dynamic quantile selection adjusts the aggregation quantile using changes in the ensemble mean and dispersion plus asymmetry; this requires reliable model diversity and does not by itself calibrate outcome probabilities.
 
 ## Important Papers
 
+- [[papers/nowcasting-gdp-with-a-pool-of-factor-models-and-a-fast-estimation-algorithm|Nowcasting GDP with a Pool of Factor Models and a Fast Estimation Algorithm]]: uses horizon-specific dynamic model averaging over 49,152 factor specifications and interprets summed model weights as time-varying indicator importance.
 - [[papers/point-and-risk-estimation-using-an-ensemble-of-models-for-nowcasting-prism-now|PRISM-Now]]: combines heterogeneous Korean GDP forecasts through a fitted cross-model distribution and a dynamic quantile rule, with the largest gains during the COVID period.
 - [[papers/nowcasting-monthly-gdp-with-big-data-a-model-averaging-approach|Nowcasting monthly GDP with big data: A model averaging approach]]: applies shrinkage error-covariance weights to hundreds of bivariate GDP models.
 - Newbold and Granger (1974), "Experience with Forecasting Univariate Time Series and the Combination of Forecasts": theoretical antecedent cited in the GDP paper's combination argument.
@@ -39,3 +41,4 @@ $$
 
 - [[concepts/dynamic-quantile-selection|Dynamic Quantile Selection]]: adapts a forecast quantile to distributional changes instead of assigning performance-based weights to individual models.
 - [[concepts/temporal-disaggregation|Temporal Disaggregation]]: combining latent monthly paths can retain their observed quarterly totals when weights satisfy the appropriate constraints.
+- [[concepts/mixed-frequency-dynamic-factor-models|Mixed-Frequency Dynamic Factor Models]]: a model family that can be pooled across predictor subsets and factor dimensions.

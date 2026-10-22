@@ -23,6 +23,7 @@ Mixed-frequency dynamic factor models represent co-movement across observed seri
 
 ## Important Papers
 
+- [[papers/nowcasting-gdp-with-a-pool-of-factor-models-and-a-fast-estimation-algorithm|Nowcasting GDP with a Pool of Factor Models and a Fast Estimation Algorithm]]: combines mixed-frequency aggregation with time-varying parameters, variance discounting, and dynamic averaging over 49,152 U.S. GDP models.
 - [[papers/nowcasting-economic-activity-in-european-regions-using-a-mixed-frequency-dynamic-factor-model|Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model]]: combines annual regional GVA and quarterly national GVA with factor dynamics, horseshoe shrinkage, and stochastic aggregation restrictions.
 - [[papers/predictor-preselection-for-mixed-frequency-dynamic-factor-models|Predictor Preselection for Mixed-Frequency Dynamic Factor Models]]: studies how screening indicators changes downstream factor-model nowcast accuracy.
 - Mariano and Murasawa (2003), "A new coincident index of business cycles based on monthly and quarterly series": aggregation foundation cited by the regional nowcasting paper.
@@ -32,3 +33,5 @@ Mixed-frequency dynamic factor models represent co-movement across observed seri
 - [[concepts/temporal-disaggregation|Temporal Disaggregation]]: reconstructing a high-frequency path from lower-frequency observations.
 - [[concepts/targeted-predictors-for-factor-models|Targeted Predictors for Factor Models]]: selecting informative indicators before factor estimation.
 - [[concepts/midas-regression|MIDAS Regression]]: a related regression approach to using predictors sampled at different frequencies.
+- [[concepts/stochastic-volatility|Stochastic Volatility]]: allows state-space shock variances to change across calm and disrupted periods.
+- [[concepts/forecast-combination|Forecast Combination]]: pools alternative predictor sets and factor dimensions when their usefulness changes over time.
