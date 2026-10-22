@@ -15,6 +15,7 @@ Knowledge distillation trains a student model using supervision supplied by a te
 ## Key Ideas
 
 - **Distribution matching:** Conventional token-level KD minimizes teacher-to-student KL divergence over next-token distributions. The training sequences and divergence direction are distinct design choices.
+- **Representation preservation:** Matching predictions in KL does not generally ensure that student representations are linearly aligned with a teacher. [[concepts/logit-distance|Logit Distance]] gives stronger guarantees for preserving linear representation geometry because it remains sensitive to discrepancies on low-probability labels.
 - **Behavior-preserving alignment:** Distribution matching need not compress a larger teacher. [[CLIP-Free, Label Free, Unsupervised Concept Bottleneck Models|TextUnlock]] uses a frozen classifier's soft output distribution to train a projection into a text-embedding space, preserving its class relationships while making its features text-queryable.
 - **Generated supervision:** Sequence-level KD trains on teacher-generated outputs. Black-box distillation can use generated text when probabilities and internal states are unavailable.
 - **Student-generated contexts:** Methods such as MiniLLM and GKD, as discussed in the FDD paper, use student-generated outputs to address differences between training contexts and contexts encountered during generation.
@@ -25,6 +26,7 @@ Knowledge distillation trains a student model using supervision supplied by a te
 ## Important Papers
 
 - Hinton, Vinyals, and Dean (2015), "Distilling the Knowledge in a Neural Network": foundational distribution-matching reference cited by the FDD paper.
+- [[papers/logit-distance-bounds-representational-similarity|Logit Distance Bounds Representational Similarity]] shows theoretically and empirically that logit-matched students preserve teacher representation geometry and linearly recoverable concepts better than KL-distilled students in its evaluated settings.
 - [[papers/beyond-logits-aligning-feature-dynamics-for-effective-knowledge-distillation|Beyond Logits: Aligning Feature Dynamics for Effective Knowledge Distillation]] combines final-output, intermediate-trajectory, and layer-delta objectives in white-box LLM distillation.
 - [[CLIP-Free, Label Free, Unsupervised Concept Bottleneck Models]] applies output-distribution matching to align a frozen visual classifier with a text-derived classifier rather than to reduce model size.
 - [[papers/question-driven-decision-tree-via-knowledge-distillation-for-interpretable-prediction|Question-Driven Decision Tree via Knowledge Distillation for Interpretable Prediction]] transfers output distributions and attention from a learned aggregator to a logic-constrained medical-image classifier.

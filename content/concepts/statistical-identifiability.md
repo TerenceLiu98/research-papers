@@ -28,6 +28,7 @@ Statistical identifiability asks whether optimizing the same learning problem yi
 - [[Statistical and Structural Identifiability in Representation Learning]]
 - Roeder, Metz, and Kingma (2021), "On Linear Identifiability of Learned Representations."
 - Nielsen et al. (2025), "When Does Closeness in Distribution Imply Representational Similarity? An Identifiability Perspective."
+- [[papers/logit-distance-bounds-representational-similarity|Logit Distance Bounds Representational Similarity]] derives approximate linear-identifiability guarantees from [[concepts/logit-distance|logit distance]] and introduces a joint dissimilarity for embeddings and unembeddings.
 - Reizinger et al. (2025), "Position: An Empirically Grounded Identifiability Theory Will Accelerate Self-Supervised Learning Research."
 
 ## Related Concepts
