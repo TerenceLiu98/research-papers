@@ -23,9 +23,11 @@ Transformer representation trajectory geometry studies the ordered sequence of h
 ## Important Papers
 
 - [[papers/trajectory-geometry-of-transformer-representations-across-layers|Trajectory Geometry of Transformer Representations Across Layers]] defines five metrics and reports depthwise patterns in three small decoder-only models. Its observational scope, mock-data figure, and inconsistent disambiguation reporting constrain the empirical interpretation.
+- [[papers/geometry-of-divergence-tracking-hidden-state-trajectories-for-adaptive-multi-turn-reasoning|Geometry of Divergence: Tracking Hidden-State Trajectories for Adaptive Multi-Turn Reasoning]] applies related displacement geometry across dialogue turns rather than layers, using it to diagnose failure and trigger adaptive reasoning.
 
 ## Related Concepts
 
 - [[concepts/feature-dynamics-distillation|Feature Dynamics Distillation]]: aligns depthwise vocabulary-prediction trajectories between teacher and student models.
 - [[concepts/attribution-patching|Attribution Patching]]: predicts the output effects of local activation changes rather than characterizing unperturbed paths alone.
 - [[concepts/temporal-straightening|Temporal Straightening]]: uses directional penalties on latent trajectories over environment time for planning.
+- [[concepts/multi-turn-hidden-state-trajectory-geometry|Multi-Turn Hidden-State Trajectory Geometry]]: samples a fixed model layer across interaction turns and relates the resulting path to agent outcomes.
