@@ -26,6 +26,7 @@ Riemannian representation learning constrains latent variables to a smooth manif
 
 ## Important Papers
 
+- [[papers/dyernie-dynamic-evolution-of-riemannian-manifold-embeddings-for-temporal-knowledge-graph-completion|DyERNIE: Dynamic Evolution of Riemannian Manifold Embeddings for Temporal Knowledge Graph Completion]]
 - [[Riemannian Generative Decoder]]
 - [[Social Centralization and Semantic Collapse: Hyperbolic Embeddings of Networks and Text]]
 - Mathieu, Le Lan, Maddison, Tomioka, and Teh (2019), "Continuous Hierarchical Representations with Poincare Variational Auto-Encoders."
@@ -35,6 +36,7 @@ Riemannian representation learning constrains latent variables to a smooth manif
 
 ## Related Concepts
 
+- [[concepts/temporal-knowledge-graph-completion|Temporal Knowledge Graph Completion]]
 - [[Geometry-Aware Regularization]]
 - [[Function-Space Autoencoders]]
 - [[Hierarchical Concept Embedding]]
