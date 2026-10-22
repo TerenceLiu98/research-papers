@@ -26,11 +26,13 @@ Optimal transport compares probability distributions by finding a transport plan
 - Transport plans can also serve directly as normalized semantic relations. [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic]] uses separate entropic plans from documents to topics and from topics to words as its document-topic and topic-word distributions.
 - Unbalanced structured transport can align learned dictionaries whose active supports and total semantic mass differ. [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] alternates sample-local and dictionary-global couplings, combining within-modality geometry, weak cross-modal evidence, usage-aware marginals, and anti-hubness feedback.
 - Population equality does not imply zero empirical distance: independent finite samples generally differ, producing a positive expected transport cost even under the null. The magnitude depends on sample sizes and support geometry, and can be substantial in sparse or high-dimensional settings.
+- Transport maps can implement covariate adjustment in observational causal inference. [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]] pushes the control covariate law toward the treated law, evaluates an outcome regression at transported points, and uses displacement interpolation to limit extrapolation when supports only partly overlap.
 - [[concepts/permutation-based-null-calibration|Permutation-Based Null Calibration]] tests whether an observed distance is unusually large under exchangeable group labels. Subtracting the mean null distance gives a descriptive excess, not generally an unbiased estimate of population distance; ordinary within-group bootstrap intervals do not supply this null reference.
 
 ## Important Papers
 
 - [[papers/the-earth-moves-but-so-does-the-bias-systematic-upward-bias-of-the-wasserstein-earth-movers-distance-and-permutation-based-null-calibration|The Earth Moves, But So Does the Bias]] (Hung, 2026): Examines finite-sample null distances and permutation calibration for distributional comparisons.
+- [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]]: uses transport maps in place of inverse-density-ratio weighting for average causal-effect estimation under limited overlap.
 - [[Fast Unsupervised Ground Metric Learning with Tree-Wasserstein Distance]]
 - [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model]]
 - [[papers/flashsinkhorn-2-block-sparse-entropic-optimal-transport|FlashSinkhorn 2: Block-Sparse Entropic Optimal Transport]]
@@ -46,5 +48,6 @@ Optimal transport compares probability distributions by finding a transport plan
 - [[Unsupervised Ground Metric Learning]]
 - [[Geodesic Distance]]
 - [[concepts/block-sparse-entropic-optimal-transport|Block-Sparse Entropic Optimal Transport]]
+- [[concepts/causal-overlap|Causal Overlap]]
 - Probability measures
 - Metric learning
