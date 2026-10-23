@@ -27,6 +27,7 @@ Functional neural networks use curves or other function-valued observations as i
 - The basis family and basis count impose smoothness and control capacity. Too few basis functions restrict the learned effect, while too many weaken the intended compression and may fit noise.
 - Roughness penalties on functional biases and bivariate connection weights can improve smoothness, but smooth parameter surfaces are not a complete explanation of a deep nonlinear predictor.
 - Learned functional weights can show which portions of the domain contribute to first-layer activations. In a deep nonlinear model they are partial diagnostics, not complete effect estimates or causal explanations.
+- Semi-structured functional networks can add a basis-expanded regression branch to a flexible deep branch. Because both branches may represent the same linear functional signal, post-hoc orthogonalization can move the shared component into the structured branch while leaving the deep residual orthogonal to its basis span.
 - Related architectures differ in what is learned. Fixed-basis FNNs optimize coefficients over prespecified bases; [[Adaptive Basis Layers]] parameterize the basis functions themselves with neural networks; [[Function-Space Autoencoders]] learn unsupervised representations or reconstructions in function space.
 
 ## Important Papers
@@ -35,6 +36,7 @@ Functional neural networks use curves or other function-valued observations as i
 - [[Non-linear Functional Modeling using Neural Networks]]
 - [[Deep Learning with Functional Inputs]]
 - [[Modern Non-Linear Function-on-Function Regression]]
+- [[A Functional Extension of Semi-Structured Networks]]
 - [[Deep Learning for Functional Data Analysis with Adaptive Basis Layers]]
 - [[Functional Autoencoders for Functional Data Representation Learning]]
 - Rossi and Conan-Guez (2005), "Functional multi-layer perceptron: A non-linear tool for functional data analysis."
