@@ -38,6 +38,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - Dense-retrieval embeddings can also be decomposed into labeled latent concepts. [[concepts/concept-level-sparse-retrieval|Concept-Level Sparse Retrieval]] uses those activations as an inverted-index vocabulary, exposing concept-level score contributions while trading off reconstruction fidelity, individual-feature coherence, and index cost.
 - SAEs can also expose an adversarial intervention surface. [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]] thresholds a centroid of attack-prompt codes, adds the resulting mask to layer activations, and reconstructs prompts by embedding search. Its higher jailbreak success shows causal influence under the tested hooks, but its heuristic feature selection does not establish that individual latents have stable adversarial meanings.
 - SAE features can mediate cross-lingual reasoning transfer. [[papers/enhancing-low-resource-language-reasoning-via-high-resource-language-feature-transfer|Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer]] selects features present in successful reference-language traces but absent from paired target-language failures, then validates the set with target activation, reference suppression, and controls. This [[concepts/cross-lingual-feature-steering|Cross-Lingual Feature Steering]] evidence is intervention-specific and depends on the SAE basis and benchmark-labeled discovery set.
+- SAEs can also expose the basis of scalar preference judgments. [[papers/interpretable-reward-model-via-sparse-autoencoder|Interpretable Reward Model via Sparse Autoencoder]] trains a sequence-level SAE before reward modeling, then learns a linear value head over its frozen sparse features. This makes each reward a sum of feature contributions and permits weight-based interventions, although the feature meanings remain unsupervised and require validation.
 
 - [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders]] move the sparsity assumption from individual activations to differences between paired activations. Under linearity and support assumptions, this reduces the recovery ambiguity to permutation and scaling, so decoder columns correspond to individual concept shifts rather than arbitrary mixtures.
 - SAEs can be trained jointly across distinct models rather than fitted independently. [[Universal Sparse Autoencoders: Interpretable Cross-Model Concept Alignment]] uses model-specific encoders and decoders with one shared sparse code, enabling cross-model reconstruction and analysis of [[Universal Concept Spaces]].
@@ -65,6 +66,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]]
 - [[Universal Sparse Autoencoders: Interpretable Cross-Model Concept Alignment]]
 - [[papers/same-concept-different-directions-cross-modal-feature-heterogeneity-in-sparse-autoencoders|Same Concept, Different Directions: Cross-Modal Feature Heterogeneity in Sparse Autoencoders]]
+- [[papers/interpretable-reward-model-via-sparse-autoencoder|Interpretable Reward Model via Sparse Autoencoder]]
 - Pach et al. (2025), "Sparse autoencoders learn monosemantic features in vision-language models."
 - Gao et al. (2025), "Scaling and evaluating sparse autoencoders."
 - Huben et al. (2024), "Sparse autoencoders find highly interpretable features in language models."
@@ -83,5 +85,6 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[Mechanistic Topic Models]]
 - [[Universal Concept Spaces]]
 - [[concepts/cross-modal-feature-heterogeneity|Cross-Modal Feature Heterogeneity]]
+- [[concepts/interpretable-reward-modeling|Interpretable Reward Modeling]]
 - Feature disentanglement
 - Dictionary learning
