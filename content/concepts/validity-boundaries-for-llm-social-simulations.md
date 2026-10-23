@@ -28,6 +28,7 @@ Validity boundaries for LLM social simulations specify which research questions 
 ## Important Papers
 
 - [[LLM-Based Social Simulations Require a Boundary]] develops the mean-variance framework, reviews 21 studies, and argues for validation and claim scope matched to heterogeneity requirements.
+- [[Lost in Simulation: LLM-Simulated Users are Unreliable Proxies for Human Users in Agentic Evaluations]] directly compares LLM-simulated and human users in agentic evaluation, finding simulator-model sensitivity, difficulty-dependent miscalibration, and unequal proxy quality across demographic groups.
 - [[Multi-Agent Strategic Games with LLMs]] treats model agents as controlled experimental subjects while explicitly declining direct claims about human or state behavior.
 - [[Public opinion dissemination simulation based on large language model multi-agent systems]] reports action and lexical diversity, illustrating the distinction between generated variety and validated human behavioral fidelity.
 - [[Social opinions prediction utilizes fusing dynamics equation with LLM-based agents]] shows how explicit dynamical constraints can improve retrospective aggregate fit without validating individual trajectories or prospective prediction.
