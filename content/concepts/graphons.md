@@ -32,6 +32,7 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 - [[papers/what-is-a-graphon|What Is ... a Graphon?]]: an expository introduction to homomorphism densities, cut distance, weak isomorphism, compactness, and extremal optimization.
 - [[papers/contagion-in-graphons|Contagion in graphons]]: defines continuum threshold dynamics, proves qualified sampled-network approximation results, and derives structured seeding policies.
 - [[papers/graphon-mean-field-games-and-the-gmfg-equations|Graphon Mean Field Games and the GMFG Equations]]: uses graphon sections to index local mean fields and transfers continuum feedback equilibria to large finite clustered networks under a stronger sectional approximation condition.
+- [[papers/graphon-particle-systems-with-common-noise|Graphon Particle Systems with Common Noise]]: proves process-law convergence for nonlinear graphon particle systems under shared noise and handles non-normalized interaction measures.
 - [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]]: estimates edge probabilities by neighborhood smoothing and resamples adjacency matrices during GNN training.
 - Lovasz and Szegedy (2006), "Limits of dense graph sequences": foundational graph-limit treatment cited in Glasscock's exposition.
 - Parise and Ozdaglar (2023), "Graphon games: a statistical framework for network games and interventions": related network-game framework cited by Erol et al.
@@ -41,4 +42,5 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 - [[concepts/threshold-contagion|Threshold Contagion]]: a discontinuous adoption process whose approximation depends on threshold margins.
 - [[concepts/network-games|Network Games]]: strategic interactions that can be modeled across a continuum of network types.
 - [[concepts/graphon-mean-field-games|Graphon Mean Field Games]]: stochastic games coupling label-specific control problems through graphon-weighted state distributions.
+- [[concepts/graphon-particle-systems|Graphon Particle Systems]]: interacting stochastic systems whose local mean fields are weighted by graphon sections.
 - [[concepts/stochastic-block-models-with-covariates|Stochastic Block Models with Covariates]]: related models combining group structure and observed heterogeneity in link probabilities.
