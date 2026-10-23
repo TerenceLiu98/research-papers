@@ -23,10 +23,12 @@ A universal concept space is a shared representation whose dimensions are intend
 - A shared objective can favor factors that help reconstruct every model. It may therefore recover common features missed by separately trained dictionaries while suppressing features useful to only one model.
 - Low-universality dimensions are also informative because they isolate architecture- or objective-specific representations within a common coordinate system.
 - Feature visualization and interventions remain necessary for interpreting aligned dimensions. Statistical alignment alone does not guarantee semantic equivalence.
+- A pretrained universal space can also serve as a measurement instrument. [[concepts/fixed-coordinate-compatibility|Fixed-Coordinate Compatibility]] freezes its coordinates and decoders before training the model under audit, then tests direct decoding rather than fitting a new alignment map.
 
 ## Important Papers
 
 - [[Universal Sparse Autoencoders: Interpretable Cross-Model Concept Alignment]]: learns a shared sparse code for SigLIP, DINOv2, and ViT and evaluates it through reconstruction, firing statistics, dictionary matching, and coordinated visualization.
+- [[papers/what-does-multi-teacher-distillation-transfer-measuring-feature-distillation-with-fixed-concept-coordinates|What Does Multi-Teacher Distillation Transfer? Measuring Feature Distillation with Fixed Concept Coordinates]] uses a pretrained USAE as a fixed reference for auditing multi-teacher feature transfer while retaining the reference system's limits.
 - Dravid et al. (2023), "Rosetta Neurons: Mining the Common Units in a Model Zoo": identifies units with correlated spatial responses across models.
 - Huh et al. (2024), "The Platonic Representation Hypothesis": argues that representations may converge as models improve across tasks and modalities.
 - Kowal et al. (2024), "Understanding Video Transformers via Universal Concept Discovery": discovers shared video-model concepts using common exemplars.
@@ -35,6 +37,7 @@ A universal concept space is a shared representation whose dimensions are intend
 ## Related Concepts
 
 - [[Sparse Autoencoders]]
+- [[concepts/fixed-coordinate-compatibility|Fixed-Coordinate Compatibility]]
 - Representational alignment
 - Concept-based interpretability
 - Feature visualization
