@@ -22,6 +22,7 @@ Neural message passing is a general framework for learning representations on gr
 - Continuous-time variants interpret propagation as a differential equation and use numerical solvers to obtain node representations.
 - Repeated attractive aggregation can make node states increasingly similar, producing [[concepts/oversmoothing-in-graph-neural-networks|Oversmoothing in Graph Neural Networks]]. Repulsive, residual, or confidence-filtered interactions can preserve separation.
 - Propagation need not use one fixed graph at every layer. [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]] samples adjacency matrices from estimated edge probabilities at each epoch or layer, turning structural uncertainty into graph augmentation.
+- Generalization can depend on graph size as well as the number of training graphs. Under a finite graphon-mixture model, [[papers/generalization-bounds-for-message-passing-networks-on-mixture-of-graphons|Generalization Bounds for Message Passing Networks on Mixture of Graphons]] proves a uniform bound that improves with node count only below a dimension-dependent sparsity threshold.
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]] treats aggregation as an opinion-exchange process and uses bounded confidence to strengthen, remove, or reverse messages.
 
 ## Important Papers
@@ -31,6 +32,7 @@ Neural message passing is a general framework for learning representations on gr
 - Chamberlain et al. (2021), "GRAND: Graph Neural Diffusion."
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]]
 - [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]]
+- [[papers/generalization-bounds-for-message-passing-networks-on-mixture-of-graphons|Generalization Bounds for Message Passing Networks on Mixture of Graphons]]
 
 ## Related Concepts
 

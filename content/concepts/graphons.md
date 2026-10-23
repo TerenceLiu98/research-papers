@@ -24,6 +24,7 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 - **Integrals replace neighbor sums.** The quantity $d(u,X)=\int_X W(u,v)\,dv$ is interaction mass with labels in $X$. This allows a continuum process to be studied before drawing a finite network.
 - **Process approximation needs additional conditions.** A graphon representation alone does not guarantee stable dynamics. Threshold contagion needs regularity and appropriate strict margins to resolve infected and uninfected regions.
 - **Estimated graphons can generate training graphs.** A link-probability matrix estimated from one observed network can be used to sample alternative adjacency matrices. [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]] uses this as graph augmentation and as a stochastic propagation operator for deep GNNs.
+- **Graphon sampling can sharpen MPNN generalization analysis.** [[papers/generalization-bounds-for-message-passing-networks-on-mixture-of-graphons|Generalization Bounds for Message Passing Networks on Mixture of Graphons]] compares sampled graph MPNNs with continuous graphon MPNNs and obtains graph-size-dependent bounds for noisy Bernoulli graphs under explicit regularity and sparsity conditions.
 - **Intervention can target types.** Optimizing community seed allocations may avoid observing every edge. Implementation still requires the relevant model parameters and information about agents' types.
 - **Density is a scope condition.** Fixed-kernel sampling describes a dense-network regime; conclusions do not automatically transfer to sparse-network models.
 
@@ -34,6 +35,7 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 - [[papers/graphon-mean-field-games-and-the-gmfg-equations|Graphon Mean Field Games and the GMFG Equations]]: uses graphon sections to index local mean fields and transfers continuum feedback equilibria to large finite clustered networks under a stronger sectional approximation condition.
 - [[papers/graphon-particle-systems-with-common-noise|Graphon Particle Systems with Common Noise]]: proves process-law convergence for nonlinear graphon particle systems under shared noise and handles non-normalized interaction measures.
 - [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]]: estimates edge probabilities by neighborhood smoothing and resamples adjacency matrices during GNN training.
+- [[papers/generalization-bounds-for-message-passing-networks-on-mixture-of-graphons|Generalization Bounds for Message Passing Networks on Mixture of Graphons]]: derives uniform MPNN generalization bounds for noisy, sparse, simple graph-signals sampled from finite graphon mixtures.
 - Lovasz and Szegedy (2006), "Limits of dense graph sequences": foundational graph-limit treatment cited in Glasscock's exposition.
 - Parise and Ozdaglar (2023), "Graphon games: a statistical framework for network games and interventions": related network-game framework cited by Erol et al.
 
