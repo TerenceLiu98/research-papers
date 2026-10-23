@@ -29,6 +29,7 @@ Function-space autoencoders learn low-dimensional representations of objects tre
 
 ## Important Papers
 
+- [[Nonlinear Functional Principal Component Analysis Using Neural Networks]]
 - [[Functional Autoencoders for Functional Data Representation Learning]]
 - [[Functional Autoencoder for Smoothing and Representation Learning]]
 - [[Autoencoders in Function Space]]

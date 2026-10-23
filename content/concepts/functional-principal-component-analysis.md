@@ -26,6 +26,7 @@ Functional principal component analysis (FPCA) is a data-adaptive representation
 
 ## Important Papers
 
+- [[Nonlinear Functional Principal Component Analysis Using Neural Networks]]
 - [[Generalized Functional Additive Nonlinear Models with Multimodal Interaction Effects]]
 - [[Functional Autoencoder for Smoothing and Representation Learning]]
 - [[papers/asynchronous-and-error-prone-longitudinal-data-analysis-via-functional-calibration|Asynchronous and Error-prone Longitudinal Data Analysis via Functional Calibration]]
