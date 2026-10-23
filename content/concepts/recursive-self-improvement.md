@@ -29,6 +29,7 @@ Recursive self-improvement concerns a system improving the mechanisms by which i
 - Self-model fidelity and training-data quality are separate concerns. The threshold paper recognizes synthetic-data degradation as an obstacle even for a faithful self-model.
 - An economic definition separates automation from acceleration. Cunningham et al. define self-sustaining acceleration as rising capability growth with exogenous inputs held fixed. In their baseline model, direct idea-stock feedback and the capability-to-AI-R&D loop must together give an elasticity of new algorithmic improvements with respect to algorithmic efficiency above one. Full automation alone is insufficient when ideas become harder to find or complementary labor, compute, data, or verification binds.
 - Acceleration can remain narrow. Optimization capabilities that feed back into AI R&D may improve rapidly while broad economically useful capabilities lag. Falling passthrough from algorithmic efficiency, component-specific ceilings, and unautomated sub-algorithms can turn a local acceleration into a temporary growth spurt.
+- [[concepts/discovery-history-replay|Discovery history replay]] supports a bounded meta-exploration loop: a deployed policy creates a discovery tree, alternative policies are evaluated on its recorded outcomes, and the selected policy is redeployed. Because replay is restricted to historical support and the underlying model and evaluator remain fixed, improvement on the replay pool does not establish indefinite or weight-level RSI.
 
 ## Important Papers
 
@@ -41,6 +42,7 @@ Recursive self-improvement concerns a system improving the mechanisms by which i
 - [[papers/self-reference-in-large-language-models-the-introspection-threshold-for-recursive-self-improvement|Self-Reference in Large Language Models]]: proposes an introspection threshold and discusses bounded simulation, structural barriers, and successor evaluation.
 - [[papers/frontis-ma1-training-an-ai4ai-model-towards-recursive-self-improvement-in-machine-learning-engineering|Frontis-MA1]]: demonstrates trained improvement operators and evolutionary search, while distinguishing these results from sustained autonomous RSI.
 - [[papers/the-economics-of-recursive-self-improvement|The Economics of Recursive Self-Improvement]]: models RSI as an elasticity-weighted innovation network. Its tentative calibration places current reported AI R&D productivity gains below the self-sustaining threshold, while emphasizing weak data and changing bottlenecks.
+- [[papers/dream-rsi-recursive-self-improvement-through-evolving-worlds|Dream-RSI: Recursive Self-Improvement through Evolving Worlds]]: improves executable exploration-policy code by replaying recorded discovery trees, then redeploys it online. Its evidence supports bounded improvement of meta-exploration under fixed models, evaluators, and interfaces.
 - Schmidhuber (2003), "Godel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements," as discussed in the threshold paper: a proof-based approach to code rewriting under formal utility assumptions.
 
 ## Related Concepts
@@ -51,3 +53,4 @@ Recursive self-improvement concerns a system improving the mechanisms by which i
 - [[concepts/meta-evolution|Meta-Evolution]]
 - [[concepts/experience-guided-program-evolution|Experience-Guided Program Evolution]]
 - [[concepts/regularized-harness-evolution|Regularized Harness Evolution]]
+- [[concepts/discovery-history-replay|Discovery History Replay]]

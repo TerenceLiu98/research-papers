@@ -22,6 +22,7 @@ World models learn predictive descriptions of an environment from observation hi
 - **Longer generation is not sustained accuracy.** Sliding-window prediction extends beyond the training horizon, but errors in generated context can accumulate. NanoWM's CSGO experiment preserves coarse scene structure while losing fine visual detail.
 - **Generated views are inputs to geometry estimation.** Exporting predicted video to a reconstruction system can produce persistent scene assets. Their geometric accuracy depends on both the generated observations and the separate reconstruction system.
 - **Encoder recovery and dynamics learning are separate.** The LeJEPA identifiability analysis recovers Gaussian OU latents up to rotation or reflection under its assumptions. Planning equivalence then requires correct pushforward dynamics and invariant costs, or consistent transformation of goals and cost parameters. Its Reacher interpolation/retrieval experiment tests representation geometry; it does not establish learning of action-conditioned dynamics or closed-loop control.
+- **Recorded histories can act as empirical worlds.** [[concepts/discovery-history-replay|Discovery history replay]] evaluates policies by incrementally revealing stored branches and outcomes. Unlike a learned dynamics model, it is exact on recorded transitions but cannot predict unobserved actions or new stochastic outcomes.
 
 ## Important Papers
 
@@ -30,6 +31,7 @@ World models learn predictive descriptions of an environment from observation hi
 - Ha and Schmidhuber (2018), "Recurrent world models facilitate policy evolution," is a foundational world-model reference cited by NanoWM.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]] compares video prediction and planning across modeling choices, including a negative result for semantic-latent planning under its tested recipe.
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]] supplies a conditional representation-identifiability result and connects orthogonal recovery to preservation of planning costs.
+- [[papers/dream-rsi-recursive-self-improvement-through-evolving-worlds|Dream-RSI: Recursive Self-Improvement through Evolving Worlds]] uses completed discovery trees as replay simulators for exploration-policy evaluation, extending the world-model analogy to agentic scientific discovery without learning a transition model.
 - Zhou et al. (2024), "DINO-WM: World models on pre-trained visual features enable zero-shot planning," is cited by NanoWM as a feature-based world-model approach and dataset source.
 
 ## Related Concepts
@@ -38,3 +40,4 @@ World models learn predictive descriptions of an environment from observation hi
 - [[concepts/diffusion-models|Diffusion Models]] support generative observation prediction in pixel or latent spaces.
 - [[concepts/joint-embedding-predictive-architectures|Joint-Embedding Predictive Architectures]] learn predictive representations; downstream controllability depends on more than representation prediction alone.
 - [[concepts/structural-identifiability|Structural Identifiability]] formalizes recovery of a designated latent state up to specified ambiguities.
+- [[concepts/discovery-history-replay|Discovery History Replay]] uses recorded transitions as a finite empirical simulator for meta-exploration.
