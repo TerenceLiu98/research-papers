@@ -31,6 +31,7 @@ Functional neural networks use curves or other function-valued observations as i
 
 ## Important Papers
 
+- [[Non-linear Functional Modeling using Neural Networks]]
 - [[Deep Learning with Functional Inputs]]
 - [[Modern Non-Linear Function-on-Function Regression]]
 - [[Deep Learning for Functional Data Analysis with Adaptive Basis Layers]]
