@@ -6,7 +6,7 @@ authors:
   - David J. Heeger
   - Stefano Martiniani
 year: null
-source_job_id: 49ea60af-fa38-4c03-b945-5f6ad6bdf0af
+source_job_id: aa9f804a-4b3c-4959-8277-00a364c92925
 tags:
   - self-supervised-learning
   - contrastive-learning
