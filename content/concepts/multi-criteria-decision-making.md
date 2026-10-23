@@ -22,6 +22,7 @@ Multi-Criteria Decision Making (MCDM) evaluates alternatives when performance mu
 - MCDM may rank alternatives or sort them into ordered classes. TOPSIS-Sort-C compares alternatives with characteristic profiles rather than only producing a global ranking.
 - Multi-criteria results remain conditional on indicator definitions, sample selection, normalization, and the relation between criteria and the target construct. Robustness and sensitivity checks are therefore part of responsible evaluation.
 - In rumor-refutation evaluation, content, account, audience, behavior, and network-context variables are treated as complementary evidence about account-level effectiveness.
+- Preference directions need not always be monotonic. A decision maker can instead have an ideal point inside the attribute space, with weighted distance from that point learned indirectly from holistic pairwise comparisons.
 
 ## Important Papers
 
@@ -29,6 +30,7 @@ Multi-Criteria Decision Making (MCDM) evaluates alternatives when performance mu
 - Rezaei (2016), "Best-Worst Multi-Criteria Decision-Making Method: Some Properties and a Linear Model."
 - Silva and Filho (2020), "Sorting with TOPSIS through Boundary and Characteristic Profiles."
 - Li, He, Martinez, Zhang, Wang, and Liu (2024), "Comparative Analysis of Three Categories of Multi-Criteria Decision-Making Methods."
+- [[papers/a-multidimensional-spatial-model-for-preference-representation-in-multi-criteria-group-decision-aiding|A Multidimensional Spatial Model for Preference Representation in Multi-Criteria Group Decision Aiding]]: infers ideal positions and attribute weights for single-peaked individual and group preferences.
 
 ## Related Concepts
 
@@ -36,4 +38,5 @@ Multi-Criteria Decision Making (MCDM) evaluates alternatives when performance mu
 - [[Rumor Refutation on Social Media]]
 - [[Social Network Analysis]]
 - [[Consensus Reaching in Group Decision Making]]
+- [[concepts/euclidean-preferences|Euclidean Preferences]]
 
