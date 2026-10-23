@@ -21,12 +21,14 @@ Functional principal component analysis (FPCA) is a data-adaptive representation
 - The truncation level $K$ controls the approximation and estimation trade-off. The FANMI paper selects it from a cumulative explained-variance criterion and uses the smallest $K$ exceeding 85% in its electricity application.
 - Estimated curves can be smoothed first, followed by covariance estimation, eigendecomposition, score calculation, and scaling by $\Phi(\hat\xi_j/\sqrt{\hat\lambda_j})$ when a bounded score domain is useful.
 - Eigenvalue decay and separation conditions support consistent estimation of the leading eigenfunctions and scores. Sparse or noisy observations require additional smoothing and score-estimation assumptions.
+- For asynchronously observed longitudinal data, predicted FPC scores can reconstruct a covariate trajectory at response times. [[concepts/functional-calibration|Functional Calibration]] uses these predictions in downstream regression, with uncertainty that includes both trajectory prediction and FPCA estimation.
 - FPCA is useful for interpretation as well as dimension reduction: in the paper's temperature application, the first three components summarize an overall temperature level, a winter-summer contrast, and a spring-autumn contrast.
 
 ## Important Papers
 
 - [[Generalized Functional Additive Nonlinear Models with Multimodal Interaction Effects]]
 - [[Functional Autoencoder for Smoothing and Representation Learning]]
+- [[papers/asynchronous-and-error-prone-longitudinal-data-analysis-via-functional-calibration|Asynchronous and Error-prone Longitudinal Data Analysis via Functional Calibration]]
 - Yao, Müller, and Wang (2005), "Functional data analysis for sparse longitudinal data."
 - Hall, Müller, and Wang (2006), "Properties of principal component methods for functional and longitudinal data analysis."
 - Ramsay and Silverman (2005), "Functional Data Analysis."
@@ -35,6 +37,7 @@ Functional principal component analysis (FPCA) is a data-adaptive representation
 
 - [[Generalized Functional Additive Nonlinear Models]]
 - [[Function-Space Autoencoders]]
+- [[Functional Calibration]]
 - Functional data analysis
 - Covariance operators
 - Basis expansion
