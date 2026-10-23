@@ -24,6 +24,7 @@ Representation autoencoders pair a pretrained visual representation encoder with
 - **Semantic structure and pixel detail can be decoupled.** [[papers/dc-sae-deep-compression-semantic-autoencoder-for-faster-diffusion-convergence|DC-SAE]] pairs a frozen semantic encoder with a trainable pixel branch at 32x spatial compression. Its masking analysis attributes most reconstruction detail to the pixel branch, while joint-training ablations support the semantic branch's role in making the fused latent easier for a diffusion transformer to learn.
 - **Decoder density need not determine generator sequence length.** DC-SAE's Spatial DeMerger expands the compact fused grid only before decoding, allowing the image decoder to operate on denser spatial tokens without requiring the generator to model that longer sequence.
 - **Intermediate encoder layers can restore local detail.** [[papers/beyond-the-last-layer-multi-layer-representation-fusion-for-visual-tokenization|DRoRAE]] routes all DINOv2 layers into an energy-normalized correction to the final-layer latent. Its incremental anchor and staged training expose a central constraint: richer latents improve reconstruction only if they remain learnable by the downstream generator.
+- **Depth-dependent residual budgets can regularize learned full-depth fusion.** [[papers/hirae-hierarchical-representation-autoencoding-with-residual-budgets|HiRAE]] groups routed corrections from a frozen DINOv3-L hierarchy into shallow, middle, and deep residuals. Progressively larger norm caps and lower dropout at greater depth improve reconstruction while limiting how far fusion moves the deepest-layer anchor.
 
 ## Important Papers
 
@@ -32,6 +33,7 @@ Representation autoencoders pair a pretrained visual representation encoder with
 - [[papers/sage-salient-factor-discovery-and-generation-with-visual-foundation-representations|SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations]]: factorizes the spatial latent for discovery, manipulation, and generation.
 - [[papers/dc-sae-deep-compression-semantic-autoencoder-for-faster-diffusion-convergence|DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence]]: combines semantic and pixel branches for 32x compressed latent generation.
 - [[papers/beyond-the-last-layer-multi-layer-representation-fusion-for-visual-tokenization|Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization]]: enriches final-layer RAE latents with content-adaptive features from every encoder depth.
+- [[papers/hirae-hierarchical-representation-autoencoding-with-residual-budgets|HiRAE: Hierarchical Representation Autoencoding with Residual Budgets]]: jointly trains full-depth fusion and decoding under depth-dependent correction budgets.
 
 ## Related Concepts
 
