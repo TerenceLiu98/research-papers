@@ -31,6 +31,7 @@ Topic model evaluation distinguishes the quality of topic word lists from the us
 - [[Neural Topic Modeling via Contextual and Graph Information Fusion]] reports higher coherence and word intrusion scores while trailing FASTopic on document-clustering metrics.
 - [[Sparse Autoencoders are Topic Models]] evaluates topic coherence with LLM intruder detection and topic ratings, alongside diversity and topic relevance.
 - [[papers/an-image-is-worth-k-topics-a-visual-structural-topic-model-with-pretrained-image-embeddings|An Image is Worth $K$ Topics: A Visual Structural Topic Model with Pretrained Image Embeddings]] adapts intrusion testing to images and compares models with 10, 45, and 150 topics.
+- [[papers/vistopics-a-visual-semantic-unsupervised-approach-to-topic-modeling-of-video-and-image-data|VisTopics]] evaluates caption-derived visual topics with image-intrusion and four-way topic-matching tasks completed by two human coders.
 - [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model]] combines coherence and diversity with clustering, downstream classification, transfer, runtime, and configuration-sensitivity tests.
 
 ## Related Concepts

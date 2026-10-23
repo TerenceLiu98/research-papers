@@ -28,6 +28,7 @@ Automated visual framing analysis uses computational models to identify how imag
 ## Important Papers
 
 - [[papers/evaluating-large-vision-language-models-for-visual-framing-analysis-in-news-imagery-a-theory-driven-benchmark|Evaluating Large Vision-Language Models for Visual Framing Analysis in News Imagery]]: compares five LVLMs and four prompting conditions on conflict, peace, and solidarity frames in social-movement news images.
+- [[papers/vistopics-a-visual-semantic-unsupervised-approach-to-topic-modeling-of-video-and-image-data|VisTopics]]: discovers visual themes in sampled news-video frames by applying LDA to generated captions, then evaluates coherence with human image-intrusion and topic-matching tasks.
 - Rodriguez and Dimitrova (2011), "The Levels of Visual Framing": distinguishes denotative, stylistic-semiotic, connotative, and ideological levels of visual meaning.
 - Araujo, Lock, and van de Velde (2020), "Automated Visual Content Analysis (AVCA) in Communication Research": presents a protocol for large-scale image classification with pretrained computer-vision models.
 
