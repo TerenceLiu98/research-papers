@@ -20,6 +20,7 @@ Knowledge distillation trains a student model using supervision supplied by a te
 - **Generated supervision:** Sequence-level KD trains on teacher-generated outputs. Black-box distillation can use generated text when probabilities and internal states are unavailable.
 - **Student-generated contexts:** Methods such as MiniLLM and GKD, as discussed in the FDD paper, use student-generated outputs to address differences between training contexts and contexts encountered during generation.
 - **Intermediate supervision:** Hidden-state or attention matching adds constraints within the model. Different hidden dimensions require a comparison space or projection. [[concepts/feature-dynamics-distillation|Feature Dynamics Distillation]] uses vocabulary predictions and cross-layer changes to provide such supervision.
+- **Task-agnostic visual transfer:** [[papers/accessing-vision-foundation-models-via-imagenet-1k|Proteus]] avoids proxy-dataset labels and class logits, instead matching classification tokens, full features, and masked-patch representations. Its ablations show that the objectives serve different downstream needs: token alignment favors classification, while feature and patch alignment improve dense prediction.
 - **Transfer into a constrained student:** Distillation can compensate for a student's deliberately restricted decision rule rather than only its size. [[papers/question-driven-decision-tree-via-knowledge-distillation-for-interpretable-prediction|Question-Driven Decision Tree]] matches main-task and sub-task outputs plus spatial attention while retaining deterministic clinical-tree aggregation at inference.
 - **Evaluation:** A distilled student can exceed its teacher on particular metrics and datasets, but this does not imply general superiority. Aggregate improvements should be checked against individual tasks, teacher access assumptions, and training costs.
 
@@ -31,6 +32,7 @@ Knowledge distillation trains a student model using supervision supplied by a te
 - [[CLIP-Free, Label Free, Unsupervised Concept Bottleneck Models]] applies output-distribution matching to align a frozen visual classifier with a text-derived classifier rather than to reduce model size.
 - [[papers/question-driven-decision-tree-via-knowledge-distillation-for-interpretable-prediction|Question-Driven Decision Tree via Knowledge Distillation for Interpretable Prediction]] transfers output distributions and attention from a learned aggregator to a logic-constrained medical-image classifier.
 - [[papers/when-agents-look-the-same-quantifying-distillation-induced-similarity-in-tool-use-behaviors|When Agents Look the Same: Quantifying Distillation-Induced Similarity in Tool-Use Behaviors]] measures whether tool-using agents converge on optional verbal and action patterns and tests the action metric with a controlled teacher-student intervention.
+- [[papers/accessing-vision-foundation-models-via-imagenet-1k|Accessing Vision Foundation Models via ImageNet-1K]] distills DINOv2, SynCLR, and CLIP representations through a small public proxy dataset without using the teachers' original training data.
 
 ## Related Concepts
 
