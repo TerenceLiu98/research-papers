@@ -10,8 +10,8 @@ authors:
   - Minqi Jiang
   - Sam Devlin
   - Tatiana Shavrina
-year: null
-source_job_id: bf7f208c-ac1f-4f9d-87c0-bc75064f614e
+year: 2026
+source_job_id: 718a63ff-9a67-463c-bfe3-c3081d385abf
 tags:
   - llm-agents
   - recursive-self-improvement
@@ -91,7 +91,7 @@ DGM-H outperforms original DGM and both ablations at reported $p<0.05$. Its adva
 - Appendix C.1 describes a 60-task coding split with a 10-task screen and 50 additional tasks, while Section 5.1 reports a 50-task training score. It also calls 165 unseen tasks the full benchmark, whereas Section 5.1 describes full Polyglot as largely unseen. The task lists repeat `python__dominoes` across the two training stages. These ambiguities limit exact split reconstruction from the supplied text.
 - Appendix D.2 reports about 33 million modification tokens per 100 iterations and 0.506 million evaluation tokens per iteration, but gives a total of 88.6 million. The stated components sum to 83.6 million. This arithmetic discrepancy should remain unresolved as a reported cost, and token estimates do not capture all simulator training costs.
 - Sandboxing, restricted network access, timeouts, and human oversight are experimental precautions, not guarantees about future successors. The paper discusses risks from benchmark incentives and systems outpacing oversight (Section 6; Appendix F).
-- The supplied Markdown has no explicit publication year, DOI, or arXiv identifier for HyperAgents. Bibliography dates and experiment timestamps do not establish publication metadata; `year` is left unspecified.
+- The supplied manuscript is dated March 17, 2026, but gives no DOI or arXiv identifier.
 
 ## Related Concepts
 
