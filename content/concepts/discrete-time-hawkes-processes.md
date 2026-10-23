@@ -29,11 +29,13 @@ where $g$ is a nonnegative probability mass function over positive lags. Earlier
 - **Spatial extension:** Replacing the temporal sum with a sum over lags and source regions, weighted by a spatial kernel, permits events in one area to affect the modeled rate in another.
 - **Observation model matters:** With structural-zero probability $\pi$, a zero-inflated Poisson model has conditional mean $(1-\pi)\lambda_t$, not $\lambda_t$. The ordinary temporal interpretation of $\alpha$ as mean offspring count cannot be transferred unchanged to models with zero inflation and unnormalized spatial weights.
 - **Aggregation tradeoff:** Coarser intervals reduce sparsity and computational expense but exclude excitation between events within the same interval. This can inflate the fitted background component and delays responses to new observations until the next interval.
+- **Binary event windows:** When each interval contains at most one event, integrating a continuous-time intensity over the interval gives a Bernoulli probability $1-e^{-h\Lambda_t}$. This provides an observation-aware link for [[concepts/event-time-uncertainty-in-point-processes|Event-Time Uncertainty in Point Processes]], distinct from a Poisson count model.
 - **Interpretation and prediction:** Excitation represents dependence on event history, not automatically causal contagion. Forecasts driven only by that history can miss externally driven surges, as illustrated by the Bangladesh crisis case in Browning et al.
 
 ## Important Papers
 
 - [[papers/bayesian-spatiotemporal-modelling-of-political-violence-and-conflict-events-using-discrete-time-hawkes-processes|Bayesian spatiotemporal modelling of political violence and conflict events using discrete-time Hawkes processes]]: combines ICAR regional baselines, zero-inflated counts, and optional spatial triggering for weekly ACLED data.
+- [[papers/point-processes-with-event-time-uncertainty|Point Processes with Event Time Uncertainty]]: derives a Bernoulli discrete-time model from continuous-time Hawkes events observed through unit-width uncertainty windows.
 - Browning et al. (2021), "Simple discrete-time self-exciting models can describe complex dynamic processes: A case study of COVID-19": a temporal application cited by the conflict study.
 - Browning, Rousseau, and Mengersen (2022), "A flexible, random histogram kernel for discrete-time Hawkes processes": a flexible-kernel approach cited by the conflict study.
 
