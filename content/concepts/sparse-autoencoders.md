@@ -37,12 +37,14 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - In vision transformers, a feature's activation location need not contain the image evidence that drove it because self-attention mixes information across patches. [[papers/causal-interpretation-of-sparse-autoencoder-features-in-vision|Causal Interpretation of Sparse Autoencoder Features in Vision]] attributes a target SAE activation back to input patches and uses insertion tests to compare those rankings with local activation magnitudes.
 - Dense-retrieval embeddings can also be decomposed into labeled latent concepts. [[concepts/concept-level-sparse-retrieval|Concept-Level Sparse Retrieval]] uses those activations as an inverted-index vocabulary, exposing concept-level score contributions while trading off reconstruction fidelity, individual-feature coherence, and index cost.
 - SAEs can also expose an adversarial intervention surface. [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]] thresholds a centroid of attack-prompt codes, adds the resulting mask to layer activations, and reconstructs prompts by embedding search. Its higher jailbreak success shows causal influence under the tested hooks, but its heuristic feature selection does not establish that individual latents have stable adversarial meanings.
+- SAE features can mediate cross-lingual reasoning transfer. [[papers/enhancing-low-resource-language-reasoning-via-high-resource-language-feature-transfer|Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer]] selects features present in successful reference-language traces but absent from paired target-language failures, then validates the set with target activation, reference suppression, and controls. This [[concepts/cross-lingual-feature-steering|Cross-Lingual Feature Steering]] evidence is intervention-specific and depends on the SAE basis and benchmark-labeled discovery set.
 
 - [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders]] move the sparsity assumption from individual activations to differences between paired activations. Under linearity and support assumptions, this reduces the recovery ambiguity to permutation and scaling, so decoder columns correspond to individual concept shifts rather than arbitrary mixtures.
 - SAEs can be trained jointly across distinct models rather than fitted independently. [[Universal Sparse Autoencoders: Interpretable Cross-Model Concept Alignment]] uses model-specific encoders and decoders with one shared sparse code, enabling cross-model reconstruction and analysis of [[Universal Concept Spaces]].
 
 ## Important Papers
 
+- [[papers/enhancing-low-resource-language-reasoning-via-high-resource-language-feature-transfer|Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer]]
 - [[papers/learning-multi-level-features-with-matryoshka-sparse-autoencoders|Learning Multi-Level Features with Matryoshka Sparse Autoencoders]]
 - [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders for Identifying Concepts from Large Language Model Activations]]
 - [[papers/when-truthful-representations-flip-under-deceptive-instructions|When Truthful Representations Flip Under Deceptive Instructions?]] uses pretrained Llama Scope and Gemma Scope SAEs as measurement tools, reporting larger feature-space shifts for deceptive versus truthful prompts than for neutral versus truthful prompts; the selected features are correlational rather than causally validated.
@@ -74,6 +76,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[Concept Bottleneck Sparse Autoencoders]]
 - [[concepts/concept-level-sparse-retrieval|Concept-Level Sparse Retrieval]]
 - [[Model Steerability]]
+- [[concepts/cross-lingual-feature-steering|Cross-Lingual Feature Steering]]
 - [[Continuous Topic Models]]
 - [[Mechanistic Topic Models]]
 - [[Universal Concept Spaces]]
