@@ -34,6 +34,7 @@ $$
 
 ## Important Papers
 
+- [[papers/local-convergence-of-mean-field-langevin-dynamics-from-gradient-flows-to-linearly-monotone-games|Local Convergence of Mean-Field Langevin Dynamics: From Gradient Flows to Linearly Monotone Games]]: identifies Poincare-controlled local rates for entropy-regularized flows and extends the Lyapunov analysis to linearly monotone non-gradient systems.
 - [[papers/modeling-of-political-systems-using-wasserstein-gradient-flows|Modeling of Political Systems using Wasserstein Gradient Flows]]: coupled ascent of expected electoral support with convergence to homogeneous party distributions under local support restrictions.
 
 - [[papers/jko-schemes-with-general-transport-costs|JKO Schemes with General Transport Costs]]: proves convergence for compatible general transport penalties on precompact domains and complete manifolds under the stated assumptions.
