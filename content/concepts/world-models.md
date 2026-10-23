@@ -25,6 +25,7 @@ World models learn predictive descriptions of an environment from observation hi
 
 ## Important Papers
 
+- [[papers/spatiotemporal-forecasting-as-planning|Spatiotemporal Forecasting as Planning: A Model-Based Reinforcement Learning Approach with Generative World Models]] uses a conditional vector-quantized world model as a search space for scientific forecasts, then distills metric-selected futures into a forecasting policy.
 - [[papers/jedi-joint-embedding-diffusion-world-model-for-online-model-based-reinforcement-learning|JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning]] combines predictive latent diffusion with online actor-critic learning, reporting lower compute cost than pixel diffusion and a different task-level performance profile on Atari100k.
 - Ha and Schmidhuber (2018), "Recurrent world models facilitate policy evolution," is a foundational world-model reference cited by NanoWM.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]] compares video prediction and planning across modeling choices, including a negative result for semantic-latent planning under its tested recipe.
