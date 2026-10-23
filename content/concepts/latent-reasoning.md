@@ -26,6 +26,7 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 
 ## Important Papers
 
+- [[papers/soft-token-alignment-for-cross-lingual-reasoning|Soft Token Alignment for Cross-Lingual Reasoning]]: repurposes probability-weighted vocabulary embeddings as an auxiliary cross-lingual alignment signal during supervised fine-tuning.
 - [[papers/large-reasoning-models-are-not-yet-multilingual-latent-reasoners|Large Reasoning Models Are (Not Yet) Multilingual Latent Reasoners]]: measures answer emergence under trace truncation across 11 languages and compares cross-language hidden-state trajectories.
 - Lanham et al. (2023), "Measuring Faithfulness in Chain-of-Thought Reasoning": evaluates whether generated reasoning causally relates to model answers.
 - Pfau, Merrill, and Bowman (2024), "Let's Think Dot by Dot: Hidden Computation in Transformer Language Models": shows that transformers can use filler tokens as a computational medium.
@@ -34,6 +35,7 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 
 ## Related Concepts
 
+- [[concepts/soft-token-alignment|Soft Token Alignment]]
 - Chain-of-thought reasoning
 - Mechanistic interpretability
 - Logit lens and tuned lens
