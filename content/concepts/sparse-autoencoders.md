@@ -41,6 +41,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 - [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders]] move the sparsity assumption from individual activations to differences between paired activations. Under linearity and support assumptions, this reduces the recovery ambiguity to permutation and scaling, so decoder columns correspond to individual concept shifts rather than arbitrary mixtures.
 - SAEs can be trained jointly across distinct models rather than fitted independently. [[Universal Sparse Autoencoders: Interpretable Cross-Model Concept Alignment]] uses model-specific encoders and decoders with one shared sparse code, enabling cross-model reconstruction and analysis of [[Universal Concept Spaces]].
+- In joint vision-language spaces, semantic correspondence need not imply a shared feature direction. [[concepts/cross-modal-feature-heterogeneity|Cross-Modal Feature Heterogeneity]] can make a reconstruction-trained shared SAE assign one concept to different image and text coordinates. [[papers/same-concept-different-directions-cross-modal-feature-heterogeneity-in-sparse-autoencoders|Same Concept, Different Directions]] instead trains modality-specific dictionaries and aligns their indices afterward using paired-data coactivation.
 
 ## Important Papers
 
@@ -63,6 +64,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[papers/causal-interpretation-of-sparse-autoencoder-features-in-vision|Causal Interpretation of Sparse Autoencoder Features in Vision]]
 - [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]]
 - [[Universal Sparse Autoencoders: Interpretable Cross-Model Concept Alignment]]
+- [[papers/same-concept-different-directions-cross-modal-feature-heterogeneity-in-sparse-autoencoders|Same Concept, Different Directions: Cross-Modal Feature Heterogeneity in Sparse Autoencoders]]
 - Pach et al. (2025), "Sparse autoencoders learn monosemantic features in vision-language models."
 - Gao et al. (2025), "Scaling and evaluating sparse autoencoders."
 - Huben et al. (2024), "Sparse autoencoders find highly interpretable features in language models."
@@ -80,5 +82,6 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[Continuous Topic Models]]
 - [[Mechanistic Topic Models]]
 - [[Universal Concept Spaces]]
+- [[concepts/cross-modal-feature-heterogeneity|Cross-Modal Feature Heterogeneity]]
 - Feature disentanglement
 - Dictionary learning
