@@ -26,6 +26,7 @@ A Wasserstein barycenter averages probability measures using transport geometry.
 ## Important Papers
 
 - [[papers/simple-approximative-algorithms-for-free-support-wasserstein-barycenters|Simple approximative algorithms for free-support Wasserstein barycenters]] (von Lindheim, 2023): analyzes single-step reference and pairwise algorithms, worst-case bounds, and computable error certificates.
+- [[papers/heterogeneous-federated-reinforcement-learning-using-wasserstein-barycenters|Heterogeneous Federated Reinforcement Learning Using Wasserstein Barycenters]]: applies Wasserstein barycenters to layerwise neural-network aggregation in distributed MNIST training and heterogeneous federated CartPole control.
 - Agueh and Carlier (2011), "Barycenters in the Wasserstein space": foundational work cited by von Lindheim.
 - Cuturi and Doucet (2014), "Fast computation of Wasserstein barycenters": computational framework cited by von Lindheim.
 
