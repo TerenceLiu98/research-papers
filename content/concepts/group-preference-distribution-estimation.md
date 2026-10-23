@@ -34,6 +34,7 @@ For population shares $w_{gt}$ summing to one within a geographic unit, its late
 
 ## Important Papers
 
+- [[papers/beyond-the-median-voter-preferences-district-heterogeneity-and-political-representation|Beyond the Median: Voter Preferences, District Heterogeneity, and Political Representation]]: applies group-distribution estimates to 55 legislative districts and finds that the association between district median preferences and legislators' roll-call positions weakens as within-district preference variance increases.
 - [[papers/modgirt-multidimensional-dynamic-scaling-of-aggregate-survey-data|MODGIRT: Multidimensional Dynamic Scaling of Aggregate Survey Data]]: Berwick and Caughey (2025) extend aggregate response modeling to multiple dimensions and align posterior loadings, group means, and covariance matrices.
 - [[papers/group-based-public-opinion-polarisation-in-multi-party-systems|Group-based public opinion polarisation in multi-party systems]]: combines hierarchical IRT and distributional distance to study Swiss partisan and education groups; changing dispersion produces trends that group-mean differences alone miss.
 - [[papers/estimating-voter-preference-distributions-from-individual-level-voting-data|Estimating Voter Preference Distributions from Individual-Level Voting Data]]: Lewis (2001) develops marginal likelihood estimation of group means and variances and applies it to ballots, roll calls, and survey responses.

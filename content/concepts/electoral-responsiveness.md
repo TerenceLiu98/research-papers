@@ -30,7 +30,7 @@ Electoral responsiveness is the extent to which changes in voter preferences or 
 - [[papers/how-do-voters-matter-evidence-from-us-congressional-redistricting|How Do Voters Matter? Evidence from US Congressional Redistricting]]: separates party switching, within-party candidate selection, and changes in continuing representatives' DW-NOMINATE scores after redistricting-induced shifts in predicted Democratic share.
 - Lee, Moretti, and Butler (2004), "Do Voters Affect or Elect Policies? Evidence from the U.S. House": uses close elections and incumbency advantage to estimate electoral-strength effects, finding an extensive margin but no additional effect on incumbent voting behavior.
 - Levitt (1996), "How Do Senators Vote? Disentangling the Role of Voter Preferences, Party Affiliation, and Senator Ideology": separates constituency, party, and individual components of senators' voting.
-- Gerber and Lewis (2004), "Beyond the Median: Voter Preferences, District Heterogeneity, and Political Representation": relates district preference distributions to legislators' ideological positions.
+- [[papers/beyond-the-median-voter-preferences-district-heterogeneity-and-political-representation|Beyond the Median: Voter Preferences, District Heterogeneity, and Political Representation]]: relates district preference distributions to legislators' ideological positions and shows that the median association weakens as district preference variance rises.
 
 ## Related Concepts
 
