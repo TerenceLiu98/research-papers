@@ -17,6 +17,8 @@ Remote-sensing foundation models pretrain reusable representations from large Ea
 
 ## Key Ideas
 
+- Frozen remote-sensing image-text encoders can be audited after pretraining rather than adapted only for downstream prediction. [[papers/geofactor-contrastive-sparse-factor-discovery-for-remote-sensing-vision-language-models|GeoFactor]] learns shared sparse coordinates over GeoRSCLIP and RemoteCLIP embeddings and tests whether land-cover and spatial factors survive metadata controls and causally affect retrieval rankings.
+
 - **Sensor and modality diversity:** Optical imagery, synthetic-aperture radar, elevation, weather, land-cover products, nighttime lights, and population estimates contain complementary information. A model's supported modalities constrain the downstream settings in which its pretrained representation can be reused.
 - **Multiple input geometries:** Practical inputs include single images, image time series, and per-location time series. Generalist architectures need tokenization and positional information that preserve whichever spatial and temporal dimensions are present.
 - **Scale-sensitive objectives:** Image-level classification benefits from broad semantic structure, while dense segmentation can depend on small, high-frequency details. Global and local pretraining objectives may use different masking spans or representation depths to expose both kinds of information.
@@ -25,6 +27,8 @@ Remote-sensing foundation models pretrain reusable representations from large Ea
 - **Deployment context:** Earth-observation systems can inform high-impact decisions about agriculture, disasters, ecosystems, and populations. Technical transfer performance does not replace stakeholder participation or evaluation of downstream harms.
 
 ## Important Papers
+
+- [[papers/geofactor-contrastive-sparse-factor-discovery-for-remote-sensing-vision-language-models|GeoFactor: Contrastive Sparse Factor Discovery for Remote-Sensing Vision-Language Models]] studies interpretable and editable retrieval factors in frozen remote-sensing vision-language models.
 
 - [[papers/galileo-learning-global-and-local-features-of-many-remote-sensing-modalities|Galileo: Learning Global & Local Features of Many Remote Sensing Modalities]] combines nine remote-sensing data products with distinct global and local masked latent-prediction objectives, then evaluates one model family across images and pixel time series.
 - Fuller et al. (2024), "CROMA: Remote Sensing Representations with Contrastive Radar-Optical Masked Autoencoders," jointly pretrains on optical and radar imagery.
