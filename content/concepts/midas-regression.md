@@ -21,10 +21,12 @@ Mixed Data Sampling (MIDAS) regression predicts a low-frequency outcome using hi
 - Factor augmentation can compress shared variation across series. Extracting factors after MIDAS weighting differs from extracting high-frequency factors first and then weighting their lags.
 - Real-time nowcasting requires information sets that respect release dates and revisions. The number of available monthly or weekly lags changes with the forecast origin.
 - Basis compression introduces approximation error. Increasing flexibility also increases estimation burden, especially with short low-frequency histories.
+- Lag compression can also define the input geometry of a nonlinear model. In GP-MIDAS, applying a basis matrix before [[concepts/gaussian-process-regression|Gaussian Process Regression]] changes the kernel distance metric, providing structured dimension reduction rather than merely reducing a linear coefficient vector.
 
 ## Important Papers
 
 - [[papers/factor-augmented-sparse-midas-regressions-with-an-application-to-nowcasting|Factor-Augmented Sparse MIDAS Regressions with an Application to Nowcasting]]: combines linear lag compression, PCA, and sparse-group LASSO for real-time GDP prediction.
+- [[papers/nowcasting-with-mixed-frequency-data-using-gaussian-processes|Nowcasting with Mixed Frequency Data Using Gaussian Processes]]: combines restricted or unrestricted MIDAS inputs with GP, BART, and linear conditional means; structured lag weights are generally more effective than unrestricted lags in its U.S. forecasting exercise.
 - Babii, Ghysels, and Striaukas (2022), "Machine Learning Time Series Regressions with an Application to Nowcasting": sparse-group MIDAS foundation cited by the factor-augmented paper.
 - Andreou, Ghysels, and Kourtellos (2010), "Regression Models with Mixed Sampling Frequencies": mixed-frequency regression reference cited by the same paper.
 
@@ -33,3 +35,4 @@ Mixed Data Sampling (MIDAS) regression predicts a low-frequency outcome using hi
 - [[concepts/factor-augmented-sparse-regression|Factor-Augmented Sparse Regression]]: combines common-factor and individual-predictor signals after lag compression.
 - [[concepts/temporal-disaggregation|Temporal Disaggregation]]: reconstructs a higher-frequency target under aggregation constraints; MIDAS can directly predict the low-frequency outcome without recovering that latent path.
 - [[concepts/forecast-combination|Forecast Combination]]: pools predictions from separate models, including mixed-frequency specifications.
+- [[concepts/gaussian-process-regression|Gaussian Process Regression]]: models nonlinear conditional means over MIDAS-compressed features.
