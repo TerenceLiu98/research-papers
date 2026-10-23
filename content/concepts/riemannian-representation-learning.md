@@ -22,11 +22,13 @@ Riemannian representation learning constrains latent variables to a smooth manif
 - **Encoder versus explicit codes:** Encoder-based variational methods must define tractable densities on the manifold. The Riemannian generative decoder instead treats every latent code as a parameter and jointly optimizes codes and decoder weights by MAP estimation.
 - **Products of manifolds:** A product manifold can partition a latent vector into blocks with different geometries, allowing heterogeneous inductive biases in one representation.
 - **Geometry is not automatically identified:** Unsupervised representations remain non-unique. A suitable manifold can improve alignment with a target geometry, but it does not guarantee a unique or globally interpretable coordinate system.
+- **Learned pullback geometry:** Even without constraining activations to a prescribed manifold, a network induces a metric on task coordinates through the layer Jacobian. Tracking this metric across layers and training can reveal local stretching, compression, collapsed directions, and how continuous inputs are transformed into discrete decisions.
 - Hyperbolic latent spaces are especially useful for tree-like data because their volume grows rapidly with radius, but curvature and coordinate choices affect how distances are interpreted.
 
 ## Important Papers
 
 - [[papers/dyernie-dynamic-evolution-of-riemannian-manifold-embeddings-for-temporal-knowledge-graph-completion|DyERNIE: Dynamic Evolution of Riemannian Manifold Embeddings for Temporal Knowledge Graph Completion]]
+- [[papers/emergent-riemannian-geometry-over-learning-discrete-computations-on-continuous-manifolds|Emergent Riemannian Geometry over Learning Discrete Computations on Continuous Manifolds]]: uses layerwise pullback metrics and curvature to separate continuous-input discretization from Boolean computation and compare rich and lazy learning.
 - [[Riemannian Generative Decoder]]
 - [[Social Centralization and Semantic Collapse: Hyperbolic Embeddings of Networks and Text]]
 - Mathieu, Le Lan, Maddison, Tomioka, and Teh (2019), "Continuous Hierarchical Representations with Poincare Variational Auto-Encoders."
