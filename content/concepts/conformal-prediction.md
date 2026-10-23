@@ -29,9 +29,11 @@ Conformal prediction wraps a predictive model with a calibration procedure that 
 - [[Conformal Prediction with Large Language Models for Multi-Choice Question Answering]]: applies calibrated answer sets to LLaMA-13B on MMLU and demonstrates cross-subject undercoverage under distribution shift.
 - [[Generative Score Inference for Multimodal Data]]: contrasts classical marginal conformal coverage with a model-dependent approach targeting conditional score distributions.
 - [[papers/conformal-diffusion-models-for-individual-treatment-effect-estimation-and-inference|Conformal Diffusion Models for Individual Treatment Effect Estimation and Inference]]: calibrates diffusion-generated potential outcomes with propensity and local weights for ITE inference under covariate shift.
+- [[papers/conformal-prediction-as-bayesian-quadrature|Conformal Prediction as Bayesian Quadrature]]: represents uncertainty over expected calibration loss through Dirichlet quantile spacings and recovers split conformal prediction from the mean of a posterior risk bound.
 
 ## Related Concepts
 
 - [[Conditional Prediction Coverage]]
 - [[Generative Score Inference]]
 - [[concepts/individual-treatment-effects|Individual Treatment Effects]]
+- [[concepts/bayesian-quadrature|Bayesian Quadrature]]
