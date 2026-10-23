@@ -18,6 +18,7 @@ Frozen language-model blocks can be repurposed as encoder layers for non-text to
 ## Key Ideas
 
 - **A block rather than an intact LLM:** The approach extracts one or more transformer blocks instead of using a language model as a prompted system or autoregressive decoder.
+- **The intact-model variant asks a different question:** [[papers/lm4lv-a-frozen-large-language-model-for-low-level-vision-tasks|LM4LV]] instead keeps a complete LLM frozen and autoregressively predicts continuous visual tokens. Its evidence concerns generation with the language model's causal computation, not merely reuse of an isolated encoder block.
 - **Adapters bridge representation spaces:** Learned linear maps reconcile hidden dimensions. Their presence does not by itself establish that visual features enter a linguistic semantic space.
 - **Modality-appropriate sequence handling:** Non-autoregressive inputs can omit causal masks and language-model positional embeddings while retaining padding masks when required.
 - **Frozen computation can regularize transfer:** Keeping the pretrained block fixed preserves its learned transformation and avoids the optimization and overfitting observed in some end-to-end fine-tuning settings. It does not eliminate the block's inference cost.
@@ -27,6 +28,7 @@ Frozen language-model blocks can be repurposed as encoder layers for non-text to
 ## Important Papers
 
 - [[papers/frozen-transformers-in-language-models-are-effective-visual-encoder-layers|Frozen Transformers in Language Models Are Effective Visual Encoder Layers]] introduces and evaluates the approach across image, point-cloud, video, motion-forecasting, retrieval, and visual-question-answering tasks.
+- [[papers/lm4lv-a-frozen-large-language-model-for-low-level-vision-tasks|LM4LV: A Frozen Large Language Model for Low-Level Vision Tasks]] uses the entire frozen model for autoregressive low-level visual-feature generation and compares that design with a single extracted layer.
 - Schwettmann, Chowdhury, and Torralba (2023), "Multimodal Neurons in Pretrained Text-Only Transformers," provides related evidence that text-only transformer features can encode visual concepts.
 
 ## Related Concepts
