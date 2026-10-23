@@ -8,6 +8,7 @@ authors:
   - Andrew M. Stuart
   - T. J. Sullivan
 year: null
+source_job_id: "6ebabfc7-c274-4da7-890a-8a61861d8f59"
 tags:
   - function-space-learning
   - autoencoders
