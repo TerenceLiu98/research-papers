@@ -24,12 +24,14 @@ Discrete diffusion models generate categorical data by learning to reverse a Mar
 - **Likelihoods are bounded.** The standard objective is a variational upper bound on NLL. An auxiliary clean-data cross-entropy term changes training emphasis; a better sample-quality metric need not imply a better likelihood bound.
 - **Noise need not mean variance.** A mutual-information schedule controls how much information about a clean token remains. In D3PM this uses the empirical token marginal, rather than the joint information content of an entire sequence. The schedule $\beta_t=1/(T-t+1)$ removes this information linearly for absorbing corruption with a mask absent from clean data, but not generally for uniform corruption (Austin et al., Appendix A.7). A schedule therefore needs to be evaluated together with its transition kernel.
 - **Vocabulary size constrains implementation.** Dense storage for every timestep scales as $O(K^2T)$. Uniform and absorbing transitions admit compact products; fixed-generator matrix exponentials offer another storage reduction. These techniques do not make every structured transition equally cheap.
+- **Discrete diffusion can optimize without training examples.** [[papers/a-diffusion-model-framework-for-unsupervised-neural-combinatorial-optimization|DiffUCO]] minimizes a joint reverse-KL upper bound over complete diffusion paths to learn graph-conditioned Boltzmann targets. This avoids evaluating the model's marginal likelihood and uses the known energy function in place of samples from the target distribution.
 
 Austin et al.'s experiments show why transition design requires empirical validation: ordinal Gaussian corruption helps CIFAR-10, while embedding-neighborhood corruption offers only a small text8 improvement and worsens LM1B results relative to uniform corruption.
 
 ## Important Papers
 
 - [[papers/structured-denoising-diffusion-models-in-discrete-state-spaces|Structured Denoising Diffusion Models in Discrete State-Spaces]] (Austin et al., 2021): structured categorical transitions, auxiliary denoising, and image/text evaluations.
+- [[papers/a-diffusion-model-framework-for-unsupervised-neural-combinatorial-optimization|A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization]] (Sanokowski, Hochreiter, and Lehner, 2024): data-free discrete diffusion for graph optimization through a joint variational upper bound.
 - Sohl-Dickstein et al. (2015), "Deep unsupervised learning using nonequilibrium thermodynamics": binary diffusion precursor, discussed by Austin et al.
 - Hoogeboom et al. (2021), "Argmax flows and multinomial diffusion: Towards non-autoregressive language models": uniform categorical diffusion precursor and baseline, discussed by Austin et al.
 
