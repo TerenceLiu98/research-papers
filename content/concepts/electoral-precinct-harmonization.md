@@ -27,6 +27,7 @@ The Berlin study illustrates the trade-off: comparable units retain all votes, w
 
 ## Important Papers
 
+- [[papers/crossing-the-boundaries-an-implementation-of-two-methods-for-projecting-data-across-boundary-changes|Crossing the Boundaries: An Implementation of Two Methods for Projecting Data across Boundary Changes]]: Evaluates areal weighting and population-informed dasymetric interpolation for reconstructing electoral results after boundary changes.
 - [[papers/limited-backlash-assessing-the-geographic-scope-of-electoral-responses-to-refugees|Limited backlash? Assessing the geographic scope of electoral responses to refugees]]: Harmonizes Berlin precincts across the 2013 and 2017 federal elections and voting modes before estimating localized refugee-exposure effects.
 - [[papers/spatial-vote-redistribution-in-redrawn-polling-units|Spatial Vote Redistribution in Redrawn Polling Units]]: Compares polygon-overlap, centroid, surface, and density-weighted allocations on redrawn Swedish and Spanish polling units.
 

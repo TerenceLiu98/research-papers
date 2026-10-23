@@ -27,6 +27,7 @@ MAUP is related to [[concepts/change-of-spatial-support|Change of Spatial Suppor
 
 ## Important Papers
 
+- [[papers/crossing-the-boundaries-an-implementation-of-two-methods-for-projecting-data-across-boundary-changes|Crossing the Boundaries: An Implementation of Two Methods for Projecting Data across Boundary Changes]]: Treats boundary changes as an interpolation problem and tests when uniform within-unit allocation assumptions produce larger errors.
 - [[papers/the-modifiable-areal-unit-problem-in-political-science|The Modifiable Areal Unit Problem in Political Science]]: Demonstrates MAUP through simulations and reanalyses, measures its prevalence in political science, and develops a validity-first response.
 - Openshaw (1984), "Ecological Fallacies and the Analysis of Areal Census Data." Early foundational treatment of inference under modifiable census units.
 - Fotheringham and Wong (1991), "The Modifiable Areal Unit Problem in Multivariate Statistical Analysis." Shows that multivariate results can vary substantially and unpredictably across aggregations.

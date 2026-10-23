@@ -112,7 +112,7 @@ The supplied article identifies [SUNGEO](https://github.com/zhukovyuri/SUNGEO), 
 ## Related Papers
 
 - Gotway and Young (2002), "Combining Incompatible Spatial Data." Cited general treatment of change-of-support problems.
-- Goplerud (2016), "Crossing the Boundaries: An Implementation of Two Methods for Projecting Data Across Boundary Changes." Cited political-methodology work on boundary transformations.
+- [[papers/crossing-the-boundaries-an-implementation-of-two-methods-for-projecting-data-across-boundary-changes|Goplerud (2016), "Crossing the Boundaries: An Implementation of Two Methods for Projecting Data across Boundary Changes"]]: Cited political-methodology work on boundary transformations.
 - Comber and Zeng (2019), "Spatial Interpolation Using Areal Features: A Review of Methods and Opportunities Using New Forms of Data with Coded Illustrations." Cited review of transformation methods.
 - [[papers/bayesian-spatial-disaggregation-modeling-for-the-detection-of-disease-clusters|Bayesian spatial disaggregation modeling for the detection of disease clusters]]: Related library reading on recovering fine-scale patterns from areal counts. It is not cited in this article; the connection concerns the validation of inferred spatial detail.
 
