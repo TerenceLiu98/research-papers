@@ -29,6 +29,7 @@ Model steerability is the ability to change a model's output in a targeted, sema
 - Steering can target unsafe behavior as well as benign concepts. [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]] adds a thresholded mask of attack-associated SAE latents at selected MLP layers and reports increased jailbreak success after reconstructing prompts. The result is layer-dependent and demonstrates behavioral control under a specific intervention, not a stable semantic interpretation of each selected feature.
 - Steering can also distinguish internal assessment from output policy. [[papers/llms-encode-harmfulness-and-refusal-separately|LLMs Encode Harmfulness and Refusal Separately]] uses a reply-inversion task in which harmfulness-direction and refusal-direction interventions predict opposite tokens, providing a stronger causal separation than ordinary refusal-rate changes alone.
 - Steering can transfer task-associated activation patterns across languages. [[concepts/cross-lingual-feature-steering|Cross-Lingual Feature Steering]] selects sparse directions from paired reference-language successes and target-language failures, then evaluates target activation, reference suppression, matched controls, and output-language preservation. Its causal interpretation applies to the specified intervention and evaluation distribution, not to a unique underlying algorithm.
+- Steerability can predict whether a direction's semantics survive training-time transfer. In [[concepts/steering-vector-distillation|Steering Vector Distillation]], students acquire even random directions by internal metrics, but recognizable [[concepts/subliminal-learning|subliminal]] traits emerge only for directions that effectively steer the reference model at inference time.
 
 - Identifiability is one route from a decoder direction to a defensible steering claim. [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders]] prove, under a linear representation model and sparse-shift assumptions, that each decoder column changes one latent concept up to permutation and scale; the accompanying experiments treat this as a preliminary prediction about steering accuracy and transfer.
 
@@ -41,6 +42,7 @@ Model steerability is the ability to change a model's output in a targeted, sema
 - [[papers/psychadapter-adapting-llm-transformers-to-reflect-traits-personality-and-mental-health|PsychAdapter: Adapting LLM Transformers to Reflect Traits, Personality and Mental Health]]
 - [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]]
 - [[papers/llms-encode-harmfulness-and-refusal-separately|LLMs Encode Harmfulness and Refusal Separately]]
+- [[papers/subliminal-learning-is-steering-vector-distillation|Subliminal Learning Is Steering Vector Distillation]]
 - Arad, Mueller, and Belinkov (2025), "SAEs are good for steering - if you select the right features."
 - Wu et al. (2025), "AxBench: Steering LLMs? Even simple baselines outperform sparse autoencoders."
 - Wang et al. (2025), "Does higher interpretability imply better utility? A pairwise analysis on sparse autoencoders."
@@ -52,5 +54,7 @@ Model steerability is the ability to change a model's output in a targeted, sema
 - [[concepts/mechanistic-topic-models|Mechanistic Topic Models]]
 - [[concepts/concept-bottleneck-models|Concept Bottleneck Models]]
 - [[concepts/concept-bottleneck-sparse-autoencoders|Concept Bottleneck Sparse Autoencoders]]
+- [[concepts/steering-vector-distillation|Steering Vector Distillation]]
+- [[concepts/subliminal-learning|Subliminal Learning]]
 - Causal representation interventions
 - Controllable generation
