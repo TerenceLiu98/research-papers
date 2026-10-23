@@ -28,6 +28,7 @@ This is a form of [[concepts/adaptive-computation|Adaptive Computation]] at the 
 
 ## Important Papers
 
+- [[papers/reliable-thinking-with-images|Reliable Thinking with Images]] filters multimodal reasoning traces by cue-mining and answer-reasoning reliability, weights surviving answers, and stops unreliable online traces early.
 - [[papers/when-llms-develop-languages-symbolic-communication-for-efficient-multi-agent-reasoning|When LLMs Develop Languages: Symbolic Communication for Efficient Multi-Agent Reasoning]] routes among single, aggregate, and composed symbolic-language protocols with adaptive stopping.
 - Wang et al. (2023), "Plan-and-Solve Prompting," separates planning from solution generation but uses a fixed natural-language prompting strategy.
 - Wang et al. (2025), "Self-Consistency Improves Chain of Thought Reasoning," allocates parallel samples and aggregates them, representing one non-adaptive or partially adaptive routing primitive.
@@ -36,6 +37,7 @@ This is a form of [[concepts/adaptive-computation|Adaptive Computation]] at the 
 ## Related Concepts
 
 - [[concepts/adaptive-computation|Adaptive Computation]] is the broader principle of varying compute according to an input or evolving state.
+- [[concepts/thinking-with-images|Thinking with Images]] interleaves textual reasoning with visual tool actions, creating separate cue-mining and answer-reasoning decisions for a router to monitor.
 - [[concepts/language-symbolism-frameworks|Language Symbolism Frameworks]] are one class of reusable experts that a reasoning router can select or compose.
 - [[concepts/llm-multi-agent-systems|LLM Multi-Agent Systems]] provide parallel roles or candidate generators that routing policies can coordinate.
 - [[concepts/cost-aware-model-selection|Cost-Aware Model Selection]] addresses the related problem of selecting models by joint quality and resource criteria.
