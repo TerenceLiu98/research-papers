@@ -12,7 +12,7 @@ authors:
 year: 2026
 doi: "10.1145/3787217"
 venue: ACM Transactions on Spatial Algorithms and Systems
-source_job_id: "f9d37fd3-f562-4b4c-bdc8-612258243551"
+source_job_id: "569b8dbe-9a2f-4023-ae81-a19bc8567b40"
 tags:
   - geospatial-ai
   - representation-learning
