@@ -25,7 +25,7 @@ Distributional difference-in-differences studies how treatment changes an entire
 
 - [[papers/a-test-for-treatment-heterogeneity-under-a-distributional-difference-in-difference-framework|A Test for Treatment Heterogeneity under a Distributional Difference-in-Difference Framework]]: Develops an MMD test with transport-estimation uncertainty and spectral calibration.
 - Athey and Imbens (2006), "Identification and inference in nonlinear difference-in-differences models," as discussed in the ingested paper.
-- Torous, Gunsilius, and Rigollet (2024), "An optimal transport approach to estimating causal effects via nonlinear difference-in-differences," as discussed in the ingested paper.
+- [[papers/an-optimal-transport-approach-to-estimating-causal-effects-via-nonlinear-difference-in-differences|An Optimal Transport Approach to Estimating Causal Effects via Nonlinear Difference-in-Differences]] (Torous, Gunsilius, and Rigollet, 2024): extends changes-in-changes to multivariate outcomes using a Brenier map for untreated temporal evolution.
 
 ## Related Concepts
 
