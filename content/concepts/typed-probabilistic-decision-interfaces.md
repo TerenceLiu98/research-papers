@@ -26,6 +26,7 @@ Typed probabilistic decision interfaces map a state and a caller-defined set of 
 
 ## Important Papers
 
+- [[papers/numericjev-jev-like-llm-numerical-decoding-with-multiway-decision-trees|NumericJev: Jev-like LLM Numerical Decoding with Multiway Decision Trees]]: composes interval choices into a training-free finite-grid numerical decoder and separates resolution from empirical accuracy.
 - [[papers/decision-hijacking-prompt-injection-attacks-on-jevs-typed-probabilistic-decisions|Decision Hijacking: Prompt Injection Attacks on Jev's Typed Probabilistic Decisions]]: tests whether indirect prompt injection changes Jev's probabilities and choices when the action set is declared and fixed.
 - [[papers/jev-thinks-i-dont-know-but-doesnt-say-it-introducing-sys1cal-v1-dataset-for-probability-calibration|Jev thinks I don't know, but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration]]: compares Jev's structured output primitives against constructed probability targets and studies representation sensitivity.
 - [[papers/jev-as-a-judge-accept-when-confident-escalate-when-unsure|JEV-as-a-Judge: Accept When Confident, Escalate When Unsure]]: evaluates a decision-only Jev interface for judgment accuracy, probability quality, confidence, and escalation.
@@ -33,6 +34,7 @@ Typed probabilistic decision interfaces map a state and a caller-defined set of 
 
 ## Related Concepts
 
+- [[concepts/numerical-decoding-through-structured-choices|Numerical Decoding through Structured Choices]]: turns repeated categorical range selections into a bounded numerical point estimate.
 - [[concepts/indirect-prompt-injection|Indirect Prompt Injection]]: untrusted content can influence a typed choice even when no undeclared action can be returned.
 - [[concepts/probability-calibration|Probability Calibration]]: asks whether reported probabilities have the numerical meaning needed for decisions.
 - [[concepts/confidence-based-judge-cascades|Confidence-Based Judge Cascades]]: uses confidence or probability signals to decide when to accept a decision or defer it.
