@@ -25,11 +25,13 @@ Model steerability is the ability to change a model's output in a targeted, sema
 - A useful steering feature must also preserve output quality and reconstruction fidelity; a high concept score accompanied by noisy or degraded outputs is not sufficient.
 - [[concepts/mechanistic-topic-models|Mechanistic Topic Models]] form topic-level steering vectors from weighted combinations of SAE decoder directions, allowing corpus-discovered themes rather than single features to guide generation.
 - [[concepts/concept-bottleneck-sparse-autoencoders|Concept Bottleneck Sparse Autoencoders]] target steerability with a cyclic reconstruction objective that encourages decoded concept interventions to remain recognizable when re-encoded.
+- [[papers/psychadapter-adapting-llm-transformers-to-reflect-traits-personality-and-mental-health|PsychAdapter]] treats continuous psychological scores as control variables, projects them into a dummy token at successive transformer layers, and evaluates whether generated language expresses the intended levels. Its controls are supervised by language-derived trait estimates, so recognizable steering does not by itself establish psychological validity.
 
 ## Important Papers
 
 - [[papers/interpretable-and-steerable-concept-bottleneck-sparse-autoencoders|Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
 - [[papers/model-directions-not-words-mechanistic-topic-models-using-sparse-autoencoders|Model Directions, Not Words: Mechanistic Topic Models Using Sparse Autoencoders]]
+- [[papers/psychadapter-adapting-llm-transformers-to-reflect-traits-personality-and-mental-health|PsychAdapter: Adapting LLM Transformers to Reflect Traits, Personality and Mental Health]]
 - Arad, Mueller, and Belinkov (2025), "SAEs are good for steering - if you select the right features."
 - Wu et al. (2025), "AxBench: Steering LLMs? Even simple baselines outperform sparse autoencoders."
 - Wang et al. (2025), "Does higher interpretability imply better utility? A pairwise analysis on sparse autoencoders."
