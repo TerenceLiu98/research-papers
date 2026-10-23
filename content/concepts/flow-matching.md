@@ -33,6 +33,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 
 - Lipman et al. (2023), "Flow matching for generative modeling": conditional flow-matching foundation, cited in Value Flows.
 - Liu, Gong, and Liu (2023), "Flow straight and fast: Learning to generate and transfer data with rectified flow": related flow-based generative formulation, cited in Value Flows.
+- [[papers/fm-ts-flow-matching-for-time-series-generation|FM-TS: Flow Matching for Time Series Generation]]: applies rectified flow to unconditional time-series generation and reuses the trained model for forecasting and imputation through masked inference.
 - [[papers/value-flows|Value Flows]]: return-distribution modeling, initial-field mean estimation, and flow-sensitivity-based weighting.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]]: supports a flow-matching prediction objective, although its reported objective comparisons do not establish a numerical advantage for flow matching.
 
