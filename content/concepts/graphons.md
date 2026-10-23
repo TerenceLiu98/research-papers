@@ -25,6 +25,7 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 - **Process approximation needs additional conditions.** A graphon representation alone does not guarantee stable dynamics. Threshold contagion needs regularity and appropriate strict margins to resolve infected and uninfected regions.
 - **Estimated graphons can generate training graphs.** A link-probability matrix estimated from one observed network can be used to sample alternative adjacency matrices. [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]] uses this as graph augmentation and as a stochastic propagation operator for deep GNNs.
 - **Graphon sampling can sharpen MPNN generalization analysis.** [[papers/generalization-bounds-for-message-passing-networks-on-mixture-of-graphons|Generalization Bounds for Message Passing Networks on Mixture of Graphons]] compares sampled graph MPNNs with continuous graphon MPNNs and obtains graph-size-dependent bounds for noisy Bernoulli graphs under explicit regularity and sparsity conditions.
+- **Signed kernels support antagonistic dynamics.** Allowing $W$ to take values in $[-1,1]$ encodes both positive and negative interactions. [[papers/opinion-dynamics-on-signed-graphs-and-graphons|Opinion Dynamics on Signed Graphs and Graphons]] proves finite-to-continuum convergence for repelling and opposing dynamics on sampled signed graphs after expected-degree normalization.
 - **Intervention can target types.** Optimizing community seed allocations may avoid observing every edge. Implementation still requires the relevant model parameters and information about agents' types.
 - **Density is a scope condition.** Fixed-kernel sampling describes a dense-network regime; conclusions do not automatically transfer to sparse-network models.
 
@@ -36,6 +37,7 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 - [[papers/graphon-particle-systems-with-common-noise|Graphon Particle Systems with Common Noise]]: proves process-law convergence for nonlinear graphon particle systems under shared noise and handles non-normalized interaction measures.
 - [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]]: estimates edge probabilities by neighborhood smoothing and resamples adjacency matrices during GNN training.
 - [[papers/generalization-bounds-for-message-passing-networks-on-mixture-of-graphons|Generalization Bounds for Message Passing Networks on Mixture of Graphons]]: derives uniform MPNN generalization bounds for noisy, sparse, simple graph-signals sampled from finite graphon mixtures.
+- [[papers/opinion-dynamics-on-signed-graphs-and-graphons|Opinion Dynamics on Signed Graphs and Graphons]]: extends graphon dynamics to signed kernels and proves bounded-time approximation for sampled graphs with expected average degree growing faster than $\log n$.
 - Lovasz and Szegedy (2006), "Limits of dense graph sequences": foundational graph-limit treatment cited in Glasscock's exposition.
 - Parise and Ozdaglar (2023), "Graphon games: a statistical framework for network games and interventions": related network-game framework cited by Erol et al.
 
@@ -45,4 +47,5 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 - [[concepts/network-games|Network Games]]: strategic interactions that can be modeled across a continuum of network types.
 - [[concepts/graphon-mean-field-games|Graphon Mean Field Games]]: stochastic games coupling label-specific control problems through graphon-weighted state distributions.
 - [[concepts/graphon-particle-systems|Graphon Particle Systems]]: interacting stochastic systems whose local mean fields are weighted by graphon sections.
+- [[concepts/opinion-dynamics|Opinion Dynamics]]: network dynamics that can be lifted to graphons, including attractive and antagonistic interactions.
 - [[concepts/stochastic-block-models-with-covariates|Stochastic Block Models with Covariates]]: related models combining group structure and observed heterogeneity in link probabilities.
