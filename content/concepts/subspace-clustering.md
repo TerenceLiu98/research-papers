@@ -21,16 +21,19 @@ Subspace clustering groups observations according to the low-dimensional linear 
 - **Noise and spectral separation:** Perturbation arguments compare noise size with the gap separating retained and discarded singular directions. Small gaps can make a projector unstable even when perturbations are modest.
 - **Preservation versus performance:** A neural representation can cluster accurately while changing the original projector. Measuring projector distance therefore tests a specific structural property rather than clustering accuracy itself.
 - **Activation distortion:** For a layer $Y=\sigma(WX)$, the residual $Y-WX$ measures how much the activation changes its linear input. Small residuals can support preservation bounds when the other rank and spectral-gap assumptions hold.
+- **Local-to-global metric recovery:** When preference comparisons are confined to low-dimensional item subspaces, each cluster can expose a restricted Mahalanobis metric. A sufficiently diverse collection of restrictions can then identify the ambient metric even when no user supplies enough comparisons for ambient-space recovery.
 
 ## Important Papers
 
 - [[papers/some-neural-networks-inherently-preserve-subspace-clustering-structure|Some Neural Networks Inherently Preserve Subspace Clustering Structure]]: develops conditional projector-preservation bounds and examines whether trained networks approach this behavior.
+- [[papers/metric-learning-from-limited-pairwise-preference-comparisons|Metric Learning from Limited Pairwise Preference Comparisons]]: uses known union-of-subspaces structure to reduce the number of preference comparisons required from each user and reconstruct a shared ambient metric.
 - Elhamifar and Vidal (2013), "Sparse Subspace Clustering: Algorithm, Theory, and Applications." A foundational reference cited by the neural-preservation paper.
 - Vidal, Ma, and Sastry (2005), "Generalized Principal Component Analysis (GPCA)." A union-of-subspaces reference cited there.
 
 ## Related Concepts
 
 - [[concepts/statistical-identifiability|Statistical Identifiability]]: addresses representation equivalence across model solutions, a distinct question from recovering subspace membership or preserving a sample projector.
+- [[concepts/preference-based-metric-learning|Preference-Based Metric Learning]]
 - Principal component analysis
 - Spectral perturbation theory
 - Representation geometry
