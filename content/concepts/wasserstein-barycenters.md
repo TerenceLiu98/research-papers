@@ -22,6 +22,7 @@ A Wasserstein barycenter averages probability measures using transport geometry.
 - **Reference choice trades sparsity against accuracy.** A single input reference needs $N-1$ pairwise OT solves and produces at most that input's number of atoms. Averaging the relocated results for all references needs $N(N-1)/2$ distinct solves and at most $\sum_i n_i$ atoms. In von Lindheim's analysis, the latter gives a factor-2 objective bound for $p=2$, with an additional geometric-median accuracy factor for $p=1$.
 - **Instance-specific certification can beat a worst-case bound.** For $p=1,2$, the weighted sum $\sum_{i<j}\lambda_i\lambda_jW_p^p(\mu^i,\mu^j)$ lower-bounds the optimal barycenter objective. Comparing it with a feasible transport-cost upper bound certifies approximation quality when the lower bound is positive.
 - **Transport plans can be reused.** In the pairwise construction, input-to-input plans remain valid when barycenter weights change, making repeated distribution interpolation cheaper after the initial solves.
+- **Barycenters can drive consensus dynamics.** [[papers/dynamics-of-measure-valued-agents-in-the-space-of-probabilities|Dynamics of Measure-Valued Agents in the Space of Probabilities]] repeatedly sends each measure-valued agent along an optimal-transport geodesic toward a weighted barycenter. Nonunique barycenters or couplings make the resulting evolution set-valued.
 
 ## Important Papers
 
@@ -29,8 +30,10 @@ A Wasserstein barycenter averages probability measures using transport geometry.
 - [[papers/heterogeneous-federated-reinforcement-learning-using-wasserstein-barycenters|Heterogeneous Federated Reinforcement Learning Using Wasserstein Barycenters]]: applies Wasserstein barycenters to layerwise neural-network aggregation in distributed MNIST training and heterogeneous federated CartPole control.
 - Agueh and Carlier (2011), "Barycenters in the Wasserstein space": foundational work cited by von Lindheim.
 - Cuturi and Doucet (2014), "Fast computation of Wasserstein barycenters": computational framework cited by von Lindheim.
+- [[papers/dynamics-of-measure-valued-agents-in-the-space-of-probabilities|Dynamics of Measure-Valued Agents in the Space of Probabilities]] (Borghi, Herty, and Stavitskiy, 2025): uses weighted barycenters as time-varying consensus points for continuous-time measure-valued agents.
 
 ## Related Concepts
 
 - [[concepts/optimal-transport|Optimal Transport]]: supplies the distances and couplings used in the barycenter objective.
 - [[concepts/tree-wasserstein-distance|Tree-Wasserstein Distance]]: changes the ground geometry to a tree, offering a distinct route to cheaper transport computations.
+- [[concepts/measure-differential-inclusions|Measure Differential Inclusions]]: accommodates barycenter-driven dynamics when the barycenter or transport coupling is nonunique.
