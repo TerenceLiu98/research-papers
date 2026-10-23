@@ -23,8 +23,10 @@ A sparse mixture of experts routes each token to a small subset of available exp
 ## Important Papers
 
 - [[papers/moirai-moe-empowering-time-series-foundation-models-with-sparse-mixture-of-experts|MOIRAI-MOE: Empowering Time Series Foundation Models with Sparse Mixture of Experts]] uses two of 32 experts per token and studies pretrained-centroid routing for heterogeneous forecasting data (Sections 3.2, 4.3-4.5, and Appendix B.3).
+- [[papers/raven-a-regime-aware-variable-context-expert-network-for-financial-time-series-forecasting|RAVEN: A Regime-Aware Variable-context Expert Network for Financial Time Series Forecasting]] routes nested contiguous windows to experts specialized by temporal scale, rather than routing individual patches by content.
 
 ## Related Concepts
 
 - [[concepts/time-series-foundation-models|Time Series Foundation Models]]: a domain where sparse routing supports specialization across temporal patterns.
+- [[concepts/adaptive-temporal-context-routing|Adaptive Temporal-Context Routing]]: conditional computation where expert assignments correspond to contiguous historical horizons.
 - [[concepts/transferability-evaluation|Transferability Evaluation]]: checking whether specialized pretrained computation transfers to held-out datasets.
