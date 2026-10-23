@@ -23,8 +23,11 @@ Statistical identifiability asks whether optimizing the same learning problem yi
 - The result is model-centric: it trades strong assumptions about the data-generating process for assumptions about the decoder and end-to-end model. It does not automatically establish semantic correctness.
 - Whitening and ICA can reduce linear ambiguity, but the residual signed-permutation ambiguity is generally not identifiable without additional conventions or supervision.
 
+- Identifiability can determine whether a representation supports coordinate-wise intervention. [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders]] show that linear identifiability alone leaves arbitrary mixtures of concept directions, whereas a sparsity constraint on paired shifts can reduce the ambiguity to permutation and scaling under explicit support assumptions.
+
 ## Important Papers
 
+- [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders for Identifying Concepts from Large Language Model Activations]]
 - [[Statistical and Structural Identifiability in Representation Learning]]
 - Roeder, Metz, and Kingma (2021), "On Linear Identifiability of Learned Representations."
 - Nielsen et al. (2025), "When Does Closeness in Distribution Imply Representational Similarity? An Identifiability Perspective."

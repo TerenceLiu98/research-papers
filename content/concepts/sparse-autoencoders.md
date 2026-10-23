@@ -35,8 +35,11 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - Dense-retrieval embeddings can also be decomposed into labeled latent concepts. [[concepts/concept-level-sparse-retrieval|Concept-Level Sparse Retrieval]] uses those activations as an inverted-index vocabulary, exposing concept-level score contributions while trading off reconstruction fidelity, individual-feature coherence, and index cost.
 - SAEs can also expose an adversarial intervention surface. [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]] thresholds a centroid of attack-prompt codes, adds the resulting mask to layer activations, and reconstructs prompts by embedding search. Its higher jailbreak success shows causal influence under the tested hooks, but its heuristic feature selection does not establish that individual latents have stable adversarial meanings.
 
+- [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders]] move the sparsity assumption from individual activations to differences between paired activations. Under linearity and support assumptions, this reduces the recovery ambiguity to permutation and scaling, so decoder columns correspond to individual concept shifts rather than arbitrary mixtures.
+
 ## Important Papers
 
+- [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders for Identifying Concepts from Large Language Model Activations]]
 - [[papers/when-truthful-representations-flip-under-deceptive-instructions|When Truthful Representations Flip Under Deceptive Instructions?]] uses pretrained Llama Scope and Gemma Scope SAEs as measurement tools, reporting larger feature-space shifts for deceptive versus truthful prompts than for neutral versus truthful prompts; the selected features are correlational rather than causally validated.
 - [[Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]]
 - [[Learning Concept Bottleneck Models from Mechanistic Explanations]]
