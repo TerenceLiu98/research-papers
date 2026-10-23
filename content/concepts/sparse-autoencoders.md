@@ -19,6 +19,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 - An encoder maps a dense activation into an expanded latent vector, a sparsity mechanism selects or encourages a small number of active features, and a decoder reconstructs the original activation.
 - Reconstruction fidelity and sparsity are competing objectives. Top-k, Batch Top-k, ReLU-threshold, JumpReLU, and Matryoshka variants make different choices about this tradeoff.
+- [[concepts/matryoshka-sparse-autoencoders|Matryoshka Sparse Autoencoders]] train multiple prefixes of one ordered dictionary to reconstruct activations. This encourages early latents to retain broad features while later groups specialize, reducing feature absorption and splitting in the reported evaluations at a modest reconstruction and training-time cost.
 - A feature can be interpretable without being causally effective when its activation correlates with a concept but intervening on it does not reliably change model behavior. Interpretability and [[Model Steerability]] should therefore be evaluated separately.
 - Feature coverage is not guaranteed by dictionary size. An SAE may miss user-relevant concepts or represent them only through entangled or composite features.
 - [[Sparse Autoencoder Receptive Fields]] connect encoder architecture to concept geometry. Half-space receptive fields restrict single-latent selectivity in ReLU and JumpReLU, while TopK's shared activity budget can underrepresent higher-dimensional concepts. SpaDE uses prototype distances and simplex projection to support local receptive fields and adaptive sparsity, under a Euclidean-distance assumption.
@@ -42,6 +43,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 ## Important Papers
 
+- [[papers/learning-multi-level-features-with-matryoshka-sparse-autoencoders|Learning Multi-Level Features with Matryoshka Sparse Autoencoders]]
 - [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders for Identifying Concepts from Large Language Model Activations]]
 - [[papers/when-truthful-representations-flip-under-deceptive-instructions|When Truthful Representations Flip Under Deceptive Instructions?]] uses pretrained Llama Scope and Gemma Scope SAEs as measurement tools, reporting larger feature-space shifts for deceptive versus truthful prompts than for neutral versus truthful prompts; the selected features are correlational rather than causally validated.
 - [[Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]]
@@ -66,6 +68,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 ## Related Concepts
 
+- [[concepts/matryoshka-sparse-autoencoders|Matryoshka Sparse Autoencoders]]
 - [[Sparse Autoencoder Receptive Fields]]
 - [[Concept Bottleneck Models]]
 - [[Concept Bottleneck Sparse Autoencoders]]
