@@ -21,6 +21,7 @@ Representation autoencoders pair a pretrained visual representation encoder with
 - **Generation can reuse the representation space.** SAGE fine-tunes a pretrained diffusion transformer using conditional flow matching in the frozen RAE latent. Pooling only salient factors reduces reference copying relative to conditioning on full features in its experiments.
 - **Semantic structure and pixel detail can be decoupled.** [[papers/dc-sae-deep-compression-semantic-autoencoder-for-faster-diffusion-convergence|DC-SAE]] pairs a frozen semantic encoder with a trainable pixel branch at 32x spatial compression. Its masking analysis attributes most reconstruction detail to the pixel branch, while joint-training ablations support the semantic branch's role in making the fused latent easier for a diffusion transformer to learn.
 - **Decoder density need not determine generator sequence length.** DC-SAE's Spatial DeMerger expands the compact fused grid only before decoding, allowing the image decoder to operate on denser spatial tokens without requiring the generator to model that longer sequence.
+- **Intermediate encoder layers can restore local detail.** [[papers/beyond-the-last-layer-multi-layer-representation-fusion-for-visual-tokenization|DRoRAE]] routes all DINOv2 layers into an energy-normalized correction to the final-layer latent. Its incremental anchor and staged training expose a central constraint: richer latents improve reconstruction only if they remain learnable by the downstream generator.
 
 ## Important Papers
 
@@ -28,6 +29,7 @@ Representation autoencoders pair a pretrained visual representation encoder with
 - Singh et al. (2026), "Improved baselines with representation autoencoders": RAEv2, used by SAGE for frozen reconstruction and generation initialization.
 - [[papers/sage-salient-factor-discovery-and-generation-with-visual-foundation-representations|SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations]]: factorizes the spatial latent for discovery, manipulation, and generation.
 - [[papers/dc-sae-deep-compression-semantic-autoencoder-for-faster-diffusion-convergence|DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence]]: combines semantic and pixel branches for 32x compressed latent generation.
+- [[papers/beyond-the-last-layer-multi-layer-representation-fusion-for-visual-tokenization|Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization]]: enriches final-layer RAE latents with content-adaptive features from every encoder depth.
 
 ## Related Concepts
 
