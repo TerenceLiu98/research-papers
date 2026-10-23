@@ -23,6 +23,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - A feature can be interpretable without being causally effective when its activation correlates with a concept but intervening on it does not reliably change model behavior. Interpretability and [[Model Steerability]] should therefore be evaluated separately.
 - Feature coverage is not guaranteed by dictionary size. An SAE may miss user-relevant concepts or represent them only through entangled or composite features.
 - [[Sparse Autoencoder Receptive Fields]] connect encoder architecture to concept geometry. Half-space receptive fields restrict single-latent selectivity in ReLU and JumpReLU, while TopK's shared activity budget can underrepresent higher-dimensional concepts. SpaDE uses prototype distances and simplex projection to support local receptive fields and adaptive sparsity, under a Euclidean-distance assumption.
+- [[concepts/concept-manifolds|Concept Manifolds]] can be reconstructed without being compactly represented. Across several SAE architectures, smooth concept geometry is distributed over many localized, overlapping features; this dilution means low reconstruction error does not guarantee that an individual atom or small fixed group exposes the underlying object.
 - Post-hoc evaluation can assign concepts to neurons using tools such as CLIP-Dissect, but the resulting labels depend on the probing data, concept vocabulary, and evaluator model.
 - SAE features can also be treated as thematic atoms in a [[Continuous Topic Models|continuous topic model]], with activations representing topic weights for embedding-space dataset analysis rather than single-feature steering.
 - [[concepts/adaptive-sparse-embeddings|Adaptive Sparse Embeddings]] use SAE latents directly for efficient retrieval. CSR combines reconstruction with a nonnegative contrastive objective on frozen embeddings; its experiments show improved latent utilization but persistent dead latents under stringent multimodal sparsity. Retrieval fidelity is a distinct objective from feature interpretability.
@@ -54,6 +55,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[papers/sparse-shift-autoencoders-for-identifying-concepts-from-large-language-model-activations|Sparse Shift Autoencoders for Identifying Concepts from Large Language Model Activations]]
 - [[papers/when-truthful-representations-flip-under-deceptive-instructions|When Truthful Representations Flip Under Deceptive Instructions?]] uses pretrained Llama Scope and Gemma Scope SAEs as measurement tools, reporting larger feature-space shifts for deceptive versus truthful prompts than for neutral versus truthful prompts; the selected features are correlational rather than causally validated.
 - [[Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]]
+- [[papers/do-sparse-autoencoders-capture-concept-manifolds|Do Sparse Autoencoders Capture Concept Manifolds?]]
 - [[Learning Concept Bottleneck Models from Mechanistic Explanations]]
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
 - [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations]]
@@ -82,6 +84,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 - [[concepts/matryoshka-sparse-autoencoders|Matryoshka Sparse Autoencoders]]
 - [[Sparse Autoencoder Receptive Fields]]
+- [[concepts/concept-manifolds|Concept Manifolds]]
 - [[Concept Bottleneck Models]]
 - [[Concept Bottleneck Sparse Autoencoders]]
 - [[concepts/concept-level-sparse-retrieval|Concept-Level Sparse Retrieval]]
