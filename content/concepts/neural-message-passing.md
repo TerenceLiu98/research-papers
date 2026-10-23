@@ -21,6 +21,7 @@ Neural message passing is a general framework for learning representations on gr
 - Edge weights or attention scores can make influence depend on structure or learned node similarity.
 - Continuous-time variants interpret propagation as a differential equation and use numerical solvers to obtain node representations.
 - Repeated attractive aggregation can make node states increasingly similar, producing [[concepts/oversmoothing-in-graph-neural-networks|Oversmoothing in Graph Neural Networks]]. Repulsive, residual, or confidence-filtered interactions can preserve separation.
+- Propagation need not use one fixed graph at every layer. [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]] samples adjacency matrices from estimated edge probabilities at each epoch or layer, turning structural uncertainty into graph augmentation.
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]] treats aggregation as an opinion-exchange process and uses bounded confidence to strengthen, remove, or reverse messages.
 
 ## Important Papers
@@ -29,12 +30,14 @@ Neural message passing is a general framework for learning representations on gr
 - Battaglia et al. (2018), "Relational Inductive Biases, Deep Learning, and Graph Networks."
 - Chamberlain et al. (2021), "GRAND: Graph Neural Diffusion."
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]]
+- [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]]
 
 ## Related Concepts
 
 - [[concepts/oversmoothing-in-graph-neural-networks|Oversmoothing in Graph Neural Networks]]
 - [[concepts/hypergraphs|Hypergraphs]]
 - [[concepts/opinion-dynamics|Opinion Dynamics]]
+- [[concepts/graphons|Graphons]]
 - Graph neural networks
 - Graph attention
 - Neural ordinary differential equations

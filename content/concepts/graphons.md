@@ -23,6 +23,7 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 - **Compactness makes limits attainable.** Modulo weak isomorphism, graphon space is compact in cut distance, finite graphs are dense in it, and homomorphism densities are continuous. These facts turn asymptotic extremal questions into optimization problems with graphon solutions.
 - **Integrals replace neighbor sums.** The quantity $d(u,X)=\int_X W(u,v)\,dv$ is interaction mass with labels in $X$. This allows a continuum process to be studied before drawing a finite network.
 - **Process approximation needs additional conditions.** A graphon representation alone does not guarantee stable dynamics. Threshold contagion needs regularity and appropriate strict margins to resolve infected and uninfected regions.
+- **Estimated graphons can generate training graphs.** A link-probability matrix estimated from one observed network can be used to sample alternative adjacency matrices. [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]] uses this as graph augmentation and as a stochastic propagation operator for deep GNNs.
 - **Intervention can target types.** Optimizing community seed allocations may avoid observing every edge. Implementation still requires the relevant model parameters and information about agents' types.
 - **Density is a scope condition.** Fixed-kernel sampling describes a dense-network regime; conclusions do not automatically transfer to sparse-network models.
 
@@ -31,6 +32,7 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 - [[papers/what-is-a-graphon|What Is ... a Graphon?]]: an expository introduction to homomorphism densities, cut distance, weak isomorphism, compactness, and extremal optimization.
 - [[papers/contagion-in-graphons|Contagion in graphons]]: defines continuum threshold dynamics, proves qualified sampled-network approximation results, and derives structured seeding policies.
 - [[papers/graphon-mean-field-games-and-the-gmfg-equations|Graphon Mean Field Games and the GMFG Equations]]: uses graphon sections to index local mean fields and transfers continuum feedback equilibria to large finite clustered networks under a stronger sectional approximation condition.
+- [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]]: estimates edge probabilities by neighborhood smoothing and resamples adjacency matrices during GNN training.
 - Lovasz and Szegedy (2006), "Limits of dense graph sequences": foundational graph-limit treatment cited in Glasscock's exposition.
 - Parise and Ozdaglar (2023), "Graphon games: a statistical framework for network games and interventions": related network-game framework cited by Erol et al.
 

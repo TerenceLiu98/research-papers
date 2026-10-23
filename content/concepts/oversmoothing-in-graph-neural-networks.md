@@ -22,6 +22,7 @@ Oversmoothing is the loss of discriminative variation among node representations
 - Connectivity and propagation weights control the rate of convergence. Dense local connectivity in [[concepts/hypergraphs|Hypergraphs]] can make the problem especially pronounced for diffusion-style operators.
 - Oversmoothing is distinct from oversquashing: oversmoothing concerns homogenized states, while oversquashing concerns compressing too much distant information into fixed-size representations.
 - Residual connections, normalization, modified propagation spectra, and selective or repulsive interactions are among the mechanisms used to preserve node separation.
+- Randomizing the propagation graph can keep successive layers from repeatedly contracting features toward the same graph-dependent subspace. [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]] samples epoch-wise or layer-wise adjacency matrices from estimated edge probabilities, with mixed but sometimes large gains in deep GNN experiments.
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]] connects feature collapse to consensus in [[concepts/opinion-dynamics|Opinion Dynamics]] and uses bounded-confidence attraction and repulsion to stabilize Dirichlet energy in its experiments.
 
 ## Important Papers
@@ -30,12 +31,14 @@ Oversmoothing is the loss of discriminative variation among node representations
 - Cai and Wang (2020), "A Note on Over-Smoothing for Graph Neural Networks."
 - Chamberlain et al. (2021), "GRAND: Graph Neural Diffusion."
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]]
+- [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]]
 
 ## Related Concepts
 
 - [[concepts/neural-message-passing|Neural Message Passing]]
 - [[concepts/hypergraphs|Hypergraphs]]
 - [[concepts/opinion-dynamics|Opinion Dynamics]]
+- [[concepts/graphons|Graphons]]
 - [[concepts/bounded-confidence-models|Bounded Confidence Models]]
 - Graph diffusion
 - Dirichlet energy
