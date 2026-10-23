@@ -38,6 +38,7 @@ Growing Harness is a related accumulation pattern: instead of selecting among an
 - [[papers/frontis-ma1-training-an-ai4ai-model-towards-recursive-self-improvement-in-machine-learning-engineering|Frontis-MA1]]: OpenMLE-Evo instantiates structured experience cards, a task-global board, three-factor parent selection, and lazy operator-specific memory (Section 5; Appendix C).
 - [[papers/socia-evo-automated-simulator-construction-via-dual-anchored-bi-level-optimization|SOCIA-EVO]]: a metric-linked repair Playbook supports simulator evolution. Reported recurrence decreases across iterations, but the Llama backbone experiment shows that avoiding old errors does not guarantee accurate final programs (Section 3.4; Appendix A.5).
 - [[papers/grow-the-harness-not-the-context-from-strategy-free-scaffolds-to-reusable-specialist-agents|Grow the Harness, Not the Context]]: grows one agent harness from a strategy-free scaffold using function-level failure traces, a bounded repair window, and success-first gate rollback. It complements archive-based evolution with local continual repair within a task family.
+- [[papers/rrsi-regularized-recursive-self-improvement-of-agent-harnesses|RRSI: Regularized Recursive Self-Improvement of Agent Harnesses]]: records hypotheses and outcomes across harness revisions, anneals edit cardinality, and filters unstable or costly candidates. Its ablations connect constrained search history to stronger out-of-distribution transfer.
 - Jiang et al. (2025), "AIDE: AI-Driven Exploration in the Space of Code" (arXiv:2502.13138), and Toledo et al. (2025), "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-Bench" (arXiv:2507.02554): cited predecessors for executable program search.
 
 ## Related Concepts
@@ -45,6 +46,7 @@ Growing Harness is a related accumulation pattern: instead of selecting among an
 - [[concepts/metacognitive-self-modification|Metacognitive Self-Modification]]
 - [[concepts/meta-evolution|Meta-Evolution]]
 - [[concepts/bilevel-simulator-construction|Bilevel Simulator Construction]]
+- [[concepts/regularized-harness-evolution|Regularized Harness Evolution]]
 - Evolutionary search
 - Agent memory
 - Inference-time compute allocation
