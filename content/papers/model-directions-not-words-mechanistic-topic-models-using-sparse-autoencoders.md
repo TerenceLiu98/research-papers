@@ -37,12 +37,12 @@ Sparse autoencoders provide an alternative vocabulary: sparse, automatically lab
 
 - Defines MTMs as topic models over thresholded SAE feature counts and instantiates mechanistic LDA (mLDA), mechanistic ETM (mETM), and mechanistic BERTopic (mBERTopic).
 - Introduces topic judge, a pairwise LLM evaluation that compares how well two models' top assigned topics describe a sampled document and aggregates judgments with a Bradley-Terry model into Elo scores.
-- Evaluates eight corpora spanning news, congressional bills, Wikipedia, reviews, emotions, poetry, and creative writing, including short and abstract documents.
+- Evaluates five corpora spanning newsgroup posts, congressional bills, Wikipedia articles, emotion-labeled Reddit comments, and poetry, including short and abstract documents.
 - Constructs topic steering vectors as weighted combinations of SAE decoder directions and evaluates their relevance, likelihood effects, and generation fluency.
 
 ## Method
 
-Documents are passed through Gemma 2-9B and the layer-10, 16k-feature GemmaScope SAE. For each token and feature, an activation counts only when it exceeds the 80th percentile of that feature's nonzero activation distribution on the SAE training data. The pipeline removes features whose descriptions concern programming, mathematics, grammar, formatting, or stop words; features active in more than 1% of the SAE training data; and features present in more than 90% of corpus documents. An optional LLM refinement step discards up to two apparently irrelevant features from each topic's top candidates.
+Documents are passed through Gemma 2-9B and 16k-feature GemmaScope SAEs. The benchmark datasets use the layer-39 SAE, while GoEmotions and PoemSum use layer 10 because earlier-layer features provided more localized coverage for these corpora. For each token and feature, an activation counts only when it exceeds the 80th percentile of that feature's activation distribution on the SAE training data. The pipeline removes features whose descriptions concern programming, mathematics, grammar, formatting, or stop words; features active in more than 1% of the SAE training data; and features present in more than 90% of corpus documents. An LLM refinement step discards up to two apparently irrelevant or mislabeled features from each topic's top candidates, and the same refinement is applied to the word-based baselines.
 
 The three MTM variants use the resulting feature counts differently:
 
@@ -52,27 +52,25 @@ The three MTM variants use the resulting feature counts differently:
 
 Topics are presented either as their highest-weight feature descriptions or as one-sentence LLM summaries. For control, the normalized weighted sum of a topic's SAE decoder directions becomes its steering vector. At inference time, the intervention removes the activation component parallel to that vector and replaces it with a user-scaled topic component.
 
-Topic judge samples documents, retrieves one or two high-weight topics from each competing model, and asks GPT-4.1 which topic set better captures the document's subject, affect, and style. Pairwise outcomes are fitted with a Bradley-Terry model and reported on an Elo scale. Standard coherence, intrusion, diversity, topical-alignment, and stability metrics provide complementary checks.
+Topic judge samples documents, retrieves one or two high-weight topics from each competing model, and asks GPT-4.1 which topic set better captures the document's general meaning. Pairwise outcomes are fitted with a [[concepts/bradley-terry-scaling|Bradley-Terry model]] and reported on an Elo scale. Coherence ratings, word or feature intrusion, topic diversity, and topical alignment provide complementary checks.
 
 ## Experiments
 
-The evaluation covers 20 Newsgroups, Congressional Bills, Wikipedia, Yelp Polarity, AGNews, GoEmotions, PoemSum, and WritingPrompts. Models use 50 topics on AGNews, GoEmotions, and PoemSum and 100 on the other corpora. Baselines are LDA, ETM, BERTopic, Dirichlet VAE, and FASTopic; hyperparameters are selected separately for each model-dataset pair by Bayesian optimization of topic quality.
+The evaluation covers 20 Newsgroups, Congressional Bills, Wikipedia, GoEmotions, and PoemSum. Models use 50 topics on PoemSum and 100 on the other corpora. Baselines are LDA, ETM, BERTopic, Dirichlet VAE, and FASTopic; hyperparameters are selected separately for each model-dataset pair with 25 rounds of Bayesian optimization on the product of NPMI coherence and topic diversity.
 
-Across top-feature and summarized representations, an MTM has the highest topic-judge Elo score in 14 of 16 dataset-representation conditions. MTMs beat their matched word-based counterparts in 42 of 48 comparisons; 71% of those comparisons favor an MTM by at least 50 Elo points. The largest gains occur on GoEmotions, PoemSum, and WritingPrompts, where the average advantage is 195 Elo points. The main counterexample is the Bills top-feature condition, where precise lexical keywords outperform SAE descriptions; summarization recovers mLDA and mETM but not mBERTopic.
+Topic judge performs 100 comparisons for every model pair, totaling 2,800 comparisons. An MTM attains the highest Elo score in four of the five datasets. With raw top-feature descriptions, word-based LDA leads on Bills, where precise lexical keywords are more document-specific than some SAE descriptions. With one-sentence summaries, an MTM equals or exceeds the word-based models on every dataset. The largest qualitative advantage appears on the short GoEmotions texts and abstract PoemSum poems.
 
-A study with 68 participants evaluates Wiki and PoemSum outputs. Human and GPT-4.1 Elo rankings have Spearman correlations from 0.76 to 0.95 across the four representation-dataset conditions. MTMs rank first in three conditions; BERTopic ranks first for summarized PoemSum topics, without a significant difference from mETM.
+On coherence ratings, intrusion accuracy, and topic diversity, MTMs are broadly comparable to word-based counterparts on 20NG, Bills, and Wiki and stronger on GoEmotions and PoemSum. Bills is an important exception for diversity: MTMs score roughly 0.4-0.5, versus 0.6-0.7 for the word models. Cross-model document-topic correlations show that more than 70% of mLDA topics on Bills and Wiki correlate at least 0.5 with an LDA topic, whereas nearly all GoEmotions and PoemSum topics fall below 0.5, suggesting that MTMs recover substantially different structure in the short and abstract corpora.
 
-On standard metrics, MTMs generally remain comparable with the baselines and perform particularly well on short or abstract text. Their GPT-4.1 coherence ratings are roughly 2.5-2.9 on the standard benchmark corpora. However, mBERTopic has low topic diversity on PoemSum and WritingPrompts (0.38 and 0.36) and lower PoemSum coherence, indicating weaker robustness than the probabilistic variants. Cross-model document-topic correlations suggest that MTMs recover mostly familiar themes on Bills and Wiki but substantially different themes on GoEmotions and PoemSum.
-
-Steering is effective under the paper's evaluations. For mLDA, topic-relevance win rates range from 84.4% to 98.9% across datasets; mETM and mBERTopic also exceed their 50% chance reference on every dataset. Increasing steering strength raises the relative likelihood of on-topic documents for mLDA and generally for mETM, while mBERTopic is less consistent. Moderate steering leaves perplexity close to the unsteered baseline, but perplexity rises at stronger interventions.
+Steering is effective under the paper's evaluations. For mLDA, topic-relevance win rates range from 85.8% to 99.0% across the five datasets. Full topic vectors produce larger on-topic likelihood shifts than vectors made from only the top one, five, or ten features. mETM generally shows the same likelihood trend, while mBERTopic is inconsistent on this measure despite competitive judged generations. Perplexity remains close to the unsteered baseline at low steering strength but rises substantially as the intervention grows.
 
 ## Limitations
 
-MTMs depend on the availability and quality of pretrained SAEs. Results can change with the language model, SAE training corpus, layer, sparsity configuration, and accuracy of automatically generated feature labels. The approach only requires some useful concepts to be linearly represented, but non-linear or entangled concepts can still be missed.
+MTMs depend on the availability and quality of pretrained SAEs. Results can change with the language model, SAE training corpus, selected layer, and accuracy of automatically generated feature labels. Some spurious or broadly phrased features remain after filtering and refinement, and the approach can miss concepts that are not usefully represented by individual linear directions.
 
-Featurization is heavier than bag-of-words preprocessing: it requires an LLM, an SAE, suitable accelerator memory, and an additional LLM-based feature-filtering step. The authors report a total filtering API cost of $0.33 for the eight datasets, but the dominant compute cost is activation extraction. Training or adapting an SAE to a target corpus may improve specificity while adding further expense.
+Featurization is heavier than bag-of-words preprocessing because it requires running an LLM and SAE over every token. Layer selection is dataset-dependent: the authors use later features for standard corpora and earlier features for emotion and poetry, based on observed feature coverage rather than a general selection rule.
 
-The evaluation also has scope limits. Topic judge depends on an LLM evaluator, and its human validation covers only Wiki and PoemSum. LLM summaries can conceal weak or mislabeled individual features. Steering quality degrades at high intervention strengths, and mBERTopic's likelihood results show that good judged generations do not guarantee uniformly well-behaved likelihood shifts under steering.
+The evaluation also has scope limits. Topic judge assumes that GPT-4.1 is a reliable assessor of relative topic quality, and the supplied version reports no human validation of that assumption. NPMI cannot be compared directly across word and SAE vocabularies. LLM summaries may conceal weak individual features, topic diversity is low for MTMs on Bills, and strong steering increases perplexity. Finally, mBERTopic's inconsistent likelihood shifts show that judged generation quality does not imply uniformly successful probabilistic steering behavior.
 
 ## Related Concepts
 
@@ -80,15 +78,16 @@ The evaluation also has scope limits. Topic judge depends on an LLM evaluator, a
 - [[Sparse Autoencoders]]
 - [[Continuous Topic Models]]
 - [[Model Steerability]]
-- Topic modeling
-- LLM-as-a-judge evaluation
-- Activation steering
+- [[concepts/topic-model-evaluation|Topic Model Evaluation]]
+- [[concepts/llm-as-a-judge|LLM-as-a-Judge]]
+- [[concepts/bradley-terry-scaling|Bradley-Terry Scaling]]
 
 ## Related Papers
 
 - [[Sparse Autoencoders are Topic Models]]
+- [[papers/topic-modeling-in-embedding-spaces|Topic Modeling in Embedding Spaces]]
+- [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model]]
 - Blei, Ng, and Jordan (2003), "Latent Dirichlet Allocation."
-- Dieng, Ruiz, and Blei (2020), "Topic Modeling in Embedding Spaces."
 - Grootendorst (2022), "BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure."
 - Cunningham et al. (2024), "Sparse Autoencoders Find Highly Interpretable Features in Language Models."
 - Lieberum et al. (2024), "Gemma Scope: Open Sparse Autoencoders Everywhere All at Once on Gemma 2."
