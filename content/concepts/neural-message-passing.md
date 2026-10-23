@@ -24,6 +24,7 @@ Neural message passing is a general framework for learning representations on gr
 - Propagation need not use one fixed graph at every layer. [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]] samples adjacency matrices from estimated edge probabilities at each epoch or layer, turning structural uncertainty into graph augmentation.
 - Generalization can depend on graph size as well as the number of training graphs. Under a finite graphon-mixture model, [[papers/generalization-bounds-for-message-passing-networks-on-mixture-of-graphons|Generalization Bounds for Message Passing Networks on Mixture of Graphons]] proves a uniform bound that improves with node count only below a dimension-dependent sparsity threshold.
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]] treats aggregation as an opinion-exchange process and uses bounded confidence to strengthen, remove, or reverse messages.
+- [[papers/fs-gplib-breaking-the-web-scale-barrier|FS_GPlib: Breaking the Web-Scale Barrier]] uses the same message, aggregation, and update decomposition to execute mechanism-based graph simulations with synchronous tensor operations rather than to learn node representations.
 
 ## Important Papers
 
@@ -33,6 +34,7 @@ Neural message passing is a general framework for learning representations on gr
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]]
 - [[papers/training-graph-neural-networks-by-graphon-estimation|Training Graph Neural Networks by Graphon Estimation]]
 - [[papers/generalization-bounds-for-message-passing-networks-on-mixture-of-graphons|Generalization Bounds for Message Passing Networks on Mixture of Graphons]]
+- [[papers/fs-gplib-breaking-the-web-scale-barrier|FS_GPlib: Breaking the Web-Scale Barrier - A Unified Acceleration Framework for Graph Propagation Models]]
 
 ## Related Concepts
 
@@ -40,6 +42,7 @@ Neural message passing is a general framework for learning representations on gr
 - [[concepts/hypergraphs|Hypergraphs]]
 - [[concepts/opinion-dynamics|Opinion Dynamics]]
 - [[concepts/graphons|Graphons]]
+- [[concepts/graph-propagation-simulation|Graph Propagation Simulation]]
 - Graph neural networks
 - Graph attention
 - Neural ordinary differential equations
