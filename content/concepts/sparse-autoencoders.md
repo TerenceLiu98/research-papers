@@ -33,6 +33,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - In multimodal detector audits, separate SAEs can serve different explanatory levels. [[papers/sparsealign-ooc-auditing-news-image-text-out-of-context-detection-with-sparse-autoencoders|SparseAlign-OOC]] uses pair-space features for human inspection and hidden-state features for decision tracing, then tests activation coverage and interventions rather than treating readable groups alone as evidence of behavioral relevance.
 - In vision transformers, layer-specific SAE features can be connected into a directed explanatory graph. [[Discovering Sparse Concept Graphs for Mechanistic Interpretability in Vision Transformers]] fits sparse linear maps between consecutive CLS-token feature spaces and checks the resulting edge rankings with deletion and insertion interventions; the graph is useful but inherits SAE reconstruction error and misses patch-token information flows.
 - Dense-retrieval embeddings can also be decomposed into labeled latent concepts. [[concepts/concept-level-sparse-retrieval|Concept-Level Sparse Retrieval]] uses those activations as an inverted-index vocabulary, exposing concept-level score contributions while trading off reconstruction fidelity, individual-feature coherence, and index cost.
+- SAEs can also expose an adversarial intervention surface. [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]] thresholds a centroid of attack-prompt codes, adds the resulting mask to layer activations, and reconstructs prompts by embedding search. Its higher jailbreak success shows causal influence under the tested hooks, but its heuristic feature selection does not establish that individual latents have stable adversarial meanings.
 
 ## Important Papers
 
@@ -47,6 +48,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[papers/sparsealign-ooc-auditing-news-image-text-out-of-context-detection-with-sparse-autoencoders|SparseAlign-OOC: Auditing News Image-Text Out-of-Context Detection with Sparse Autoencoders]]
 - [[papers/decoding-dense-embeddings-sparse-autoencoders-for-interpreting-and-discretizing-dense-retrieval|Decoding Dense Embeddings: Sparse Autoencoders for Interpreting and Discretizing Dense Retrieval]]
 - [[Discovering Sparse Concept Graphs for Mechanistic Interpretability in Vision Transformers]]
+- [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]]
 - Pach et al. (2025), "Sparse autoencoders learn monosemantic features in vision-language models."
 - Gao et al. (2025), "Scaling and evaluating sparse autoencoders."
 - Huben et al. (2024), "Sparse autoencoders find highly interpretable features in language models."
