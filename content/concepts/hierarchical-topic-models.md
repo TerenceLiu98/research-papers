@@ -22,6 +22,7 @@ Hierarchical topic models organize latent themes into a tree or another multilev
 - **Semantic guidance:** Bag-of-words inputs can produce sparse or incoherent topics, especially for short documents. [[Text Embedding Models|word embeddings]], knowledge bases, or regularizers can inject relationships that are absent from raw term counts.
 - **Geometric inductive bias:** Hyperbolic spaces represent branching structures with less distortion than comparable Euclidean spaces. A model can use hyperbolic word neighborhoods to distinguish local parent-child relations from similarities between concepts on different branches.
 - **Hierarchy-aware evaluation:** Flat topic coherence measures whether words within a topic co-occur. Hierarchical coherence compares words in parent-child pairs, affinity contrasts children with non-children, and specialization measures whether deeper topics increasingly diverge from the whole-corpus word distribution.
+- **Incremental hierarchy construction:** [[papers/cobwebtm-probabilistic-concept-formation-for-lifelong-and-hierarchical-topic-modeling|CobwebTM]] uses [[concepts/incremental-concept-formation|Incremental Concept Formation]] to insert documents and locally merge or split concepts, allowing topic breadth and depth to evolve with a stream.
 - **Interpretation caveat:** A tree is not automatically meaningful merely because topics were generated recursively. Parent-child relatedness, sibling diversity, stability, and domain validity must be assessed separately.
 
 ## Important Papers
@@ -30,12 +31,14 @@ Hierarchical topic models organize latent themes into a tree or another multilev
 - Isonuma, Mori, Bollegala, and Sakata (2020), "Tree-Structured Neural Topic Model."
 - Viegas et al. (2020), "CluHTM: Semantic Hierarchical Topic Modeling Based on CluWords."
 - [[HyHTM: Hyperbolic Geometry based Hierarchical Topic Models]]
+- [[papers/cobwebtm-probabilistic-concept-formation-for-lifelong-and-hierarchical-topic-modeling|CobwebTM: Probabilistic Concept Formation for Lifelong and Hierarchical Topic Modeling]]
 
 ## Related Concepts
 
 - [[Riemannian Representation Learning]]
 - [[Text Embedding Models]]
 - [[Continuous Topic Models]]
+- [[concepts/incremental-concept-formation|Incremental Concept Formation]]
 - Topic modeling
 - Hyperbolic embeddings
 - Nonnegative matrix factorization

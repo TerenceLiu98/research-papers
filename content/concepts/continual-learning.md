@@ -22,6 +22,7 @@ Continual learning studies models that acquire knowledge from a sequence of task
 - Exemplar-free class-incremental learning must preserve old knowledge without retaining raw examples. Prototype compensation and feature translation approximate old-class features from information available in later tasks.
 - Interpretability can drift as the model is updated: a class may remain recognizable while the concepts supporting its prediction change. Concept bottlenecks provide a way to inspect this change when their vocabulary remains stable and meaningful.
 - Performance should be reported across tasks, such as average incremental accuracy and final accuracy, rather than only on the newest task.
+- Nonparametric or dynamically restructured models can address capacity as well as retention. [[papers/cobwebtm-probabilistic-concept-formation-for-lifelong-and-hierarchical-topic-modeling|CobwebTM]], for example, creates, merges, and splits topic nodes as documents arrive rather than preserving a fixed output space.
 
 ## Important Papers
 
@@ -30,6 +31,7 @@ Continual learning studies models that acquire knowledge from a sequence of task
 - Yu et al. (2020), "Semantic Drift Compensation for Class-Incremental Learning."
 - Masana et al. (2022), "Class-incremental learning: Survey and performance evaluation on image classification."
 - Li and Hoiem (2017), "Learning without Forgetting."
+- [[papers/cobwebtm-probabilistic-concept-formation-for-lifelong-and-hierarchical-topic-modeling|CobwebTM: Probabilistic Concept Formation for Lifelong and Hierarchical Topic Modeling]]
 
 ## Related Concepts
 
@@ -38,3 +40,4 @@ Continual learning studies models that acquire knowledge from a sequence of task
 - Class-incremental learning
 - Prototype augmentation
 - Pre-trained representations
+- [[concepts/incremental-concept-formation|Incremental Concept Formation]]
