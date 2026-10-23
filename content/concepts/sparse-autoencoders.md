@@ -37,6 +37,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 ## Important Papers
 
+- [[papers/when-truthful-representations-flip-under-deceptive-instructions|When Truthful Representations Flip Under Deceptive Instructions?]] uses pretrained Llama Scope and Gemma Scope SAEs as measurement tools, reporting larger feature-space shifts for deceptive versus truthful prompts than for neutral versus truthful prompts; the selected features are correlational rather than causally validated.
 - [[Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]]
 - [[Learning Concept Bottleneck Models from Mechanistic Explanations]]
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]
