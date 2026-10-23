@@ -8,6 +8,7 @@ authors:
   - Tianlong Fan
   - Linyuan Lü
 year: null
+source_job_id: "c78e7954-3838-494c-84bf-6bdcf67746d8"
 tags:
   - misinformation
   - complex-networks
