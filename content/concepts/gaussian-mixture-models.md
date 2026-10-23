@@ -27,6 +27,7 @@ A Gaussian mixture model represents a probability density as a weighted sum of G
 - Dempster, Laird, and Rubin (1977), "Maximum Likelihood from Incomplete Data via the EM Algorithm": establishes the general expectation-maximization framework.
 - [[papers/flash-gmm-a-memory-efficient-kernel-for-scalable-soft-clustering|Flash-GMM: A Memory-Efficient Kernel for Scalable Soft Clustering]]: fuses responsibility computation with sufficient-statistic accumulation and applies the resulting soft assignments to IVF search.
 - [[papers/clustering-with-bregman-divergences|Clustering with Bregman Divergences]]: connects exponential families, hard clustering, and soft clustering through Bregman geometry.
+- [[papers/local-support-learning|Local Support Learning]]: uses per-matrix Gaussian mixtures as compact density gates for continual post-training.
 
 ## Related Concepts
 
@@ -35,3 +36,4 @@ A Gaussian mixture model represents a probability density as a weighted sum of G
 - Expectation-maximization
 - Mixture models
 - Soft clustering
+- [[concepts/local-support-updates|Local-Support Updates]]

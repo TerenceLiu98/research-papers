@@ -32,6 +32,7 @@ Continual learning studies models that acquire knowledge from a sequence of task
 - Masana et al. (2022), "Class-incremental learning: Survey and performance evaluation on image classification."
 - Li and Hoiem (2017), "Learning without Forgetting."
 - [[papers/cobwebtm-probabilistic-concept-formation-for-lifelong-and-hierarchical-topic-modeling|CobwebTM: Probabilistic Concept Formation for Lifelong and Hierarchical Topic Modeling]]
+- [[papers/local-support-learning|Local Support Learning]]: routes phase-specific adapters using activation-space support estimates to protect pretrained and earlier finetuned capabilities.
 
 ## Related Concepts
 
@@ -41,3 +42,4 @@ Continual learning studies models that acquire knowledge from a sequence of task
 - Prototype augmentation
 - Pre-trained representations
 - [[concepts/incremental-concept-formation|Incremental Concept Formation]]
+- [[concepts/local-support-updates|Local-Support Updates]]
