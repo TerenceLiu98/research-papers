@@ -22,10 +22,12 @@ Concept-Level Sparse Retrieval (CL-SR) converts a frozen dense retriever's embed
 - Inverse document frequency downweights latents that activate on many documents. This is important because frequent SAE features tend to describe abstract or stylistic properties rather than discriminative content.
 - Retrieval fidelity, feature interpretability, and efficiency are distinct objectives. More active latents can better preserve a dense retriever's ranking while increasing index size and weakening individual-feature coherence.
 - The learned units inherit the source retriever's and training corpus's biases and may be incomplete or unstable across SAE runs, so their natural-language labels are model-specific explanations rather than universal semantic categories.
+- SAE-based sparse retrieval can also be trained directly rather than derived from a frozen dense retriever. [[papers/learning-retrieval-models-with-sparse-autoencoders|SPLARE]] inserts a frozen pretrained LLM SAE at an intermediate layer and fine-tunes the backbone for relevance, using pooled latent activations as query and document vectors. This ties the latent space to the base LLM rather than to a completed dense retriever.
 
 ## Important Papers
 
 - [[papers/decoding-dense-embeddings-sparse-autoencoders-for-interpreting-and-discretizing-dense-retrieval|Decoding Dense Embeddings: Sparse Autoencoders for Interpreting and Discretizing Dense Retrieval]] introduces CL-SR and evaluates it on MS MARCO and TREC Deep Learning benchmarks.
+- [[papers/learning-retrieval-models-with-sparse-autoencoders|Learning Retrieval Models with Sparse Autoencoders]] introduces SPLARE and evaluates SAE-native learned sparse retrieval across multilingual, cross-lingual, and domain-specific benchmarks.
 - Formal et al. (2021), "SPLADE v2: Sparse lexical and expansion model for information retrieval": represents text with learned weighted lexical vocabularies and provides a central comparison point.
 - Wang et al. (2023), "SimLM: Pre-training with representation bottleneck for dense passage retrieval": provides the dense representation decomposed in the initial CL-SR study.
 
