@@ -26,6 +26,7 @@ Kolmogorov-Arnold Networks (KANs) are neural networks whose edges carry learnabl
 ## Important Papers
 
 - Liu et al. (2024), "KAN: Kolmogorov-Arnold Networks," arXiv:2404.19756: introduces the modern spline-based KAN architecture.
+- [[papers/rational-anova-networks|Rational ANOVA Networks]]: compares spline-based KANs with pole-free rational units arranged as main effects and sparse pairwise interactions.
 - [[papers/kolmogorov-arnold-network-autoencoders|Kolmogorov-Arnold Network Autoencoders]]: evaluates KAN layers for image reconstruction and latent KNN classification on MNIST, SVHN, and CIFAR-10.
 - [[papers/kolmogorov-arnold-networks-for-time-series-bridging-predictive-power-and-interpretability|Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability]]: develops T-KAN and MT-KAN for temporal forecasting.
 - Vaca-Rubio et al. (2024), "Kolmogorov-Arnold Networks (KANs) for Time Series Analysis," arXiv:2405.08790: applies KANs to time-series analysis.
