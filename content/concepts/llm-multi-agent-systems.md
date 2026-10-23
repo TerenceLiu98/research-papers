@@ -27,6 +27,7 @@ LLM multi-agent systems coordinate multiple language-model agents toward an indi
 
 ## Important Papers
 
+- [[papers/who-deserves-the-reward-sharp-shapley-credit-based-optimization-for-multi-agent-system|Who Deserves the Reward? SHARP: Shapley Credit-based Optimization for Multi-Agent System]] studies [[concepts/multi-agent-credit-assignment|agent-level credit assignment]] for a shared-policy planner-worker system, combining terminal accuracy, counterfactual worker contribution, and tool-validity rewards.
 - [[papers/llm-multi-agent-systems-challenges-and-open-problems|LLM Multi-Agent Systems: Challenges and Open Problems]] organizes the field around structural forms, global and local planning, layered context, and a taxonomy of memory, then identifies open problems in coordination and memory management.
 - Du et al. (2023), "Improving Factuality and Reasoning in Language Models through Multiagent Debate," studies iterative debate as a reasoning scaffold.
 - Li et al. (2023), "CAMEL: Communicative Agents for 'Mind' Exploration of Large Scale Language Model Society," develops role-conditioned communication between agents.
@@ -38,4 +39,5 @@ LLM multi-agent systems coordinate multiple language-model agents toward an indi
 - [[concepts/federated-multi-agent-systems|Federated Multi-Agent Systems]]
 - [[concepts/environment-grounded-agent-memory|Environment-Grounded Agent Memory]]
 - [[concepts/llm-based-strategic-experimentation|LLM-Based Strategic Experimentation]]
+- [[concepts/multi-agent-credit-assignment|Multi-Agent Credit Assignment]]
 
