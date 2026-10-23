@@ -29,6 +29,7 @@ A microframe is a semantic axis defined by opposing words, such as legal and ill
 
 ## Related Concepts
 
+- [[concepts/valence-arousal-dominance-model|Valence-Arousal-Dominance Model]]: an alternative multidimensional vocabulary for affective direction and intensity; unlike FrameAxis, it uses rated affect dimensions rather than corpus-relative semantic axes.
 - [[concepts/text-embedding-models|Text Embedding Models]]: vector representations supply the word-axis similarities.
 - [[concepts/issue-framing-effects|Issue Framing Effects]]: studies how emphasized attributes change audience evaluations, requiring evidence beyond text scores.
 - [[concepts/frame-specific-ideal-points|Frame-Specific Ideal Points]]: another approach connecting framing patterns with political positions, using topic hierarchies and legislative behavior.
