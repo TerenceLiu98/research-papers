@@ -29,6 +29,7 @@ Joint-embedding predictive architectures learn representations by predicting a t
 
 ## Important Papers
 
+- [[papers/galileo-learning-global-and-local-features-of-many-remote-sensing-modalities|Galileo: Learning Global & Local Features of Many Remote Sensing Modalities]] adapts masked latent prediction to heterogeneous Earth-observation inputs, pairing deep EMA targets and structured masks for global features with shallow projected targets and random masks for local features.
 - [[papers/jedi-joint-embedding-diffusion-world-model-for-online-model-based-reinforcement-learning|JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning]] extends predictive embedding learning to online latent diffusion world models with reward and termination supervision.
 - [[papers/joint-embeddings-go-temporal|Joint Embeddings Go Temporal]] introduces TS-JEPA and evaluates frozen representations for classification and forecasting.
 - [[papers/h-jepa-end-to-end-learning-of-hierarchical-world-models-for-visual-planning|H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning]] tests learned temporal abstractions in simulation and offline robot planning, and distinguishes distributional collapse prevention from preservation of action-dependent motion.
