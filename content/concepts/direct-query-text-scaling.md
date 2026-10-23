@@ -31,6 +31,7 @@ Direct-query text scaling uses an instruction-tuned language model to place a su
 
 ## Important Papers
 
+- [[papers/using-large-language-models-to-analyze-political-texts-through-natural-language-understanding|Using Large Language Models to Analyze Political Texts Through Natural Language Understanding]]: contrasts direct scoring with a two-stage [[concepts/llm-summary-and-scaling|LLM Summary-and-Scaling]] ensemble that first extracts issue-specific evidence from complete multilingual documents.
 - [[papers/the-ai-gpr-index-measuring-geopolitical-risk-using-artificial-intelligence|The AI-GPR Index: Measuring Geopolitical Risk using Artificial Intelligence]]: aggregates rubric-based article scores into daily coverage shares. Its stratified audit includes articles excluded before scoring, illustrating why end-to-end measurement validation must extend beyond the model's retrieved sample.
 - [[papers/measuring-scalar-constructs-in-social-science-with-llms|Measuring Scalar Constructs in Social Science with LLMs]]: distinguishes direct numeric output from probability-weighted scoring and compares both with pairwise measurement and fine-tuning across three political constructs.
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: situates direct scoring within a broader LLM family and identifies transparency, aggregation, and possible training-data contamination as measurement concerns.
