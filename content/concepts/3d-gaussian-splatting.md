@@ -22,6 +22,7 @@ tags:
 - **Tile-based rasterization:** The image is partitioned into tiles; a preprocessing stage assigns Gaussians to potentially intersecting tiles, depth sorting orders those assignments, and a render stage performs front-to-back alpha compositing.
 - **Representation-computation trade-off:** More or larger Gaussians can improve scene coverage but increase tile assignments and compositing work. Conservative footprints can therefore become a rendering bottleneck even when the scene representation itself is unchanged.
 - **Population control:** [[Adaptive Density Control in 3D Gaussian Splatting]] selects primitives for splitting or cloning and removes low-value primitives during training. Creation geometry, selection thresholds, and pruning criteria jointly determine scene capacity and redundancy. [[EGU-GS: Efficient Gaussian Utilization for Real-Time 3D Gaussian Splatting]] constrains child placement and combines adaptive selection with opacity and refinement pruning.
+- **Budgeted feed-forward reconstruction:** [[World-Space Latent Allocation]] groups dense multi-view candidates by predicted 3D location, assigns exact cell quotas, and decodes only the retained support. [[PocketSplat: Mobile Gaussian Reconstruction via World-Space Latent Allocation]] uses this strategy to expose output cardinality as a mobile application setting.
 - **Learned overlap reduction:** Periodic scale reset and [[Blending-Weight Entropy Regularization]] reduce footprint sizes and concentrate per-ray contributions while retaining a prescribed global Gaussian count. [[Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists]] combines these with progressive resolution scheduling to accelerate training, with measurable reconstruction-quality losses. Global primitive count, tile candidate count, and per-pixel blending work are distinct cost measures.
 - **Rasterizer optimization:** Methods such as [[Geometry-Aware Gaussian-Tile Culling]] reduce false-positive tile assignments by using more informed approximations of projected Gaussian support.
 - **Hierarchical scene selection:** [[Temporal-Aware Level-of-Detail Search]] reuses the previous frame's hierarchy cut and updates it for the current camera. VOYAGER combines this with [[Log-Space Opacity Culling]] to reduce both scene-selection work and exponential evaluations during rasterization; its additional lookup-table approximation can affect image quality.
@@ -31,6 +32,7 @@ tags:
 
 ## Important Papers
 
+- [[PocketSplat: Mobile Gaussian Reconstruction via World-Space Latent Allocation]]
 - [[EGU-GS: Efficient Gaussian Utilization for Real-Time 3D Gaussian Splatting]]
 - [[QuadBox: Accelerating 3D Gaussian Splatting with Geometry-Aware Boxes]]
 - [[Gaussian Point Splatting]]
@@ -41,6 +43,7 @@ tags:
 
 ## Related Concepts
 
+- [[World-Space Latent Allocation]]
 - [[Adaptive Density Control in 3D Gaussian Splatting]]
 - [[Geometry-Aware Gaussian-Tile Culling]]
 - [[Stochastic Transparency]]
