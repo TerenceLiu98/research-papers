@@ -27,6 +27,7 @@ Causal overlap requires that the treatment states being compared remain possible
 
 - [[papers/a-design-based-solution-for-causal-inference-with-text-can-a-language-model-be-too-large|A Design-based Solution for Causal Inference with Text: Can a Language Model Be Too Large?]]: demonstrates extreme estimated propensities in text-based neural causal estimators and proposes paired editing under preservation assumptions.
 - [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]]: develops transport-map estimators for limited overlap and displacement interpolation for partial support mismatch.
+- [[papers/conformal-diffusion-models-for-individual-treatment-effect-estimation-and-inference|Conformal Diffusion Models for Individual Treatment Effect Estimation and Inference]]: uses inverse-propensity factors together with local conformal weights; its coverage guarantee weakens with combined weight-estimation error.
 - Crump et al. (2009), "Dealing with limited overlap in estimation of average treatment effects": cited by that paper for handling extreme propensity scores.
 - D'Amour et al. (2021), "Overlap in observational studies with high-dimensional covariates": cited by that paper in discussing the relationship between adjustment dimensionality and overlap.
 
@@ -37,3 +38,4 @@ Causal overlap requires that the treatment states being compared remain possible
 - [[concepts/double-machine-learning|Double Machine Learning]]: cross-fitting and orthogonal scores retain overlap assumptions.
 - [[concepts/optimal-transport|Optimal Transport]]: aligns treatment-group covariate laws without pointwise density-ratio weighting.
 - [[concepts/structured-treatments|Structured Treatments]]: requires support for the treatment comparisons being interpreted.
+- [[concepts/individual-treatment-effects|Individual Treatment Effects]]: require support for both treatment states at covariates relevant to the target individual population.

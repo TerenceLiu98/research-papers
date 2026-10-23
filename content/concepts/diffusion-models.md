@@ -28,6 +28,7 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - Guidance and reconstruction terms create a quality-control tradeoff: stronger conditioning can improve target validity but increase distortion or instability. [[Visual Counterfactual Explanations]] make this tradeoff explicit by combining semantic validity with proximity to a source image.
 - Diffusion can also act as a training curriculum for recurrent computation rather than solely as a sampling procedure. [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] trains a timestep-free denoiser with ordered annealed corruption, then preserves its hidden memory while injecting fresh maximal noise during iterative Sudoku inference.
 - Diffusion can jointly generate data and parameters for a downstream dynamics model. Diff-MN learns the joint distribution of regularized time series and NCDE expert-mixture weights, then uses each generated pair for [[concepts/continuous-time-series-generation|Continuous Time Series Generation]]. It generates mixture coefficients over pretrained experts, rather than all neural-network parameters.
+- Diffusion models can represent conditional potential-outcome distributions rather than media. [[papers/conformal-diffusion-models-for-individual-treatment-effect-estimation-and-inference|Conformal Diffusion Models for Individual Treatment Effect Estimation and Inference]] calibrates generated outcomes with weighted conformal scores instead of treating raw sample quantiles as valid intervals.
 
 ## Important Papers
 
@@ -39,6 +40,7 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - Ho, Jain, and Abbeel (2020), "Denoising diffusion probabilistic models."
 - [[papers/diff-mn-diffusion-parameterized-moe-ncde-for-continuous-time-series-generation-with-irregular-observations|Diff-MN: Diffusion Parameterized MoE-NCDE for Continuous Time Series Generation with Irregular Observations]]
 - [[papers/difusion-reward-models|Difusion Reward Models]]
+- [[papers/conformal-diffusion-models-for-individual-treatment-effect-estimation-and-inference|Conformal Diffusion Models for Individual Treatment Effect Estimation and Inference]]
 - Ho and Salimans (2022), "Classifier-free diffusion guidance."
 - Dhariwal and Nichol (2021), "Diffusion models beat GANs on image synthesis."
 - Jeanneret, Simon, and Jurie (2022), "Diffusion models for counterfactual explanations."
