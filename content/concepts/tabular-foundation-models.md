@@ -20,6 +20,7 @@ Tabular foundation models pretrain reusable predictors across many table-generat
 - [[concepts/in-context-learning|In-Context Learning]] turns a labeled training table into context and produces test predictions in a forward pass, avoiding per-dataset optimization and hyperparameter search.
 - Table structure creates two attention axes: interactions among cells within a row and evidence across samples. Architectures differ in whether they alternate these operations or compress one axis before dataset-level inference.
 - Cross-table transfer requires representations that tolerate changing feature counts and meanings. Some models use column names or learned feature identifiers; TabICL instead derives identifiers from empirical feature distributions and adds positional information to distinguish similarly distributed columns.
+- Semantic tabular models can adapt language-derived feature representations to the prediction target. [[papers/tabstar-a-tabular-foundation-model-for-tabular-data-with-text-fields|TabSTAR]] represents target names and class values as tokens, allowing one shared prediction head to condition textual features on different tasks without dataset-specific output layers.
 - Scalability is governed by attention over rows, attention over features, and the point at which either dimension is compressed. Memory-aware batching, data selection, linear attention, learned compact contexts, and activation offloading provide complementary scaling strategies.
 - Fast inference does not remove evaluation asymmetries. Foundation models may use prediction ensembles but no validation-set tuning, while conventional baselines often use extensive tuning and a single final model.
 
@@ -29,6 +30,7 @@ Tabular foundation models pretrain reusable predictors across many table-generat
 - Hollmann et al. (2025), "Accurate Predictions on Small Data with a Tabular Foundation Model": scales and strengthens the approach in TabPFNv2.
 - [[papers/tabicl-a-tabular-foundation-model-for-in-context-learning-on-large-data|TabICL: A Tabular Foundation Model for In-Context Learning on Large Data]]: compresses columns into fixed-dimensional row representations before dataset-wise attention to support larger tables.
 - [[papers/transtab-learning-transferable-tabular-transformers-across-tables|TransTab: Learning Transferable Tabular Transformers Across Tables]]: studies cross-table pretraining through semantic column representations and fine-tuning rather than prior-data fitted inference.
+- [[papers/tabstar-a-tabular-foundation-model-for-tabular-data-with-text-fields|TabSTAR: A Tabular Foundation Model for Tabular Data with Text Fields]]: adapts textual feature representations to target semantics and shares prediction heads across heterogeneous datasets.
 
 ## Related Concepts
 
