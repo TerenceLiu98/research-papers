@@ -15,7 +15,9 @@ Representation autoencoders pair a pretrained visual representation encoder with
 
 ## Key Ideas
 
-- **Semantic features become decodable.** A pretrained visual encoder supplies representations; a corresponding decoder maps them back to images. In the RAEv2 configuration used by SAGE, DINOv3-L features are combined across layers and retain a spatial token layout.
+- **Semantic features become decodable.** A pretrained visual encoder supplies representations; a corresponding decoder maps them back to images. [[papers/improved-baselines-with-representation-autoencoders|RAEv2]] sums the final $K$ encoder layers without changing latent shape, recovering lower-level detail while retaining a spatial token layout.
+- **Encoding and alignment are complementary.** RAE uses a pretrained representation as its latent, while REPA predicts that representation from intermediate generator states. RAEv2's encoder sweep associates the former more strongly with global semantics and the latter with spatial token structure; combining them improves generation instead of acting as a redundant skip connection.
+- **An alignment head can also guide generation.** When the generator predicts the clean RAE latent, its intermediate REPA head provides a weaker clean-latent estimate for internal guidance. RAEv2 obtains both estimates in one forward pass, avoiding classifier-free guidance's unconditional pass and AutoGuidance's separately trained weak model.
 - **Spatial detail supports editing.** SAGE learns same-shape common and salient maps whose sum is passed to the frozen decoder. Keeping spatial maps allows localized attributes to retain their location and appearance before generation conditioning pools them.
 - **Reconstruction does not guarantee factor separation.** The unfactorized latent mixes target attributes and shared content. A high-quality decoder makes edits observable but does not determine which information belongs in each factor.
 - **Generation can reuse the representation space.** SAGE fine-tunes a pretrained diffusion transformer using conditional flow matching in the frozen RAE latent. Pooling only salient factors reduces reference copying relative to conditioning on full features in its experiments.
@@ -26,7 +28,7 @@ Representation autoencoders pair a pretrained visual representation encoder with
 ## Important Papers
 
 - Zheng et al. (2026), "Diffusion transformers with representation autoencoders": RAE foundation cited by SAGE.
-- Singh et al. (2026), "Improved baselines with representation autoencoders": RAEv2, used by SAGE for frozen reconstruction and generation initialization.
+- [[papers/improved-baselines-with-representation-autoencoders|Improved Baselines with Representation Autoencoders]]: introduces RAEv2's multi-layer sum, joint RAE-REPA training, and single-pass REPA guidance.
 - [[papers/sage-salient-factor-discovery-and-generation-with-visual-foundation-representations|SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations]]: factorizes the spatial latent for discovery, manipulation, and generation.
 - [[papers/dc-sae-deep-compression-semantic-autoencoder-for-faster-diffusion-convergence|DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence]]: combines semantic and pixel branches for 32x compressed latent generation.
 - [[papers/beyond-the-last-layer-multi-layer-representation-fusion-for-visual-tokenization|Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization]]: enriches final-layer RAE latents with content-adaptive features from every encoder depth.
