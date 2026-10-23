@@ -36,6 +36,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - [[concepts/causal-concept-bottlenecks|Causal Concept Bottlenecks]] replace the usual flat concept-to-task graph with directed relations among concepts, so interventions propagate through specified descendants rather than every concept acting as an independent direct cause of the task.
 - [[papers/matryoshka-concept-bottleneck-models|Matryoshka Concept Bottleneck Models]] replace a flat, unordered bottleneck with a globally ranked concept order and jointly supervised prefix heads. This lets one model serve several concept and intervention budgets, although its efficiency depends on predictive information concentrating in early prefixes.
 - [[papers/question-driven-decision-tree-via-knowledge-distillation-for-interpretable-prediction|Question-Driven Decision Tree]] replaces flat concept aggregation with a task-specific hierarchy of binary clinical questions. Its deterministic inference path is auditable, while output and attention distillation reduce the predictive cost of the constrained rule.
+- [[papers/vision-language-models-guided-graph-concept-reasoning-for-interpretable-diabetic-retinopathy-diagnosis|VLM-GCR]] represents diabetic-retinopathy lesions as a grade-conditioned graph and permits test-time corrections to concepts, relations, or grades. In its concept-free setting, vision-language reports and segmentation masks provide dynamically fused pseudo-labels for lesion concepts.
 
 ## Important Papers
 
@@ -52,6 +53,7 @@ Concept bottleneck models make a model's intermediate predictions correspond to 
 - [[DCBM: Data-Efficient Visual Concept Bottleneck Models]]
 - [[papers/matryoshka-concept-bottleneck-models|Matryoshka Concept Bottleneck Models]]
 - [[papers/question-driven-decision-tree-via-knowledge-distillation-for-interpretable-prediction|Question-Driven Decision Tree via Knowledge Distillation for Interpretable Prediction]]
+- [[papers/vision-language-models-guided-graph-concept-reasoning-for-interpretable-diabetic-retinopathy-diagnosis|Vision-Language Models Guided Graph Concept Reasoning for Interpretable Diabetic Retinopathy Diagnosis]]
 - Koh et al. (2020), "Concept bottleneck models."
 - Yuksekgonul, Wang, and Zou (2023), "Post-hoc concept bottleneck models."
 - Oikarinen, Das, Nguyen, and Weng (2023), "Label-free concept bottleneck models."
