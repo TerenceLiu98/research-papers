@@ -3,12 +3,12 @@ title: "Diff-MN: Diffusion Parameterized MoE-NCDE for Continuous Time Series Gen
 type: paper
 authors:
   - Xu Zhang
-  - Junwei Deng
   - Chang Xu
+  - Junwei Deng
   - Hao Li
   - Jiang Bian
 year: null
-source_job_id: b22bc713-9bcd-4dd2-a2be-0c006209888d
+source_job_id: f1434e16-7095-476c-b590-8a74992d18a1
 tags:
   - time-series-generation
   - irregular-time-series
