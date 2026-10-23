@@ -2,9 +2,7 @@
 title: "SparseAlign-OOC: Auditing News Image-Text Out-of-Context Detection with Sparse Autoencoders"
 type: paper
 authors:
-  - Guoxin Wang
-  - Junjie Liu
-  - Shaowu Chen
+  - Anonymous
 year: null
 tags:
   - sparse-autoencoders
