@@ -21,10 +21,12 @@ Kolmogorov-Arnold Networks (KANs) are neural networks whose edges carry learnabl
 - **Spline parameterization:** B-splines provide a flexible finite representation of each edge function. Grid refinement can increase approximation resolution, while pruning can remove weak connections.
 - **Inspection and symbolic approximation:** Plotting edge functions can reveal how individual coordinates affect intermediate and final values. Symbolic regression may approximate those functions with formulas, but interpretability depends on fidelity, stability, and the size of the composed network.
 - **Computational tradeoff:** Edge-specific functions can achieve compact parameter counts, yet their heterogeneous evaluation is less amenable to batching than standard dense matrix multiplication.
+- **Architecture determines the tradeoff:** KAN layers can replace dense or recurrent transformations, but a favorable result does not follow from the representation theorem alone. In autoencoders, reported reconstruction gains may coincide with much larger parameter counts and additional dense layers, so capacity-matched comparisons are necessary to attribute improvements to edge functions.
 
 ## Important Papers
 
 - Liu et al. (2024), "KAN: Kolmogorov-Arnold Networks," arXiv:2404.19756: introduces the modern spline-based KAN architecture.
+- [[papers/kolmogorov-arnold-network-autoencoders|Kolmogorov-Arnold Network Autoencoders]]: evaluates KAN layers for image reconstruction and latent KNN classification on MNIST, SVHN, and CIFAR-10.
 - [[papers/kolmogorov-arnold-networks-for-time-series-bridging-predictive-power-and-interpretability|Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability]]: develops T-KAN and MT-KAN for temporal forecasting.
 - Vaca-Rubio et al. (2024), "Kolmogorov-Arnold Networks (KANs) for Time Series Analysis," arXiv:2405.08790: applies KANs to time-series analysis.
 
