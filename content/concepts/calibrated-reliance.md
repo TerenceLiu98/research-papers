@@ -22,10 +22,12 @@ Calibrated reliance is the context-sensitive weighting of AI advice so that reli
 - Explanations can provide diagnostic evidence, but they can also serve as persuasive cues. In [[papers/unveiling-the-hidden-layer-ambivalent-cognitive-effects-of-xai-in-augmented-decision-making-under-uncertainty|Unveiling the Hidden Layer]], perceived transparency directly reduced negative consultations while indirectly increasing them through competence-based trust and responsibility attribution.
 - Calibration should be evaluated against ground truth and initial judgments where possible. Acceptance rates or self-reported trust alone cannot distinguish appropriate reliance from overreliance.
 - Design safeguards can preserve independent evaluation through pre-advice judgments, uncertainty and failure-boundary disclosures, explicit decision ownership, and prompts that require reasons for changing a judgment.
+- Conversational alignment is not equivalent to harmful reliance. [[papers/ai-sycophancy-and-decisions|AI Sycophancy and Decisions]] finds that a baseline assistant favored users' stated leanings while improving objective-task accuracy and depolarizing choices on average; experimentally increasing [[concepts/ai-sycophancy|AI Sycophancy]] weakened that benefit.
 
 ## Important Papers
 
 - [[papers/unveiling-the-hidden-layer-ambivalent-cognitive-effects-of-xai-in-augmented-decision-making-under-uncertainty|Unveiling the Hidden Layer: Ambivalent Cognitive Effects of XAI in Augmented Decision-Making under Uncertainty]]: separates positive and negative consultations and identifies competing direct and mediated effects of transparency.
+- [[papers/ai-sycophancy-and-decisions|AI Sycophancy and Decisions]]: separates an assistant's validating conversational behavior from its causal effect on users' final decisions across 30 tasks.
 - Lee and See (2004), "Trust in Automation: Designing for Appropriate Reliance": foundational account of matching reliance to automation capabilities.
 - Schoeffer et al. (2025), "AI Reliance and Decision Quality: Fundamentals, Interdependence, and the Effects of Interventions": develops the relationship between reliance behavior and decision quality.
 
@@ -34,3 +36,4 @@ Calibrated reliance is the context-sensitive weighting of AI advice so that reli
 - [[concepts/automation-bias|Automation Bias]]
 - [[concepts/human-oversight-of-ai|Human Oversight of AI]]
 - [[concepts/cognitive-offloading|Cognitive Offloading]]
+- [[concepts/ai-sycophancy|AI Sycophancy]]
