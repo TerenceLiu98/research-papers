@@ -23,6 +23,7 @@ Text embedding models map text to fixed-length numerical representations so that
 - Bi-encoders encode queries and documents independently, enabling offline document indexing and high throughput but limiting direct cross-document or query-document reasoning.
 - [[concepts/cross-encoders|Cross-Encoders]] instead process a text pair jointly. They can model token-level interactions across both inputs, but require a separate forward pass for every pair and therefore scale less efficiently for exhaustive search.
 - Decoder-only LLMs can also be adapted to produce embeddings. Once the output is used as a fixed vector, its inference and evaluation behavior belongs to the embedding-pipeline comparison.
+- [[concepts/multimodal-embedding-models|Multimodal Embedding Models]] extend vector comparison beyond text. Preserving the original text path can keep an existing index compatible while learned interfaces align images, audio, or video to the same backbone.
 - Quality is workload-dependent. Reasoning-heavy retrieval can favor a model that jointly reads documents, while classification, similarity, and clustering can be served efficiently with specialized embeddings.
 - Behavioral supervision can encode associations beyond semantic resemblance. In [[concepts/belief-embeddings|Belief Embeddings]], debate co-voting triplets improve held-out belief-triplet discrimination while reducing S-BERT's GLUE-STSB Spearman correlation from 0.877 to 0.718. Domain-specific geometry therefore needs evaluation alongside general semantic similarity.
 
@@ -30,6 +31,7 @@ Text embedding models map text to fixed-length numerical representations so that
 
 - [[The Embedder's Dilemma: LLMs Are Better, but at What Cost?]]
 - [[papers/a-semantic-embedding-space-based-on-large-language-models-for-modelling-human-beliefs|A semantic embedding space based on large language models for modelling human beliefs]]
+- [[papers/jina-embeddings-v5-omni-geometry-preserving-embeddings-via-locked-aligned-towers|jina-embeddings-v5-omni: Geometry-preserving Embeddings via Locked Aligned Towers]]
 - Reimers and Gurevych (2019), "Sentence-BERT: Sentence embeddings using siamese BERT-networks." [arXiv](https://arxiv.org/abs/1908.10084)
 - Wang et al. (2022), "Text embeddings by weakly-supervised contrastive pre-training." [arXiv](https://arxiv.org/abs/2212.03533)
 - Su et al. (2023), "One embedder, any task: Instruction-finetuned text embeddings." [arXiv](https://arxiv.org/abs/2212.09741)
@@ -39,6 +41,7 @@ Text embedding models map text to fixed-length numerical representations so that
 
 - [[Massive Text Embedding Benchmark (MTEB)]]
 - [[concepts/belief-embeddings|Belief Embeddings]]
+- [[concepts/multimodal-embedding-models|Multimodal Embedding Models]]
 - [[concepts/cross-encoders|Cross-Encoders]]
 - [[Cost-Aware Model Selection]]
 - Semantic textual similarity
