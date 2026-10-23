@@ -35,6 +35,7 @@ Representative points are finite support values used to approximate a population
 - [[papers/fm-criterion-for-representative-points|FM-Criterion for Representative Points]]: combines integrated squared CDF error with exact or lexicographically relaxed moment matching.
 - [[The Resampling Method via Representative Points]]
 - [[papers/a-new-non-parametric-resampling-method-based-on-representative-points|A New Non-parametric Resampling Method Based on Representative Points]]: replaces parametric fitting with KDE and reports improved coverage in many small-sample settings, while leaving the combined KDE-to-population theory and median asymptotics open.
+- [[papers/a-new-resampling-method-for-meta-gaussian-distributions|A New Resampling Method for Meta Gaussian Distributions]]: uses transformed low-discrepancy designs and k-means to construct MSE points for Gaussian-copula models with arbitrary continuous marginals.
 - Flury (1990), "Principal Points."
 - Graf and Luschgy (2007), "Foundations of Quantization for Probability Distributions."
 - Fang, Zhou, and Wang (2014), "Applications of the Representative Points in Statistical Simulations."
