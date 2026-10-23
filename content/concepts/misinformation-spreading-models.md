@@ -19,6 +19,7 @@ Misinformation spreading models describe how false or misleading information mov
 ## Key Ideas
 
 - Compartment models classify users as ignorant, spreaders, stiflers or recovery states, and can add hesitators, debunkers, or other response states to represent behavioral differences.
+- Exposure thresholds can also be heterogeneous. In the [[papers/the-maki-thompson-model-with-random-awareness|Maki-Thompson model with random awareness]], a distribution over the number of exposures required before spreading creates countably many listener states and can generate multiple peaks without an external shock.
 - Rumor dynamics need not imply false content. URL-based cascades operationalize circulating information without verifying its truth, so empirical rumor-model results should not automatically be interpreted as misinformation-specific findings.
 - Stifling can depend on informed contacts rather than spontaneous recovery. On hypergraphs, a spreader may stop only after enough of their groups are informed; waiting for further transmission can then control extinction time. Shared-URL timestamps reveal spreading activity but do not directly observe this stopping mechanism.
 - Static-network models expose the role of topology, while temporal models represent changing contacts. [[Activity-Driven Networks]] provide a tractable temporal setting in which activity heterogeneity affects exposure and thresholds.
@@ -34,6 +35,7 @@ Misinformation spreading models describe how false or misleading information mov
 
 ## Important Papers
 
+- [[papers/the-maki-thompson-model-with-random-awareness|The Maki-Thompson model with random awareness]]: extends density-dependent process limits to countably many awareness states and characterizes final and peak spreader proportions.
 - [[papers/rumor-propagation-on-hypergraphs|Rumor propagation on hypergraphs]]: introduces group-aware stifling, reports continuous transitions in tested regimes, and finds Telegram cascade statistics compatible with simulations near criticality.
 - [[How the Hesitation Mechanism Suppresses Misinformation Spreading on Time-Varying Networks]]
 - [[Who Should Fight the Spread of Fake News?]]
