@@ -73,7 +73,7 @@ The paper uses "dissonance" broadly for distance in the learned space. Because t
 | --- | --- | --- |
 | S-BERT, fine-tuned | 0.590 (0.006) | 0.590 (0.005) |
 | S-BERT, before fine-tuning | 0.565 (0.002) | 0.527 (0.002) |
-| BERT, fine-tuned | 0.579 (0.002) | 0.578 (0.001) |
+| BERT, fine-tuned | 0.579 (0.002) | 0.578 (0.002) |
 | BERT, before fine-tuning | 0.541 (0.001) | 0.496 (0.001) |
 | Random choice | 0.499 (0.002) | 0.499 (0.002) |
 | Majority selection | 0.532 (0.001) | 0.347 (0.001) |
@@ -85,7 +85,7 @@ The Llama 2 prompt supplies prior beliefs and requests a binary stance. Context 
 
 **Predictability and relative dissonance.** Longer histories and smaller effective radii are associated with better prediction. Religion and philosophy are more predictable than sports, games, and humorous topics. Accuracy approaches 0.5 when both candidate beliefs are far from a user's profile. The proportion selecting the nearer belief rises approximately linearly with $d^*$ over the observed range, from about 0.5 near zero to close to 1 around 1.5. Across debate categories, mean $d^*$ correlates with prediction F1 at $r=0.921$ (Figures 4-5).
 
-The authors report no significant overall accuracy differences by political party, religion, or sex, and no significant differences in the relative-dissonance relationship for Democrat/Republican or Christian/Atheist comparisons ($P>0.05$ across tested ranges). These null findings do not establish group equivalence. The main text also reports robustness under alternative splits and category downsampling, with details assigned to supplementary material absent from the supplied Markdown.
+The authors report no significant overall accuracy differences by political party, religion, or sex, and no significant differences in the relative-dissonance relationship for Democrat/Republican or Christian/Atheist comparisons ($P>0.05$ across tested ranges). These null findings do not establish group equivalence. Supplementary checks repeat the analysis after capping highly active users at 100 debates, capping categories at 5,000 debates, excluding political debates, separating training and test users, and splitting debates chronologically. Macro F1 ranges from 0.566 for the user split to 0.599 without politics. The positive relationship between relative dissonance and choosing the nearer stance, and the negative relationship between effective radius and accuracy, persist across these scenarios (Tables S5-S7; Figures S19-S23).
 
 ## Limitations
 
