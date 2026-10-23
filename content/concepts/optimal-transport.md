@@ -26,6 +26,7 @@ Optimal transport compares probability distributions by finding a transport plan
 - Transport plans can also serve directly as normalized semantic relations. [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic]] uses separate entropic plans from documents to topics and from topics to words as its document-topic and topic-word distributions.
 - Unbalanced structured transport can align learned dictionaries whose active supports and total semantic mass differ. [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] alternates sample-local and dictionary-global couplings, combining within-modality geometry, weak cross-modal evidence, usage-aware marginals, and anti-hubness feedback.
 - Population equality does not imply zero empirical distance: independent finite samples generally differ, producing a positive expected transport cost even under the null. The magnitude depends on sample sizes and support geometry, and can be substantial in sparse or high-dimensional settings.
+- In political representation, EMD can compare full citizen-preference and elite-position distributions without reducing each group to a mean or imposing shared histogram bins. [[papers/a-new-measure-of-congruence-the-earth-movers-distance|Lupu, Selios, and Warner (2017)]] use this formulation for unidimensional and multidimensional [[concepts/mass-elite-congruence|mass-elite congruence]].
 - Transport maps can implement covariate adjustment in observational causal inference. [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]] pushes the control covariate law toward the treated law, evaluates an outcome regression at transported points, and uses displacement interpolation to limit extrapolation when supports only partly overlap.
 - Transport maps can also encode untreated temporal evolution. [[papers/an-optimal-transport-approach-to-estimating-causal-effects-via-nonlinear-difference-in-differences|An Optimal Transport Approach to Estimating Causal Effects via Nonlinear Difference-in-Differences]] learns a Brenier map between control-group periods and applies it to the treated pre-period law, under cyclical-comonotonicity and support assumptions.
 - Transport maps can preserve treatment-space geometry in [[concepts/coupling-designs|Coupling Designs]]. Dispersed uniform samples are pushed to continuous, discrete, dependent, or constrained target treatment distributions while retaining each unit's required marginal assignment law.
@@ -35,6 +36,7 @@ Optimal transport compares probability distributions by finding a transport plan
 
 ## Important Papers
 
+- [[papers/a-new-measure-of-congruence-the-earth-movers-distance|A New Measure of Congruence: The Earth Mover's Distance]] (Lupu, Selios, and Warner, 2017): applies EMD to political preference distributions and shows that the congruence measure changes conclusions about electoral systems and Latin American representation.
 - [[papers/the-earth-moves-but-so-does-the-bias-systematic-upward-bias-of-the-wasserstein-earth-movers-distance-and-permutation-based-null-calibration|The Earth Moves, But So Does the Bias]] (Hung, 2026): Examines finite-sample null distances and permutation calibration for distributional comparisons.
 - [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]]: uses transport maps in place of inverse-density-ratio weighting for average causal-effect estimation under limited overlap.
 - [[papers/an-optimal-transport-approach-to-estimating-causal-effects-via-nonlinear-difference-in-differences|An Optimal Transport Approach to Estimating Causal Effects via Nonlinear Difference-in-Differences]] (Torous, Gunsilius, and Rigollet, 2024): uses a transport map to identify multivariate counterfactual outcome distributions in a two-period design.
@@ -52,6 +54,7 @@ Optimal transport compares probability distributions by finding a transport plan
 
 ## Related Concepts
 
+- [[concepts/mass-elite-congruence|Mass-Elite Congruence]]
 - [[Tree-Wasserstein Distance]]
 - [[Unsupervised Ground Metric Learning]]
 - [[Geodesic Distance]]
