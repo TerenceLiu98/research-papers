@@ -21,6 +21,7 @@ Automation bias is the tendency to use automated recommendations as substitutes 
 - Responsibility matters alongside trust. When users assign more causal responsibility for an outcome to an AI, their perceived need to justify and verify the final decision may weaken.
 - [[papers/unveiling-the-hidden-layer-ambivalent-cognitive-effects-of-xai-in-augmented-decision-making-under-uncertainty|Unveiling the Hidden Layer]] finds this ambivalence empirically: transparency directly reduces harmful consultations, while trust and responsibility pathways increase them.
 - Mitigation should target behavior rather than transparency alone. Independent judgments before AI exposure, cognitive forcing functions, uncertainty cues, explicit responsibility framing, and required justifications can preserve active evaluation.
+- In [[concepts/governed-ai-peer-review|Governed AI Peer Review]], a shared AI assessment can anchor multiple reviewers in the same direction. Randomized holdouts and structured logs can make this correlated-error channel measurable, although measurement alone does not eliminate it.
 
 ## Important Papers
 
@@ -28,9 +29,11 @@ Automation bias is the tendency to use automated recommendations as substitutes 
 - Skitka, Mosier, and Burdick (1999), "Does Automation Bias Decision-Making?": establishes automation bias as a decision-making phenomenon.
 - Goddard, Roudsari, and Wyatt (2012), "Automation Bias: A Systematic Review of Frequency, Effect Mediators, and Mitigators": synthesizes evidence about prevalence and intervention.
 - Buçinca, Malaya, and Gajos (2021), "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making": tests a behavioral mitigation strategy.
+- [[papers/fighting-fire-with-fire-infusing-artificial-intelligence-into-peer-review-to-sustain-quality-scholarship|Fighting Fire with Fire]]: models overreliance on a common AI review as a nondiversifiable source of panel error.
 
 ## Related Concepts
 
 - [[concepts/calibrated-reliance|Calibrated Reliance]]
 - [[concepts/human-oversight-of-ai|Human Oversight of AI]]
 - [[concepts/cognitive-offloading|Cognitive Offloading]]
+- [[concepts/governed-ai-peer-review|Governed AI Peer Review]]
