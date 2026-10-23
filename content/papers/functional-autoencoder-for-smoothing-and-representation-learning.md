@@ -69,7 +69,7 @@ The method has several architecture and optimization hyperparameters, and grid s
 
 - [[Function-Space Autoencoders]]
 - Functional data analysis
-- Functional principal component analysis
+- [[Functional Principal Component Analysis]]
 - Basis expansion
 - Curve smoothing
 - Representation learning
@@ -77,9 +77,9 @@ The method has several architecture and optimization hyperparameters, and grid s
 ## Related Papers
 
 - [[Autoencoders in Function Space]]
-- Hsieh, Sun, Wang, and Honavar (2021), "Functional autoencoders for functional data representation learning."
-- Wang and Cao (2024), "Functional nonlinear learning."
-- Yao, Mueller, and Wang (2021), "Deep learning for functional data analysis with adaptive basis layers."
+- [[Functional Autoencoders for Functional Data Representation Learning]]
+- [[Functional Nonlinear Learning]]
+- [[Deep Learning for Functional Data Analysis with Adaptive Basis Layers]]
 - Wu, Beaulac, and Cao (2023), "Neural networks for scalar input and functional output."
 - Ramsay and Silverman (2005), "Functional Data Analysis."
 
