@@ -18,6 +18,7 @@ Socio-political event extraction converts unstructured reports into structured r
 ## Key Ideas
 
 - **Mentions are not necessarily events.** Modality, negation, ambiguity, and cross-sentence coreference determine whether text reports an occurrence and whether several mentions describe the same real-world event.
+- **Event coding can be abstractive.** Operational databases often normalize actors and places, resolve relative dates, aggregate scattered casualty reports, and encode expert conclusions whose values do not appear as contiguous source spans. Models for these records must predict grounded structured values rather than only copy mentions.
 - **Time and place require grounding.** Relative dates must be resolved against document context, while place names require disambiguation and may need mapping to coordinates or administrative units.
 - **The ontology shapes the evidence.** Schemas such as CAMEO define actors, actions, and event types. Fine-grained categories can improve analytical usefulness while increasing annotation difficulty and limiting adaptation to new forms of political action.
 - **Source coverage is part of measurement.** News availability, censorship, language resources, local reporting conventions, and media agendas affect which events can be observed. Better extraction cannot recover events absent from the source corpus.
@@ -27,6 +28,7 @@ Socio-political event extraction converts unstructured reports into structured r
 
 ## Important Papers
 
+- [[papers/abstractive-event-analysis-of-armed-conflicts-introducing-the-ucdp-aec-dataset|Abstractive Event Analysis of Armed Conflicts: Introducing the UCDP-AEC Dataset]]: introduces UCDP-AEC and benchmarks generative models on complete expert-coded conflict-event records.
 - [[papers/challenges-and-applications-of-automated-extraction-of-socio-political-events-at-the-age-of-large-language-models|Challenges and Applications of Automated Extraction of Socio-political Events at the Age of Large Language Models]]: synthesizes technical and governance challenges and proposes a human-centered research agenda for LLM-based extraction.
 - Cai and O'Connor (2023), "A Monte Carlo Language Model Pipeline for Zero-Shot Sociopolitical Event Extraction": studies zero-shot event extraction with a language-model pipeline.
 - Olsen et al. (2024), "Socio-Political Events of Conflict and Unrest: A Survey of Available Datasets": compares dataset traditions and their differing representations of events.
