@@ -31,6 +31,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - SAE features can seed a post-hoc concept bottleneck rather than serve as the final explanation vocabulary. [[Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations|PCBM-ReD]] finds candidate visual features with an SAE, assigns them language labels from highly activating images, and then selects text-embedded concepts by representation reconstruction.
 - Separate SAEs can also induce concept dictionaries in different modalities. [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] learns visual and textual dictionaries independently, uses usage-entropy regularization to broaden basis utilization, and fuses bases afterward rather than forcing both modalities into one pretrained joint embedding space.
 - In multimodal detector audits, separate SAEs can serve different explanatory levels. [[papers/sparsealign-ooc-auditing-news-image-text-out-of-context-detection-with-sparse-autoencoders|SparseAlign-OOC]] uses pair-space features for human inspection and hidden-state features for decision tracing, then tests activation coverage and interventions rather than treating readable groups alone as evidence of behavioral relevance.
+- Dense-retrieval embeddings can also be decomposed into labeled latent concepts. [[concepts/concept-level-sparse-retrieval|Concept-Level Sparse Retrieval]] uses those activations as an inverted-index vocabulary, exposing concept-level score contributions while trading off reconstruction fidelity, individual-feature coherence, and index cost.
 
 ## Important Papers
 
@@ -43,6 +44,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[Beyond Top Words: MonoTM for Topic Modeling with Interpretable Monosemantic Features]]
 - [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
 - [[papers/sparsealign-ooc-auditing-news-image-text-out-of-context-detection-with-sparse-autoencoders|SparseAlign-OOC: Auditing News Image-Text Out-of-Context Detection with Sparse Autoencoders]]
+- [[papers/decoding-dense-embeddings-sparse-autoencoders-for-interpreting-and-discretizing-dense-retrieval|Decoding Dense Embeddings: Sparse Autoencoders for Interpreting and Discretizing Dense Retrieval]]
 - Pach et al. (2025), "Sparse autoencoders learn monosemantic features in vision-language models."
 - Gao et al. (2025), "Scaling and evaluating sparse autoencoders."
 - Huben et al. (2024), "Sparse autoencoders find highly interpretable features in language models."
@@ -53,6 +55,7 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - [[Sparse Autoencoder Receptive Fields]]
 - [[Concept Bottleneck Models]]
 - [[Concept Bottleneck Sparse Autoencoders]]
+- [[concepts/concept-level-sparse-retrieval|Concept-Level Sparse Retrieval]]
 - [[Model Steerability]]
 - [[Continuous Topic Models]]
 - [[Mechanistic Topic Models]]
