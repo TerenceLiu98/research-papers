@@ -36,8 +36,10 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - [[papers/fm-ts-flow-matching-for-time-series-generation|FM-TS: Flow Matching for Time Series Generation]]: applies rectified flow to unconditional time-series generation and reuses the trained model for forecasting and imputation through masked inference.
 - [[papers/value-flows|Value Flows]]: return-distribution modeling, initial-field mean estimation, and flow-sensitivity-based weighting.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]]: supports a flow-matching prediction objective, although its reported objective comparisons do not establish a numerical advantage for flow matching.
+- [[papers/alignment-matters-inside-and-out-in-equivariant-graph-flow-matching|Alignment Matters Inside and Out in Equivariant Graph Flow Matching]]: shows that equivariant graph models still require choices of node representatives and graph pairings, and studies their effect on few-step generation.
 
 ## Related Concepts
 
 - [[concepts/distributional-reinforcement-learning|Distributional Reinforcement Learning]]: a use of conditional flows for discounted-return distributions.
 - [[concepts/diffusion-models|Diffusion Models]]: related generative methods based on reversing noise corruption; the objectives and sampling formulations should be distinguished.
+- [[concepts/graph-quotient-alignment|Graph Quotient Alignment]]: adapts coupling selection to data defined only up to node permutation.

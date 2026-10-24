@@ -34,6 +34,7 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - [[papers/the-z-gromov-wasserstein-distance|The Z-Gromov-Wasserstein Distance]] (Bauer, Needham, Nishino, and Mémoli): develops a metric-target-valued generalization and transfers metric, completeness, contractibility, and geodesicity results to its special cases.
 - [[papers/structure-centric-graph-foundation-model-via-geometric-bases|Structure-Centric Graph Foundation Model via Geometric Bases]]: uses learned reference metric-measure spaces to align graph topology and condition feature projection across domains.
 - [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
+- [[papers/alignment-matters-inside-and-out-in-equivariant-graph-flow-matching|Alignment Matters Inside and Out in Equivariant Graph Flow Matching]] (Piening and Wald, 2026): uses a vector-valued GW relaxation to approximate node alignment inside graph pairs before flow-matching interpolation.
 
 ## Related Concepts
 
@@ -43,3 +44,4 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - [[concepts/bi-gromov-dynamic-time-warping|Bi-Gromov Dynamic Time Warping]]: combines temporal structural alignment with spatial GW modulation.
 - [[concepts/transfer-operators|Transfer Operators]]: describes density evolution induced by transport couplings.
 - [[concepts/graph-foundation-models|Graph Foundation Models]]: transferable graph models that may use intrinsic structure as a cross-domain reference.
+- [[concepts/graph-quotient-alignment|Graph Quotient Alignment]]: interprets hard node alignment as representative selection in a graph quotient and uses GW as a relaxation.
