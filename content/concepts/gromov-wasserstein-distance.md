@@ -23,6 +23,7 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - In geo-referenced time-series clustering, GW compares the arrangements of measurement sites across regions. It does not directly enforce geographic adjacency or temporal ordering.
 - GW can align concept dictionaries that live in different feature spaces by comparing their internal relational geometry. [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] combines this structural term with activation-signature evidence and unbalanced marginal penalties at both sample-local and full-dictionary scales.
 - A regularized GW plan can be normalized into a [[concepts/transfer-operators|Transfer Operator]]. Its spectral modes can identify coherent structures across two snapshots, while the GW objective restricted to each paired structure measures intrinsic shape preservation.
+- [[concepts/z-gromov-wasserstein-distance|Z-Gromov-Wasserstein Distance]] replaces scalar kernels with kernels valued in an arbitrary metric space, placing attributed-network and several other GW variants in one framework.
 
 ## Important Papers
 
@@ -30,12 +31,14 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - Peyre, Cuturi, and Solomon (2016), "Gromov-Wasserstein Averaging of Kernel and Distance Matrices": cited basis for structural barycenters.
 - [[papers/a-new-clustering-strategy-for-geo-referenced-time-series-based-on-optimal-transport|A New Clustering Strategy for Geo-Referenced Time Series Based on Optimal Transport]]: uses spatial GW discrepancies to weight temporal Gromov-DTW costs and constructs spatial cluster prototypes.
 - [[papers/gromov-wasserstein-transfer-operators|Gromov-Wasserstein Transfer Operators]] (Beier, 2023): estimates rotational dynamics from snapshot couplings and clusters the induced operator into coherent structures.
+- [[papers/the-z-gromov-wasserstein-distance|The Z-Gromov-Wasserstein Distance]] (Bauer, Needham, Nishino, and Mémoli): develops a metric-target-valued generalization and transfers metric, completeness, contractibility, and geodesicity results to its special cases.
 - [[papers/structure-centric-graph-foundation-model-via-geometric-bases|Structure-Centric Graph Foundation Model via Geometric Bases]]: uses learned reference metric-measure spaces to align graph topology and condition feature projection across domains.
 - [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
 
 ## Related Concepts
 
 - [[concepts/optimal-transport|Optimal Transport]]: ordinary transport uses cross-space ground costs.
+- [[concepts/z-gromov-wasserstein-distance|Z-Gromov-Wasserstein Distance]]: generalizes the kernel codomain from real values to a metric space.
 - [[concepts/wasserstein-barycenters|Wasserstein Barycenters]]: distributional representatives in a shared ground geometry.
 - [[concepts/bi-gromov-dynamic-time-warping|Bi-Gromov Dynamic Time Warping]]: combines temporal structural alignment with spatial GW modulation.
 - [[concepts/transfer-operators|Transfer Operators]]: describes density evolution induced by transport couplings.
