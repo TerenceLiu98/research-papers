@@ -21,12 +21,15 @@ Agentic time-series forecasting treats prediction as a sequence of context gathe
 - **Context has a forecast-time boundary.** Future target values are unavailable, while scheduled events or genuinely known future covariates may be valid inputs. The provenance and availability time of textual context matter as much as the numerical split.
 - **Reasoning needs constrained actions.** Domain rules, temporal features, and retrieved analogues can justify shifting, smoothing, or reshaping a trajectory. Unsupported changes can introduce hallucinated patterns or destroy temporal continuity.
 - **Reflection is a validation stage, not a guarantee.** Checks can catch invalid lengths, misaligned timestamps, unsupported adjustments, and physical inconsistencies. Additional reflection loops can still amplify small errors or anchor predictions to irrelevant historical segments.
+- **Separate revision from deployment selection.** Historical forecast errors can guide code changes on an adaptation block, while a later block decides which retained pipeline to deploy. TIMERSI further conditions that choice on similar completed forecast windows, so the best average candidate need not be used at every origin.
+- **Chronology constrains feedback.** A forecast can use outcomes only after its full horizon has completed. Keeping adaptation, candidate-selection, and deployment windows in temporal order distinguishes legitimate task adaptation from target leakage.
 - **Component attribution requires ablations.** Comparisons should separately remove retrieval, reasoning, reflection, and individual context sources. End-to-end gains alone cannot identify whether the agent, candidate forecaster, external information, or model selection produced the improvement.
 - **System cost is part of the evaluation.** Multi-turn LLM calls add latency, token use, and energy overhead relative to single-pass forecasting. Accuracy comparisons should be accompanied by resource and reliability measurements for deployment decisions.
 
 ## Important Papers
 
 - [[papers/alphacast-a-human-wisdom-llm-intelligence-co-reasoning-framework-for-interactive-time-series-forecasting|AlphaCast: A Human Wisdom-LLM Intelligence Co-Reasoning Framework for Interactive Time Series Forecasting]] organizes forecasting into Investigator, Generator, and Reflector stages supported by temporal features, domain knowledge, contextual attributes, and a clustered case library.
+- [[papers/timersi-towards-self-improved-agentic-deployment-for-time-series-foundation-models|TIMERSI: Towards Self-Improved Agentic Deployment for Time-Series Foundation Models]] uses a coding agent to revise pipelines around frozen forecasters on historical adaptation windows, then selects among retained pipelines using later and newly completed forecasts.
 - Cheng et al. (2026), "Position: Beyond Model-Centric Prediction-Agentic Time Series Forecasting": frames forecasting as an agentic process beyond fixed input-output prediction.
 - Tao et al. (2026), "Cast-R1: Learning Tool-Augmented Sequential Decision Policies for Time Series Forecasting": studies learned tool-augmented policies for sequential forecasting decisions.
 
@@ -36,4 +39,5 @@ Agentic time-series forecasting treats prediction as a sequence of context gathe
 - [[concepts/time-series-foundation-models|Time Series Foundation Models]]
 - [[concepts/in-context-learning|In-Context Learning]]
 - [[concepts/forecast-combination|Forecast Combination]]
+- [[concepts/recursive-self-improvement|Recursive Self-Improvement]]
 - [[concepts/decoupled-scientific-reasoning-and-tool-orchestration|Decoupled Scientific Reasoning and Tool Orchestration]]
