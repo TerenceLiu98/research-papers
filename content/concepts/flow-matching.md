@@ -28,6 +28,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - **Mean at initial time.** At the ideal minimizer for independent noise and data, $v^*(\epsilon,0)=\mathbb E[X]-\epsilon$. Averaging over zero-mean noise therefore recovers the target mean. A single learned-field evaluation is only an estimate.
 - **Flow sensitivity.** With $J_t=\partial\phi_t/\partial\epsilon$, differentiation of the flow ODE gives $dJ_t/dt=J_v(\phi_t,t)J_t$ and $J_0=I$. Value Flows uses this relation to compute a first-order approximation to return variance. The sensitivity equation is distinct from the approximation that turns sensitivities into a distribution-wide variance estimate.
 - **Bootstrapped targets.** In [[concepts/distributional-reinforcement-learning|Distributional Reinforcement Learning]], returns are not simply a fixed dataset of labels. Value Flows constructs temporal-difference targets and combines distributional consistency with bootstrapped conditional flow matching; ordinary flow matching alone does not impose Bellman consistency.
+- **Source distributions and constraints.** Flow matching does not require a Gaussian source, and feasibility corrections can be inserted into numerical sampling. [[papers/flowplace-flow-matching-for-chip-placement|FlowPlace]] uses a uniform canvas prior for [[concepts/chip-placement|Chip Placement]] and repeatedly projects predicted endpoints onto non-overlapping layouts; this application-specific projection is separate from the flow-matching objective itself.
 
 ## Important Papers
 
@@ -37,9 +38,11 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - [[papers/value-flows|Value Flows]]: return-distribution modeling, initial-field mean estimation, and flow-sensitivity-based weighting.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]]: supports a flow-matching prediction objective, although its reported objective comparisons do not establish a numerical advantage for flow matching.
 - [[papers/alignment-matters-inside-and-out-in-equivariant-graph-flow-matching|Alignment Matters Inside and Out in Equivariant Graph Flow Matching]]: shows that equivariant graph models still require choices of node representatives and graph pairings, and studies their effect on few-step generation.
+- [[papers/flowplace-flow-matching-for-chip-placement|FlowPlace: Flow Matching for Chip Placement]]: combines a graph-conditioned velocity field with a uniform geometric prior and progressive legalization, reporting 20-50 sampling steps and zero-overlap macro layouts on two benchmark suites.
 
 ## Related Concepts
 
 - [[concepts/distributional-reinforcement-learning|Distributional Reinforcement Learning]]: a use of conditional flows for discounted-return distributions.
 - [[concepts/diffusion-models|Diffusion Models]]: related generative methods based on reversing noise corruption; the objectives and sampling formulations should be distinguished.
 - [[concepts/graph-quotient-alignment|Graph Quotient Alignment]]: adapts coupling selection to data defined only up to node permutation.
+- [[concepts/chip-placement|Chip Placement]]: a constrained geometric application in which the generated state must satisfy boundaries and non-overlap while supporting downstream physical-design objectives.
