@@ -25,6 +25,7 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 - **Discrete latent traces offer a controllable middle ground.** A model can generate a bounded sequence from a reserved nonverbal vocabulary before answering. Unlike continuous hidden-state methods, this preserves an explicit token-level interface for budget control and perturbation tests, but token sequences are not automatically interpretable.
 - **Reconstruction targets shape compressed reasoning traces.** A discrete latent sequence learned by reconstructing a spatial rendering can emphasize step layout and dependencies instead of exact wording. Hybrid methods can pair that global representation with a small number of explicit, low-confidence textual steps, although reconstruction evidence alone does not identify the model's internal reasoning mechanism.
 - **Multilingual behavior tests universality.** Similar layer-wise trajectories across languages can coexist with unequal accuracy and unequal alignment to English. Shared geometry does not by itself establish language-independent reasoning, while English alignment does not prove that the model literally translates every problem internally.
+- **Local objectives can organize recurrent computation.** [[papers/thinking-with-looped-flows|Thinking with Looped Flows]] orders denoising problems from high to low noise and carries hidden features between them while stopping gradients across steps. The visible probability-flow state and recurrent state then evolve together at inference, providing separate channels for probabilistic transport and accumulated computation.
 
 ## Important Papers
 
@@ -36,6 +37,7 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 - Pfau, Merrill, and Bowman (2024), "Let's Think Dot by Dot: Hidden Computation in Transformer Language Models": shows that transformers can use filler tokens as a computational medium.
 - Yang et al. (2024), "Do Large Language Models Latently Perform Multi-Hop Reasoning?": probes whether intermediate factual answers are represented internally.
 - Hao et al. (2025), "Training Large Language Models to Reason in a Continuous Latent Space": trains recurrent latent computation rather than requiring every step to be verbalized.
+- [[papers/thinking-with-looped-flows|Thinking with Looped Flows]]: trains recurrent hidden states through temporally aligned local denoising losses and scales structured reasoning with additional flow-integration steps.
 
 ## Related Concepts
 
@@ -45,4 +47,5 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 - Logit lens and tuned lens
 - Test-time computation
 - Recurrent depth
+- [[concepts/flow-matching|Flow Matching]]
 - Benchmark contamination
