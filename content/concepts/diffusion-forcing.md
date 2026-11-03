@@ -9,7 +9,7 @@ tags:
 
 ## Overview
 
-Diffusion forcing models sequences with a separate noise level for each frame or token. This permits a trajectory to contain relatively clean context alongside noisy future elements, connecting conditional next-step prediction with sequence denoising. Nano World Models uses this interface to share training and sampling machinery across future-video prediction settings.
+Diffusion forcing models sequences with a separate noise level for each frame or token. This permits a trajectory to contain relatively clean context alongside noisy future elements, connecting conditional next-step prediction with sequence denoising. Nano World Models uses this interface to share training and sampling machinery across future-video prediction settings, while Diffusion ReRoll uses it to selectively re-noise and revise regions of a robotic prediction horizon.
 
 ## Key Ideas
 
@@ -18,13 +18,16 @@ Diffusion forcing models sequences with a separate noise level for each frame or
 - **Finite context can support extended generation.** Predicted frames become context for later predictions, and a sliding attention window bounds the history. This enables longer sequences than the training window while retaining the risk of compounding error.
 - **Sampling budget affects fidelity.** NanoWM reports lower rollout LPIPS with more DDIM steps. This is evidence that denoising effort can mitigate error in its video-generation setting, without demonstrating unlimited temporal consistency.
 - **Action conditioning needs separate evidence.** A denoising model can learn future features while barely using actions. NanoWM's PushT diagnostics compare ground-truth, zero, and random actions to distinguish action-sensitive prediction from visually or semantically plausible extrapolation.
+- **Per-token schedules can support revision as well as causal generation.** [[concepts/revisable-denoising|Revisable Denoising]] uses upward noise-level transitions to reopen partially resolved regions. Diffusion ReRoll reports that these schedules work best when training also exposes the model to aligned, locally structured noise profiles.
 
 ## Important Papers
 
 - Chen et al. (2024), "Diffusion forcing: Next-token prediction meets full-sequence diffusion," is the foundational method cited by Nano World Models.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]] uses diffusion forcing as a shared experimental interface and measures target-schedule effects, action sensitivity, and rollout error.
+- [[papers/diffusion-reroll-revisable-denoising-for-robotic-sequential-prediction|Diffusion ReRoll: Revisable Denoising for Robotic Sequential Prediction]] combines per-token schedule matrices with selective re-noising and linear-chunk training for robotic sequence generation.
 
 ## Related Concepts
 
 - [[concepts/diffusion-models|Diffusion Models]] provide the iterative denoising foundation.
 - [[concepts/world-models|World Models]] use learned temporal predictions for simulation and planning; a sequence generator's usefulness for control requires additional evaluation.
+- [[concepts/revisable-denoising|Revisable Denoising]] uses nonmonotonic token-wise schedules to revisit earlier sequence decisions.
