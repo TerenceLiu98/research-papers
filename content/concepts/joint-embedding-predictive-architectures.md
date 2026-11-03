@@ -27,6 +27,7 @@ Joint-embedding predictive architectures learn representations by predicting a t
 
 - **Hierarchies separate dynamics from goal scoring:** H-JEPA learns distinct latent spaces at coarser strides. Upper representations can improve goal costs even with fine-scale rollout dynamics fixed, while top-down subgoals additionally shorten planning problems. These benefits vary by environment.
 - **Marginal diversity is not temporal informativeness:** An encoder can preserve scene identity across episodes while ignoring motion within each episode. H-JEPA's DROID ablations show high representation rank under SIGReg without useful planning fidelity; inverse-dynamics supervision restores action-relevant information in that recipe. Its population collapse construction assumes an observable, atomless episode background and does not establish that every predictive objective must collapse.
+- **Non-collapse is not dynamics robustness:** SIGReg can maintain a diverse encoder distribution without constraining how an action-conditioned predictor responds to nuisance-induced latent shifts. [[papers/flow-jepa-robust-latent-dynamics-for-jepa-world-models-via-flow-matching|Flow-JEPA]] reports that replacing recursive one-step regression with trajectory-level conditional flow matching reduces degradation under localized visual noise, while leaving the responsible mechanism unresolved.
 
 ## Important Papers
 
@@ -36,6 +37,7 @@ Joint-embedding predictive architectures learn representations by predicting a t
 - [[papers/h-jepa-end-to-end-learning-of-hierarchical-world-models-for-visual-planning|H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning]] tests learned temporal abstractions in simulation and offline robot planning, and distinguishes distributional collapse prevention from preservation of action-dependent motion.
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]] analyzes exact and approximate latent recovery for alignment with Gaussian regularization, with explicit limits on dynamics and planning claims.
 - [[papers/levljepa-end-to-end-vision-language-pretraining-without-negatives|LeVLJEPA: End-to-End Vision-Language Pretraining Without Negatives]] extends predictive embedding learning to paired images and text using stop-gradient cross-modal targets and per-modality SIGReg.
+- [[papers/flow-jepa-robust-latent-dynamics-for-jepa-world-models-via-flow-matching|Flow-JEPA: Robust Latent Dynamics for JEPA World Models via Flow Matching]] contrasts autoregressive and trajectory-level vector-field dynamics in a reconstruction-free visual planning model.
 - Assran et al. (2023), "Self-supervised learning from images with a joint-embedding predictive architecture," is cited by TS-JEPA as an image-domain predecessor.
 - Bardes et al. (2024), "V-JEPA: Latent video prediction for visual representation learning," is cited by TS-JEPA as a video-domain predecessor.
 
