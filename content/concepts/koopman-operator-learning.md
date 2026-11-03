@@ -21,6 +21,7 @@ Koopman operator learning seeks observables of a nonlinear dynamical system whos
 - **Operator estimation.** Dynamic mode decomposition and extended dynamic mode decomposition estimate a linear transition from paired snapshots, often using a pseudoinverse. Learned global operators can complement sample-specific estimates when local matrices are ill-conditioned.
 - **Long-horizon stability.** Repeated matrix powers can amplify small representation or operator errors. Spectral properties, reconstruction residuals, and forecast degradation across horizons are therefore central diagnostics.
 - **Residual correction.** A nominal Koopman trajectory can be paired with control inputs, residual networks, or filtering updates. Such corrections may improve forecasts, but they also mean the overall model is not purely linear in its observed inputs.
+- **Stable latent generators.** A continuous-time latent operator can be decomposed into skew-symmetric and dissipative components, separating rotational behavior from contraction while constraining unstable growth. [[papers/prismflow-residual-dynamics-for-flow-matching-in-time-series-generation|PrismFlow]] uses a bank of such operators to produce mode-specific residual velocities; the nonlinear encoder and decoder still determine whether those finite-dimensional modes correspond to meaningful data dynamics.
 
 ## Important Papers
 
@@ -28,6 +29,7 @@ Koopman operator learning seeks observables of a nonlinear dynamical system whos
 - Schmid (2010), "Dynamic Mode Decomposition of Numerical and Experimental Data": develops a data-driven spectral decomposition used in practical operator estimation.
 - Liu et al. (2023), "Koopa: Learning Non-stationary Time Series Dynamics with Koopman Predictors": applies Koopman predictors to long-term deterministic time-series forecasting.
 - [[papers/k2vae-a-koopman-kalman-enhanced-variational-autoencoder-for-probabilistic-time-series-forecasting|K2VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting]]: combines local and global learned operators with Kalman-style residual correction and uncertainty modeling.
+- [[papers/prismflow-residual-dynamics-for-flow-matching-in-time-series-generation|PrismFlow: Residual Dynamics for Flow Matching in Time-Series Generation]]: uses dissipative Koopman-inspired operators as hard-routed residual experts within a flow-matching generator.
 
 ## Related Concepts
 
