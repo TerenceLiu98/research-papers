@@ -27,6 +27,7 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 - Saturating social response can create agreement equilibria without external bias. In [[papers/behavior-of-nonlinear-opinion-dynamics-over-large-networks|Behavior of Nonlinear Opinion Dynamics over Large Networks]], increasing attention past a spectral threshold produces a pitchfork bifurcation, and graphon approximations connect the emerging equilibrium profile and opinion distribution to large-network structure.
 - In [[Bounded Confidence Models]], agents interact only within an opinion-distance threshold. Structured initial distributions and heterogeneous willingness to compromise can then shift the boundaries between fragmentation, polarization, and consensus.
 - Multilayer models let one agent carry context-specific opinions. In [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]], symmetric reconciliation between two personal states can increase within-agent consistency while delaying population-wide consensus.
+- Continuous private opinions and discrete public choices can be modeled as separate but coupled states. In [[papers/multi-dimensional-multi-option-opinion-dynamics-leads-to-the-emergence-of-clusters-in-social-networks|Multi-dimensional multi-option opinion dynamics leads to the emergence of clusters in social networks]], action similarity strengthens influence on fixed social ties; cooperative and competitive responses destabilize neutrality at spectral thresholds and produce consensus or polarized branches, respectively.
 - Coupled-spin representations can encode multiple attitude dimensions at each site. [[From modeling of political opinion formation to two-spin statistical physics model]] maps personal and economic positions to two Ising spins and studies the resulting stationary thermodynamic analogue, while cautioning that its social interpretation is not a dynamical or empirical validation.
 
 ## Important Papers
@@ -37,6 +38,7 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 - [[From modeling of political opinion formation to two-spin statistical physics model]]
 - [[papers/opinion-dynamics-on-signed-graphs-and-graphons|Opinion Dynamics on Signed Graphs and Graphons]]
 - [[papers/behavior-of-nonlinear-opinion-dynamics-over-large-networks|Behavior of Nonlinear Opinion Dynamics over Large Networks]]
+- [[papers/multi-dimensional-multi-option-opinion-dynamics-leads-to-the-emergence-of-clusters-in-social-networks|Multi-dimensional multi-option opinion dynamics leads to the emergence of clusters in social networks]]
 - Castellano, Muñoz, and Pastor-Satorras (2009), "Nonlinear q-voter model."
 - Castellano, Fortunato, and Loreto (2009), "Statistical physics of social dynamics."
 - Siedlecki, Szwabiński, and Weron (2016), "The Interplay Between Conformity and Anticonformity and its Polarizing Effect on Society."
