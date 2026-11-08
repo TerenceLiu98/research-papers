@@ -1,16 +1,16 @@
 ---
-title: "Structured, Complex and Time-complete Temporal Event Forecasting"
+title: "SCTc-TE: A Comprehensive Formulation and Benchmark for Temporal Event Forecasting"
 type: paper
 authors:
   - Yunshan Ma
-  - Chenchen Ye
-  - Zijian Wu
   - Xiang Wang
+  - Chenchen Ye
   - Yixin Cao
-  - Liang Pang
   - Tat-Seng Chua
+  - Zijian Wu
+  - Liang Pang
 year: null
-source_job_id: "f7b0add9-ee5a-4aa4-a291-213e8471dc96"
+source_job_id: "dec9343a-677b-46c0-8d64-8b1d6f8acb21"
 tags:
   - event-forecasting
   - temporal-knowledge-graphs
