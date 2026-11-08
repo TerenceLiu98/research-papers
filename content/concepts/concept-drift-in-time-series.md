@@ -28,6 +28,7 @@ Concept drift in time series is a change over time in the predictive relationshi
 - Wen et al. (2024), "OneNet: Enhancing Time Series Forecasting Models under Concept Drift by Online Ensembling": adapts forecasting through online ensembling.
 - Pham et al. (2022), "Learning Fast and Slow for Online Time Series Forecasting," arXiv:2202.11672: combines fast and slow learning pathways for changing series.
 - [[papers/kolmogorov-arnold-networks-for-time-series-bridging-predictive-power-and-interpretability|Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability]]: proposes monitoring changes in learned KAN edge functions, but does not quantitatively evaluate drift detection.
+- [[papers/cast-a-cross-asset-state-space-trading-system-for-drawdown-control-in-stock-markets|CAST: A Cross-Asset State-Space Trading System for Drawdown Control in Stock Markets]]: adapts latent states and integrated-random-walk order weights online, then evaluates normalized forecast-error drift over a 15-year financial test window.
 
 ## Related Concepts
 
