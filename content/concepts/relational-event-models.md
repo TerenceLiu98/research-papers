@@ -22,6 +22,7 @@ Relational event models explain ordered interaction events by making each possib
 - **Repeated relational events:** Events typically encode a sender, receiver, type or weight, and time. Risk sets can admit repeated events and exclude structurally impossible ones.
 - **Conditional independence:** Events are conditionally independent given the selected summaries of the prior event sequence and any exogenous covariates. Conclusions therefore depend on whether those statistics adequately represent the relevant history.
 - **Time and ties:** Continuous-time models use exact timing, whereas ordinal models use event order. When multiple events share an observed time, approximations such as Breslow's or Efron's adjust the partial likelihood.
+- **Latent geometry can replace explicit history statistics:** Some continuous-time models make dyadic intensities depend on time-varying latent distance and actor activity. These use exact event times but may assume conditionally independent Poisson dyads rather than the history-dependent competition typical of ordinal REMs.
 - **Memory specification:** Historical events may be down-weighted by recency. Fixing that decay can alter both sufficient statistics and estimated effects, motivating [[concepts/temporal-decay-in-relational-event-models|Temporal Decay in Relational Event Models]] as an inferential target.
 
 ## Important Papers
@@ -30,9 +31,11 @@ Relational event models explain ordered interaction events by making each possib
 - Brandes, Lerner, and Snijders (2009), "Networks evolving step by step": develops statistical analysis for dyadic event sequences and temporally decayed statistics.
 - Bianchi et al. (2023), "Relational event modeling": reviews the REM framework and its applications.
 - [[papers/fully-bayesian-estimation-of-temporal-decay-in-ordinal-relational-event-models|Fully Bayesian estimation of temporal decay in ordinal relational event models]]: estimates the decay half-life jointly with network-effect coefficients in ordinal REMs.
+- [[papers/dynamic-latent-space-modeling-of-inhomogeneous-poisson-network-processes-with-applications-to-international-relations|Dynamic Latent Space Modeling of Inhomogeneous Poisson Network Processes with Applications to International Relations]]: models exact dyadic event times through smooth latent trajectories and node-specific activity effects.
 
 ## Related Concepts
 
 - [[concepts/temporal-decay-in-relational-event-models|Temporal Decay in Relational Event Models]]: controls how strongly older events contribute to current network statistics.
 - [[concepts/discrete-time-hawkes-processes|Discrete-Time Hawkes Processes]]: another family of history-dependent event models, formulated for counts in time bins rather than choices among relational events.
 - [[concepts/history-stratified-recurrent-event-models|History-Stratified Recurrent Event Models]]: recurrent-event models that partition risk sets by event history.
+- [[concepts/dynamic-latent-space-models|Dynamic Latent Space Models]]: encode changing relational affinity through time-varying distances between nodes.
