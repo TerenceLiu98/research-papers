@@ -30,6 +30,7 @@ Sequential Monte Carlo represents a sequence of probability distributions with w
 - Liu and Chen (1998), "Sequential Monte Carlo Methods for Dynamic Systems."
 - Del Moral, Doucet, and Jasra (2006), "Sequential Monte Carlo Samplers."
 - Dai et al. (2022), "An Invitation to Sequential Monte Carlo Samplers."
+- [[papers/parameter-estimation-in-conditional-sequential-monte-carlo-algorithms-through-particle-learning|Parameter estimation in Conditional Sequential Monte Carlo algorithms through Particle Learning]]: extends particle learning to conditional SMC for joint state and static-parameter inference.
 - [[Sequential Bayesian Registration for Functional Data]]
 
 ## Related Concepts
@@ -40,3 +41,4 @@ Sequential Monte Carlo represents a sequence of probability distributions with w
 - Particle filtering
 - Online learning
 - Effective sample size
+- [[concepts/parameter-conditional-sequential-monte-carlo|Parameter Conditional Sequential Monte Carlo]]
