@@ -45,6 +45,8 @@ MeanFlow trains with sample-conditional instantaneous velocities and a stopped t
 
 Conditional mean flows additionally treat the context as fixed along each trajectory. Composing their finite-time maps gives a density through exact stepwise Jacobian determinants, while independently masking target coordinates during training can identify conditional marginal densities for observed coordinates. The learned finite-step maps are not numerical refinements of an ODE: using more maps need not monotonically improve an approximate model.
 
+Finite-interval maps also support training-free inverse problems: endpoint predictions carry measurement gradients back to intermediate generative states at constant model depth. Repeated state optimization can relax the prior-induced correction geometry, but stronger measurement fitting can overfit noise; finite-interval transport does not remove the cost of optimization.
+
 ## Important Papers
 
 - [[papers/mean-flows-for-one-step-generative-modeling|Mean Flows for One-step Generative Modeling]]: derives the identity, implements JVP-based training, and incorporates guidance into the learned average field.
