@@ -30,7 +30,7 @@ Pixel language models process text after rendering it as an image. Instead of as
 
 - Rust et al. (2023), "Language Modelling with Pixels": introduces PIXEL, a ViT-MAE language encoder trained on rendered text.
 - Lotz et al. (2023), "Text Rendering Strategies for Pixel Language Models": shows that structured rendering can reduce patch redundancy and improve efficiency.
-- Kesen et al. (2025), "Multilingual Pretraining for Pixel Language Models": studies multilingual PIXEL pretraining and transfer to unseen scripts.
+- [[papers/multilingual-pretraining-for-pixel-language-models|Multilingual Pretraining for Pixel Language Models]]: studies multilingual PIXEL pretraining and transfer to unseen scripts.
 - [[papers/scaling-multilingual-pretraining-of-pixel-language-models|Scaling Multilingual Pretraining of Pixel Language Models]]: separates language, script, and capacity scaling and analyzes their downstream and representation-level effects.
 - [[papers/reading-time-modeling-with-pixel-based-language-models|Reading Time Modeling with Pixel-Based Language Models]]: uses pixel-space reconstruction difficulty and entropy to model fixation duration and word skipping across eight languages.
 - Tai et al. (2024), "PIXAR: Auto-regressive Language Modeling in Pixel Space": extends pixel-space modeling to autoregressive generation.
