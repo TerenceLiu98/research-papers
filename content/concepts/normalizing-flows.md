@@ -23,6 +23,7 @@ Normalizing flows represent a probability distribution by transforming a simple 
 
 ## Important Papers
 
+- [[papers/flow-matching-for-scalable-simulation-based-inference|Flow Matching for Scalable Simulation-Based Inference]]: uses a conditional continuous normalizing flow for posterior estimation, trading constrained discrete transforms for ODE-based sampling and density evaluation.
 - [[papers/multidimensional-item-response-theory-under-general-latent-distributions|Multidimensional Item Response Theory under General Latent Distributions]]: jointly learns a flow prior and conditional posterior for multidimensional binary item responses, reporting recovery gains in most tested non-Gaussian settings and some losses under Gaussian data.
 - Rezende and Mohamed (2015), "Variational inference with normalizing flows": methodological foundation cited by the MIRT paper.
 - Durkan et al. (2019), "Neural spline flows": architecture cited for its prior-density implementation.

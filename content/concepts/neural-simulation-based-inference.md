@@ -29,6 +29,7 @@ Neural simulation-based inference learns inferential quantities from parameter-o
 
 ## Important Papers
 
+- [[papers/flow-matching-for-scalable-simulation-based-inference|Flow Matching for Scalable Simulation-Based Inference]]: introduces a continuous-flow posterior estimator with flexible conditioning architectures, tractable densities, and experiments on standard SBI tasks and GW150914.
 - [[papers/black-box-bayesian-inference-for-agent-based-models|Black-box Bayesian inference for agent-based models]]: benchmarks posterior and ratio estimation for economic simulators and demonstrates posterior learning from graph sequences.
 - [[papers/conditional-mean-flows-few-step-densities-for-simulation-based-inference|Conditional Mean Flows: Few-Step Densities for Simulation-Based Inference]]: develops few-step conditional posterior and likelihood densities, including masked marginal likelihoods and repeated evaluation within MCMC.
 - Greenberg, Nonnenmacher, and Macke (2019), "Automatic posterior transformation for likelihood-free inference": sequential posterior learning.
