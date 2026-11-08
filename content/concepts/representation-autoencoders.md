@@ -15,6 +15,10 @@ Representation autoencoders pair a pretrained visual representation encoder with
 
 ## Key Ideas
 
+- **Frozen semantic encoders can support pixel reconstruction.** [[papers/diffusion-transformers-with-representation-autoencoders|The original RAE paper]] trains only a ViT decoder over frozen DINOv2, SigLIP2, or MAE patch features. All three report lower ImageNet reconstruction FID than SD-VAE while retaining substantially stronger linear-probe accuracy.
+- **High-dimensional latent diffusion needs dimension-aware design.** The original RAE recipe matches denoiser width to latent token dimensionality, shifts the noise schedule using token count times channel dimension, and perturbs decoder inputs during training so generated latents need not land exactly on the encoder's empirical support.
+- **Decoder robustness trades reconstruction for generation.** Adding latent noise during decoder training worsens exact reconstruction FID but improves generation FID across encoder families and sizes. A decoder for generated representations must therefore model a neighborhood around encoded data, not only clean training latents.
+- **Wide heads are useful specifically for high-dimensional structured latents.** DiT-DH places a shallow, wide denoising head after a narrower DiT backbone. It improves RAE and pixel diffusion in the reported tests but worsens generation on low-dimensional SD-VAE latents, so its benefit is conditional rather than architectural in general.
 - **Semantic features become decodable.** A pretrained visual encoder supplies representations; a corresponding decoder maps them back to images. [[papers/improved-baselines-with-representation-autoencoders|RAEv2]] sums the final $K$ encoder layers without changing latent shape, recovering lower-level detail while retaining a spatial token layout.
 - **Encoding and alignment are complementary.** RAE uses a pretrained representation as its latent, while REPA predicts that representation from intermediate generator states. RAEv2's encoder sweep associates the former more strongly with global semantics and the latter with spatial token structure; combining them improves generation instead of acting as a redundant skip connection.
 - **An alignment head can also guide generation.** When the generator predicts the clean RAE latent, its intermediate REPA head provides a weaker clean-latent estimate for internal guidance. RAEv2 obtains both estimates in one forward pass, avoiding classifier-free guidance's unconditional pass and AutoGuidance's separately trained weak model.
@@ -30,7 +34,7 @@ Representation autoencoders pair a pretrained visual representation encoder with
 
 ## Important Papers
 
-- Zheng et al. (2026), "Diffusion transformers with representation autoencoders": RAE foundation cited by SAGE.
+- [[papers/diffusion-transformers-with-representation-autoencoders|Diffusion Transformers with Representation Autoencoders]]: introduces frozen-encoder RAEs, the high-dimensional diffusion recipe, and the DiT-DH wide denoising head.
 - [[papers/rit-vanilla-diffusion-transformers-suffice-in-representation-space|RiT: Vanilla Diffusion Transformers Suffice in Representation Space]]: uses clean-target flow matching to model frozen DINOv2-S features directly with a vanilla diffusion transformer.
 - [[papers/improved-baselines-with-representation-autoencoders|Improved Baselines with Representation Autoencoders]]: introduces RAEv2's multi-layer sum, joint RAE-REPA training, and single-pass REPA guidance.
 - [[papers/sage-salient-factor-discovery-and-generation-with-visual-foundation-representations|SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations]]: factorizes the spatial latent for discovery, manipulation, and generation.
