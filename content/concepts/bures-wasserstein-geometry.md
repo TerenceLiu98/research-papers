@@ -28,6 +28,7 @@ Bures-Wasserstein geometry is the restriction of 2-Wasserstein geometry to nonde
 - Gelbrich (1990), "On a Formula for the $L^2$ Wasserstein Metric Between Measures on Euclidean and Hilbert Spaces": gives the Gaussian Wasserstein formula used for the affine map.
 - Lambert et al. (2022), "Variational Inference via Wasserstein Gradient Flows": develops calculations on the Bures-Wasserstein manifold used by later generative methods.
 - [[papers/wasserstein-flow-matching-generative-modeling-over-families-of-distributions|Wasserstein Flow Matching: Generative Modeling Over Families of Distributions]]: uses this geometry to define BW-FM over families of Gaussians.
+- [[papers/distdf-time-series-forecasting-needs-joint-distribution-wasserstein-alignment|DistDF: Time-Series Forecasting Needs Joint-Distribution Wasserstein Alignment]]: uses the Gaussian closed form to regularize the joint history-label and history-forecast distributions during forecasting-model training.
 
 ## Related Concepts
 
