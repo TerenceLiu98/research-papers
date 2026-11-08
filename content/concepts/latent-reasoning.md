@@ -26,6 +26,8 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 - **Reconstruction targets shape compressed reasoning traces.** A discrete latent sequence learned by reconstructing a spatial rendering can emphasize step layout and dependencies instead of exact wording. Hybrid methods can pair that global representation with a small number of explicit, low-confidence textual steps, although reconstruction evidence alone does not identify the model's internal reasoning mechanism.
 - **Multilingual behavior tests universality.** Similar layer-wise trajectories across languages can coexist with unequal accuracy and unequal alignment to English. Shared geometry does not by itself establish language-independent reasoning, while English alignment does not prove that the model literally translates every problem internally.
 - **Local objectives can organize recurrent computation.** [[papers/thinking-with-looped-flows|Thinking with Looped Flows]] orders denoising problems from high to low noise and carries hidden features between them while stopping gradients across steps. The visible probability-flow state and recurrent state then evolve together at inference, providing separate channels for probabilistic transport and accumulated computation.
+- **Latent thoughts need behavioral requirements beyond answer accuracy.** [[papers/what-matters-for-latent-reasoning-with-flow-matching|What Matters for Latent Reasoning with Flow Matching]] tests whether thoughts are causally useful, diverse under resampling, decodable and faithful, refinable with more compute, and efficient relative to explicit CoT. Its interventions also show that decodability and answer control remain incomplete.
+- **Generatable codes differ from reconstructible codes.** FLaRe compresses symbolic CoTs into a corrupted VAE space and trains a conditional flow mostly near noise. Its ablations find that larger, more exactly reconstructible codes can be harder for a flow to generate, while training the reader on the model's imperfect endpoints reduces the train-inference mismatch.
 
 ## Important Papers
 
@@ -38,6 +40,7 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 - Yang et al. (2024), "Do Large Language Models Latently Perform Multi-Hop Reasoning?": probes whether intermediate factual answers are represented internally.
 - Hao et al. (2025), "Training Large Language Models to Reason in a Continuous Latent Space": trains recurrent latent computation rather than requiring every step to be verbalized.
 - [[papers/thinking-with-looped-flows|Thinking with Looped Flows]]: trains recurrent hidden states through temporally aligned local denoising losses and scales structured reasoning with additional flow-integration steps.
+- [[papers/what-matters-for-latent-reasoning-with-flow-matching|What Matters for Latent Reasoning with Flow Matching]]: develops FLaRe and evaluates latent thoughts through causal, diversity, decoding, refinement, and efficiency probes.
 
 ## Related Concepts
 
