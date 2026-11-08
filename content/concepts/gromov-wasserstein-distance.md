@@ -32,6 +32,7 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 
 - Memoli (2011), "Gromov-Wasserstein Distances and the Metric Approach to Object Matching": foundational reference cited in the ingested clustering paper.
 - Peyre, Cuturi, and Solomon (2016), "Gromov-Wasserstein Averaging of Kernel and Distance Matrices": cited basis for structural barycenters.
+- [[papers/distributional-reduction-unifying-dimensionality-reduction-and-clustering-with-gromov-wasserstein|Distributional Reduction: Unifying Dimensionality Reduction and Clustering with Gromov-Wasserstein]]: uses semi-relaxed GW projection to learn a smaller weighted set of low-dimensional prototypes, linking dimensionality reduction, clustering, and graph coarsening.
 - [[papers/decoding-alignment-without-encoding-alignment-a-missing-component-for-interpretability|Decoding Alignment without Encoding Alignment: A Missing Component for Interpretability]]: uses GW as an encoding-side diagnostic for neural populations with similar decoding geometry but different functional topology.
 - [[papers/a-new-clustering-strategy-for-geo-referenced-time-series-based-on-optimal-transport|A New Clustering Strategy for Geo-Referenced Time Series Based on Optimal Transport]]: uses spatial GW discrepancies to weight temporal Gromov-DTW costs and constructs spatial cluster prototypes.
 - [[papers/gromov-wasserstein-transfer-operators|Gromov-Wasserstein Transfer Operators]] (Beier, 2023): estimates rotational dynamics from snapshot couplings and clusters the induced operator into coherent structures.
@@ -54,3 +55,4 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - [[concepts/graph-quotient-alignment|Graph Quotient Alignment]]: interprets hard node alignment as representative selection in a graph quotient and uses GW as a relaxation.
 - [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]]: extends quadratic structure-aware costs to continuous interacting paths.
 - [[concepts/inner-product-gromov-wasserstein-gradient-flows|Inner-Product Gromov-Wasserstein Gradient Flows]]: studies variational dynamics under a pairwise-inner-product distortion geometry.
+- [[concepts/distributional-reduction|Distributional Reduction]]: jointly reduces support size and embedding dimension through a semi-relaxed GW objective.
