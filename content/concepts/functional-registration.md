@@ -26,6 +26,7 @@ Functional registration aligns curves by transforming their domains so that corr
 
 ## Important Papers
 
+- [[Sequential Bayesian Registration for Functional Data]]
 - [[DeepFRC: An End-to-End Deep Learning Model for Functional Registration and Classification]]
 - Ramsay and Li (1998), "Curve Registration."
 - Srivastava et al. (2011), "Registration of Functional Data Using Fisher-Rao Metric."
