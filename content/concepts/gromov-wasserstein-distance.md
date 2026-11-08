@@ -15,6 +15,8 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 
 ## Key Ideas
 
+- Intermediate neural-network layers can be compared through their sample-distance geometries even when feature dimensions differ. [[papers/representation-similarity-reveals-implicit-layer-grouping-in-neural-networks|Representation Similarity Reveals Implicit Layer Grouping in Neural Networks]] uses these comparisons to identify layer groups and motivate selective fine-tuning. Such groups are structural evidence, not proof of causal equivalence.
+
 - For distance matrices $D,E$ and probability weights $p,q$, a common squared-loss objective is $\min_{P\in\Pi(p,q)}\sum_{i,j,k,l}(D_{ik}-E_{jl})^2P_{ij}P_{kl}$. Root and normalization conventions must be checked before treating a reported objective as a metric distance.
 - Intrinsic comparison depends on pairwise geometry, not absolute coordinates. Isometric configurations can match with zero distortion even if their physical locations differ.
 - In causal reweighting, intrinsic geometry can complement cross-group pointwise costs. [[papers/exploiting-geometry-for-treatment-effect-estimation-via-optimal-transport|Exploiting Geometry for Treatment Effect Estimation via Optimal Transport]] uses a semi-relaxed fused objective so control weights reflect both proximity to treated observations and agreement between control and treated within-group relations.
