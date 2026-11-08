@@ -46,6 +46,7 @@ MeanFlow trains with sample-conditional instantaneous velocities and a stopped t
 ## Important Papers
 
 - [[papers/mean-flows-for-one-step-generative-modeling|Mean Flows for One-step Generative Modeling]]: derives the identity, implements JVP-based training, and incorporates guidance into the learned average field.
+- [[papers/bifm-bidirectional-flow-matching-for-few-step-image-editing-and-generation|BiFM: Bidirectional Flow Matching for Few-Step Image Editing and Generation]]: learns average velocities in both generation and inversion directions and regularizes the paired predictions for approximate reversal.
 - [[papers/wfr-mfm-one-step-inference-for-dynamic-unbalanced-optimal-transport|WFR-MFM: One-Step Inference for Dynamic Unbalanced Optimal Transport]]: extends finite-interval velocity learning with a mean mass-growth field for one- or few-step unbalanced dynamics.
 - [[papers/how-i-learned-to-stop-worrying-and-love-stopgrads|How I Learned to Stop Worrying and Love StopGrads]]: proves uniqueness of the true MeanFlow stationary point and gives an idealized functional semi-gradient convergence result.
 - [[papers/functional-mean-flow-in-hilbert-space|Functional Mean Flow in Hilbert Space]]: extends finite-interval velocity learning to Hilbert-space function distributions and introduces an endpoint-prediction parameterization.
