@@ -38,6 +38,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 
 ## Important Papers
 
+- [[papers/denoising-with-a-joint-embedding-predictive-architecture|Denoising with a Joint-Embedding Predictive Architecture]] substitutes conditional flow matching for token-wise diffusion in extensions to image, speech, and video generation, reporting faster initial convergence but a later FID plateau in its ImageNet ablation.
 - Lipman et al. (2023), "Flow matching for generative modeling": conditional flow-matching foundation, cited in Value Flows.
 - Liu, Gong, and Liu (2023), "Flow straight and fast: Learning to generate and transfer data with rectified flow": related flow-based generative formulation, cited in Value Flows.
 - [[papers/fm-ts-flow-matching-for-time-series-generation|FM-TS: Flow Matching for Time Series Generation]]: applies rectified flow to unconditional time-series generation and reuses the trained model for forecasting and imputation through masked inference.

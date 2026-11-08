@@ -29,10 +29,12 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - Diffusion can also act as a training curriculum for recurrent computation rather than solely as a sampling procedure. [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] trains a timestep-free denoiser with ordered annealed corruption, then preserves its hidden memory while injecting fresh maximal noise during iterative Sudoku inference.
 - Diffusion can jointly generate data and parameters for a downstream dynamics model. Diff-MN learns the joint distribution of regularized time series and NCDE expert-mixture weights, then uses each generated pair for [[concepts/continuous-time-series-generation|Continuous Time Series Generation]]. It generates mixture coefficients over pretrained experts, rather than all neural-network parameters.
 - Diffusion models can represent conditional potential-outcome distributions rather than media. [[papers/conformal-diffusion-models-for-individual-treatment-effect-estimation-and-inference|Conformal Diffusion Models for Individual Treatment Effect Estimation and Inference]] calibrates generated outcomes with weighted conformal scores instead of treating raw sample quantiles as valid intervals.
+- Diffusion can model each continuous token independently when conditioned on a shared semantic predictor. [[papers/denoising-with-a-joint-embedding-predictive-architecture|D-JEPA]] uses a compact per-token denoising MLP inside iterative masked-token generation, separating semantic feature prediction from token-value sampling.
 - Text-to-image diffusion models can match coarse image-quality metrics while systematically suppressing or exaggerating fine-grained visual features. [[concepts/conceptual-blindspots|Conceptual Blindspots]] compare those feature frequencies against a prompt-matched natural-image baseline.
 
 ## Important Papers
 
+- [[papers/denoising-with-a-joint-embedding-predictive-architecture|Denoising with a Joint-Embedding Predictive Architecture]] combines token-wise diffusion with a JEPA feature predictor for continuous autoregressive generation.
 - [[papers/structured-denoising-diffusion-models-in-discrete-state-spaces|Structured Denoising Diffusion Models in Discrete State-Spaces]]
 - [[Concept-based Visual Counterfactual Explanations with Diffusion Models]]
 - [[Lifting Motion to the 3D World via 2D Diffusion]]
