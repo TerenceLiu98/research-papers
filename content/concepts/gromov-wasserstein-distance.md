@@ -39,6 +39,7 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
 - [[papers/alignment-matters-inside-and-out-in-equivariant-graph-flow-matching|Alignment Matters Inside and Out in Equivariant Graph Flow Matching]] (Piening and Wald, 2026): uses a vector-valued GW relaxation to approximate node alignment inside graph pairs before flow-matching interpolation.
 - [[papers/dynamic-generalized-gromov-wasserstein-optimal-transport|Dynamic Generalized Gromov-Wasserstein Optimal Transport]] (Ying, Zeng, Zhou, and Zhang, 2026): formulates travelling-pair dynamics for quadratic transport and evaluates a simulation-free solver on spatial-transcriptomics interpolation.
+- [[papers/probabilistic-representation-and-convergence-of-gromov-wasserstein-gradient-flows|Probabilistic Representation and Convergence of Gromov-Wasserstein Gradient Flows]] (Karumanchi, Goldfeld, Kato, and Zhang, 2026): constructs a relative-entropy flow in inner-product GW geometry and derives explicit PDE, SDE, and convergence representations.
 
 ## Related Concepts
 
@@ -50,3 +51,4 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - [[concepts/graph-foundation-models|Graph Foundation Models]]: transferable graph models that may use intrinsic structure as a cross-domain reference.
 - [[concepts/graph-quotient-alignment|Graph Quotient Alignment]]: interprets hard node alignment as representative selection in a graph quotient and uses GW as a relaxation.
 - [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]]: extends quadratic structure-aware costs to continuous interacting paths.
+- [[concepts/inner-product-gromov-wasserstein-gradient-flows|Inner-Product Gromov-Wasserstein Gradient Flows]]: studies variational dynamics under a pairwise-inner-product distortion geometry.
