@@ -46,6 +46,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - Lipman et al. (2023), "Flow matching for generative modeling": conditional flow-matching foundation, cited in Value Flows.
 - Liu, Gong, and Liu (2023), "Flow straight and fast: Learning to generate and transfer data with rectified flow": related flow-based generative formulation, cited in Value Flows.
 - [[papers/fm-ts-flow-matching-for-time-series-generation|FM-TS: Flow Matching for Time Series Generation]]: applies rectified flow to unconditional time-series generation and reuses the trained model for forecasting and imputation through masked inference.
+- [[papers/trajectory-flow-matching-with-applications-to-clinical-time-series-modeling|Trajectory Flow Matching with Applications to Clinical Time Series Modeling]]: extends matching to irregular stochastic trajectories by conditioning on history to preserve observed couplings and by predicting observation times and uncertainty.
 - [[papers/value-flows|Value Flows]]: return-distribution modeling, initial-field mean estimation, and flow-sensitivity-based weighting.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]]: supports a flow-matching prediction objective, although its reported objective comparisons do not establish a numerical advantage for flow matching.
 - [[papers/alignment-matters-inside-and-out-in-equivariant-graph-flow-matching|Alignment Matters Inside and Out in Equivariant Graph Flow Matching]]: shows that equivariant graph models still require choices of node representatives and graph pairings, and studies their effect on few-step generation.
@@ -68,3 +69,4 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - [[concepts/graph-quotient-alignment|Graph Quotient Alignment]]: adapts coupling selection to data defined only up to node permutation.
 - [[concepts/chip-placement|Chip Placement]]: a constrained geometric application in which the generated state must satisfy boundaries and non-overlap while supporting downstream physical-design objectives.
 - [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]]: extends conditional velocity regression to interacting particle pairs.
+- [[concepts/trajectory-flow-matching|Trajectory Flow Matching]]: adapts conditional matching to ordered, irregularly sampled trajectories whose cross-time couplings must be retained.
