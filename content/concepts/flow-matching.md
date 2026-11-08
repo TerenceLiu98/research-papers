@@ -52,6 +52,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - [[papers/thinking-with-looped-flows|Thinking with Looped Flows]]: combines categorical probability-flow integration with hidden-state recurrence, using temporally aligned local denoising losses for structured reasoning.
 - [[papers/prismflow-residual-dynamics-for-flow-matching-in-time-series-generation|PrismFlow: Residual Dynamics for Flow Matching in Time-Series Generation]]: augments a global time-series transport field with winner-take-all Koopman-inspired residual experts to reduce velocity averaging and preserve spectral diversity.
 - [[papers/dynamic-generalized-gromov-wasserstein-optimal-transport|Dynamic Generalized Gromov-Wasserstein Optimal Transport]] (Ying, Zeng, Zhou, and Zhang, 2026): develops travelling-pair flow matching for interacting paths and structure-preserving spatial-transcriptomics dynamics.
+- [[papers/steering-the-flow-inverting-face-recognition-models-via-gradient-guided-flow-matching|Steering the Flow: Inverting Face Recognition Models via Gradient-Guided Flow Matching]]: uses an unconditional face flow as a reusable prior, then injects normalized target-model gradients through a progressive schedule for white-box model inversion.
 
 ## Related Concepts
 
