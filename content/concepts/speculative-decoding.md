@@ -25,6 +25,7 @@ Speculative decoding accelerates autoregressive generation by pairing a fast dra
 - Stern et al. (2018), "Blockwise Parallel Decoding for Deep Autoregressive Models": develops blockwise parallel generation with auxiliary prediction models.
 - Leviathan et al. (2023), "Fast Inference from Transformers via Speculative Decoding": presents a draft-and-verify procedure that preserves the target distribution.
 - Chen et al. (2023), "Accelerating Large Language Model Decoding with Speculative Sampling": independently develops speculative sampling for transformer decoding.
+- [[papers/byte-language-models-scaling-emergent-abstractions-and-information-allocation|Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation]]: shows that byte-level targets admit longer same-family draft agreement runs in a teacher-forced oracle analysis, while accepted byte coverage remains comparable to subword targets.
 - [[papers/dsd-a-distributed-speculative-decoding-solution-for-edge-cloud-agile-large-model-serving|DSD: A Distributed Speculative Decoding Solution for Edge-Cloud Agile Large Model Serving]]: extends the method to many edge draft models and cloud target servers.
 
 ## Related Concepts
