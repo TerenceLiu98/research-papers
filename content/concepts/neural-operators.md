@@ -26,6 +26,7 @@ Neural operators learn maps between function spaces rather than maps tied to one
 
 ## Important Papers
 
+- [[NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simulations]]
 - [[GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training]]
 - [[Autoencoders in Function Space]]
 - Kovachki, Li, Liu, Azizzadenesheli, Bhattacharya, Stuart, and Anandkumar (2023), "Neural operator: Learning maps between function spaces with applications to PDEs."
@@ -35,6 +36,7 @@ Neural operators learn maps between function spaces rather than maps tied to one
 
 ## Related Concepts
 
+- [[nonuniform-fourier-neural-operators|Nonuniform Fourier Neural Operators]]
 - [[Dynamics-Lifted Geometric Pre-Training]]
 - [[Function-Space Autoencoders]]
 - Inpainting
