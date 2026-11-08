@@ -50,7 +50,7 @@ With $R$ blocks, the paper gives per-channel backbone time complexity $O(R(N^2D+
 
 The main benchmark covers ETTh1, ETTh2, ETTm1, ETTm2, Weather, Traffic, Electricity, and Illness. Forecast horizons are 96, 192, 336, and 720 except for Illness, which uses 24, 36, 48, and 60. Models are evaluated by MSE and MAE. The implementation uses PyTorch, Adam, and one 24 GB RTX 4090; the common configuration uses degree-3 Hahn polynomials with parameters $a=1$, $b=1$, and $n=7$, patch length 16, stride 8, and embedding width 128, with dataset-specific settings reported separately.
 
-When each method may select its best look-back from 96, 192, 336, and 720, HaKAN reports the best MSE in 18 of 32 cases and the best MAE in 19 of 32. Its reported average improvements include 8.98% MSE and 3.96% MAE on Illness and 5.28% MSE and 2.07% MAE on ETTh2 relative to the strongest listed alternatives. On Traffic, however, HaKAN's average MSE/MAE is 0.403/0.269 versus Timer-XL's 0.374/0.255. Under a fixed look-back of 96 on the four ETT datasets, its average MSE/MAE is 0.439/0.429 on ETTh1, 0.348/0.383 on ETTh2, 0.384/0.399 on ETTm1, and 0.276/0.324 on ETTm2.
+When each method may select its best look-back from 96, 192, 336, and 720, HaKAN reports the best MSE in 18 of 32 cases and the best MAE in 19 of 32. Its reported average improvements include 8.98% MSE and 3.96% MAE on Illness and 5.28% MSE and 2.07% MAE on ETTh2 relative to PatchTST/64. On Traffic, however, HaKAN's average MSE/MAE is 0.403/0.269 versus Timer-XL's 0.374/0.255. Under a fixed look-back of 96 on the four ETT datasets, its average MSE/MAE is 0.439/0.429 on ETTh1, 0.348/0.383 on ETTh2, 0.384/0.399 on ETTm1, and 0.276/0.324 on ETTm2.
 
 The ablations support the complete architecture within the tested setup. Hahn bases produce average MSE/MAE of 0.507/0.431, compared with 0.531/0.435 for Lucas, 0.539/0.439 for Chebyshev, and 0.548/0.443 for B-splines. Removing intra-patch mixing worsens the aggregate to 0.559/0.447; removing inter-patch mixing gives 0.520/0.435. Five blocks, bottleneck width 336, and patch length 16 are the best tested settings. Three-seed results are also reported for ETTh1, ETTh2, ETTm1, ETTm2, Weather, and Electricity.
 
@@ -61,7 +61,7 @@ The ablations support the complete architecture within the tested setup. Hahn ba
 - Comparisons combine values from baseline papers and use each method's best look-back in the main table; the fixed-look-back table is more controlled but covers only the four ETT datasets.
 - The model is described as interpretable because it uses learnable edge functions, but the experiments do not visualize those functions, extract formulas, or quantitatively evaluate interpretability.
 - The source contains an internal hyperparameter inconsistency: the implementation section states five Hahn-KAN blocks, while an appendix sentence states three for both look-back settings. The ablation table favors five blocks.
-- The supplied Markdown provides no publication year, venue, DOI, arXiv identifier, or repository URL, so none is inferred. This page summarizes the source supplied for Cognitio job `73729834-1212-41af-aa52-cf589d1f0d8e`.
+- The supplied Markdown provides no publication year, venue, DOI, arXiv identifier, or repository URL, so none is inferred. This page was revalidated against the parsed Markdown supplied for Cognitio job `910ccc1f-9e04-45c8-81d2-5fc587dd34b7`.
 
 ## Related Concepts
 

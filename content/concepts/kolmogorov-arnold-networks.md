@@ -19,11 +19,14 @@ Kolmogorov-Arnold Networks (KANs) are neural networks whose edges carry learnabl
 - **Functions on edges:** An MLP places fixed nonlinear activations at nodes and learns scalar connection weights. A KAN learns a univariate function on each connection and sums incoming edge outputs at a node.
 - **Compositional layers:** A KAN layer is a matrix of univariate functions, and deeper KANs compose these functional matrices. The theorem motivates this structure but does not by itself guarantee that a finite trained network will recover a unique or interpretable decomposition.
 - **Spline parameterization:** B-splines provide a flexible finite representation of each edge function. Grid refinement can increase approximation resolution, while pruning can remove weak connections.
+- **Polynomial parameterization:** HaKAN expands edge functions in a fixed-degree Hahn-polynomial basis instead of a spline grid. This removes grid-size dependence, but its inter-patch mixing still scales quadratically in patch count; flexible edge functions alone do not establish interpretability.
 - **Inspection and symbolic approximation:** Plotting edge functions can reveal how individual coordinates affect intermediate and final values. Symbolic regression may approximate those functions with formulas, but interpretability depends on fidelity, stability, and the size of the composed network.
 - **Computational tradeoff:** Edge-specific functions can achieve compact parameter counts, yet their heterogeneous evaluation is less amenable to batching than standard dense matrix multiplication.
 - **Architecture determines the tradeoff:** KAN layers can replace dense or recurrent transformations, but a favorable result does not follow from the representation theorem alone. In autoencoders, reported reconstruction gains may coincide with much larger parameter counts and additional dense layers, so capacity-matched comparisons are necessary to attribute improvements to edge functions.
 
 ## Important Papers
+
+- [[papers/time-series-forecasting-with-hahn-kolmogorov-arnold-networks|Time Series Forecasting with Hahn Kolmogorov-Arnold Networks]]: combines polynomial edge functions with intra- and inter-patch mixing; its channel-independent design performs less well on Traffic than Timer-XL.
 
 - [[papers/kan-kolmogorov-arnold-networks|KAN: Kolmogorov-Arnold Networks]]: introduces the modern spline-based KAN architecture, grid refinement, pruning, and symbolic snapping.
 - [[papers/rational-anova-networks|Rational ANOVA Networks]]: compares spline-based KANs with pole-free rational units arranged as main effects and sparse pairwise interactions.
