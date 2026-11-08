@@ -43,6 +43,8 @@ for $r<s<t$ along the same trajectory. Thus composition consistency follows from
 
 MeanFlow trains with sample-conditional instantaneous velocities and a stopped target containing the model's JVP. At zero interval, the correction disappears and training reduces to flow matching. With noise at time one and data at zero, one-step sampling is $z_0=\epsilon-u_\theta(\epsilon,0,1)$. The exact identity motivates this objective but does not by itself guarantee practical optimization or distributional accuracy.
 
+Conditional mean flows additionally treat the context as fixed along each trajectory. Composing their finite-time maps gives a density through exact stepwise Jacobian determinants, while independently masking target coordinates during training can identify conditional marginal densities for observed coordinates. The learned finite-step maps are not numerical refinements of an ODE: using more maps need not monotonically improve an approximate model.
+
 ## Important Papers
 
 - [[papers/mean-flows-for-one-step-generative-modeling|Mean Flows for One-step Generative Modeling]]: derives the identity, implements JVP-based training, and incorporates guidance into the learned average field.
@@ -50,6 +52,7 @@ MeanFlow trains with sample-conditional instantaneous velocities and a stopped t
 - [[papers/wfr-mfm-one-step-inference-for-dynamic-unbalanced-optimal-transport|WFR-MFM: One-Step Inference for Dynamic Unbalanced Optimal Transport]]: extends finite-interval velocity learning with a mean mass-growth field for one- or few-step unbalanced dynamics.
 - [[papers/how-i-learned-to-stop-worrying-and-love-stopgrads|How I Learned to Stop Worrying and Love StopGrads]]: proves uniqueness of the true MeanFlow stationary point and gives an idealized functional semi-gradient convergence result.
 - [[papers/functional-mean-flow-in-hilbert-space|Functional Mean Flow in Hilbert Space]]: extends finite-interval velocity learning to Hilbert-space function distributions and introduces an endpoint-prediction parameterization.
+- [[papers/conditional-mean-flows-few-step-densities-for-simulation-based-inference|Conditional Mean Flows: Few-Step Densities for Simulation-Based Inference]]: adapts mean flows to conditional posterior and likelihood estimation with stepwise density evaluation and masked marginal likelihoods.
 
 ## Related Concepts
 
@@ -58,3 +61,4 @@ MeanFlow trains with sample-conditional instantaneous velocities and a stopped t
 - [[concepts/functional-mean-flow|Functional Mean Flow]]: adapts the construction to function-space transport.
 - [[concepts/normalizing-flows|Normalizing Flows]]: continuous transformations between distributions.
 - [[concepts/diffusion-models|Diffusion Models]]: related generative dynamics whose numerical sampling motivates few-step alternatives.
+- [[concepts/neural-simulation-based-inference|Neural Simulation-Based Inference]]: uses conditional mean flows as posterior and likelihood estimators.
