@@ -29,6 +29,7 @@ Continuous-depth Transformers model hidden representations as solutions of an or
 
 - Chen et al. (2018), "Neural Ordinary Differential Equations": establishes the foundational continuous-depth neural-network formulation cited by the ODE-ViT paper.
 - Zhong et al. (2022), "A Neural ODE Interpretation of Transformer Layers": studies Transformer layers through a neural-ODE formulation, including the autonomous setting.
+- [[papers/a-unified-perspective-on-the-dynamics-of-deep-transformers|A Unified Perspective on the Dynamics of Deep Transformers]] lifts interacting token ODEs to measure-valued Transformer PDEs and studies well-posedness, mean-field limits, and Gaussian covariance dynamics across attention variants.
 - [[papers/ot-transformer-a-continuous-time-transformer-architecture-with-optimal-transport-regularization|OT-Transformer: A Continuous-time Transformer Architecture with Optimal Transport Regularization]] uses a shared Transformer vector field and penalizes integrated squared velocity to regularize hidden-state motion.
 - [[papers/ode-vit-plug-and-play-attention-layer-from-the-generalization-of-the-vit-as-an-ordinary-differential-equation|ODE-ViT: Plug & Play Attention Layer from the Generalization of the ViT as an Ordinary Differential Equation]] builds an autonomous ViT attention ODE and uses DINO hidden states as checkpoints for teacher-guided trajectory training.
 
