@@ -26,6 +26,7 @@ Functional registration aligns curves by transforming their domains so that corr
 
 ## Important Papers
 
+- [[Simulation of Warping Processes with Applications to Temperature Data]]
 - [[Sequential Bayesian Registration for Functional Data]]
 - [[DeepFRC: An End-to-End Deep Learning Model for Functional Registration and Classification]]
 - Ramsay and Li (1998), "Curve Registration."
