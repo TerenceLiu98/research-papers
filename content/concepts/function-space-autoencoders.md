@@ -26,6 +26,7 @@ Function-space autoencoders learn low-dimensional representations of objects tre
 - A mesh-independent encoder can aggregate coordinate-value features, while a coordinate decoder can be evaluated at arbitrary points. This supports heterogeneous meshes, irregular observations, inpainting, and superresolution.
 - Masking can subsample encoder and decoder mesh points independently. Complement masking uses disjoint subsets; random masking gives separate control over encoder and decoder cost. Training on partial meshes can improve mesh robustness and reduce memory use.
 - A deterministic FAE is not itself a generative model, but a separate model trained on its latent codes can provide resolution-independent generation. Latent interpolation is another way to test whether the learned representation captures structure beyond memorization.
+- Representation learning and clustering can be optimized jointly rather than treating clustering as a fixed downstream step. FAEclust combines reconstruction and latent clustering losses with a shape-informed convex clustering update, and uses nonlinear function-valued decoder layers to accommodate Euclidean and manifold-valued curves.
 
 ## Important Papers
 
@@ -33,6 +34,7 @@ Function-space autoencoders learn low-dimensional representations of objects tre
 - [[Functional Autoencoders for Functional Data Representation Learning]]
 - [[Functional Autoencoder for Smoothing and Representation Learning]]
 - [[Autoencoders in Function Space]]
+- [[Shape-Informed Clustering of Multi-Dimensional Functional Data via Deep Functional Autoencoders]]
 - Seidman, Kissas, Pappas, and Perdikaris (2023), "Variational autoencoding neural operators."
 - Ghosh, Sajjadi, Vergari, Black, and Schoelkopf (2020), "From variational to deterministic autoencoders."
 - Kingma and Welling (2014), "Auto-encoding variational Bayes."
