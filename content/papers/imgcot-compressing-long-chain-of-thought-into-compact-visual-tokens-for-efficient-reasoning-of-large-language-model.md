@@ -74,6 +74,7 @@ In a MetaMathQA transfer experiment with Qwen2.5-0.5B, ImgCoT scores 3.1, 9.6, 1
 
 ## Related Concepts
 
+- [[concepts/visual-text-compression|Visual-Text Compression]]
 - [[concepts/latent-reasoning|Latent Reasoning]]
 - Chain-of-thought reasoning
 - Vector-quantized autoencoders
@@ -87,6 +88,6 @@ In a MetaMathQA transfer experiment with Qwen2.5-0.5B, ImgCoT scores 3.1, 9.6, 1
 - Hao et al. (2024), "Training Large Language Models to Reason in a Continuous Latent Space": Coconut recurrently feeds hidden states back as continuous thoughts.
 - Su et al. (2025), "Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning": provides the autoencoder-based textual compression approach that most directly motivates ImgCoT's change of reconstruction target.
 - Yu et al. (2024), "An Image Is Worth 32 Tokens for Reconstruction and Generation": introduces TiTok, the one-dimensional image tokenizer adapted for ImgCoT.
-- Cheng et al. (2025), "Glyph: Scaling Context Windows via Visual-Text Compression": supplies the visual text-rendering strategy used by ImgCoT.
+- [[papers/glyph-scaling-context-windows-via-visual-text-compression|Glyph: Scaling Context Windows via Visual-Text Compression]]: supplies the visual text-rendering strategy used by ImgCoT.
 
 [[index|Library home]]
