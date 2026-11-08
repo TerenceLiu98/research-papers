@@ -27,6 +27,7 @@ Block-recurrent Transformer depth is the hypothesis that a trained Transformer's
 
 ## Important Papers
 
+- [[papers/elt-elastic-looped-transformers-for-visual-generation|ELT: Elastic Looped Transformers for Visual Generation]] directly ties blocks within each visual-generation step and uses [[concepts/intra-loop-self-distillation|Intra-Loop Self Distillation]] to make intermediate loop depths predictive. Its results also show the limit of recurrence: at matched effective depth, one unique layer looped 32 times is much worse than configurations with more unique layers.
 - [[papers/looping-back-to-move-forward-recursive-transformers-for-efficient-and-flexible-large-multimodal-models|Looping Back to Move Forward]] repeats an entire multimodal backbone and uses modality-specific, multi-layer connectors to map one pass back into the input space. Its depth sweep illustrates that parameter reuse can improve a two-pass model without making further passes uniformly beneficial.
 - [[papers/block-recurrent-dynamics-in-vits|Block-Recurrent Dynamics in ViTs]] formalizes BRH and trains Raptor surrogates that approximate DINOv2 with two to four recurrent phases.
 - Dehghani et al. (2018), "Universal Transformers," applies a shared transition recurrently across depth as an architectural design.
@@ -39,3 +40,4 @@ Block-recurrent Transformer depth is the hypothesis that a trained Transformer's
 - [[concepts/knowledge-distillation|Knowledge Distillation]]: supplies intermediate teacher states for fitting recurrent surrogates.
 - [[concepts/feature-dynamics-distillation|Feature Dynamics Distillation]]: aligns student and teacher behavior across layer trajectories without requiring phase-wise parameter tying.
 - [[concepts/adaptive-computation|Adaptive Computation]]: also trades repeated processing for depth, but may vary the number of iterations by input or stopping rule.
+- [[concepts/intra-loop-self-distillation|Intra-Loop Self Distillation]]: supervises prefixes of a shared recurrent trajectory against its maximum-depth state so multiple exit depths remain useful.

@@ -23,6 +23,7 @@ Adaptive computation varies the amount of model processing across inputs. In rec
 - [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] provides a different anytime mechanism: a shared timestep-free update improves with recurrent depth far beyond its training rollouts, and inference can stop after the decoded output remains stable for a patience window. Its strongest Sudoku result uses 10,000 steps, so accuracy scaling does not by itself establish compute efficiency.
 - [[papers/looping-back-to-move-forward-recursive-transformers-for-efficient-and-flexible-large-multimodal-models|RecursiveVLM]] supervises every full-backbone pass and penalizes token losses that worsen relative to the preceding pass. This makes intermediate predictions useful at one- and two-pass budgets, but the model has no learned stopping rule and a third pass does not improve every benchmark.
 - [[papers/loopvit-scaling-visual-arc-with-looped-transformers|LoopViT]] repeatedly applies a weight-tied vision core and stops when mean pixelwise predictive entropy falls below 0.05. This rule adds no halting parameters and improves the paper's reported accuracy-compute frontier over fixed-step variants, but low entropy is not a correctness guarantee and the evaluation does not report matched-hardware latency.
+- [[papers/elt-elastic-looped-transformers-for-visual-generation|ELT]] uses [[concepts/intra-loop-self-distillation|Intra-Loop Self Distillation]] to make a visual generator usable at several recurrent depths. Its loop budget is selected externally rather than by an input-dependent halting rule, and quality can deteriorate beyond the trained depth range.
 
 ## Important Papers
 
@@ -32,6 +33,7 @@ Adaptive computation varies the amount of model processing across inputs. In rec
 - [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]]: timestep-free recurrence with a persistent hidden state and stability-based stopping on structured reasoning tasks.
 - [[papers/looping-back-to-move-forward-recursive-transformers-for-efficient-and-flexible-large-multimodal-models|Looping Back to Move Forward]]: full-backbone multimodal recursion with stepwise supervision and outputs at different pass budgets.
 - [[papers/loopvit-scaling-visual-arc-with-looped-transformers|LoopViT: Scaling Visual ARC with Looped Transformers]]: entropy-based early exit for a weight-tied hybrid Vision Transformer on ARC-AGI.
+- [[papers/elt-elastic-looped-transformers-for-visual-generation|ELT: Elastic Looped Transformers for Visual Generation]]: variable-loop image and video generation from one weight-shared checkpoint, with intermediate depths trained by self-distillation.
 
 ## Related Concepts
 
