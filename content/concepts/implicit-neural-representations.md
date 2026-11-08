@@ -28,6 +28,7 @@ Implicit neural representations encode a signal as a learned function from coord
 
 ## Important Papers
 
+- [[papers/time-series-continuous-modeling-for-imputation-and-forecasting-with-implicit-neural-representations|Time Series Continuous Modeling for Imputation and Forecasting with Implicit Neural Representations]] applies a Fourier-feature INR with meta-learned per-series shift modulations to irregular time-series imputation and forecasting.
 - [[Multi-resolution enhancement for full-spectrum neural representations]]
 - Sitzmann et al. (2020), "Implicit Neural Representations with Periodic Activation Functions."
 - Mildenhall et al. (2020), "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis."
