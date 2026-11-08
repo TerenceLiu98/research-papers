@@ -46,6 +46,7 @@ MeanFlow trains with sample-conditional instantaneous velocities and a stopped t
 ## Important Papers
 
 - [[papers/mean-flows-for-one-step-generative-modeling|Mean Flows for One-step Generative Modeling]]: derives the identity, implements JVP-based training, and incorporates guidance into the learned average field.
+- [[papers/how-i-learned-to-stop-worrying-and-love-stopgrads|How I Learned to Stop Worrying and Love StopGrads]]: proves uniqueness of the true MeanFlow stationary point and gives an idealized functional semi-gradient convergence result.
 - [[papers/functional-mean-flow-in-hilbert-space|Functional Mean Flow in Hilbert Space]]: extends finite-interval velocity learning to Hilbert-space function distributions and introduces an endpoint-prediction parameterization.
 
 ## Related Concepts
