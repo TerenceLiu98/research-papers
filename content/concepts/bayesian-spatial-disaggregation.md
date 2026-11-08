@@ -24,6 +24,7 @@ Bayesian spatial disaggregation infers a fine-scale spatial process from observa
 
 ## Important Papers
 
+- [[papers/spatio-temporal-disaggregation-with-changing-areal-boundaries|Spatio-Temporal Disaggregation with Changing Areal Boundaries]]: shares one latent field across changing administrative maps and marginalizes polygon-time overdispersion into a negative binomial likelihood.
 - [[papers/continuous-inference-for-aggregated-point-process-data|Continuous inference for aggregated point process data]]: develops count augmentation for overlapping, uncertain, and spatiotemporal observation regions, with malaria and electoral-boundary applications.
 - [[bayesian-spatial-disaggregation-modeling-for-the-detection-of-disease-clusters|Bayesian spatial disaggregation modeling for the detection of disease clusters]]: compares continuous exceedance-based clustering with areal models and scan statistics, including the false-positive tradeoff.
 - Moraga et al. (2017), "A geostatistical model for combined analysis of point-level and area-level data using INLA and SPDE," cited by the cluster-detection paper as its spatial integration foundation.

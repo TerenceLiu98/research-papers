@@ -26,6 +26,7 @@ A log-Gaussian Cox process models point locations with a random intensity whose 
 
 ## Important Papers
 
+- [[papers/spatio-temporal-disaggregation-with-changing-areal-boundaries|Spatio-Temporal Disaggregation with Changing Areal Boundaries]]: fits an aggregated LGCP across changing maps with a shared spatial field and marginal negative binomial likelihood.
 - [[papers/spatiotemporal-patterns-of-conflict-related-sexual-violence-in-colombia|Spatiotemporal patterns of conflict-related sexual violence in Colombia]]: compares population-adjusted spatial intensities across two periods and distinguishes geographic clustering from temporal excitation.
 - [[papers/spatial-causal-inference-in-the-presence-of-preferential-sampling-to-study-the-impacts-of-marine-protected-areas|Spatial Causal Inference in the Presence of Preferential Sampling to Study the Impacts of Marine Protected Areas]]: uses policy-specific LGCP sampling intensities linked to latent outcome processes.
 - Brix and Diggle (2001), "Spatiotemporal prediction for log-Gaussian Cox processes": methodological reference cited by the Colombian study.

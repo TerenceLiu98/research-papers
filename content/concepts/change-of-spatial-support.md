@@ -47,6 +47,7 @@ Exact count aggregation to a common coarse support identifies the contrast there
 
 ## Important Papers
 
+- [[papers/spatio-temporal-disaggregation-with-changing-areal-boundaries|Spatio-Temporal Disaggregation with Changing Areal Boundaries]]: jointly uses repeated counts reported on changing administrative partitions through a shared latent risk surface.
 - [[papers/crossing-the-boundaries-an-implementation-of-two-methods-for-projecting-data-across-boundary-changes|Crossing the Boundaries: An Implementation of Two Methods for Projecting Data across Boundary Changes]]: Implements area- and population-weighted transfer matrices and evaluates them on electoral boundary changes and simulations.
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: Introduces geometric diagnostics and compares measurement and regression errors across transformation methods.
 - [[papers/spatial-latent-gaussian-modelling-with-change-of-support|Spatial Latent Gaussian Modelling with Change of Support]]: Jointly models misaligned responses and predictors using continuous spline fields and explicit support projections.
