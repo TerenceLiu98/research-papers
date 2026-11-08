@@ -26,6 +26,7 @@ Representational-functional dissociation is the possibility that two models have
 
 ## Important Papers
 
+- [[papers/decoding-alignment-without-encoding-alignment-a-missing-component-for-interpretability|Decoding Alignment without Encoding Alignment: A Missing Component for Interpretability]]: causally changes encoding-manifold topology while RSA, CKA, and Procrustes alignment remain matched, then documents differences in attribution, connectivity, and robustness.
 - [[papers/convergence-without-understanding-when-language-models-agree-on-representations-but-disagree-on-reasoning|Convergence Without Understanding: When Language Models Agree on Representations but Disagree on Reasoning]]: demonstrates difficulty, computational-stage, and causal dissociations across language-model families.
 - Braun, Grant, and Saxe (2025), "Not All Solutions Are Created Equal: An Analytical Dissociation of Functional and Representational Similarity in Deep Linear Neural Networks": proves that representation and function can be decoupled in a controlled analytical setting.
 - [[papers/discovering-cross-language-reasoning-invariance-in-llms-with-geometry-invariant-sparse-autoencoders|Discovering Cross-Language Reasoning Invariance in LLMs with Geometry-Invariant Sparse Autoencoders]]: shows that improved cross-language geometry does not consistently improve feature-level functional interchangeability.
@@ -37,5 +38,6 @@ Representational-functional dissociation is the possibility that two models have
 - [[concepts/cross-model-representational-disagreement|Cross-Model Representational Disagreement]]
 - [[concepts/geometry-invariant-sparse-autoencoders|Geometry-Invariant Sparse Autoencoders]]
 - [[concepts/linear-probing|Linear Probing]]
-- Mechanistic interpretability
+- [[concepts/encoding-manifolds|Encoding Manifolds]]
+- [[concepts/mechanistic-interpretability|Mechanistic Interpretability]]
 - Causal activation patching

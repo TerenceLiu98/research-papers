@@ -26,11 +26,13 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - A regularized GW plan can be normalized into a [[concepts/transfer-operators|Transfer Operator]]. Its spectral modes can identify coherent structures across two snapshots, while the GW objective restricted to each paired structure measures intrinsic shape preservation.
 - [[concepts/z-gromov-wasserstein-distance|Z-Gromov-Wasserstein Distance]] replaces scalar kernels with kernels valued in an arbitrary metric space, placing attributed-network and several other GW variants in one framework.
 - [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]] represents structure-aware evolution through interacting travelling pairs. A distance-variation Lagrangian recovers GW transport as the interaction weight tends to infinity, while retaining ordinary kinetic-energy transport at zero weight.
+- For neural populations, GW can compare the intrinsic topology of [[concepts/encoding-manifolds|Encoding Manifolds]]. [[papers/decoding-alignment-without-encoding-alignment-a-missing-component-for-interpretability|Decoding Alignment without Encoding Alignment]] normalizes a subpopulation-to-full-population GW distance against a collapsed baseline to measure manifold coverage that RSA and CKA can miss.
 
 ## Important Papers
 
 - Memoli (2011), "Gromov-Wasserstein Distances and the Metric Approach to Object Matching": foundational reference cited in the ingested clustering paper.
 - Peyre, Cuturi, and Solomon (2016), "Gromov-Wasserstein Averaging of Kernel and Distance Matrices": cited basis for structural barycenters.
+- [[papers/decoding-alignment-without-encoding-alignment-a-missing-component-for-interpretability|Decoding Alignment without Encoding Alignment: A Missing Component for Interpretability]]: uses GW as an encoding-side diagnostic for neural populations with similar decoding geometry but different functional topology.
 - [[papers/a-new-clustering-strategy-for-geo-referenced-time-series-based-on-optimal-transport|A New Clustering Strategy for Geo-Referenced Time Series Based on Optimal Transport]]: uses spatial GW discrepancies to weight temporal Gromov-DTW costs and constructs spatial cluster prototypes.
 - [[papers/gromov-wasserstein-transfer-operators|Gromov-Wasserstein Transfer Operators]] (Beier, 2023): estimates rotational dynamics from snapshot couplings and clusters the induced operator into coherent structures.
 - [[papers/exploiting-geometry-for-treatment-effect-estimation-via-optimal-transport|Exploiting Geometry for Treatment Effect Estimation via Optimal Transport]]: applies fused Gromov-Wasserstein geometry to confounder balancing and ATT estimation.
