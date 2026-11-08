@@ -34,6 +34,7 @@ Model inversion attacks reconstruct inputs or attributes associated with a train
 - Qiu et al. (2024), "A Closer Look at GAN Priors: Exploiting Intermediate Features for Enhanced Model Inversion Attacks": optimizes intermediate GAN features.
 - Lu et al. (2025), "FGMIA: Feature-Guided Model Inversion Attacks Against Face Recognition Models": guides diffusion generation with recovered feature encodings.
 - [[papers/steering-the-flow-inverting-face-recognition-models-via-gradient-guided-flow-matching|Steering the Flow: Inverting Face Recognition Models via Gradient-Guided Flow Matching]]: steers an unconditional flow-matching ODE with normalized, scheduled target-model gradients.
+- [[papers/language-models-are-injective-and-hence-invertible|Language Models Are Injective and Hence Invertible]]: proves prompt uniqueness for a class of decoder-only Transformer representations and recovers exact tokens from full per-position hidden states under white-box access.
 
 ## Related Concepts
 
@@ -41,3 +42,4 @@ Model inversion attacks reconstruct inputs or attributes associated with a train
 - [[concepts/diffusion-models|Diffusion Models]]: provide iterative denoising priors used in model inversion attacks.
 - [[concepts/deep-metric-learning|Deep Metric Learning]]: underlies many identity-discriminative face representations targeted by inversion.
 - [[concepts/differential-privacy|Differential Privacy]]: provides formal training-data privacy guarantees under explicit mechanisms and budgets, unlike empirical attack-specific defenses.
+- [[concepts/transformer-injectivity|Transformer Injectivity]]: separates uniqueness of an input representation from the computational and access requirements of an inversion attack.
