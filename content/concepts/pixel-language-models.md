@@ -24,6 +24,7 @@ Pixel language models process text after rendering it as an image. Instead of as
 - **Vocabulary freedom does not remove capacity trade-offs.** Multilingual pixel models can still exhibit a curse of multilinguality: adding languages may reduce performance on languages already covered when model capacity is fixed.
 - **Transfer is local rather than automatic.** Shared scripts and related languages can support transfer, but broader multilingual pretraining does not necessarily yield monotonically better performance on unseen writing systems.
 - **Encoder and generative designs differ.** Masked-autoencoder pixel models are usually encoders for understanding tasks. Autoregressive and hybrid token-pixel systems are needed when language generation is the target.
+- **Pixel prediction can serve as a visual psycholinguistic measure.** Reconstruction difficulty over masked word patches can capture orthographic and parafoveal information that token surprisal omits. Its value is complementary rather than interchangeable: visual difficulty can add predictive power for reading behavior even when it is weaker than token surprisal on fixation duration.
 
 ## Important Papers
 
@@ -31,6 +32,7 @@ Pixel language models process text after rendering it as an image. Instead of as
 - Lotz et al. (2023), "Text Rendering Strategies for Pixel Language Models": shows that structured rendering can reduce patch redundancy and improve efficiency.
 - Kesen et al. (2025), "Multilingual Pretraining for Pixel Language Models": studies multilingual PIXEL pretraining and transfer to unseen scripts.
 - [[papers/scaling-multilingual-pretraining-of-pixel-language-models|Scaling Multilingual Pretraining of Pixel Language Models]]: separates language, script, and capacity scaling and analyzes their downstream and representation-level effects.
+- [[papers/reading-time-modeling-with-pixel-based-language-models|Reading Time Modeling with Pixel-Based Language Models]]: uses pixel-space reconstruction difficulty and entropy to model fixation duration and word skipping across eight languages.
 - Tai et al. (2024), "PIXAR: Auto-regressive Language Modeling in Pixel Space": extends pixel-space modeling to autoregressive generation.
 
 ## Related Concepts
@@ -42,3 +44,5 @@ Pixel language models process text after rendering it as an image. Instead of as
 - Vision Transformer
 - Masked autoencoders
 - Linguistic probing
+- Computational psycholinguistics
+- Parafoveal processing
