@@ -20,12 +20,14 @@ Text-conditioned forecasting predicts numerical futures from an observed history
 - **Matched context ablations isolate text use.** Holding history, horizon, model, and inference settings fixed while removing or changing only the text is more informative about conditioning than comparing models with different lookback lengths. Same-history sibling scenarios additionally test whether predictions distinguish competing conditions.
 - **Conditioning strength need not be fixed at full weight.** TimeBraid interpolates numeric-only and text-conditioned point predictions. A validation-selected weight can reduce reliance on weak context; selecting the best weight after observing test results would answer a different evaluation question.
 - **Metrics should match the capability.** MSE and MAE measure trajectory accuracy; distributional scores assess probabilistic forecasts; sibling retrieval tests whether the intended scenario is closer than alternatives. None alone establishes faithful constraint satisfaction or causal validity.
+- **Counterfactual scenarios may lack observable targets.** When a condition did not occur, learned history-consistency and text-alignment scores can test conditional control, but they cannot establish numerical counterfactual accuracy. TADIFF's DTTC evaluation makes this distinction explicit by separating intrinsic-history alignment from future-text alignment.
 - **Temporal provenance is part of the protocol.** Text must be available at the forecast origin for a prospective claim. Split separation, historical availability of reports, training-family overlap, and equal access to numerical history are separate considerations.
 
 ## Important Papers
 
 - [[papers/timebraid-unifying-time-series-and-language-for-understanding-and-forecasting|TimeBraid: Unifying Time Series and Language for Understanding and Forecasting]] combines pretrained temporal and language models. Its Ctrl-F evaluation uses three constructed futures per history; its TimeMMD analysis shows domain-dependent sensitivity to text strength and notes uncertified point-in-time text availability.
 - [[papers/aurora-towards-universal-generative-multimodal-time-series-forecasting|Aurora: Towards Universal Generative Multimodal Time Series Forecasting]] conditions temporal attention and prototype-guided flow generation on auxiliary modalities, with text masking supporting inference when text is absent. Its images are derived from observed history rather than independent future information.
+- [[papers/what-if-tomorrow-is-the-world-cup-final-counterfactual-time-series-forecasting-with-textual-conditions|What if Tomorrow is the World Cup Final? Counterfactual Time Series Forecasting with Textual Conditions]] uses text-attributive diffusion for hypothetical future conditions and DTTC scores when real-world counterfactual targets are unavailable.
 
 ## Related Concepts
 
