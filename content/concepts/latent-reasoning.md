@@ -28,6 +28,7 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 - **Local objectives can organize recurrent computation.** [[papers/thinking-with-looped-flows|Thinking with Looped Flows]] orders denoising problems from high to low noise and carries hidden features between them while stopping gradients across steps. The visible probability-flow state and recurrent state then evolve together at inference, providing separate channels for probabilistic transport and accumulated computation.
 - **Latent thoughts need behavioral requirements beyond answer accuracy.** [[papers/what-matters-for-latent-reasoning-with-flow-matching|What Matters for Latent Reasoning with Flow Matching]] tests whether thoughts are causally useful, diverse under resampling, decodable and faithful, refinable with more compute, and efficient relative to explicit CoT. Its interventions also show that decodability and answer control remain incomplete.
 - **Generatable codes differ from reconstructible codes.** FLaRe compresses symbolic CoTs into a corrupted VAE space and trains a conditional flow mostly near noise. Its ablations find that larger, more exactly reconstructible codes can be harder for a flow to generate, while training the reader on the model's imperfect endpoints reduces the train-inference mismatch.
+- **Latent recurrence can refine actions as well as answers.** [[papers/looped-language-models-improve-compositional-tool-calling|Looped Language Models Improve Compositional Tool Calling]] varies recurrent depth while holding model parameters fixed and reports the clearest gains on multi-call and dependency-aware workflows. Its qualitative examples show corrections to functions, arguments, call structure, and intermediate references, without identifying the internal algorithm that produces those corrections.
 
 ## Important Papers
 
@@ -41,6 +42,7 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 - Hao et al. (2025), "Training Large Language Models to Reason in a Continuous Latent Space": trains recurrent latent computation rather than requiring every step to be verbalized.
 - [[papers/thinking-with-looped-flows|Thinking with Looped Flows]]: trains recurrent hidden states through temporally aligned local denoising losses and scales structured reasoning with additional flow-integration steps.
 - [[papers/what-matters-for-latent-reasoning-with-flow-matching|What Matters for Latent Reasoning with Flow Matching]]: develops FLaRe and evaluates latent thoughts through causal, diversity, decoding, refinement, and efficiency probes.
+- [[papers/looped-language-models-improve-compositional-tool-calling|Looped Language Models Improve Compositional Tool Calling]]: tests recurrent latent refinement on API grounding, independent multi-call generation, and nested tool workflows.
 
 ## Related Concepts
 
@@ -51,4 +53,5 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 - Test-time computation
 - Recurrent depth
 - [[concepts/flow-matching|Flow Matching]]
+- [[concepts/compositional-tool-calling|Compositional Tool Calling]]
 - Benchmark contamination

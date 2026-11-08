@@ -24,6 +24,7 @@ Adaptive computation varies the amount of model processing across inputs. In rec
 - [[papers/looping-back-to-move-forward-recursive-transformers-for-efficient-and-flexible-large-multimodal-models|RecursiveVLM]] supervises every full-backbone pass and penalizes token losses that worsen relative to the preceding pass. This makes intermediate predictions useful at one- and two-pass budgets, but the model has no learned stopping rule and a third pass does not improve every benchmark.
 - [[papers/loopvit-scaling-visual-arc-with-looped-transformers|LoopViT]] repeatedly applies a weight-tied vision core and stops when mean pixelwise predictive entropy falls below 0.05. This rule adds no halting parameters and improves the paper's reported accuracy-compute frontier over fixed-step variants, but low entropy is not a correctness guarantee and the evaluation does not report matched-hardware latency.
 - [[papers/elt-elastic-looped-transformers-for-visual-generation|ELT]] uses [[concepts/intra-loop-self-distillation|Intra-Loop Self Distillation]] to make a visual generator usable at several recurrent depths. Its loop budget is selected externally rather than by an input-dependent halting rule, and quality can deteriorate beyond the trained depth range.
+- [[papers/looped-language-models-improve-compositional-tool-calling|Looped Language Models Improve Compositional Tool Calling]] evaluates Ouro's learned per-token exit gate on BFCL and NESTful. Adaptive stopping matches or slightly exceeds the best fixed-depth operating point with fewer average recurrent iterations, although average depth is not a direct latency measurement.
 
 ## Important Papers
 
@@ -34,8 +35,10 @@ Adaptive computation varies the amount of model processing across inputs. In rec
 - [[papers/looping-back-to-move-forward-recursive-transformers-for-efficient-and-flexible-large-multimodal-models|Looping Back to Move Forward]]: full-backbone multimodal recursion with stepwise supervision and outputs at different pass budgets.
 - [[papers/loopvit-scaling-visual-arc-with-looped-transformers|LoopViT: Scaling Visual ARC with Looped Transformers]]: entropy-based early exit for a weight-tied hybrid Vision Transformer on ARC-AGI.
 - [[papers/elt-elastic-looped-transformers-for-visual-generation|ELT: Elastic Looped Transformers for Visual Generation]]: variable-loop image and video generation from one weight-shared checkpoint, with intermediate depths trained by self-distillation.
+- [[papers/looped-language-models-improve-compositional-tool-calling|Looped Language Models Improve Compositional Tool Calling]]: learned token-level stopping for independent multi-call and dependency-aware tool workflows.
 
 ## Related Concepts
 
 - [[concepts/neural-synchronization-representations|Neural Synchronization Representations]]: CTM uses temporal pairwise activity to construct predictions and attention queries across internal ticks.
 - [[concepts/diffusion-models|Diffusion Models]]: ordered corruption can provide local supervision for an iterative solver even when annealing is unnecessary at inference.
+- [[concepts/compositional-tool-calling|Compositional Tool Calling]]: adaptive recurrent depth can allocate more refinement to structured tool-call generation when needed.
