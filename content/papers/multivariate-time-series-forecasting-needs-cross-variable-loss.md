@@ -4,8 +4,8 @@ type: paper
 authors:
   - Kuiye Ding
   - Yifan Hu
-  - Hanchen Wang
   - Hao Xue
+  - Hanchen Wang
 year: null
 tags:
   - time-series-forecasting
@@ -93,7 +93,7 @@ Correlation visualizations measure absolute Pearson-correlation error, not signe
 - **Scaling and anchoring:** The full graph has $O(P^2D^2)$ edges, each comparing length-$L$ vectors. Sampling bounds evaluated interactions but is a separate efficiency experiment. Top-K selection still requires computing or approximating the discrepancies used to rank pairs. With $\alpha=1$, structural loss alone cannot identify common residual offsets; ECL deteriorates at that endpoint in the sensitivity tables.
 - **Reporting discrepancies:** Table 3 reports TQNet/ETTh1 CvLoss MSE/MAE as 0.430/0.438 and identifies an MAE regression in Table 2, whereas Tables 4 and 13 report 0.438/0.430. Table 1 and Table 8 also differ in some TimeFilter averages. Thus the exact 111/2/1 aggregate should be retained as reported, not treated as independently reconciled evidence. PEMS horizon descriptions conflict with Table 9, and some prose claims of consistent improvement exceed individual table entries.
 - **Evidence boundaries:** Evaluation concerns deterministic forecasts on regular benchmark series. Exchange is excluded, and irregular sampling, missing values, and probabilistic forecasting remain untested extensions. Seven-seed inference covers only two datasets and two backbones; overlapping metrics, horizons, and comparison blocks are not independent replications.
-- **Source completeness:** The supplied Markdown gives no explicit publication year, confirmed venue, DOI, or arXiv identifier for this paper and ends immediately after the opening sentence of Appendix F. These metadata are left unspecified rather than inferred from cited works.
+- **Source metadata:** The supplied Markdown gives no explicit publication year, confirmed venue, DOI, or arXiv identifier for this paper. These metadata are left unspecified rather than inferred from cited works or the included NeurIPS checklist.
 
 ## Related Concepts
 
