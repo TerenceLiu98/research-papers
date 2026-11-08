@@ -21,6 +21,7 @@ Neural combinatorial optimization uses neural networks to represent policies or 
 - Generalization depends on the state representation and architecture. Encoding every item jointly can make memory grow rapidly and can bind a model to the instance sizes seen during training.
 - Structured decisions may need explicit factorization when one step contains mutually dependent sub-actions rather than a single selection.
 - Unsupervised methods can replace labeled solutions with a known energy function. [[papers/a-diffusion-model-framework-for-unsupervised-neural-combinatorial-optimization|DiffUCO]] trains a multi-step discrete latent-variable model through a joint reverse-KL upper bound, trading the exact likelihoods of mean-field or autoregressive models for tractable complete-path probabilities.
+- Supervised diffusion offers a different tradeoff. [[papers/difusco-graph-based-diffusion-solvers-for-combinatorial-optimization|DIFUSCO]] learns from solver-produced binary solutions, refines all node or edge decisions in parallel, and delegates feasibility to task-specific decoding and search.
 - Supervised sequence models can amortize a heuristic over a recurring problem distribution. [[papers/learning-to-deliver-a-foundation-model-for-the-montreal-capacitated-vehicle-routing-problem|FM-MCVRP]] learns from inexpensive routing solutions and uses repeated stochastic decoding to search for solutions better than individual labels.
 
 ## Important Papers
@@ -30,6 +31,7 @@ Neural combinatorial optimization uses neural networks to represent policies or 
 - Kool, van Hoof, and Welling (2019), "Attention, Learn to Solve Routing Problems!": uses attention and reinforcement learning for routing.
 - [[papers/one-model-packs-thousands-of-items-with-recurrent-conditional-query-learning|One Model Packs Thousands of Items with Recurrent Conditional Query Learning]] combines recurrent state encoding with sequential conditional queries for packing.
 - [[papers/a-diffusion-model-framework-for-unsupervised-neural-combinatorial-optimization|A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization]] applies data-free discrete diffusion to five graph optimization problems.
+- [[papers/difusco-graph-based-diffusion-solvers-for-combinatorial-optimization|DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization]] applies supervised graph diffusion to TSP and maximum independent set instances.
 - [[papers/learning-to-deliver-a-foundation-model-for-the-montreal-capacitated-vehicle-routing-problem|Learning to Deliver: a Foundation Model for the Montreal Capacitated Vehicle Routing Problem]] treats fixed-graph routing as supervised conditional sequence generation.
 
 ## Related Concepts
