@@ -38,6 +38,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - **Learned reasoning-code transport.** [[papers/what-matters-for-latent-reasoning-with-flow-matching|What Matters for Latent Reasoning with Flow Matching]] conditions a rectified flow on a question and transports Gaussian noise to a VAE code for an entire symbolic chain of thought. Its ablations favor training times concentrated near noise, multiple target solutions per question, and an answer reader exposed to generated endpoints; verified end-to-end rollouts further adapt generation and readout.
 - **Condition-aware coupling.** Minibatch optimal transport can shorten source-target paths, but in conditional generation it can also make source noise depend on the condition during training. [[papers/the-curse-of-conditions-analyzing-and-improving-optimal-transport-for-conditional-flow-based-generation|The Curse of Conditions]] adds a condition-distance term to the assignment so inference can continue to use the full source prior for every condition.
 - **Interacting conditional paths.** [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]] lifts conditional paths to a two-particle space. Travelling-pair velocities can then be marginalized into a single-particle field, allowing pairwise structural interactions to influence a simulation-free regression target.
+- **Cross-scale trajectory consistency.** [[papers/recursive-flow-matching|Recursive Flow Matching]] evaluates a scale-conditioned velocity network on time-rescaled trajectories that intersect at the same interpolated state. Direct supervision at each scale and a same-point consistency loss improve one- and two-step scientific emulation in the reported experiments; the scale input is used only during training.
 
 ## Important Papers
 
@@ -62,6 +63,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - [[papers/dynamic-generalized-gromov-wasserstein-optimal-transport|Dynamic Generalized Gromov-Wasserstein Optimal Transport]] (Ying, Zeng, Zhou, and Zhang, 2026): develops travelling-pair flow matching for interacting paths and structure-preserving spatial-transcriptomics dynamics.
 - [[papers/steering-the-flow-inverting-face-recognition-models-via-gradient-guided-flow-matching|Steering the Flow: Inverting Face Recognition Models via Gradient-Guided Flow Matching]]: uses an unconditional face flow as a reusable prior, then injects normalized target-model gradients through a progressive schedule for white-box model inversion.
 - [[papers/flowinone-unifying-multimodal-generation-as-image-in-image-out-flow-matching|FlowInOne: Unifying Multimodal Generation as Image-In, Image-Out Flow Matching]]: transports rendered visual-instruction latents to target-image latents with one model across generation, editing, spatial-control, and physics-aware tasks.
+- [[papers/recursive-flow-matching|Recursive Flow Matching]]: aligns recursively scaled velocities at shared spatial states and reports accurate one- or two-step forecasting on SST, Navier-Stokes, and Helmholtz benchmarks.
 
 ## Related Concepts
 
