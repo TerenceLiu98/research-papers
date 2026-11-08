@@ -25,6 +25,7 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - GW can align concept dictionaries that live in different feature spaces by comparing their internal relational geometry. [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]] combines this structural term with activation-signature evidence and unbalanced marginal penalties at both sample-local and full-dictionary scales.
 - A regularized GW plan can be normalized into a [[concepts/transfer-operators|Transfer Operator]]. Its spectral modes can identify coherent structures across two snapshots, while the GW objective restricted to each paired structure measures intrinsic shape preservation.
 - [[concepts/z-gromov-wasserstein-distance|Z-Gromov-Wasserstein Distance]] replaces scalar kernels with kernels valued in an arbitrary metric space, placing attributed-network and several other GW variants in one framework.
+- [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]] represents structure-aware evolution through interacting travelling pairs. A distance-variation Lagrangian recovers GW transport as the interaction weight tends to infinity, while retaining ordinary kinetic-energy transport at zero weight.
 
 ## Important Papers
 
@@ -37,6 +38,7 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - [[papers/structure-centric-graph-foundation-model-via-geometric-bases|Structure-Centric Graph Foundation Model via Geometric Bases]]: uses learned reference metric-measure spaces to align graph topology and condition feature projection across domains.
 - [[MetaphorCBM: Autonomous Concept Bottleneck Construction via Multimodal Sparse Dictionary Fusion]]
 - [[papers/alignment-matters-inside-and-out-in-equivariant-graph-flow-matching|Alignment Matters Inside and Out in Equivariant Graph Flow Matching]] (Piening and Wald, 2026): uses a vector-valued GW relaxation to approximate node alignment inside graph pairs before flow-matching interpolation.
+- [[papers/dynamic-generalized-gromov-wasserstein-optimal-transport|Dynamic Generalized Gromov-Wasserstein Optimal Transport]] (Ying, Zeng, Zhou, and Zhang, 2026): formulates travelling-pair dynamics for quadratic transport and evaluates a simulation-free solver on spatial-transcriptomics interpolation.
 
 ## Related Concepts
 
@@ -47,3 +49,4 @@ Gromov-Wasserstein (GW) comparison matches metric-measure spaces through their i
 - [[concepts/transfer-operators|Transfer Operators]]: describes density evolution induced by transport couplings.
 - [[concepts/graph-foundation-models|Graph Foundation Models]]: transferable graph models that may use intrinsic structure as a cross-domain reference.
 - [[concepts/graph-quotient-alignment|Graph Quotient Alignment]]: interprets hard node alignment as representative selection in a graph quotient and uses GW as a relaxation.
+- [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]]: extends quadratic structure-aware costs to continuous interacting paths.

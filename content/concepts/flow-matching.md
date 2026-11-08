@@ -34,6 +34,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - **Trajectory-valued targets.** [[papers/flow-jepa-robust-latent-dynamics-for-jepa-world-models-via-flow-matching|Flow-JEPA]] treats a complete future latent sequence as one flow state, conditioning its vector field on the current observation and action sequence. This removes autoregressive rollout inside the dynamics model, but its experiments do not isolate joint trajectory prediction from stochastic interpolation training.
 - **Stateful denoising for recurrent computation.** [[papers/thinking-with-looped-flows|Thinking with Looped Flows]] augments each denoising step with a recurrent hidden state. Ordered noise levels and a shared source-target pair align locally supervised steps, while inference advances both the probability-flow state and hidden recurrence. This uses flow matching as a training curriculum for iterative reasoning rather than only as a generative sampler.
 - **Condition-aware coupling.** Minibatch optimal transport can shorten source-target paths, but in conditional generation it can also make source noise depend on the condition during training. [[papers/the-curse-of-conditions-analyzing-and-improving-optimal-transport-for-conditional-flow-based-generation|The Curse of Conditions]] adds a condition-distance term to the assignment so inference can continue to use the full source prior for every condition.
+- **Interacting conditional paths.** [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]] lifts conditional paths to a two-particle space. Travelling-pair velocities can then be marginalized into a single-particle field, allowing pairwise structural interactions to influence a simulation-free regression target.
 
 ## Important Papers
 
@@ -49,6 +50,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - [[papers/aligning-latent-geometry-for-spherical-flow-matching-in-image-generation|Aligning Latent Geometry for Spherical Flow Matching in Image Generation]]: constrains pretrained VAE tokens to a fixed-radius sphere and reports that slerp transport improves matched ImageNet-256 FID across three tokenizer families.
 - [[papers/thinking-with-looped-flows|Thinking with Looped Flows]]: combines categorical probability-flow integration with hidden-state recurrence, using temporally aligned local denoising losses for structured reasoning.
 - [[papers/prismflow-residual-dynamics-for-flow-matching-in-time-series-generation|PrismFlow: Residual Dynamics for Flow Matching in Time-Series Generation]]: augments a global time-series transport field with winner-take-all Koopman-inspired residual experts to reduce velocity averaging and preserve spectral diversity.
+- [[papers/dynamic-generalized-gromov-wasserstein-optimal-transport|Dynamic Generalized Gromov-Wasserstein Optimal Transport]] (Ying, Zeng, Zhou, and Zhang, 2026): develops travelling-pair flow matching for interacting paths and structure-preserving spatial-transcriptomics dynamics.
 
 ## Related Concepts
 
@@ -57,3 +59,4 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - [[concepts/latent-reasoning|Latent Reasoning]]: looped flows use stateful denoising to carry task computation through recurrent hidden features.
 - [[concepts/graph-quotient-alignment|Graph Quotient Alignment]]: adapts coupling selection to data defined only up to node permutation.
 - [[concepts/chip-placement|Chip Placement]]: a constrained geometric application in which the generated state must satisfy boundaries and non-overlap while supporting downstream physical-design objectives.
+- [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]]: extends conditional velocity regression to interacting particle pairs.
