@@ -26,6 +26,7 @@ Neural operators learn maps between function spaces rather than maps tied to one
 
 ## Important Papers
 
+- [[papers/continuous-spatiotemporal-transformer|Continuous Spatiotemporal Transformer]] uses dummy coordinates and derivative penalties to train a continuously queryable Transformer for spatiotemporal systems.
 - [[NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simulations]]
 - [[GeoPT: Scaling Physics Simulation via Lifted Geometric Pre-Training]]
 - [[Autoencoders in Function Space]]
