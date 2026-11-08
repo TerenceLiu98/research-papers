@@ -31,6 +31,7 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - Diffusion models can represent conditional potential-outcome distributions rather than media. [[papers/conformal-diffusion-models-for-individual-treatment-effect-estimation-and-inference|Conformal Diffusion Models for Individual Treatment Effect Estimation and Inference]] calibrates generated outcomes with weighted conformal scores instead of treating raw sample quantiles as valid intervals.
 - Diffusion can model each continuous token independently when conditioned on a shared semantic predictor. [[papers/denoising-with-a-joint-embedding-predictive-architecture|D-JEPA]] uses a compact per-token denoising MLP inside iterative masked-token generation, separating semantic feature prediction from token-value sampling.
 - Text-to-image diffusion models can match coarse image-quality metrics while systematically suppressing or exaggerating fine-grained visual features. [[concepts/conceptual-blindspots|Conceptual Blindspots]] compare those feature frequencies against a prompt-matched natural-image baseline.
+- Conditional diffusion models can also support [[concepts/generative-classification|Generative Classification]] without an added prediction head. [[papers/your-diffusion-model-is-secretly-a-zero-shot-classifier|Diffusion Classifier]] ranks conditions by paired Monte Carlo estimates of their denoising errors, treating the diffusion ELBO as an approximate class-conditional log likelihood.
 
 ## Important Papers
 
@@ -48,6 +49,7 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - Ho and Salimans (2022), "Classifier-free diffusion guidance."
 - Dhariwal and Nichol (2021), "Diffusion models beat GANs on image synthesis."
 - Jeanneret, Simon, and Jurie (2022), "Diffusion models for counterfactual explanations."
+- [[papers/your-diffusion-model-is-secretly-a-zero-shot-classifier|Your Diffusion Model is Secretly a Zero-Shot Classifier]]
 
 ## Related Concepts
 
@@ -57,5 +59,6 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 - [[Concept Bottleneck Models]]
 - [[Model Steerability]]
 - [[concepts/adaptive-computation|Adaptive Computation]]
+- [[concepts/generative-classification|Generative Classification]]
 - Generative modeling
 - Conditional generation
