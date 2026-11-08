@@ -33,6 +33,7 @@ Joint-embedding predictive architectures learn representations by predicting a t
 - **Latent prediction can condition continuous generation:** [[papers/denoising-with-a-joint-embedding-predictive-architecture|Denoising with a Joint-Embedding Predictive Architecture]] combines masked feature prediction with a token-wise diffusion or flow-matching head. Its ImageNet experiments support this joint recipe for generation and representation learning, while leaving collapse prevention as an empirical architectural claim.
 - **Action supervision can shape a JEPA encoder jointly with dynamics:** [[papers/lewam-end-to-end-world-and-action-modeling-with-jepas|LeWAM]] trains latent dynamics and a flow-matching policy through one shared visual encoder. Its probes and ablations support retention of control-relevant information in the tested tasks, but SIGReg remains useful for planning and the physical-robot policy does not outperform Diffusion Policy on average.
 - **Joint embedding prediction can mediate centralized multi-agent imagination.** [[papers/ma-jepa-joint-embedding-world-models-for-multi-agent-reinforcement-learning|MA-JEPA]] predicts each agent's next local observation embedding from synchronized agent states and the joint action. The local posterior then constructs the policy state, allowing centralized training signals without exposing the decentralized actor to a centralized latent state.
+- **Encoder non-collapse does not prevent rollout contraction.** [[papers/lehami-symplectic-latent-dynamics-for-world-models|LeHami]] places an exactly symplectic constraint on the predictor, complementing distribution regularization of encoder outputs. Its guarantee excludes three contraction-related failure modes but does not imply accurate prediction or superior control.
 
 ## Important Papers
 
@@ -48,6 +49,7 @@ Joint-embedding predictive architectures learn representations by predicting a t
 - [[papers/the-jepa-predictor-a-transferable-operator-for-occluded-feature-completion|The JEPA Predictor: A Transferable Operator for Occluded Feature Completion]] connects frozen JEPA predictors to CLIP, DINOv3, DINOv2, and MAE through ridge-fitted feature bridges and evaluates completion under increasing contiguous occlusion.
 - [[papers/lewam-end-to-end-world-and-action-modeling-with-jepas|LeWAM: End-to-End World and Action Modeling with JEPAs]] jointly learns action-conditioned latent dynamics and a stochastic action policy for direct control and proposal-guided planning.
 - [[papers/ma-jepa-joint-embedding-world-models-for-multi-agent-reinforcement-learning|MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning]] extends reconstruction-free latent prediction to centralized-training/decentralized-execution multi-agent control.
+- [[papers/lehami-symplectic-latent-dynamics-for-world-models|LeHami: Symplectic Latent Dynamics for World Models]] structures a JEPA predictor as an action-conditioned Hamiltonian flow over position-like and momentum-like latents.
 - Assran et al. (2023), "Self-supervised learning from images with a joint-embedding predictive architecture," is cited by TS-JEPA as an image-domain predecessor.
 - Bardes et al. (2024), "V-JEPA: Latent video prediction for visual representation learning," is cited by TS-JEPA as a video-domain predecessor.
 
@@ -59,3 +61,4 @@ Joint-embedding predictive architectures learn representations by predicting a t
 - [[concepts/slow-feature-analysis|Slow Feature Analysis]] connects alignment under whitening to persistent eigenfunctions of a temporal transition operator.
 - [[concepts/structural-identifiability|Structural Identifiability]] asks whether a representation recovers the variables generating the observations.
 - [[concepts/platonic-representation-hypothesis|Platonic Representation Hypothesis]] concerns convergence toward shared representations across separately trained models and modalities.
+- [[concepts/symplectic-latent-dynamics|Symplectic Latent Dynamics]] constrains inference-time latent transitions rather than only the training-time embedding distribution.

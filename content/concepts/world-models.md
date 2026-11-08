@@ -27,6 +27,7 @@ World models learn predictive descriptions of an environment from observation hi
 - **Dynamics formulation affects perturbation tolerance.** [[papers/flow-jepa-robust-latent-dynamics-for-jepa-world-models-via-flow-matching|Flow-JEPA]] jointly evolves a future latent trajectory from a Gaussian source instead of recursively applying one-step transitions. Its four-environment comparison reports less degradation under localized background noise, but does not separate the effects of joint prediction and flow-path supervision.
 - **A learned policy can propose plans for its own dynamics model.** [[papers/lewam-end-to-end-world-and-action-modeling-with-jepas|LeWAM]] samples action sequences from a jointly trained flow policy and refines them through its latent dynamics. This replaces broad-prior CEM in its headline planner and is faster under the reported configurations, while ablations show that proposal quality and refinement benefits remain task-dependent.
 - **Centralized interaction prediction can preserve decentralized actor states.** [[papers/ma-jepa-joint-embedding-world-models-for-multi-agent-reinforcement-learning|MA-JEPA]] conditions a training-only joint model on all agents' states and actions, but predicts only the observation-side embedding passed to each agent's local posterior. This captures joint-action effects during imagination while keeping the actor's state construction local at execution.
+- **Geometric transition structure can constrain rollout failure modes.** [[papers/lehami-symplectic-latent-dynamics-for-world-models|LeHami]] uses an exactly symplectic action-conditioned predictor, which preserves latent phase-space volume and invertibility at every step. This excludes uniform contraction, attracting fixed points, and state merging, but does not bound rollout error or guarantee better planning.
 
 ## Important Papers
 
@@ -40,6 +41,7 @@ World models learn predictive descriptions of an environment from observation hi
 - [[papers/flow-jepa-robust-latent-dynamics-for-jepa-world-models-via-flow-matching|Flow-JEPA: Robust Latent Dynamics for JEPA World Models via Flow Matching]] compares trajectory-level conditional vector-field dynamics with an autoregressive JEPA world model under clean and perturbed visual observations.
 - [[papers/lewam-end-to-end-world-and-action-modeling-with-jepas|LeWAM: End-to-End World and Action Modeling with JEPAs]] couples regression-based latent dynamics with a flow-matching action policy for direct control and proposal-guided planning.
 - [[papers/ma-jepa-joint-embedding-world-models-for-multi-agent-reinforcement-learning|MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning]] uses centralized joint-action prediction to generate agent-specific embedding inputs for decentralized latent policies.
+- [[papers/lehami-symplectic-latent-dynamics-for-world-models|LeHami: Symplectic Latent Dynamics for World Models]] replaces an autoregressive JEPA predictor with a Hamiltonian leapfrog flow and separates its exact volume guarantee from its mixed prediction and planning results.
 - Zhou et al. (2024), "DINO-WM: World models on pre-trained visual features enable zero-shot planning," is cited by NanoWM as a feature-based world-model approach and dataset source.
 
 ## Related Concepts
@@ -49,3 +51,4 @@ World models learn predictive descriptions of an environment from observation hi
 - [[concepts/joint-embedding-predictive-architectures|Joint-Embedding Predictive Architectures]] learn predictive representations; downstream controllability depends on more than representation prediction alone.
 - [[concepts/structural-identifiability|Structural Identifiability]] formalizes recovery of a designated latent state up to specified ambiguities.
 - [[concepts/discovery-history-replay|Discovery History Replay]] uses recorded transitions as a finite empirical simulator for meta-exploration.
+- [[concepts/symplectic-latent-dynamics|Symplectic Latent Dynamics]] imposes volume preservation and invertibility on learned phase-space transitions.
