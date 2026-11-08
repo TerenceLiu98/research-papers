@@ -36,6 +36,7 @@ Joint-embedding predictive architectures learn representations by predicting a t
 - **Joint embedding prediction can mediate centralized multi-agent imagination.** [[papers/ma-jepa-joint-embedding-world-models-for-multi-agent-reinforcement-learning|MA-JEPA]] predicts each agent's next local observation embedding from synchronized agent states and the joint action. The local posterior then constructs the policy state, allowing centralized training signals without exposing the decentralized actor to a centralized latent state.
 - **Encoder non-collapse does not prevent rollout contraction.** [[papers/lehami-symplectic-latent-dynamics-for-world-models|LeHami]] places an exactly symplectic constraint on the predictor, complementing distribution regularization of encoder outputs. Its guarantee excludes three contraction-related failure modes but does not imply accurate prediction or superior control.
 - **Instrument controls can define actions for audio prediction.** [[papers/music-jepa-learning-a-world-model-of-sound-from-action|Music-JEPA]] conditions next-audio latent prediction on aligned pianoroll velocity and sustain-pedal signals. Its perturbation tests and downstream probes support action-sensitive piano representations, while its transcription results separate strong pedal estimation from weaker note-level inference.
+- **Deterministic targets require conditional concentration.** [[papers/the-jepa-paradox-in-language-the-geometry-of-linguistic-alternatives|The JEPA Paradox in Language]] argues that squared-error latent prediction is well matched only when targets compatible with a context cluster near a meaningful point. In its standalone text JEPA, low predictability and elevated conditional variance precede held-out rank collapse; this does not exclude distributional, mixture-based, or generatively anchored language JEPAs.
 
 ## Important Papers
 
@@ -54,6 +55,7 @@ Joint-embedding predictive architectures learn representations by predicting a t
 - [[papers/ma-jepa-joint-embedding-world-models-for-multi-agent-reinforcement-learning|MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning]] extends reconstruction-free latent prediction to centralized-training/decentralized-execution multi-agent control.
 - [[papers/lehami-symplectic-latent-dynamics-for-world-models|LeHami: Symplectic Latent Dynamics for World Models]] structures a JEPA predictor as an action-conditioned Hamiltonian flow over position-like and momentum-like latents.
 - [[papers/music-jepa-learning-a-world-model-of-sound-from-action|Music-JEPA: Learning a World Model of Sound from Action]] applies action-conditioned latent prediction to paired piano audio and MIDI, then uses an amortized inverse model for transcription.
+- [[papers/the-jepa-paradox-in-language-the-geometry-of-linguistic-alternatives|The JEPA Paradox in Language: The Geometry of Linguistic Alternatives]] analyzes [[concepts/conditional-concentration-in-latent-prediction|conditional concentration]] and reports collapse in a standalone deterministic text JEPA.
 - Assran et al. (2023), "Self-supervised learning from images with a joint-embedding predictive architecture," is cited by TS-JEPA as an image-domain predecessor.
 - Bardes et al. (2024), "V-JEPA: Latent video prediction for visual representation learning," is cited by TS-JEPA as a video-domain predecessor.
 
@@ -66,3 +68,4 @@ Joint-embedding predictive architectures learn representations by predicting a t
 - [[concepts/structural-identifiability|Structural Identifiability]] asks whether a representation recovers the variables generating the observations.
 - [[concepts/platonic-representation-hypothesis|Platonic Representation Hypothesis]] concerns convergence toward shared representations across separately trained models and modalities.
 - [[concepts/symplectic-latent-dynamics|Symplectic Latent Dynamics]] constrains inference-time latent transitions rather than only the training-time embedding distribution.
+- [[concepts/conditional-concentration-in-latent-prediction|Conditional Concentration in Latent Prediction]] asks whether the conditional mean is a meaningful target for point prediction.
