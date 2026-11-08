@@ -21,6 +21,7 @@ Adaptive computation varies the amount of model processing across inputs. In rec
 - The CTM ImageNet analysis suggests that a threshold of 0.8 could stop most examples before 10 of 50 ticks. Fewer ticks alone do not establish wall-clock savings because per-tick cost, feature extraction, and execution overhead also matter.
 - Additional computation can hurt an individual prediction. Calibration and the choice between instantaneous, most-certain, and averaged predictions must be assessed with the intended stopping procedure.
 - [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] provides a different anytime mechanism: a shared timestep-free update improves with recurrent depth far beyond its training rollouts, and inference can stop after the decoded output remains stable for a patience window. Its strongest Sudoku result uses 10,000 steps, so accuracy scaling does not by itself establish compute efficiency.
+- [[papers/looping-back-to-move-forward-recursive-transformers-for-efficient-and-flexible-large-multimodal-models|RecursiveVLM]] supervises every full-backbone pass and penalizes token losses that worsen relative to the preceding pass. This makes intermediate predictions useful at one- and two-pass budgets, but the model has no learned stopping rule and a third pass does not improve every benchmark.
 
 ## Important Papers
 
@@ -28,6 +29,7 @@ Adaptive computation varies the amount of model processing across inputs. In rec
 - Banino, Balaguer, and Blundell (2021), "Pondernet: Learning to ponder": learned halting, cited as reference 17 in CTM.
 - [[papers/continuous-thought-machines|Continuous Thought Machines]]: internal dynamics and certainty-based prediction selection, with ImageNet early-stopping analysis (Sections 3.5 and 5.1; Appendix E.3).
 - [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]]: timestep-free recurrence with a persistent hidden state and stability-based stopping on structured reasoning tasks.
+- [[papers/looping-back-to-move-forward-recursive-transformers-for-efficient-and-flexible-large-multimodal-models|Looping Back to Move Forward]]: full-backbone multimodal recursion with stepwise supervision and outputs at different pass budgets.
 
 ## Related Concepts
 

@@ -27,6 +27,7 @@ Block-recurrent Transformer depth is the hypothesis that a trained Transformer's
 
 ## Important Papers
 
+- [[papers/looping-back-to-move-forward-recursive-transformers-for-efficient-and-flexible-large-multimodal-models|Looping Back to Move Forward]] repeats an entire multimodal backbone and uses modality-specific, multi-layer connectors to map one pass back into the input space. Its depth sweep illustrates that parameter reuse can improve a two-pass model without making further passes uniformly beneficial.
 - [[papers/block-recurrent-dynamics-in-vits|Block-Recurrent Dynamics in ViTs]] formalizes BRH and trains Raptor surrogates that approximate DINOv2 with two to four recurrent phases.
 - Dehghani et al. (2018), "Universal Transformers," applies a shared transition recurrently across depth as an architectural design.
 - Schwarzschild et al. (2021), "The Uncanny Similarity of Recurrence and Depth," examines relationships between recurrent and feedforward computation.
