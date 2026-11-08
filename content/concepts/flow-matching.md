@@ -42,6 +42,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 
 ## Important Papers
 
+- [[papers/flare-flow-matching-with-local-axis-angle-representations-for-stochastic-micromagnetic-evolution|FLARE: Flow Matching with Local Axis-Angle Representations for Stochastic Micromagnetic Evolution]]: transports anchor-relative local rotation fields to sample finite-temperature magnetization endpoints while preserving pointwise unit norm through rotation-based decoding.
 - [[papers/flow-matching-for-scalable-simulation-based-inference|Flow Matching for Scalable Simulation-Based Inference]]: adapts conditional flow matching to amortized posterior estimation, retains density evaluation, and tests scaling on SBI benchmarks and gravitational-wave inference.
 - [[papers/lewam-end-to-end-world-and-action-modeling-with-jepas|LeWAM: End-to-End World and Action Modeling with JEPAs]] uses conditional flow matching to model multimodal action chunks while jointly training action-conditioned latent dynamics and the visual encoder.
 
