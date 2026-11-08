@@ -31,9 +31,13 @@ The effective number of parties is a concentration-adjusted count of parties in 
 - [[Party-System Polarization]] can rise nonlinearly with the effective party number: the one-party anchor forces zero dispersion, while the incremental expected polarization from additional parties diminishes as the count grows.
 - Incomplete party-share data require care because omitted shares can bias concentration. Coverage thresholds or estimators designed for incomplete shares should be reported explicitly.
 
+The generalized family $N_a=(\sum_i p_i^a)^{1/(1-a)}$ includes the squared-share measure at $a=2$ and the entropy limit $N_1=\exp(-\sum_i p_i\ln p_i)$. The latter gives more influence to small parties and is more sensitive to how aggregated “Other” categories are disaggregated. Fractionalization $F_2=1-1/N_2$ carries the same information as $N_2$, on a different scale.
+
+Changes in effective counts describe changes in concentration, not all changes in party identity or governmental durability. Laakso and Taagepera's West European application finds little association between the mean effective count and executive instability; party-system fluctuation and coalition instability should be measured separately.
+
 ## Important Papers
 
-- Laakso and Taagepera (1979), "Effective number of parties: A measure with application to West Europe."
+- [[papers/effective-number-of-parties-a-measure-with-application-to-west-europe|Laakso and Taagepera (1979), “Effective” Number of Parties]] — develops the generalized effective-count framework and compares vote and seat distributions across West Europe.
 - Taagepera (1997), "Effective number of parties for incomplete data."
 - Shugart and Taagepera (2017), *Votes from Seats: Logical Models of Electoral Systems*.
 - [[Party system polarization and the effective number of parties]]
