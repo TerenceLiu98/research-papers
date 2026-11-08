@@ -29,16 +29,19 @@ $$
 - **Debiasing depends on convention.** For the fixed-reference formulation above, subtracting half of each self-cost defines $\widetilde U(x,y)=U(x,y)-U(x,x)/2-U(y,y)/2$. The STA paper establishes nonnegativity with a positive-semidefinite kernel. A product-measure entropy reference requires an additional mass correction; formulas should not be transferred between these conventions unchanged.
 - **Spatial barycenters.** A weighted mean minimizes $\sum_iw_i\widetilde U(x_i,z)$. The STA paper adds a symmetric self-potential to generalized Sinkhorn updates and shows that stationary points are global minima under its assumptions. This does not establish convexity or convergence of those updates.
 - **Temporal composition.** Using the debiased cost between frames inside Soft-DTW combines spatial geometry, mass variation, and chronological alignment. Averaging frames independently cannot account for temporal displacement.
+- **Dynamic transport with growth.** A source term in the continuity equation can represent local creation and destruction of mass alongside a transport velocity. Under Wasserstein-Fisher-Rao geometry, [[papers/wfr-mfm-one-step-inference-for-dynamic-unbalanced-optimal-transport|WFR-MFM]] learns finite-interval mean velocity and growth fields so terminal position and mass can be predicted without integrating the complete trajectory.
 
 ## Important Papers
 
 - [[papers/averaging-spatio-temporal-signals-using-optimal-transport-and-soft-alignments|Averaging Spatio-temporal Signals using Optimal Transport and Soft Alignments]]: debiased unbalanced barycenters and their use in spatio-temporal averaging.
+- [[papers/wfr-mfm-one-step-inference-for-dynamic-unbalanced-optimal-transport|WFR-MFM: One-Step Inference for Dynamic Unbalanced Optimal Transport]]: combines Wasserstein-Fisher-Rao couplings with mean-flow matching for one- or few-step inference of transport and mass growth.
 - Chizat et al. (2017), "Scaling Algorithms for Unbalanced Transport Problems": generalized scaling reference cited in the STA paper.
 - Sejourne et al. (2019), "Sinkhorn divergences for unbalanced optimal transport": cited for the product-reference formulation and mass correction.
 
 ## Related Concepts
 
 - [[concepts/optimal-transport|Optimal Transport]]: the mass-conserving transport framework.
+- [[concepts/average-velocity-fields|Average Velocity Fields]]: finite-interval transport fields extended by WFR-MFM to include mass growth.
 - [[concepts/sinkhorn-divergence|Sinkhorn Divergence]]: self-cost subtraction for entropy-regularized transport.
 - [[concepts/soft-dtw-barycenters|Soft-DTW Barycenters]]: temporally aligned averaging with a selectable spatial loss.
 - [[concepts/wasserstein-barycenters|Wasserstein Barycenters]]: transport means of probability measures.

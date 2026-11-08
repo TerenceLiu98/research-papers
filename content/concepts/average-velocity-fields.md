@@ -46,12 +46,14 @@ MeanFlow trains with sample-conditional instantaneous velocities and a stopped t
 ## Important Papers
 
 - [[papers/mean-flows-for-one-step-generative-modeling|Mean Flows for One-step Generative Modeling]]: derives the identity, implements JVP-based training, and incorporates guidance into the learned average field.
+- [[papers/wfr-mfm-one-step-inference-for-dynamic-unbalanced-optimal-transport|WFR-MFM: One-Step Inference for Dynamic Unbalanced Optimal Transport]]: extends finite-interval velocity learning with a mean mass-growth field for one- or few-step unbalanced dynamics.
 - [[papers/how-i-learned-to-stop-worrying-and-love-stopgrads|How I Learned to Stop Worrying and Love StopGrads]]: proves uniqueness of the true MeanFlow stationary point and gives an idealized functional semi-gradient convergence result.
 - [[papers/functional-mean-flow-in-hilbert-space|Functional Mean Flow in Hilbert Space]]: extends finite-interval velocity learning to Hilbert-space function distributions and introduces an endpoint-prediction parameterization.
 
 ## Related Concepts
 
 - [[concepts/flow-matching|Flow Matching]]: models instantaneous transport velocities.
+- [[concepts/unbalanced-optimal-transport|Unbalanced Optimal Transport]]: permits changing mass alongside finite-interval transport.
 - [[concepts/functional-mean-flow|Functional Mean Flow]]: adapts the construction to function-space transport.
 - [[concepts/normalizing-flows|Normalizing Flows]]: continuous transformations between distributions.
 - [[concepts/diffusion-models|Diffusion Models]]: related generative dynamics whose numerical sampling motivates few-step alternatives.
