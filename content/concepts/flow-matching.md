@@ -42,6 +42,8 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - **Interacting conditional paths.** [[concepts/dynamic-quadratic-form-optimal-transport|Dynamic Quadratic-Form Optimal Transport]] lifts conditional paths to a two-particle space. Travelling-pair velocities can then be marginalized into a single-particle field, allowing pairwise structural interactions to influence a simulation-free regression target.
 - **Cross-scale trajectory consistency.** [[papers/recursive-flow-matching|Recursive Flow Matching]] evaluates a scale-conditioned velocity network on time-rescaled trajectories that intersect at the same interpolated state. Direct supervision at each scale and a same-point consistency loss improve one- and two-step scientific emulation in the reported experiments; the scale input is used only during training.
 
+**Temporal coupling.** TFM couples adjacent-frame velocity magnitudes through a tridiagonal system and trains with equation-residual and direction losses. This changes independent conditional interpolation paths while retaining the video network’s temporal attention and standard inference procedure. Numerical integration adds training cost. See [[papers/temporal-aware-flow-matching-for-video-generation-with-temporally-coherent-motion|Temporal-aware Flow Matching]].
+
 ## Important Papers
 
 - [[papers/flare-flow-matching-with-local-axis-angle-representations-for-stochastic-micromagnetic-evolution|FLARE: Flow Matching with Local Axis-Angle Representations for Stochastic Micromagnetic Evolution]]: transports anchor-relative local rotation fields to sample finite-temperature magnetization endpoints while preserving pointwise unit norm through rotation-based decoding.
