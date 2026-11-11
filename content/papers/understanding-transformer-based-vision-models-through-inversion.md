@@ -1,10 +1,14 @@
 ---
-title: Understanding Transformer-based Vision Models through Inversion
+title: Understanding Transformer-Based Vision Models via Modular Feature Inversion
 type: paper
 authors:
-  - Anonymous authors
+  - Jan Rathjens
+  - Shirin Reyhanian
+  - David Kappel
+  - Laurenz Wiskott
 year: null
-source_job_id: "d04e476e-046f-424d-b0ca-5f136380d5db"
+source_job_id: "2dd9fe01-c36b-45b6-b4f7-492b7026fc19"
+openreview: "O5sMv2o3EV"
 tags:
   - vision-transformers
   - model-interpretability
@@ -32,7 +36,7 @@ Training a separate full inverse network for every inspected stage duplicates co
 
 ## Method
 
-Each inverse component learns to reconstruct the preceding stage's representation from the current stage, using mean squared error (MSE). At inference, inverses are composed back to pixels. This describes the prose-defined objective; Equation 1 in the supplied Markdown instead repeats the current-stage variable as its target, an apparent notation inconsistency.
+Each inverse component learns to reconstruct the preceding stage's representation from the current stage, using mean squared error (MSE). At inference, inverses are composed back to pixels.
 
 DETR-R50 is inverted at backbone, encoder, decoder, and prediction-head outputs. ViT-B/16 is inverted at patch embedding and encoder outputs; its class-token prediction head is excluded. Inverse architectures mirror the corresponding forward components, using deconvolutions, transformers, and an MLP. DETR prediction inversion consumes bounding boxes and full class logits; a separate one-hot variant tests the information beyond the winning class.
 
@@ -40,7 +44,17 @@ Under the paper's simplifying assumption of equally sized forward stages and mat
 
 ## Experiments
 
-Inverse modules are trained on COCO 2017, with at least three instances per variant interchanged during analysis. The text calls the evaluation split the test set, while Figure 4 calls it validation. ImageNet-1K is used for ViT fine-tuning and classification evaluation.
+Inverse modules are trained for 100 epochs on COCO 2017 for DETR and ImageNet-1K for ViT, Swin, and DeiT III, with evaluation on the corresponding validation sets. Main analyses use one selected instance per inverse module; additional instances provide sanity checks.
+
+Table 2 reports classic versus modular parameter counts and training minutes per epoch on one NVIDIA A100:
+
+| Model | Parameters, classic / modular (M) | Minutes/epoch, classic / modular |
+| --- | --- | --- |
+| DETR | 358 / 96 | 114 / 51 |
+| ViT / DeiT III | 87 / 86 | 473 / 377 |
+| Swin | 149 / 87 | 550 / 245 |
+
+These are setup-dependent observations, not convergence-matched benchmarks. Table 1 shows that modular inversion does not uniformly improve reconstruction: DETR decoder FID improves from 309.5 to 156.1 while MSE increases from 0.0641 to 0.0937. Swin final-stage reconstruction accuracy improves from 0.17 to 0.46. ViT and DeiT III encoder reconstruction accuracy is unchanged (0.60 and 0.67 respectively), while classical inversion has better pixel and perceptual fidelity.
 
 | Analysis | Reported finding |
 | --- | --- |
@@ -48,22 +62,22 @@ Inverse modules are trained on COCO 2017, with at least three instances per vari
 | Full-path inversion and fine-tuning | Classical inversion has lower MSE than modular inversion, but more grayish reconstructions in DETR. Increasing reconstruction emphasis generally improves fidelity at a cost to task performance. Controls use reconstruction weights 0, 0.1, 0.9, and 1. |
 | Color perturbations | DETR reconstructions shift toward typical object colors, whereas ViT retains perturbations. Under full-image recoloring, DETR performance is reported as unaffected while ViT accuracy drops. |
 | Spatial intervention | Replacing 20% of tokens with identical uniform noise produces local patch corruption in ViT, but more distributed effects in DETR. A local inverse-backbone control helps distinguish backbone mixing from encoder mixing. |
-| Attention ablation | A fine-tuned ViT retaining class-token-to-image-token attention but disabling image-token self-attention achieves approximately 69% top-1 accuracy versus 76% for the comparison ViT-B/16. |
+| Attention ablation | A fine-tuned ViT retaining class-token-to-image-token attention but disabling image-token self-attention achieves 69.84% best top-1 accuracy; the self-attention-enabled fine-tuning control reaches 84.84%. |
 | Detection errors | Missed objects fade from later reconstructions; false positives can acquire features consistent with incorrect classes. This is qualitative diagnosis, not a validated error detector. |
 | Intermediate layers | Inverses trained at component boundaries also produce recognizable reconstructions from other layers, with degradation farther from their training representations. |
 
-Appendix A reports that DETR trained for ImageNet classification still develops stage-wise abstraction, supporting an architectural contribution. Its prediction-head inversions instead collapse to class-specific prototypes, showing that objective also matters. Bounding-box ablations of no-object queries are described as not presented in the original manuscript, with detailed analysis promised for a revision; they are not a fully documented benchmark here.
+Section 4.8 controls for training data and task using DeiT III and classification-trained DETR. Truncating DETR’s ResNet backbone progressively reduces prototypical transformations and improves preservation of instance details. This supports the backbone as a major contributor, not the sole cause; the two-block variant also loses approximately 15% accuracy relative to the full-backbone variant.
 
-Appendix B reports ViT-like detail preservation for DeiT III and most Swin stages, with greater detail loss and distortion in late Swin stages. These controls qualify the main discussion's earlier speculation that ViT's larger training dataset alone explains the contrast.
+Appendix A.3 repeats DETR inversion with SSIM, LPIPS, and mixed objectives: texture and sharpness change, but the principal color and shape abstraction trends persist. Appendix A.4 adds an analysis of 200 detection errors. Swin retains detail in early stages but loses more at its final stages.
 
 ## Limitations
 
 - Learned inverses can introduce artifacts and accumulate errors; reconstructability does not establish which features causally drive predictions.
 - The authors acknowledge that assigning reconstructed properties to specific forward stages requires additional quantitative analysis.
 - Architecture, task, and training data differ in the main comparison. Appendix controls narrow these explanations without exhaustively isolating every component.
-- Many conclusions rely on qualitative figures. Exact MSE, AP, and color-robustness values are not supplied as numerical tables in the Markdown.
+- Several mechanistic interpretations remain qualitative; numerical reconstruction comparisons do not by themselves establish causal use of the recovered information. The attention-ablation model was trained only once.
 - Intermediate-layer inversion applies modules outside their training distribution. Recognizable outputs support gradual change but are not a direct similarity metric.
-- The supplied manuscript is anonymous and under double-blind review; no publication year or stable identifier is stated. The year is therefore left null.
+- The supplied manuscript gives an OpenReview identifier but no explicit publication year; year remains null.
 
 ## Related Concepts
 
@@ -72,6 +86,8 @@ Appendix B reports ViT-like detail preservation for DeiT III and most Swin stage
 - [[concepts/patch-token-decoding-explainability|Patch-Token Decoding Explainability]]
 
 ## Related Papers
+
+- [[papers/do-vision-transformers-see-like-convolutional-neural-networks|Do Vision Transformers See Like Convolutional Neural Networks?]]: cited evidence for gradual representational changes in ViT.
 
 - Dosovitskiy and Brox (2016), *Inverting Visual Representations with Convolutional Networks*: the cited full-path inversion baseline.
 - Mahendran and Vedaldi (2014), *Understanding Deep Image Representations by Inverting Them*: the cited image-space optimization approach.
