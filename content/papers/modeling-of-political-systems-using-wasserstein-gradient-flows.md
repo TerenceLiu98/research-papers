@@ -4,8 +4,9 @@ type: paper
 authors:
   - Nicolas Lanzetti
   - Joudi Hajar
-  - Florian Doerfler
+  - Florian Dörfler
 year: 2022
+doi: 10.1109/CDC51059.2022.9992779
 tags:
   - political-polarization
   - spatial-electoral-competition
@@ -85,7 +86,7 @@ The electorate is fixed, one-dimensional, and Gaussian; parties share a toleranc
 
 The parsed Appendix B choice formula includes acceptance of party 1 alone and acceptance of all three parties, but omits cases where exactly two parties are acceptable. It therefore does not directly implement uniform choice among every possible accepted subset. The three-party numbers above are retained as reported, with this qualification.
 
-The supplied Markdown contains no publication year, venue, DOI, or arXiv identifier for this paper. The year 2022 follows its citation in the existing Wiki page [[papers/a-dynamic-model-of-party-differentiation-under-electoral-competition|A Dynamic Model of Party Differentiation under Electoral Competition]]; no stable identifier is inferred.
+The supplied conference-paper metadata identifies publication in 2022 and DOI [10.1109/CDC51059.2022.9992779](https://doi.org/10.1109/CDC51059.2022.9992779), with repository identifier 10.3929/ethz-b-000584151. The Markdown supplied for this ingest ends at the references and does not include the appendices. Appendix-specific proof details, the third-party illustration, and the choice-formula qualification above are retained from the existing Wiki summary; they cannot be independently checked against this supplied version.
 
 ## Related Concepts
 
