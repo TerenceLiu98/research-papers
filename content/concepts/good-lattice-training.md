@@ -4,6 +4,8 @@ type: concept
 aliases:
   - GLT
   - Good Lattice Collocation
+  - Good Lattice Point Sampling
+  - GLP Sampling
 tags:
   - physics-informed-neural-networks
   - quasi-monte-carlo
@@ -13,7 +15,7 @@ tags:
 
 ## Overview
 
-Good lattice training (GLT) selects collocation points for physics-informed neural networks with a rank-1 lattice rule. It treats the finite physics-informed loss as numerical quadrature for an integrated PDE residual. When that residual is smooth and periodic, number-theoretic lattice construction can reduce integration error faster than random sampling as the number of points grows, improving accuracy per training step without changing the PINN objective or optimizer.
+Good lattice training (GLT), also called good lattice point (GLP) sampling in the PINN literature, selects collocation points for physics-informed neural networks with a rank-1 lattice rule. It treats the finite physics-informed loss as numerical quadrature for an integrated PDE residual. Under suitable mixed-derivative regularity, number-theoretic lattice construction can reduce integration error faster than random sampling as the number of points grows, improving accuracy per training step without changing the PINN objective or optimizer.
 
 ## Key Ideas
 
@@ -23,11 +25,13 @@ Good lattice training (GLT) selects collocation points for physics-informed neur
 - **Two-dimensional designs have a Fibonacci construction.** Taking $N=F_k$ and $\mathbf z=(1,F_{k-1})$ gives a good two-dimensional lattice. Higher-dimensional vectors can be searched or taken from numerical tables.
 - **Periodization supports the theory.** Coordinate folding, circular encodings, and output transformations can make the residual periodic while enforcing initial or boundary conditions. These transformations may improve other sampling strategies too, so their benefit should be separated from the lattice design.
 - **Random shifts support stochastic training.** Adding a uniform random shift modulo one preserves the lattice structure. Resampling the shift across SGD iterations exposes the model to changing points and reduces overfitting to one fixed lattice.
-- **The practical scope is limited.** GLT is best suited to smooth PDEs on low-dimensional rectangular domains. Irregular geometry, sharp features, and six or more dimensions can favor other point-generation methods.
+- **The construction can be deterministic and non-adaptive.** A fixed generating vector supplies the full interior design without pretraining or residual-dependent tuning. Boundary points may still use ordinary random sampling, and coordinate transformations are needed for domains such as disks.
+- **The practical scope is conditional.** Smooth, low-dimensional rectangular problems are the cleanest setting for lattice theory. Experiments also report gains on sharp and high-dimensional manufactured solutions, but the bound's $(\log N)^d$ factor can erase the advantage when dimension is large relative to the point budget.
 
 ## Important Papers
 
 - [[papers/number-theoretic-accelerated-learning-of-physics-informed-neural-networks|Number Theoretic Accelerated Learning of Physics-Informed Neural Networks]]: introduces GLT for PINNs, develops its error analysis and periodization tricks, and evaluates it on forward PDE solution, system identification, and competitive PINNs.
+- [[papers/a-novel-number-theoretic-sampling-method-for-neural-network-solutions-of-partial-differential-equations|A Novel Number-Theoretic Sampling Method for Neural Network Solutions of Partial Differential Equations]]: studies deterministic GLP residual sampling for rough, inverse, and five- and eight-dimensional PDE problems and propagates its discrepancy rate into conditional PINN solution-error bounds.
 - Sloan and Joe (1994), "Lattice Methods for Multiple Integration": develops the lattice-rule and Korobov-space results underlying the construction.
 - Niederreiter (1992), "Random Number Generation and Quasi-Monte Carlo Methods": supplies number-theoretic foundations, including the two-dimensional Fibonacci construction.
 - Fang and Wang (1994), "Number-Theoretic Methods in Statistics": provides numerical lattice tables used by the GLT experiments.
