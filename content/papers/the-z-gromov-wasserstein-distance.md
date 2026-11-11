@@ -7,7 +7,7 @@ authors:
   - Mao Nishino
   - Facundo Mémoli
 year: null
-source_job_id: "0bac40bc-b4f6-4eab-b7c8-e19c050d6207"
+source_job_id: "91c8423e-8699-4c2c-9d5f-bf29dc6f5dad"
 tags:
   - gromov-wasserstein
   - optimal-transport
@@ -46,11 +46,13 @@ $$
 \left\|d_Z\bigl(\omega_X(x,x'),\omega_Y(y,y')\bigr)\right\|_{L^p(\pi\otimes\pi)}.
 $$
 
-Continuity of the distortion functional under weak convergence, together with compactness of the coupling set, yields an optimal coupling. The triangle inequality follows by gluing optimal couplings and applying the triangle and Minkowski inequalities. Distance zero is equivalent to weak isomorphism: both kernels pull back almost everywhere to the same kernel on a common probability space.
+Continuity of the distortion functional under weak convergence for finite $p$, and lower semicontinuity for $p=\infty$, together with compactness of the coupling set, yield an optimal coupling (Theorem 26). The triangle inequality follows by gluing optimal couplings and applying the triangle and Minkowski inequalities. Distance zero is equivalent to weak isomorphism: both kernels pull back almost everywhere to the same kernel on a common probability space.
 
 The authors also parameterize every network over $[0,1]$ and identify the quotient Z-GW space with a quotient of a metric-space-valued $L^p$ space. This representation supports the separability and completeness results. Finite-$p$ contractibility is obtained by continuously shifting mass from any network to a one-point network. When $Z$ is geodesic, pointwise target-space geodesics applied along an optimal coupling produce geodesics between Z-networks.
 
 For computation, network size and incoming or outgoing eccentricity distributions yield a hierarchy of Wasserstein-based lower bounds. For a bounded $Z$ and landmarks $Q=(q_1,\ldots,q_n)$, each kernel value is embedded as its distances to the landmarks. With the $\ell^\infty$ norm, the resulting $\mathbb R^n$-GW approximation differs from Z-GW by at most the Hausdorff distance between $Z$ and $Q$.
+
+The spectral construction places the time supremum inside the $L^p$ norm and upper-bounds the original spectral GW distance (Proposition 24). The fused constructions include a $q$-th root in the attribute discrepancy; the true triangle inequality applies to these reformulations (Remarks 21–22 and Corollary 30).
 
 ## Experiments
 

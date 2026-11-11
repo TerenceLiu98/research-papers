@@ -16,7 +16,7 @@ Z-Gromov-Wasserstein distance compares probability spaces whose pairwise relatio
 
 ## Key Ideas
 
-- A $Z$-network is a triple $(X,\omega_X,\mu_X)$ with probability measure $\mu_X$ and measurable kernel $\omega_X:X\times X\to Z$. The kernel need not itself be a metric, symmetric, or scalar-valued.
+- A $Z$-network is a triple $(X,\omega_X,\mu_X)$ with $X$ Polish, Borel probability measure $\mu_X$, and an $L^p$ measurable kernel $\omega_X:X\times X\to Z$. The kernel need not itself be a metric, symmetric, or scalar-valued.
 - Z-GW minimizes the $L^p$ discrepancy $d_Z(\omega_X(x,x'),\omega_Y(y,y'))$ over couplings of $\mu_X$ and $\mu_Y$. Choosing $Z=\mathbb R$ recovers standard GW; product target spaces encode node, edge, and structural attributes in one kernel.
 - The distance is a true metric on networks modulo weak isomorphism, meaning that both kernels agree almost everywhere after measure-preserving pullback to a common probability space. Optimal couplings exist under the paper's separable metric-space setting.
 - The quotient network space inherits important structure from $Z$: it is separable, is complete exactly when $Z$ is complete, and is geodesic when $Z$ is geodesic. For finite $p$, it is path-connected and contractible even when $Z$ is not.
