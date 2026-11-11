@@ -23,10 +23,12 @@ News-based geopolitical risk measurement converts newspaper discussion of wars, 
 - **Validate specialized measures separately.** Oil-related thresholds, keyword screens, and regional labels add further opportunities for selection and classification error beyond the headline score.
 - **Distinguish measurement from identification.** A smoother series or stronger correlation with economic outcomes does not by itself establish lower measurement error or a causal effect. Historical scoring also requires attention to hindsight and model-version dependence.
 
+**Dictionary benchmark validation.** Caldara and Iacoviello report a 0.86 correlation with a narrative index based on roughly 44,000 front pages and a 0.93 annual correlation with a human-coded article index. Such aggregate agreement supports temporal measurement validity but does not establish perfect article classification or causal identification. Country-name filters measure coverage involving a country, without distinguishing initiator from respondent.
+
 ## Important Papers
 
 - [[papers/the-ai-gpr-index-measuring-geopolitical-risk-using-artificial-intelligence|The AI-GPR Index: Measuring Geopolitical Risk using Artificial Intelligence]]: combines keyword retrieval with LLM intensity scores, full-corpus human auditing, and threat/act, oil, and directed bilateral decompositions.
-- Caldara and Iacoviello (2022), "Measuring Geopolitical Risk": dictionary-based foundation cited and reconstructed by the AI-GPR manuscript.
+- [[papers/measuring-geopolitical-risk|Measuring Geopolitical Risk]] (Caldara and Iacoviello, 2022): dictionary-based foundation with separate threats and acts indices, historical narrative validation, and aggregate and firm investment applications.
 
 ## Related Concepts
 
