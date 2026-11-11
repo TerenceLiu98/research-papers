@@ -25,6 +25,8 @@ Jump-diffusion models combine continuous stochastic fluctuations with discontinu
 - Approximating compensated small jumps by Gaussian noise with matching moments can reduce simulation cost under suitable conditions, while retaining larger jumps explicitly. This is an approximation to a stochastic model, not a universal description of all abrupt data changes.
 - Distributional evaluation matters alongside point error: CRPS, log-likelihood, and interval coverage can reveal differences hidden by similar MAE. Measured coverage should not be confused with a guarantee of [[concepts/conditional-prediction-coverage|Conditional Prediction Coverage]].
 
+- For spatial populations, the forward density equation connects individual jumps to distributional change. Time- and neighborhood-dependent coefficients can separate continuous appreciation from shock contributions without themselves specifying the economic causes of either.
+
 ## Important Papers
 
 - [[papers/deep-zakaij-structured-filtering-for-jump-diffusion-time-series-forecasting|Deep ZakaiJ: Structured Filtering for Jump-Diffusion Time Series Forecasting]]: conditions learned jump-diffusion dynamics on an explicit latent-state belief.
@@ -32,6 +34,8 @@ Jump-diffusion models combine continuous stochastic fluctuations with discontinu
 - [[papers/neural-mjd-neural-non-stationary-merton-jump-diffusion-for-time-series-prediction|Neural MJD: Neural Non-Stationary Merton Jump Diffusion for Time Series Prediction]]: learns time-varying Merton parameters with a truncated jump-count likelihood and analytical-expectation restarts. Also appears as reference [43] in Deep ZakaiJ.
 - [[papers/a-causal-perspective-on-soft-jump-diffusion-for-time-series-anomaly-detection|A Causal Perspective on Soft Jump-Diffusion for Time-Series Anomaly Detection]]: uses an environment-conditioned expected soft jump to separate diffusion-only and jump-augmented latent trajectories for anomaly scoring.
 - Asmussen and Rosinski (2001), "Approximations of small jumps of Levy processes with a view towards simulation": small-jump approximation reference [57] in Deep ZakaiJ.
+
+- [[papers/a-jump-diffusion-model-of-home-price-dynamics-and-neighborhood-change|A Jump-Diffusion Model of Home Price Dynamics and Neighborhood Change]]: derives neighborhood price-density dynamics and reconstructs Boston assessment distributions, with Wasserstein comparisons across neighborhoods.
 
 ## Related Concepts
 
