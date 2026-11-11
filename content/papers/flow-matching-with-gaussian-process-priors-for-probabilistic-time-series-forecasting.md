@@ -94,6 +94,8 @@ Across TSFlow variants, Table 3 gives the best or tied-best mean on six datasets
 
 ## Related Concepts
 
+- [[concepts/probabilistic-time-series-forecasting|Probabilistic Time Series Forecasting]]: predicting distributions over future observations, evaluated here with quantile-based CRPS.
+
 - [[concepts/flow-matching|Flow Matching]]: regression of conditional vector fields and ODE sampling.
 - [[concepts/gaussian-process-priors-for-generative-time-series|Gaussian Process Priors for Generative Time Series]]: temporal covariance and history-conditioned source distributions.
 - [[concepts/optimal-transport|Optimal Transport]]: mini-batch pairing of prior and target samples.
@@ -103,6 +105,6 @@ Across TSFlow variants, Table 3 gives the best or tied-best mean on six datasets
 
 - Lipman et al. (2022), "Flow matching for generative modeling": the source's cited CFM foundation.
 - Tong et al. (2023), "Improving and generalizing flow-based generative models with minibatch optimal transport": arbitrary source distributions and mini-batch OT coupling.
-- Kollovieh et al. (2023), "Predict, refine, synthesize: Self-guiding diffusion models for probabilistic time series forecasting": TSDiff, a forecasting and generation baseline and source of the guidance approach.
+- Kollovieh et al. (2023), [[papers/predict-refine-synthesize-self-guiding-diffusion-models-for-probabilistic-time-series-forecasting|Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting]]: TSDiff, a forecasting and generation baseline and source of the guidance approach.
 - Biloš et al. (2023), "Modeling temporal data as continuous functions with stochastic process diffusion": a temporal stochastic-process diffusion comparator; TSFlow distinguishes its OT paths and couplings.
 - [[papers/flow-matching-on-lie-groups|Flow Matching on Lie Groups]]: a complementary library connection that changes interpolation geometry, whereas TSFlow changes the source distribution and its coupling. This is not a TSFlow experimental comparison.
