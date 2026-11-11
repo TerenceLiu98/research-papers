@@ -24,10 +24,12 @@ Spherical latent flow matching constrains each token of an image latent to a fix
 - **Latent support and path are separate choices.** A spherical latent with a linear path already improves over an unconstrained latent in the paper's FLUX.2 ablation, but spherical latent plus slerp performs best. A shell path on unconstrained latents does not improve the linear baseline because it retains radial velocity as a supervised target.
 - **Decoder compatibility matters.** Projecting an existing VAE changes the coordinates supplied to its decoder. Decoder-only finetuning restores usable reconstruction, but decoder-swap experiments show that a learned flow and its decoder co-adapt to the chosen latent geometry.
 - **The angular-information premise is empirical.** Direction-versus-radius swaps support it for the tested FLUX.2, VA-VAE, and REPA-E FLUX.1 tokenizers. It is not guaranteed for every tokenizer, especially under stronger compression.
+- **The latent can be trained to emphasize direction.** [[papers/hyperspherical-autoencoder-for-high-fidelity-image-reconstruction-and-generation|HAE]] uses cosine teacher alignment and a magnitude-robust decoder before applying token-wise spherical transport. Its flow loss projects predictions into tangent and radial parts and penalizes radial velocity rather than assuming the network output is tangent.
 
 ## Important Papers
 
 - [[papers/aligning-latent-geometry-for-spherical-flow-matching-in-image-generation|Aligning Latent Geometry for Spherical Flow Matching in Image Generation]]: projects pretrained VAE tokens to fixed radius, finetunes their decoders, trains along slerp paths, and reports ImageNet-256 gains across three tokenizer families.
+- [[papers/hyperspherical-autoencoder-for-high-fidelity-image-reconstruction-and-generation|Hyperspherical Autoencoder for High-Fidelity Image Reconstruction and Generation]]: learns a directionally aligned DINOv3 autoencoder and trains a diffusion transformer on its product-of-spheres latent geometry.
 - Chen and Lipman (2023), "Flow Matching on General Geometries": develops the general Riemannian flow-matching formulation used to define manifold-valued interpolants and tangent vector fields.
 - Davidson et al. (2018), "Hyperspherical Variational Auto-Encoders": constrains VAE latents through a spherical probability model learned from scratch.
 - Davis et al. (2024), "Fisher Flow Matching for Generative Modeling over Discrete Data": uses closed-form slerp geodesics after mapping categorical distributions to a sphere.
