@@ -25,7 +25,7 @@ Discrete-choice unfolding models allow one observed answer to represent multiple
 
 ## Important Papers
 
-- Lei and Rodriguez, "A novel class of unfolding models for binary preference data" (2025 in the later paper's reference list; DOI 10.1017/pan.2024.11): develops the utility-based family and its probit implementation, as described by the logit paper.
+- [[papers/a-novel-class-of-unfolding-models-for-binary-preference-data|A Novel Class of Unfolding Models for Binary Preference Data]] (online 2024): develops the probit utility-based family, static Gibbs estimation, and a dynamic extension with temporally correlated ideal points. The dynamic correlation update requires Metropolis–Hastings tuning.
 - [[papers/logit-unfolding-choice-models-for-binary-data|Logit unfolding choice models for binary data]]: introduces Gumbel shocks, a Gaussian-mixture augmented sampler, and comparisons across four U.S. Houses.
 
 ## Related Concepts
