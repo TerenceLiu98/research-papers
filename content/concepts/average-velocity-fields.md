@@ -43,6 +43,8 @@ for $r<s<t$ along the same trajectory. Thus composition consistency follows from
 
 MeanFlow trains with sample-conditional instantaneous velocities and a stopped target containing the model's JVP. At zero interval, the correction disappears and training reduces to flow matching. With noise at time one and data at zero, one-step sampling is $z_0=\epsilon-u_\theta(\epsilon,0,1)$. The exact identity motivates this objective but does not by itself guarantee practical optimization or distributional accuracy.
 
+An average velocity can also be parameterized through a generalized denoised-image field $x(z_t,r,t)=z_t-tu(z_t,r,t)$. At $r=t$, this is the ordinary clean-image target induced by the instantaneous velocity; at $r=0$, it is the exact trajectory endpoint. [[papers/one-step-latent-free-image-generation-with-pixel-mean-flows|Pixel MeanFlow]] directly predicts this field in raw pixels, converts it back to $u$, and evaluates the training objective in instantaneous-velocity space. Its intermediate-$r$ outputs look image-like empirically, but their membership in a low-dimensional manifold is a hypothesis rather than a proved property.
+
 Conditional mean flows additionally treat the context as fixed along each trajectory. Composing their finite-time maps gives a density through exact stepwise Jacobian determinants, while independently masking target coordinates during training can identify conditional marginal densities for observed coordinates. The learned finite-step maps are not numerical refinements of an ODE: using more maps need not monotonically improve an approximate model.
 
 Finite-interval maps also support training-free inverse problems: endpoint predictions carry measurement gradients back to intermediate generative states at constant model depth. Repeated state optimization can relax the prior-induced correction geometry, but stronger measurement fitting can overfit noise; finite-interval transport does not remove the cost of optimization.
@@ -55,6 +57,7 @@ Finite-interval maps also support training-free inverse problems: endpoint predi
 - [[papers/how-i-learned-to-stop-worrying-and-love-stopgrads|How I Learned to Stop Worrying and Love StopGrads]]: proves uniqueness of the true MeanFlow stationary point and gives an idealized functional semi-gradient convergence result.
 - [[papers/functional-mean-flow-in-hilbert-space|Functional Mean Flow in Hilbert Space]]: extends finite-interval velocity learning to Hilbert-space function distributions and introduces an endpoint-prediction parameterization.
 - [[papers/conditional-mean-flows-few-step-densities-for-simulation-based-inference|Conditional Mean Flows: Few-Step Densities for Simulation-Based Inference]]: adapts mean flows to conditional posterior and likelihood estimation with stepwise density evaluation and masked marginal likelihoods.
+- [[papers/one-step-latent-free-image-generation-with-pixel-mean-flows|One-step Latent-free Image Generation with Pixel Mean Flows]]: reparameterizes average velocities as denoised-image predictions for one-evaluation generation directly in pixel space.
 
 ## Related Concepts
 
