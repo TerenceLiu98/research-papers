@@ -28,13 +28,14 @@ Linear Partial Gromov-Wasserstein Embedding (LPGW) represents metric-measure spa
 ## Important Papers
 
 - [[papers/linear-partial-gromov-wasserstein-embedding|Linear Partial Gromov-Wasserstein Embedding]]: introduces LPGW, its theoretical properties, barycentric approximation, discrete implementation, and evaluations on shape comparison and corrupted point-cloud classification.
-- Bai et al. (2024), "Partial Gromov-Wasserstein Metric": develops the partial GW distance that LPGW linearizes.
+- [[papers/partial-gromov-wasserstein-metric|Partial Gromov-Wasserstein Metric]]: develops the partial GW distance that LPGW linearizes.
 - Beier, Beinert, and Steidl (2022), "On a Linear Gromov-Wasserstein Distance": provides the balanced linear GW framework.
 - Bai et al. (2023), "Linear Optimal Partial Transport Embedding": develops the analogous partial linearization for ordinary optimal transport.
 
 ## Related Concepts
 
 - [[concepts/gromov-wasserstein-distance|Gromov-Wasserstein Distance]]: compares spaces through distortion of their internal pairwise geometry.
+- [[concepts/partial-gromov-wasserstein-metric|Partial Gromov-Wasserstein Metric]]: the unequal-mass metric linearized by LPGW.
 - [[concepts/optimal-transport|Optimal Transport]]: supplies couplings and reference-based linear transport constructions.
 - [[concepts/unbalanced-optimal-transport|Unbalanced Optimal Transport]]: relaxes exact mass conservation through marginal penalties; partial transport instead selects a transported submeasure.
 - [[concepts/wasserstein-barycenters|Wasserstein Barycenters]]: related representative constructions used to choose reference spaces.
