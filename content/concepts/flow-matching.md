@@ -70,6 +70,7 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 - [[papers/steering-the-flow-inverting-face-recognition-models-via-gradient-guided-flow-matching|Steering the Flow: Inverting Face Recognition Models via Gradient-Guided Flow Matching]]: uses an unconditional face flow as a reusable prior, then injects normalized target-model gradients through a progressive schedule for white-box model inversion.
 - [[papers/flowinone-unifying-multimodal-generation-as-image-in-image-out-flow-matching|FlowInOne: Unifying Multimodal Generation as Image-In, Image-Out Flow Matching]]: transports rendered visual-instruction latents to target-image latents with one model across generation, editing, spatial-control, and physics-aware tasks.
 - [[papers/recursive-flow-matching|Recursive Flow Matching]]: aligns recursively scaled velocities at shared spatial states and reports accurate one- or two-step forecasting on SST, Navier-Stokes, and Helmholtz benchmarks.
+- [[papers/autoregressive-one-step-generative-modeling-for-dynamical-system-forecasting|Autoregressive One-Step Generative Modeling for Dynamical System Forecasting]]: extends pixel MeanFlow to masked temporal windows and uses finite-lag increment matching for one-evaluation-per-block physical forecasting.
 
 ## Related Concepts
 

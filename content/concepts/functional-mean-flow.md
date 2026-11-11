@@ -27,6 +27,7 @@ Functional Mean Flow extends [[concepts/average-velocity-fields|Average Velocity
 
 - [[papers/functional-mean-flow-in-hilbert-space|Functional Mean Flow in Hilbert Space]]: introduces the Hilbert-space formulation, endpoint variant, and evaluations on functions, images, PDE fields, and 3D geometry.
 - [[papers/mean-flows-for-one-step-generative-modeling|Mean Flows for One-step Generative Modeling]]: develops the finite-dimensional average-velocity identity that FMF extends.
+- [[papers/autoregressive-one-step-generative-modeling-for-dynamical-system-forecasting|Autoregressive One-Step Generative Modeling for Dynamical System Forecasting]]: adapts pixel MeanFlow to masked spatiotemporal windows for blockwise autoregressive surrogate modeling.
 
 ## Related Concepts
 
