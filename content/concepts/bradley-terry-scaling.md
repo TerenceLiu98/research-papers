@@ -16,6 +16,8 @@ Bradley-Terry scaling estimates relative item scores from pairwise judgments or 
 
 ## Key Ideas
 
+- **Separate expression position from prevalence.** PAIRSCALE scales contextualized attitude propositions, then locates survey-inspired propositions relative to historical discourse. Their percentile positions measure relative polarity; prevalence instead requires counting semantically similar expressions. Neither quantity is automatically a population endorsement rate.
+
 - **Model differences in latent strength.** For scores $z_i$ and $z_j$, $P(i\succ j)=e^{z_i}/(e^{z_i}+e^{z_j})=\sigma(z_i-z_j)$. Maximum-likelihood estimation relates observed wins and losses to these probabilities.
 - **Identify the location.** Adding the same constant to all scores leaves comparison probabilities unchanged. A reference item or sum-to-zero constraint fixes the location. Display rescaling should be distinguished from the fitted scores used in the probability model.
 - **Inspect the comparison graph.** Items are vertices and observed comparisons are edges. The sampling schedule determines which relative positions are informed by data; sparse observations and separation can complicate estimation. Licht et al. hold out vertices rather than merely edges to evaluate scoring of unseen texts.
