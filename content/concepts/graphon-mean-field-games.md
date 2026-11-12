@@ -27,6 +27,8 @@ Graphon mean field games describe strategic interactions among a continuum of ag
 
 ## Important Papers
 
+- [[papers/modelling-behaviour-in-author-networks-with-graphon-mean-field-games|Modelling behaviour in author networks with graphon mean field games]]: an empirical finite-state application reconstructing content ratings across author connectedness groups. Network-aware fit improves over a reward-only model, while causal direction remains unidentified.
+
 - [[papers/graphon-mean-field-games-and-the-gmfg-equations|Graphon Mean Field Games and the GMFG Equations]]: formulates continuous-state diffusion GMFG equations, proves conditional existence and uniqueness, and establishes an asymptotic epsilon-Nash result for finite clustered networks.
 - Caines and Huang (2018), "Graphon mean field games and the GMFG equations": introduces the framework in conference form.
 - Caines and Huang (2019), "Graphon mean field games and the GMFG equations: epsilon-Nash equilibria": develops the finite-population equilibrium connection in conference form.
