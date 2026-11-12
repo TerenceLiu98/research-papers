@@ -20,6 +20,8 @@ Signed political networks distinguish cooperative, neutral, and antagonistic rel
 - Camp assignments require independent care. If extracted membership relations are contaminated, validated external affiliations are needed to avoid circular or erroneous comparisons.
 - Temporal comparisons depend on article coverage, edge aggregation, and identity resolution. A rise in raw negative-edge counts may reflect additional reporting rather than increasing antagonism.
 
+- In roll-call networks adjusted for group membership, signs describe departures from an expected alignment: negative edges can indicate within-party conflict and positive edges cross-party alliance. These signs have a different meaning from directly observed friendship or hostility. Separate positive-edge and absolute-negative-edge centralities can summarize individual departures, but depend on the chosen group reference.
+
 ## Important Papers
 
 - [[Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline]]: Shows how signed relations expose the Polish PO-PiS cleavage when unsigned detection groups front-line opponents together.
