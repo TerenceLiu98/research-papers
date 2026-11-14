@@ -36,7 +36,7 @@ The corpus combines historical Congressional Record speeches from 1873–2011 wi
 
 LDA uses 500 topics, with alpha 0.5 and beta 0.1. A pooled model supplies the main analysis, while separately trained House and Senate models check chamber differences. Economic topics are selected through inspection of their top ten words and representative speeches; the main model contains 13 such topics (Table 1).
 
-Each speech is assigned its highest-loading topic. Counts aggregated by speaker and two-year Congress form 500-dimensional profiles. Pairwise cosine similarities define weighted networks, with a separate analysis restricted to economic topics. Leiden community detection yields modularity scores, compared over time rather than interpreted as absolute polarization levels. Louvain and walktrap are described as robustness comparisons.
+Each speech is assigned its highest-loading topic. Counts aggregated by speaker and two-year Congress form 500-dimensional profiles. Pairwise cosine similarities define weighted, non-dichotomized networks, with a separate analysis restricted to economic topics. The economic profiles mask non-economic dimensions to zero before computing similarity, preserving relative attention within the economic domain. Leiden community detection yields modularity scores, compared over time rather than interpreted as absolute polarization levels. Louvain and walktrap are described as robustness comparisons.
 
 Party assortativity measures alignment with party membership. Quadratic assignment procedure (QAP) compares the speech network to a same-party network using 1,000 permutations. This tests network association, not a causal effect of party membership (Sections 3–4).
 
@@ -45,7 +45,7 @@ Party assortativity measures alignment with party membership. Quadratic assignme
 - **Overall discourse:** Figure 2 reports a U-shaped historical modularity pattern, with greater clustering early in the series and renewed increases later. Senate increases begin earlier and are more pronounced than House increases in the all-topic analysis.
 - **Economic discourse:** Economic modularity rises strongly from the 1980s, especially in the House. The paper reports that House economic modularity more than doubles over the final twenty years; exact plotted values are not tabulated in the supplied text.
 - **Party alignment:** Figure 3 shows generally low party assortativity, with a marked rise in House economic discourse from the 2000s. Figure 4 reports that many earlier associations are not significant under QAP, while all-topic networks and House economic networks show more consistently low p-values from the mid-1980s. Statistical significance should be distinguished from the magnitude of assortativity.
-- **Validation scope:** The text references supplementary hyperparameter and algorithm checks, but their detailed results are not included in the supplied Markdown.
+- **Validation scope:** The text reports that supplementary thresholded binary networks reproduce the weighted-network trends more strongly. It also references supplementary hyperparameter and algorithm checks, but their detailed results are not included in the supplied Markdown.
 
 ## Limitations
 
