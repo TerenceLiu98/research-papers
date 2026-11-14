@@ -46,21 +46,21 @@ $$
 L(z) + \sigma^2 \operatorname{Tr}\left(J(z)^\top J(z)G^{-1}(z)\right),
 $$
 
-after neglecting residual-weighted decoder Hessian terms. Here $J=\partial f/\partial z$ has shape $D\times d$; this uses the dimensionally consistent trace ordering from Equations 15-16, correcting the ordering printed in Equation 17. Thus the noise penalizes decoder variation according to the prescribed metric. The curvature magnitude and global noise scale have different effects: curvature changes the spatial profile of the perturbation, whereas $\sigma$ changes its overall amplitude.
+after neglecting residual-weighted decoder Hessian terms. Here $J=\partial f/\partial z$ has shape $D\times d$; this uses the dimensionally consistent trace ordering from Equation 15, correcting the ordering printed in Equation 16. Thus the noise penalizes decoder variation according to the prescribed metric. The curvature magnitude and global noise scale have different effects: curvature changes the spatial profile of the perturbation, whereas $\sigma$ changes its overall amplitude.
 
 The stated covariance and Appendix A pseudocode require distinction. Listing S2 applies `egrad2rgrad` to isotropic Gaussian noise before retraction. Under the local-coordinate rule $v\mapsto G^{-1}v$, this gives covariance $\sigma^2G^{-2}$, rather than the $\sigma^2G^{-1}$ assumed in the derivation. A square-root inverse-metric transform would realize the latter in those coordinates; the supplied text does not resolve this discrepancy for the implementation's manifold representations.
 
 ## Experiments
 
-Appendix B uses non-overlapping 82/9/9 percent train/validation/test splits, matched architectural backbones for the variational baselines, and model-specific hyperparameter tuning. Test latents are optimized with the trained decoder frozen. Cell-cycle and branching results in Tables 1-2 summarize five initializations; hmtDNA reconstruction and correlation results in Table S1 summarize three runs. Cell-cycle and branching reconstruction use MSE, while hmtDNA uses binary cross entropy.
+Appendix C uses non-overlapping 82/9/9 percent train/validation/test splits, matched architectural backbones for the variational baselines, and model-specific hyperparameter tuning. Test latents are optimized with the trained decoder frozen. Cell-cycle and branching results in Tables 1-2 summarize five initializations; hmtDNA reconstruction and correlation results in Table S1 summarize three runs. Cell-cycle and branching reconstruction use MSE, while hmtDNA uses binary cross entropy.
 
 The cell-cycle experiment uses 5,367 fibroblast scRNA-seq profiles and 189 cell-cycle genes. RGD on a sphere obtains the highest phase-distance correlations among the tested RGD geometries: test Pearson and Spearman correlations are both $0.60 \pm 0.03$, compared with $0.55 \pm 0.04$ and $0.57 \pm 0.03$ for Euclidean $\mathbb{R}^3$. Euclidean $\mathbb{R}^3$ gives the best reconstruction, with test MSE $0.17 \pm 0.00$; toroidal embeddings have greater run-to-run variability.
 
-On the 6,350-observation synthetic branching diffusion dataset, a Lorentz model with curvature $c=0.2$ and noise scale $\sigma=1.0$ reaches test Pearson and Spearman correlations of $0.80 \pm 0.02$ and $0.76 \pm 0.02$, respectively. The UMAP baseline does not reveal the tree topology, while regularized hyperbolic latents recover it in a Poincare projection. Increasing noise improves geometric correlation up to roughly $\sigma \approx 0.9$ in the ablation, after which noise overwhelms decoder capacity and reconstruction worsens.
+On the 6,350-observation synthetic branching diffusion dataset, a Lorentz model with curvature $c=5.0$ and noise scale $\sigma=1.0$ reaches test Pearson and Spearman correlations of $0.80 \pm 0.02$ and $0.76 \pm 0.02$, respectively. The UMAP baseline does not reveal the tree topology, while regularized hyperbolic latents recover it in a Poincare projection. Increasing noise improves geometric correlation up to roughly $\sigma \approx 0.9$ in the ablation, after which noise overwhelms decoder capacity and reconstruction worsens.
 
-For human mitochondrial DNA, the authors analyze 61,665 rCRS and 57,385 RSRS sequences after quality filtering and mutation encoding. Hyperbolic RGD latents recover haplogroup hierarchies more clearly in the reported visualizations than Euclidean or UMAP projections. In Table 4, at $\sigma=0.5$, rCRS region accuracy is $0.97$ with XGBoost, compared with $0.85$ for Euclidean RGD, while first-letter haplogroup accuracy is $0.85$ versus $0.74$. The advantage is not universal: two-letter haplogroup XGBoost accuracy is $0.41$, versus $0.43$ for Euclidean RGD. Table S1 likewise shows mixed distance fidelity: rCRS test Spearman correlation is $0.28\pm0.03$ versus $0.24\pm0.14$ for Euclidean RGD, while Pearson correlation is $0.15\pm0.01$ versus $0.16\pm0.07$. A neighbor-joining tree built from Lorentz distances has global structure qualitatively similar to established mitochondrial lineages.
+For human mitochondrial DNA, the authors analyze 61,665 rCRS and 57,385 RSRS sequences after quality filtering and mutation encoding. Hyperbolic RGD latents recover haplogroup hierarchies more clearly in the reported visualizations than Euclidean or UMAP projections. In Table 3, at $\sigma=0.5$, rCRS region accuracy is $0.97$ with XGBoost, compared with $0.85$ for Euclidean RGD, while first-letter haplogroup accuracy is $0.85$ versus $0.74$. The advantage is not universal: two-letter haplogroup XGBoost accuracy is $0.41$, versus $0.43$ for Euclidean RGD. Table S1 likewise shows mixed distance fidelity: rCRS test Spearman correlation is $0.28\pm0.03$ versus $0.24\pm0.14$ for Euclidean RGD, while Pearson correlation is $0.15\pm0.01$ versus $0.16\pm0.07$.
 
-The general-utility checks find cell-cycle generation discrimination accuracy of $0.58$ for RGD sphere, matching S-VAE and improving on the reported $0.62$ for $\Delta$VAE sphere. This discriminator compares decoded optimized test latents with decoded prior samples, rather than comparing generated samples directly with raw observations; chance accuracy is $0.5$. Runtime remains nearly flat across 5D, 50D, and 500D RGD latents (for example, hyperbolic RGD increases from $0.25$ to $0.39$ seconds per epoch), whereas the tested P-VAE implementation breaks at 50D and explicit curvature regularization is infeasible at higher dimensions. Table 5 measures per-epoch time on the full cell-cycle gene set using one Intel Xeon Gold 6430 core and decoder layers [64, 128, 256]; it does not measure total inference cost.
+The general-utility checks find cell-cycle generation discrimination accuracy of $0.58$ for RGD sphere, matching S-VAE and improving on the reported $0.62$ for $\Delta$VAE sphere. This discriminator compares decoded optimized test latents with decoded prior samples, rather than comparing generated samples directly with raw observations; chance accuracy is $0.5$. Runtime remains nearly flat across 5D, 50D, and 500D RGD latents (for example, hyperbolic RGD increases from $0.25$ to $0.39$ seconds per epoch), whereas the tested P-VAE implementation breaks at 50D and explicit curvature regularization is infeasible at higher dimensions. Table 4 measures per-epoch time on the full cell-cycle gene set using one Intel Xeon Gold 6430 core and decoder layers [64, 128, 256]; it does not measure total inference cost.
 
 ## Limitations
 
@@ -68,8 +68,9 @@ The decoder-only parameterization stores one representation per observation, so 
 
 ## Related Concepts
 
-- [[Riemannian Representation Learning]]
-- [[Geometry-Aware Regularization]]
+- [[concepts/riemannian-representation-learning|Riemannian Representation Learning]]
+- [[concepts/geometry-aware-regularization|Geometry-Aware Regularization]]
+- [[concepts/hyperspherical-variational-autoencoders|Hyperspherical Variational Autoencoders]]
 - Hyperbolic embeddings
 - Latent variable models
 - Dimensionality reduction
@@ -80,7 +81,7 @@ The decoder-only parameterization stores one representation per observation, so 
 - Mathieu, Le Lan, Maddison, Tomioka, and Teh (2019), "Continuous Hierarchical Representations with Poincare Variational Auto-Encoders."
 - Davidson, Falorsi, De Cao, Kipf, and Tomczak (2018), "Hyperspherical Variational Auto-Encoders."
 - Kalatzis, Eklund, Arvanitidis, and Hauberg (2020), "Variational Autoencoders with Riemannian Brownian Motion Priors."
-- Nickel and Kiela (2017), "Poincare Embeddings for Learning Hierarchical Representations."
+- Nickel and Kiela (2018), "Learning Continuous Hierarchies in the Lorentz Model of Hyperbolic Geometry."
 - Lee and Park (2023), "On Explicit Curvature Regularization in Deep Generative Models."
 
 [[index|Library home]]
