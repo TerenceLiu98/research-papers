@@ -17,7 +17,7 @@ tags:
 
 ## TL;DR
 
-For discriminative models whose logits factor into embeddings and unembeddings, the paper proves that [[concepts/logit-distance|Logit Distance]] controls linear representational similarity while KL divergence generally does not. Logit-matched students preserve teacher geometry and linearly recoverable concepts substantially better than KL-distilled students on synthetic, CIFAR-100, and SUB experiments, although the guarantees rely on diversity, dimensionality, and probability-support assumptions.
+For discriminative models whose logits factor into embeddings and unembeddings, the paper proves that [[concepts/logit-distance|Logit Distance]] controls linear representational similarity while KL divergence generally does not. Logit-matched students preserve teacher geometry and linearly recoverable concepts substantially better than KL-distilled students on synthetic, CIFAR-100, and SUB experiments, with rank and dimensionality conditions for representation guarantees and an additional probability lower bound for converting KL control into logit control.
 
 ## Research Question
 
@@ -56,7 +56,7 @@ $$
 \le \frac{4\log^2(\tau)}{\tau}d_{\mathrm{KL}}(p,p'),
 $$
 
-where the upper bound requires every conditional probability of both models to be at least $\tau$. Because $\tau\le 1/k$ for $k$ labels and is often much smaller, this KL guarantee is usually quantitatively weak.
+where the upper bound requires every conditional probability of both models to be at least $\tau$, with $0<\tau<1/3$. Because $\tau\le 1/k$ for $k$ labels and is often much smaller, this KL guarantee is usually quantitatively weak.
 
 For representations of dimension $m$, the paper bounds mean CCA by
 
@@ -84,7 +84,7 @@ An ablation varying SUB student representation dimension from 2 to the teacher's
 
 ## Limitations
 
-The main theory generally assumes that the number of labels exceeds the representation dimension plus one, embeddings and unembeddings have sufficient rank, and compared models use the same representation dimension. The linear-identifiability dissimilarity further assumes shifted unembeddings are in general position for every pivot and label subset. The KL upper bound requires all conditional probabilities to be uniformly bounded away from zero and becomes weak as the minimum probability shrinks.
+The model family assumes $k>m$, where $k$ is the number of labels and $m$ the representation dimension; embeddings and unembeddings have sufficient rank, and compared models use the same representation dimension. The linear-identifiability dissimilarity further assumes shifted unembeddings are in general position for every pivot and label subset. The KL upper bound requires all conditional probabilities to be uniformly bounded away from zero and becomes weak as the minimum probability shrinks.
 
 The experiments cover small synthetic and image-classification settings, not language-model distillation, despite autoregressive language models motivating the large-label regime. Teacher and student architectures are mostly closely related, and larger-scale optimization behavior remains untested. Logit matching also weights unlikely labels strongly; if their teacher logits encode noise rather than useful structure, preserving them may be harmful. The supplied manuscript does not state a publication year or stable paper identifier.
 
