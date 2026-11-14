@@ -7,6 +7,7 @@ authors:
   - Dana Pe'er
   - Brandon Amos
 year: null
+source_job_id: "d8cdb5e3-7861-4757-b6e0-16abdeef2699"
 tags:
   - flow-matching
   - optimal-transport
@@ -49,6 +50,8 @@ For Gaussian measures, the optimal map is affine, so the mean, covariance path, 
 
 For general measures, observed point clouds replace continuous distributions. Entropic [[concepts/optimal-transport|Optimal Transport]] estimates the map used to construct interpolated particles and regression targets. Equal-size point clouds use a greedily rounded transport matching; unequal-size point clouds use an out-of-sample entropic map. A permutation-equivariant transformer predicts particle velocities, and Euler integration generates a new point cloud.
 
+Appendices C–D describe two practical choices. Multisample matching couples minibatches of measures using Gaussian Wasserstein distances; for point clouds, empirical means and covariances provide a cheaper surrogate for pairwise inner OT. Source point clouds are sampled from Gaussians with randomized covariance, since clouds sampled from one fixed Gaussian become indistinguishable in Wasserstein distance as their particle counts grow. This preserves diversity at the level of distributions.
+
 ## Experiments
 
 ### Gaussian Families
@@ -68,6 +71,7 @@ WFM also handles settings excluded by the cited voxel-based comparators. On vari
 - The general Wasserstein-space calculations are formal rather than fully rigorous; the paper notes that the Gaussian submanifold is the clean finite-dimensional case.
 - Theory uses classical optimal maps, while implementation uses entropy-regularized estimates, rounded matchings, and finite point clouds. The paper provides estimation bounds but retains a theory-to-implementation gap.
 - Entropic OT and self-attention are both quadratic in point-cloud size. ShapeNet training is reported to take about three days on one A100 GPU; other experiments take roughly three to four hours.
+- With too few training examples, all compared Gaussian methods collapse onto the training data (Figure S1); accurate covariance reconstruction alone does not demonstrate generalization.
 - Statistical estimation of transport maps suffers from the curse of dimensionality even though the neural architecture can accept high-dimensional particles.
 - Comparative experiments for variable-size and high-dimensional distributions contain no applicable prior-method baselines in Table 4, so those results establish feasibility more directly than comparative superiority.
 - Biological outputs are generative approximations of cellular niches and should not by themselves support biological conclusions.

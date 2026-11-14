@@ -20,6 +20,7 @@ Wasserstein flow matching is a generative framework in which each state of the l
 - **Geodesic conditional paths.** A Monge map $T_*$ induces the displacement interpolation $((1-t)\operatorname{id}+tT_*)_\#\mu$. Its velocity is the regression target for a Riemannian flow-matching objective.
 - **Representation-dependent computation.** Gaussian measures admit exact affine maps and closed-form [[concepts/bures-wasserstein-geometry|Bures-Wasserstein Geometry]]. General measures can be represented by point clouds and trained with estimated entropic transport maps.
 - **Permutation equivariance.** For empirical measures, particle order is irrelevant. Self-attention provides an equivariant parameterization of the learned point-cloud velocity field and supports variable numbers of particles.
+- **Diversity of the source family.** Independent point clouds drawn from the same fixed distribution converge to the same measure as their sizes grow. Randomizing the underlying Gaussian covariance supplies variation between source measures, rather than relying only on finite-particle sampling noise.
 - **Approximation boundary.** Classical optimal-map theory justifies the ideal path, but practical point-cloud systems introduce entropic regularization, finite-sample map error, numerical integration, and sometimes discrete matching heuristics.
 
 ## Important Papers
