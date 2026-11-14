@@ -6,7 +6,8 @@ authors:
   - Yan Liu
   - Chen Ye
 year: null
-source_job_id: 0c6d36ad-4f4d-49ab-acac-455e65adf7c1
+source_job_id: 44b37484-eaa8-42b0-a463-5d0a4493310e
+previous_source_job_id: 0c6d36ad-4f4d-49ab-acac-455e65adf7c1
 tags:
   - historical-calligraphy
   - fine-grained-visual-recognition
@@ -43,6 +44,8 @@ For Tie and Bei, the processing pipeline standardizes foreground polarity, appli
 
 The 8-way discrimination protocol presents one target image and eight candidates, each with a reference image and style description. The aesthetic-reasoning protocol asks for a description of at most 50 words using two examples whose character identities differ from the target. Generation is evaluated with BERTScore-F1 multiplied by 10 and DeepSeek-chat judgments of professional terminology and detail richness. Robustness tests compare raw Wild, resized Wild, and processed data; description ablations substitute random or GPT-generated text for expert descriptions.
 
+The manuscript links the [HCSU dataset release](https://huggingface.co/datasets/Tongji209/HCSU), including processed Bei and Tie images, per-image JSON annotations, and preview samples. It describes Wild as encrypted multipart archives with access requested from the corresponding author; processed-archive passwords are supplied in the repository README.
+
 ## Experiments
 
 Across the nine evaluated LVLMs, 8-way discrimination accuracy ranges from about 19% to 38%. Doubao-1.5-Vision-Pro-250328 leads the reported average at 37.29%, followed by GPT-5.2 at 34.58%. Qwen3-VL-235B-Instruct is the strongest open-weight model at 30.25%, compared with 21.81% for its 30B counterpart; Qwen2.5-VL similarly rises from 20.25% at 7B to 24.93% at 72B.
@@ -50,6 +53,8 @@ Across the nine evaluated LVLMs, 8-way discrimination accuracy ranges from about
 Most strong models perform better on high-contrast Bei images than on Tie images that preserve continuous ink textures. Qwen3-VL-235B-Instruct, for example, reaches 34.10% accuracy on Bei and 26.40% on Tie. The authors interpret this as possible sensitivity to geometric boundaries, but the experiment does not isolate architecture from training data, OCR behavior, or cultural-domain exposure.
 
 Generation results reveal a separate capability. GPT-5.2 receives the highest terminology and richness judgments, exceeding the expert-reference averages on both measures, while the discrimination-leading Doubao model falls well below expert richness. BERTScores are comparatively compressed across models. These results show that fluent aesthetic vocabulary and discriminative perception need not track one another; they do not establish that scores above the expert average reflect superior visual grounding.
+
+Table 2 averages Bei and Tie accuracies equally, whereas Table 4 weights them by subset size. Thus, Qwen3-VL-235B’s 30.25% main-table average and 29.95% processed robustness accuracy use different aggregation rules.
 
 Raw Wild images produce the highest probe-model discrimination accuracy at 34.22%, compared with 31.40% for Wild-Resize and 29.95% for processed data. The retained resolution and context may contain genuine brushwork evidence or spurious cues such as seals, borders, paper texture, and source artifacts. Expert descriptions help most on Bei accuracy and precision, but GPT-generated descriptions slightly exceed them on Tie accuracy and F1, so expert text is not a universal accuracy booster.
 
