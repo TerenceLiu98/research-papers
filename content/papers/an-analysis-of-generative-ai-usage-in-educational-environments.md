@@ -51,6 +51,8 @@ Source reporting also needs care: the manuscript describes 273 of 335 publicatio
 
 ## Related Concepts
 
+- [[concepts/cognitive-offloading|Cognitive Offloading]]: connects to the distinction between using AI to support reasoning and delegating learning tasks in ways that weaken independent engagement.
+
 - [[concepts/technological-momentum|Technological Momentum]]: institutional embedding supplies the paper's theoretical framework.
 - [[concepts/algorithm-literacy|Algorithm Literacy]]: connects to its recommendation that learners and teachers critically evaluate AI outputs.
 - [[concepts/human-oversight-of-ai|Human Oversight of AI]]: connects to retaining human judgment in teaching, assessment, and governance.
