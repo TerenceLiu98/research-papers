@@ -67,6 +67,10 @@ Local Moran analysis uses 4,999 permutations. Robustness checks replace Queen we
 
 This is an observational empirical analysis, with reported results rather than independently reproduced estimates.
 
+### Preliminary Structure Diagnostic
+
+Section 4.1 reports a Hopkins statistic of 0.97 as an indication of departure from randomness before fitting ADA. The authors explicitly treat it as indicative: it is not a test for representative extremes and does not validate the choice of three archetypoids. That choice instead follows the RSS elbow.
+
 ### National Orientation and Regression Results
 
 Global Moran tests give $p=0.0579$ for left intensity, $0.0027$ for center, and $0.0001$ for right. Thus left intensity is not significant at 5% under the main specification despite a positive association.
