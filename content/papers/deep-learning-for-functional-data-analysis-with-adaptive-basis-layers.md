@@ -63,6 +63,8 @@ In simulation Cases 1-4, the best AdaFNN test MSEs are 0.001, 0.003, 0.127, and 
 
 The real-data evaluation covers nine tasks from four datasets: four household-electricity tasks, three wearable-activity health classifications, and two fruit-fly lifetime-reproduction regressions. Regression is evaluated by MSE and classification by $1-\mathrm{AUC}$, so lower is better throughout the reported table. AdaFNN uses four bases for all nine tasks, versus 15 B-splines and an FPCA representation that often contains more than ten components. The authors describe AdaFNN as outperforming the baselines on all nine tasks, but the printed values are more qualified: taking the best tested configuration of each method, AdaFNN has the lowest error on seven tasks, ties B-spline plus NN at 0.477 on Task 6, and trails it slightly on the diabetes task (0.339 versus 0.335). The best regularization setting varies by dataset; sparsity yields the validation-selected AdaFNN result for one task and may also aid interpretation.
 
+The asterisks in Tables 1 and 3 identify validation-selected configurations, which need not attain the minimum test error. In simulation Cases 1–4 their MSEs are 0.001, 0.005, 0.137, and 0.193; in Case 3, FPCA with 90% variance explained achieves 0.134. For the nine real-data tasks, validation-selected AdaFNN errors are 0.084, 0.290, 0.129, 0.310, 0.380, 0.479, 0.410, 0.377, and 0.368. These distinctions matter when interpreting the best-configuration comparisons above.
+
 ## Limitations
 
 - Accurate Basis Layer projections require observations dense enough for reliable numerical integration. The authors identify sparsely observed functional data as an unresolved case requiring better integration and stronger inductive biases.

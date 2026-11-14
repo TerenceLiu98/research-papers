@@ -23,6 +23,7 @@ Adaptive basis layers turn a functional input into a finite-dimensional represen
 - Task supervision distinguishes adaptive basis learning from [[Functional Principal Component Analysis|FPCA]]: FPCA prioritizes directions of high functional variance, whereas an adaptive basis can prioritize a lower-variance direction that predicts the response.
 - Pairwise cosine-similarity penalties encourage different basis nodes to capture nonredundant directions. Integrated $L_1$ penalties encourage bases with restricted support, making irrelevant regions of the functional domain easier to identify.
 - Non-uniform grids can be handled with appropriate integration weights, but sparse observations make the inner products difficult to estimate accurately.
+- The projection is linear in the input function even though each basis is parameterized by a nonlinear micro-network; nonlinear prediction occurs in the downstream network.
 - The learned predictor may be identifiable even when its individual bases are not. Basis shapes should therefore be interpreted as one parameterization of the predictive map rather than uniquely recovered ground-truth functions.
 
 ## Important Papers
