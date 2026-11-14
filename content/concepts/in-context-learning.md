@@ -26,6 +26,8 @@ In-context learning is the ability of a model to infer a task, rule, or latent m
 
 ## Important Papers
 
+- [[papers/looped-transformers-are-better-at-learning-learning-algorithms|Looped Transformers Are Better at Learning Learning Algorithms]]: input-injected recurrence matches synthetic function-learning baselines with about one-twelfth the parameters, but stable iterations retain an error floor and distribution-shift failures. This distinguishes iterative task adaptation from recovering a universally generalizing solver.
+
 - [[papers/self-play-pretraining-with-zero-data|Self-Play Pretraining with Zero Data]]: evaluates reverse-string, stack, associative-recall, sum, max, and min tasks after synthetic self-play pretraining.
 - Brown et al. (2020), "Language Models are Few-Shot Learners": establishes the modern large-language-model framing of in-context learning.
 - Ba et al. (2016), "Using Fast Weights to Attend to the Recent Past": an associative-recall reference used in the paper's ICL evaluation.
