@@ -18,6 +18,8 @@ Legislative cosponsorship networks represent lawmakers' shared support for bills
 - Retrospective outcome-weighted measures require care in prediction: eventual outcomes and focal-bill contributions must not be mistaken for information available before a decision.
 - Shared participation may reflect ideological similarity, party organization, strategic signaling, or reciprocal support; it does not alone identify interpersonal influence.
 
+- Timing distinguishes signatures recorded at introduction (active) from later signatures (passive). These may emphasize sponsor relationships and policy alignment differently; predictive embedding similarity alone does not identify motivations.
+
 ## Important Papers
 
 - [[papers/a-network-based-measure-of-cosponsorship-influence-on-bill-passage-in-the-united-states-house-of-representatives|A Network-Based Measure of Cosponsorship Influence on Bill Passage in the United States House of Representatives]] combines successful collaborations, temporal decay, and party normalization to study House passage.
