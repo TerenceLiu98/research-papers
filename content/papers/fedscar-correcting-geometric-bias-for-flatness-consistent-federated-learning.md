@@ -69,7 +69,7 @@ Table 3's CIFAR-10 Dirichlet 0.01 ablation rises from 75.29 / 73.40 with ADMM al
 - Table 12's prose describes C as sampled clients, while its caption calls it local epochs. The table above preserves C without resolving that ambiguity.
 - Evaluation uses simulated client partitions and modest classification architectures; it does not establish deployment performance for arbitrary heterogeneous systems.
 
-The supplied Markdown does not establish a publication year, venue, DOI, or arXiv identifier; year is left null. Source: Cognitio job `8bd3b9fe-fe40-4ba9-a610-f184488d679f`, supplied parsed manuscript. Code URL reported by the paper: https://github.com/Ultraman6/FedScar.
+The supplied Markdown does not establish a publication year, venue, DOI, or arXiv identifier; year is left null. Source: Cognitio job `8bd3b9fe-fe40-4ba9-a610-f184488d679f`, supplied parsed manuscript; revalidated against supplied parsed Markdown for Cognitio job `2e80f045-a354-47e4-b2e3-5ffb0eb3a585`. Code URL reported by the paper: https://github.com/Ultraman6/FedScar.
 
 ## Related Concepts
 
