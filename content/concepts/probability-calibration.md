@@ -23,6 +23,8 @@ Probability calibration asks whether a model's reported probabilities have the n
 - **Represent unresolved mass when decisions permit it.** A model may be forced to output True or False while retaining uncertainty. A calibrated binary correction and an explicit defer or abstain state support different downstream actions.
 - **Validate the deployment interface.** Calibration can differ across primitives, tasks, model versions, and data regimes. A result on a synthetic benchmark or one model interface does not establish calibration under deployment shift.
 
+Selection and routing change the population on which confidence is interpreted. StartLux-Decision shows that best-of-N winners and confidence-routed predictions can be miscalibrated even when individual predictions are calibrated. Its policy-aware maps condition on candidate statistics or routing confidence; calibration and acceptance thresholds must be checked on the deployed policy, with route-specific coverage reported. Finite-sample calibration does not ensure reliability under distribution shift (StartLux-Decision, Sections 5.4–5.5 and Appendix C).
+
 ## Important Papers
 
 - [[papers/jev-thinks-i-dont-know-but-doesnt-say-it-introducing-sys1cal-v1-dataset-for-probability-calibration|Jev thinks I don't know, but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration]]: constructs exact probability targets, compares Jev's Noul, Choice, and Score outputs, and fits a latent uncertainty correction for Choice.
