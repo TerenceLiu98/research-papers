@@ -15,6 +15,8 @@ Time series foundation models learn reusable temporal representations or forecas
 
 ## Key Ideas
 
+- **Temporal resolution can adapt locally:** KAIROS routes individual segments to patch-size experts and conditions rotary frequencies on the input spectrum. Its matched-data and parameter-matched controls support architectural gains, while aggregate point-forecast improvements coexist with dataset-level losses and weaker probabilistic scores than Toto.
+
 - **Long-term dynamics require distinct evaluation:** [[concepts/dynamical-systems-reconstruction|Dynamical Systems Reconstruction]] assesses attractor occupation and temporal statistics beyond pointwise forecast error. DynaMix's synthetic-system experiments show how context repetition or eventual collapse can coexist with plausible near-term forecasts; its empirical results also show that stronger dynamical metrics need not yield lower MAE.
 - **Specialization can occur within a series:** MOIRAI-MOE uses shared projections and [[concepts/sparse-mixture-of-experts|sparse expert routing]] to specialize by patch-token patterns rather than sampling frequency. Its results distinguish the small parameter subset activated per token from the substantially larger total model capacity.
 - **Architecture and pretraining are separate choices:** Temporal models can use transformers or MLP mixing, as illustrated by TTM in Marconi's report. Using a language-model architecture does not by itself establish that a model inherited text-pretrained weights.
