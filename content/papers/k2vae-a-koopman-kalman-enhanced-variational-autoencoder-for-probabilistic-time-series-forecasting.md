@@ -46,7 +46,7 @@ Autoregressive, diffusion, and normalizing-flow forecasters can become inaccurat
 
 **KalmanNet.** The difference between encoded context patches and their Koopman reconstruction is processed by a Transformer integrator. Its outputs enter a learned linear process model as control inputs. A Kalman-style predict-update recursion treats Koopman forecasts as observations, computes gains from learned process and observation covariances, and refines the forecast state and uncertainty. Lower-triangular factors parameterize positive-definite covariance matrices.
 
-**Variational generation.** The refined latent mean and covariance define the posterior $Q(Z\mid X)$. Samples are passed through an MLP decoder that acts as an approximate inverse measurement function and outputs the forecast distribution. Training combines forecast reconstruction, latent reconstruction, KL divergence to a standard Gaussian prior, and a residual penalty intended to encourage linear latent dynamics. Relative to iterative diffusion or flow generation, decoding is a single-step operation.
+**Variational generation.** The refined latent mean and covariance define the posterior $Q(Z\mid X)$. Samples are passed through an MLP decoder that acts as an approximate inverse measurement function and outputs the forecast distribution. Training minimizes a weighted combination of the negative ELBO (forecast negative log likelihood and KL divergence to a standard Gaussian prior) and squared context reconstruction error in observation space (Section 3.1.4). The latter encourages linear latent dynamics; the stated objective does not include a separate residual penalty. Relative to iterative diffusion or flow generation, decoding is a single-step operation.
 
 ## Experiments
 
@@ -56,7 +56,7 @@ Autoregressive, diffusion, and normalizing-flow forecasters can become inaccurat
 
 **Ablations.** On Electricity-L at horizon 720, full K2VAE obtains CRPS 0.057, compared with 0.074 without KoopmanNet and 0.089 without KalmanNet. The mixed local-plus-global Koopman operator outperforms either component alone in the reported comparisons; the local-only variant fails numerically for the two displayed long-horizon cases. Removing the integrator, skip connection, or control input also worsens the four summarized CRPS and NMAE comparisons.
 
-**Efficiency.** With batch size one, the paper reports one-sample inference time of 3.310 seconds and maximum GPU memory of 0.094 GB on Electricity-L with a 96-step horizon. For ETTm1-L at the same horizon, it reports 0.257 seconds and 0.013 GB. These measurements support efficiency relative to the implemented generative baselines in those configurations, but they do not establish hardware-independent latency.
+**Efficiency.** With batch size one, the paper reports one-sample inference time of 3.310 seconds and maximum GPU memory of 0.094 GB on Electricity-L with a 96-step horizon. For ETTm1-L at the same horizon, it reports 0.257 seconds and 0.013 GB. Appendix C.4 specifies an NVIDIA Tesla-A800 GPU, Python 3.10, and PyTorch. These measurements support efficiency relative to the implemented generative baselines in those configurations, but they do not establish hardware-independent latency.
 
 ## Limitations
 
@@ -64,7 +64,7 @@ Autoregressive, diffusion, and normalizing-flow forecasters can become inaccurat
 - Several baseline results are missing because of excessive time or memory use, and some local-operator results are missing because of numerical instability. Comparisons are therefore incomplete in those settings.
 - Point forecasters are converted to probabilistic models with Gaussian heads, so their results reflect that added distributional assumption rather than their native deterministic objectives.
 - The method assumes fixed-size, non-overlapping patches and an approximately linear learned measurement space. The experiments do not establish how robust this representation is under irregular sampling, missing context, distribution shift beyond the included datasets, or zero-shot transfer.
-- Efficiency is reported for batch size one on selected datasets and horizons. The supplied text does not specify hardware in the efficiency table, limiting reproducibility and cross-system interpretation.
+- Efficiency varies by configuration: at Electricity-L horizon 720, Table 11 reports 39.834 seconds and 0.474 GB for K2VAE versus 26.296 seconds and 0.427 GB for GRU NVP. Thus, the favorable 96-step comparison does not imply uniformly fastest inference or lowest memory use.
 - The paper proposes foundation probabilistic forecasting as future work; it does not evaluate zero-shot forecasting.
 - The supplied Markdown does not establish a publication venue, publication year, DOI, or arXiv identifier, so these metadata are left unspecified.
 
@@ -80,5 +80,5 @@ Autoregressive, diffusion, and normalizing-flow forecasters can become inaccurat
 - Liu et al. (2023), "Koopa: Learning Non-stationary Time Series Dynamics with Koopman Predictors": the principal Koopman-based deterministic forecasting baseline.
 - Rasul et al. (2021), "Autoregressive Denoising Diffusion Models for Multivariate Probabilistic Time Series Forecasting": introduces TimeGrad, an iterative generative baseline.
 - Rasul et al. (2021), "Multivariate Probabilistic Time Series Forecasting via Conditioned Normalizing Flows": supplies the flow-based GRU and Transformer comparisons.
-- Kollovieh et al. (2023), "Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting": introduces TSDiff.
+- [[papers/predict-refine-synthesize-self-guiding-diffusion-models-for-probabilistic-time-series-forecasting|Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting]] (Kollovieh et al., 2023): introduces TSDiff.
 - [[papers/flow-matching-with-gaussian-process-priors-for-probabilistic-time-series-forecasting|Flow Matching with Gaussian Process Priors for Probabilistic Time Series Forecasting]]: a complementary generative approach that places temporal structure in a flow model's source distribution rather than linearizing learned dynamics.
