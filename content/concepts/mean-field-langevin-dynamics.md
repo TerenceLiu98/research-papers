@@ -23,6 +23,8 @@ which is the Wasserstein gradient flow of $F_\tau=F+\tau H$, where $H$ is negati
 
 ## Key Ideas
 
+- **Injected noise differs from SGD noise.** Isotropic diffusion gives an entropy-regularized free-energy flow; minibatch SGD generally has anisotropic, state-dependent covariance and need not share this equilibrium description.
+
 - **Equilibrium is self-consistent.** A stationary measure $\nu$ satisfies $F'[\nu]+\tau\log\nu=\mathrm{constant}$ under suitable regularity.
 - **Global and local geometry differ.** Global convergence results often use uniform log-Sobolev inequalities. Near equilibrium, the Poincare constant can instead determine the sharp $\chi^2$ decay rate.
 - **Negative Sobolev control reveals monotonicity.** Writing $f_t=d\mu_t/d\nu-1$, a weighted $H^{-1}_\nu$ energy cancels the elliptic operator that obscures the sign of interaction terms in a direct $L^2_\nu$ estimate.
