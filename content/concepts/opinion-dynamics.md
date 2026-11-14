@@ -30,6 +30,8 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 - Continuous private opinions and discrete public choices can be modeled as separate but coupled states. In [[papers/multi-dimensional-multi-option-opinion-dynamics-leads-to-the-emergence-of-clusters-in-social-networks|Multi-dimensional multi-option opinion dynamics leads to the emergence of clusters in social networks]], action similarity strengthens influence on fixed social ties; cooperative and competitive responses destabilize neutrality at spectral thresholds and produce consensus or polarized branches, respectively.
 - Coupled-spin representations can encode multiple attitude dimensions at each site. [[From modeling of political opinion formation to two-spin statistical physics model]] maps personal and economic positions to two Ising spins and studies the resulting stationary thermodynamic analogue, while cautioning that its social interpretation is not a dynamical or empirical validation.
 
+- Language-driven simulations can produce directional influence without indiscriminate imitation. [[papers/selective-agreement-not-sycophancy-investigating-opinion-dynamics-in-llm-interactions|Selective agreement, not sycophancy]] finds preferential acceptance of more agreeable stances in a constrained Ship of Theseus debate, illustrating why collective convergence alone does not establish unconditional conformity or human realism.
+
 ## Important Papers
 
 - [[Stochastic Thermodynamics of Social Imitation beyond Energetics]]
