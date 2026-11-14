@@ -45,6 +45,9 @@ The main setup uses Llama-3.2-1B with LoRA on four A100 GPUs and answer-level ac
 
 | Method | GSM8K-Aug | ProsQA | StrategyQA |
 |---|---:|---:|---:|
+| iCoT-KD | 24.11 | 98.00 | 62.88 |
+| iCoT-SI | 29.72 | 99.00 | 60.69 |
+| Token Assorted (reported baseline) | 48.70 | 96.20 | — |
 | Coconut | 49.85 | 97.80 | 60.00 |
 | CODI | 51.02 | 80.80 | 60.70 |
 | Pause Token | 53.37 | 95.80 | 57.64 |
