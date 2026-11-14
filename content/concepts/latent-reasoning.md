@@ -17,6 +17,8 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 
 ## Key Ideas
 
+- **Iterative refinement benefits from intermediate supervision.** SpiralThinker aligns prefix-conditioned latent-step summaries with an explicit teacher across iterations, emphasizing later updates. Its ablations show that iteration alone can reduce accuracy; fewer textual tokens also need not mean fewer forward passes.
+
 - **Behavioral evidence is indirect.** Producing a correct answer from a short or empty reasoning trace is consistent with latent computation, but it can also reflect memorization, shortcuts, or answer leakage. Controlled perturbations and trace inspection help separate these explanations.
 - **Reasoning-trace truncation localizes answer availability.** A model is asked for an answer after progressively longer prefixes of its original trace. Accuracy that rises before the gold answer is written suggests that explicit text is not the sole carrier of computation.
 - **Explicit and latent reasoning can coexist.** Hidden states may accumulate partial evidence while generated text externalizes, revises, or validates it. A model can also state the answer early and continue generating, so early correctness alone does not imply hidden-only reasoning.
