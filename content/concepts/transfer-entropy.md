@@ -27,11 +27,15 @@ It is a conditional mutual information and can differ between directions. Histor
 - An activation-alignment proxy must be distinguished from exact TE: squared cosine similarity is symmetric, bounded, and does not itself implement conditional density estimation.
 - High predictive dependence alone does not prove a layer is dispensable. Pruning and downstream recovery experiments supply separate evidence about redundancy.
 
+- Diffusion-score estimators approximate conditional information through integrated score differences. Their accuracy depends on learned scores and diffusion truncation; nonnegative estimates need not be unbiased. Independent noise dimensions leave population TE unchanged, while independent paired process copies make it additive, providing useful estimator stress tests.
+
 ## Important Papers
 
 - Schreiber (2000), “Measuring Information Transfer”: introduces TE, as cited by the paper below.
 - Barnett, Barrett, and Seth (2009), “Granger Causality and Transfer Entropy Are Equivalent for Gaussian Variables”: establishes the Gaussian connection cited in the source manuscript.
 - [[papers/transfer-entropy-as-a-measure-of-information-flow-in-llms-and-vlms|Transfer Entropy as a Measure of Information Flow in LLMs and VLMs]]: applies a cosine-based surrogate to Transformer profiling and pruning, with qualitative rather than calibrated information interpretation.
+
+- [[papers/tende-transfer-entropy-neural-diffusion-estimation|TENDE: Transfer Entropy Neural Diffusion Estimation]]: estimates TE with shared conditional diffusion scores and tests noise invariance and additive stacking; high-information cases retain substantial finite-sample bias.
 
 ## Related Concepts
 
