@@ -25,6 +25,10 @@ Validity boundaries for LLM social simulations specify which research questions 
 - **Distinguish design problems from capability boundaries.** Prompt wording, action spaces, and framework assumptions can often be revised. Persistent behavioral homogenization across models and designs may instead mark a boundary of current LLM-based simulation.
 - **Audit more than alignment.** Temporal consistency, perturbation robustness, interaction structure, environment design, and contradictory findings in related studies can each narrow a simulation's valid scope.
 
+### Mechanism and counterfactual validity
+
+Distributional alignment alone does not establish that an intervention works through the intended mechanism. Information visibility, activation schedules, institutional incentives, and initial awareness should be specified and varied explicitly. Stable conclusions across seeds and prompt paraphrases, alongside sensitivity to meaningful mechanism changes, provide complementary checks. This is the methodological agenda of [[papers/ai-agents-alone-are-not-yet-sufficient-for-social-simulation|AI Agents Alone Are Not (Yet) Sufficient for Social Simulation]], which proposes these audits without empirically validating them.
+
 ## Important Papers
 
 - [[LLM-Based Social Simulations Require a Boundary]] develops the mean-variance framework, reviews 21 studies, and argues for validation and claim scope matched to heterogeneity requirements.
