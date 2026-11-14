@@ -21,6 +21,7 @@ Bounded confidence models are continuous [[Opinion Dynamics|opinion-dynamics]] m
 - The confidence bound defines which pairs can influence one another. Small bounds suppress interaction and preserve many clusters; larger bounds connect more of the opinion space and can support consensus.
 - Initial conditions matter because separated peaks may never enter one another's interaction range. Uniform, unimodal, and multimodal starting distributions can therefore produce different outcomes under the same update rule.
 - Heterogeneous update rates represent differences in agents' willingness to compromise. Fixed or nearly fixed extreme agents can anchor clusters, while moderate reductions in willingness may mainly change convergence time.
+- External opinion sources can be admitted through the same confidence gate as peers. Distinguishing nonuse, conditional reliance, and unconditional adoption separates selective influence from consensus imposed by an update rule.
 - Adaptive-network variants allow disagreeing agents to cut ties and form new ones. Opinion proximity and network topology then coevolve rather than treating the contact graph as fixed.
 - Cluster size measures capture global outcomes, while local measures such as the fraction of neighbors within an agent's confidence bound can characterize how locally aligned the network has become.
 
