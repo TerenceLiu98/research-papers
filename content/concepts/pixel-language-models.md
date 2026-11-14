@@ -26,6 +26,8 @@ Pixel language models process text after rendering it as an image. Instead of as
 - **Encoder and generative designs differ.** Masked-autoencoder pixel models are usually encoders for understanding tasks. Autoregressive and hybrid token-pixel systems are needed when language generation is the target.
 - **Pixel prediction can serve as a visual psycholinguistic measure.** Reconstruction difficulty over masked word patches can capture orthographic and parafoveal information that token surprisal omits. Its value is complementary rather than interchangeable: visual difficulty can add predictive power for reading behavior even when it is weaker than token surprisal on fixation duration.
 
+- **Document transfer needs more than synthetic semantic matching.** PIXEL LINGUIST II combines contrastive text-pair learning with natural-image grounding, variable spatial scales, and rendering diversity; strong synthetic Visual STS performance alone does not imply strong real-document retrieval.
+
 ## Important Papers
 
 - Rust et al. (2023), "Language Modelling with Pixels": introduces PIXEL, a ViT-MAE language encoder trained on rendered text.
@@ -34,6 +36,8 @@ Pixel language models process text after rendering it as an image. Instead of as
 - [[papers/scaling-multilingual-pretraining-of-pixel-language-models|Scaling Multilingual Pretraining of Pixel Language Models]]: separates language, script, and capacity scaling and analyzes their downstream and representation-level effects.
 - [[papers/reading-time-modeling-with-pixel-based-language-models|Reading Time Modeling with Pixel-Based Language Models]]: uses pixel-space reconstruction difficulty and entropy to model fixation duration and word skipping across eight languages.
 - Tai et al. (2024), "PIXAR: Auto-regressive Language Modeling in Pixel Space": extends pixel-space modeling to autoregressive generation.
+
+- [[papers/on-the-design-fundamentals-of-pixel-text-representation-learning|On the Design Fundamentals of Pixel Text Representation Learning]]: studies rendering, grounding, and multilingual curricula for a unified pixel-text encoder.
 
 ## Related Concepts
 
