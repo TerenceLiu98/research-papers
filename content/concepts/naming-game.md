@@ -20,10 +20,14 @@ The naming game studies how a shared convention can emerge through local interac
 - **Finite populations and mean-field limits answer different questions.** Simulations reveal fluctuation-driven outcomes and convergence-time distributions. Mean-field equations describe population fractions in the large-system limit and permit stability analysis.
 - **Define consensus operationally.** A threshold on recent successful interactions is different from exact equality of every agent's state or an absorbing equilibrium.
 
+- **Heterogeneous influence can be isolated from correctness.** Seeding different model classes with different meaningless labels measures which initial convention spreads. In a speaker–listener variant, only the listener updates its FIFO memory; majority amplification can differ by model. This differs from simultaneous choices with coordination payoffs.
+
 ## Important Papers
 
 - Baronchelli et al. (2006), *Sharp transition towards shared vocabularies in multi-agent systems*, Journal of Statistical Mechanics, P06014: the minimal naming-game model cited by Flint et al.
 - [[papers/group-size-effects-and-collective-misalignment-in-llm-multi-agent-systems|Group size effects and collective misalignment in LLM multi-agent systems]] uses a binary, finite-memory LLM version to study population-size effects and collective bias.
+
+- [[papers/who-is-the-influencer-consensus-dynamics-in-multi-agent-systems|Who Is the Influencer? Consensus Dynamics in Multi-Agent Systems]] reports stronger-model influence in heterogeneous populations and tests a heuristic energy account, with in-sample fits and failures on some minority-model victories.
 
 ## Related Concepts
 
