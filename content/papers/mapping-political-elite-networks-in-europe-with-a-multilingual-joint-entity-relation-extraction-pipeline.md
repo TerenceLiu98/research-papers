@@ -54,7 +54,7 @@ The relation reference set contains 3,491 relations across 502 Polish articles, 
 | Unmatched gold relations | 161/610 had actually been extracted | Matching errors affect measured recall |
 | Genuine misses | 258 LLM omissions, 176 NER misses, 15 direction errors | 449 misses after excluding matcher failures |
 
-The strict rubric rejects type near-misses, direction flips, and inferable relations; the lenient rubric accepts a real connection under a reasonable reading. The scores do not measure the same target as closed-benchmark triple F1. The source reports post-adjudication type Krippendorff's alpha of 0.926 and coverage alpha of 0.146; alpha should not be interpreted as a raw percentage agreement.
+Each relation receives a single adjudication; the endpoints reflect different scoring rules applied to those judgments, not independent judge replications. The strict rubric rejects type near-misses, direction flips, and inferable relations; the lenient rubric accepts a real connection under a reasonable reading. The scores do not measure the same target as closed-benchmark triple F1. The source reports post-adjudication type Krippendorff's alpha of 0.926 and coverage alpha of 0.146; alpha should not be interpreted as a raw percentage agreement.
 
 ### Austrian Case Study
 
