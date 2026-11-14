@@ -16,6 +16,8 @@ Joint-embedding predictive architectures learn representations by predicting a t
 
 ## Key Ideas
 
+- **Generative anchoring in language:** LLM-JEPA combines paired-sequence embedding prediction with next-token loss and implements its predictor using appended tokens in the same transformer. Its gains support this combined objective; removing the generative term produces empty outputs in its regex ablation.
+
 - **Context, predictor, and target:** A context encoder processes observed portions of an input, a predictor estimates representations of held-out portions, and a target encoder supplies the embeddings to match. This differs from reconstructing missing raw values.
 - **Iterative stochastic prediction:** JEDI uses conditional diffusion to predict future embeddings from past embeddings and actions. Stop-gradient future targets allow denoising gradients to train the encoder through context representations; the default uses no EMA target encoder. Its information-bottleneck decomposition motivates the loss, while the full context-prior regularizer remains outside the implemented objective.
 - **Moving targets and collapse:** A target encoder updated by an exponential moving average supplies slowly changing targets. TS-JEPA uses this mechanism to stabilize training and discourage constant representations; its results do not establish that EMA alone guarantees avoidance of collapse.
@@ -41,6 +43,8 @@ Joint-embedding predictive architectures learn representations by predicting a t
 - **A language model can serve as an action-conditioned latent predictor.** [[papers/lala-world-scaling-latent-world-models-with-natural-language-actions|LaLa-World]] feeds projected frozen visual features, text actions, and learned future queries through one pretrained language backbone. Its planning and perturbation results support sensitivity to action wording and direction in the tested domains, while next-step squared-error training and short planning horizons leave long-rollout behavior unresolved.
 
 ## Important Papers
+
+- [[papers/llm-jepa-large-language-models-meet-joint-embedding-predictive-architectures|LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures]] adds cosine-based paired-view prediction to generative language-model training and explores batch-level loss dropout to reduce overhead.
 
 - [[papers/denoising-with-a-joint-embedding-predictive-architecture|Denoising with a Joint-Embedding Predictive Architecture]] uses predicted JEPA features to condition iterative generation of continuous tokens.
 - [[papers/galileo-learning-global-and-local-features-of-many-remote-sensing-modalities|Galileo: Learning Global & Local Features of Many Remote Sensing Modalities]] adapts masked latent prediction to heterogeneous Earth-observation inputs, pairing deep EMA targets and structured masks for global features with shallow projected targets and random masks for local features.
