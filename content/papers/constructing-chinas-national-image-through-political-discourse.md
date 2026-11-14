@@ -7,6 +7,8 @@ authors:
 year: 2025
 doi: "10.1016/j.acorp.2025.100179"
 source_job_id: "c257d024-3d5e-439e-b9fe-cc6dc3fe6425"
+additional_source_job_ids:
+  - "0c046d0f-ea1c-4325-8330-ce8aefa1593d"
 tags:
   - political-discourse
   - national-image
@@ -45,6 +47,7 @@ Collocates require mutual information ≥ 2 and frequency ≥ 5. Concordance lin
 This is an observational corpus study, not an intervention. Each five-year bin contains five GWRs and five reference speeches. GWR token counts range from 68,102 to 76,774; reference counts range from 23,719 to 43,851 (Tables 1–2).
 
 - **Lexical continuity:** development has the highest stability score, 294.35. Its collocates shift from acceleration and industrial expansion toward high-quality development.
+- **Within-domain composition:** enterprises and economic each account for 7.33% of the economic-domain distribution, followed by reform at 6.34%; Chinese accounts for 25.50% and central for 18.12% in the political domain (Section 4.2). These are domain-specific lexical proportions, not shares of all report text.
 - **Domain patterns:** economic development remains dominant; social development peaks in the 12th Five-Year Plan, while political development becomes more prominent from the 13th. Ecological and cultural domains occupy smaller shares.
 - **Projected trajectory:** 2001–2010 emphasizes global integration and growth; 2011–2015 emphasizes domestic balance and stability; 2016–2025 emphasizes quality, cultural confidence, and an international solution-provider role. These phases are the authors' synthesis of lexical evidence and contextual interpretation.
 
