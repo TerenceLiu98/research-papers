@@ -22,12 +22,16 @@ LLM-guided topic refinement uses a language model to improve the labels or repre
 
 - **Black-box agreement targets.** Repeated refinements can estimate word inclusion frequencies without token probabilities. LLM-XTM uses these targets with [[concepts/maximum-mean-discrepancy|Maximum Mean Discrepancy]] and separately aligns document-topic posteriors to multilingual embedding similarities. Agreement is a stability proxy, not a guarantee of semantic correctness.
 
+- **Offline preference supervision.** LLMFeed constructs corpus-word win/lose pairs once and optimizes their margins relative to a frozen topic-model reference. Topic descriptions separately define contrastive document pairs. This separates topic-word quality from document-assignment supervision and avoids repeated LLM calls during refinement; the two objectives can still trade off against one another.
+
 ## Important Papers
 
 - [[papers/neural-topic-modeling-with-large-language-models-in-the-loop|Neural Topic Modeling with Large Language Models in the Loop]] introduces LLM-ITL: confidence-weighted transport regularization after warm-up, evaluated across eight neural topic models and four datasets.
 - Chang et al. (2024), "Enhanced Short Text Modeling: Leveraging Large Language Models for Topic Refinement," is the post-hoc refinement approach discussed and compared in LLM-ITL.
 
 - [[papers/llm-xtm-enhancing-cross-lingual-topic-models-with-large-language-models|LLM-XTM]] combines bilingual refinement voting, MMD topic-word matching, and document-topic alignment. Its results illustrate that coherence gains can coexist with lower uniqueness.
+
+- [[papers/llm-feedback-for-topic-model-with-preference-optimization-and-contrastive-learning|LLMFeed]] combines offline word preferences and topic-guided contrastive learning. Its ablations show that stronger coherence need not maximize document assignment scores.
 
 ## Related Concepts
 
