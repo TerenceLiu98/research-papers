@@ -22,6 +22,7 @@ Capacity per label (CpL) is a proposed label-centered view of capacity, investig
 - The operational procedure fixes the dataset size, label set, noise or data-generation process, training protocol, and reference accuracy, then searches for the largest weight dilution that preserves the reference accuracy.
 - CpL differs from capacity per weight (CpW), which counts perfectly classifiable patterns per trainable weight. CpW can remain nearly unchanged as hidden layers are added, while finite-error multi-output accuracy can fall as the number of outputs grows.
 - A noisy-archetype model motivates CpL by assigning each archetype a unique label and generating labeled examples through Bernoulli input noise. More labels increase confusion among noisy neighborhoods, while additional examples do not necessarily change the dilution needed to preserve accuracy.
+- Dataset-size independence refers to the dilution threshold, not to accuracy itself: in the reported FewRel experiments, more examples improve both the undiluted and diluted models while the preserving dilution remains similar (Table 3).
 - CpL is a comparative diagnostic, not an architecture-independent constant. Results depend on the reference model, pruning pattern, label distribution, noise level, optimizer, and which layers are diluted.
 - Layer-specific tolerance can reveal functional differences that a single global parameter count hides. In BERT experiments, QKV attention layers, the first transformer block, and the classifier head tolerate less pruning than several other layers.
 
