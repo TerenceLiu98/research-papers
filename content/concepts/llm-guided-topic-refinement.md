@@ -20,10 +20,14 @@ LLM-guided topic refinement uses a language model to improve the labels or repre
 - **Separate evaluation criteria.** Better word coherence can coexist with reduced topic diversity or worse document-label alignment. [[concepts/topic-model-evaluation|Topic Model Evaluation]] should examine those quantities separately.
 - **Cost depends on the refinement schedule.** Topic-level prompts avoid document-by-document LLM analysis, but repeated refinement during training still requires inference. Prompt token counts alone do not establish total runtime savings.
 
+- **Black-box agreement targets.** Repeated refinements can estimate word inclusion frequencies without token probabilities. LLM-XTM uses these targets with [[concepts/maximum-mean-discrepancy|Maximum Mean Discrepancy]] and separately aligns document-topic posteriors to multilingual embedding similarities. Agreement is a stability proxy, not a guarantee of semantic correctness.
+
 ## Important Papers
 
 - [[papers/neural-topic-modeling-with-large-language-models-in-the-loop|Neural Topic Modeling with Large Language Models in the Loop]] introduces LLM-ITL: confidence-weighted transport regularization after warm-up, evaluated across eight neural topic models and four datasets.
 - Chang et al. (2024), "Enhanced Short Text Modeling: Leveraging Large Language Models for Topic Refinement," is the post-hoc refinement approach discussed and compared in LLM-ITL.
+
+- [[papers/llm-xtm-enhancing-cross-lingual-topic-models-with-large-language-models|LLM-XTM]] combines bilingual refinement voting, MMD topic-word matching, and document-topic alignment. Its results illustrate that coherence gains can coexist with lower uniqueness.
 
 ## Related Concepts
 
