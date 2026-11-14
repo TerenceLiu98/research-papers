@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Capacity per label (CpL) measures how much a model can dilute its trainable architecture while preserving the accuracy of an undiluted reference model for a fixed number of output labels. It is intended for multi-output tasks, such as language-model token prediction and classification, where perfect memorization is not the relevant operating point and the loss remains positive.
+Capacity per label (CpL) is a proposed label-centered view of capacity, investigated by measuring how much a model can dilute its trainable architecture while preserving the accuracy of an undiluted reference model for a fixed number of output labels. It is intended for multi-output tasks, such as language-model token prediction and classification, where perfect memorization is not the relevant operating point and the loss remains positive.
 
 ## Key Ideas
 
@@ -27,7 +27,7 @@ Capacity per label (CpL) measures how much a model can dilute its trainable arch
 
 ## Important Papers
 
-- [[NLP Models Capacity per Weight Capacity per Label]]
+- [[papers/nlp-models-capacity-per-weight-capacity-per-label|NLP Models Capacity per Weight Capacity per Label]]
 - Baldi and Vershynin (2019), "The capacity of feedforward neural networks."
 - Gardner and Derrida (1988), "Optimal storage properties of neural network models."
 - Agliari et al. (2024), "Hebbian dreaming for small datasets."
@@ -40,4 +40,4 @@ Capacity per label (CpL) measures how much a model can dilute its trainable arch
 - Multi-output classification
 - Masked language modeling
 - Generalization from noisy examples
-- [[Gradient Leading-Term Analysis]]
+- [[concepts/gradient-leading-term-analysis|Gradient Leading-Term Analysis]]

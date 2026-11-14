@@ -26,14 +26,14 @@ Does the number of trainable weights provide a useful measure of NLP task comple
 
 ## Motivation
 
-Classical CpW measures the number of random patterns a network can classify perfectly relative to its trainable weights. NLP models instead predict among many tokens or task labels, usually retain positive loss, and are often evaluated with finite accuracy. The paper is motivated by simulations in which BERT preserves accuracy after heavy pruning and tolerates similar pruning across datasets with similar token counts despite different paragraph counts. These observations challenge a direct interpretation of CpW as NLP task complexity.
+Classical CpW measures the number of random patterns a network can classify perfectly relative to its trainable weights. NLP models instead predict among many tokens or task labels, usually retain positive loss, and are often evaluated with finite accuracy. The paper is motivated by simulations in which BERT preserves accuracy after heavy pruning and tolerates similar pruning across datasets with similar observed vocabulary sizes despite different paragraph counts. These observations challenge a direct interpretation of CpW as NLP task complexity.
 
 ## Contributions
 
 - Estimates CpW for restricted committee machines using a modified back-propagation procedure and approaches the one-step replica-symmetry-breaking estimate.
 - Shows in toy feedforward models that CpW and finite-error accuracy are largely insensitive to adding hidden layers, while accuracy decreases as the number of output units increases.
 - Introduces CpL through a fixed-size noisy-archetype classification problem, defining capacity through the maximal dilution that preserves undiluted accuracy.
-- Demonstrates the two motivating patterns in BERT-6 masked-language-model pre-training: substantial pruning can preserve accuracy per token (APT), and the preserving dilution can be independent of training-set size when token counts are similar.
+- Demonstrates the two motivating patterns in BERT-6 masked-language-model pre-training: substantial pruning can preserve accuracy per token (APT), and the preserving dilution can be independent of training-set size when observed vocabulary sizes are similar.
 - Extends the analysis to BERT-1 fine-tuning on FewRel, where preserving dilution decreases with the number of labels but is stable across several numbers of examples per label.
 
 ## Method
@@ -50,11 +50,11 @@ The NLP experiments use BERT configurations initialized randomly and trained wit
 
 For restricted committee machines with 1,500 inputs and non-overlapping receptive fields, the estimated CpW is approximately 2.96 for three hidden units and 3.33 for five hidden units. A two-hidden-layer non-overlapping model gives approximately 2.99, and overlapping fully connected models with one, two, or three hidden layers give nearly identical CpW estimates. In a three-output finite-error model at CpW = 5, accuracy saturates near 0.78. For a fixed weight budget, accuracy decreases with the number of outputs, with the reported log-log fit suggesting an approximate power-law exponent of 0.9.
 
-In the noisy-archetype model, training and test accuracy are nearly identical, fall toward zero as $P_f$ approaches 0.5, and are approximately symmetric around that noise level. Increasing the number of archetypes reduces accuracy at fixed CpW and noise. For fixed output count and noise level, the accuracy plateau is largely independent of dataset size and only slightly affected by using one, two, or three hidden layers. The maximal preserving dilution decreases as the number of archetypes increases.
+In the noisy-archetype model, training and test accuracy are nearly identical, fall toward chance-level performance as $P_f$ approaches 0.5, and are approximately symmetric around that noise level. Increasing the number of archetypes reduces accuracy at fixed CpW and noise. For fixed output count and noise level, the accuracy plateau is largely independent of dataset size and only slightly affected by using one, two, or three hidden layers. The maximal preserving dilution decreases as the number of archetypes increases.
 
 ### BERT pre-training
 
-The initial BERT-6 analysis prunes the weights in transformer blocks 2-6 while excluding QKV attention layers. At 95% pruning of the remaining layers in those blocks, comparable APT is reported for datasets of 20,000 and 40,000 Wikipedia paragraphs containing similar token counts; 98% pruning substantially lowers APT. In the expanded analysis, pruning all transformer blocks, QKV layers, and the classifier head yields APT values of 0.191 and 0.250 without dilution for the 20,000- and 40,000-paragraph datasets, respectively. The same dilution configuration, 30% for all layers of block 1, 40% for QKV layers in blocks 2-6, 90% for other layers in blocks 2-6, and 20% for the classifier head, gives APT 0.191 and 0.251.
+The initial BERT-6 analysis prunes the weights in transformer blocks 2-6 while excluding QKV attention layers. At 95% pruning of the remaining layers in those blocks, comparable APT is reported for datasets of 20,000 and 40,000 Wikipedia paragraphs containing similar observed vocabulary sizes; 98% pruning substantially lowers APT. In the expanded analysis, pruning all transformer blocks, QKV layers, and the classifier head yields APT values of 0.191 and 0.250 without dilution for the 20,000- and 40,000-paragraph datasets, respectively. The same dilution configuration, 30% for all layers of block 1, 40% for QKV layers in blocks 2-6, 90% for other layers in blocks 2-6, and 20% for the classifier head, gives APT 0.191 and 0.251.
 
 The layer-specific tolerances are uneven. QKV layers in blocks 2-6, the first transformer block, and the classifier head tolerate less pruning than the other layers. The authors interpret this as evidence that preserving accuracy depends on where weights are removed, not only on the total number of remaining weights.
 
@@ -70,9 +70,9 @@ The toy model supports the proposed interpretation but does not reproduce the fu
 
 ## Related Concepts
 
-- [[Capacity Per Label]]
-- [[Gradient Leading-Term Analysis]]
-- [[Semantic Associations in Transformers]]
+- [[concepts/capacity-per-label|Capacity Per Label]]
+- [[concepts/gradient-leading-term-analysis|Gradient Leading-Term Analysis]]
+- [[concepts/semantic-associations-in-transformers|Semantic Associations in Transformers]]
 - Model pruning
 - Capacity per weight
 - Committee machines
@@ -81,7 +81,7 @@ The toy model supports the proposed interpretation but does not reproduce the fu
 
 ## Related Papers
 
-- [[How Do Transformers Learn to Associate Tokens Gradient Leading Terms Bring Mechanistic Interpretability]]
+- [[papers/how-do-transformers-learn-to-associate-tokens-gradient-leading-terms-bring-mechanistic-interpretability|How Do Transformers Learn to Associate Tokens Gradient Leading Terms Bring Mechanistic Interpretability]]
 - Devlin et al. (2019), "BERT: Pre-training of deep bidirectional transformers for language understanding."
 - Han et al. (2018), "FewRel: A large-scale supervised few-shot relation classification dataset with state-of-the-art evaluation."
 - Gross et al. (2025), "Tiny language models."
