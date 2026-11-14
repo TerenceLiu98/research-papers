@@ -37,7 +37,7 @@ The Hegselmann–Krause model is a continuous [[Opinion Dynamics|opinion-dynamic
 
 - [[Opinion Dynamics]]
 - [[Ideological Dimensionality]]
-- Bounded confidence
+- [[Bounded Confidence Models]]
 - Consensus formation
 - Interacting particle systems
 - Aggregation-diffusion equations

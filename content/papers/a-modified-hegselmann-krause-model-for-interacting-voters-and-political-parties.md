@@ -87,7 +87,7 @@ The study uses numerical simulations rather than empirical election data. One-di
 
 Consensus trajectories are illustrated with 500 voters and four parties in one dimension and 500 voters and five parties in two dimensions. Both runs pass through multiple local clusters before most or all agents merge. Increasing voter noise in the one-dimensional setup from the low-noise case to $\sigma_v=0.1$ instead leaves voters close to a uniform distribution. The proposed distance-based diagnostic records departures from uniformity and party convergence, while the standard voter-pair diagnostic is more sensitive to cluster formation and merger events.
 
-For the stationary-party approximation, phase diagrams use 2,000 initially uniform voters and three fixed parties, simulate to $t=500$, and average the consensus diagnostic over $t=400$ to $500$. The analytical boundary matches the simulated transition well for small voter interaction radii, approximately $R_{vv}\lesssim0.15$. The predicted square-root dependence of $\sigma_c$ on party-to-voter attraction remains useful in the reported experiments up to roughly $\mu_{pv}=0.6$, although the derivation assumes small $\mu_{pv}$. The finite simulations show a gradual transition rather than the abrupt mean-field boundary.
+For the stationary-party approximation, phase diagrams use 2,000 initially uniform voters and three fixed parties, simulate to $t=500$, and average the consensus diagnostic over $t=400$ to $500$. The analytical boundary matches the simulated transition well for small voter interaction radii, approximately $R_{vv}\lesssim0.15$. The predicted square-root dependence of $\sigma_c$ on party-to-voter attraction remains useful in the reported experiments up to roughly $\mu_{pv}=0.6$, although the derivation assumes small $\mu_{pv}$. The finite simulations show a gradual transition rather than the abrupt mean-field boundary. Section 6.1 reports a time step of $0.1$ and an augmented Dickey–Fuller stationarity check over the final 20% of each run. Figure 10 uses a diagnostic color transition at $0.039$, compared with $0.037$ for the sampled uniform reference, so the displayed boundary also depends on the chosen visualization threshold.
 
 ## Limitations
 
@@ -102,7 +102,7 @@ The deterministic consensus criterion is sufficient, not necessary. The stochast
 - [[Hegselmann–Krause Model]]
 - [[Opinion Dynamics]]
 - [[Ideological Dimensionality]]
-- Bounded confidence
+- [[Bounded Confidence Models]]
 - Consensus formation
 - Interacting particle systems
 - Mean-field theory
