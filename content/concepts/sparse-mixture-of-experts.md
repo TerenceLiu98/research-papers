@@ -21,6 +21,8 @@ A sparse mixture of experts routes each input item to a small subset of availabl
 - **Specialization can vary within a sequence:** Time-series patches at different phases of a cycle can select different experts, allowing finer adaptation than one expert assignment or projection per dataset or sampling frequency.
 - **Measure behavior across layers:** MOIRAI-MOE's analyzed small model concentrates routing in deeper layers. This is an empirical observation in that setting, not a universal law for MoE architectures; pruning benefits require separate evaluation.
 
+- **Routing can change across recurrent depth:** Reusing expert weights does not require reusing expert identities. In [[papers/towards-looped-models-done-right|Towards Looped Models Done Right]], freezing first-iteration expert identities across later iterations harms all six tested classification tasks even when mixture weights are recomputed. Distinguish stored parameters, physical active parameters, and unrolled parameter applications when comparing recurrent and feedforward MoE models.
+
 ## Important Papers
 
 - [[papers/moirai-moe-empowering-time-series-foundation-models-with-sparse-mixture-of-experts|MOIRAI-MOE: Empowering Time Series Foundation Models with Sparse Mixture of Experts]] uses two of 32 experts per token and studies pretrained-centroid routing for heterogeneous forecasting data (Sections 3.2, 4.3-4.5, and Appendix B.3).
