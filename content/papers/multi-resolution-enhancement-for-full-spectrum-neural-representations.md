@@ -91,5 +91,3 @@ Scale networks can mostly train in parallel, but the finest enhancement stage de
 - Dupont et al. (2022), "COIN++: Neural Compression Across Modalities."
 - Yu et al. (2025), "Cross-frequency Implicit Neural Representation with Self-evolving Parameters."
 - Liang et al. (2023), "SZ3: A Modular Framework for Composing Prediction-based Error-bounded Lossy Compressors."
-
-[[index|Library home]]

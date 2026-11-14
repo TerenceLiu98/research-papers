@@ -74,5 +74,3 @@ Evaluation is restricted to ImageNet class conditioning; broader datasets and mu
 - Davidson et al. (2018), “Hyperspherical Variational Auto-Encoders,” and De Cao and Aziz (2020), “The Power Spherical Distribution”: foundations for the directional posterior.
 
 Source: supplied parsed manuscript, Cognitio job `21ab8245-5658-41d7-b553-8bfefdc60746`.
-
-[[index|Library home]]

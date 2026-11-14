@@ -102,5 +102,3 @@ The supplied manuscript gives no publication year, venue, DOI, or arXiv identifi
 - Koh et al. (2020), "Concept bottleneck models": the named intermediate-representation framework, reference 13.
 - Mahinpei et al. (2021), "Promises and pitfalls of black-box concept learning models": concept leakage concerns, reference 18.
 - Cohen (1960), "A coefficient of agreement for nominal scales": the agreement statistic used in the screen, reference 5.
-
-[[index|Library home]]

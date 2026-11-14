@@ -116,5 +116,3 @@ Aggregated party trajectories suggest separation increasing toward 2012 and mode
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: a library comparison on how modeling decisions turn text into political positions; not a citation in this manuscript.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: a library comparison on external validation of positions and uncertainty; not a citation in this manuscript.
 - [[papers/modeling-item-response-theory-with-stochastic-variational-inference|Modeling Item Response Theory with Stochastic Variational Inference]]: a library comparison on scalable approximate Bayesian measurement; its static response-prediction task differs from this paper's dynamic recovery and selection-model evaluation. Not a citation in this manuscript.
-
-[[index|Library home]]

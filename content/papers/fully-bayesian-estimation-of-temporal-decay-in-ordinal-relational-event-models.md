@@ -84,5 +84,3 @@ The prior-sensitivity analysis shows that diffuse gamma priors yield half-life p
 - Arena, Mulder, and Leenders (2022), "A Bayesian semi-parametric approach for modeling memory decay in dynamic social networks": a Bayesian model-averaging precursor for memory decay.
 - Arena, Mulder, and Leenders (2023), "How fast do we forget our past social interactions?": develops parametric memory-decay comparisons that motivate estimating rather than fixing decay.
 - Leifeld and Brandenberger (2019), "Endogenous coalition formation in policy debates": the earlier analysis whose fixed 20-day half-life motivates the empirical comparison.
-
-[[index|Library home]]

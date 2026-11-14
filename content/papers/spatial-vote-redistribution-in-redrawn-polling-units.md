@@ -91,5 +91,3 @@ The county experiment covers 985 geographically referenced polling units and 1,1
 - Gregory and Ell (2005), "Breaking the Boundaries: Geographical Approaches to Integrating 200 Years of the Census." Cited background on areal interpolation and historical boundary change.
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: complementary library treatment of geometry diagnostics and downstream measurement error; it is not cited in the supplied paper.
 - [[papers/electoral-change-on-moving-maps-joint-inference-under-misaligned-supports|Electoral Change on Moving Maps: Joint Inference under Misaligned Supports]]: complementary library treatment of differential reconstruction error across elections; it is not cited in the supplied paper.
-
-[[index|Library home]]

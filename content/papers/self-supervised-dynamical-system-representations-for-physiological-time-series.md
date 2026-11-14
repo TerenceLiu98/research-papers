@@ -83,5 +83,3 @@ Appendix E adds five-fold cross-validation and SimMTM. PULSE has the highest mea
 - Yingzhen and Mandt (2018), "Disentangled sequential autoencoder": the static/dynamic latent-factor baseline.
 - Kong and Zhang (2023), "Understanding masked image modeling via learning occlusion invariant feature": supplies the shared-latent-variable analysis used in the proof.
 - [[papers/joint-embeddings-go-temporal|Joint Embeddings Go Temporal]]: a library comparison using masked latent prediction for temporal representation learning; not a cited baseline in PULSE.
-
-[[index|Library home]]

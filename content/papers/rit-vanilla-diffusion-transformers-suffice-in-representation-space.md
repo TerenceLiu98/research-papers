@@ -91,5 +91,3 @@ The main RiT-XL has 28 layers, width 1,152, 16 heads, and 676M parameters. For D
 - [[papers/aligning-latent-geometry-for-spherical-flow-matching-in-image-generation|Aligning Latent Geometry for Spherical Flow Matching in Image Generation]]: a library comparison that removes radial motion through fixed-radius VAE tokens and spherical transport rather than clean-target prediction.
 
 Source: supplied parsed manuscript, Cognitio job `a22e5cc6-4e12-407b-a696-5bc53204b456`.
-
-[[index|Library home]]

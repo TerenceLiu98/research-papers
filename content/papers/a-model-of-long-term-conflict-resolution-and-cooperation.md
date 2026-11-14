@@ -83,5 +83,3 @@ The data-availability statement says that no datasets were generated or analyzed
 - Axelrod (1984), *The Evolution of Cooperation*: cited foundation for repeated-game cooperation.
 - Hammond and Axelrod (2006), "The Evolution of Ethnocentrism": cited agent-based work on group-related behavior.
 - Malhotra and Liyanage (2005), "Long-Term Effects of Peace Workshops in Protracted Conflicts": cited empirical motivation for participant-level interventions.
-
-[[index|Library home]]

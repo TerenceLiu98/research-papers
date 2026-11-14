@@ -95,5 +95,3 @@ Replication resources reported by the paper are [Code Ocean](https://doi.org/10.
 - [[papers/how-they-vote-issue-adjusted-models-of-legislative-behavior|How They Vote: Issue-Adjusted Models of Legislative Behavior]]: cited related work by Gerrish and Blei using bill content and issue adjustments. The present model instead takes curated domain labels and learns exact equality through clustering.
 - [[papers/scaling-politically-meaningful-dimensions-using-texts-and-votes|Scaling Politically Meaningful Dimensions Using Texts and Votes]]: the introduction contrasts Lauderdale and Clark's text-derived issue mixtures, shared across voters, with the present model's curated vote groups and voter-specific partitions.
 - Shor, Berry, and McCarty (2010), "A Bridge to Somewhere: Mapping State and Congressional Ideology on a Cross-Institutional Common Space": cited bridging approach that assumes invariant actors in advance.
-
-[[index|Library home]]

@@ -74,5 +74,3 @@ The supplied text records acceptance on 27 August 2026 but does not explicitly s
 - Schiff, Schiff, and Pierson (2022), "Assessing Public Value Failure in Government Adoption of Artificial Intelligence": cited application of the diagnostic framework to government AI.
 - Bovens and Zouridis (2002), "From Street-Level to System-Level Bureaucracies: How Information and Communication Technology Is Transforming Administrative Discretion and Constitutional Control": cited account of the transfer of discretion to system designers.
 - Saghafian and Idan (2024), "Effective Generative AI: The Human-Algorithm Centaur": cited precedent for human-algorithm collaboration.
-
-[[index|Library home]]

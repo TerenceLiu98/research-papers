@@ -12,7 +12,6 @@ tags:
   - coherent-structures
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

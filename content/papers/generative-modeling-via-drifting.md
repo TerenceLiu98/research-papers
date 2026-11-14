@@ -102,5 +102,3 @@ The latent L/2 result improves on the listed one-step iMeanFlow result of 1.72 F
 - Geng et al. (2025), "Improved Mean Flows: On the Challenges of Fastforward Generative Models": the one-step image comparator, cited as arXiv:2512.02012.
 - Chi et al. (2023), "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion": supplies the robotics protocol and baseline.
 - Li, Swersky, and Zemel (2015), "Generative Moment Matching Networks," and Dziugaite, Roy, and Ghahramani (2015), "Training Generative Neural Networks via Maximum Mean Discrepancy Optimization": the MMD approaches discussed in Appendix C.2.
-
-[[index|Library home]]

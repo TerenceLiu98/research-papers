@@ -91,5 +91,3 @@ There are no dataset benchmarks, timing comparisons, or statistical performance 
 - Boissonnat, Nielsen, and Nock (2010), "Bregman Voronoi diagrams": the geometric lifting machinery used for sphere intersections (reference 13).
 - Amari (2009), "Alpha-Divergence Is Unique, Belonging to Both f-Divergence and Bregman Divergence Classes": cited foundation for the representational connection (reference 4).
 - [[papers/layerwise-bregman-representation-learning-of-neural-networks-with-applications-to-knowledge-distillation|Layerwise Bregman Representation Learning of Neural Networks with Applications to Knowledge Distillation]]: a Wiki comparison using Bregman geometry for activation reconstruction, rather than constrained centroid and sphere geometry; not a citation in this source.
-
-[[index|Library home]]

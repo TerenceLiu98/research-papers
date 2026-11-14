@@ -94,5 +94,3 @@ The following are thematic connections within this Wiki, not citations claimed t
 
 - [[Who Should Fight the Spread of Fake News?]] models centralized misinformation sources and corrective interventions. It offers a computational comparison to this paper's qualitative account of a commercial producer of misinformation.
 - [[Toxicity and Moral Rhetoric in Video- and Text-Based Digital Platforms: A Multimethod Study of Political Talk Shows and News Articles in Taiwan]] examines media-produced rhetoric across formats and its associations with social trust, complementing the present focus on participatory broadcasting and commercialization.
-
-[[index|Library home]]

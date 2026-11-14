@@ -90,5 +90,3 @@ Experiments use MNIST, CIFAR-10, ImageNet-100, and ImageNet-1K. ImageNet models 
 - Yerxa et al. (2023), "Learning Efficient Coding of Natural Images with Maximum Manifold Capacity Representations": the main manifold-level SSL comparison; it maximizes binary linear capacity and uses global information.
 - Zhang and Martiniani (2024), "Absorbing State Dynamics of Stochastic Gradient Descent": supplies the connection between stochastic repulsive-energy minimization and random-organization dynamics.
 - Stringer et al. (2019), "High-Dimensional Geometry of Population Responses in Visual Cortex": source of the cortical covariance-eigenspectrum comparison.
-
-[[index|Library home]]

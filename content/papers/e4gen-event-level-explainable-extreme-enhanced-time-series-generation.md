@@ -90,5 +90,3 @@ The gains are not universal. On WEA-TEMP, HeavyDiff has lower overall reconstruc
 - [[papers/fm-ts-flow-matching-for-time-series-generation|FM-TS: Flow Matching for Time Series Generation]]: related library work adapting a Diffusion-TS-style architecture to flow matching, focused on general generation and conditional inference rather than explicit extreme-event semantics; not cited by E4GEN.
 
 Source: supplied parsed manuscript, Cognitio job `54ef0fd5-5b89-4d35-93e5-8aa81e56f1f3`. Publication year is unspecified in the source.
-
-[[index|Library home]]

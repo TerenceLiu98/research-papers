@@ -71,5 +71,3 @@ The paper reports no original experiments, benchmark comparisons, ablations, or 
 - Park et al. (2023), "Generative Agents: Interactive Simulacra of Human Behavior": cited for interactive agents with memory and reflection.
 - Jinxin et al. (2023), "CGMI: Configurable General Multi-Agent Interaction Framework": cited for configurable interactions, working memory, and a shared skill library.
 - [[papers/privacy-enhancing-paradigms-within-federated-multi-agent-systems|Privacy-Enhancing Paradigms within Federated Multi-Agent Systems]] develops an execution-time privacy mechanism for a narrower version of the access-control problem identified by this survey; it is a library comparison, not a citation in the survey.
-
-[[index|Library home]]

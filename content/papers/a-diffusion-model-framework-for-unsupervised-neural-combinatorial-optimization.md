@@ -89,5 +89,3 @@ The study covers Maximum Independent Set (MIS), Maximum Clique (MaxCl), Minimum 
 - Zhang et al. (2023), "Let the flows tell: Solving graph combinatorial problems with GFlowNets": principal unsupervised autoregressive benchmark.
 - Karalias and Loukas (2020), "Erdos goes neural: An unsupervised learning framework for combinatorial optimization on graphs": the one-step mean-field method generalized by DiffUCO's path objective.
 - Sun and Yang (2023), "DIFUSCO: Graph-based diffusion solvers for combinatorial optimization": supervised discrete-diffusion approach trained on solver-produced solutions.
-
-[[index|Library home]]

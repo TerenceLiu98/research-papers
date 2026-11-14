@@ -92,5 +92,3 @@ Appendix A.3 repeats DETR inversion with SSIM, LPIPS, and mixed objectives: text
 - Dosovitskiy and Brox (2016), *Inverting Visual Representations with Convolutional Networks*: the cited full-path inversion baseline.
 - Mahendran and Vedaldi (2014), *Understanding Deep Image Representations by Inverting Them*: the cited image-space optimization approach.
 - [[papers/the-explainability-illusion-must-vits-exhibit-patch-decoding-interpretability|The Explainability Illusion: Must ViTs Exhibit Patch-Decoding Interpretability?]]: a library comparison, not a citation in this manuscript. It studies native-head patch decoding rather than learned image inversion, and clarifies why spatial visualizations require independent validation.
-
-[[index|Library home]]

@@ -89,5 +89,3 @@ On one TPU v6e with batch size 8, the reported ELT-to-baseline throughput ratio 
 - Chang et al. (2022), *MaskGIT*, and Yu et al. (2023), *MAGVIT*, provide the masked image and video generation frameworks and principal matched-compute baselines.
 - Peebles and Xie (2023), *Scalable Diffusion Models with Transformers*, provides the diffusion Transformer framework used in the continuous-latent experiments.
 - [[papers/loopvit-scaling-visual-arc-with-looped-transformers|LoopViT: Scaling Visual ARC with Looped Transformers]] also ties visual Transformer depth, but uses entropy-based dynamic exit for ARC prediction rather than ILSD for generation.
-
-[[index|Library home]]

@@ -80,5 +80,3 @@ The study presents numerical curves rather than a dataset-based experiment. It e
 ## Source
 
 Processed from the complete supplied Markdown for Cognitio job `4fb8e421-3da1-4ddb-8733-d4d6adee1522`. No external identifiers were inferred.
-
-[[index|Library home]]

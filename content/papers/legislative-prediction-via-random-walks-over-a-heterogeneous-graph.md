@@ -116,5 +116,3 @@ The paper also ranks legislators using diagonal relevance scores and discusses s
 - Wang et al. (2011), "Joint analysis of time-evolving binary matrices and associated documents": cited temporal modeling alternative.
 - [[papers/topic-factorized-ideal-point-estimation-model-for-legislative-voting-network|Topic-Factorized Ideal Point Estimation Model for Legislative Voting Network]]: related library reading on joint bill-text and vote modeling; not a citation in this paper.
 - [[papers/political-actor-agent-simulating-legislative-system-for-roll-call-votes-prediction-with-large-language-models|Political Actor Agent: Simulating Legislative System for Roll Call Votes Prediction with Large Language Models]]: related library reading using LLM profiles and sequential predicted votes. Its different dataset and evaluation do not permit a direct accuracy comparison.
-
-[[index|Library home]]

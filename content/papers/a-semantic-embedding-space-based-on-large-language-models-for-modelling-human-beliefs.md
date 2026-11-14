@@ -111,5 +111,3 @@ Source: [published article](https://doi.org/10.1038/s41562-025-02228-z). The pap
 - Galesic et al. (2021), "Integrating social and cognitive aspects of belief dynamics: towards a unifying framework" (source reference 14): a network-based framework motivating the study of interdependent beliefs.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: a complementary Wiki connection concerning validation of latent positions against human judgments; it is not cited by this paper.
 - [[papers/who-should-fight-the-spread-of-fake-news|Who Should Fight the Spread of Fake News?]]: a complementary Wiki connection using private-public belief mismatch as a different model-defined measure of dissonance; it is not cited by this paper.
-
-[[index|Library home]]

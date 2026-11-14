@@ -125,5 +125,3 @@ Publication year, venue, and a stable identifier for this manuscript are not pro
 - [[papers/causal-micro-narratives|Causal Micro-Narratives]]: a methodological comparison within this library, using an expert ontology to classify causal explanations in news. It is not a cited baseline or an empirical comparison in the present manuscript.
 - Elfes, "Mapping News Narratives Using LLMs and Narrative-Structured Text Embeddings" (2025), reference 44: the annotation approach's precursor as identified by the authors.
 - Kligler-Vilenchik, Baden, and Yarchi, "Interpretative Polarization across Platforms" (2020), reference 36: a related account of differences in interpretive frameworks.
-
-[[index|Library home]]

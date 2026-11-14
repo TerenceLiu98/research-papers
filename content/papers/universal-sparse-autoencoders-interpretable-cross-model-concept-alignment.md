@@ -78,5 +78,3 @@ Low-entropy dimensions reveal model-specific structure. DINOv2 dimensions respon
 - Dravid et al. (2023), "Rosetta Neurons: Mining the Common Units in a Model Zoo": mines correlated units across models after training.
 - Kowal et al. (2024), "Understanding Video Transformers via Universal Concept Discovery": aligns concepts through shared exemplars in video transformers.
 - Lindsey et al. (2024), "Sparse Crosscoders for Cross-Layer Features and Model Diffing": learns shared sparse features between states of a model.
-
-[[index|Library home]]

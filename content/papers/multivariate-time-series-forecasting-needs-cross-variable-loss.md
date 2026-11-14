@@ -111,5 +111,3 @@ The supplied manuscript cites the following work; these titles have no matching 
 - Wang et al. (2026), "Quadratic direct forecast for training multi-step time-series forecast models": competing objective and comparison protocol.
 - Qiu et al. (2025), "Dbloss: Decomposition-based loss function for time series forecasting": decomposition-based comparator.
 - Kudrat et al. (2025), "Patch-wise structural loss for time series forecasting": related supervision of temporal structure.
-
-[[index|Library home]]

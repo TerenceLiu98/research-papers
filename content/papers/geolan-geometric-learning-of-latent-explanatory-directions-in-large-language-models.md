@@ -80,5 +80,3 @@ Related library reading, without implying citation by this paper:
 - [[papers/trajectory-geometry-of-transformer-representations-across-layers|Trajectory Geometry of Transformer Representations Across Layers]] measures hidden-state paths observationally rather than regularizing them during training.
 - [[papers/projecting-assumptions-the-duality-between-sparse-autoencoders-and-concept-geometry|Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]] studies how post-hoc encoder design imposes its own geometric assumptions.
 - [[papers/spectral-superposition-a-theory-of-feature-geometry|Spectral Superposition: A Theory of Feature Geometry]] provides a related account of feature packing and superposition.
-
-[[index|Library home]]

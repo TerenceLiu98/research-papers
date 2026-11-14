@@ -87,5 +87,3 @@ The full-data ETAS model has the best reported score in both regions. Despite us
 - Shlomovich et al. (2022), "Parameter estimation of binned Hawkes processes": a cited treatment of estimation from temporally binned observations (reference 17).
 - [[papers/continuous-inference-for-aggregated-point-process-data|Continuous inference for aggregated point process data]]: another direct treatment of regional counts, using latent allocation for a log-Gaussian Cox process rather than self-excitation.
 - [[papers/bayesian-spatiotemporal-modelling-of-political-violence-and-conflict-events-using-discrete-time-hawkes-processes|Bayesian spatiotemporal modelling of political violence and conflict events using discrete-time Hawkes processes]]: a regional count application that omits within-week excitation.
-
-[[index|Library home]]

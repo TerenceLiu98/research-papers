@@ -72,5 +72,3 @@ Training combines a diagonal denoising or velocity objective with an off-diagona
 
 - [[papers/mean-flows-for-one-step-generative-modeling|Mean Flows for One-step Generative Modeling]]: learns a finite-interval velocity for one- or few-step generation without changing state dimension.
 - [[papers/elf-embedded-language-flows|ELF: Embedded Language Flows]]: performs continuous flow-based language generation in embedding space on a fixed token canvas.
-
-[[index|Library home]]

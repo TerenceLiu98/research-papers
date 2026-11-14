@@ -79,5 +79,3 @@ The comparison table lists 64.95% weighted accuracy for a GRU and 66.6% weighted
 - [[Non-linear Functional Modeling using Neural Networks]]
 - Lin and Busso (2023), "Chunk-level Speech Emotion Recognition: A General Framework of Sequence-to-One Dynamic Temporal Modeling."
 - Antoniou et al. (2023), "Designing and Evaluating Speech Emotion Recognition Systems: A Reality Check Case Study with IEMOCAP."
-
-[[index|Library home]]

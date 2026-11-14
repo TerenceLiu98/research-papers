@@ -77,5 +77,3 @@ In the global fixed-effects model, affected population is not significantly asso
 - Stein et al. (2024), "Wealth over woe: Global biases in hydro-hazard research": cross-hazard evidence that wealth and data availability predict research density more strongly than hazard impacts.
 - Miao et al. (2024), "Hydrological research evolution: A large language model-based analysis of 310,000 studies published globally between 1980 and 2023": a broader LLM-based synthesis of hydrological research evolution.
 - Winsemius et al. (2016), "Global drivers of future river flood risk": projections used to contextualize future exposure in regions currently receiving limited research attention.
-
-[[index|Library home]]

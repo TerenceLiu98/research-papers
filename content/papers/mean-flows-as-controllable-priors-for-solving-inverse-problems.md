@@ -80,5 +80,3 @@ Evidence covers one dataset and resolution, oracle class labels, linear operator
 - Webber et al. (2026), “Solving Inverse Problems with Flow-Based Models via Model Predictive Control”: explicit-control comparators (reference 20).
 
 Code reported by the paper: [meanflow-rhso](https://github.com/Abdelaal495/meanflow-rhso).
-
-[[index|Library home]]

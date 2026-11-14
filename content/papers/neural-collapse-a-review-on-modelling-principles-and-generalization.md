@@ -79,5 +79,3 @@ These results support neural collapse as a recurring training geometry, but not 
 - Galanti et al. (2021), "On the generalization of representations in supervised learning": develops class-distance-normalized variance bounds for unseen samples and classes.
 - Kornblith et al. (2021), "Why do better loss functions lead to less transferable features?": reports that stronger collapse during ImageNet pretraining can correlate with worse downstream transfer.
 - [[papers/a-law-of-next-token-prediction-in-large-language-models|A law of next-token prediction in large language models]]: studies a different layerwise geometric regularity and situates neural collapse as related representation-learning evidence.
-
-[[index|Library home]]

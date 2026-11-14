@@ -115,5 +115,3 @@ A joint four-factor model yields a dominant social/immigration factor, a seconda
 - Papastamoulis and Ntzoufras (2022), "On the Identifiability of Bayesian Factor Analytic Models": source of the RSP algorithm used for posterior alignment.
 - Cavaille and Trump (2015), "The Two Facets of Social Policy Preferences": individual-level British analysis used for validation.
 - Caughey, O'Grady, and Warshaw (2019), "Policy Ideology in European Mass Publics, 1981-2016": domain-specific aggregate analysis reexamined with joint multidimensional measurement.
-
-[[index|Library home]]

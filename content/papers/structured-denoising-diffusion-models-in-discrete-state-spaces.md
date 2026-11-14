@@ -120,5 +120,3 @@ For uniform CIFAR-10 diffusion, changing from a linear to a cosine schedule impr
 - Ho, Jain, and Abbeel (2020), "Denoising diffusion probabilistic models": continuous image baseline and architecture (reference 19).
 - Nichol and Dhariwal (2021), "Improved denoising diffusion probabilistic models": noise schedules and improved continuous baselines (reference 30).
 - Ghazvininejad et al. (2019), "Mask-Predict: Parallel decoding of conditional masked language models": connection to generative masked-token prediction (reference 14).
-
-[[index|Library home]]

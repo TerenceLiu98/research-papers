@@ -91,5 +91,3 @@ For Stable Diffusion 3 Medium, the method trains LoRA adapters in MMDiT blocks p
 - Esser et al. (2024), "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis": supplies the Stable Diffusion 3 backbone fine-tuned in the editing experiments.
 
 Source: supplied parsed manuscript, Cognitio job `2946e77c-2212-428f-847e-e9ac1a2585e7`.
-
-[[index|Library home]]

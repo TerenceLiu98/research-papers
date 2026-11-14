@@ -134,5 +134,3 @@ Supplementary Table 9 reports Mip-NeRF 360 testing throughput of 343.92 FPS, com
 - Ren et al. (2025), "FastGS: Training 3D Gaussian Splatting in 100 Seconds" [33]: compact-budget comparison in Table 3.
 - [[Faster-GS: Analyzing and Improving Gaussian Splatting Optimization]]: related library work on implementation and optimizer efficiency, distinct from FastGS [33]. No direct comparison with Faster-GS is reported here.
 - [[QuadBox: Accelerating 3D Gaussian Splatting with Geometry-Aware Boxes]]: related library work on tighter Gaussian-to-tile assignment; no direct comparison is reported here.
-
-[[index|Library home]]

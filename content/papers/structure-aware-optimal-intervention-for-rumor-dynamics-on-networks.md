@@ -116,5 +116,3 @@ These are thematic connections to existing library pages, not claims that the su
 - [[papers/how-the-hesitation-mechanism-suppresses-misinformation-spreading-on-time-varying-networks|How the Hesitation Mechanism Suppresses Misinformation Spreading on Time-Varying Networks]]: studies behavioral hesitation and activity-based targeting on changing networks, rather than continuous control on a fixed graph.
 - [[papers/minimizing-the-misinformation-concern-over-social-networks|Minimizing the Misinformation Concern over Social Networks]]: selects correction agents to minimize concern-weighted misinformation outcomes rather than optimizing time-varying SIR rates.
 - [[papers/rumor-propagation-on-hypergraphs|Rumor propagation on hypergraphs]]: models group-dependent spreading and stifling, providing a different diffusion mechanism from the pairwise SIR dynamics here.
-
-[[index|Library home]]

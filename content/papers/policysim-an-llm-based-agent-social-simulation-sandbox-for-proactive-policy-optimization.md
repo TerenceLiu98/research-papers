@@ -113,5 +113,3 @@ In a comparison with HiSim-based fixed-message-passing baselines under identical
 - [[Social opinions prediction utilizes fusing dynamics equation with LLM-based agents]] combines LLM agents with explicit opinion dynamics but evaluates retrospective trajectories rather than adaptive platform intervention.
 - [[Public opinion dissemination simulation based on large language model multi-agent systems]] uses probabilistic action selection and LLM-generated social-media content in a smaller Weibo simulation.
 - [[LLM-Based Social Simulations Require a Boundary]] provides a complementary framework for limiting claims when simulated populations do not reproduce human behavioral heterogeneity.
-
-[[index|Library home]]

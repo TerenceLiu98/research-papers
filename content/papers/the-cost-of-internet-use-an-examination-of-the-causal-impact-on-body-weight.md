@@ -91,5 +91,3 @@ The following relationships are described in the supplied paper:
 - DiNardi, Guldi, and Simon (2019), "Body weight and Internet access: evidence from the rollout of broadband providers." Reports increased body weight among white women in the United States.
 - Cheng and Xu (2025), "The effect of broadband Internet on children's weight: evidence from China." Examines a younger population and reports increased overweight probability.
 - Wang et al. (2021), "Health policy and public health implications of obesity in China." Supplies overweight-attributable expenditure assumptions for the illustrative cost calculation.
-
-[[index|Library home]]

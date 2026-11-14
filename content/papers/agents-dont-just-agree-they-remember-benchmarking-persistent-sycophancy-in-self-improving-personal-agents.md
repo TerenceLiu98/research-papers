@@ -81,5 +81,3 @@ Mitigations are evaluated on MiniMax-M3. Two turns of explicit memory editing re
 - Wei et al. (2025), *Evo-Memory: Benchmarking LLM Agent Test-Time Learning with Self-Evolving Memory*, evaluates agents that update memory during use.
 
 Source note: Synthesized from the supplied parsed Markdown for Cognitio job `e40c92ed-4440-4f76-b155-f7df2226ddc6`. The source identifies the benchmark repository as `henrymao2004/agent-sycophancy` but does not provide a DOI, arXiv identifier, or publication venue.
-
-[[index|Library home]]

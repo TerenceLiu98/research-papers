@@ -88,5 +88,3 @@ Decoder cosine similarity and activation-magnitude correlation do not cleanly gr
 - Karkada et al. (2026), "Symmetry in language statistics shapes the geometry of model representations": motivates the connection between statistical symmetries and curved representation geometry.
 
 Source scope: supplied parsed Markdown for job `f79cf1fd-134f-4d03-beda-1f47967335b8`. The manuscript supplies a project repository but no publication year, venue, DOI, or arXiv identifier.
-
-[[index|Library home]]

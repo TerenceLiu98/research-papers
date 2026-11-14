@@ -81,5 +81,3 @@ The supplied Markdown does not explicitly identify this paper's publication year
 
 - [[papers/looped-transformers-are-better-at-learning-learning-algorithms|Looped Transformers Are Better at Learning Learning Algorithms]]: cited prior work on iterative shared transformer computation; LoopMDM studies its application within masked diffusion.
 - [[papers/structured-denoising-diffusion-models-in-discrete-state-spaces|Structured Denoising Diffusion Models in Discrete State-Spaces]]: cited foundation for discrete diffusion, including absorbing corruption.
-
-[[index|Library home]]

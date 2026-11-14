@@ -103,5 +103,3 @@ The year follows the supplied paper's 2025 citation to its own supplement. The s
 - Park and Sohn (2020), "Detecting Structural Changes in Longitudinal Network Data": cited related approach to network changepoints.
 - [[papers/joint-latent-space-models-for-ranking-data-and-social-network|Joint Latent Space Models for Ranking Data and Social Network]]: library comparison sharing coordinates between rankings and ties, rather than text slant and audience counts; not an evaluated baseline here.
 - [[papers/estimating-ideal-points-of-british-mps-through-their-social-media-followership|Estimating Ideal Points of British MPs Through Their Social Media Followership]]: library comparison using follower-network scaling and external ideological validation; not a cited benchmark in this paper.
-
-[[index|Library home]]

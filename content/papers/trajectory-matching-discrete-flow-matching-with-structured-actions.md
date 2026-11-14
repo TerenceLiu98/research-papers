@@ -14,7 +14,6 @@ tags:
   - molecular-generation
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

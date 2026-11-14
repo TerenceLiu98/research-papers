@@ -99,5 +99,3 @@ CTF has the lowest listed average CMSE in five groups. It does not lead every me
 - Zhang et al. (2024), "Irregular Multivariate Time Series Forecasting: A Transformable Patching Graph Neural Networks Approach": cited irregular-sampling baseline, t-PatchGNN.
 - [[papers/cpiri-channel-permutation-invariant-relational-interaction-for-multivariate-time-series-forecasting|CPiRi: Channel Permutation-Invariant Relational Interaction for Multivariate Time Series Forecasting]]: library comparison addressing channel reordering and partial channel coverage, rather than differing sampling rates. It is not cited or evaluated here.
 - [[papers/multivariate-time-series-forecasting-needs-cross-variable-loss|Multivariate Time Series Forecasting needs Cross Variable Loss]]: library comparison that changes residual supervision to preserve inter-variable structure. CTF instead changes input representation and attention; the methods are not jointly evaluated in this paper.
-
-[[index|Library home]]

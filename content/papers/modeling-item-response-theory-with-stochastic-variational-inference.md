@@ -143,5 +143,3 @@ Using continuous DuoLingo responses improves rounded prediction accuracy from 0.
 - Curi et al. (2019), "Interpretable variational autoencoders for cognitive models": cited comparison that treats ability as the unknown latent variable.
 - Yeung (2019), "Deep-IRT: Make deep learning based knowledge tracing explainable using item response theory": cited neural, longitudinal model using point estimates.
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: a library comparison on temporal structure, informative missingness, and the accuracy of Bayesian approximations; not a citation in this manuscript.
-
-[[index|Library home]]

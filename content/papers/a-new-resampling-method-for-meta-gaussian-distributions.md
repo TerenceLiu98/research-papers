@@ -20,7 +20,6 @@ tags:
 
 The paper constructs minimum-mean-squared-error representative points for [[concepts/meta-gaussian-distributions|Meta-Gaussian Distributions]] by transforming low-discrepancy points through a Gaussian copula and arbitrary marginal quantile functions, then refining them with k-means. Across two-, three-, and four-dimensional simulations and a drought application, these points usually estimate means and correlation matrices more accurately than Monte Carlo, good-lattice-point QMC, and generalized-good-lattice-point QMC. The gain requires a large training design and is not uniform for correlation estimation.
 
-[[index|Library home]]
 
 ## Research Question
 

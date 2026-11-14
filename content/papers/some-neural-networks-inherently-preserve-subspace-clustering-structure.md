@@ -90,5 +90,3 @@ Section 8 calls the evaluation a collection of 12 datasets but lists 13, and the
 - Davis and Kahan (1970), "The Rotation of Eigenvectors by a Perturbation. III." The perturbation-theory foundation cited in the proof.
 - Pimentel-Alarcon and Nowak (2016), "The Information-Theoretic Requirements of Subspace Clustering with Missing Data." Cited for identifiability requirements.
 - [[papers/statistical-and-structural-identifiability-in-representation-learning|Statistical and Structural Identifiability in Representation Learning]]: a Wiki comparison concerning invariance of learned representations; it is not a citation claimed by the supplied paper.
-
-[[index|Library home]]

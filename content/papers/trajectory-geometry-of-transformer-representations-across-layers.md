@@ -98,5 +98,3 @@ Related library reading, without implying citation by this paper:
 - [[papers/transformer-field-theory-a-response-theoretic-approach-to-mechanistic-interpretability|Transformer Field Theory: A Response-Theoretic Approach to Mechanistic Interpretability]] studies sensitivity and propagation of activation interventions.
 - [[papers/beyond-logits-aligning-feature-dynamics-for-effective-knowledge-distillation|Beyond Logits: Aligning Feature Dynamics for Effective Knowledge Distillation]] aligns intermediate predictions and their depthwise changes.
 - [[papers/temporal-straightening-for-latent-planning|Temporal Straightening for Latent Planning]] regularizes turning angles over environment time, a different trajectory axis and purpose.
-
-[[index|Library home]]

@@ -89,5 +89,3 @@ The following works are cited in the supplied paper:
 - Brynjolfsson, Li, and Raymond (2023), "Generative AI at Work": the other productivity study used in that calculation.
 - Acemoglu (2024), "The Simple Macroeconomics of AI": the task-based aggregation framework adapted in Section 4.
 - Hackenburg et al. (2024), "Evidence of a Log Scaling Law for Political Persuasion with Large Language Models": a related scaling application to persuasion rather than assisted worker productivity.
-
-[[index|Library home]]

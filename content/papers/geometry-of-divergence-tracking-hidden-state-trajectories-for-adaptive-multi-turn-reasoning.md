@@ -87,5 +87,3 @@ Related library reading, without implying citation by this paper:
 
 - [[papers/trajectory-geometry-of-transformer-representations-across-layers|Trajectory Geometry of Transformer Representations Across Layers]] studies hidden-state paths over layer depth with observational geometric measurements.
 - [[papers/temporal-straightening-for-latent-planning|Temporal Straightening for Latent Planning]] regularizes latent turning angles for planning, whereas this paper monitors unregularized dialogue trajectories to trigger reasoning.
-
-[[index|Library home]]

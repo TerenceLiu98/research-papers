@@ -82,5 +82,3 @@ The proposed agent leads both baselines at every reported tree-search level. GPT
 - Zha et al. (2021), "DouZero: Mastering DouDizhu with Self-Play Deep Reinforcement Learning," provides a cited self-play precedent for strategic card games.
 - Espeholt et al. (2018), "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures," is cited for scalable reinforcement-learning context.
 - Raffel et al. (2020), "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer," introduces the T5 architecture used for card and strategy representations.
-
-[[index|Library home]]

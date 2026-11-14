@@ -78,5 +78,3 @@ On Santa Fe dataset B, the authors use indices 2350–3550 of physiological sign
 - Franzese, Bounoua, and Michiardi (2023), “MINDE: Mutual Information Neural Diffusion Estimation”: the cited score-based KL estimation foundation.
 - Kornai, Silva, and Nikolaou (2025), “AGM-TE”: supplies the synthetic benchmark and a generative baseline.
 - [[papers/transfer-entropy-as-a-measure-of-information-flow-in-llms-and-vlms|Transfer Entropy as a Measure of Information Flow in LLMs and VLMs]] — a library comparison: uses an activation proxy, whereas TENDE targets conditional information through learned scores.
-
-[[index|Library home]]

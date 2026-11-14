@@ -73,5 +73,3 @@ Ablations are mixed but generally support the full design. Removing the factual 
 - Jia and Benson (2019), "Neural Jump Stochastic Differential Equations": a neural jump-SDE precedent that the paper distinguishes from dense sensor-stream anomaly detection.
 - [[papers/neural-mjd-neural-non-stationary-merton-jump-diffusion-for-time-series-prediction|Neural MJD: Neural Non-Stationary Merton Jump Diffusion for Time Series Prediction]]: another neural jump-diffusion model, designed for forecasting rather than anomaly detection.
 - [[papers/paano-patch-based-representation-learning-for-time-series-anomaly-detection|PaAno: Patch-Based Representation Learning for Time-Series Anomaly Detection]]: a contrasting normal-only detector with explicit attention to evaluation methodology.
-
-[[index|Library home]]

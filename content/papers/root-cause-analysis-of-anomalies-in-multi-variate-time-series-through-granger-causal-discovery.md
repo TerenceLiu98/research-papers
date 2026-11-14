@@ -103,5 +103,3 @@ SWaT performance remains low despite exceeding the listed baselines. On MSDS, CI
 - Li et al. (2022), "Causal Inference-Based Root Cause Analysis for Online Service Systems with Intervention Recognition": the CIRCA baseline.
 - Ikram et al. (2022), "Root Cause Analysis of Failures in Microservices through Causal Discovery": the RCD baseline.
 - [[papers/toward-causal-representation-learning|Toward Causal Representation Learning]]: a complementary Wiki connection on causal models, exogenous noise, and identification assumptions, not a reported AERCA baseline.
-
-[[index|Library home]]

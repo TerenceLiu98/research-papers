@@ -15,7 +15,6 @@ tags:
   - offline-reinforcement-learning
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

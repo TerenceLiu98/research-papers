@@ -14,7 +14,6 @@ tags:
   - multipolar-systems
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

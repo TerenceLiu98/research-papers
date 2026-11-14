@@ -118,5 +118,3 @@ The date above is the manuscript compilation date. The supplied Markdown gives n
 - Kruis and Maris (2016), "Three representations of the Ising model": cited connection between latent-variable and interaction representations.
 - [[papers/why-are-us-parties-so-polarized-a-satisficing-dynamical-model|Why are U.S. Parties So Polarized? A 'Satisficing' Dynamical Model]]: cited account of party polarization through voter satisfaction and party adjustment; models electoral competition rather than a joint distribution of Senate votes.
 - [[papers/multidimensional-party-polarization-in-europe-cross-cutting-divides-and-effective-dimensionality|Multidimensional Party Polarization in Europe: Cross-Cutting Divides and Effective Dimensionality]]: related Wiki reading, not cited by this manuscript; measures cross-cutting dimensions in party positions rather than latent roll-call context.
-
-[[index|Library home]]

@@ -87,5 +87,3 @@ The following works are cited in the supplied manuscript and have no matching pa
 - Ifrim, O'Sullivan, and Simonis (2012), "Properties of energy-price forecasts for scheduling": prior study establishing the mismatch between MSE and manufacturing schedule cost (reference 1).
 - Simonis (2007), "Models for global constraint applications": source of the adapted feedmill scheduling problem (reference 20).
 - Grimes, Simonis, Pratt, and Sheridan (2012), "Automated Energy Usage Optimization for the Residential Sector: Impact of Price Tariffs": household scheduling scenario used in the evaluation (reference 28).
-
-[[index|Library home]]

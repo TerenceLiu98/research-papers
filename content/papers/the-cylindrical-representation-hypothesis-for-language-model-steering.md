@@ -108,5 +108,3 @@ Optimized probe directions yield more structured loss landscapes than matched ra
 ## Source
 
 Processed from the complete supplied Markdown for Cognitio job `9da3925e-55d1-4996-814d-cff8a121b39c`. The manuscript states that code is available at [mbzuai-nlp/CRH](https://github.com/mbzuai-nlp/CRH); availability was not independently checked.
-
-[[index|Library home]]

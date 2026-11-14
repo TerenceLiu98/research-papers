@@ -98,5 +98,3 @@ The proprietary Atlanta data contain more than 213,000 burglary records from 201
 - Schneider and Weber (2023), "Estimation of self-exciting point processes from time-censored data": an EM approach for interval-count observations (reference [31]).
 - Juditsky et al. (2020), "Convex parameter recovery for interacting marked processes": supplies the discrete-time Bernoulli and monotone-operator foundation adapted by the paper (reference [15]).
 - [[papers/learning-hawkes-processes-under-synchronization-noise|Learning Hawkes Processes Under Synchronization Noise]]: related Wiki work on imperfect timestamps under a distinct clock-offset model.
-
-[[index|Library home]]

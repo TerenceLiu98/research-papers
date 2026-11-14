@@ -95,5 +95,3 @@ Five further scenarios cover housing restrictions, medical reform, education equ
 - [[papers/llm-based-social-simulations-require-a-boundary|LLM-Based Social Simulations Require a Boundary]] supplies a complementary framework for limiting claims when mean, variance, and subgroup fidelity have not been validated against human behavior.
 - Ghafarzadegan et al. (2024), "Generative Agent-Based Modeling: An Introduction and Tutorial," provides the GABM framing cited by GPLab.
 - Piao et al. (2025), "AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society," is cited as a broad social-simulation framework against which GPLab motivates its narrower, modular design.
-
-[[index|Library home]]

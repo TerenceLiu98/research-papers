@@ -88,5 +88,3 @@ The model uses a common field accessible to all agents, equal expression magnitu
 - Garcia, Kappas, Kuster, and Schweitzer (2016), "The dynamics of emotions in online interaction": empirical motivation for the emotional response functions (source reference 11).
 - [[papers/polarization-induced-stress-in-the-noisy-voter-model|Polarization-induced stress in the noisy voter model]]: related Wiki reading, not cited by this paper; changes binary-state switching rates in response to population balance rather than maintaining separate valence and arousal states.
 - [[papers/the-dynamics-of-political-polarization|The dynamics of political polarization]]: related Wiki synthesis, not cited by this paper, placing feedback mechanisms within broader complex-systems approaches.
-
-[[index|Library home]]

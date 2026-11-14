@@ -107,5 +107,3 @@ The timing comparison uses one sparse ellipse dataset, which favors free-support
 - Anderes, Borgwardt, and Miller (2016), "Discrete Wasserstein barycenters: optimal transport for discrete data": sparse-support structure.
 - Altschuler and Boix-Adsera (2022), "Wasserstein barycenters are NP-hard to compute": computational-hardness context.
 - [[papers/fast-unsupervised-ground-metric-learning-with-tree-wasserstein-distance|Fast Unsupervised Ground Metric Learning with Tree-Wasserstein Distance]]: another computational use of Wasserstein geometry in this library, focused on learning ground metrics rather than averaging input measures.
-
-[[index|Library home]]

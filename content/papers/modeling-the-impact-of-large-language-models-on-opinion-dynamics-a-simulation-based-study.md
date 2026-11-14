@@ -64,5 +64,3 @@ Publication year and a stable identifier are not stated in the supplied Markdown
 ## Related Papers
 
 - [[papers/public-opinion-dissemination-simulation-based-on-large-language-model-multi-agent-systems|Public opinion dissemination simulation based on large language model multi-agent systems]] — a related library study that actually combines LLM-generated text with probabilistic agent behavior; the present paper instead represents LLM influence numerically.
-
-[[index|Library home]]

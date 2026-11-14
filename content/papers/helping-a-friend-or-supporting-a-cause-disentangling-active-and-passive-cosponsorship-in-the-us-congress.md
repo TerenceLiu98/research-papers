@@ -73,6 +73,5 @@ Roll-call evaluation excludes legislator–bill pairs where the voter cosponsore
 
 - [[papers/text-based-ideal-points|Text-Based Ideal Points]] — cited work estimating ideology from text rather than the joint legislative graph.
 
-[[index|Library home]]
 
 Source note: This summary uses the supplied parsed manuscript only. The year follows its ACL 2023 checklist; no publication identifier is supplied in the extracted text.

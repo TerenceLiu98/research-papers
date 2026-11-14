@@ -15,7 +15,6 @@ The paper interprets neural message passing as discrete diffusion steps that des
 
 The supplied manuscript extends the ICLR 2023 DIFFormer paper; its own publication year and stable identifier are not established in the supplied text.
 
-[[index|Library home]]
 
 ## Research Question
 

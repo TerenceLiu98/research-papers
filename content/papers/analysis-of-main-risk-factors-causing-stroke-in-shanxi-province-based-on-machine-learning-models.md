@@ -114,5 +114,3 @@ Because class 1 combines prevalent hospitalized stroke cases with high-risk comm
 - Hung et al. (2019), "Development of an Intelligent Decision Support System for Ischemic Stroke Risk Assessment in a Population-Based Electronic Health Record Database": cited EHR-based stroke-risk system.
 - Lundberg and Lee (2017), "A Unified Approach to Interpreting Model Predictions": cited foundation for SHAP.
 - [[papers/unveiling-the-hidden-layer-ambivalent-cognitive-effects-of-xai-in-augmented-decision-making-under-uncertainty|Unveiling the Hidden Layer: Ambivalent Cognitive Effects of XAI in Augmented Decision-Making under Uncertainty]]: library comparison on how explanations affect human use of model advice rather than on clinical prediction accuracy.
-
-[[index|Library home]]

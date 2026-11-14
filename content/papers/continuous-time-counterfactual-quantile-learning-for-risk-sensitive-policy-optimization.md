@@ -121,5 +121,3 @@ For MIMIC-III, Section 5.4 reports an anticipated-event fraction of **46% +/- 2%
 - Bang and Robins (2005), "Doubly robust estimation in missing data and causal inference models": the DR foundation cited as reference 4.
 
 Source: [DOI](https://doi.org/10.1145/3770854.3780271). The paper lists [project code](https://github.com/Eliza-YiHe/CT-CQL/).
-
-[[index|Library home]]

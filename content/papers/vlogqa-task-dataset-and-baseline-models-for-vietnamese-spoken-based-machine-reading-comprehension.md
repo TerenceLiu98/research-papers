@@ -83,5 +83,3 @@ The three annotation-agreement coefficients are all about 0.44, while ROUGE-L is
 - Lee et al. (2018), "Spoken SQuAD: A study of mitigating the impact of speech recognition errors on listening comprehension": an English spoken-QA benchmark derived from Wikipedia with text-to-speech.
 - Lee et al. (2018), "ODSQA: Open-domain spoken question answering dataset": a Chinese spoken-QA dataset with human-generated audio.
 - [[papers/teaching-machines-to-extract-main-content-for-machine-reading-comprehension|Teaching Machines to Extract Main Content for Machine Reading Comprehension]]: studies question-conditioned selection of useful sentences before answer-span prediction.
-
-[[index|Library home]]

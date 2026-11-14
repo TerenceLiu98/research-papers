@@ -91,5 +91,3 @@ A one-run ablation across all 12 datasets places the full system above every tes
 - Dang et al. (2026), "Multi-Agent Collaboration via Evolving Orchestration": a learned agent-orchestration baseline that activates agents sequentially.
 - Zhang et al. (2025), "AFlow: Automating Agentic Workflow Generation": searches executable workflows for a fixed executor rather than jointly learning complete-agent membership and edge protocols.
 - Du et al. (2023), "Improving Factuality and Reasoning in Language Models through Multiagent Debate": represents the debate-style communication paradigm against which evidence-gated exchange is motivated.
-
-[[index|Library home]]

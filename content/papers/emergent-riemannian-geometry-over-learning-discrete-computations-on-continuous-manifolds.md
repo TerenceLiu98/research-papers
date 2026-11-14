@@ -79,5 +79,3 @@ Nonlinear experiments use tanh multilayer perceptrons trained with binary cross-
 - Hauser and Ray (2017), "Principles of Riemannian Geometry in Neural Networks": develops Riemannian tools for intrinsic neural representation geometry.
 - Paccolat et al. (2021), "Geometric Compression of Invariant Manifolds in Neural Networks": connects feature learning with compression of task-irrelevant manifold directions.
 - [[papers/manifold-steering-reveals-the-shared-geometry-of-neural-network-representation-and-behavior|Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior]]: studies how curved activation geometry constrains behavior and interventions in more complex trained systems.
-
-[[index|Library home]]

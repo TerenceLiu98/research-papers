@@ -92,5 +92,3 @@ On ECG QRS-duration prediction, sBayFDNN reports RMSE 12.069 and region F1 0.634
 - Nie, Wang, and Cao (2023), "Estimating Functional Single Index Models with Compact Support."
 - Sun, Song, and Liang (2022), "Consistent Sparse Deep Learning: Theory and Computation."
 - Zhu, Sun, and Lee (2025), "Bayesian Functional Region Selection."
-
-[[index|Library home]]

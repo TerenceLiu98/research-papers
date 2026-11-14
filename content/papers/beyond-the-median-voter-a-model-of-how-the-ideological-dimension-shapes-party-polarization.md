@@ -84,5 +84,3 @@ Effective dimensionality is not the same as the number of issues on an agenda, a
 - Yang, Abrams, Kernell, and Motter (2020), "Why Are U.S. Parties So Polarized? A 'Satisficing' Dynamical Model."
 - Davis, Hinich, and Ordeshook (1970), "An Expository Development of a Mathematical Model of the Electoral Process."
 - Kawakatsu, Lelkes, Levin, and Tarnita (2021), "Interindividual Cooperation Mediated by Partisanship Complicates Madison's Cure for Mischiefs of Faction."
-
-[[index|Library home]]

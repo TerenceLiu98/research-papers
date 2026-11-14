@@ -71,5 +71,3 @@ The supplied Markdown references supplementary classifier rules, detailed config
 - Arnold et al. (2024), *Phase Transitions in the Output Distribution of Large Language Models*: cited temperature-transition work.
 - Hiraoka and Inui (2025), *Repetition Neurons: How Do Language Models Produce Repetitions?*: cited causal repetition analysis.
 - [[papers/transformer-field-theory-a-response-theoretic-approach-to-mechanistic-interpretability|Transformer Field Theory]]: related library reading on internal perturbation response; not claimed as a citation in this manuscript.
-
-[[index|Library home]]

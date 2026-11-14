@@ -75,5 +75,3 @@ The real-data studies assimilate annual drought-intensity curves from 1970-2019,
 - Bharath and Kurtek (2020), "Distribution on Warp Maps for Alignment of Open and Closed Curves."
 - Matuk et al. (2021), "Bayesian Framework for Simultaneous Registration and Estimation of Noisy, Sparse, and Fragmented Functional Data."
 - [[DeepFRC: An End-to-End Deep Learning Model for Functional Registration and Classification]]
-
-[[index|Library home]]

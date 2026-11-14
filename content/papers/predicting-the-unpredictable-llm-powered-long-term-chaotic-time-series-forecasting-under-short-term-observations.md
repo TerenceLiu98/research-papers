@@ -74,5 +74,3 @@ Chaotic systems follow deterministic dynamics but rapidly amplify small state er
 - [[papers/time-llm-time-series-forecasting-by-reprogramming-large-language-models|TIME-LLM: Time Series Forecasting by Reprogramming Large Language Models]] supplies the patch reprogramming and prompt-based adaptation pattern used as a baseline and architectural starting point.
 - [[papers/panda-a-pretrained-forecast-model-for-chaotic-dynamics|Panda: A Pretrained Forecast Model for Universal Representation of Chaotic Dynamics]] is the cited chaotic-dynamics foundation model and exhibits a different context-length regime, benefiting more from longer histories.
 - [[papers/true-zero-shot-inference-of-dynamical-systems-preserving-long-term-statistics|True Zero-Shot Inference of Dynamical Systems Preserving Long-Term Statistics]] studies context-conditioned reconstruction of held-out systems with explicit long-term statistical evaluation.
-
-[[index|Library home]]

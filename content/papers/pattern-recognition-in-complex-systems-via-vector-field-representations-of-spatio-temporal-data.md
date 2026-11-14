@@ -20,7 +20,6 @@ tags:
   - chaos-detection
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

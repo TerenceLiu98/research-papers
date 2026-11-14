@@ -76,5 +76,3 @@ The negative results are equally important. Posterior and prior performance can 
 - Cranmer, Brehmer, and Louppe (2020), "The frontier of simulation-based inference": provides the likelihood-free inference perspective underlying SBICE.
 - Parikh et al. (2022), "Validating causal inference methods": introduces Credence, one of the causal generators evaluated and wrapped by SBICE.
 - Neal, Huang, and Raghupathi (2020), "RealCause: Realistic causal inference benchmarking": supplies a generator that SBICE selects in the reported real-data comparisons.
-
-[[index|Library home]]

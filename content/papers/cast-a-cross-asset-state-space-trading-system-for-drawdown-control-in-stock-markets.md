@@ -75,5 +75,3 @@ Ablations show that the controller's uncertainty penalty is consequential. Setti
 - Mayne et al. (2000), "Constrained model predictive control: Stability and optimality": a foundational constrained MPC reference used by the paper.
 
 Code URL supplied by the paper: [FanBroWell/CAST](https://github.com/FanBroWell/CAST).
-
-[[index|Library home]]

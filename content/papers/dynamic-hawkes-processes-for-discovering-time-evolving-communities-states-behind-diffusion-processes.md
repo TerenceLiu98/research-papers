@@ -153,5 +153,3 @@ Visualizations compare inferred Reddit interactions with observed hyperlinks and
 - Rizoiu et al. (2018), "SIR-Hawkes: linking epidemic models and Hawkes processes to model diffusions in finite populations": a cited example of domain-specific changing diffusion dynamics (reference [31]).
 - [[papers/learning-hawkes-processes-under-synchronization-noise|Learning Hawkes Processes Under Synchronization Noise]]: a related library paper about timestamp misalignment, a different issue from evolving community states; it is not evaluated here.
 - [[papers/approximate-inference-for-non-parametric-bayesian-hawkes-processes-and-beyond|Approximate Inference for Non-parametric Bayesian Hawkes Processes and Beyond]]: a related library treatment of Bayesian kernel inference, not a baseline in this paper.
-
-[[index|Library home]]

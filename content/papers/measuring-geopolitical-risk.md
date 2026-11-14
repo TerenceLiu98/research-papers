@@ -74,5 +74,3 @@ Causal interpretation of the VAR depends on its contemporaneous ordering assumpt
 - Hassan et al. (2019), “Firm-Level Political Risk: Measurement and Effects”: earnings-call measurement precedent.
 
 Replication data cited in the supplied manuscript: DOI `10.3886/E154781V1` (dataset identifier, not the paper DOI).
-
-[[index|Library home]]

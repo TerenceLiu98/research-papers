@@ -92,5 +92,3 @@ The analysis treats party polarization as ideological distinctiveness and does n
 - Lupu (2015), "Party polarization and mass partisanship: A comparative perspective."
 
 Replication data: [Harvard Dataverse](https://doi.org/10.7910/DVN/T3Y1ZQ).
-
-[[index|Library home]]

@@ -101,5 +101,3 @@ The supplied conference-paper metadata identifies publication in 2022 and DOI [1
 - [[papers/why-are-us-parties-so-polarized-a-satisficing-dynamical-model|Why are U.S. Parties So Polarized? A 'Satisficing' Dynamical Model]]: the cited point-position model extended to probability distributions.
 - [[papers/a-dynamic-model-of-party-differentiation-under-electoral-competition|A Dynamic Model of Party Differentiation under Electoral Competition]]: a later Wiki paper citing this work and studying internal diffusion, alternative objectives, and electoral institutions.
 - Jordan, Kinderlehrer, and Otto (1998), "The Variational Formulation of the Fokker-Planck Equation": cited foundation for distributional evolution through Wasserstein geometry.
-
-[[index|Library home]]

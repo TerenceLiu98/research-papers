@@ -75,5 +75,3 @@ On the proposed emotional metric, NeutraSum reports VAD totals of 2.88, 1.72, an
 - Mohammad (2018), "Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words": supplies the affective lexicon underlying the emotional metric.
 
 Source: supplied parsed manuscript, Cognitio job `c006f1ed-bfdd-4032-a33f-fe5a62dd10c9`. Publication year, venue, and stable paper identifier are not stated in the supplied text; the year is left unknown.
-
-[[index|Library home]]

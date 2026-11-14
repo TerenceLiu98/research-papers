@@ -103,5 +103,3 @@ The supplied paper builds on Young (2022), "Consistency without Inference: Instr
 Library comparison, not a citation or a replicated case identified by this paper: [[papers/the-cost-of-internet-use-an-examination-of-the-causal-impact-on-body-weight|The Cost of Internet Use: An Examination of the Causal Impact on Body Weight]] illustrates an IV/OLS magnitude gap in a panel application. The present paper supplies diagnostic questions for such a gap, not a finding that this other study's instrument is invalid.
 
 Replication data and code are identified in the source at [Harvard Dataverse](https://doi.org/10.7910/DVN/MM5THZ); this is a dataset DOI, not the article DOI.
-
-[[index|Library home]]

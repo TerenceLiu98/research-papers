@@ -81,5 +81,3 @@ For diffusion fine-tuning, the network predicts clean pixels under an EDM-style 
 - Song et al. (2023), "Consistency Models": supplies the trajectory-consistency formulation used in pretraining and one-step generation.
 - [[papers/one-layer-is-enough-adapting-pretrained-visual-encoders-for-image-generation|One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation]]: adapts pretrained semantic features into a compact latent rather than generating directly in pixel space.
 - [[papers/beyond-the-last-layer-multi-layer-representation-fusion-for-visual-tokenization|Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization]]: enriches pretrained representation-autoencoder latents with information from multiple encoder depths.
-
-[[index|Library home]]

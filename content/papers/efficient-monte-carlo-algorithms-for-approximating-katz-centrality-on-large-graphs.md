@@ -15,7 +15,6 @@ tags:
   - gpu-computing
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

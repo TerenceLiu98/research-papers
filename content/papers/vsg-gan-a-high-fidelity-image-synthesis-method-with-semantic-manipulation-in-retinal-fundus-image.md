@@ -90,5 +90,3 @@ The prose following Table 2 instead gives SSIM 0.9184, IS $1.3101 \pm 0.0358$, F
 - Park et al. (2019), "Semantic Image Synthesis with Spatially-Adaptive Normalization": supplies SPADE, used to inject vessel geometry into each generation stage.
 - Huang and Belongie (2017), "Arbitrary Style Transfer in Real-Time with Adaptive Instance Normalization": supplies AdaIN, used to inject reference-image style.
 - Xia et al. (2023), "GAN Inversion: A Survey": provides context for mapping real images into manipulable generator latent spaces.
-
-[[index|Library home]]

@@ -19,7 +19,6 @@ tags:
 
 Using thematic analysis of ten highly engaged Bilibili videos and their comments, Guo and Yu argue that transnational bloggers and Chinese audiences jointly produce [[concepts/digital-geopolitics|Digital Geopolitics]]. Bloggers translate experiences of China into global, regional, and bodily [[concepts/geographical-imagination|Geographical Imaginations]], while audiences reinforce or contest those representations from their own [[concepts/territorial-subjectivity|Territorial Subjectivities]]. Scale is therefore both a medium of geopolitical friction and a discursive resource for attracting engagement and revenue under platform capitalism.
 
-[[index|Library home]]
 
 ## Research Question
 
@@ -77,4 +76,3 @@ The public-safety case also illustrates strategic scalar movement: a geopolitica
 - Schwarz and Streule (2024), "Territorial Subjectivities: The Missing Link between Political Subjectivity and Territorialization": provides the paper's core account of reciprocal subject and territory formation.
 - Sullivan and Wang (2024), "Becoming Wanghong: How Foreigners Achieve Internet Celebrity in China": examines how foreign creators navigate regulation, audience attitudes, and identity strategy in China.
 - Liu (2024), "Digital Work, Emotion Commodification, and Moral Legitimacy": situates transnational blogging within platform labor and emotional commodification.
-

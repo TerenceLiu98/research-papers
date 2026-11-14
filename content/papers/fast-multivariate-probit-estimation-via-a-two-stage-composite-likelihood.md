@@ -12,7 +12,6 @@ tags:
   - statistical-inference
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

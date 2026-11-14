@@ -109,5 +109,3 @@ This expression applies to nonabsorbing initial states and does not describe the
 - Masuda, Gibert, and Redner (2010), "Heterogeneous voter models": earlier partisan-model work cited by the source.
 - Masuda and Redner (2011), "Can partisan voting lead to truth?": earlier analysis of fixed preferences cited by the source.
 - [[papers/polarization-induced-stress-in-the-noisy-voter-model|Polarization-induced stress in the noisy voter model]]: a related Wiki paper that changes the spontaneous-flip rate with opinion balance; it provides a distinct mechanism for additional stationary modes.
-
-[[index|Library home]]

@@ -66,5 +66,3 @@ The proposed interventions remain untested. Author feedback may discourage recru
 - Cortes and Lawrence (2021), "Inconsistency in conference peer review," and Beygelzimer et al. (2023), "Has the machine learning review process become more arbitrary as the field has grown?": report NeurIPS review-consistency experiments discussed by the paper.
 - Liang et al. (2024), "Monitoring AI-modified content at scale": examines linguistic changes in AI conference reviews after ChatGPT.
 - Sculley, Snoek, and Wiltschko (2018), "Avoiding a tragedy of the commons in the peer review process": proposes structured monetary incentives for reviewers.
-
-[[index|Library home]]

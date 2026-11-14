@@ -87,5 +87,3 @@ Related library reading, without implying citation beyond the list above:
 
 - [[papers/self-play-pretraining-with-zero-data|Self-Play Pretraining with Zero Data]] studies adaptive synthetic pre-pretraining from generated programs rather than fixed symbolic derivations.
 - [[papers/convergence-without-understanding-when-language-models-agree-on-representations-but-disagree-on-reasoning|Convergence Without Understanding: When Language Models Agree on Representations but Disagree on Reasoning]] separates representational similarity from functional equivalence.
-
-[[index|Library home]]

@@ -79,5 +79,3 @@ News detection depends on compiled domain and page lists and can miss outlets ou
 - Scharkow et al. (2020), ["How social network sites and other online intermediaries increase exposure to news"](https://doi.org/10.1073/pnas.1918279117).
 - Levy (2021), ["Social Media, News Consumption, and Polarization: Evidence from a Field Experiment"](https://doi.org/10.1257/aer.20191777).
 - Watts, Rothschild, and Mobius (2021), ["Measuring the news and its impact on democracy"](https://doi.org/10.1073/pnas.1912443118).
-
-[[index|Library home]]

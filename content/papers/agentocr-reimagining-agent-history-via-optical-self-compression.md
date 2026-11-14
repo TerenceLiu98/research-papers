@@ -72,5 +72,3 @@ The supplied prose overgeneralizes some results: 3B search retains about 94.0% o
 - [[papers/glyph-scaling-context-windows-via-visual-text-compression|Glyph]]: cited prior work on rendered long-context inputs; AgentOCR extends optical compression to evolving interaction histories and policy-selected fidelity.
 
 [Code repository](https://github.com/langfengQ/AgentOCR) (reported in the supplied manuscript).
-
-[[index|Library home]]

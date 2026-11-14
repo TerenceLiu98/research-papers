@@ -95,5 +95,3 @@ These works are cited in the supplied paper; no matching pages were found in the
 - Liu et al. (2019), "Atlas Refinement with Bounded Packing Efficiency": an alternative that changes patch geometry to improve atlas packing.
 
 Source: [Publisher DOI](https://doi.org/10.1145/3618348), as given in the supplied manuscript.
-
-[[index|Library home]]

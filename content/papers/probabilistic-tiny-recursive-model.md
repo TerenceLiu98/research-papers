@@ -84,5 +84,3 @@ The noise ablation shows task-dependent optima: Sudoku-Extreme saturates near $\
 - Baek et al. (2026), "Generative Recursive Reasoning Models": samples recursive hidden states but requires retraining; the supplied paper contrasts this with inference-only recurrent noise.
 - Efstathiou and Balwani (2026), "Recursive Reasoning as Attractor Landscape Search": concurrent inference-time work that perturbs only the initial hidden state.
 - [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]]: uses recurrent memory and stochastic inference on Sudoku and mazes, but trains with an ordered corruption curriculum and scales a single trajectory rather than selecting among parallel candidates.
-
-[[index|Library home]]

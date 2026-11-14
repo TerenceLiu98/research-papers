@@ -12,7 +12,6 @@ tags:
   - bayesian-optimization
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

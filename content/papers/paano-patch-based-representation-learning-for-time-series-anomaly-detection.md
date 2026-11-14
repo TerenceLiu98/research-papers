@@ -72,5 +72,3 @@ Many recent detectors use large architectures to model long-range dependencies, 
 - Paparrizos et al. (2022), "Volume Under the Surface: A New Accuracy Evaluation Measure for Time-Series Anomaly Detection": introduces the VUS measures used in the evaluation.
 - Schroff, Kalenichenko, and Philbin (2015), "FaceNet: A Unified Embedding for Face Recognition and Clustering": source of the triplet-loss formulation adapted by PaAno.
 - Roth et al. (2022), "Towards Total Recall in Industrial Anomaly Detection": cited visual-anomaly precedent for coreset memory banks.
-
-[[index|Library home]]

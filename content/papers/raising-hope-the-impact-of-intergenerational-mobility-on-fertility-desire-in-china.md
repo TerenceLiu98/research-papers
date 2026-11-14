@@ -10,7 +10,6 @@ journal: Chinese Journal of Sociology
 tags: [fertility, social-stratification, china]
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 Provincial relative intergenerational mobility is positively associated with desired family size in China. Cai and Xie connect this pattern to optimism about future status and social conditions, with stronger associations among disadvantaged respondents and men. The outcome measures fertility desires rather than subsequent births.

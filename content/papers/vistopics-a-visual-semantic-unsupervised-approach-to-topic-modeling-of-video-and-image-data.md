@@ -70,5 +70,3 @@ Both coders identified the intruding image in 75% of cases. Topic-matching accur
 - Chang et al. (2009), "Reading Tea Leaves: How Humans Interpret Topic Models": supplies the intrusion-test logic adapted for images.
 - [[papers/an-image-is-worth-k-topics-a-visual-structural-topic-model-with-pretrained-image-embeddings|An Image is Worth $K$ Topics: A Visual Structural Topic Model with Pretrained Image Embeddings]]: offers a direct embedding-based visual topic model and also evaluates topics with image intrusion.
 - [[papers/evaluating-large-vision-language-models-for-visual-framing-analysis-in-news-imagery-a-theory-driven-benchmark|Evaluating Large Vision-Language Models for Visual Framing Analysis in News Imagery]]: evaluates theory-defined news-image frames against expert labels rather than inducing topics from captions.
-
-[[index|Library home]]

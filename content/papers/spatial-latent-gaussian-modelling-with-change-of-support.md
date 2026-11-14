@@ -111,5 +111,3 @@ Land suitability is defined as the predictor contribution $LS(\mathbf{s})=\mathb
 - Gelfand, Zhu, and Carlin (2001), "On the change of support problem for spatio-temporal data." Cited Gaussian-process treatment of support changes.
 - Moraga et al. (2017), "A geostatistical model for combined analysis of point-level and area-level data using INLA and SPDE." Cited alternative using SPDE projections to integrate point and areal data.
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: Complementary library reading on geometric diagnostics and downstream regression error. This is a thematic connection, not a citation in the supplied manuscript.
-
-[[index|Library home]]

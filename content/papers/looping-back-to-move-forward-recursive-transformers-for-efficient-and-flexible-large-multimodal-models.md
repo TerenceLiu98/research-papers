@@ -81,5 +81,3 @@ Two passes give the best overall depth tradeoff in the reported sweep. A third p
 - Saunshi et al. (2025), "Reasoning with Latent Thoughts: On the Power of Looped Transformers": studies repeated latent computation and supplies a vanilla-recursion baseline.
 - Zhu et al. (2025), "Scaling Latent Reasoning via Looped Language Models": studies looped language models with dynamic token-level computation.
 - [[papers/recurrent-looped-transformer|Recurrent Looped Transformer]]: uses feedback across token positions rather than repeated full-backbone passes at the same position.
-
-[[index|Library home]]

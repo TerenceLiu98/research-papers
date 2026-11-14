@@ -80,5 +80,3 @@ For the application, hourly temperatures spatially averaged over Canada are grou
 - Ma, Zhou, and Wu (2024), "A Stochastic Process Representation for Time Warping Functions."
 - Marron et al. (2015), "Functional Data Analysis of Amplitude and Phase Variation."
 - [[Sequential Bayesian Registration for Functional Data]]
-
-[[index|Library home]]

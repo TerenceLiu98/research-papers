@@ -78,5 +78,3 @@ Ablations show that the prior determines the recovered information. Expanding th
 - Bussmann et al. (2025), "Learning Multi-Level Features with Matryoshka Sparse Autoencoders," supplies the hierarchical reconstruction baseline adapted by T-SAEs.
 - Menon et al. (2025), "Analyzing (In)Abilities of SAEs via Formal Languages," also uses temporal signal to study SAE feature quality.
 - Wu et al. (2025), "AxBench: Steering LLMs? Even Simple Baselines Outperform Sparse Autoencoders," motivates the paper's steering evaluation.
-
-[[index|Library home]]

@@ -89,5 +89,3 @@ Polarization means scalar dispersion here, not affective hostility, bimodality, 
 
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]] — a related library model separating online and offline opinion states; its mechanism is cross-layer reconciliation rather than recipient-conditioned rewriting.
 - Ye et al. (2019), “An Influence Network Model to Study Discrepancies in Expressed and Private Opinions” — cited by the manuscript as background on private–expressed divergence.
-
-[[index|Library home]]

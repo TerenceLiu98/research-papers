@@ -78,5 +78,3 @@ The method also has the highest reported mean average precision and mean recipro
 - Papadimitriou et al. (2025), "Interpreting the Linear Structure of Vision-Language Model Embedding Spaces": reports modality split in multimodal SAE representations.
 - Kaushik, Barch, and Fanelli (2026), "Decomposing Multimodal Embedding Spaces with Group-Sparse Autoencoders": aligns modalities with a group-sparse training objective used as a baseline.
 - Dhimoila et al. (2026), "Cross-Modal Redundancy and the Geometry of Vision-Language Embeddings": introduces the Iso-Energy alignment baseline analyzed in the paper.
-
-[[index|Library home]]

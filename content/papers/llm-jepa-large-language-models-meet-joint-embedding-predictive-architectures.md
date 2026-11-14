@@ -85,5 +85,3 @@ In Table 3, replacing cosine discrepancy with unnormalized L2 yields 2.22 ± 0.0
 - Baevski et al. (2022), “data2vec”: a cited latent-target learning framework across speech, vision, and language.
 
 Code supplied by the manuscript: [LLM-JEPA repository](https://github.com/rbalestr-lab/llm-jepa).
-
-[[index|Library home]]

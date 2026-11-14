@@ -11,7 +11,6 @@ tags:
   - generative-modeling
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

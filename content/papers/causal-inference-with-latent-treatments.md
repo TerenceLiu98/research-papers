@@ -86,5 +86,3 @@ Tweets attacking the media or Hillary Clinton receive lower ratings in all three
 - Pryzant et al. (2020), "Causal Effects of Linguistic Properties": motivates the paper's discussion of overlap and ill-defined comparisons from conditioning on complete text.
 - [[papers/a-design-based-solution-for-causal-inference-with-text-can-a-language-model-be-too-large|A Design-based Solution for Causal Inference with Text: Can a Language Model Be Too Large?]]: extends the text-curation logic with participant-written paired edits.
 - [[papers/causal-inference-with-generative-artificial-intelligence-application-to-texts-as-treatments|Causal Inference with Generative Artificial Intelligence: Application to Texts as Treatments]]: develops a representation-based approach and reanalyzes the Hong Kong experiment.
-
-[[index|Library home]]

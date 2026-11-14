@@ -96,5 +96,3 @@ Works discussed in the supplied paper:
 ## Source
 
 Processed from the complete Markdown supplied for Cognitio job `2c065f16-c5e9-4183-8690-fb001c1f9d29`. The paper states that code and prompts are available from the authors' Graph-of-States GitHub repository; repository availability was not independently checked.
-
-[[index|Library home]]

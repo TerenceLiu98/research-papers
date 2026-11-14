@@ -80,5 +80,3 @@ For GPT-2 Small, increasing context length from 16 to 1,024 raises early-layer d
 - Barbero et al. (2022), "Sheaf Neural Networks with Connection Laplacians": uses connection Laplacians as neural graph operators.
 - [[papers/transformers-are-graph-neural-networks|Transformers are Graph Neural Networks]]: develops the scalar message-passing correspondence that the present paper extends with edgewise feature transport.
 - [[papers/a-unified-perspective-on-the-dynamics-of-deep-transformers|A Unified Perspective on the Dynamics of Deep Transformers]]: studies continuous-depth and mean-field attention dynamics rather than the single-layer connection operator.
-
-[[index|Library home]]

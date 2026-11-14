@@ -109,5 +109,3 @@ DGM-H outperforms original DGM and both ablations at reported $p<0.05$. Its adva
 - Luong et al. (2025), "Towards Robust Mathematical Reasoning": supplies IMO-GradingBench and ProofAutoGrader, the target-domain benchmark and strong task-agent initialization.
 
 Code repository named in the source: [facebookresearch/Hyperagents](https://github.com/facebookresearch/Hyperagents).
-
-[[index|Library home]]

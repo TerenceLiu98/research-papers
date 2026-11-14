@@ -105,5 +105,3 @@ Publication year, venue, and a stable identifier are not supplied in the parsed 
 - Dunietz, Levin, and Carbonell (2017), "The BECauSE Corpus 2.0: Annotating Causality and Overlapping Relations": cited construction-based causal annotation resource.
 - Tan et al. (2022), "The Causal News Corpus: Annotating Causal Relations in Event Sentences from News": cited news-domain sentence annotation dataset.
 - [[papers/causal-micro-narratives|Causal Micro-Narratives]]: a library comparison, not a citation in this paper, that classifies inflation explanations using an expert ontology and examines ambiguity in implicit causal language.
-
-[[index|Library home]]

@@ -96,5 +96,3 @@ This favors data that is neither already mastered nor unrelated to the learner's
 **Library comparisons:**
 
 - [[papers/a-decoder-only-foundation-model-for-time-series-forecasting|A Decoder-Only Foundation Model for Time Series Forecasting]] also studies transfer from synthetic data, but uses a hand-designed mixture of real and synthetic time series rather than learning a universal data-generating distribution.
-
-[[index|Library home]]

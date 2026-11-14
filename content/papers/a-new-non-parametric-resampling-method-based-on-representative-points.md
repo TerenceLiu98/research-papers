@@ -103,5 +103,3 @@ The real-data examples use 15 electronic-product failure times and ramus bone le
 - [[papers/a-review-of-representative-points-of-statistical-distributions-and-their-applications|A Review of Representative Points of Statistical Distributions and Their Applications]]: surveys RP criteria, algorithms, and inference applications.
 - Chakraborty, Roychowdhury, and Sifuentes (2021), "High Precision Numerical Computation of Principal Points for Univariate Distributions": numerical construction used here.
 - Silverman and Young (1987), "The Bootstrap: To Smooth or Not to Smooth?": cited background on smoothed resampling.
-
-[[index|Library home]]

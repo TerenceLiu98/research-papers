@@ -92,5 +92,3 @@ The supplied Markdown omits the publication year, venue, and stable identifier; 
 - Ren et al. (2024), "Where We Have Arrived in Proving the Emergence of Sparse Interaction Primitives in AI Models." Supplies conditional sparsity theory discussed by the authors.
 - Liang et al. (2020), "Knowledge Consistency between Neural Networks and Beyond." A feature-reconstruction approach contrasted with subset-based alignment.
 - Zhou et al. (2024), "Explaining Generalization Power of a DNN Using Interactive Concepts." Connects interaction complexity with cross-model generalization.
-
-[[index|Library home]]

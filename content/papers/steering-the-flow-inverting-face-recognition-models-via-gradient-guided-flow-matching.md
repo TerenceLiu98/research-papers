@@ -90,5 +90,3 @@ Ablations show large failures when replacing the flow prior with a DDPM prior pl
 - Lu et al. (2025), "FGMIA: Feature-Guided Model Inversion Attacks Against Face Recognition Models": uses recovered feature encodings with diffusion generation.
 
 Source: supplied parsed manuscript, Cognitio job `823fa8e9-99f0-46ee-88ce-ec5cd2f22f7b`.
-
-[[index|Library home]]

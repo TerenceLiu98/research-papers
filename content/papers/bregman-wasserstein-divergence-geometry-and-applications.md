@@ -13,7 +13,6 @@ tags:
   - wasserstein-gradient-flows
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

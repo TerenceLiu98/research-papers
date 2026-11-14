@@ -89,5 +89,3 @@ Multiplying this score difference by 100 expresses a percentage-point shift on t
 - Lior et al. (2025), "WildFrame: Comparing Framing in Humans and LLMs on Naturally Occurring Texts," arXiv:2502.17091: cited framing-effect background (reference 18).
 - Robinson and Burden (2025), "Framing the Game: How Context Shapes LLM Decision-Making," arXiv:2503.04840: cited context-sensitivity work (reference 21).
 - Related Wiki reading, not a citation in this paper: [[papers/same-claim-different-judgment-benchmarking-scenario-induced-bias-in-multilingual-financial-misinformation-detection|Same Claim, Different Judgment: Benchmarking Scenario-Induced Bias in Multilingual Financial Misinformation Detection]] varies assessor scenarios while holding financial claims fixed. The present paper instead varies the attributed source of a narrative.
-
-[[index|Library home]]

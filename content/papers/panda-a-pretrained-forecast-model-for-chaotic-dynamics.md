@@ -93,5 +93,3 @@ The authors caution that DynaMix benefits from longer contexts than this 512-ste
 - [[papers/a-decoder-only-foundation-model-for-time-series-forecasting|A Decoder-Only Foundation Model for Time-Series Forecasting]]: introduces TimesFM, a patch-based univariate baseline evaluated by Panda.
 - Ansari et al. (2024), "Chronos: Learning the Language of Time Series": tokenized forecasting baseline, including supervised fine-tuning on Panda's synthetic data.
 - Gilpin (2021), "Chaos as an Interpretable Benchmark for Forecasting and Data-Driven Modelling": source of the curated founder systems.
-
-[[index|Library home]]

@@ -88,5 +88,3 @@ Table 3 includes 776-818 observations depending on the outcome. Higher salaries 
 - [[validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: a methodological connection within this library concerning external human benchmarks, not a citation made by this paper.
 
 Article: [DOI](https://doi.org/10.1017/S0003055424000042). Replication data, as identified in the paper: [APSR Dataverse](https://doi.org/10.7910/DVN/NT7H5O).
-
-[[index|Library home]]

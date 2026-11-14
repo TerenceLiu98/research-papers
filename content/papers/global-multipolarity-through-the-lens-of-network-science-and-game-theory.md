@@ -75,5 +75,3 @@ The supplied article cites the following foundations:
 Within the library, [[asian-multipolarity-and-the-future-of-the-liberal-international-order-lio|Asian Multipolarity and the Future of the Liberal International Order (LIO)]] offers a complementary institutional interpretation of dispersed power. This is a thematic comparison, not a citation in the supplied article.
 
 Source: [Published article](https://doi.org/10.1038/s44260-026-00082-2), published online 15 June 2026. This summary uses the supplied parsed Markdown.
-
-[[index|Library home]]

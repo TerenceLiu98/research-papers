@@ -88,5 +88,3 @@ Downstream adaptation attaches LoRA parameters to each distinct block and reuses
 - [[papers/looping-back-to-move-forward-recursive-transformers-for-efficient-and-flexible-large-multimodal-models|Looping Back to Move Forward]] reuses a multimodal backbone across passes rather than making CLIP's encoder blocks recurrent.
 - Yang et al. (2024), *CLIP-KD: An Empirical Study of CLIP Model Distillation*, supplies the output-level distillation objectives adapted in this paper.
 - Wu et al. (2023), *TinyCLIP: CLIP Distillation via Affinity Mimicking and Weight Inheritance*, compresses CLIP using affinity transfer and inherited weights rather than fixed-depth block recurrence.
-
-[[index|Library home]]

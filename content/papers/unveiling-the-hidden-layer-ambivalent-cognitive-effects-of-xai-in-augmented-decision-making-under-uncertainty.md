@@ -78,5 +78,3 @@ These works are discussed in the supplied paper; matching library pages were not
 - Schemmer et al. (2022), "On the Influence of Explainable AI on Automation Bias": directly connects explanation provision and biased reliance.
 - Cecil et al. (2024), "Explainability Does Not Mitigate the Negative Impact of Incorrect AI Advice in a Personnel Selection Task": provides related evidence that explanations need not repair the effects of incorrect advice.
 - Zhang et al. (2020), "Effect of Confidence and Explanation on Accuracy and Trust Calibration in AI-Assisted Decision Making": studies explanation and confidence as determinants of calibrated trust.
-
-[[index|Library home]]

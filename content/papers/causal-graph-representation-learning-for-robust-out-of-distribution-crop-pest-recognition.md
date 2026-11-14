@@ -78,5 +78,3 @@ The causal interpretation is assumption-dependent: the masks receive no ground-t
 - Chen et al. (2022), "Learning Causally Invariant Representations for Out-of-Distribution Generalization on Graphs."
 - Wu et al. (2024), "Graph Out-of-Distribution Generalization via Causal Intervention."
 - Liu et al. (2026), "Causal-Inspired Learning-Based Method for Unbiased Pest Recognition."
-
-[[index|Library home]]

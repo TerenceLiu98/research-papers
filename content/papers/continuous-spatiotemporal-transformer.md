@@ -84,5 +84,3 @@ The coefficient $\mu$, derivative order $k$, and norm order $p$ control the accu
 - Xiong et al. (2021), "Nyströmformer: A Nyström-Based Algorithm for Approximating Self-Attention": supplies CST's linear-attention mechanism.
 - Czarnecki et al. (2017), "Sobolev Training for Neural Networks": provides a derivative-aware training precedent; CST differs by penalizing output derivatives without matching them to target derivatives.
 - [[papers/time-series-continuous-modeling-for-imputation-and-forecasting-with-implicit-neural-representations|Time Series Continuous Modeling for Imputation and Forecasting with Implicit Neural Representations]] offers another coordinate-based approach to irregular temporal observations.
-
-[[index|Library home]]

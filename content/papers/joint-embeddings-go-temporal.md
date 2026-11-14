@@ -91,5 +91,3 @@ Autoregression wins five of the six dataset-metric comparisons; Weather MSE is t
 - Yue et al. (2022), "TS2Vec: Towards universal representation of time series": the contrastive baseline, reference [20].
 - Verdenius, Zerio, and Wang (2024), "Lat-PFN: A joint embedding predictive architecture for in-context time-series forecasting": related temporal JEPA work cited as reference [19].
 - [[papers/functional-autoencoders-for-functional-data-representation-learning|Functional Autoencoders for Functional Data Representation Learning]]: a library comparison for learning finite-dimensional representations of temporal or functional observations through reconstruction; not a cited baseline in this paper.
-
-[[index|Library home]]

@@ -80,5 +80,3 @@ Figures 6-9 show that decreasing teacher-forced training loss can coexist with p
 - Bengio et al. (2015), "Scheduled sampling for sequence prediction with recurrent neural networks": the curriculum inspiration and BPTT-SS baseline; BPTT-SA retains gradients through continuous predictions.
 - Teutsch and Mäder (2022), "Flipped classroom: Effective teaching for time series forecasting": cited related curriculum work on low-order chaotic systems.
 - Vlachas et al. (2022), "Multiscale simulations of complex systems by learning their effective dynamics": cited context for reduced representations of complex dynamics.
-
-[[index|Library home]]

@@ -98,5 +98,3 @@ BRL gains 1.1 percentage points over soft-label distillation while remaining bel
 - Hinton, Vinyals, and Dean (2015), "Distilling the knowledge in a neural network": cited soft-label distillation baseline.
 - Romero et al. (2014), "Fitnets: Hints for thin deep nets": cited intermediate-representation supervision approach.
 - [[papers/beyond-logits-aligning-feature-dynamics-for-effective-knowledge-distillation|Beyond Logits: Aligning Feature Dynamics for Effective Knowledge Distillation]]: a Wiki comparison, not a citation in this source. It aligns intermediate predictions and their changes across transformer layers, whereas BRL transfers a compressed representation from a single teacher layer.
-
-[[index|Library home]]

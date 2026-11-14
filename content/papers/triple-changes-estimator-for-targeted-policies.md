@@ -87,5 +87,3 @@ The application uses 2016 and 2017 National Survey of Children's Health data to 
 - [[papers/better-understanding-triple-differences-estimators|Better Understanding Triple Differences Estimators]]: develops covariate-adjusted and staggered DDD identification for mean effects; triple changes instead targets counterfactual distributions in a two-period, two-state design.
 - [[papers/an-optimal-transport-approach-to-estimating-causal-effects-via-nonlinear-difference-in-differences|An Optimal Transport Approach to Estimating Causal Effects via Nonlinear Difference-in-Differences]]: uses Brenier maps to extend changes-in-changes to multivariate outcomes without the additional state dimension used here.
 - [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]]: uses transport maps for covariate-distribution adjustment under limited overlap, whereas this paper transports outcome distributions across time and groups.
-
-[[index|Library home]]

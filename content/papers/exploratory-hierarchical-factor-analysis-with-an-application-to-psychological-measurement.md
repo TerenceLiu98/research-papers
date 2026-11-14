@@ -87,5 +87,3 @@ The learned hierarchical model has BIC 102,988.72, compared with 103,804.43 for 
 - Jennrich and Bentler (2011), “Exploratory bi-factor analysis”: provides an example where the Schmid-Leiman transformation fails to recover a bifactor loading structure.
 - Yung, Thissen, and McLeod (1999), “On the relationship between the higher-order factor model and the hierarchical factor model”: establishes the restrictive relationship underlying the paper's critique.
 - [[papers/generalized-full-information-item-bifactor-analysis|Generalized Full-Information Item Bifactor Analysis]]: a library comparison focused on estimation for mixed-format, multiple-group bifactor response models; it is not cited by this manuscript.
-
-[[index|Library home]]

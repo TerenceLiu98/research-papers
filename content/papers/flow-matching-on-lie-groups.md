@@ -13,7 +13,6 @@ tags:
   - generative-models
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

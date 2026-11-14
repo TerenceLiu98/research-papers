@@ -79,5 +79,3 @@ In the full table, MT-KAN has the lowest reported MSE and MAE and ties the lowes
 - Genet and Inzirillo (2024), "TKAN: Temporal Kolmogorov-Arnold Networks," arXiv:2405.07344: a separate temporal KAN architecture cited by the paper.
 - Wen et al. (2024), "OneNet: Enhancing Time Series Forecasting Models under Concept Drift by Online Ensembling": a cited drift-adaptation method.
 - Pham et al. (2022), "Learning Fast and Slow for Online Time Series Forecasting," arXiv:2202.11672: the cited FSNet approach to changing temporal patterns.
-
-[[index|Library home]]

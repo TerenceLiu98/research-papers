@@ -84,5 +84,3 @@ The paper reports similar results when omitting each country in turn. Ambiguity 
 
 - [[papers/strategic-ambiguity-of-party-positions-in-multi-party-competition|Strategic Ambiguity of Party Positions in Multi-Party Competition]]: cited by Martin; models leaders' incentives to balance voters and party members. Its manifesto-dispersion measure differs from Martin's voter-specific distance dispersion.
 - [[papers/who-refuses-ambiguity-voters-issue-salience-and-the-electoral-effect-of-party-position-ambiguity|Who refuses ambiguity? Voters' issue salience and the electoral effect of party position ambiguity]]: a related Wiki study of issue-specific expert disagreement and voting propensity, whereas Martin studies respondent placements, party sympathy, and general political interest.
-
-[[index|Library home]]

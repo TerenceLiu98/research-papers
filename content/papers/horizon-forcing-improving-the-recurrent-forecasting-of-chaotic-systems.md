@@ -94,5 +94,3 @@ Longer training horizons do not improve every metric: HF15 has the lowest Lorenz
 - Gilpin (2020), "Deep reconstruction of strange attractors from time series," supplies the real-world dataset collection and ecosystem simulation used for evaluation (reference 13).
 
 Published in October 2025; [DOI: 10.1145/3718090](https://doi.org/10.1145/3718090).
-
-[[index|Library home]]

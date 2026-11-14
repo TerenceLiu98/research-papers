@@ -98,5 +98,3 @@ For Sudoku models trained and tested on fully determined puzzles, 99.24 +/- 1.04
 - Geiping et al. (2025), "Scaling up test-time compute with latent reasoning: A recurrent depth approach": related recurrent depth scaling cited by the paper.
 - Wang et al. (2025), "Hierarchical reasoning model," and Jolicoeur-Martineau (2025), "Less is more: Recursive reasoning with tiny networks": recursive-reasoning baselines and benchmark context.
 - Baek et al. (2026), "Generative Recursive Reasoning," and Sghaier et al. (2026), "Probabilistic Tiny Recursive Model": stochastic recursive approaches that use parallel trajectories and candidate selection, contrasted with the paper's single rollout.
-
-[[index|Library home]]

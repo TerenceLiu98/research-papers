@@ -78,5 +78,3 @@ Controls compare same-problem donors with different-problem and random-value don
 - Brinkmann et al. (2025), "Large language models share representations of latent grammatical concepts across typologically diverse languages."
 - Davari et al. (2023), "Reliability of CKA as a similarity measure in deep learning."
 - Gao et al. (2025), "Scaling and evaluating sparse autoencoders."
-
-[[index|Library home]]

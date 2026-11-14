@@ -84,5 +84,3 @@ Restaurant locations become less concentrated around government offices by 2016.
 - [[papers/are-firms-gerrymandered|Are Firms Gerrymandered?]]: a complementary library study showing how political geography can allocate firms as resources; it is not cited by this paper.
 
 Article: [10.1016/j.jue.2025.103797](https://doi.org/10.1016/j.jue.2025.103797). Replication package identified in the source: [10.17632/sn7vj72b6y.2](https://doi.org/10.17632/sn7vj72b6y.2).
-
-[[index|Library home]]

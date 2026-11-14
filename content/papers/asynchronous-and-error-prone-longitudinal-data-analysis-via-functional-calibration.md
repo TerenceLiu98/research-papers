@@ -88,5 +88,3 @@ The fitted associations of follicle-stimulating hormone with triglycerides and B
 - Li and Hsing (2010), "Uniform convergence rates for nonparametric regression and principal component analysis in functional/longitudinal data": supplies FPCA convergence results used in the theory.
 
 Source scope: supplied parsed manuscript. It does not state a publication year or stable paper identifier, so neither is assigned here.
-
-[[index|Library home]]

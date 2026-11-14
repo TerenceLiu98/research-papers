@@ -99,5 +99,3 @@ Hard-radius sensitivity increases median damage with radius, while the upper tai
 - Chi et al. (2025), "Measuring global migration flows using online data": the cited aggregate migration source (reference 84).
 - [[papers/roads-and-the-diffusion-of-insurgent-violence-the-logistics-of-conflict-in-russias-north-caucasus|Roads and the diffusion of insurgent violence: The logistics of conflict in Russia's North Caucasus]]: a library comparison on road connectivity and conflict onset/persistence, not a benchmark in this manuscript.
 - [[papers/capturing-the-spatio-temporal-diffusion-effects-of-armed-conflict-a-nonparametric-smoothing-approach|Capturing the spatio-temporal diffusion effects of armed conflict: A nonparametric smoothing approach]]: a library comparison estimating African conflict dependence with regularized historical exposure, rather than simulating transport fragmentation.
-
-[[index|Library home]]

@@ -80,5 +80,3 @@ A separate comparison pretrains T-JEPA, BERT, Barlow Twins, VICReg, and BYOL on 
 - Huang, LeCun, and Balestriero (2026), "LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures": combines JEPA with a language-modeling loss rather than training JEPA alone.
 - Nam (2026), "DLLM-JEPA": combines a JEPA term with masked diffusion language modeling.
 - Balestriero and LeCun (2025), "LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics": supplies SIGReg, which the paper argues can prevent marginal collapse without ensuring conditional predictability.
-
-[[index|Library home]]

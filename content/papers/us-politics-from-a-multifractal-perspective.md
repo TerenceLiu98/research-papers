@@ -96,5 +96,3 @@ The author describes the corrected widths as significant. The supplied text repo
 - Brown, Reade, and Vaughan Williams (2019), "When are prediction market prices most informative?" *International Journal of Forecasting* 35, 420-428: information efficiency around poll releases (reference 15).
 
 Bibliographic note: The supplied Markdown omits the title and records online availability on 20 December 2021. The [publisher record](https://www.sciencedirect.com/science/article/pii/S0960077921010316) supplies the title, DOI, and journal issue: *Chaos, Solitons & Fractals* 155 (February 2022), 111677. The frontmatter uses the issue year; the research summary is based on the supplied Markdown.
-
-[[index|Library home]]

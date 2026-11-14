@@ -14,7 +14,6 @@ tags:
   - computational-social-science
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

@@ -95,5 +95,3 @@ The baseline correlates 0.97 with an index counting all positive scores equally,
 - Verduzco-Bustos and Zanetti (2026), "The Effects of Geopolitical Oil Price Shocks": cited basis for the news-conditioned oil-price instrument.
 - [[papers/measuring-scalar-constructs-in-social-science-with-llms|Measuring Scalar Constructs in Social Science with LLMs]]: related library work on score heaping, calibration, and imperfect human benchmarks; not cited in this manuscript.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: related library work distinguishing useful text-based estimates from valid uncertainty; not cited in this manuscript.
-
-[[index|Library home]]

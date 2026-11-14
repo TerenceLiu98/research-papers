@@ -6,7 +6,6 @@ year: 2026
 tags: [visual-document-retrieval, latent-concepts, representation-learning]
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

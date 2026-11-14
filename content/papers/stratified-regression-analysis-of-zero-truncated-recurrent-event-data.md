@@ -101,5 +101,3 @@ The following works are cited in the supplied manuscript; no matching Paper page
 - Xiong, Hu, and Rosychuk (2024), "Exploring differences between two decades of mental health related emergency department visits by youth via recurrent events analyses." Provides the census integration approach adapted here from marginal to history-conditioned analysis.
 - Andersen and Gill (1982), "Cox's Regression Model for Counting Processes: A Large Sample Study." Supplies the counting-process regression foundation and the unstratified special case.
 - Nirmalkanna and Cigsar (2024), "Analysis of recurrent event processes with dynamic models for event counts." Models event-count trends and carryover effects; Section 7 relates a restricted case to the paper's constant-baseline model.
-
-[[index|Library home]]

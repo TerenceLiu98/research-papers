@@ -82,5 +82,3 @@ In product ideation, GPT-4o ideas receive higher mean quality ratings than human
 - Gerstgrasser et al. (2024), "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data": studies retaining accumulated real and synthetic data as a mitigation.
 - Rafailov et al. (2023), "Direct Preference Optimization: Your Language Model Is Secretly a Reward Model": supplies the preference-optimization method used after supervised fine-tuning.
 - [[Measuring Data Diversity for Instruction Tuning: A Systematic Analysis and A Reliable Metric]]: independently evaluates task-relevant diversity measures and data selection for instruction tuning.
-
-[[index|Library home]]

@@ -19,7 +19,6 @@ tags:
 
 The paper treats an LLM together with normalized embeddings of its sampled answers as a density-matrix predictor, then defines matrix and eigenvalue calibration for that object. It proves that calibration makes expected spectral entropy agree with proper-score risk and that injective matrix temperature scaling can optimize calibration through risk minimization. Experiments on Natural Questions and TriviaQA find all tested LLMs overconfident; scaling reduces eigenvalue calibration error and often improves answer-correctness ranking.
 
-[[index|Library home]]
 
 ## Research Question
 

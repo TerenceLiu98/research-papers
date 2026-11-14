@@ -101,5 +101,3 @@ SAGE increases diversity and lowers reference similarity on both datasets, consi
 - Louiset et al. (2024), "Separating common from salient patterns with contrastive representation learning": SepCLR, including the shared-backbone comparison.
 - Singh et al. (2026), "Improved baselines with representation autoencoders": the RAEv2 backbone, decoder, and generation initialization.
 - Soumm et al. (2026), "Diff-CA: Separating common and salient factors with diffusion models": concurrent work separating compact conditioning tokens rather than full spatial maps.
-
-[[index|Library home]]

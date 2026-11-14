@@ -92,5 +92,3 @@ For unseen alphabetical Dental boundaries, batch sizes 128 and 512 produce valid
 - [[papers/learning-based-2d-irregular-shape-packing|Learning based 2D Irregular Shape Packing]]: a reinforcement-learning and geometric-optimization pipeline evaluated directly on the same Building and Object atlas datasets.
 - Hosseini et al. (2023), "PuzzleFusion: Unleashing the Power of Diffusion Models for Spatial Puzzle Solving": applies diffusion to pairwise spatial puzzle relations and motivates the arbitrary-boundary evaluation.
 - Song et al. (2021), "Score-Based Generative Modeling through Stochastic Differential Equations": supplies the variance-exploding SDE framework used for gradient-field learning.
-
-[[index|Library home]]

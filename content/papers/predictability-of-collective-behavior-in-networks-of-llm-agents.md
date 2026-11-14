@@ -11,7 +11,6 @@ tags:
   - social-contagion
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

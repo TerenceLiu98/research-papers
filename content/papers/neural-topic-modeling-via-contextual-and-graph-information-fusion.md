@@ -93,5 +93,3 @@ The supplied Markdown has damaged appendix passages and inconsistent reporting. 
 - Wu et al. (2024), "FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model" (contextual and optimal-transport baseline).
 - [[HyHTM: Hyperbolic Geometry based Hierarchical Topic Models]] also enriches topic modeling with word relationships, but targets hierarchical topic structure.
 - [[Sparse Autoencoders are Topic Models]] offers a complementary embedding-space approach to thematic representations; it is a library connection, not a CGTM baseline.
-
-[[index|Library home]]

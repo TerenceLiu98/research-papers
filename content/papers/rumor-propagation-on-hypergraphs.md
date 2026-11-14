@@ -84,5 +84,3 @@ Published online on 26 February 2026 in Nature Communications. The article DOI i
 - Ferraz de Arruda et al. (2022), "From subcritical behavior to a correlation-induced transition in rumor models," Nature Communications 13, 3049: pairwise rumor-model comparison for inverse-rate absorption times (reference 27).
 - Notarmuzi et al. (2022), "Universality, criticality and complexity of information propagation in social media," Nature Communications 13, 1308: prior near-criticality evidence discussed by the authors (reference 24).
 - [[papers/higher-order-interactions-shape-collective-human-behaviour|Higher-order interactions shape collective human behaviour]]: a related library Perspective on explicit groups and contagion, rather than a work cited by this paper.
-
-[[index|Library home]]

@@ -91,5 +91,3 @@ The experiments use four preprocessed short-text datasets: GoogleNews, SearchSni
 - Zhao et al. (2021), "Neural Topic Model via Optimal Transport," applies optimal transport within neural topic modeling and is discussed as prior methodological context.
 - Wu et al. (2023), "Effective Neural Topic Modeling with Embedding Clustering Regularization," introduces ECRTM, one of the tested base models and a component used by GloCOM.
 - [[papers/neural-topic-modeling-via-contextual-and-graph-information-fusion|Neural Topic Modeling via Contextual and Graph Information Fusion]] offers a complementary approach to improving topic and document representations with contextual and corpus-level graph information.
-
-[[index|Library home]]

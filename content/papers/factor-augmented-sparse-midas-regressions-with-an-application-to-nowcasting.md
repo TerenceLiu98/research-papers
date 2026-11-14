@@ -121,5 +121,3 @@ Reported robustness exercises vary factor selection, sparse/weak factor specific
 - Fan, Masini, and Medeiros (2023), "Bridging Factor and Sparse Models": related sparse-plus-dense framework outside the mixed-frequency setting.
 - Marcellino and Schumacher (2010), "Factor Midas for Nowcasting and Forecasting with Ragged-Edge Data: A Model Comparison for German GDP": factor-MIDAS predecessor using factors extracted before MIDAS regression.
 - [[papers/nowcasting-monthly-gdp-with-big-data-a-model-averaging-approach|Nowcasting monthly GDP with big data: A model averaging approach]]: a related library paper that pools bivariate mixed-frequency models to reconstruct monthly GDP. It is a thematic comparison, not a citation asserted to appear in this article.
-
-[[index|Library home]]

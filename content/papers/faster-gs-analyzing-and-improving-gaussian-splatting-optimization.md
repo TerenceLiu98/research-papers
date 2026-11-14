@@ -95,5 +95,3 @@ The supplied Markdown does not state a publication year, venue, DOI, or arXiv id
 - Hanson et al. (2025), "Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives" [25]: alternative tile enumeration, evaluated with only selected features enabled.
 - Zeyu Yang et al. (2024), "Real-Time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting" [93]: basis of the joint 4D extension.
 - [[QuadBox: Accelerating 3D Gaussian Splatting with Geometry-Aware Boxes]]: a related library paper focused on Gaussian-to-tile assignment; Faster-GS does not report a direct comparison with QuadBox.
-
-[[index|Library home]]

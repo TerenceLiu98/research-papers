@@ -89,5 +89,3 @@ The optimal transport estimates are an average increase of 3.07 full-time employ
 - [[papers/a-test-for-treatment-heterogeneity-under-a-distributional-difference-in-difference-framework|A Test for Treatment Heterogeneity under a Distributional Difference-in-Difference Framework]]: uses a transported counterfactual law for an omnibus distributional test and accounts for transport-map estimation in calibration.
 
 Source scope: supplied parsed Markdown for job `56d59203-3da9-44ce-96cd-f1bc32268894`. The source provides no DOI or arXiv identifier.
-
-[[index|Library home]]

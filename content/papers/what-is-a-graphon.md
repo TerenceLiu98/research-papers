@@ -74,5 +74,3 @@ This is an expository article rather than an empirical study. Its worked example
 - Borgs, Chayes, Lovasz, Sos, and Vesztergombi (2008), "Convergent sequences of dense graphs I: Subgraph frequencies, metric properties and testing": a cited foundation for dense graph convergence and cut-metric structure.
 - Lovasz and Szegedy (2006), "Limits of dense graph sequences": a cited foundation for graphons as limits of dense graph sequences.
 - Lovasz (2012), *Large Networks and Graph Limits*: the book recommended by the article for a comprehensive treatment.
-
-[[index|Library home]]

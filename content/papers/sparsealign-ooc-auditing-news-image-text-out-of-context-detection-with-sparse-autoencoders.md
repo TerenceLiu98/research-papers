@@ -78,5 +78,3 @@ Shortcut tests show weak unimodal predictability within SAE alignment groups (im
 - Papadopoulos et al. (2024), "VERITE: A Robust Benchmark for Multimodal Misinformation Detection Accounting for Unimodal Bias": motivates explicit shortcut and unimodal-bias checks.
 - Radford et al. (2021), "Learning Transferable Visual Models From Natural Language Supervision": provides the shared image-text representation family used by NewsCLIPpings.
 - Huben et al. (2024), "Sparse Autoencoders Find Highly Interpretable Features in Language Models": motivates sparse feature decomposition for mechanistic interpretation.
-
-[[index|Library home]]

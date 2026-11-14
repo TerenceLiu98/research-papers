@@ -112,5 +112,3 @@ The negative-response regime is constrained by the requirement that all transiti
 - Caligiuri and Galla (2023), "Noisy voter models in switching environments."
 - Llabrés, San Miguel, and Toral (2023), "Partisan voter model: Stochastic description and noise-induced transitions."
 - Carro, Toral, and San Miguel (2016), "The noisy voter model on complex networks."
-
-[[index|Library home]]

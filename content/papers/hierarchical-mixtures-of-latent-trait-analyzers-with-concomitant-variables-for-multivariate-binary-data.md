@@ -83,5 +83,3 @@ The four resident profiles are Digital Laggards, Communication Technologies User
 - Failli, Marino, and Martella (2024), "Finite mixtures of latent trait analyzers with concomitant variables for bipartite networks: an analysis of COVID-19 data": introduces the concomitant-variable MLTA extension used as a starting point.
 - Vermunt (2003), "Multilevel latent class models": a multilevel latent-class comparison that corresponds to the HMLTA case with no continuous latent trait.
 - [[papers/modeling-item-response-theory-with-stochastic-variational-inference|Modeling Item Response Theory with Stochastic Variational Inference]]: a library connection on variational inference for latent-trait response models, not a cited comparison in this paper.
-
-[[index|Library home]]

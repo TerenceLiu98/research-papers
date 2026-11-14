@@ -83,5 +83,3 @@ The manuscript cites Ghahramani and Hinton (2000), “Variational Learning for S
 Related library reading, without implying citation by this manuscript:
 
 - [[papers/truth-as-a-trajectory-what-internal-representations-reveal-about-large-language-model-reasoning|Truth as a Trajectory]] learns validity classification from token-by-layer displacements, whereas this paper predicts sentence-to-sentence state evolution.
-
-[[index|Library home]]

@@ -104,5 +104,3 @@ The account analysis reports ordinary individuals as 96.02% of populist dissemin
 - [[papers/measuring-agenda-setting-in-interactive-political-communication|Measuring Agenda Setting in Interactive Political Communication]]: Related library reading that measures sustained topic redirection, providing a contrast with this paper's original-post versus repost distinction; not cited in this article.
 
 Source: [Published article](https://doi.org/10.1177/20563051241229659). This note is based on the supplied parsed article text.
-
-[[index|Library home]]

@@ -92,5 +92,3 @@ An analytical model without geography shows that DCP most clearly constrains a m
 - Landau, Reid, and Yershov (2009), "A Fair Division Solution to the Problem of Redistricting": applies fair-division reasoning to redistricting.
 
 Article identifier: [10.1017/pan.2023.39](https://doi.org/10.1017/pan.2023.39). Replication data: [Harvard Dataverse](https://doi.org/10.7910/DVN/XBYFE1).
-
-[[index|Library home]]

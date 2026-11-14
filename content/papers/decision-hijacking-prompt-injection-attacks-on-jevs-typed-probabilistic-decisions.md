@@ -91,5 +91,3 @@ The exploratory analysis finds 16 of 18 final validated successes among the 16 l
 - Zhan et al. (2025), "Adaptive attacks break defenses against indirect prompt injection attacks on LLM agents": motivates adaptive evaluation with attacker feedback.
 
 Source scope: supplied parsed Markdown for job `ea2f4121-bb49-401a-8beb-5d05008e35ee`. The manuscript supplies no publication year, venue, DOI, or arXiv identifier.
-
-[[index|Library home]]

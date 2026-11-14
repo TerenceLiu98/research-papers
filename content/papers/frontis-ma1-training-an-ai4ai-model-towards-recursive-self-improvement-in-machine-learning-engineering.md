@@ -117,5 +117,3 @@ The following works are cited in the supplied paper; they do not yet have matchi
 - Jiang et al. (2025), "AIDE: AI-Driven Exploration in the Space of Code" (arXiv:2502.13138): structured code-space exploration.
 - Toledo et al. (2025), "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-Bench" (arXiv:2507.02554): the AIRA search lineage.
 - Wang et al. (2026), "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?" (arXiv:2606.24530): scientific transfer evaluation.
-
-[[index|Library home]]

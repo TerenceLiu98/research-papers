@@ -71,5 +71,3 @@ Alignment is measured by a Pearson-style correlation between normalized covarian
 - Radhakrishnan et al. (2023), "Mechanism of feature learning in deep fully connected networks and kernel machines that recursively learn features": introduces the neural feature ansatz related to gradient-weight alignment.
 - Huh et al. (2024), "The Platonic Representation Hypothesis": documents cross-model similarity of learned representations rather than within-layer activation-gradient-weight alignment.
 - [[papers/neural-collapse-a-review-on-modelling-principles-and-generalization|Neural Collapse: A Review on Modelling Principles and Generalization]]: reviews the scope and generalization limits of the principal special case.
-
-[[index|Library home]]

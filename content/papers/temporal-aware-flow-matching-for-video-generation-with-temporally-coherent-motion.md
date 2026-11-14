@@ -15,7 +15,6 @@ tags:
   - temporal-coherence
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

@@ -76,5 +76,3 @@ FAEclust is sensitive to hyperparameters and has substantial computational cost.
 - [[Autoencoders in Function Space]]
 - Seidman et al. (2023), "Variational autoencoding neural operators."
 - Srivastava et al. (2011), "Shape analysis of elastic curves in Euclidean spaces."
-
-[[index|Library home]]

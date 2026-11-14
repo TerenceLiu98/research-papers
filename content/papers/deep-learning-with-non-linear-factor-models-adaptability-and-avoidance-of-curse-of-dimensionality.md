@@ -99,5 +99,3 @@ The empirical study forms global minimum variance portfolios from monthly excess
 - Fan, Liao, and Mincheva (2013), "Large covariance estimation by thresholding principal orthogonal complements." Supplies the POET benchmark used in the simulations and portfolio study.
 - Freyberger, Neuhierl, and Weber (2020), "Dissecting characteristics nonparametrically." Studies additive nonlinear structure in expected stock returns using adaptive group lasso.
 - Ledoit and Wolf (2017), "Nonlinear shrinkage of the covariance matrix for portfolio selection: Markowitz meets Goldilocks." Supplies nonlinear-shrinkage portfolio benchmarks.
-
-[[index|Library home]]

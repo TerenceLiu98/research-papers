@@ -91,5 +91,3 @@ The appendix broadens the evaluation. On EEG-to-EMG prediction, the structured F
 - Rügamer (2023), "A New PHO-rmula for Improved Performance of Semi-Structured Networks."
 - Scheipl, Staicu, and Greven (2015), "Functional additive mixed models."
 - Brockhaus, Rügamer, and Greven (2020), "Boosting functional regression models with FDboost."
-
-[[index|Library home]]

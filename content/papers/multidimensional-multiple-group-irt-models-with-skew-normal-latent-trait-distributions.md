@@ -99,5 +99,3 @@ The authors report better estimation than the symmetric model when data arise fr
 - Santos, Azevedo, and Bolfarine (2013), "A multiple group item response theory model with centered skew-normal latent trait distributions under Bayesian framework": cited multiple-group predecessor.
 - Arellano-Valle and Azzalini (2008), "The centred parametrization for the multivariate skew-normal distribution": cited centered-distribution approach from which the authors distinguish their construction.
 - [[papers/multidimensional-item-response-theory-under-general-latent-distributions|Multidimensional Item Response Theory under General Latent Distributions]]: library comparison using flows and variational estimation for flexible latent distributions; not a citation claimed by this paper.
-
-[[index|Library home]]

@@ -73,5 +73,3 @@ For ImageNet pretraining, ShareGPT4V supplies synthetic captions for IN-1k and I
 - Bica et al. (2024), "Improving Fine-Grained Understanding in Image-Text Pre-Training": provides the SPARC fine-grained contrastive baseline.
 - Zheng et al. (2024), "DreamLIP: Language-Image Pre-Training with Long Captions": motivates the synthetic-caption pipeline and provides a multi-caption contrastive comparison.
 - [[papers/levljepa-end-to-end-vision-language-pretraining-without-negatives|LeVLJEPA: End-to-End Vision-Language Pretraining Without Negatives]] is another non-contrastive vision-language JEPA, but predicts across modalities and regularizes embedding distributions rather than conditioning masked image-feature prediction on words.
-
-[[index|Library home]]

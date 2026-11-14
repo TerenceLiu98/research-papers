@@ -85,5 +85,3 @@ Hyperparameters and ablations use CC12M; the selected configuration is transferr
 - Radford et al. (2021), "Learning Transferable Visual Models from Natural Language Supervision": introduces the CLIP contrastive baseline used in the comparison (reference [24]).
 - Zhai et al. (2023), "Sigmoid Loss for Language Image Pre-Training": introduces the SigLIP baseline (reference [28]).
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]] analyzes what alignment plus SIGReg can identify under explicit latent-process assumptions; it is library context rather than a paper cited by LeVLJEPA.
-
-[[index|Library home]]

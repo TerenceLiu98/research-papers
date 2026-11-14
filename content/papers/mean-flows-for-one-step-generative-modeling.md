@@ -110,5 +110,3 @@ These results improve on the paper's listed one-step diffusion/flow comparators.
 - Zhou, Ermon, and Song (2025), "Inductive Moment Matching": cited one-step comparator whose guided ImageNet result uses two evaluations.
 - [[papers/generative-modeling-via-drifting|Generative Modeling via Drifting]]: a thematic library connection using distribution-dependent training updates for one-pass generation; not a citation in this source.
 - [[papers/one-step-generative-modeling-via-wasserstein-gradient-flows|One-Step Generative Modeling via Wasserstein Gradient Flows]]: another library connection using distributional training dynamics rather than average velocity along a sampling trajectory; not cited here.
-
-[[index|Library home]]

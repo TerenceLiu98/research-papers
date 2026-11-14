@@ -86,5 +86,3 @@ The paper is theoretical and contains no numerical or empirical experiments. Its
 - Coppini, De Crescenzo, and Pham (2025), "Nonlinear graphon mean-field systems": the nonlinear framework extended here to common noise, positive finite interaction measures, and process-law convergence.
 - Leblanc, Le Gouic, Liandrat, and Tournus (2023), "Extending the Wasserstein metric to positive measures": introduces the positive-measure Wasserstein construction used by the paper.
 - [[papers/graphon-mean-field-games-and-the-gmfg-equations|Graphon Mean Field Games and the GMFG Equations]]: a related controlled graphon system without this paper's nonlinear common-noise convergence analysis.
-
-[[index|Library home]]

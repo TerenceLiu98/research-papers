@@ -111,5 +111,3 @@ The source's Code and Reproducibility section lists the [analysis repository](ht
 - Pearce and Erosheva (2025), "Bayesian rank-clustering": cited strength-fusion approach using a spike-and-slab prior.
 - Wade and Ghahramani (2018), "Bayesian Cluster Analysis: Point Estimation and Credible Balls (with Discussion)": cited source for partition summaries.
 - [[papers/recent-advances-in-the-bradley-terry-model-theory-algorithms-and-applications|Recent advances in the Bradley-Terry model: theory, algorithms, and applications]]: library context for graph-dependent identification and ranking uncertainty; not a claimed citation in this manuscript.
-
-[[index|Library home]]

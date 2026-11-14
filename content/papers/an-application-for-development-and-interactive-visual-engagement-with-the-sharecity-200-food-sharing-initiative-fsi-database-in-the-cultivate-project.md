@@ -75,6 +75,3 @@ The paper does not provide precision, recall, coverage, error analysis, or usabi
 - Hou et al. (2023), "PromptBoosting: Black-box text classification with ten forward passes."
 - Jagerman et al. (2023), "Query expansion by prompting large language models." [arXiv](https://arxiv.org/abs/2305.03653)
 - Chae and Davidson (2023), "Large language models for text classification: From zero-shot learning to fine-tuning."
-
-
-[[index|Library home]]

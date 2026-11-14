@@ -76,5 +76,3 @@ The theory compares the true and estimated change-of-measure weights in total va
 
 - [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]]: addresses instability under limited causal overlap through transport maps rather than inverse-density-ratio weighting.
 - [[papers/continuous-time-counterfactual-quantile-learning-for-risk-sensitive-policy-optimization|Continuous-Time Counterfactual Quantile Learning for Risk-Sensitive Policy Optimization]]: models counterfactual outcome distributions for policy-specific quantiles, a different target from the distribution of person-level treatment-effect differences.
-
-[[index|Library home]]

@@ -118,5 +118,3 @@ The table shows a substantial runtime difference but mixed calibration, includin
 - Lauderdale and Herzog (2016), "Measuring political positions from legislative speech": cited speech-based measurement work.
 - Slapin and Proksch (2008), "A scaling model for estimating time-series party positions from texts": cited text-scaling work.
 - [[papers/uncertainty-aware-ideal-point-estimation-via-variational-em|Uncertainty-Aware Ideal Point Estimation via Variational EM]]: library comparison addressing scalable ideal-point inference and uncertainty through a different likelihood-based approach; not cited in the slides.
-
-[[index|Library home]]

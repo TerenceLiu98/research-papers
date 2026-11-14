@@ -78,5 +78,3 @@ The empirical evidence does not establish a precise number of Senate preference 
 - [[papers/multidimensional-party-polarization-in-europe-cross-cutting-divides-and-effective-dimensionality|Multidimensional Party Polarization in Europe: Cross-Cutting Divides and Effective Dimensionality]]: a library comparison measuring effective dimensionality of party positions, a different target from recovering latent dimensions from roll calls; it is not cited in the supplied paper.
 
 The source cites replication data with DOI [10.7910/DVN/23248](https://doi.org/10.7910/DVN/23248), dated 2013. This is a dataset identifier, not the article DOI.
-
-[[index|Library home]]

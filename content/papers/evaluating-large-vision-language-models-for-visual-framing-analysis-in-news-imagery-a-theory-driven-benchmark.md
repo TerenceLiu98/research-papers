@@ -87,5 +87,3 @@ After selecting InternVL3-38B, the authors analyze all 8,979 images using 77 bin
 - Araujo, Lock, and van de Velde (2020), "Automated Visual Content Analysis (AVCA) in Communication Research": motivates human validation in scalable image classification.
 - Lu et al. (2025), "Visual Constructs of Conflict and Solidarity": supports the four-frame social-movement codebook.
 - [[papers/for-a-semiotic-ai-bridging-computer-vision-and-visual-semiotics-for-computational-observation-of-large-scale-facial-image-archives|For a Semiotic AI]]: related Wiki reading on operationalizing multilevel visual meaning with computer vision.
-
-[[index|Library home]]

@@ -74,5 +74,3 @@ The supplied source reports slightly different samples in main and appendix tabl
 - Bonica (2014), “Mapping the ideological marketplace”: provides the contribution-based ideology measurement used here.
 - Ansolabehere, Snyder, and Stewart (2001), “Candidate positioning in U.S. House elections”: the candidate-positioning study whose roll-call-based coverage this paper extends.
 - Canes-Wrone, Brady, and Cogan (2002), “Out of step, out of office”: prior electoral-accountability evidence that motivates distinguishing extremism from constituency mismatch.
-
-[[index|Library home]]

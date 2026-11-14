@@ -103,5 +103,3 @@ In *Comptroller of the Treasury of Maryland v. Wynne*, GGUM accommodates a centr
 - [[papers/a-multinomial-framework-for-ideal-point-estimation|A Multinomial Framework for Ideal Point Estimation]]: cited extension of political measurement to heterogeneous categorical responses, addressing a different modeling problem.
 
 Paper: [10.1017/pan.2022.33](https://doi.org/10.1017/pan.2022.33). Replication data cited in the source: [10.7910/DVN/HXORK9](https://doi.org/10.7910/DVN/HXORK9).
-
-[[index|Library home]]

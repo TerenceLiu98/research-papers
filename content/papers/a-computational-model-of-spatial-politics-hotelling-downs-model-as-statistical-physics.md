@@ -89,5 +89,3 @@ The turnout and activist functions are proposed mechanisms rather than empirical
 - [[Multidimensional Party Polarization in Europe: Cross-Cutting Divides and Effective Dimensionality]]
 - Callander and Wilson (2007), "Turnout, Polarization, and Duverger's Law."
 - Laver and Sergenti (2012), "Party Competition: An Agent-Based Model."
-
-[[index|Library home]]

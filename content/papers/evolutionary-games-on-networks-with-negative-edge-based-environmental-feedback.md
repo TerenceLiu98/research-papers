@@ -12,7 +12,6 @@ tags:
   - network-dynamics
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

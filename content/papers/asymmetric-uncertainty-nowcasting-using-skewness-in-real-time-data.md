@@ -96,5 +96,3 @@ Appendix C reports 1,000-replication checks of generated paths, sensitivity to i
 - Buccheri et al. (2021), "Filtering and smoothing with score-driven models": basis for updating states using contemporaneous releases.
 - [[papers/predictor-preselection-for-mixed-frequency-dynamic-factor-models|Predictor Preselection for Mixed-Frequency Dynamic Factor Models]]: a library comparison addressing indicator selection for GDP nowcasts rather than common scale and shape dynamics.
 - [[papers/factor-augmented-sparse-midas-regressions-with-an-application-to-nowcasting|Factor-Augmented Sparse MIDAS Regressions with an Application to Nowcasting]]: a library comparison combining sparse and common signals for point prediction. These library comparisons are not asserted to be citations in the source.
-
-[[index|Library home]]

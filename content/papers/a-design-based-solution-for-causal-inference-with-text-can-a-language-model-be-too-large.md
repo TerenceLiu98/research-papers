@@ -134,5 +134,3 @@ Related library reading, rather than citations attributed to this manuscript:
 - [[papers/causal-inference-with-generative-artificial-intelligence-application-to-texts-as-treatments|Causal Inference with Generative Artificial Intelligence: Application to Texts as Treatments]]: the library's later, June 2026 Imai and Nakamura manuscript studies generative representations and separability. It should be distinguished from the 2024 version cited above.
 - [[papers/structured-pixels-satellite-imagery-as-the-cause-in-causal-effect-estimation|Structured Pixels: Satellite Imagery as the Cause in Causal Effect Estimation]]: considers rich objects as treatments through an observational image representation and covariate-adjustment approach.
 - [[papers/toward-causal-representation-learning|Toward Causal Representation Learning]]: reviews the broader problem of defining intervention-relevant variables from unstructured observations.
-
-[[index|Library home]]

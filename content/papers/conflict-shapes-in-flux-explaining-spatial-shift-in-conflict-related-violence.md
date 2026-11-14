@@ -85,5 +85,3 @@ The negative comparisons matter: the Afghan government and Taliban remain domina
 - [[papers/the-geometry-of-conflict-3d-spatio-temporal-patterns-in-fatalities-prediction|The geometry of conflict: 3D Spatio-temporal patterns in fatalities prediction]]: a thematic library connection, not a citation in this article. It uses spatiotemporal fatality patterns for forecasting, while this paper uses violence footprints to investigate actor-linked spatial change.
 
 Source: [Publisher DOI](https://doi.org/10.1177/01925121231177445). The supplied paper also identifies an [authors' code and extended-appendix repository](https://github.com/Global-Security-Programme/Conflict-shapes-in-flux); those external materials were not used for this summary.
-
-[[index|Library home]]

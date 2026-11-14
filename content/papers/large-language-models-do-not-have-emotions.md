@@ -67,5 +67,3 @@ The argument supplies conceptual criteria but does not operationalize thresholds
 - Sofroniew et al. (2026), non-peer-reviewed preprint on emotion-related representations in language models.
 - Lindquist et al. (2012), *Behavioral and Brain Sciences* 35, 121-143.
 - Satpute and Lindquist (2019), *Trends in Cognitive Sciences* 23, 851-864.
-
-[[index|Library home]]

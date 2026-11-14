@@ -111,5 +111,3 @@ Appendix A illustrates a GPT-4 Crecy run in which armies split into smaller unit
 - Liu et al. (2023), "Dynamic llm-agent network: An llm-agent collaboration framework with agent team optimization," arXiv:2310.02170: cited background for dynamic agent organization.
 - [[papers/llm-based-social-simulations-require-a-boundary|LLM-Based Social Simulations Require a Boundary]]: a library comparison on aligning claim scope with validation evidence; not a citation in BattleAgent.
 - [[papers/multi-agent-strategic-games-with-llms|Multi-Agent Strategic Games with LLMs]]: a library comparison using controlled security-dilemma games rather than historical battle reconstruction; not a citation in BattleAgent.
-
-[[index|Library home]]

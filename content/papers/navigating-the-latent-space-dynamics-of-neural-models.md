@@ -67,5 +67,3 @@ The main construction directly applies to encoder-decoder self-maps, not arbitra
 - Rifai et al. (2011), "Contractive Auto-Encoders: Explicit Invariance During Feature Extraction."
 - He et al. (2022), "Masked Autoencoders Are Scalable Vision Learners."
 - Rombach et al. (2022), "High-Resolution Image Synthesis with Latent Diffusion Models."
-
-[[index|Library home]]

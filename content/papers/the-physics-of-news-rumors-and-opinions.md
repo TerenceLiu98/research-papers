@@ -83,5 +83,3 @@ Many reviewed models assume homogeneous or monotone influence, fixed topology, m
 - [[papers/rumor-propagation-on-hypergraphs|Rumor Propagation on Hypergraphs]]
 - [[papers/minimizing-the-misinformation-concern-over-social-networks|Minimizing the Misinformation Concern over Social Networks]]
 - [[papers/political-polarization-as-a-co-adaptive-process|Political Polarization as a Co-Adaptive Process]]
-
-[[index|Library home]]

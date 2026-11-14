@@ -84,5 +84,3 @@ Three cases connect bargaining conditions to policy substance:
 - Cox and McCubbins (2005), *Setting the Agenda*: the majority-centered procedural cartel account against which the paper frames its agenda-setting contribution.
 
 Article: [DOI](https://doi.org/10.1017/S0003055421000381). Replication data and code, as identified in the source: [APSR Dataverse](https://doi.org/10.7910/DVN/3DRQOB).
-
-[[index|Library home]]

@@ -90,5 +90,3 @@ The asterisks in Tables 1 and 3 identify validation-selected configurations, whi
 - Rossi and Conan-Guez (2005), "Functional multi-layer perceptron: A non-linear tool for functional data analysis."
 - Rossi, Delannay, Conan-Guez, and Verleysen (2005), "Representation of functional data in neural networks."
 - Guss and Salakhutdinov (2019), "On universal approximation by neural networks with uniform guarantees on approximation of infinite dimensional maps."
-
-[[index|Library home]]

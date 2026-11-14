@@ -91,5 +91,3 @@ The supplied paper points to public Julia code for these experiments, but does n
 - Wang and Chizat (2023), "Local Convergence of Gradient Methods for Min-Max Games: Partial Curvature Generically Suffices": the follow-up cited for conditions under which continuous-time behavior converges in the exact-parameterization case.
 
 Source: supplied parsed Markdown for Cognitio job `933321d3-0b62-4e09-98e8-54948017306c`.
-
-[[index|Library home]]

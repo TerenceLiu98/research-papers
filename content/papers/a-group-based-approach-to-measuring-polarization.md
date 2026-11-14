@@ -98,5 +98,3 @@ The article also reports supplementary simulations with two to four groups and o
 - [[papers/party-system-polarization-and-the-effective-number-of-parties|Party system polarization and the effective number of parties]]: a library comparison studying party counts and weighted dispersion; it is not cited in the supplied paper.
 
 Source: [Article DOI](https://doi.org/10.1017/S0003055423001041). The source identifies [replication data](https://doi.org/10.7910/DVN/ZTWRSQ) and the [CPC R package](https://cran.r-project.org/package=CPC).
-
-[[index|Library home]]

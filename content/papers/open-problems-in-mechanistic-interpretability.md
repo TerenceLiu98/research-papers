@@ -117,5 +117,3 @@ Related library reading, without implying citation by this paper:
 
 - [[papers/transformer-field-theory-a-response-theoretic-approach-to-mechanistic-interpretability|Transformer Field Theory: A Response-Theoretic Approach to Mechanistic Interpretability]] studies local linear predictions of intervention effects and their propagation.
 - [[papers/discovering-sparse-concept-graphs-for-mechanistic-interpretability-in-vision-transformers|Discovering Sparse Concept Graphs for Mechanistic Interpretability in Vision Transformers]] builds and causally tests graphs over sparse vision features.
-
-[[index|Library home]]

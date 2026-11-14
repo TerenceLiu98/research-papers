@@ -80,5 +80,3 @@ Planning does not show uniform dominance. For velocity-only goals, success is $0
 - Zoabi, Ali, and Wolf (2026), "Hamiltonian JEPA: Action-Conditioned World Models with an Inherited Control State," uses a dissipative port-Hamiltonian predictor with explicit Euler integration rather than an exactly symplectic step.
 
 Source: supplied parsed manuscript, Cognitio job `50c5235a-1a10-49c0-bef1-042d5f00f5de`.
-
-[[index|Library home]]

@@ -71,5 +71,3 @@ Wall-clock inference on one RTX 4090 is comparable to the baselines: reported KF
 - Lu et al. (2026), "One-step latent-free image generation with pixel mean flows": supplies the pixel-space MeanFlow parameterization adapted by MeLISA.
 - Cachay et al. (2025), "Elucidated rolling diffusion models for probabilistic forecasting of complex dynamics": a solver-based rolling generative approach discussed as a close methodological family.
 - McCabe et al. (2023), "Towards stability of autoregressive neural operators": studies the rollout-instability problem that motivates long-horizon regularization.
-
-[[index|Library home]]

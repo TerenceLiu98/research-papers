@@ -94,5 +94,3 @@ Related library reading, without implying citation by this paper:
 
 - [[papers/trajectory-geometry-of-transformer-representations-across-layers|Trajectory Geometry of Transformer Representations Across Layers]]: measures untrained depthwise path descriptors rather than learning a supervised validity classifier.
 - [[papers/block-recurrent-dynamics-in-vits|Block-Recurrent Dynamics in ViTs]]: studies convergence, stability, and collective token motion in repeated vision-transformer blocks.
-
-[[index|Library home]]

@@ -81,5 +81,3 @@ Financial log-returns are noisy, heavy-tailed, and nonstationary. A short contex
 - Nie et al. (2023), "A Time Series Is Worth 64 Words: Long-term Forecasting with Transformers": the cited PatchTST basis for channel-independent patch processing.
 - Zhang et al. (2025), "Multi-period Learning for Financial Time Series Forecasting": the cited predefined-period baseline and strongest stated financial comparator.
 - Corsi (2009), "A Simple Approximate Long-Memory Model of Realized Volatility": an econometric precedent for combining multiple fixed temporal horizons.
-
-[[index|Library home]]

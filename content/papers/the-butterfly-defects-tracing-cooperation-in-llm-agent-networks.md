@@ -76,5 +76,3 @@ The supplied Markdown does not establish a publication year or stable identifier
 - [[papers/multi-agent-strategic-games-with-llms|Multi-Agent Strategic Games with LLMs]]: a library comparison of controlled strategic interactions and communication treatments; not a baseline in this paper.
 - [[papers/reputation-as-a-solution-to-cooperation-collapse-in-llm-based-mass|Reputation as a Solution to Cooperation Collapse in LLM-Based MASs]]: a library comparison using reputation and evolving ties rather than fixed interaction graphs; not a source citation.
 - Han et al. (2025), “Static network structure cannot stabilize cooperation among large language model agents”: cited antecedent on networked cooperation.
-
-[[index|Library home]]

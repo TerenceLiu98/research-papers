@@ -114,5 +114,3 @@ Key works cited in the source include:
 - Schutte and Donnay (2014), "Matched wake analysis: finding causal relationships in spatiotemporal event data," Political Geography 41, 1-10 (reference 81): the methodology used in the Baghdad comparison.
 
 As library comparisons, [[papers/a-model-of-long-term-conflict-resolution-and-cooperation|A Model of Long-Term Conflict Resolution and Cooperation]] also studies how local interactions condition intervention effects, while [[papers/how-the-hesitation-mechanism-suppresses-misinformation-spreading-on-time-varying-networks|How the Hesitation Mechanism Suppresses Misinformation Spreading on Time-Varying Networks]] examines another model in which behavior and network structure change contagion outcomes. These connections are thematic, not citations made by the 2014 article.
-
-[[index|Library home]]

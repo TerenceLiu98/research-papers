@@ -80,5 +80,3 @@ Starting from precomputed embeddings, prediction takes 5.34 ms per sample, versu
 - Park et al. (2024), “Quantifying Representation Reliability in Self-Supervised Learning Models”: a cited neighborhood-based measurement approach.
 - Kornblith et al. (2019), “Similarity of Neural Network Representations Revisited”: introduces CKA as a dataset-level representation comparison method.
 - Kolling et al. (2025), “Investigating the Effects of Fairness Interventions Using Pointwise Representational Similarity”: a cited pointwise representation-comparison method.
-
-[[index|Library home]]

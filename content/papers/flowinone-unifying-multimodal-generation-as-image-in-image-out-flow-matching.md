@@ -86,5 +86,3 @@ Human failure analysis identifies instruction fidelity as 56.2% of tagged errors
 - Wu et al. (2025), "OmniGen2: Exploration to Advanced Multimodal Generation": an evaluated unified multimodal-generation baseline.
 
 Source: [project homepage](https://csu-jpg.github.io/FlowInOne.github.io/). No stable paper identifier was present in the supplied Markdown.
-
-[[index|Library home]]

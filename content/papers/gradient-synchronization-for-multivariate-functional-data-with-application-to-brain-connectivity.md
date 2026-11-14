@@ -82,5 +82,3 @@ The theoretical results depend on smooth sample paths, finite and sufficiently w
 - Dubin and Mueller (2005), "Dynamical correlation for multivariate longitudinal data."
 - Lindquist et al. (2014), "Evaluating dynamic bivariate correlations in resting-state fMRI: A comparison study and a new approach."
 - Choe et al. (2017), "Comparing test-retest reliability of dynamic functional connectivity methods."
-
-[[index|Library home]]

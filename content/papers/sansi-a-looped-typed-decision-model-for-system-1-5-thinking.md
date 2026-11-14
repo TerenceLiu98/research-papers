@@ -12,7 +12,6 @@ tags:
   - probability-calibration
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

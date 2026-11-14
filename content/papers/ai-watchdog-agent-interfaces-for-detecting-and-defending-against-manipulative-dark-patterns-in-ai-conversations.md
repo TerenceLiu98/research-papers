@@ -78,5 +78,3 @@ Classifier disagreement did not vary significantly by condition, reducing eviden
 - Werner et al. (2024), "Experimental Evidence That Conversational Artificial Intelligence Can Steer Consumer Behavior Without Detection": provides prior evidence that conversational steering can influence choices even when users identify it.
 
 Source scope: supplied parsed Markdown for job `d3b1ca9b-2c26-4129-a5d7-0805eb879657`. The manuscript supplies no DOI or arXiv identifier.
-
-[[index|Library home]]

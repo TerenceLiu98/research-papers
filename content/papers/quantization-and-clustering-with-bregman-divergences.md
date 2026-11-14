@@ -15,7 +15,6 @@ tags:
 
 Fischer studies finite-codebook quantization under [[concepts/bregman-divergences|Bregman Divergences]] for random variables in separable reflexive Banach spaces. The paper gives sufficient conditions for population and empirical minimizers to exist, establishes consistency of empirical optimal distortion, and reports dimension-free expected excess-distortion bounds of order $k/\sqrt n$ under additional boundedness assumptions. These are guarantees for global empirical minimizers; practical Bregman k-means supplies local solutions.
 
-[[index|Library home]]
 
 ## Research Question
 

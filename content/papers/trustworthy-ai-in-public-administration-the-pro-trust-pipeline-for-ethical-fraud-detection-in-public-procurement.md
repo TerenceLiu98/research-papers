@@ -95,5 +95,3 @@ The following works are cited by the source paper:
 - Lyra et al. (2022), "Fraud, corruption, and collusion in public procurement activities, a systematic literature review on data-driven methods." Related review of procurement analytics.
 - De Bruijn, Warnier, and Janssen (2022), "The perils and pitfalls of explainable AI: Strategies for explaining algorithmic decision-making." Supports the discussion of limitations of purely technical explanations.
 - Ruschemeier and Hondrich (2024), "Automation bias in public administration-An interdisciplinary perspective from law and psychology." Related discussion of overreliance on automated outputs.
-
-[[index|Library home]]

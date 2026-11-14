@@ -92,5 +92,3 @@ Grid extension initializes a finer spline by least-squares matching to a trained
 - [[papers/kolmogorov-arnold-networks-for-time-series-bridging-predictive-power-and-interpretability|Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability]]: adapts KAN edge functions to forecasting and reports a similar training-speed limitation.
 
 Source: arXiv:2404.19756.
-
-[[index|Library home]]

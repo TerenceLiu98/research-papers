@@ -68,5 +68,3 @@ FedWB requires identical model architectures and incurs a more expensive aggrega
 - Singh and Jaggi (2020), "Model Fusion via Optimal Transport": aligns neurons layer by layer through optimal transport before averaging.
 - Akash, Li, and Garcia Trillos (2022), "Wasserstein Barycenter-Based Model Fusion and Linear Mode Connectivity of Neural Networks": studies one-shot fusion of neural networks through layerwise probability measures and Wasserstein barycenters.
 - Jin et al. (2022), "Federated Reinforcement Learning with Environment Heterogeneity": develops Q-network and policy-network averaging baselines for heterogeneous environments.
-
-[[index|Library home]]

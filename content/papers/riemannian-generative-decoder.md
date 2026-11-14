@@ -83,5 +83,3 @@ The decoder-only parameterization stores one representation per observation, so 
 - Kalatzis, Eklund, Arvanitidis, and Hauberg (2020), "Variational Autoencoders with Riemannian Brownian Motion Priors."
 - Nickel and Kiela (2018), "Learning Continuous Hierarchies in the Lorentz Model of Hyperbolic Geometry."
 - Lee and Park (2023), "On Explicit Curvature Regularization in Deep Generative Models."
-
-[[index|Library home]]

@@ -71,5 +71,3 @@ The abstract reports cost reductions of up to 30%; the table entries above prese
 
 - [[papers/conformal-prediction-with-large-language-models-for-multi-choice-question-answering|Conformal Prediction with Large Language Models for Multi-Choice Question Answering]] — related answer-set calibration; CCPO additionally learns sequential decisions under an API-cost objective.
 - The source contrasts its method with FrugalGPT (Chen, Zaharia, and Zou, 2024), which optimizes model use without this coverage constraint, and builds on CPO (Achiam et al., 2017), IMPALA/V-trace (Espeholt et al., 2018), and online conformal prediction with decaying step sizes (Angelopoulos, Barber, and Bates, 2024).
-
-[[index|Library home]]

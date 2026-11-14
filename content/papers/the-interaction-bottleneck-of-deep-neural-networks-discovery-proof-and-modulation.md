@@ -96,5 +96,3 @@ The source includes unresolved notation issues: it uses $r_1=0$ in modulation ex
 - Zhang et al. (2020), "Interpreting and Boosting Dropout from a Game-Theoretic View," ICLR: reference [57], used for multi-order interactions and the output decomposition.
 - Ren et al. (2021), "A Unified Game-Theoretic Interpretation of Adversarial Robustness," NeurIPS: reference [33], connected to disruption of high-order interactions by adversarial attacks.
 - [[papers/layerwise-change-of-knowledge-in-neural-networks|Layerwise Change of Knowledge in Neural Networks]]: a related Wiki study of masked-input interactions across layers. Its subset-order and cross-model-overlap measures differ from this paper's context-order and train-test-gap measures.
-
-[[index|Library home]]

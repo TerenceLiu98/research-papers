@@ -82,5 +82,3 @@ Additional experiments expose difficult generalization regimes. Treating OOS as 
 - Rahman et al. (2020), "Integrating Multimodal Information in Large Pretrained Transformers": introduces MAG-BERT, one of the fusion baselines.
 - Tsai et al. (2019), "Multimodal Transformer for Unaligned Multimodal Language Sequences": introduces MulT, the other principal fusion baseline.
 - Majumder et al. (2019), "DialogueRNN: An Attentive RNN for Emotion Detection in Conversations": supplies the temporal conversational model evaluated in the appendix.
-
-[[index|Library home]]

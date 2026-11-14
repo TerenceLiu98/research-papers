@@ -83,5 +83,3 @@ Around 8,584 intra-quarter temperature events, however, changes in consensus for
 - Graff-Zivin and Neidell (2014), "Temperature and the allocation of time: implications for climate change": supplies the heat-sensitive industry classification used to probe labor-productivity mechanisms.
 - Hong, Li, and Xu (2019), "Climate risks and market efficiency": provides related evidence that drought risk is not efficiently incorporated into food-stock prices.
 - Pankratz, Bauer, and Derwall (2023), "Climate change, firm performance, and investor surprises": studies average extreme-heat effects among single-establishment firms outside the United States.
-
-[[index|Library home]]

@@ -86,5 +86,3 @@ Can a coding agent use task descriptions and chronological forecast feedback to 
 - [[papers/alphacast-a-human-wisdom-llm-intelligence-co-reasoning-framework-for-interactive-time-series-forecasting|AlphaCast: A Human Wisdom-LLM Intelligence Co-Reasoning Framework for Interactive Time Series Forecasting]] is a related agentic forecasting system organized around context gathering, generation, and reflection.
 - [[papers/recursive-self-improvement-of-ai-research-agents|Recursive self-improvement of AI research agents]] edits an AI research agent's harness, providing a contrasting system boundary for recursive self-improvement.
 - Fu et al. (2026), "TabFM-Auto: Self-Evolving Pipelines for Tabular Foundation Models," is the cited pipeline-search precedent around a frozen tabular model.
-
-[[index|Library home]]

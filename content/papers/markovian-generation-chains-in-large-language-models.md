@@ -77,5 +77,3 @@ The supplied Markdown does not identify the paper's publication year, venue, DOI
 - Mohamed et al. (2025), *LLM as a Broken Telephone: Iterative Generation Distorts Information*, studies distortion under repeated generation (cited by this paper).
 - Perez et al. (2025), *When LLMs Play the Telephone Game*, studies cultural attractors in multi-turn settings (cited by this paper).
 - [[papers/regurgitative-training-the-value-of-real-data-in-training-large-language-models|Regurgitative Training: The Value of Real Data in Training Large Language Models]] provides a library comparison for synthetic-data training, a different mechanism from inference-time recursion.
-
-[[index|Library home]]

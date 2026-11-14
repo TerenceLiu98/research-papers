@@ -79,5 +79,3 @@ For interpretability, the paper visualizes a Stage 3 pressure-injury path with q
 - Zagoruyko and Komodakis (2016), "Paying More Attention to Attention": the cited basis for transferring attention maps.
 - Barbiero et al. (2023), "Interpretable Neural-Symbolic Concept Reasoning": the Deep Concept Reasoner baseline.
 - [[papers/causally-reliable-concept-bottleneck-models|Causally Reliable Concept Bottleneck Models]]: another approach that replaces a flat concept-to-task relation with explicit structure, using a causal graph rather than a deterministic diagnostic tree.
-
-[[index|Library home]]

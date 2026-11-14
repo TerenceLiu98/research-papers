@@ -88,5 +88,3 @@ The evidence is theoretical and computational; the paper does not estimate coope
 - Wang, Yi, Hong, Chen, and Yan (2025), "Emergence of cooperation promoted by higher-order strategy updates": cited by the paper as related work on higher-order strategy updating.
 - Traulsen and Nowak (2006), "Evolution of cooperation by multilevel selection": cited foundation for selection across individual and group levels.
 - Kido and Takezawa (2025), "Empirical evidence for the spread of cooperation through copying successful groups": cited empirical motivation for group-success-biased imitation.
-
-[[index|Library home]]

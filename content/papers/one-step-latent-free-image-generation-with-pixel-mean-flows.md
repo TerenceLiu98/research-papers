@@ -90,5 +90,3 @@ Following improved MeanFlow, a Jacobian-vector product forms $V_\theta=u_\theta+
 - Li and He (2025), "Back to Basics: Let Denoising Generative Models Denoise": supplies the pixel-space clean-image prediction strategy; cited as arXiv:2511.13720.
 - [[papers/there-is-no-vae-end-to-end-pixel-space-generative-modeling-via-self-supervised-pre-training|There is No VAE: End-to-End Pixel-Space Generative Modeling via Self-Supervised Pre-Training]]: the EPG pixel-space baseline listed in the paper's one-evaluation comparison.
 - Song et al. (2023), "Consistency Models": cited one-step approach that maps noisy states toward endpoints but uses a different training formulation and commonly a preconditioned output.
-
-[[index|Library home]]

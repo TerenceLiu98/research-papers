@@ -83,5 +83,3 @@ Robustness results are mixed: relative to corresponding DINOv2 models, Proteus i
 - Tian et al. (2023), "Learning Vision from Models Rivals Learning Vision from Data": introduces SynCLR, used as an alternative teacher and comparison.
 - Radford et al. (2021), "Learning Transferable Visual Models from Natural Language Supervision": introduces CLIP, another alternative teacher and comparison.
 - Wu et al. (2023), "TinyCLIP": a task-agnostic CLIP compression approach discussed as requiring the original large-scale data distribution.
-
-[[index|Library home]]

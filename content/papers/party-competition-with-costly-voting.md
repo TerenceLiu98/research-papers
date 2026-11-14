@@ -76,5 +76,3 @@ The source has an unresolved distance-versus-utility inconsistency: equation (3)
 - [[papers/beyond-the-median-voter-a-model-of-how-the-ideological-dimension-shapes-party-polarization|Beyond the median voter: A model of how the ideological dimension shapes party polarization]]: a complementary spatial account of polarization through dimensionality and satisficing rather than the cost intervention studied here.
 
 Source: *Journal of Artificial Societies and Social Simulation* 29(3), 4. Metadata and findings are taken from the supplied parsed Markdown; its opening title heading is absent, so the page title follows the model name used throughout the text.
-
-[[index|Library home]]

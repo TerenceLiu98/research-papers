@@ -81,5 +81,3 @@ the authors state a sufficient contraction condition for uniqueness of that line
 - Caines and Huang (2019), "Graphon mean field games and the GMFG equations: epsilon-Nash equilibria": the cited conference precursor for the finite-population result.
 - Huang, Malhame, and Caines (2006), "Large population stochastic dynamic games: closed-loop McKean-Vlasov systems and the Nash certainty equivalence principle": a foundational mean field game analysis generalized here to graphon-indexed populations.
 - Gao and Caines (2020), "Graphon control of large-scale networks of linear systems": related centralized control of large network systems through graphon limits.
-
-[[index|Library home]]

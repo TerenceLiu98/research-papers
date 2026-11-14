@@ -73,5 +73,3 @@ Candidate counts are constructed from list counts and district magnitude rather 
 - Farrell and McAllister (2006), "Voter satisfaction and electoral systems: Does preferential voting in candidate-centred systems make a difference?"
 - [[Party system polarization and the effective number of parties]]
 - [[Beyond the median voter: A model of how the ideological dimension shapes party polarization]]
-
-[[index|Library home]]

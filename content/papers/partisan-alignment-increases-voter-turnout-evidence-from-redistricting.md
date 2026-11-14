@@ -106,5 +106,3 @@ Most reported contact effects are small or statistically indistinguishable from 
 - Moskowitz and Schneer (2019), "Reevaluating competition and turnout in U.S. House Elections." Addresses the related question of competitiveness rather than voter-district partisan alignment.
 - Schuessler (2000), "Expressive voting." Supplies the identity-based theoretical account discussed in the article.
 - Sekhon and Titiunik (2012), "When natural experiments are neither natural nor experiments." Motivates caution about treating redistricting as exogenous.
-
-[[index|Library home]]

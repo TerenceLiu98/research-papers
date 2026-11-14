@@ -96,5 +96,3 @@ The evaluation asks whether each coalition agreement's estimated position lies w
 - [[papers/scaling-political-texts-with-large-language-models-asking-a-chatbot-might-be-all-you-need|Scaling Political Texts with Large Language Models: Asking a Chatbot Might Be All You Need]]: evaluates direct prompted scaling across several political-text settings.
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational Measurement of Political Positions]]: situates prompted LLM measurements among word-count, topic, and embedding approaches.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: develops related logic for validating latent text measurements against human judgments.
-
-[[index|Library home]]

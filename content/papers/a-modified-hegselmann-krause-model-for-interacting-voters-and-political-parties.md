@@ -115,5 +115,3 @@ The deterministic consensus criterion is sufficient, not necessary. The stochast
 - Motsch and Tadmor (2014), "Heterophilious dynamics enhances consensus."
 
 Code and simulation data: <https://github.com/PatrickhCahill/ModifiedHegselmannKrauseModel>
-
-[[index|Library home]]

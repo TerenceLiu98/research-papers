@@ -14,7 +14,6 @@ tags:
   - belief-updating
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

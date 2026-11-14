@@ -86,5 +86,3 @@ Self-conditioning concatenates the previous clean-embedding prediction with the 
 
 - [[papers/mean-flows-for-one-step-generative-modeling|Mean Flows for One-step Generative Modeling]]: learns finite-interval velocity fields to reduce flow-model sampling to one or a few evaluations.
 - [[papers/generative-modeling-via-drifting|Generative Modeling via Drifting]]: another flow-based generative formulation that studies transport dynamics beyond standard diffusion parameterizations.
-
-[[index|Library home]]

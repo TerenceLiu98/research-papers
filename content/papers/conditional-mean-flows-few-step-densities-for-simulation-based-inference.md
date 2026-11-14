@@ -19,7 +19,6 @@ tags:
 
 Conditional mean flows turn [[concepts/average-velocity-fields|Average Velocity Fields]] into conditional posterior and likelihood estimators with tractable few-step densities. Each finite-time map contributes an exact Jacobian determinant, avoiding the numerical divergence integration required by [[concepts/flow-matching|Flow Matching]]. Across four simulation-based inference tasks, one or a few steps provide competitive samples and likelihoods, including single-step likelihoods that make downstream MCMC roughly 182--216 times faster than a 200-step flow-matching baseline on a cognitive model. Accuracy does not uniformly improve with more steps, and high-dimensional Jacobians remain expensive.
 
-[[index|Library home]]
 
 ## Research Question
 

@@ -71,5 +71,3 @@ The following works are cited in the supplied article:
 - Ikenberry (2018), "Why the liberal world order will survive." Provides the argument that liberal internationalism can endure changes in US hegemony.
 - Mearsheimer (2019), "Bound to fail: The rise and fall of the liberal international order." Represents a contrasting assessment of the order's viability.
 - Aryal (2024), "An Interaction Between Regional Power and Liberal International Order (LIO): A Case Study of India and Indonesia." Addresses the regional level used in the contemporary assessment.
-
-[[index|Library home]]

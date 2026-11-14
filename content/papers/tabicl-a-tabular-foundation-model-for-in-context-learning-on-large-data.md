@@ -99,5 +99,3 @@ The TALENT evaluation contains 200 binary and multiclass datasets. Fifteen datas
 - Lee et al. (2019), "Set Transformer: A Framework for Attention-based Permutation-Invariant Neural Networks": supplies the induced set-attention mechanism used for column embedding.
 - Ye et al. (2025), "A Closer Look at Deep Learning Methods on Tabular Datasets": introduces the TALENT benchmark used for evaluation.
 - [[papers/transtab-learning-transferable-tabular-transformers-across-tables|TransTab: Learning Transferable Tabular Transformers Across Tables]]: learns transferable row representations across heterogeneous schemas using column semantics rather than distribution-aware cell embeddings.
-
-[[index|Library home]]

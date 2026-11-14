@@ -108,5 +108,3 @@ The broad party-group ordering is similar across methods, but several neighborin
 - Martin and Quinn (2002), "Dynamic Ideal Point Estimation via Markov Chain Monte Carlo for the U.S. Supreme Court, 1953-1999": the cited random-walk dynamic model that this paper estimates variationally.
 - [[papers/power-to-the-parties-cohesion-and-competition-in-the-european-parliament-1979-2001|Power to the Parties: Cohesion and Competition in the European Parliament, 1979-2001]]: cited EP research on party-group cohesion and influence.
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: a later library comparison that adds flexible temporal structures and informative-missingness modeling; it is not cited by this 2018 paper.
-
-[[index|Library home]]

@@ -85,5 +85,3 @@ For Yoga, 3,000 training and 300 test curves are drawn in each of 100 random spl
 - Kramer (1991), "Nonlinear principal component analysis using autoassociative neural networks."
 - Song and Li (2021), "Nonlinear and additive principal component analysis for functional data."
 - Rossi and Conan-Guez (2006), "Theoretical properties of projection based multilayer perceptrons with functional inputs."
-
-[[index|Library home]]

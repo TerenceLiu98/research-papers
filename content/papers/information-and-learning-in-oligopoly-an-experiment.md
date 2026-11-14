@@ -88,5 +88,3 @@ The supplied Markdown contains extraction defects: it omits the title and report
 - Bigoni (2010), "What do you want to know? Information acquisition and learning in experimental Cournot games": companion experiment with computerized opponents following specified learning rules.
 - Huck, Normann, and Oechssler (1999), "Learning in Cournot oligopoly - An experiment": related market design and behavioral adjustment regression.
 - Offerman, Potters, and Sonnemans (2002), "Imitation and belief learning in an oligopoly experiment": earlier evidence based on varying information across treatments.
-
-[[index|Library home]]

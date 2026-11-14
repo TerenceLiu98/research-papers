@@ -76,5 +76,3 @@ The default configuration adds 15.4% per-epoch training time and 17.2% peak GPU 
 - Mitrovic et al. (2021), "Representation Learning via Invariant Causal Mechanisms."
 - Xu et al. (2021), "A Fourier-Based Framework for Domain Generalization."
 - Roth, Vinyals, and Akata (2022), "Non-isotropy Regularization for Proxy-based Deep Metric Learning."
-
-[[index|Library home]]

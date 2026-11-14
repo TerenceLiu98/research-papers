@@ -76,5 +76,3 @@ Partition quality and a fixed partition count limit adaptation to different grap
 - [[papers/transformers-are-graph-neural-networks|Transformers are Graph Neural Networks]] — a complementary conceptual account of attention as global message passing, rather than an experimental baseline in this paper.
 
 Source: supplied parsed manuscript. The manuscript identifies [arXiv:2511.13010](https://arxiv.org/abs/2511.13010) as its extended version and provides [implementation code](https://github.com/jeongwhanchoi/MPNN-FN).
-
-[[index|Library home]]

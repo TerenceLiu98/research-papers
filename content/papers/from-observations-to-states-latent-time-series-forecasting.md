@@ -106,5 +106,3 @@ Gains are common but not universal. DLinear's Traffic average worsens on both me
 - Oord, Li, and Vinyals (2018), "Representation learning with contrastive predictive coding": cited basis for the InfoNCE motivation.
 - [[papers/joint-embeddings-go-temporal|Joint Embeddings Go Temporal]]: library comparison using masked temporal embedding prediction and moving targets; not a cited baseline in the supplied manuscript.
 - [[papers/multivariate-time-series-forecasting-needs-cross-variable-loss|Multivariate Time Series Forecasting needs Cross Variable Loss]]: library comparison that adds structure to observation-space residual supervision; not an evaluated comparator here.
-
-[[index|Library home]]

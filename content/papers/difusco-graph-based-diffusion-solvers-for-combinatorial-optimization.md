@@ -70,5 +70,3 @@ The paper evaluates Euclidean TSP instances from 50 to 10,000 nodes, TSPLIB tran
 - [[papers/a-diffusion-model-framework-for-unsupervised-neural-combinatorial-optimization|A Diffusion Model Framework for Unsupervised Neural Combinatorial Optimization]]
 - [[papers/structured-denoising-diffusion-models-in-discrete-state-spaces|Structured Denoising Diffusion Models in Discrete State-Spaces]]
 - Sun and Yang contrast DIFUSCO with Graikos et al. (2022), "Diffusion Models as Plug-and-Play Priors," which represents TSP instances as raster images rather than explicit graph variables.
-
-[[index|Library home]]

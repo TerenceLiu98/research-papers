@@ -83,5 +83,3 @@ The authors compare source-frequency distributions with [[concepts/rank-turbulen
 - [[papers/frameaxis-characterizing-microframe-bias-and-intensity-with-word-embedding|FrameAxis]]: measures semantic framing and intensity in political news headlines using embedding axes rather than predefined generic frames.
 
 Source: supplied parsed manuscript, Cognitio job `62c6612a-b222-4811-991a-2f63144fc18c`.
-
-[[index|Library home]]

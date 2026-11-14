@@ -83,5 +83,3 @@ Source metadata: the supplied text gives the article DOI in its supplementary-da
 - Ross-Hellauer et al. (2022), "Dynamics of cumulative advantage and threats to equity in open science: A scoping review": cited motivation for examining resource inequality.
 - Woods and Pinfield (2022), "Incentivising research data sharing: A scoping review": cited background on sharing-policy evidence.
 - [[papers/a-model-of-long-term-conflict-resolution-and-cooperation|A Model of Long-Term Conflict Resolution and Cooperation]]: a library comparison, not a citation in this paper, that also distinguishes immediate intervention gains from persistence under social learning in a different domain.
-
-[[index|Library home]]

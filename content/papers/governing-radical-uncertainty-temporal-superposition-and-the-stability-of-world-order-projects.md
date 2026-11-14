@@ -67,5 +67,3 @@ The authors read expectation and creation as mutually reinforcing: historical ne
 ## Related Papers
 
 - [[asian-multipolarity-and-the-future-of-the-liberal-international-order-lio|Asian Multipolarity and the Future of the Liberal International Order (LIO)]]: a related library reading on changing power distributions and institutional reform. Sevenard and Cook instead examine how a proposed order is temporally constructed in discourse. This is a thematic connection, not a verified citation relationship.
-
-[[index|Library home]]

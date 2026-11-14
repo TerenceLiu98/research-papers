@@ -95,5 +95,3 @@ For online estimation, the model conditions only on observations available throu
 - Czado and Song (2008), "State Space Mixed Models for Longitudinal Observations with Binary and Binomial Responses": cited state-space treatment of longitudinal discrete outcomes.
 - Martin and Quinn (2002), "Dynamic Ideal Point Estimation via Markov Chain Monte Carlo for the U.S. Supreme Court, 1953-1999": cited dynamic latent-position model using a first-order Markov process.
 - West and Harrison (1997), *Bayesian Forecasting and Dynamic Models*: cited foundation for dynamic linear modeling and filtering.
-
-[[index|Library home]]

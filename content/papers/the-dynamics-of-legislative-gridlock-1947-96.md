@@ -96,5 +96,3 @@ Continuous-variable comparisons span one standard deviation below to one above t
 - Krehbiel (1998), *Pivotal Politics*, and Brady and Volden (1998), *Revolving Gridlock*: supermajority-centered accounts discussed by Binder.
 - Tsebelis and Money (1997), *Bicameralism*: a theoretical basis for considering interchamber constraints.
 - [[legislative-effectiveness-in-the-american-states|Legislative Effectiveness in the American States]]: a library comparison on measuring lawmaking performance at the individual rather than system level; not a citation in Binder's article.
-
-[[index|Library home]]

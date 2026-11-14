@@ -73,5 +73,3 @@ The empirical study analyzes Allen Neuropixels session 715093703 over the 250-se
 - [[papers/point-processes-with-event-time-uncertainty|Point Processes with Event Time Uncertainty]]: estimates networked Hawkes dynamics when event times are observed through uncertainty windows.
 - [[papers/approximate-inference-for-non-parametric-bayesian-hawkes-processes-and-beyond|Approximate Inference for Non-parametric Bayesian Hawkes Processes and Beyond]]: develops Bayesian methods for flexible triggering kernels rather than sparse continuous-space network recovery.
 - Baars, Laeven, and Mandjes (2026), "Spatiotemporal Hawkes Processes with a Graphon-Induced Connectivity Structure" (arXiv:2409.16903v2): introduces the graphon Hawkes framework used as the starting point of this paper.
-
-[[index|Library home]]

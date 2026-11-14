@@ -14,7 +14,6 @@ tags:
   - china
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

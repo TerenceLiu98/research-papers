@@ -77,5 +77,3 @@ Replacing the standard ViT patch embedding with the hierarchical CNN changes PSN
 - Yao, Yang, and Wang (2025), "Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models": studies the tokenizer trade-off that HAE addresses.
 
 Source: supplied parsed manuscript, Cognitio job `3470f03a-7955-4a0c-9e0e-3ccb9bc71ada`.
-
-[[index|Library home]]

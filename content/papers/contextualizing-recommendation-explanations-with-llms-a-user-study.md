@@ -71,5 +71,3 @@ Watch intention differed across all three conditions: CE scored 4.85, NE 4.61, a
 - Lubos et al. (2024), "LLM-Generated Explanations for Recommender Systems": a cited evaluation of LLM explanations against template-based explanations.
 
 Code: https://github.com/diana3135/Contextualizing-Recommendation-With-LLMs
-
-[[index|Library home]]

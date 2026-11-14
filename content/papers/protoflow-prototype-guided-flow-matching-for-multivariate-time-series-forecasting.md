@@ -100,5 +100,3 @@ Across both horizons, the authors report average relative error reductions of 13
 - [[papers/learning-from-predictions-fusing-training-and-autoregressive-inference-for-long-term-spatiotemporal-forecasts|Learning from Predictions]] addresses generated-history exposure through autoregressive training. This is a library comparison, not a claimed citation or experimental comparator in ProtoFlow.
 
 Source: supplied parsed manuscript, Cognitio job `bec26ded-3f3e-46bf-a9b1-b0a8e3856556`. Publication year is unspecified in the source.
-
-[[index|Library home]]

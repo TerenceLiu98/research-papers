@@ -89,5 +89,3 @@ SI C uses 50 representatives, 30 sessions, and four voting issues, starting with
 - Schickler (2016), *Racial Realignment: The Transformation of American Liberalism, 1932-1965*: source of the historical argument and reanalyzed legislative data.
 - Caron, Davy, and Doucet (2012), "Generalized Polya Urn for Time-varying Dirichlet Process Mixtures": closest dynamic comparison in Section 3.3; the proposed model retains dependence on all preceding assignments even without direct inheritance.
 - Fox et al. (2011), "A Sticky HDP-HMM with Application to Speaker Diarization": cited precedent for persistent latent states.
-
-[[index|Library home]]

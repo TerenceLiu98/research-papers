@@ -116,5 +116,3 @@ Implications for cooperation and gridlock are proposed interpretations of these 
 - [[papers/topic-factorized-ideal-point-estimation-model-for-legislative-voting-network|Topic-Factorized Ideal Point Estimation Model for Legislative Voting Network]]: cited as Gu et al. (2014), a joint text/vote model; HIPTM additionally models legislators' own speech and subordinate frames.
 - Nguyen, Boyd-Graber, and Resnik (2013), "Lexical and hierarchical topic regression": cited foundation for treating second-level topics as issue frames.
 - Lauderdale and Clark (2014), "Scaling politically meaningful dimensions using texts and votes": cited foundation for topic-weighted issue positions in the voting model.
-
-[[index|Library home]]

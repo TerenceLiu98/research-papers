@@ -85,5 +85,3 @@ In the controlled encoder-integration comparison, every encoder is connected to 
 - Radford et al. (2021), "Learning Transferable Visual Models from Natural Language Supervision," introduces CLIP, the contrastive paradigm against which Penguin-VL positions its encoder.
 - Tschannen et al. (2025), "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features," provides the principal encoder family used in the integration comparisons.
 - Bai et al. (2025), "Qwen3-VL Technical Report," provides the language-model family and a principal VLM baseline discussed by Penguin-VL.
-
-[[index|Library home]]

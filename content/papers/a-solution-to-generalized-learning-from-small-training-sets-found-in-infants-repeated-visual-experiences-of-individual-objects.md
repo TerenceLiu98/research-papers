@@ -81,5 +81,3 @@ ShapeNet uses rendered views from random Euler angles. PetFace lumpy sets averag
 - Poggio and Edelman (1990), "A network that learns to recognize three-dimensional objects": a conceptual precedent for learning from a small set of views, using a different computational approach (reference 78).
 
 The source identifies research materials at OSF, DOI `10.17605/OSF.IO/BYN2Z` (reference 116), and infant data at Databrary volume 1965 (reference 115), with access restrictions for identifiable recordings. Repository contents were not independently checked.
-
-[[index|Library home]]

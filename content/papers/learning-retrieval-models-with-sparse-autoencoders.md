@@ -73,5 +73,3 @@ Neuronpedia labels suggest that contributing SPLARE features often capture cross
 - Formal et al. (2021), "SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking": supplies the lexical sparse-retrieval architecture adapted by SPLARE.
 - He et al. (2024), "Llama Scope: Extracting Millions of Features from Llama-3.1-8B with Sparse Autoencoders": supplies the principal pretrained SAEs.
 - Lieberum et al. (2024), "Gemma Scope: Open Sparse Autoencoders Everywhere All at Once on Gemma 2": supplies the SAE family used for width and backbone ablations.
-
-[[index|Library home]]

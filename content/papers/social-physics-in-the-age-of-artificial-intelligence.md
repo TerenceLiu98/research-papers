@@ -92,5 +92,3 @@ Prior findings are used as motivation, including studies in which small fraction
 - [[papers/solving-repeated-games-with-large-language-model|Solving Repeated Games with Large Language Model]] examines strategic adaptation by language-model agents in repeated games.
 - [[papers/llms-for-social-network-modeling-from-network-generation-to-dynamic-processes|LLMs for Social Network Modeling: From Network Generation to Dynamic Processes]] surveys uses of LLMs in network generation and social-process simulation.
 - [[papers/llm-based-social-simulations-require-a-boundary|LLM-Based Social Simulations Require a Boundary]] develops complementary cautions about what social simulations with language models can establish.
-
-[[index|Library home]]

@@ -83,5 +83,3 @@ BaseLang and Mastaba are compared on ten distinct maps, with five full games per
 - Vinyals et al. (2019), "Grandmaster Level in StarCraft II Using Multi-Agent Reinforcement Learning": motivates the tensor architecture, while CivRealm emphasizes turn-based long-horizon reasoning and diplomacy.
 - Bakhtin et al. (2022), "Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning": provides a related benchmark for strategic communication and negotiation.
 - Wang et al. (2023), "Voyager: An Open-Ended Embodied Agent with Large Language Models": represents the paper's comparison class of language agents that accumulate experience in open-ended environments.
-
-[[index|Library home]]

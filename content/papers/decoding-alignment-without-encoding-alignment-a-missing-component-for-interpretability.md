@@ -77,5 +77,3 @@ Population-size sweeps show that static decoding metrics can approach ceiling wi
 - [[papers/convergence-without-understanding-when-language-models-agree-on-representations-but-disagree-on-reasoning|Convergence Without Understanding: When Language Models Agree on Representations but Disagree on Reasoning]]: reports a related dissociation between language-model representation similarity and shared reasoning.
 
 Source scope: supplied parsed manuscript. It provides a code repository but no explicit publication year or stable paper identifier.
-
-[[index|Library home]]

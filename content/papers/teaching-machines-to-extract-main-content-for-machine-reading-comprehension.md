@@ -86,5 +86,3 @@ The following works are cited in the supplied paper; matching standalone pages w
 - Seo et al. (2016), "Bidirectional attention flow for machine comprehension," arXiv:1611.01603: attention-based representation reference and the BiDAF span-prediction baseline.
 - Wang and Jiang (2016), "Machine comprehension using match-lstm and answer pointer," arXiv:1608.07905: the Match-LSTM span-prediction baseline.
 - Wang et al. (2017), "Reinforced reader-ranker for open-domain question answering," arXiv:1709.00023: cited passage-ranking and answer-aggregation context.
-
-[[index|Library home]]

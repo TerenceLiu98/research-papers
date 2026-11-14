@@ -11,7 +11,6 @@ tags:
   - traffic-forecasting
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

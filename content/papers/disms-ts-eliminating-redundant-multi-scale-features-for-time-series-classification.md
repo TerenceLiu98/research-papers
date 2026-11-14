@@ -102,5 +102,3 @@ The paper reports t-test significance at $p<0.01$ for improvements over the best
 - Wang et al. (2024), "TimeMixer: Decomposable multiscale mixing for time series forecasting": baseline and alternative fusion mechanism.
 - Nie et al. (2022), "A time series is worth 64 words: Long-term forecasting with transformers": PatchTST, cited for patching and channel independence.
 - [[papers/mts-jepa-multi-resolution-joint-embedding-predictive-architecture-for-time-series-anomaly-prediction|MTS-JEPA]]: a library comparison using multiple temporal resolutions for future anomaly prediction through self-supervised latent prediction; not a cited DisMS-TS baseline.
-
-[[index|Library home]]

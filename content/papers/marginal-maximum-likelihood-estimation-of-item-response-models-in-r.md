@@ -90,5 +90,3 @@ For the polytomous analysis, each follow-up is combined with its stem rather tha
 - Rizopoulos (2006), "ltm: An R Package for Latent Variable Modeling and Item Response Theory Analyses": cited R package used for model comparisons.
 - [[papers/maximum-marginal-likelihood-estimation-with-an-expectation-maximization-algorithm-for-multigroup-mixture-multidimensional-item-response-theory-models|Maximum Marginal Likelihood Estimation With an Expectation-Maximization Algorithm for Multigroup/Mixture Multidimensional Item Response Theory Models]]: a later library treatment extending explicit MML-EM calculations to multidimensional and grouped settings; not cited in this paper.
 - [[papers/bayesian-item-response-modeling-in-r-with-brms-and-stan|Bayesian Item Response Modeling in R with brms and Stan]]: a later library comparison using general Bayesian multilevel software for a wider set of response models; not cited in this paper.
-
-[[index|Library home]]

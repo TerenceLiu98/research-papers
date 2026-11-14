@@ -109,5 +109,3 @@ The authors report that Policy 2 reduces the probability of the fake-news state 
 - Parise and Ozdaglar (2023), "Graphon games: A statistical framework for network games and interventions": a cited foundation for heterogeneous continuum network games (reference 12).
 - [[papers/contagion-in-graphons|Contagion in graphons]]: a library comparison using graphon-based threshold diffusion and seeding rather than controlled SKIR transitions; not cited in this paper.
 - [[papers/minimizing-the-misinformation-concern-over-social-networks|Minimizing the Misinformation Concern over Social Networks]]: a library comparison optimizing correction-agent selection and concern-weighted outcomes rather than individual communication equilibria; not cited in this paper.
-
-[[index|Library home]]

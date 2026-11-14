@@ -90,5 +90,3 @@ Four spline or Beta continuous heads on 4B and 9B Qwen3.5 backbones, trained on 
 - Lukasik et al. (2024), "Regression-aware inference with LLMs": distinguishes likely textual outputs from decisions optimized for numerical loss.
 
 Source scope: supplied parsed Markdown for job `ee44e01f-dfa9-421b-9407-ad76b7a17e27`. The manuscript supplies no venue, DOI, or arXiv identifier.
-
-[[index|Library home]]

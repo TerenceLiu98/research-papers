@@ -102,5 +102,3 @@ The appendix reports 500,000 MCMC iterations for the 106th Senate taking just ov
 - Snyder and Groseclose (2000), "Estimating Party Influence in Congressional Roll-Call Voting": cited two-stage approach contrasted with joint estimation of positions and inducements.
 - [[papers/fast-estimation-of-ideal-points-with-massive-data|Fast Estimation of Ideal Points with Massive Data]]: later library paper that accelerates estimation of the Bayesian binary model with EM and variational extensions.
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: later library connection extending temporal modeling and informative missingness; not a citation in this paper.
-
-[[index|Library home]]

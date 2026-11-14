@@ -89,5 +89,3 @@ The multimodal model produces the highest recall but trails its text-only counte
 - Fang et al. (2020), "Video2Commonsense: Generating Commonsense Descriptions to Enrich Video Captioning": uses ATOMIC-derived intentions to support video captioning and commonsense generation.
 - Ignat et al. (2019), "Identifying Visible Actions in Lifestyle Vlogs": studies action detection in the same broad video genre rather than reasons for actions.
 - Jia et al. (2021), "Intentonomy: A Dataset and Study Towards Human Intent Understanding": studies human intent in Instagram images under a different task definition.
-
-[[index|Library home]]

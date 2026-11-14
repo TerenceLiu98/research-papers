@@ -76,5 +76,3 @@ The simulation study compares moments for uniform and power distributions at $n\
 - Fang, Zhou, and Wang (2014), "Applications of the Representative Points in Statistical Simulations": develops applications motivating the present comparison.
 - Jiang, He, and Fang (2015), "An Interesting Property of the Arcsine Distribution and Its Applications": supplies the exact moment-matching observation that motivates the FM constraints.
 - Flury (1990), "Principal Points": a foundational account of MSE representative points used as a comparator.
-
-[[index|Library home]]

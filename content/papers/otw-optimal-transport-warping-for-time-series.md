@@ -15,7 +15,6 @@ tags:
   - distance-based-learning
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

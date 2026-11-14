@@ -116,5 +116,3 @@ The authors report an average 2.8-fold energy improvement and $p<0.001$ for each
 - Kantamneni and Tegmark (2025), "Language Models Use Trigonometry to Do Addition": related interventions on numerical helices.
 - Park et al. (2026), "The Information Geometry of Softmax: Probing and Steering": contemporary geometric analysis of representation-to-output mappings in a simpler setting.
 - Sarfati et al. (2026), "The Shape of Beliefs: Geometry, Dynamics, and Interventions Along Representation Manifolds of Language Models' Posteriors": related representation-manifold account of model beliefs.
-
-[[index|Library home]]

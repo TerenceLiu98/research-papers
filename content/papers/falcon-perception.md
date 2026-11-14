@@ -107,5 +107,3 @@ These are the paper's reported comparisons, not independently reproduced results
 - Kolesnikov et al. (2022), *UViM: A Unified Modeling Approach for Vision with Learned Guiding Codes*: a related approach to efficient structured vision output.
 - Chaybouti et al. (2025), *AMoE: Agglomerative Mixture-of-Experts Vision Foundation Model*: the cited multi-teacher initialization pipeline.
 - [[papers/beyond-logits-aligning-feature-dynamics-for-effective-knowledge-distillation|Beyond Logits: Aligning Feature Dynamics for Effective Knowledge Distillation]]: a Wiki comparison, not a citation in Falcon Perception. Both transfer internal representations, but FDD aligns layerwise vocabulary predictions in LLMs, whereas Falcon initializes visual features from multiple teachers.
-
-[[index|Library home]]

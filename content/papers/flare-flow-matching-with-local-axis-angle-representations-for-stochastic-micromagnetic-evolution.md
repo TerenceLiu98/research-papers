@@ -65,5 +65,3 @@ FLARE predicts endpoints, not dense physical trajectories, so it does not replac
 
 - [[papers/flow-matching-on-general-geometries|Flow Matching on General Geometries]]: defines conditional flow matching intrinsically on Riemannian manifolds; FLARE instead transports Euclidean local rotation coordinates and enforces the sphere constraint during decoding.
 - [[papers/flow-matching-for-scalable-simulation-based-inference|Flow Matching for Scalable Simulation-Based Inference]]: another conditional-flow application in scientific inference, focused on amortized posterior distributions rather than physical endpoint fields.
-
-[[index|Library home]]

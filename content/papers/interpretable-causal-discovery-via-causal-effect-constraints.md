@@ -78,5 +78,3 @@ The implementation assumes linear-Gaussian structural equation models, causal su
 - Cérou and Guyader (2007), "Adaptive Multilevel Splitting for Rare Event Analysis": the splitting method adapted to constrained causal posteriors.
 - Liang et al. (2023), "Structure Learning with Adaptive Random Neighborhood Informed MCMC": the PARNI-DAG structure kernel used by one implementation.
 - Sachs et al. (2005), "Causal Protein-Signaling Networks Derived from Multiparameter Single-Cell Data": source of the real-data case study.
-
-[[index|Library home]]

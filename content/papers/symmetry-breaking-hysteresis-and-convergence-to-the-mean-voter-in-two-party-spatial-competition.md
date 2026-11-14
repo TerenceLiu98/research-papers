@@ -96,5 +96,3 @@ The numerical examples illustrate the theory but do not estimate tolerance or va
 - Venegeroles (2025), "Beyond the Median Voter: A Model of How the Ideological Dimension Shapes Party Polarization."
 - [[Political Polarization as a Co-Adaptive Process]]
 - Macy et al. (2021), "Polarization and Tipping Points."
-
-[[index|Library home]]

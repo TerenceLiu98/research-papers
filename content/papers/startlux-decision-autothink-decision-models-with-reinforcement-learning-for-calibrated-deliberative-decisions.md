@@ -17,7 +17,6 @@ tags:
   - adaptive-computation
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

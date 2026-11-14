@@ -11,7 +11,6 @@ tags:
   - task-reformulation
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

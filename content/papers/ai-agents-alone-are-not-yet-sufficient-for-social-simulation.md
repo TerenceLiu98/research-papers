@@ -57,5 +57,3 @@ The supplied Markdown does not establish this paper's publication year, venue, o
 ## Related Papers
 
 - [[papers/llm-based-social-simulations-require-a-boundary|LLM-Based Social Simulations Require a Boundary]] — a related library perspective on aligning validation and claim scope; not presented as a citation in this manuscript.
-
-[[index|Library home]]

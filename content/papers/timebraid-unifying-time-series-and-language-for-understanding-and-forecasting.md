@@ -106,5 +106,3 @@ TimeMMD reports the best average MSE rank for TimeBraid-6.7B across nine domains
 - [[papers/aurora-towards-universal-generative-multimodal-time-series-forecasting|Aurora: Towards Universal Generative Multimodal Time Series Forecasting]]: an evaluated multimodal forecaster using text and rendered history images; TimeBraid additionally supports series-to-language generation.
 - Wang et al. (2025), "ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data": a cited bidirectional baseline using discrete value tokens.
 - Xie et al. (2024), "ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning": a cited understanding baseline and source of attribute-programmed alignment data.
-
-[[index|Library home]]

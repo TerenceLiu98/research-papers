@@ -95,5 +95,3 @@ For a fixed Pythia-160m document sample, exit agreement rises from 0.64 at initi
 - Biderman et al. (2023), "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling": supplies the model family and checkpoints.
 - Sander et al. (2022), "Sinkformers: Transformers with Doubly Stochastic Attention": interprets constrained attention through Wasserstein geometry inside a layer, rather than testing the coupling between consecutive layer clouds.
 - Finlay et al. (2020), "How to Train Your Neural ODE: The World of Jacobian and Kinetic Regularization": provides the excess-motion motivation cited by the manuscript.
-
-[[index|Library home]]

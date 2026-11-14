@@ -88,5 +88,3 @@ The road model ranks best on these diagnostics, but its mean held-out AUC advant
 - O'Loughlin and Witmer (2011), "The Localized geographies of violence in the North Caucasus of Russia, 1999-2007": cited regional evidence on the geography of violence.
 - Lyall (2010), "Are coethnics more effective counterinsurgents? Evidence from the second Chechen war": a cited comparison whose findings concern coethnic operations and a different sample; Zhukov's mop-up measure does not distinguish forces by ethnicity.
 - [[papers/capturing-the-spatio-temporal-diffusion-effects-of-armed-conflict-a-nonparametric-smoothing-approach|Capturing the spatio-temporal diffusion effects of armed conflict: A nonparametric smoothing approach]]: a library comparison modeling a broad distance-lag history in a Poisson GAM, rather than binary onset and recurrence with nearest-attack road distance. It is not a benchmark evaluated here.
-
-[[index|Library home]]

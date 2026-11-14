@@ -74,5 +74,3 @@ Ablations support coupling the tasks: removing the deformation operator lowers a
 - Tang et al. (2022), "Model-Based Joint Curve Registration and Classification."
 - [[Deep Learning with Functional Inputs]]
 - [[Deep Learning for Functional Data Analysis with Adaptive Basis Layers]]
-
-[[index|Library home]]

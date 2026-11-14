@@ -115,5 +115,3 @@ Separate analyses of the 52nd through 55th Congresses, covering 1891-1899, sugge
 - [[papers/nonparametric-ideal-point-estimation-and-inference|Nonparametric Ideal-Point Estimation and Inference]]: a related library paper targeting one-dimensional orderings and tests across groups of votes under shared concave utility, rather than estimating Manhattan-space coordinates.
 - [[papers/how-they-vote-issue-adjusted-models-of-legislative-behavior|How They Vote: Issue-Adjusted Models of Legislative Behavior]]: a related library paper using bill topics to explain issue-specific departures from a general ideal point.
 - [[papers/text-based-ideal-points|Text-Based Ideal Points]]: cited by Shin et al. as an extension of ideal-point measurement to authored text.
-
-[[index|Library home]]

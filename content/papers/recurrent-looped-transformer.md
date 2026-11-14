@@ -97,5 +97,3 @@ The source discusses Fan et al. (2020), *Addressing Some Limitations of Transfor
 [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] is related library reading, not a claimed citation: it preserves hidden memory across iterative solver steps, whereas RLT advances recurrence across ordinary input tokens.
 
 Project repository stated in the source: `https://github.com/yifanzhang-pro/recurrent-looped-tranformer`.
-
-[[index|Library home]]

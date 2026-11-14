@@ -80,5 +80,3 @@ Training is separate for retrieval, classification, clustering, and text matchin
 - Zhai et al. (2022), "LiT: Zero-Shot Transfer With Locked-image Text Tuning": provides a related frozen-tower precedent in a CLIP-style architecture (reference 39).
 - Nussbaum, Duderstadt, and Mulyar (2024), "Nomic Embed Vision: Expanding the Latent Space": adapts a visual path while retaining a text encoder in another frozen-tower design (reference 25).
 - [[papers/beyond-matryoshka-revisiting-sparse-coding-for-adaptive-representation|Beyond Matryoshka: Revisiting Sparse Coding for Adaptive Representation]] studies a post-training sparse alternative to nested dense embedding prefixes.
-
-[[index|Library home]]

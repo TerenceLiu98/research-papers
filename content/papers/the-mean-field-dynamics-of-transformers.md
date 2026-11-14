@@ -85,5 +85,3 @@ These figures illustrate the theory but do not constitute task-level evaluation 
 - Geshkovski, Koubbi, Polyanskiy, and Rigollet (2024), "Dynamic Metastability in the Self-Attention Model": establishes exponentially long-lived cluster configurations and saddle-to-saddle dynamics.
 - Bruno, Pasqualotto, and Agazzi (2025), "A Multiscale Analysis of Mean-Field Transformers in the Moderate Interaction Regime": develops the multiscale coarsening picture and closest-pair merging limit.
 - Chen, Lin, Polyanskiy, and Rigollet (2026), "Critical Attention Scaling in Long-Context Transformers": proves the equiangular long-context phase transition summarized in the paper.
-
-[[index|Library home]]

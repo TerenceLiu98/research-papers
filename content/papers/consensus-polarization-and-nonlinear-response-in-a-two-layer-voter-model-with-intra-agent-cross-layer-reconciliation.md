@@ -88,5 +88,3 @@ The model uses binary opinions, identical static layers, homogeneous reconciliat
 - Diakonova, Nicosia, Latora, and San Miguel (2016), "Irreducibility of multilayer network dynamics: the case of the voter model."
 - Min and San Miguel (2019), "Multilayer coevolution dynamics of the nonlinear voter model."
 - Gastner, Oborny, and Gulyas (2018), "Consensus time in a voter model with concealed and publicly expressed opinions."
-
-[[index|Library home]]

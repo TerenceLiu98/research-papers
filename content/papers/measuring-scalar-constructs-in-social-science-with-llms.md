@@ -115,5 +115,3 @@ Appendix D includes a limited GPT-4o comparison on ad negativity: five-shot rho 
 - Park (2021), "When Do Politicians Grandstand? Measuring Message Politics in Committee Hearings": supplies the grandstanding comparisons.
 - Wang, Zhang, and Choi (2025), "Improving LLM-as-a-Judge Inference with the Judgment Distribution": cited methodological basis for using response probabilities and debiasing comparisons.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: a related library study of human validation and uncertainty in text scaling; not cited in the supplied paper.
-
-[[index|Library home]]

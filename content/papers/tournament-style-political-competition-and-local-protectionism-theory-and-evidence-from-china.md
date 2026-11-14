@@ -112,5 +112,3 @@ The source cites the following foundations; they do not currently have separate 
 - Shi, Xi, Zhang, and Zhang (2021), "Moving umbrella: bureaucratic transfers and the comovement of interregional investments in China": a cited study of political transfers and investment links.
 
 [[papers/trustworthy-ai-in-public-administration-the-pro-trust-pipeline-for-ethical-fraud-detection-in-public-procurement|Trustworthy AI in public administration: The PRO-Trust pipeline for ethical fraud detection in public procurement]] is a thematic library connection on procurement oversight. It studies auditing safeguards rather than promotion incentives and is not a citation claimed by this paper.
-
-[[index|Library home]]

@@ -12,7 +12,6 @@ tags:
   - reproducibility
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

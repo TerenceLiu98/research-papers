@@ -107,5 +107,3 @@ The reported comparisons favor average over loaded unfairness at all plotted com
 - Correa, Schulz, and Stier-Moses (2007), "Fast, Fair, and Efficient Flows in Networks": cited loaded-unfairness bound.
 - Roughgarden (2002), "How unfair is optimal routing?": cited UE-unfairness bound.
 - Jalota et al. (2023), "Balancing fairness and efficiency in traffic routing via interpolated traffic assignment": source of the numerical interpolation procedure.
-
-[[index|Library home]]

@@ -105,5 +105,3 @@ Observed mean interevent times are 1.32 and 1.49 days. Both fall within the corr
 - Jones-Todd and van Helsdingen (2024), "stelfi: an R package for fitting Hawkes and log-Gaussian Cox point process models": cited implementation.
 - [[papers/learning-hawkes-processes-under-synchronization-noise|Learning Hawkes Processes Under Synchronization Noise]]: related library work on how timestamp errors affect excitation inference, not an evaluated method in this study.
 - [[papers/spatial-causal-inference-in-the-presence-of-preferential-sampling-to-study-the-impacts-of-marine-protected-areas|Spatial Causal Inference in the Presence of Preferential Sampling to Study the Impacts of Marine Protected Areas]]: related library use of LGCPs to model informative sampling locations; the present study models recorded violence locations.
-
-[[index|Library home]]

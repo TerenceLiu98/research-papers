@@ -15,7 +15,6 @@ tags:
 
 Kato and Teshima stabilize deep [[concepts/density-ratio-estimation|Density Ratio Estimation]] by correcting a component of the empirical Bregman objective that must be nonnegative in the population. Their deep direct DRE (D3RE) framework reduces the reported overfitting of neural ratio models and improves inlier-based outlier detection. Its statistical guarantees require bounded ratios and controlled model classes; the experiments also show sensitivity to the correction parameter.
 
-[[index|Library home]]
 
 ## Research Question
 

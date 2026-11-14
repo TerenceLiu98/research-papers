@@ -80,5 +80,3 @@ The authors manually inspect the first 100 SAE features at each layer and mark f
 - [[papers/discovering-sparse-concept-graphs-for-mechanistic-interpretability-in-vision-transformers|Discovering Sparse Concept Graphs for Mechanistic Interpretability in Vision Transformers]]: evaluates relationships among visual SAE features with insertion and deletion interventions, while CaFE attributes one feature activation to input patches.
 - [[papers/analyzing-hierarchical-structure-in-vision-models-with-sparse-autoencoders|Analyzing Hierarchical Structure in Vision Models with Sparse Autoencoders]]: uses relevancy maps to inspect vision-SAE features but focuses on taxonomic structure rather than activation-location mismatch.
 - [[papers/interpretable-and-steerable-concept-bottleneck-sparse-autoencoders|Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]: distinguishes readable SAE features from features that causally steer downstream behavior.
-
-[[index|Library home]]

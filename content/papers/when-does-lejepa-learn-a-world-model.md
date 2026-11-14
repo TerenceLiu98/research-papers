@@ -130,5 +130,3 @@ SIGReg and VICReg retain high recovery throughout. The authors attribute InfoNCE
 - Sprekeler, Zito, and Wiskott (2014), "An Extension of Slow Feature Analysis for Nonlinear Blind Source Separation": the spectral predecessor discussed in Appendix F (reference [72]).
 - [[papers/toward-causal-representation-learning|Toward Causal Representation Learning]] motivates recovering latent structure for interventions and generalization (reference [10]); the present encoder result does not recover a causal graph.
 - [[papers/statistical-and-structural-identifiability-in-representation-learning|Statistical and Structural Identifiability in Representation Learning]] offers a library comparison between consistency across learned models and recovery of true factors; it is not cited in this paper's bibliography.
-
-[[index|Library home]]

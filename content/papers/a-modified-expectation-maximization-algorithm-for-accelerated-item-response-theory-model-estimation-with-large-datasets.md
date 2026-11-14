@@ -101,5 +101,3 @@ Study 4 generated 60,000 responses from a three-testlet 2PL model, varied common
 - [[papers/squarem-an-r-package-for-off-the-shelf-acceleration-of-em-mm-and-other-em-like-monotone-algorithms|SQUAREM: An R Package for Off-the-Shelf Acceleration of EM, MM and Other EM-Like Monotone Algorithms]]: a library comparison that accelerates EM-like fixed-point maps by extrapolation rather than by respondent subsets; it is not cited in the supplied manuscript.
 
 Source: Feng and Cai (2026), supplied manuscript. DOI: 10.3758/s13428-026-02996-0.
-
-[[index|Library home]]

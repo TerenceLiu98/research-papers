@@ -69,5 +69,3 @@ The numerical illustration minimizes $\mathcal E(\mu)=W_2(\mu,\nu^M)$ for three 
 - [[papers/simple-approximative-algorithms-for-free-support-wasserstein-barycenters|Simple approximative algorithms for free-support Wasserstein barycenters]]
 - [[papers/heterogeneous-federated-reinforcement-learning-using-wasserstein-barycenters|Heterogeneous Federated Reinforcement Learning Using Wasserstein Barycenters]]
 - [[papers/jko-schemes-with-general-transport-costs|JKO Schemes with General Transport Costs]]
-
-[[index|Library home]]

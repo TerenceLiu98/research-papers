@@ -69,5 +69,3 @@ Block-group boundaries may not match lived neighborhoods; alternative delineatio
 The source situates its approach alongside Reardon and O’Sullivan’s *Measures of spatial segregation* (2004), Reardon and Bischoff’s *Income inequality and income segregation* (2011), and Schelling’s *Dynamic models of segregation* (1971). It extends the distributional interpretation of segregation measures rather than estimating a residential-choice model.
 
 [Paper and supplementary-material landing page](https://doi.org/10.1140/epjds/s13688-026-00658-x). [Author-reported data and code](https://github.com/mansueto-institute/dkl-metric).
-
-[[index|Library home]]

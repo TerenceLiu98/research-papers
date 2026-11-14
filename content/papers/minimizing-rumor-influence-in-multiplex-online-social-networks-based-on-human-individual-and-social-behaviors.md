@@ -79,5 +79,3 @@ The behavioral parameters are assigned from uniform random distributions rather 
 - Gomez-Rodriguez and Leskovec (2013), "Modeling information propagation with survival theory."
 - Wang et al. (2017), "DRIMUX: Dynamic rumor influence minimization with user experience in social networks."
 - Tong, Du, and Wu (2018), "On misinformation containment in online social networks."
-
-[[index|Library home]]

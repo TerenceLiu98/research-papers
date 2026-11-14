@@ -84,5 +84,3 @@ Figures 4 and 6 illustrate recovery from mutual defection and adaptation to alte
 - Cross et al. (2025), "Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models," ICLR. The cited foundation for RHM's opponent-hypothesis module.
 - Shinn et al. (2023), "Reflexion: Language Agents with Verbal Reinforcement Learning," NeurIPS. The self-reflective baseline.
 - Akata et al. (2025), "Playing Repeated Games with Large Language Models," Nature Human Behaviour. Cited context for direct LLM policies in repeated games.
-
-[[index|Library home]]

@@ -80,5 +80,3 @@ The three real-data tasks use near-infrared meat spectra to predict fat content,
 - Rossi, Conan-Guez, and Fleuret (2002), "Functional data analysis with multi layer perceptrons."
 - Wang et al. (2019), "Multilayer perceptron for sparse functional data."
 - Yao and Muller (2010), "Functional quadratic regression."
-
-[[index|Library home]]

@@ -99,5 +99,3 @@ Works cited in the source, without matching Paper pages found in this library:
 Additional library connection, not a citation attributed to this paper:
 
 - [[papers/an-experimental-design-approach-to-evaluating-agentic-ais-autonomous-model-discovery|An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery]] evaluates agent-scaffold performance, resource use, and stochastic research behavior in a different autonomous-research setting.
-
-[[index|Library home]]

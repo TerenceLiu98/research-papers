@@ -89,5 +89,3 @@ In the LLaMA-3-8B selection experiment, NovelSelect obtains MT-bench 6.47, Alpac
 - Diddee and Ippolito (2024), *Chasing Random: Instruction Selection Strategies Fail to Generalize*, motivates testing whether diversity-oriented selection reliably improves over random selection.
 
 Source note: Synthesized from the supplied parsed Markdown for Cognitio job `3ac55dc8-7c6c-4485-aa84-e2d36fadcad7`. The text does not explicitly identify this paper's publication year, venue, DOI, or arXiv identifier; these are left unspecified.
-
-[[index|Library home]]

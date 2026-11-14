@@ -72,5 +72,3 @@ The review is a research agenda and synthesis, so its proposed benefits for robu
 - Peters, Janzing, and Schölkopf (2017), "Elements of Causal Inference—Foundations and Learning Algorithms."
 - Schölkopf et al. (2012), "On Causal and Anticausal Learning."
 - Locatello et al. (2020), "Weakly-Supervised Disentanglement Without Compromises."
-
-[[index|Library home]]

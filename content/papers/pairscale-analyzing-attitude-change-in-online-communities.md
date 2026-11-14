@@ -75,5 +75,3 @@ Appendix A.6 reports stable score trends over four comment samples; Figure 4 use
 - [[papers/measuring-scalar-constructs-in-social-science-with-llms|Measuring Scalar Constructs in Social Science with LLMs]]: complementary comparison of pointwise and pairwise scalar measurement and human-reference uncertainty.
 - Hoyle et al. (2023), “Natural language decompositions of implicit content enable better text representations”: supplies the decomposition approach adapted here to issue-specific conversational context.
 - Wu et al. (2024), “Concept-guided chain-of-thought prompting for pairwise comparison scoring of texts with large language models”: supplies the comparison-based predecessor and comment-level baseline.
-
-[[index|Library home]]

@@ -106,5 +106,3 @@ The reported correlation between parameter count and newspaper error is weak, ar
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: situates classification, embedding, count, topic, and prompted approaches within a common measurement framework.
 
 The supplied manuscript provides code and dataset links but no stable identifier for the paper itself. The Bundestag/Wahl-O-Mat dataset is identified as `10.57967/hf/4924` in the manuscript.
-
-[[index|Library home]]

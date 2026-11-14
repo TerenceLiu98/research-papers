@@ -92,5 +92,3 @@ WFM also handles settings excluded by the cited voxel-based comparators. On vari
 - Pooladian and Niles-Weed (2021), "Entropic Estimation of Optimal Transport Maps": supplies the out-of-sample transport-map estimator and statistical analysis used by the method.
 - Atanackovic et al. (2024), "Meta Flow Matching: Integrating Vector Fields on the Wasserstein Manifold": studies a related paired-distribution setting; WFM instead takes separate, uncoupled families of distributions.
 - [[papers/flow-matching-on-lie-groups|Flow Matching on Lie Groups]]: another extension of flow matching to a non-Euclidean state space.
-
-[[index|Library home]]

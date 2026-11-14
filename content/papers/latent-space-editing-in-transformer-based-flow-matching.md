@@ -68,5 +68,3 @@ The supplied manuscript does not establish editing superiority through a quantit
 
 - [[papers/bifm-bidirectional-flow-matching-for-few-step-image-editing-and-generation|BiFM: Bidirectional Flow Matching for Few-Step Image Editing and Generation]]: a related library paper addressing learned bidirectional inversion and few-step editing, rather than semantic direction discovery. This is a thematic connection, not a citation asserted by the supplied manuscript.
 - The manuscript cites Kwon et al., *Diffusion Models Already Have a Semantic Latent Space* (2023), for U-Net h-space, and Hertz et al., *Prompt-to-Prompt Image Editing with Cross Attention Control* (2022), for prompt-based attention manipulation.
-
-[[index|Library home]]

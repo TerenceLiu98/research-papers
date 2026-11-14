@@ -75,5 +75,3 @@ Planning-based transcription reaches frame, onset, onset-plus-offset, and onset-
 - [[papers/temporal-straightening-for-latent-planning|Temporal Straightening for Latent Planning]]: optimizes actions directly through latent dynamics and studies representation geometry, contrasting with Music-JEPA's amortized action inference.
 
 Source: supplied parsed manuscript, Cognitio job `ae81f97d-b8a3-4cb3-8e37-392d561f962a`.
-
-[[index|Library home]]

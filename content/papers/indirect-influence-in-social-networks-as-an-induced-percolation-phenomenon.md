@@ -97,5 +97,3 @@ The authors report increasing $Q_i$ with $m_i$ across all four pairs, with much 
 - Granovetter (1978), "Threshold models of collective behavior": cited as a direct-threshold foundation.
 - Zhao, Zhou, and Liu (2013), "Inducing effect on the percolation transition in complex networks": cited in the discussion of earlier k-core-related work; the similar name should not be taken to imply the same update rule.
 - Baxter et al. (2015), "Critical dynamics of the k-core pruning process": cited for related critical exponents, which are not exclusive to induced percolation.
-
-[[index|Library home]]

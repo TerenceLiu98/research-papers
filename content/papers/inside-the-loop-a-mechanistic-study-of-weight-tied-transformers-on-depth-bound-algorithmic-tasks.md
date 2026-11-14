@@ -77,5 +77,3 @@ For shared-permutation donor prompts, patching makes all answers follow the dono
 
 - [[papers/a-mechanistic-analysis-of-looped-reasoning-language-models|A Mechanistic Analysis of Looped Reasoning Language Models]] studies recurrent convergence and inference stages; this paper instead grounds intermediate states in a known algorithm.
 - [[papers/looped-transformers-are-better-at-learning-learning-algorithms|Looped Transformers Are Better at Learning Learning Algorithms]] motivates the iterative inductive-bias perspective cited here.
-
-[[index|Library home]]

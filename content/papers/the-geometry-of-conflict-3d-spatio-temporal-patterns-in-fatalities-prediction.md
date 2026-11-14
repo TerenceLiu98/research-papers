@@ -100,5 +100,3 @@ Zone selection retains 99% of fatalities and 94% of active cells in the input co
 - Hegre et al. (2022), "Forecasting fatalities in armed conflict: Forecasts for April 2022-March 2025." The cited ViEWS benchmark.
 - Racek, Thurner, and Kauermann (2025), "Capturing the spatiotemporal diffusion effects of armed conflict: A nonparametric smoothing approach." A cited alternative for modeling spatial and temporal dependence.
 - [[papers/the-earth-moves-but-so-does-the-bias-systematic-upward-bias-of-the-wasserstein-earth-movers-distance-and-permutation-based-null-calibration|The Earth Moves, But So Does the Bias]]: a thematic library connection, not a citation in this manuscript. It concerns finite-sample inference for distributional EMD, whereas ShapeFinder uses EMD for retrieval and forecast evaluation.
-
-[[index|Library home]]

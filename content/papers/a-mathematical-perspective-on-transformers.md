@@ -90,5 +90,3 @@ These studies illustrate the mathematical picture; they are not downstream evalu
 - Geshkovski et al. (2024), "The Emergence of Clusters in Self-Attention Dynamics": analyzes clustering for pure self-attention without the spherical projection.
 - Markdahl, Thunberg, and Goncalves (2017), "Almost Global Consensus on the n-Sphere": supplies a sphere-synchronization result used in the arbitrary-temperature clustering theory.
 - Criscitiello et al. (2024), "Synchronization on Circles and Spheres with Nonlinear Interactions": provides related consensus results used to sharpen the dimensional and circle cases.
-
-[[index|Library home]]

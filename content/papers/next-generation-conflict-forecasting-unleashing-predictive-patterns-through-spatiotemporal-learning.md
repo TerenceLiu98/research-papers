@@ -81,5 +81,3 @@ The paper describes deteriorating long-horizon performance for state-based viole
 - Radford (2022), "High resolution conflict forecasting with spatial convolutions and long short-term memory": cited related work on spatial and recurrent neural forecasting.
 - [[papers/accounting-for-variability-in-conflict-dynamics-a-pattern-based-predictive-model|Accounting for variability in conflict dynamics: A pattern-based predictive model]]: a library comparison using historical temporal analogs and clustering at country-month resolution; this is a thematic connection, not a citation in HydraNet's bibliography.
 - [[papers/learning-from-predictions-fusing-training-and-autoregressive-inference-for-long-term-spatiotemporal-forecasts|Learning from Predictions: Fusing Training and Autoregressive Inference for Long-Term Spatiotemporal Forecasts]]: a methodological connection on recursive forecast error and training on generated inputs, not an evaluated HydraNet extension.
-
-[[index|Library home]]

@@ -80,5 +80,3 @@ Fowler interprets the two-year versus four-year pattern as evidence against a re
 - Calvert (1985), "Robustness of the Multidimensional Voting Model: Candidate Motivations, Uncertainty, and Convergence": a cited foundation for policy motivation and uncertainty in spatial competition.
 - [[papers/why-are-us-parties-so-polarized-a-satisficing-dynamical-model|Why are U.S. Parties So Polarized? A 'Satisficing' Dynamical Model]]: a related Wiki comparison that explains party separation through voter satisfaction and party inclusiveness.
 - [[papers/parties-ideological-cores-and-peripheries|Parties' Ideological Cores and Peripheries]]: a related Wiki comparison of manifesto adaptation; its electoral-performance results are inconclusive, in a different setting and with different measures.
-
-[[index|Library home]]

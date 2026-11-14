@@ -95,5 +95,3 @@ The models are nearly tied in sample, but BIRT is better on both reported held-o
 - [[papers/the-statistical-analysis-of-roll-call-data|The Statistical Analysis of Roll Call Data]]: the Bayesian IRT baseline used to motivate and compare the distance model.
 - [[papers/l1-based-bayesian-ideal-point-model-for-multidimensional-politics|L1-based Bayesian Ideal Point Model for Multidimensional Politics]]: replaces non-metric utility with Manhattan distance rather than a joint Euclidean legislator-bill embedding.
 - [[papers/ends-against-the-middle-measuring-latent-traits-when-opposites-respond-the-same-way-for-antithetical-reasons|Ends Against the Middle: Measuring Latent Traits When Opposites Respond the Same Way for Antithetical Reasons]]: related treatment of cross-cutting response patterns cited in the House interpretation.
-
-[[index|Library home]]

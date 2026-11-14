@@ -111,5 +111,3 @@ As an additional carrier test, applying $v_{\mathrm{teacher}}$ at the assistant 
 ## Source
 
 Processed from the complete supplied Markdown for Cognitio job `03ccc5b6-a744-41d4-a4ec-f6eacebdf9f8`. The manuscript provides code at [agu18dec/steering-vector-distillation](https://github.com/agu18dec/steering-vector-distillation); availability was not independently checked.
-
-[[index|Library home]]

@@ -86,5 +86,3 @@ The theoretical analysis is deliberately conditional. Arbitrarily small vector-f
 - Dax et al. (2022), "Group Equivariant Neural Posterior Estimation": integrates physical symmetries into gravitational-wave posterior inference and provides the GNPE comparison.
 
 Source: supplied parsed manuscript, Cognitio job `d33774a3-afb9-4864-992c-3e80d1de7760`.
-
-[[index|Library home]]

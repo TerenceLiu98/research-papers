@@ -100,5 +100,3 @@ For temporal benchmark adaptation, topic filtering retains 5,362 HellaSwag examp
 - The source discusses Levine, Duvenaud, and Radford's *Introducing Talkie: A 13B Vintage Language Model from 1930* (2026) as a larger historical-model comparator, and Sarkar and Vafa's *Lookahead Bias in Pretrained Language Models* (2025) as motivation for temporal controls.
 
 Source note: Synthesized from the supplied parsed Markdown for Cognitio job `46e4273b-c784-462f-b131-dfc6c6e200e5`. The text does not explicitly identify this paper's publication year, venue, DOI, or arXiv identifier; these are left unspecified.
-
-[[index|Library home]]

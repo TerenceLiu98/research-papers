@@ -118,5 +118,3 @@ The supplied Markdown contains no explicit publication year or stable identifier
 - Semenova and Chernozhukov (2021): cited throughout Section 4 and Appendix C for debiased estimation of causal functions.
 - Blackwell and Olson (2022), "Reducing model misspecification and bias in the estimation of interactions": fully moderated models and post-double selection.
 - [[papers/ud-dml-uniform-design-subsampling-for-double-machine-learning-over-massive-data|UD-DML: Uniform Design Subsampling for Double Machine Learning over Massive Data]]: a library comparison addressing the computational cost of ATE estimation, rather than CME curves; not a citation claimed by this guide.
-
-[[index|Library home]]

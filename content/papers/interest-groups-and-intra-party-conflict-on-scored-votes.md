@@ -81,5 +81,3 @@ The authors report that adding earlier committee cohesion leaves an approximatel
 - Gelman (2017), "Rewarding Dysfunction: Interest Groups and Intended Legislative Failure": cited background on interest-group support for position taking even when enactment is unlikely.
 
 Replication data identified in the source: [Harvard Dataverse](https://doi.org/10.7910/DVN/PAVD00).
-
-[[index|Library home]]

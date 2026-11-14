@@ -79,5 +79,3 @@ Structural-similarity VWPD is slightly better than or comparable to mean-squared
 - Nair and Resnik (2023), "Words, Subwords, and Morphemes: What Really Matters in the Surprisal-Reading Time Relationship?": motivates concern about tokenizer-dependent cognitive estimates.
 - Goodkind and Bicknell (2018), "Predictive Power of Word Surprisal for Reading Times Is a Linear Function of Language Model Quality": supplies the psychometric predictive-power comparison used in the evaluation.
 - Wilcox et al. (2023), "Testing the Predictions of Surprisal Theory in 11 Languages": motivates the cross-lingual and cross-validated reading-time analysis.
-
-[[index|Library home]]

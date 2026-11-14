@@ -17,7 +17,6 @@ tags:
   - shape-analysis
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 
@@ -78,4 +77,3 @@ On transformed point-cloud MNIST, LPGW and LGW both achieve 82.5% with rotation 
 - Bai et al. (2023), "Linear Optimal Partial Transport Embedding": linearizes partial transport when source and target share an ambient ground space.
 - Wang et al. (2013), "Linear Optimal Transportation": establishes the reference-based linear OT strategy underlying later LGW and LPGW constructions.
 - Peyre, Cuturi, and Solomon (2016), "Gromov-Wasserstein Averaging of Kernel and Distance Matrices": provides the barycenter approach used to construct reference spaces in the experiments.
-

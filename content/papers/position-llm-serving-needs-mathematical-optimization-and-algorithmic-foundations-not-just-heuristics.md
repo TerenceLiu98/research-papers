@@ -17,7 +17,6 @@ tags:
 
 This position paper argues that [[concepts/optimization-based-llm-serving|Optimization-Based LLM Serving]] should replace generic routing, scheduling, and cache-management heuristics with models tailored to prefill-decode asymmetry, growing KV caches, unknown output lengths, continuous batching, and synchronization barriers. It surveys early examples in load balancing, scheduling, capacity planning, and caching to argue that formal models can supply worst-case guarantees, capacity limits, and useful engineering structure without requiring a general-purpose optimizer in every runtime decision.
 
-[[index|Library home]]
 
 ## Research Question
 
@@ -90,4 +89,3 @@ These findings illustrate feasibility and potential value, but they are not eval
 - Chen, Ye, and Zhou (2025), "Adaptively Robust LLM Inference Optimization under Prediction Uncertainty": studies scheduling when output-length predictions are unreliable.
 - Chen et al. (2026), "A Universal Load Balancing Principle and Its Application to Large Language Model Serving": develops online optimization for barrier-synchronized decode workers.
 - Zhu et al. (2023), "Towards Optimal Caching and Model Selection for Large Model Inference": develops cost-aware caching with regret guarantees.
-

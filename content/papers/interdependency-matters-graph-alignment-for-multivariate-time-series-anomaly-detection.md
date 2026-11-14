@@ -101,5 +101,3 @@ Removing all graph alignment gives AUC-ROC values of 84.9, 83.2, 65.4, 91.5, and
 - Zhou et al. (2023), "Detecting Multivariate Time Series Anomalies with Zero Known Label": MTGFlow, the dynamic-graph normalizing-flow baseline used in the ablations.
 - Wang et al. (2024), "Drift Doesn't Matter: Dynamic Decomposition with Diffusion Reconstruction for Unstable Multivariate Time Series Anomaly Detection": related reconstruction-based work cited for temporal modeling under drift.
 - Peyre and Cuturi (2019), "Computational Optimal Transport: With Applications to Data Science": supplies the optimal-transport and Sinkhorn background used by the alignment module.
-
-[[index|Library home]]

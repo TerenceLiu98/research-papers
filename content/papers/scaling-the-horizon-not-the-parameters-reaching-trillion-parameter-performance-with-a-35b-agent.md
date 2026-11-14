@@ -87,5 +87,3 @@ Against the paper's selected larger-model results, Agents-A1 leads on SEAL-0 (56
 - Fu et al. (2026), "Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes": analyzes instability in sampled-token approximations.
 - Sun et al. (2025), "Scaling Long-Horizon LLM Agent via Context-Folding": another approach to extending agent horizons.
 - Chan et al. (2024), "MLE-Bench: Evaluating Machine Learning Agents on Machine Learning Engineering": provides the engineering benchmark and the right-whale optimization case.
-
-[[index|Library home]]

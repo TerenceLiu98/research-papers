@@ -123,5 +123,3 @@ Mean pairwise TV is 0.0441 for Noul, 0.0656 for Score expectation, 0.0998 for Je
 - Xin et al. (2021), "The art of abstention: Selective prediction and error regularization for natural language processing": the selective-prediction connection for using uncertainty to defer decisions (reference [16]).
 
 Source scope: supplied parsed Markdown for job `ecf7def2-44e5-4a0c-b70c-1d760ea59bfd`. The manuscript identifies the author but supplies no stable identifier or explicit publication year.
-
-[[index|Library home]]

@@ -74,5 +74,3 @@ The tree's statistics and traversal costs grow with the document stream, so long
 - [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model]]: learns flat topics in embedding space but does not perform incremental hierarchical discovery.
 - [[papers/hyhtm-hyperbolic-geometry-based-hierarchical-topic-models|HyHTM: Hyperbolic Geometry based Hierarchical Topic Models]]: uses pretrained hyperbolic word embeddings and a fixed recursive factorization rather than an evolving document hierarchy.
 - Grootendorst (2022), "BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure": supplies the topic-word extraction method and several clustering baselines.
-
-[[index|Library home]]

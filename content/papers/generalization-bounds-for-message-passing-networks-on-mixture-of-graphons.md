@@ -18,7 +18,6 @@ tags:
 
 This paper derives uniform generalization bounds for [[concepts/neural-message-passing|Message Passing Neural Networks]] used for graph classification when examples are noisy, simple random graph-signals sampled from a finite mixture of [[concepts/graphons|Graphons]]. For mean or normalized-sum aggregation, the bound improves with graph size when sparsity is not too severe, despite covering a Lipschitz-bounded MPNN class rather than one fixed trained network. Synthetic Erdös-Rényi and stochastic-block experiments report bounds several orders of magnitude tighter than the compared PAC-Bayes and Rademacher bounds, with a one-layer setting below 1.
 
-[[index|Library home]]
 
 ## Research Question
 

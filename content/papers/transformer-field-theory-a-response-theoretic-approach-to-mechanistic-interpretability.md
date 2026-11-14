@@ -100,5 +100,3 @@ References discussed in the supplied paper:
 Related library reading, without implying citation by this paper:
 
 - [[papers/not-all-language-model-features-are-one-dimensionally-linear|Not All Language Model Features Are One-Dimensionally Linear]] studies causal interventions on multidimensional representation subspaces, complementing the present paper's local response analysis.
-
-[[index|Library home]]

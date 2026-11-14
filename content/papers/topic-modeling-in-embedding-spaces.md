@@ -80,5 +80,3 @@ In the stop-word experiment, New York Times retains a 10,283-word vocabulary and
 - [[papers/neural-topic-modeling-with-large-language-models-in-the-loop|Neural Topic Modeling with Large Language Models in the Loop]]: later uses ETM as a base model for language-model-guided topic refinement.
 
 The supplied Markdown does not state a stable paper identifier. Publication year follows the library's existing canonical citation for this paper.
-
-[[index|Library home]]

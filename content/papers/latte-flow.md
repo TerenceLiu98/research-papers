@@ -18,7 +18,6 @@ tags:
   - efficient-inference
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

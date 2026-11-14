@@ -100,5 +100,3 @@ The following works are cited by the supplied paper; no matching Paper pages wer
 - Mao et al. (2025), "Early Stopping Chain-of-Thoughts in Large Language Models": closely related stepwise answer prediction and early stopping.
 - Wendler et al. (2024), "Do Llamas Work in English? On the Latent Language of Multilingual Transformers": examines English-centered representations in multilingual models.
 - Qi et al. (2025), "When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy": provides multilingual reasoning-language controls used by this study.
-
-[[index|Library home]]

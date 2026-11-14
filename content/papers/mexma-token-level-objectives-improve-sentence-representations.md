@@ -79,5 +79,3 @@ The source compares LaBSE (Feng et al., 2022), SONAR (Duquenne et al., 2023), DA
 
 - [Code](https://github.com/facebookresearch/mexma)
 - [Model](https://huggingface.co/facebook/MEXMA)
-
-[[index|Library home]]

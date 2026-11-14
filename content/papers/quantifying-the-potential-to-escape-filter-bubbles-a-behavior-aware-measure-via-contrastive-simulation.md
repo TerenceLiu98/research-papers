@@ -100,5 +100,3 @@ Works cited in the source, without matching Paper pages found in this library:
 Additional library connection, not a citation attributed to this paper:
 
 - [[papers/alexandria-a-library-of-pluralistic-values-for-realtime-re-ranking-of-social-media-feeds|Alexandria: A Library of Pluralistic Values for Realtime Re-Ranking of Social Media Feeds]] studies value-aware re-ranking of feeds, complementing this paper's focus on diagnosing whether exploratory behavior changes exposure.
-
-[[index|Library home]]

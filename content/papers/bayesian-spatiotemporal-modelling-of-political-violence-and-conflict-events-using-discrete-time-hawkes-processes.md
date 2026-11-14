@@ -101,5 +101,3 @@ All entries retain spatially varying baselines; "Spatial" denotes additional spa
 - Jun and Cook (2024), "Flexible multivariate spatiotemporal Hawkes process models of terrorism": a cited spatial Hawkes approach using maximum likelihood.
 - [[papers/dynamic-hawkes-processes-for-discovering-time-evolving-communities-states-behind-diffusion-processes|Dynamic Hawkes Processes for Discovering Time-evolving Communities' States behind Diffusion Processes]]: cited neural modeling of evolving community dynamics; not evaluated as a baseline here.
 - [[papers/spatiotemporal-patterns-of-conflict-related-sexual-violence-in-colombia|Spatiotemporal patterns of conflict-related sexual violence in Colombia]]: related library work illustrating how baseline specification and time resolution affect inferred excitation; not an evaluated comparator.
-
-[[index|Library home]]

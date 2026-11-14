@@ -109,5 +109,3 @@ In the GPT-2 ablation (Table 3), output KD alone scores 19.28, adding trajectory
 - Liang et al. (2023), "Less Is More: Task-Aware Layer-Wise Distillation for Language Model Compression": task-aware intermediate-feature filtering discussed as a related approach.
 - Belrose et al. (2023), "Eliciting Latent Predictions from Transformers with the Tuned Lens": motivates the optional intermediate-layer adapters.
 - [[papers/layerwise-change-of-knowledge-in-neural-networks|Layerwise Change of Knowledge in Neural Networks]]: a conceptual comparison within this Wiki, not a citation in the supplied paper. It analyzes intermediate representations through probe-derived interaction effects, whereas FDD trains a student to match intermediate predictions and their deltas.
-
-[[index|Library home]]

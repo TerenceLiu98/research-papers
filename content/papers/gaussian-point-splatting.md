@@ -109,5 +109,3 @@ Performance is not uniformly better: 3DGS can be faster for small scenes, and cl
 - Schuetz et al. (2025), "Splatshop: Efficiently Editing Large Gaussian Splat Models."
 - Enderton, Sintorn, Shirley, and Luebke (2010), "Stochastic Transparency."
 - Kerbl et al. (2024), "A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets."
-
-[[index|Library home]]

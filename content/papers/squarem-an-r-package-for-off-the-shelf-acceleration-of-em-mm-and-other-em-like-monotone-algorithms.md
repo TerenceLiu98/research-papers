@@ -98,5 +98,3 @@ For the Joreskog factor-analysis example, EM, ECME, SQUAREM-accelerated EM, and 
 - Lange, Hunter, and Yang (2000), "Optimization Transfer Using Surrogate Objective Functions": the cited MM reference.
 
 Source: Du and Varadhan (2020), supplied paper text. The supplied Markdown does not state a DOI, journal volume, issue, or page range.
-
-[[index|Library home]]

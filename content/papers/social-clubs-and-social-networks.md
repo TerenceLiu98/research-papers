@@ -114,5 +114,3 @@ Clustering arises because each club projects to a clique (Section V.B). This sup
 - Granovetter (1973), "The Strength of Weak Ties": cited motivation for distinguishing forms of weak connection.
 - Page and Wooders (2007), "Networks and Clubs": cited related work on clubs and network formation.
 - [[papers/higher-order-interactions-shape-collective-human-behaviour|Higher-order interactions shape collective human behaviour]]: a later library comparison, not a citation in this article; discusses explicit group representations and information lost through pairwise projection.
-
-[[index|Library home]]

@@ -100,5 +100,3 @@ TimesFM leads each dataset average among the listed methods, but the ETTm2 diffe
 - Garza and Mergenthaler-Canseco (2023), "TimeGPT-1" [GMC23]: parallel foundation-model work discussed by the authors, not an evaluated baseline; listed as arXiv:2310.03589.
 - [[papers/time-series-foundation-models-for-multivariate-financial-time-series-forecasting|Time Series Foundation Models for Multivariate Financial Time Series Forecasting]]: a later library comparison examining task-dependent transfer and conventional baselines in finance, not an experiment or citation in this preprint.
 - [[papers/joint-embeddings-go-temporal|Joint Embeddings Go Temporal]]: a library comparison using patch-level latent prediction for temporal representation learning, whereas TimesFM trains directly on future observed values. The studies do not directly compare their models.
-
-[[index|Library home]]

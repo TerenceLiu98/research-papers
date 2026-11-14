@@ -104,5 +104,3 @@ All main comparisons use class-conditional ImageNet-256, 80 training epochs, bat
 - Yao, Yang, and Wang (2025), "Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models": studies why tokenizer reconstruction quality and downstream generation quality can diverge.
 - Yu et al. (2024), "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think": aligns diffusion features to an auxiliary representation encoder during training.
 - Leng et al. (2025), "REPA-E: Unlocking VAE for End-to-End Tuning of Latent Diffusion Transformers": supplies one of the tokenizer families evaluated by the paper.
-
-[[index|Library home]]

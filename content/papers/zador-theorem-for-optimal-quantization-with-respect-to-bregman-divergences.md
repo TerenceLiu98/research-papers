@@ -16,7 +16,6 @@ tags:
 
 Boutoille and Pagès extend [[concepts/zadors-theorem|Zador's Theorem]] to finite-dimensional optimal quantization under [[concepts/bregman-divergences|Bregman Divergences]]. Under smoothness, positive-definite Hessian, support, and integrability conditions, the optimal mean error has an $n^{-1/d}$ asymptotic scale whose constant combines the data density with the determinant of the potential's Hessian. A Bregman-specific firewall lemma supplies the crucial localization step for the lower bound. The paper also states a related result for continuous positive-definite matrix fields.
 
-[[index|Library home]]
 
 ## Research Question
 

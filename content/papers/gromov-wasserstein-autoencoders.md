@@ -16,7 +16,6 @@ tags:
   - trainable-priors
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

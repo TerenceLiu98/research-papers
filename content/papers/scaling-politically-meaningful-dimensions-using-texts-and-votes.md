@@ -94,5 +94,3 @@ The supplied Markdown omits explicit publication metadata and contains damaged f
 - [[papers/the-statistical-analysis-of-roll-call-data|The Statistical Analysis of Roll Call Data]]: cited Bayesian roll-call foundation and example of parsimonious latent scaling.
 - [[papers/dimensions-issues-and-bills-appropriations-voting-on-the-house-floor|Dimensions, Issues, and Bills: Appropriations Voting on the House Floor]]: cited motivation for using substantive issue information when interpreting political dimensions.
 - [[papers/tea-party-in-the-house-a-hierarchical-ideal-point-topic-model-and-its-application-to-republican-legislators-in-the-112th-congress|Tea Party in the House: A Hierarchical Ideal Point Topic Model and Its Application to Republican Legislators in the 112th Congress]]: a later library paper that cites this work as a foundation for topic-weighted issue positions.
-
-[[index|Library home]]

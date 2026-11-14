@@ -104,5 +104,3 @@ Per-protocol estimates, after excluding silent slots, are 1.58, 1.02, and 3.66 f
 - Costello, Pennycook, and Rand (2024), "Durably reducing conspiracy beliefs through dialogues with AI": cited evidence on a different persuasion setting and persistence outcome (reference 47).
 - Related Wiki reading, not a claimed citation: [[papers/multiple-ideal-points-revealed-preferences-in-different-domains|Multiple Ideal Points: Revealed Preferences in Different Domains]] formally models domain-specific positions on a shared scale; the present study uses separate role and issue comparisons.
 - Related Wiki reading, not a claimed citation: [[papers/source-framing-triggers-systematic-bias-in-large-language-models|Source framing triggers systematic bias in large language models]] tests context-dependent model judgments, rather than human attitude change.
-
-[[index|Library home]]

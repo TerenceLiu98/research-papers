@@ -87,5 +87,3 @@ The supplied Markdown does not state this paper's publication year, venue, DOI, 
 - Baronchelli et al. (2006), *Sharp transition towards shared vocabularies in multi-agent systems*, Journal of Statistical Mechanics, P06014 (source reference 35): the minimal naming-game baseline.
 - De Marzo, Castellano, and Garcia (2024), *AI agents can coordinate beyond human scale*, arXiv:2409.02822 (source reference 24): studies globally informed agents, a different information structure from local-memory coordination here.
 - [[papers/multi-agent-strategic-games-with-llms|Multi-Agent Strategic Games with LLMs]]: a library comparison, not a source citation, that also varies agent count in a controlled game but studies conflict rather than naming conventions.
-
-[[index|Library home]]

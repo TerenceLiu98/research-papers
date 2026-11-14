@@ -88,5 +88,3 @@ The supplied Markdown does not establish a publication year or stable identifier
 - Han et al. (2018), "FewRel: A large-scale supervised few-shot relation classification dataset with state-of-the-art evaluation."
 - Gross et al. (2025), "Tiny language models."
 - Tzach et al. (2025), "Learning mechanism underlying NLP pre-training and fine-tuning."
-
-[[index|Library home]]

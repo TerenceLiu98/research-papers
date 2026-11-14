@@ -91,5 +91,3 @@ The year comes from the manuscript date, 16 February 2024. The supplied Markdown
 - Gomez-Gardenes et al. (2012), "Evolution of cooperation in multiplex networks": cited multiplex-game foundation, listed twice in the source bibliography (references 34 and 38).
 - [[papers/involution-game-with-migration-and-spatial-heterogeneity-of-social-resources|Involution Game with Migration and Spatial Heterogeneity of Social Resources]]: library comparison, not a citation in this paper; couples strategy imitation to relocation rather than relationship-weight adaptation.
 - [[papers/a-model-of-long-term-conflict-resolution-and-cooperation|A Model of Long-Term Conflict Resolution and Cooperation]]: library comparison, not a citation in this paper; examines cooperation through imitation and contact opportunities in an intergroup intervention model.
-
-[[index|Library home]]

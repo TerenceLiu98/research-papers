@@ -79,5 +79,3 @@ The study uses one geographic benchmark and one neutral-ensemble source, exact h
 
 - [[papers/gerrymandering-and-geographic-polarization-have-reduced-electoral-competition|Gerrymandering and geographic polarization have reduced electoral competition]] separates enacted-map effects from changing political geography and declining competition across redistricting cycles.
 - [[papers/redistricting-reforms-reduce-gerrymandering-by-constraining-partisan-actors|Redistricting reforms reduce gerrymandering by constraining partisan actors]] studies how districting institutions restrict partisan mapmakers.
-
-[[index|Library home]]

@@ -97,5 +97,3 @@ The supplied Markdown omits an explicit publication year and stable paper identi
 - Chang et al. (2024), "Enhanced Short Text Modeling: Leveraging Large Language Models for Topic Refinement": post-hoc refinement contrasted with LLM-ITL's training regularizer.
 - Dieng, Ruiz, and Blei (2020), "Topic Modeling in Embedding Spaces": ETM base model used extensively in the ablations.
 - [[papers/neural-topic-modeling-via-contextual-and-graph-information-fusion|Neural Topic Modeling via Contextual and Graph Information Fusion]]: a library comparison that also separates coherence improvements from document-representation quality, using contextual and graph information rather than generated refinement targets; it is not a baseline in this paper.
-
-[[index|Library home]]

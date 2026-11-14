@@ -114,5 +114,3 @@ Section 5 describes 331 New Jersey and 79 eastern Pennsylvania fast-food restaur
 - Torous, Gunsilius, and Rigollet (2024), "An optimal transport approach to estimating causal effects via nonlinear difference-in-differences." The paper builds its testing layer on this transport-based identification perspective.
 - Gretton et al. (2012), "A kernel two-sample test." Supplies the RKHS discrepancy framework adapted to the estimated causal counterfactual.
 - [[papers/causal-inference-with-unstructured-outcomes|Causal Inference with Unstructured Outcomes]]: A thematic library connection, rather than a citation in this paper; it learns outcome features for causal contrasts under covariate adjustment, while this paper tests a transport-based distributional counterfactual in a DiD design.
-
-[[index|Library home]]

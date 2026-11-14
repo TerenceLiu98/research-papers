@@ -75,5 +75,3 @@ The scalability stress test reports that SCGFM is the only compared method to co
 - Peyre, Cuturi, and Solomon (2016), "Gromov-Wasserstein Averaging of Kernel and Distance Matrices": motivates the barycentric reconstruction setting that SCGFM approximates with a linear surrogate.
 - Vincent-Cuaz et al. (2021), "Online Graph Dictionary Learning": a related graph-dictionary approach distinguished by SCGFM's intrinsic structural bases.
 - Wang et al. (2025), "Multi-Domain Graph Foundation Models: Robust Knowledge Transfer via Topology Alignment": a cross-domain GFM baseline included in the supplementary comparison.
-
-[[index|Library home]]

@@ -96,5 +96,3 @@ The asymptotic approximations closely match the simulated biases and variances. 
 - Hansen and Lunde (2004), "Realized Variance and IID Market Microstructure Noise" and "An Unbiased Measure of Realized Variance": contemporaneous work on noise-robust realized variance.
 
 Source: DOI:10.1198/016214505000000169.
-
-[[index|Library home]]

@@ -17,7 +17,6 @@ tags:
   - variational-autoencoders
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

@@ -80,5 +80,3 @@ Reported results include:
 - Duan et al. (2022), "FactorVAE: A Probabilistic Dynamic Factor Model Based on Variational Autoencoder for Predicting Cross-Sectional Stock Returns": the principal VAE factor-model baseline.
 - Wei et al. (2023), "HireVAE: An Online and Adaptive Factor Model Based on Hierarchical and Regime-Switch VAE": an adaptive hierarchical VAE baseline.
 - Talukder, Yue, and Gkioxari (2024), "TOTEM: Tokenized Time Series Embeddings for General Time Series Analysis": applies vector quantization to general time-series representations.
-
-[[index|Library home]]

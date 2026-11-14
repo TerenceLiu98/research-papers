@@ -18,7 +18,6 @@ tags:
   - uncertainty-quantification
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

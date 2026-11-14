@@ -104,5 +104,3 @@ The paper attributes congressional voting data to Voteview. Findings are present
 - Xiao, Wang, and Xu (2024), "A note on standard errors for multidimensional two-parameter logistic models using Gaussian variational estimation": the cited uncertainty comparison motivating the surrogate-curvature concern.
 - Imai, Lo, and Olmsted (2016), "Fast estimation of ideal points with massive data": cited work on scalable ideal-point estimation.
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: a library comparison addressing temporal structure and informative nonresponse through Bayesian modeling; not a citation in this manuscript.
-
-[[index|Library home]]

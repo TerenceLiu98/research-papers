@@ -14,7 +14,6 @@ tags:
   - reinforcement-learning
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

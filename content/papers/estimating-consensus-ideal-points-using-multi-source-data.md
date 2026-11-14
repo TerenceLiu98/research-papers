@@ -95,5 +95,3 @@ The appendix compares CoMDS with PCA and MD2S in simulations involving nonlinear
 - Barber (2022), "Comparing Campaign Finance and Vote-Based Measures of Ideology": cited evidence that ideal-point measures can have weak within-party agreement.
 - [[papers/multiple-ideal-points-revealed-preferences-in-different-domains|Multiple Ideal Points: Revealed Preferences in Different Domains]]: cited joint model of shared and domain-specific legislative preferences.
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational Measurement of Political Positions: A Review of Text-Based Ideal Point Estimation Algorithms]]: related library synthesis of how textual sources and modeling choices affect political-position estimates; not identified as a citation in this manuscript.
-
-[[index|Library home]]

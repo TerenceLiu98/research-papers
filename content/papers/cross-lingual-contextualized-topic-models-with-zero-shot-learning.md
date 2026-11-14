@@ -21,7 +21,6 @@ tags:
 
 ZeroShotTM replaces the bag-of-words input to Neural-ProdLDA with multilingual Sentence-BERT document embeddings while retaining an English bag-of-words reconstruction target during training. Trained only on English Wikipedia abstracts, it assigns comparable documents in Italian, French, Portuguese, and German to similar English-language topics without translation or multilingual topic-model training. Its English topic coherence is comparable to the paper's neural baselines, and its cross-lingual predictions approach a machine-translation baseline on paired abstracts.
 
-[[index|Library home]]
 
 ## Research Question
 

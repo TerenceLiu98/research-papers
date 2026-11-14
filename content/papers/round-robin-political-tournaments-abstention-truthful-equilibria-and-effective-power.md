@@ -109,5 +109,3 @@ There is an assumption gap in the supplied text: Theorem 5 states only $\beta<1$
 - Felsenthal and Machover (1997), "Voting games with abstention": cited antecedent for ternary voting and extensions of power indices.
 - Parker (2012), "The influence relation for ternary voting games": cited for agreement among power rankings under linear voting rules.
 - [[papers/polarization-abstention-and-the-median-voter-theorem|Polarization, abstention, and the median voter theorem]]: a related Wiki paper in which abstention affects candidates' spatial positioning; the strategic actors and outcome objectives differ from this paper's voter-level tournament game.
-
-[[index|Library home]]

@@ -18,7 +18,6 @@ tags:
   - shape-analysis
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

@@ -75,5 +75,3 @@ Iterative negative sampling remains costly. Longer inference trajectories can co
 
 - [[papers/energy-based-transformers-are-scalable-learners-and-thinkers|Energy-Based Transformers are Scalable Learners and Thinkers]]: cited as learning energies through reconstruction losses over unrolled optimization; TEM instead uses contrastive learning with its own negatives.
 - [[papers/your-classifier-is-secretly-an-energy-based-model-and-you-should-treat-it-like-one|Your Classifier is Secretly an Energy Based Model and You Should Treat It Like One]]: cited precedent for connecting energy modeling and discriminative capabilities.
-
-[[index|Library home]]

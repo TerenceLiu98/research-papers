@@ -84,7 +84,6 @@ In the full sample, national selection and policy emphasis are negatively associ
 - Carey and Shugart (1995), "Incentives to cultivate a personal vote: A rank ordering of electoral formulas": the theoretical basis for the conditional district-magnitude hypothesis.
 - [[papers/power-to-the-parties-cohesion-and-competition-in-the-european-parliament-1979-2001|Power to the Parties: Cohesion and Competition in the European Parliament, 1979-2001]]: a library comparison studying behavioral cohesion through roll calls, rather than candidate preference dispersion; not a cited source in this paper.
 
-[[index|Library home]]
 
 ## Source Note
 

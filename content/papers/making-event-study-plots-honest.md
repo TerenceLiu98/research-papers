@@ -70,5 +70,3 @@ The first application revisits working-from-home potential and commuting distanc
 - Dette and Schumann (2024), "Testing for Equivalence of Pre-Trends in Difference-in-Differences Estimation": related equivalence testing for pre-trends.
 - Liebl and Reimherr (2023), "Fast and Fair Simultaneous Confidence Bands for Functional Parameters": provides the simultaneous-band machinery used for computationally efficient inference.
 - Fogarty and Small (2014), "Equivalence Testing for Functional Data with an Application to Comparing Pulmonary Function Devices": supplies the pointwise functional-equivalence comparison used in the simulations.
-
-[[index|Library home]]

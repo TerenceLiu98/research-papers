@@ -88,5 +88,3 @@ GSI intervals are shorter than both split conformal prediction and conformalized
 - Farquhar et al. (2024), "Detecting hallucinations in large language models using semantic entropy": candidate-diversity baseline.
 - Gui, Jin, and Ren (2024), "Conformal alignment: Knowing when to trust foundation models with guarantees": detection and selection baseline.
 - Jin and Candes (2023), "Selection by prediction with conformal p-values": selection procedure used in the captioning application.
-
-[[index|Library home]]

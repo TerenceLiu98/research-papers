@@ -97,5 +97,3 @@ Reported patterns include:
 - [[papers/nowcasting-economic-activity-in-european-regions-using-a-mixed-frequency-dynamic-factor-model|Nowcasting economic activity in European regions using a mixed-frequency dynamic factor model]]: library comparison using latent-factor rather than MIDAS compression for mixed-frequency nowcasting.
 
 Source: arXiv:2402.10574v2.
-
-[[index|Library home]]

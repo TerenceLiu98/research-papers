@@ -79,5 +79,3 @@ The authors also stress that the collection is weighted toward the United States
 - Stewart, Plotkin, and McCarty (2021), "Inequality, identity, and partisanship: How redistribution can stem the tide of mass polarization."
 - [[Political Polarization as a Co-Adaptive Process]]
 - [[Symmetry Breaking, Hysteresis, and Convergence to the Mean Voter in two-party Spatial Competition]]
-
-[[index|Library home]]

@@ -108,5 +108,3 @@ Appendix A.3 recommends $1\leq\lambda\leq10$. Its House results worsen substanti
 - Gerrish and Blei (2011), *Predicting legislative roll calls from text*: cited work that predicts bill parameters from text, addressing a different prediction target.
 - Ramage et al. (2009), *Labeled LDA: A supervised topic model for credit attribution in multi-labeled corpora*: cited inspiration for named topic representations.
 - Cox and McCubbins (1993, 2005): cited accounts of party control of legislative procedure used to interpret procedural offsets.
-
-[[index|Library home]]

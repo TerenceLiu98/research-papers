@@ -85,5 +85,3 @@ GIFT-Eval covers 97 tasks from 28 source datasets. MASE and CRPS are normalized 
 - [[papers/a-decoder-only-foundation-model-for-time-series-forecasting|A Decoder-Only Foundation Model for Time-Series Forecasting]]: the cited TimesFM predecessor uses fixed input patches and larger output patches.
 - [[papers/moirai-moe-empowering-time-series-foundation-models-with-sparse-mixture-of-experts|MOIRAI-MOE]]: cited sparse-expert time-series modeling; KAIROS places adaptive expert selection in granularity encoding.
 - Pathformer (Chen et al., 2024): the cited sequence-level multiscale routing comparison; KAIROS routes within individual segments.
-
-[[index|Library home]]

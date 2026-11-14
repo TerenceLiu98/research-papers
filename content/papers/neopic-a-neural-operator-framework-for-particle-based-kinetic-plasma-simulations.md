@@ -90,5 +90,3 @@ The analysis assumes regularity of the continuum and learned field operators and
 - Evstatiev and Shadwick, "Variational Formulation of Particle Algorithms for Kinetic Plasma Simulations": provides relevant structure-preserving particle-method context.
 
 Source: supplied parsed Markdown for Cognitio job `b066fcb2-9924-4203-8f64-b6e9ac203b52`.
-
-[[index|Library home]]

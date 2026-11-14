@@ -91,5 +91,3 @@ The YOP analysis uses homoskedastic individual-level standard errors even though
 - Jerzak, Johansson, and Daoud (2023), "Image-based treatment effect heterogeneity."
 - VanderWeele and Robins (2007), "Four types of effect modification: a classification based on directed acyclic graphs."
 - Tsamardinos, Aliferis, Statnikov, and Statnikov (2003), "Algorithms for large scale Markov blanket discovery."
-
-[[index|Library home]]

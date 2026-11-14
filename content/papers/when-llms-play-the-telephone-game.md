@@ -73,5 +73,3 @@ The supplied Markdown does not establish a publication year or a stable paper id
 
 - Acerbi and Stubbersfield (2023), “Large language models show human-like content biases in transmission chain experiments,” is a direct precursor cited by the authors.
 - [[papers/regurgitative-training-the-value-of-real-data-in-training-large-language-models|Regurgitative Training: The Value of Real Data in Training Large Language Models]] studies synthetic-output feedback through parameter updates; the present paper studies feedback through inference inputs.
-
-[[index|Library home]]

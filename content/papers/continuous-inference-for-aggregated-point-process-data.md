@@ -111,5 +111,3 @@ Fit plots are strongest for the Conservatives and more dispersed for Labour. Lib
 - Taylor et al. (2015), "Bayesian inference and data augmentation schemes for spatial, spatiotemporal and multivariate log-Gaussian Cox processes in R": cited augmentation and computational foundation.
 - [[papers/spatial-latent-gaussian-modelling-with-change-of-support|Spatial Latent Gaussian Modelling with Change of Support]]: related library work on joint support-aware response and predictor modeling with spline fields; a thematic connection, not a citation in this 2018 paper.
 - [[papers/bayesian-spatial-disaggregation-modeling-for-the-detection-of-disease-clusters|Bayesian spatial disaggregation modeling for the detection of disease clusters]]: related library application using INLA-SPDE and exceedance-based cluster detection rather than multinomial count augmentation.
-
-[[index|Library home]]

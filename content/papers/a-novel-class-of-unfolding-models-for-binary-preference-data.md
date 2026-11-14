@@ -70,5 +70,3 @@ Blocked WAIC, on the conventional lower-is-better scale, favors probit unfolding
 - [[papers/logit-unfolding-choice-models-for-binary-data|Logit unfolding choice models for binary data]]: the library's subsequent treatment of the Gumbel-shock formulation.
 
 Source: [paper DOI](https://doi.org/10.1017/pan.2024.11). Replication data and code: [Dataverse](https://doi.org/10.7910/DVN/SVBF5T).
-
-[[index|Library home]]

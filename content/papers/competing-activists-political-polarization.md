@@ -80,5 +80,3 @@ The numerical examples use small opinion chains and selected parameter values. T
 - [[papers/why-are-us-parties-so-polarized-a-satisficing-dynamical-model|Why are U.S. parties so polarized? A satisficing dynamical model]]
 - [[papers/a-modified-hegselmann-krause-model-for-interacting-voters-and-political-parties|A modified Hegselmann-Krause model for interacting voters and political parties]]
 - [[papers/polarization-abstention-and-the-median-voter-theorem|Polarization, Abstention, and the Median Voter Theorem]]
-
-[[index|Library home]]

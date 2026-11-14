@@ -85,5 +85,3 @@ Spillover estimates for incumbent faculty are modestly positive but not robust a
 - [[papers/science-under-sanctions-the-impact-of-the-entity-list-on-chinese-academic-research|Science under sanctions: The impact of the entity list on Chinese academic research]]: another staggered institutional study of how policy changes reshape Chinese researchers' output and collaboration.
 
 Publication metadata: *The Economic Journal*, 136, 1394-1439. Advance access published September 29, 2025. [DOI](https://doi.org/10.1093/ej/ueaf093).
-
-[[index|Library home]]

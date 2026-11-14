@@ -74,5 +74,3 @@ Controls support a predictor-specific effect. On ImageNet-9 at $K=0.77$, applyin
 - Bansal, Nakkiran, and Barak (2021), "Revisiting Model Stitching to Compare Neural Representations": motivates the use of a small learned map between frozen representation spaces (reference [7]).
 - [[papers/proving-and-improving-the-platonic-representation-hypothesis-with-jepas|Proving and Improving the Platonic Representation Hypothesis with JEPAs]] studies when separately trained JEPA representations align, whereas this paper fits an explicit ridge bridge to reuse a predictor across encoder families.
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]] analyzes latent recovery and planning under restricted population assumptions; the present paper instead evaluates predictor reuse for discriminative completion.
-
-[[index|Library home]]

@@ -84,5 +84,3 @@ After the latent space is trained, the frozen visual backbone and feature encode
 - Yao, Yang, and Wang (2025), "Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models": introduces VA-VAE, a principal reconstruction and generation baseline.
 - Yu et al. (2024), "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think," arXiv:2410.06940: aligns intermediate diffusion features to pretrained visual representations rather than reconstructing those representations through a compact latent.
 - [[papers/improved-baselines-with-representation-autoencoders|Improved Baselines with Representation Autoencoders]]: a related approach that improves high-dimensional representation latents through multi-layer feature aggregation and internal representation guidance.
-
-[[index|Library home]]

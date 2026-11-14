@@ -90,5 +90,3 @@ The regressions explain a limited share of polarization, and much variation occu
 - Shugart and Taagepera (2017), *Votes from Seats: Logical Models of Electoral Systems*.
 - Andrews and Money (2009), "The spatial structure of party competition: Party dispersion within a finite policy space."
 - [[Symmetry Breaking, Hysteresis, and Convergence to the Mean Voter in two-party Spatial Competition]]
-
-[[index|Library home]]

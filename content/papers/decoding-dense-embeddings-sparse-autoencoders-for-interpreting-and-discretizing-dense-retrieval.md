@@ -70,5 +70,3 @@ The mismatch analysis selects 988 MS MARCO Dev queries for which BM25 misses the
 - Formal et al. (2021), "SPLADE v2: Sparse lexical and expansion model for information retrieval": provides the principal neural sparse baseline.
 - Bussmann et al. (2024), "BatchTopK Sparse Autoencoders": supplies the SAE training mechanism.
 - Llordes et al. (2023), "Interpreting neural ranking models using discrete state-space search": provides a term-level proxy explanation approach for comparison.
-
-[[index|Library home]]

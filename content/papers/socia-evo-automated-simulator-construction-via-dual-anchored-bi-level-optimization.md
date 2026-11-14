@@ -110,5 +110,3 @@ Additional library connections, not presented as citations made by SOCIA-EVO:
 
 - [[papers/frontis-ma1-training-an-ai4ai-model-towards-recursive-self-improvement-in-machine-learning-engineering|Frontis-MA1]] also uses execution records to guide program evolution, while additionally training program-transformation operators.
 - [[papers/llm-based-social-simulations-require-a-boundary|LLM-Based Social Simulations Require a Boundary]] explains why validation measures and demonstrated heterogeneity constrain claims made from simulated populations.
-
-[[index|Library home]]

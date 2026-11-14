@@ -77,5 +77,3 @@ Street-view capture dates do not perfectly align with the 2014-2019 crash period
 - Wang et al. (2024), "Geographically Weighted Machine Learning for Modeling Spatial Heterogeneity in Traffic Crash Frequency and Determinants in US."
 - Fan and Biljecki (2024), "Nighttime Street View Imagery: A New Perspective for Sensing Urban Lighting Landscape."
 - Ye et al. (2024), "Generated Nighttime Street View Image to Inform Perceived Safety Divergence Between Day and Night in High Density Cities: A Case Study in Hong Kong."
-
-[[index|Library home]]

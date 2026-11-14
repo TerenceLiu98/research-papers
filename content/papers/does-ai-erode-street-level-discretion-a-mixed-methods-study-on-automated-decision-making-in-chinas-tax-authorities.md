@@ -82,5 +82,3 @@ The DOI above appears in the source's supplementary-data statement. Publication 
 - de Boer and Raaphorst (2023), "Automation and discretion: Explaining the effect of automation on how street-level bureaucrats enforce." Cited evidence relevant to the curtailment hypothesis.
 - Wang, Xie, and Li (2024), "Artificial intelligence, types of decisions, and street-level bureaucrats: Evidence from a survey experiment." Cited experimental precedent for the design and discussion of contextual differences.
 - Dogruel, Masur, and Joeckel (2022), "Development and validation of an algorithm literacy scale for internet users." A cited measurement source adapted to public-sector decision-making.
-
-[[index|Library home]]

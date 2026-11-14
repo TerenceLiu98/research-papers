@@ -20,7 +20,6 @@ tags:
 
 Analyzing 25 English Government Work Reports from 2001–2025, Ma and Crosthwaite interpret China's projected national image as moving through global integration, domestic stabilization, and global engagement. Their [[concepts/corpus-assisted-discourse-studies|Corpus-Assisted Discourse Studies]] approach combines comparative keyword statistics with collocations and contextual readings. The findings concern official self-representation, rather than measured international perceptions.
 
-[[index|Library home]]
 
 ## Research Question
 

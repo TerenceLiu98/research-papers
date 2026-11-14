@@ -109,5 +109,3 @@ The empirical distributions establish possible behavior for observed opinion pro
 - Adams, Dow, and Merrill III (2006), "The political consequences of alienation-based and indifference-based voter abstention: applications to presidential elections": cited antecedent for abstention mechanisms.
 - [[papers/a-computational-model-of-spatial-politics-hotelling-downs-model-as-statistical-physics|A computational model of spatial politics: Hotelling-Downs model as statistical physics]]: a related Wiki paper using distance-sensitive turnout, activist weighting, and multiple parties.
 - [[papers/beyond-the-median-voter-a-model-of-how-the-ideological-dimension-shapes-party-polarization|Beyond the median voter: A model of how the ideological dimension shapes party polarization]]: a related Wiki paper studying ideological dimension in a satisficing model.
-
-[[index|Library home]]

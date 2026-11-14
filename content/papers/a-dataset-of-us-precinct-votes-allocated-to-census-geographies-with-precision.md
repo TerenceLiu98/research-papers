@@ -85,5 +85,3 @@ The data are archived on Harvard Dataverse under DOI `10.7910/DVN/Z8TSH3`, and t
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: Provides geometry-based diagnostics and a broad comparison of methods for transferring data between incompatible spatial supports.
 - Swanwick et al. (2022), "Dasymetric Population Mapping Based on US Census Data and 30-m Gridded Estimates of Impervious Surface": Supplies the impervious-surface alternative evaluated in this paper.
 - Zandbergen and Ignizio (2010), "Comparison of Dasymetric Mapping Techniques for Small-Area Population Estimates": Reviews and compares land-cover-based small-area population allocation approaches cited by the paper.
-
-[[index|Library home]]

@@ -97,5 +97,3 @@ A second exercise fixes $\kappa$ and $\lambda$ at their estimated values. Althou
 - Clayton and Kaldor (1987), "Empirical Bayes estimates of age-standardized relative risks for use in disease mapping": cited predecessor in spatial risk estimation.
 - Künsch (1987), "Intrinsic autoregressions and related models on the two-dimensional lattice": cited background for the intrinsic spatial prior.
 - [[papers/bayesian-spatial-disaggregation-modeling-for-the-detection-of-disease-clusters|Bayesian spatial disaggregation modeling for the detection of disease clusters]]: a related library paper that uses the structured-plus-independent areal model as a reference for continuous spatial disaggregation.
-
-[[index|Library home]]

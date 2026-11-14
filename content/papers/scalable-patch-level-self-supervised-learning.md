@@ -17,7 +17,6 @@ tags:
   - dense-prediction
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

@@ -112,5 +112,3 @@ On the balanced reference-free prose sample, JEV, GPT-4.1 mini, and GPT-5.4 scor
 - Chen, Zaharia, and Zou (2024), "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance": cited background on economical cascades.
 - [[papers/measuring-scalar-constructs-in-social-science-with-llms|Measuring Scalar Constructs in Social Science with LLMs]]: related library work on judgment distributions, presentation averaging, and imperfect human reference labels; not cited in the supplied manuscript.
 - [[papers/polistemics-evaluating-llms-as-information-mediators-in-politics-and-elections|Polistemics: Evaluating LLMs as Information Mediators in Politics & Elections]]: related library evidence on reliability under missing or imperfect evidence, in a different evaluation domain; not cited in this manuscript.
-
-[[index|Library home]]

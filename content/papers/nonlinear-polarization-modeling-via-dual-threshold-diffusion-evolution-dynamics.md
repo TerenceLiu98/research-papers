@@ -72,5 +72,3 @@ Some social interpretations go beyond what the simulation identifies. In particu
 - Baumann et al. (2020), "Modeling echo chambers and polarization dynamics in social networks."
 - Holme and Newman (2006), "Nonequilibrium phase transition in the coevolution of networks and opinions."
 - Zhang et al. (2024), "Diffusion models are evolutionary algorithms."
-
-[[index|Library home]]

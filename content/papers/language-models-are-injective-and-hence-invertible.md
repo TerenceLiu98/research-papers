@@ -70,5 +70,3 @@ SIPIT requires white-box model access and the complete per-position hidden-state
 - Morris et al. (2023), "Language Model Inversion": studies reconstruction from next-token distributions rather than internal hidden-state sequences.
 - Nazir et al. (2025), "Better Language Model Inversion by Compactly Representing Next-Token Distributions": improves inversion from output distributions.
 - Thomas et al. (2025), "Sequential Prompt Inversion": sequentially ranks token candidates from hidden states without the paper's injectivity guarantee.
-
-[[index|Library home]]

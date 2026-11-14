@@ -92,5 +92,3 @@ On ICEWS14 with one hyperbolic component, dimension 40, and curvature $-1$, the 
 - Goel et al. (2020), "Diachronic Embedding for Temporal Knowledge Graph Completion": a contemporary temporal embedding approach discussed by the paper but not included in its reported baseline table.
 
 Publication metadata: EMNLP 2020, ACL Anthology ID 2020.emnlp-main.593, DOI 10.18653/v1/2020.emnlp-main.593.
-
-[[index|Library home]]

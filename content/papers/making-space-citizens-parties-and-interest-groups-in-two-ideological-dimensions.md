@@ -79,5 +79,3 @@ Comparability is imperfect because experts place parties while representatives p
 - Rasmussen and Reher (2019), "Civil society engagement and policy representation in Europe."
 - [[Electoral systems and ideological voting]]
 - [[Beyond the median voter: A model of how the ideological dimension shapes party polarization]]
-
-[[index|Library home]]

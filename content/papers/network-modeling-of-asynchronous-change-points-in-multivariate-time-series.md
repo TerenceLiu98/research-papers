@@ -104,5 +104,3 @@ These relationships are described in the manuscript's introduction and methods:
 - Whiteley, Andrieu, and Doucet (2011), "Bayesian Computational Methods for Inference in Multiple Change-points Models": particle MCMC foundation.
 - Fearnhead and Liu (2007), "On-Line Inference for Multiple Changepoint Problems": discrete particle filtering and resampling foundation.
 - Xie, Xie, and Moustakides (2019), "Asynchronous Multi-Sensor Change-Point Detection for Seismic Tremors": a related frequentist treatment of delayed seismic changes.
-
-[[index|Library home]]

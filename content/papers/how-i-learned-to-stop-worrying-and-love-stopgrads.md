@@ -94,5 +94,3 @@ Peak memory falls from 64.6 to 31.2 GiB for ESD versus slim ESD and from 60.8 to
 - Boffi, Albergo, and Vanden-Eijnden (2024), "Flow Map Matching": introduces the ESD and LSD families whose stop-gradient placement is revised here.
 - Geng et al. (2025), "Improved Mean Flows: On the Challenges of Fastforward Generative Models": introduces improved MeanFlow, whose stationary point and conditional convergence are characterized here.
 - Sutton and Barto (2018), "Reinforcement Learning: An Introduction": supplies the semi-gradient terminology and TD-learning context generalized by the paper.
-
-[[index|Library home]]

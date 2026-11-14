@@ -93,5 +93,3 @@ The appendix reports additional ACIC 2016 and IHDP results. On IHDP, IWDD has th
 - [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]]: replaces unstable density-ratio weighting with geometric covariate transport for average causal effects under limited overlap.
 - Ma et al. (2024), "DiffPO: A Causal Diffusion Model for Learning Distributions of Potential Outcomes": the principal diffusion-based causal baseline discussed and evaluated by the manuscript.
 - Zhou et al. (2024), "Score Identity Distillation: Exponentially Fast Distillation of Pretrained Diffusion Models for One-Step Generation": supplies the Fisher-divergence distillation strategy adapted by IWDD.
-
-[[index|Library home]]

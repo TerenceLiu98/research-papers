@@ -108,5 +108,3 @@ The following works are cited in the supplied paper:
 - Cui, Huang, and Wang (2023), "The impact of air quality on innovation activities in China": city-level innovation evidence contrasted with individual scholar outcomes.
 - Holub and Thies (2023), "Air quality, high-skilled worker productivity and adaptation: evidence from GitHub": a related high-skill application using daily software-development activity.
 - Barwick et al. (2024), "From fog to smog: the value of pollution information": informs the auxiliary information-disclosure identification strategy.
-
-[[index|Library home]]

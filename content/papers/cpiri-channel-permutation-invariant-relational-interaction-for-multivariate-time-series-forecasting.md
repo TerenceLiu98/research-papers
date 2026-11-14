@@ -103,5 +103,3 @@ CPiRi has the lowest listed WAPE on five of six datasets. It does not uniformly 
 - Liu et al. (2025), "Sundial: A Family of Highly Capable Time Series Foundation Models": the cited frozen temporal backbone.
 - Liu et al. (2024), "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting": a cited cross-channel baseline that also passes the reported permutation test.
 - Zaheer et al. (2017), "Deep Sets": cited motivation for permutation-aware set functions.
-
-[[index|Library home]]

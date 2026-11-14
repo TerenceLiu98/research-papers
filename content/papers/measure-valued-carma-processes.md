@@ -84,5 +84,3 @@ The reported results are theorems and formulas: existence and cone invariance of
 - [[papers/dynamics-of-measure-valued-agents-in-the-space-of-probabilities|Dynamics of Measure-Valued Agents in the Space of Probabilities]]: a contrasting library treatment of measure-valued evolution through Wasserstein barycenters and differential inclusions.
 
 Source: supplied manuscript; no stable identifier or publication year appears in the parsed text.
-
-[[index|Library home]]

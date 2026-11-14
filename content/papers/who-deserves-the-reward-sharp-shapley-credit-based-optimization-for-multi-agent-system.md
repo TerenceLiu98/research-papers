@@ -105,5 +105,3 @@ Coordination analysis reports a planner score of 0.5084 for SHARP, versus 0.4542
 - Hong et al. (2025), "Multi-Agent Deep Research: Training Multi-Agent Systems with M-GRPO": extends group-relative optimization to multi-agent research systems.
 - Shao et al. (2024), "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models": provides the GRPO foundation used for SHARP's group-relative updates.
 - Motwani et al. (2024), "MALT: Improving Reasoning with Multi-Agent LLM Training": prior work on training multi-agent language-model systems.
-
-[[index|Library home]]

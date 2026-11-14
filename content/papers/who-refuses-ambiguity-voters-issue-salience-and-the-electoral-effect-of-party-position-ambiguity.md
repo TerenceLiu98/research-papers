@@ -69,5 +69,3 @@ The paper reports similar main findings when separating EES waves, using OLS, ch
 ## Related Papers
 
 - [[papers/strategic-ambiguity-of-party-positions-in-multi-party-competition|Strategic Ambiguity of Party Positions in Multi-Party Competition]]: cited by Han; models how ambiguity helps leaders balance voters and party members and measures manifesto dispersion. Han instead studies issue-specific expert disagreement and variation in voter responses by salience.
-
-[[index|Library home]]

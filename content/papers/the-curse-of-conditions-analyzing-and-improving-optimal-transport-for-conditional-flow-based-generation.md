@@ -107,5 +107,3 @@ Condition constraints reduce the effective OT batch size. C^2OT consequently com
 - [[papers/wasserstein-flow-matching-generative-modeling-over-families-of-distributions|Wasserstein Flow Matching: Generative Modeling Over Families of Distributions]]: uses inner optimal maps to construct paths between distribution-valued observations.
 
 Source: supplied parsed manuscript, Cognitio job `73ac368e-5fd4-41a7-a68c-8d4a2b2ea97a`. Publication year, venue, and stable paper identifier are not stated in the supplied text.
-
-[[index|Library home]]

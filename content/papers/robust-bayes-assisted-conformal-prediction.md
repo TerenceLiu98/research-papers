@@ -75,5 +75,3 @@ For UTKFaces out-of-distribution data, reported RoBAS widths range from 2.452 to
 - Fong and Holmes (2021), "Conformal Bayesian Computation": develops posterior-predictive conformal scoring with add-one-in importance sampling.
 - Bersson and Hoff (2024), "Optimal Conformal Prediction for Small Areas": gives a Normal-Normal-Gamma working model and closed-form prediction intervals.
 - Tibshirani et al. (2019), "Conformal Prediction Under Covariate Shift": addresses coverage, rather than efficiency, when calibration and test distributions differ.
-
-[[index|Library home]]

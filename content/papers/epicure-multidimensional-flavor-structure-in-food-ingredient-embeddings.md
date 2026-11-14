@@ -73,5 +73,3 @@ References discussed in the supplied paper:
 - Ahn et al. (2011), "Flavor Network and the Principles of Food Pairing": establishes network structure in ingredient-compound and recipe data.
 - Haussmann et al. (2019), "FoodKG: A Semantics-Driven Knowledge Graph for Food Recommendation": represents an ontology- and knowledge-graph-based alternative.
 - Bagler and Goel (2024), "Computational Gastronomy: Capturing Culinary Creativity by Making Food Computable": situates the broader research program.
-
-[[index|Library home]]

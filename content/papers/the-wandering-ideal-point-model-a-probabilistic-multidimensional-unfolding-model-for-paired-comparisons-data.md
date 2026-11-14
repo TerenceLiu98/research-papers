@@ -94,5 +94,3 @@ The empirical application contains only one aggregated paired-comparison matrix 
 - De Soete and Carroll (1983), "A maximum likelihood method for fitting the wandering vector model": supplies the related estimation framework.
 - Zinnes and Griggs (1974), "Probabilistic, multidimensional unfolding analysis": develops the principal probabilistic unfolding model used for comparison.
 - Rumelhart and Greeno (1971), "Similarity between stimuli: An experimental test of the Luce and Restle choice models": provides the paired-comparison data.
-
-[[index|Library home]]

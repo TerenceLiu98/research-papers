@@ -75,5 +75,3 @@ Hierarchy capacities and depth remain predefined. Evaluation covers cooperative 
 - Liu and Li (2025), “HYGMA: Hypergraph coordination networks with dynamic grouping for multi-agent reinforcement learning”: dynamic grouping baseline.
 - Wang et al. (2023), “Hierarchical attention master–slave for heterogeneous multiagent reinforcement learning”: hierarchical communication comparator.
 - [[papers/ma-jepa-joint-embedding-world-models-for-multi-agent-reinforcement-learning|MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning]]: a related library paper addressing cooperative partial observability through centralized world-model training and local execution, rather than HHC's execution-time communication; not an HHC experimental comparator.
-
-[[index|Library home]]

@@ -103,5 +103,3 @@ Forecasting and imputation add a flow-matching guidance gradient that enforces c
 - [[papers/diff-mn-diffusion-parameterized-moe-ncde-for-continuous-time-series-generation-with-irregular-observations|Diff-MN: Diffusion Parameterized MoE-NCDE for Continuous Time Series Generation with Irregular Observations]]: combines expert dynamics with diffusion for irregular and continuous-time generation, using soft sequence-specific mixtures rather than PrismFlow's hard residual routing.
 - Kim et al. (2025), "Sequence Modeling with Spectral Mean Flows": the flow-based baseline denoted SMF in the experiments, cited as arXiv:2510.15366.
 - Adrien Cortés, Rémi Rehm, and Victor Letzelter (2025), "Winner-Takes-All for Multivariate Probabilistic Time Series Forecasting": the output-diversity method contrasted with PrismFlow's estimator-level residual specialization, cited as arXiv:2506.05515.
-
-[[index|Library home]]

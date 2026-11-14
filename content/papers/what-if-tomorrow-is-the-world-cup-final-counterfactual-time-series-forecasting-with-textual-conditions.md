@@ -20,7 +20,6 @@ tags:
 
 TADIFF forecasts time series under natural-language descriptions of factual or hypothetical future conditions. It uses a condition-aware diffusion inversion to derive a history-dependent initial state, then denoises from that state under the future text. A separate contrastive model, DTTC, scores preservation of historical features and alignment with future text when no counterfactual outcome is observable. Experiments report strong factual and counterfactual scores, but counterfactual evaluation remains model-based rather than ground-truth validation.
 
-[[index|Library home]]
 
 ## Research Question
 
@@ -84,4 +83,3 @@ Removing text attribution worsens every displayed factual and counterfactual met
 - [[papers/time-llm-time-series-forecasting-by-reprogramming-large-language-models|TIME-LLM: Time Series Forecasting by Reprogramming Large Language Models]]: uses textual dataset, task, and observed-history prompts rather than descriptions of alternative future conditions.
 - Melnychuk, Frauen, and Feuerriegel (2022), "Causal Transformer for Estimating Counterfactual Outcomes": a cited structured-treatment counterfactual forecasting baseline.
 - Xu, Wang, and Xu (2024), "Intervention-Aware Forecasting: Breaking Historical Limits from a System Perspective": a cited future-intervention forecasting method and source of the Weather data protocol.
-

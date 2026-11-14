@@ -94,5 +94,3 @@ The scalability study uses four teammates, six actions each, and one, three, six
 - Hollender, Maystre, and Nagarajan (2025), "The Complexity of Two-Team Polymatrix Games with Independent Adversaries": related complexity results in a pairwise-utility setting (reference [15]).
 - Kalogiannis et al. (2023), "Efficiently Computing Nash Equilibria in Adversarial Team Markov Games": a sequential setting motivating future extensions (reference [16]).
 - Govindan and Wilson (2004), "Computing Nash equilibria by iterated polymatrix approximation": the IPA comparison method (reference [12]).
-
-[[index|Library home]]

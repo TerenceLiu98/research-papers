@@ -85,5 +85,3 @@ The supplied Markdown contains damaged mathematical notation and no unambiguous 
 - [[papers/measuring-optimal-transport-in-transformer-depth|Measuring Optimal Transport in Transformer Depth]]: a complementary library connection testing minimum-cost layer transitions empirically in transformers, rather than deriving ideal DAE dynamics.
 - Alain and Bengio (2014), *What regularized auto-encoders learn from the data generating distribution*: the cited precursor for the population denoising formula.
 - Vincent et al. (2010), *Stacked denoising autoencoders*: the cited stacking procedure analyzed here.
-
-[[index|Library home]]

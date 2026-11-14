@@ -92,5 +92,3 @@ The supplied Markdown does not state a publication year or a stable paper identi
 - Belrose et al., *Eliciting Latent Predictions from Transformers with the Tuned Lens*, cited for affine intermediate-to-vocabulary readouts.
 
 [Author-provided code](https://github.com/marek357/activation-transport-operators).
-
-[[index|Library home]]

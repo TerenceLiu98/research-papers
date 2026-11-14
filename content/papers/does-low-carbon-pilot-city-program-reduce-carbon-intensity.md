@@ -77,5 +77,3 @@ The paper interprets the short-run increase as potentially arising from energy-i
 - Abadie, Diamond, and Hainmueller (2010), "Synthetic Control Methods for Comparative Case Studies": motivates the paper's placebo analysis.
 - Viard and Fu (2015), "The Effect of Beijing's Driving Restrictions on Pollution and Economic Activity": illustrates a contemporaneous local policy that could affect carbon outcomes.
 - [[papers/the-spatial-difference-in-difference-measurement-of-policy-effect-of-environmental-protection-interview-on-green-innovation|The Spatial Difference-in-Difference Measurement of Policy Effect of Environmental Protection Interview on Green Innovation]]: another evaluation of Chinese city-level environmental policy that explicitly models geographic spillovers.
-
-[[index|Library home]]

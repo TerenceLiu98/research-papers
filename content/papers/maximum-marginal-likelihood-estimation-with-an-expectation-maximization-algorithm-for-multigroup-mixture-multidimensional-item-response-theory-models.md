@@ -100,5 +100,3 @@ NA denotes not applicable. The author characterizes recovery as reasonable overa
 - von Davier and Yamamoto (2004), "Partially observed mixtures of IRT models: An extension of the generalized partial credit model": cited precursor extended by this report.
 - [[papers/generalized-full-information-item-bifactor-analysis|Generalized Full-Information Item Bifactor Analysis]]: library comparison using bifactor structure to reduce integration costs; not a cited work in this report.
 - [[papers/fast-estimation-of-multiple-group-generalized-linear-latent-variable-models-for-categorical-observed-variables|Fast estimation of multiple group generalized linear latent variable models for categorical observed variables]]: later library comparison using second-order Laplace approximation for multigroup estimation, not cited by this 2019 report.
-
-[[index|Library home]]

@@ -99,5 +99,3 @@ The supplied mathematical text has inconsistencies: Equation 1 normalizes its to
 - Wu et al. (2023), "Effective Neural Topic Modeling with Embedding Clustering Regularization": supplies the ECRTM base and word-topic regularizer.
 - Quan et al. (2015), "Short and Sparse Text Topic Modeling via Self-Aggregation": earlier aggregation approach discussed in the paper.
 - [[papers/neural-topic-modeling-via-contextual-and-graph-information-fusion|Neural Topic Modeling via Contextual and Graph Information Fusion]] is a related library paper that combines contextual document views and word graphs; it is not a reported GloCOM baseline.
-
-[[index|Library home]]

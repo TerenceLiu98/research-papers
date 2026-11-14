@@ -96,5 +96,3 @@ Several evaluations use synthetic Bayesian networks or deliberately constructed 
 - Dominici et al. (2025), "Causal Concept Graph Models: Beyond Causal Opacity in Deep Learning": another graph-structured concept approach discussed as learning associations rather than causal relations.
 - Moreira et al. (2024), "DiConStruct: Causal Concept-Based Explanations through Black-Box Distillation": learns post-hoc causal explanations of an opaque predictor.
 - [[Toward Causal Representation Learning]]: motivates causal variables and mechanisms as inductive structure for robust representation learning.
-
-[[index|Library home]]

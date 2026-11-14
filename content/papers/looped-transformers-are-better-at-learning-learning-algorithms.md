@@ -81,5 +81,3 @@ Distribution shifts reveal mixed behavior: skewed covariance and noisy outputs c
 The source builds on Garg et al. (2022), *What Can Transformers Learn In-Context? A Case Study of Simple Function Classes*, and contrasts with the linear-attention gradient-descent analysis of von Oswald et al. (2022), *Transformers Learn In-Context by Gradient Descent*. It cites Dehghani et al. (2018), *Universal Transformers*, and Bai et al. (2019), *Deep Equilibrium Models*, for recurrent computation and fixed-point modeling.
 
 [[papers/recurrent-looped-transformer|Recurrent Looped Transformer]] is related library reading: it recurs across ordinary tokens, whereas this paper repeatedly processes a fixed prompt across depth. This is a conceptual comparison, not a claimed source citation.
-
-[[index|Library home]]

@@ -81,5 +81,3 @@ The open-weight failures point to convergence problems. Of 23 Qwen timeouts, 43.
 - Deng et al. (2024), "LLMs at the Bargaining Table": cited work on bilateral LLM negotiation.
 - Zhu et al. (2025), "The Automated but Risky Game: Modeling Agent-to-Agent Negotiations and Transactions in Consumer Markets": cited work emphasizing negotiation risk in restricted consumer settings.
 - Lewis et al. (2017), "Deal or No Deal? End-to-End Learning for Negotiation Dialogues": foundational cited work on learned negotiation dialogue.
-
-[[index|Library home]]

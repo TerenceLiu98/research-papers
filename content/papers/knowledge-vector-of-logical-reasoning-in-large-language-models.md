@@ -79,5 +79,3 @@ Related library reading, without implying citation by this paper:
 
 - [[papers/truth-as-a-trajectory-what-internal-representations-reveal-about-large-language-model-reasoning|Truth as a Trajectory: What Internal Representations Reveal About Large Language Model Reasoning]]: replaces a single static direction with ordered residual-stream trajectories for reasoning-validity prediction.
 - [[papers/manifold-steering-reveals-the-shared-geometry-of-neural-network-representation-and-behavior|Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior]]: examines nonlinear rather than linear representation steering.
-
-[[index|Library home]]

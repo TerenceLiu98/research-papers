@@ -109,5 +109,3 @@ A separate diagnostic evaluates 32 goal-reaching episodes with horizon 3 and 20 
 - Jha et al. (2026), "Reconstruction or semantics? What makes a latent space useful for robotic world models": cited motivation for comparing representation choices.
 - Maes et al. (2026), "stable-worldmodel-v1: Reproducible world modeling research and evaluation": related open world-model infrastructure.
 - Mur-Labadia et al. (2026), "V-JEPA 2.1: Unlocking dense features in video self-supervised learning": source of one tested pretrained representation.
-
-[[index|Library home]]

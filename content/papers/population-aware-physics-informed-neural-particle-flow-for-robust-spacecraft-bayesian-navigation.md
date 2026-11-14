@@ -68,5 +68,3 @@ In range sensing with a field-of-view constraint, PA-PINPF-Feature obtains media
 - Zaheer et al. (2017), "Deep Sets": supplies the permutation-invariant encode-pool-transform construction.
 - Chen, Dai, and Song (2019), "Particle Flow Bayes' Rule": develops a related learned particle-flow treatment of Bayesian updating.
 - Craft and DeMars (2024), "Nonlinear Particle Flow for Constrained Bayesian Inference": motivates the smooth approximation used for the field-of-view support constraint.
-
-[[index|Library home]]

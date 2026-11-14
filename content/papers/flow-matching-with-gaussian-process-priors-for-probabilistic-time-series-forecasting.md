@@ -15,7 +15,6 @@ tags:
   - gaussian-processes
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

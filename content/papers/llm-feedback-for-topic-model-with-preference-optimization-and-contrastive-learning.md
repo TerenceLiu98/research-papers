@@ -21,7 +21,6 @@ LLMFeed refines a neural topic model with one offline phase of LLM feedback: wor
 
 The supplied manuscript does not establish its publication year, venue, or stable identifier. Code is listed as https://github.com/tungserver99/LLMFeed.git. Source ingestion job: `5f82194c-6e07-4215-91e7-0f3108c97279`.
 
-[[index|Library home]]
 
 ## Research Question
 

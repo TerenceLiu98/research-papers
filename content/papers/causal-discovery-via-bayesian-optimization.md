@@ -12,7 +12,6 @@ tags:
   - structure-learning
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

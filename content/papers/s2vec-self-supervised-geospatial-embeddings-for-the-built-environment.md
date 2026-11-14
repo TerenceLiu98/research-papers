@@ -103,5 +103,3 @@ S2Vec therefore beats both SATCLIP and GEOCLIP as an individual representation o
 - Donghi and Morvan (2023), "GeoVex: Geospatial Vectors with Hexagonal Convolutional Autoencoders": the convolutional autoencoding baseline for structured map features.
 - Klemmer et al. (2023), "SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery": an image-and-location baseline used alone and in fusion.
 - Cepeda, Nayak, and Shah (2023), "GeoCLIP: CLIP-Inspired Alignment between Locations and Images for Effective Worldwide Geo-localization": the strongest random-split median-income model and part of the strongest median-income geographic-adaptation fusion.
-
-[[index|Library home]]

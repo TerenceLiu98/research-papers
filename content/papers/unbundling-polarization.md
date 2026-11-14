@@ -82,5 +82,3 @@ The model uses a single policy dimension, fixed fundamental member ideologies, p
 - [[papers/roll-call-vote-selection-implications-for-the-study-of-legislative-politics|Roll-Call Vote Selection: Implications for the Study of Legislative Politics]]: library connection on selective observation of legislative decisions, not asserted as a citation in this paper.
 
 Published in *Econometrica* 88(3), 1197–1233. [Source record](https://www.jstor.org/stable/10.2307/48584113).
-
-[[index|Library home]]

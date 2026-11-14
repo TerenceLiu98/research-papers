@@ -89,5 +89,3 @@ The paper directly builds on:
 Within the library, [[bipolarity-multipolarity-and-the-future|Bipolarity, multipolarity, and the future]] also examines how major-power influence and alliance relationships may restrain conflict, although it studies system structure rather than endogenous defense contributions. This is a thematic connection, not a citation-based equivalence.
 
 Source: supplied parsed Markdown for Cognitio job `898cb274-6b06-466a-bccc-2cadef0ba39c`.
-
-[[index|Library home]]

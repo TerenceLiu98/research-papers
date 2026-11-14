@@ -20,7 +20,6 @@ tags:
   - electronic-health-records
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

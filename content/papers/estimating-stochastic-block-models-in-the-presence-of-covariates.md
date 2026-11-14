@@ -97,5 +97,3 @@ The supplied source does not state the paper's publication year, venue, DOI, or 
 - Jiang (2019), "Non-asymptotic uniform rates of consistency for k-nn regression": cited source for oracle community-probability regression bounds.
 - Portier (2021), "Nearest neighbor process: weak convergence and non-asymptotic bound": cited basis for nearest-neighbor radius arguments.
 - [[papers/a-data-driven-network-approach-for-characterization-of-political-parties-ideology-dynamics|A data-driven network approach for characterization of political parties' ideology dynamics]]: a library comparison using block-model communities in political networks; it is not an evaluation of this estimator or a citation claimed by this paper.
-
-[[index|Library home]]

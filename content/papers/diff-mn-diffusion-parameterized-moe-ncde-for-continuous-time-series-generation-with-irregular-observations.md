@@ -99,5 +99,3 @@ For the polynomial experiment, coefficients of $y=ax^3+bx^2+cx+d$ are sampled fr
 - Huang et al. (2025), "TimeDP: Learning to generate multi-domain time series with domain prompts": cited diffusion baseline.
 
 Code URL supplied by the paper: [TimeCraft / Diff-MN](https://github.com/microsoft/TimeCraft/tree/main/Diff-MN).
-
-[[index|Library home]]

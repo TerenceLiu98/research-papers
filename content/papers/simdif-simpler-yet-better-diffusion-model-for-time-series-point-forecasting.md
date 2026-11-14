@@ -13,7 +13,6 @@ tags:
   - point-forecasting
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

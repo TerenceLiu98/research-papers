@@ -71,5 +71,3 @@ The article is an expository and mathematical synthesis rather than an empirical
 - Dwivedi and Bresson (2020), "A Generalization of Transformer Networks to Graphs": develops Transformer layers with graph structural information.
 - Rampasek et al. (2022), "Recipe for a General, Powerful, Scalable Graph Transformer": combines local message passing with global attention in a graph Transformer.
 - Hooker (2021), "The Hardware Lottery": provides the hardware-algorithm framing applied to dense attention and sparse graph computation.
-
-[[index|Library home]]

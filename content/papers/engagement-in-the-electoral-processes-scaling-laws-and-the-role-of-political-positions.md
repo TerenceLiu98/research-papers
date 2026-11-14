@@ -90,5 +90,3 @@ The analysis concerns Brazilian municipalities under the electoral institutions 
 - Gomez-Lievano, Youn, and Bettencourt (2012), *PLOS ONE* 7, e40393.
 - Alves, Ribeiro, Lenzi, and Mendes (2013), *PLOS ONE* 8, e69580.
 - Fortunato and Castellano (2007), *Physical Review Letters* 99, 138701.
-
-[[index|Library home]]

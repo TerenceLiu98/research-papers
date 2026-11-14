@@ -16,7 +16,6 @@ tags:
 
 Deaths and replacements in the 1953–1954 US Senate temporarily changed numerical party control while committee leadership remained fixed. Napolio and Grose find that Democratic floor control shifted the roll-call agenda toward revising conservative status quos and shifted Republicans’ estimated revealed preferences rightward. The study isolates floor majority power from electoral turnover and committee reorganization.
 
-[[index|Library home]]
 
 ## Research Question
 

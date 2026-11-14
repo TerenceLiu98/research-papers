@@ -82,5 +82,3 @@ The heterogeneous experiment also runs for 20 rounds, assigning DeepSeek V3, GPT
 - Friedkin and Johnsen (1990), “Social influence and opinions”: the persistent-initial-belief extension.
 - Chuang et al. (2024), “Simulating opinion dynamics with networks of LLM-based agents”: cited prior work on interacting LLM populations.
 - [[papers/social-opinions-prediction-utilizes-fusing-dynamics-equation-with-llm-based-agents|Social opinions prediction utilizes fusing dynamics equation with LLM-based agents]] combines explicit update rules and LLM agents for observed Weibo trajectories; the present paper instead fits classical influence models to controlled fictional dialogs.
-
-[[index|Library home]]

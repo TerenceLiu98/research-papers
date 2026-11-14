@@ -91,5 +91,3 @@ F-JEPA improves noisy-condition success in every environment, by 8 to 32 percent
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]]: formalizes representation recovery under Gaussian regularization and separates encoder identifiability from correct learned dynamics and planning.
 
 Source: supplied parsed manuscript, Cognitio job `a4433e7d-7c9d-44c9-a4f7-18f90ac84107`.
-
-[[index|Library home]]

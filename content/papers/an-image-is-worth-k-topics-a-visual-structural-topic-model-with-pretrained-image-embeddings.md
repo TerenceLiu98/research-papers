@@ -73,5 +73,3 @@ Mean-field variational inference can underestimate posterior variance, making un
 - Zhang and Peng (2022), "Image Clustering: An Unsupervised Approach to Categorize Visual Data in Social Science Research."
 - Torres (2024), "A Framework for the Unsupervised and Semi-Supervised Analysis of Visual Frames."
 - [[Sparse Autoencoders are Topic Models]]
-
-[[index|Library home]]

@@ -78,5 +78,3 @@ Equal prefix-loss weighting preserves feature-quality gains better than weightin
 - [[papers/beyond-matryoshka-revisiting-sparse-coding-for-adaptive-representation|Beyond Matryoshka: Revisiting Sparse Coding for Adaptive Representation]]
 - [[papers/analyzing-hierarchical-structure-in-vision-models-with-sparse-autoencoders|Analyzing Hierarchical Structure in Vision Models with Sparse Autoencoders]]
 - [[papers/projecting-assumptions-the-duality-between-sparse-autoencoders-and-concept-geometry|Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]]
-
-[[index|Library home]]

@@ -78,5 +78,3 @@ On the five-class Phoneme dataset, 10-fold cross-validation compares eight class
 - [[Modern Non-Linear Function-on-Function Regression]]
 - [[Non-linear Functional Modeling using Neural Networks]]
 - [[Nonlinear Functional Principal Component Analysis Using Neural Networks]]
-
-[[index|Library home]]

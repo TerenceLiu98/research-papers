@@ -118,5 +118,3 @@ Appendix H's prose reports 1,000 null replications comparing specific implementa
 - Papp and Sherlock (2022), "Centered plug-in estimation of Wasserstein distances." The centered-estimation alternative discussed in Section 7 and Appendix H.
 - Feydy et al. (2018), "Interpolating between Optimal Transport and MMD using Sinkhorn Divergences." The cited regularized-divergence alternative.
 - [[papers/a-test-for-treatment-heterogeneity-under-a-distributional-difference-in-difference-framework|A Test for Treatment Heterogeneity under a Distributional Difference-in-Difference Framework]]: A thematic library connection, not a citation in this manuscript. It calibrates a distributional discrepancy after estimating a causal counterfactual, a different inferential target from an exchangeable two-sample comparison.
-
-[[index|Library home]]

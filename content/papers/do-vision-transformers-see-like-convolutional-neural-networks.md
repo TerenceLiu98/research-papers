@@ -66,5 +66,3 @@ The supplied Markdown references appendices A–H but does not include them, lim
 - Dosovitskiy et al., *An Image Is Worth 16x16 Words: Transformers for Image Recognition at Scale* (2020), reference [14], supplies the ViT foundation and pretrained-model context.
 - Kornblith et al., *Similarity of Neural Network Representations Revisited* (2019), reference [17], supplies the CKA methodology.
 - [[papers/understanding-transformer-based-vision-models-through-inversion|Understanding Transformer-based Vision Models through Inversion]] offers a complementary reconstruction-based approach to investigating spatial information in visual representations.
-
-[[index|Library home]]

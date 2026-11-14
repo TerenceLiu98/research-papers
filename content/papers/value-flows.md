@@ -117,5 +117,3 @@ The authors describe best or near-best results on 9 of 11 domains, where near-be
 - Park, Li, and Levine (2025), "Flow Q-learning": implementation base, policy-distillation mechanism, and scalar-critic comparator.
 - Farebrother et al. (2025), "Temporal difference flows": cited generative temporal-difference work and target-field precedent.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]]: a library comparison using generative objectives for future observations; Value Flows instead models returns. This is a conceptual connection, not a citation claimed by the source.
-
-[[index|Library home]]

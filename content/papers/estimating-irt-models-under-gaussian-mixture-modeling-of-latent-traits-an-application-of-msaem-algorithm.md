@@ -117,5 +117,3 @@ These values come from Tables 8-9. Using 500 bootstrap samples, the authors repo
 - [[papers/hierarchical-mixtures-of-latent-trait-analyzers-with-concomitant-variables-for-multivariate-binary-data|Hierarchical Mixtures of Latent Trait Analyzers with concomitant variables for multivariate binary data]]: library connection with hierarchical clustering and class-specific response models, distinct from mixing only the trait distribution here.
 
 Source: Cheng and Meng (2025), *Multivariate Behavioral Research*, 60(6), 1079-1096. DOI: 10.1080/00273171.2025.2512345.
-
-[[index|Library home]]

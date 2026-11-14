@@ -70,5 +70,3 @@ The paper is theoretical and uses numerical comparative statics rather than an e
 - Vives and Ye (2025), "Information Technology and Lender Competition": a cited companion model in which monitoring reduces borrower shirking benefits rather than directly increasing project success.
 - He, Huang, and Zhou (2023), "Open Banking: Credit Market Competition When Borrowers Own the Data": cited work on data sharing, lender competition, and welfare.
 - Bouvard, Casamatta, and Xiong (2022), "Lending and Monitoring: Big Tech vs Banks": cited theory comparing lenders with different monitoring characteristics.
-
-[[index|Library home]]

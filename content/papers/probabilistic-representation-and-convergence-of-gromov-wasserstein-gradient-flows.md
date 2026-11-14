@@ -89,5 +89,3 @@ The paper is theoretical and reports no numerical experiments. Its evidence cons
 - [[papers/local-convergence-of-mean-field-langevin-dynamics-from-gradient-flows-to-linearly-monotone-games|Local Convergence of Mean-Field Langevin Dynamics: From Gradient Flows to Linearly Monotone Games]]: a complementary study of entropy-regularized distributional dynamics and convergence rates.
 
 Source: supplied parsed Markdown for Cognitio job `b39b382f-3271-4c04-81a9-84638d4c84f7`.
-
-[[index|Library home]]

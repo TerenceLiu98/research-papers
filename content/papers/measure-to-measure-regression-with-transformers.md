@@ -71,5 +71,3 @@ M2M-TFM parameterizes a time-dependent, measure-dependent velocity field with a 
 
 - [[papers/wasserstein-flow-matching-generative-modeling-over-families-of-distributions|Wasserstein Flow Matching: Generative Modeling over Families of Distributions]]: models a meta-distribution over measures; the present paper instead learns paired source-to-target operators.
 - [[papers/the-mean-field-dynamics-of-transformers|The Mean-Field Dynamics of Transformers]]: supplies theoretical context for treating self-attention as distribution-dependent interacting-particle dynamics.
-
-[[index|Library home]]

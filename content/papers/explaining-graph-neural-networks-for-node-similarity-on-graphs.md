@@ -87,5 +87,3 @@ The sparsity experiment uses Integrated Gradients with GAE embeddings and remove
 - Xie et al. (2022), "Task-Agnostic Graph Explanations," explains embedding dimensions for transfer to downstream tasks rather than pairwise similarity scores.
 - Piaggesi, Panisson, and Khosla (2025), "Disentangled and Self-Explainable Node Representation Learning," evaluates semantic structure in embedding spaces using graph annotations; this paper instead evaluates explanations of individual similarity computations.
 - [[papers/from-nodes-to-narratives-explaining-graph-neural-networks-with-llms-and-graph-context|From Nodes to Narratives: Explaining Graph Neural Networks with LLMs and Graph Context]] explains supervised node classifications with textual rationales and retained subgraphs.
-
-[[index|Library home]]

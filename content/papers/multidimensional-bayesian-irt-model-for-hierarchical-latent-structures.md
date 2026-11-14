@@ -104,5 +104,3 @@ Table 6 indicates strong but unequal associations with the general factor. Natur
 - Huang et al. (2013), "Higher-order item response models for hierarchical latent traits": extends the hierarchy beyond two levels and estimates item parameters.
 - Mun et al. (2019), "Multivariate higher-order IRT model and MCMC algorithm for linking individual participant data from multiple studies": related multiple-study model with more than one higher-order trait.
 - [[papers/modeling-item-response-theory-with-stochastic-variational-inference|Modeling Item Response Theory with Stochastic Variational Inference]]: a library comparison on scalable approximate inference and flexible response functions; not a citation in the supplied manuscript.
-
-[[index|Library home]]

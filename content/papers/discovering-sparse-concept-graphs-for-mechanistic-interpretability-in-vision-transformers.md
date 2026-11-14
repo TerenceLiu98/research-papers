@@ -82,5 +82,3 @@ Qualitative examples recover features associated with objects, colors, textures,
 - [[papers/sparsealign-ooc-auditing-news-image-text-out-of-context-detection-with-sparse-autoencoders|SparseAlign-OOC: Auditing News Image-Text Out-of-Context Detection with Sparse Autoencoders]]: uses SAE features and interventions to audit a multimodal classifier.
 - Fel et al. (2023), "A Holistic Approach to Unifying Automatic Concept Extraction and Concept Importance Estimation": supplies the c-deletion and c-insertion evaluation framework.
 - Rajaram et al. (2024), "Automatic Discovery of Visual Circuits": related work on extracting compact visual-model circuits from neuron interactions.
-
-[[index|Library home]]

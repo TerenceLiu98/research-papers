@@ -91,5 +91,3 @@ The approach is label-free with respect to annotations, not data-free: TextUnloc
 - Yuksekgonul, Wang, and Zou (2023), "Post-hoc Concept Bottleneck Models."
 - Moayeri, Rezaei, Sanjabi, and Feizi (2023), "Text-to-Concept (and Back) via Cross-Model Alignment."
 - Tewel, Shalev, Schwartz, and Wolf (2022), "ZeroCap: Zero-Shot Image-to-Text Generation for Visual-Semantic Arithmetic."
-
-[[index|Library home]]

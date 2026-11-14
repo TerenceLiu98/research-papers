@@ -91,5 +91,3 @@ These results show that output-length pressure can alter grammatical preferences
 - Reinhart et al. (2025), "Do LLMs write like humans? Variation in grammatical and rhetorical styles": documents dense, noun-heavy stylistic differences in LLM writing.
 - Juzek and Ward (2025), "Why does ChatGPT 'delve' so much?": studies lexical overrepresentation and motivates the question of whether post-training produces characteristic language.
 - Li and Xu (2026), "Uniform Information Density-Based Preference Optimization": proposes UID as an optimization target for more human-aligned model text.
-
-[[index|Library home]]

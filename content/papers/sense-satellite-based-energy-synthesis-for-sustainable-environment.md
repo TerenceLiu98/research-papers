@@ -91,5 +91,3 @@ Few-shot curves show mixed training outperforming real-only training most clearl
 - Mayer et al. (2023), "Estimating Building Energy Efficiency from Street View Imagery, Aerial Imagery, and Land Surface Temperature Data": a multimodal energy-estimation baseline.
 - Yap et al. (2025), "Revealing Building Operating Carbon Dynamics for Multiple Cities": provides the downstream baseline with the largest reported mIoU gain from SENSE augmentation.
 - [[papers/identification-of-the-potential-for-roof-greening-using-remote-sensing-and-deep-learning|Identification of the potential for roof greening using remote sensing and deep learning]]: another multi-city remote-sensing workflow that evaluates spatially explicit building attributes and geographic transfer, but for roof-greening potential rather than energy generation.
-
-[[index|Library home]]

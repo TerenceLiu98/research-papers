@@ -85,5 +85,3 @@ The application analyzes procedural and final-passage roll calls separately for 
 - [[papers/the-statistical-analysis-of-roll-call-data|The Statistical Analysis of Roll Call Data]]: cited Bayesian foundation for joint roll-call measurement and behavioral inference.
 - [[papers/logit-unfolding-choice-models-for-binary-data|Logit Unfolding Choice Models for Binary Data]]: related library treatment of non-monotonic binary preference responses, relevant to the misspecification concern discussed by the authors.
 - Lofland, Rodriguez, and Moser (2017), "Assessing Differences in Legislators' Revealed Preferences: A Case Study on the 107th U.S. Senate": cited two-domain bridge model extended here with covariate-dependent bridge probabilities.
-
-[[index|Library home]]

@@ -74,5 +74,3 @@ The no-return memory rule excludes historical revival of old ideas. Lattice stru
 ## Source
 
 Based on the supplied parsed Markdown for job `6596604a-48ef-4281-8381-404c7bd94c2d`. Publication year and paper identifier are not stated in that text and are left unspecified. The manuscript lists code and binned data at https://doi.org/10.5281/zenodo.23989457; this is a repository identifier, not a paper DOI.
-
-[[index|Library home]]

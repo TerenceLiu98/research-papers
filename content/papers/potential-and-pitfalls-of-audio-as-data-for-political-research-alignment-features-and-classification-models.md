@@ -88,5 +88,3 @@ The cited 75.3% categorical emotion accuracy and concordance correlations of 0.7
 - [[toxicity-and-moral-rhetoric-in-video-and-text-based-digital-platforms|Toxicity and Moral Rhetoric in Video- and Text-Based Digital Platforms]]: a complementary library study that analyzes transcribed political talk shows while excluding nonverbal audio and video information; not a citation made by Mestre and Ryan.
 - Knox and Lucas (2021), "A Dynamic Model of Speech for the Social Sciences": cited for modeling judicial skepticism from aligned speech.
 - Wagner et al. (2023), "Dawn of the Transformer Era in Speech Emotion Recognition: Closing the Valence Gap": supplies the dimensional emotion model used here.
-
-[[index|Library home]]

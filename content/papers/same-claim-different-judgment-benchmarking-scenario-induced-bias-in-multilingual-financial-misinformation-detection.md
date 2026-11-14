@@ -121,5 +121,3 @@ These are reported F1 scores, not accuracy or changes in percentage points. The 
 - Zhao et al. (2024), "FinDVer: Explainable Claim Verification over Long and Hybrid-Content Financial Documents": an evidence-based financial verification comparison discussed in Appendix D.
 - Echterhoff et al. (2024), "Cognitive Bias in Decision-Making with LLMs": related bias evaluation discussed in Appendix A.
 - Related Wiki reading, not a citation in this paper: [[papers/polistemics-evaluating-llms-as-information-mediators-in-politics-and-elections|Polistemics: Evaluating LLMs as Information Mediators in Politics & Elections]] examines faithfulness, impartiality, and calibration under controlled evidence conditions in politics.
-
-[[index|Library home]]

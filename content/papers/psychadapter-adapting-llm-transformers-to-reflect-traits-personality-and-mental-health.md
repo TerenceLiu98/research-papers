@@ -93,5 +93,3 @@ On the three-level Claude evaluation, GPT-2 Large reaches 98.7% without a prompt
 - Jiang et al. (2023), "PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits," represents the prompt-based personality control that PsychAdapter contrasts with continuous architectural conditioning.
 - Mairesse and Walker (2011), "Controlling User Perceptions of Linguistic Style: Trainable Generation of Personality Traits," is an earlier data-driven approach to personality-conditioned generation.
 - Park et al. (2015), "Automatic Personality Assessment through Social Media Language," motivates the language-based personality assessment used to construct conditioning labels.
-
-[[index|Library home]]

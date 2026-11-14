@@ -82,5 +82,3 @@ Figure 13 is described as showing incubation, outbreak, and decline in both scen
 - Yao et al. (2025), "Social opinions prediction utilizes fusing dynamics equation with LLM-based agents." Cited as a related hybrid approach.
 - Wang et al. (2025), "Data-driven agent-based model for public opinion propagation simulation in cyberbullying." Cited as a domain-specific propagation simulation.
 - [[Multi-Agent Strategic Games with LLMs]] is a methodological comparison in this library: it studies controlled strategic interactions and explicitly limits inference from artificial agents to human behavior. It is not presented as a citation from this paper.
-
-[[index|Library home]]

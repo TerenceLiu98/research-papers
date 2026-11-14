@@ -99,5 +99,3 @@ Tables 1-4 report mean test accuracy and standard deviation. ModelNet40, MNIST, 
 - Finlay et al. (2020), "How to Train Your Neural ODE: The World of Jacobian and Kinetic Regularization": prior kinetic regularization cited by the paper.
 - Onken et al. (2021), "OT-Flow: Fast and Accurate Continuous Normalizing Flows via Optimal Transport": transport-regularized flow background.
 - Sander et al. (2022), "Sinkformers: Transformers with Doubly Stochastic Attention": source of the experimental code and baseline configurations.
-
-[[index|Library home]]

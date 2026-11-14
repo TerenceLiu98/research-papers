@@ -91,5 +91,3 @@ Instruction tuning does not produce strong transfer to unseen codebooks, even wh
 - Egami et al. (2023), "Using Imperfect Surrogates for Downstream Inference": studies bias and uncertainty when model-generated labels enter later social-science analyses.
 - Ribeiro et al. (2020), "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList": supplies the behavioral-testing perspective adapted to codebook use.
 - Dettmers et al. (2024), "QLoRA: Efficient Finetuning of Quantized LLMs": supplies the parameter-efficient fine-tuning method used in Stage 4.
-
-[[index|Library home]]

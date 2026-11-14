@@ -66,5 +66,3 @@ The supplied text does not establish a publication year or stable identifier. It
 
 - [[papers/markovian-generation-chains-in-large-language-models|Markovian Generation Chains in Large Language Models]] — cited for Markov-chain analysis of repeated rewriting, recurrence, and sentence diversity.
 - [[papers/unveiling-attractor-cycles-in-large-language-models-a-dynamical-systems-view-of-successive-paraphrasing|Unveiling Attractor Cycles in Large Language Models]] — cited for fixed points and short cycles under successive paraphrasing.
-
-[[index|Library home]]

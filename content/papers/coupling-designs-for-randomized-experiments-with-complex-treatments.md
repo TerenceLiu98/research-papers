@@ -82,5 +82,3 @@ Collapsed-strata confidence intervals for the centrality coefficient attain at l
 - Morgan and Rubin (2012), "Rerandomization to Improve Covariate Balance in Experiments": a discrete-treatment design approach discussed as related work.
 - Harshaw et al. (2024), "Balancing Covariates in Randomized Experiments with the Gram-Schmidt Walk Design": a covariate-balancing design for discrete treatments.
 - Breza and Chandrasekhar (2019), "Social Networks, Reputation, and Commitment: Evidence from a Savings Monitors Experiment": motivates the network-monitor application.
-
-[[index|Library home]]

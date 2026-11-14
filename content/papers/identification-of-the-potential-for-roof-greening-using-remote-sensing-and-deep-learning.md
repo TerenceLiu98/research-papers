@@ -83,5 +83,3 @@ These comparisons concern ratios and broad trends. Boundary errors remain visibl
 - Joshi et al. (2020), "Potential for urban greening with green roofs: A way towards smart cities": uses geospatial building information to assess urban greening potential.
 - Slootweg et al. (2023), "Identifying the geographical potential of rooftop systems: Space competition and synergy": evaluates rooftop system potential in Amsterdam.
 - Shao et al. (2021), "Assessing city-scale green roof development potential using unmanned aerial vehicle (UAV) imagery": studies city-scale mapping from very-high-resolution imagery.
-
-[[index|Library home]]

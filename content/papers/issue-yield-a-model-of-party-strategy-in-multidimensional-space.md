@@ -68,5 +68,3 @@ The cross-sectional design cannot resolve reverse causation between party strate
 
 - [[papers/parties-ideological-cores-and-peripheries|Parties' Ideological Cores and Peripheries]] — a complementary distinction between identity-preserving commitments and opportunities for adaptation.
 - [[papers/the-partypress-database-a-new-comparative-database-of-parties-press-releases|The PARTYPRESS Database]] — a complementary source for measuring party attention beyond election manifestos.
-
-[[index|Library home]]

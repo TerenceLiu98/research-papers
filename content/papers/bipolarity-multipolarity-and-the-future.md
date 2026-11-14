@@ -93,5 +93,3 @@ The supplied essay directly discusses or cites:
 Within the library, [[asian-multipolarity-and-the-future-of-the-liberal-international-order-lio|Asian Multipolarity and the Future of the Liberal International Order (LIO)]] examines regional agency and dispersed power, while [[global-multipolarity-through-the-lens-of-network-science-and-game-theory|Global multipolarity through the lens of network science and game theory]] considers mixed competitive and cooperative incentives through network models. These are thematic connections, not citations made by Rosecrance.
 
 Source: supplied parsed Markdown for Cognitio job `5f579efd-3553-4e78-bdfb-07e1e4b3ff68`.
-
-[[index|Library home]]

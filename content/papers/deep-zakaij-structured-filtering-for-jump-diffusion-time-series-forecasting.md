@@ -90,5 +90,3 @@ The following relationships are described in the supplied manuscript's related w
 - Herrera, Krach, and Teichmann (2021), "Neural jump ordinary differential equations: Consistent continuous-time prediction and filtering": implicit filtering through observation-triggered updates, reference [41].
 - Gao, Yan, Leng, and Liao (2025), "Neural MJD: Neural non-stationary Merton jump diffusion for time series prediction": neural jump-diffusion comparator, reference [43].
 - Ansari, Heng, Lim, and Soh (2023), "Neural continuous-discrete state space models for irregularly-sampled time series": continuous-discrete filtering comparator, reference [14].
-
-[[index|Library home]]

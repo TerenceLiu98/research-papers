@@ -81,5 +81,3 @@ Numerical figures map welfare gains over the model's parameter space. One report
 - Fradkin, "Search, Matching, and the Role of Digital Marketplace Design in Enabling Trade": cited empirical motivation concerning unavailable partners and failed transactions on Airbnb.
 
 The supplied Markdown does not state a publication year or stable paper identifier, so neither is inferred here.
-
-[[index|Library home]]

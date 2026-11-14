@@ -129,5 +129,3 @@ For continuous $G$, famine-period coefficients are -5.85 without adjustment, -5.
 - Card and Krueger (1994), "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania": canonical DID comparison used to clarify the role of an unaffected group.
 
 Publication metadata in the supplied article: *Journal of the American Statistical Association*, 121(554), 963-975. [DOI](https://doi.org/10.1080/01621459.2026.2628343).
-
-[[index|Library home]]

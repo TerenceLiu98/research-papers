@@ -94,5 +94,3 @@ The anti-collapse grid finds that SIGReg maintains representation rank, while in
 - Zhang et al. (2026), "Hierarchical Planning with Latent World Models": HWM, the shared-latent-space hierarchical comparator (reference [92]).
 - Sobal et al. (2022), "Joint Embedding Predictive Architectures Focus on Slow Features": prior scene-only collapse and inverse-dynamics evidence (reference [72]).
 - [[papers/temporal-straightening-for-latent-planning|Temporal Straightening for Latent Planning]]: related latent-planning work cited as reference [83].
-
-[[index|Library home]]

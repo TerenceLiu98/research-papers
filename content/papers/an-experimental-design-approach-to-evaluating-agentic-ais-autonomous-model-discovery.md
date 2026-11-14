@@ -109,5 +109,3 @@ Additional library connections, not citations attributed to this paper:
 
 - [[papers/socia-evo-automated-simulator-construction-via-dual-anchored-bi-level-optimization|SOCIA-EVO]] studies simulator construction with fixed empirical specifications, parameter calibration, and repair memory; this paper instead evaluates how agent controls affect discovery outcomes.
 - [[papers/the-embedders-dilemma-llms-are-better-but-at-what-cost|The Embedder's Dilemma: LLMs Are Better, but at What Cost?]] provides another setting for joint assessment of quality and computational cost.
-
-[[index|Library home]]

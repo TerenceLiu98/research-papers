@@ -15,7 +15,6 @@ tags:
   - attributed-networks
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 
@@ -83,4 +82,3 @@ Theoretical examples establish scope rather than empirical performance. They enc
 - Memoli (2011), "Gromov-Wasserstein Distances and the Metric Approach to Object Matching": foundational standard-GW theory generalized by this paper.
 - Vayer et al. (2020), "Fused Gromov-Wasserstein Distance for Structured Objects": the node-attributed comparison recast here as a Z-GW distance.
 - Yang, Labeau, and d'Alche-Buc (2023), "Exploiting Edge Features in Graphs with Fused Network Gromov-Wasserstein Distance": an attributed-network formulation incorporated into the target-space framework.
-

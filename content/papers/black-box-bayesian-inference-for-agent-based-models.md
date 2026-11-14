@@ -17,7 +17,6 @@ tags:
 
 Neural posterior estimation (NPE) and neural ratio estimation (NRE) recover economic simulator parameter posteriors more accurately than the tested ABC baselines with substantially fewer simulations. The paper combines these methods with learned time-series summaries and extends posterior estimation to evolving graphs. Its central methodological recommendation is to evaluate full posterior distributions and calibration, rather than only the distance of a point estimate from the generating parameter.
 
-[[index|Library home]]
 
 ## Research Question
 

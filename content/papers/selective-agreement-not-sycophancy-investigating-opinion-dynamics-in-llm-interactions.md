@@ -76,5 +76,3 @@ The source contains reporting tensions: Section 2.1 rejects bounded confidence a
 - [[papers/opinion-dynamics-and-mutual-influence-with-llm-agents-through-dialog-simulation|Opinion dynamics and mutual influence with LLM agents through dialog simulation]] fits classical influence models to generated dialogs; LODAS instead examines conditional acceptance and argument content.
 
 [Published paper](https://doi.org/10.1140/epjds/s13688-025-00579-1). Source: Cognitio parsed Markdown, job `26a668cd-a209-493a-b1c5-7d1ec93c2c36`.
-
-[[index|Library home]]

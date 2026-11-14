@@ -15,7 +15,6 @@ tags:
   - wavelets
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

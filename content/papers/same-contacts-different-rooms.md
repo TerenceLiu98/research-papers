@@ -75,5 +75,3 @@ The supplied manuscript does not explicitly state its publication year, venue, D
 - [[papers/group-size-effects-and-collective-misalignment-in-llm-multi-agent-systems|Group size effects and collective misalignment in LLM multi-agent systems]]: a library comparison examining population size and long-run naming conventions, rather than contact-matched one-step meetings.
 - [[papers/higher-order-interactions-shape-collective-human-behaviour|Higher-order interactions shape collective human behaviour]]: a library comparison providing broader context for explicitly represented groups.
 - Neuhäuser, Lambiotte, and Schaub (2021), *Consensus dynamics on temporal hypergraphs*: cited by the manuscript for differences between temporal and aggregated dynamics.
-
-[[index|Library home]]

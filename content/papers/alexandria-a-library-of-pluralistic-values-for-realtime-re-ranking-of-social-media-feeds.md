@@ -81,5 +81,3 @@ User control can also intensify ideological selection and create value-based fil
 - Weld, Zhang, and Althoff (2022), "What Makes Online Communities 'Better'? Measuring Values, Consensus, and Conflict across Thousands of Subreddits": supplies the community-values taxonomy used in the library.
 - Piccardi et al. (2025), "Reranking Partisan Animosity in Algorithmic Social Media Feeds Alters Affective Polarization": studies a specific value-oriented reranking intervention.
 - [[papers/what-news-do-people-get-on-social-media-analyzing-exposure-and-consumption-of-news-through-data-donations|What News Do People Get on Social Media? Analyzing Exposure and Consumption of News through Data Donations]]: complements feed intervention with measurement of how distinct exposure mechanisms shape users' observed news diets.
-
-[[index|Library home]]

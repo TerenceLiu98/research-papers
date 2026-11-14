@@ -74,5 +74,3 @@ All experiments use a single fixed random seed of 100. The principal comparisons
 - Chen et al. (2021), "Quasi-Monte Carlo Sampling for Solving Partial Differential Equations by Deep Neural Networks": a cited QMC-based neural PDE method.
 - Fu and Wang (2022), "Convergence Analysis of a Quasi-Monte Carlo-Based Deep Learning Algorithm for Solving Partial Differential Equations": a cited theoretical treatment of QMC neural PDE solvers.
 - Wu et al. (2023), "A Comprehensive Study of Non-Adaptive and Residual-Based Adaptive Sampling for Physics-Informed Neural Networks": a cited comparison of fixed and adaptive collocation designs.
-
-[[index|Library home]]

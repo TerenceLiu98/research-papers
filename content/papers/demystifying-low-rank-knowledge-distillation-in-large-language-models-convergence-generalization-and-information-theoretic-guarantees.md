@@ -94,5 +94,3 @@ These observations concern the supplied Markdown, which contains extraction arti
 - Romero et al. (2015), "FitNets: Hints for Thin Deep Nets": intermediate-feature supervision baseline.
 - Hwang et al. (2024), "PC-LoRA: Low-Rank Adaptation for Progressive Model Compression with Knowledge Distillation": compressed-model comparator.
 - [[papers/beyond-logits-aligning-feature-dynamics-for-effective-knowledge-distillation|Beyond Logits: Aligning Feature Dynamics for Effective Knowledge Distillation]]: a related Wiki paper on intermediate supervision; this is a library comparison, not a citation claimed for the supplied paper.
-
-[[index|Library home]]

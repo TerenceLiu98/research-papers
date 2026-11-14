@@ -83,5 +83,3 @@ The evidence covers selected open-source models up to 14B parameters and mostly 
 - Papyan, Han, and Donoho (2020), "Prevalence of neural collapse during the terminal phase of deep learning training": related geometric regularity in supervised classification.
 - Wu and Papyan (2024), "Linguistic collapse: Neural collapse in (large) language models": examines geometric organization in language-model representations.
 - [[papers/how-do-transformers-learn-to-associate-tokens-gradient-leading-terms-bring-mechanistic-interpretability|How Do Transformers Learn to Associate Tokens? Gradient Leading-Terms Bring Mechanistic Interpretability]]: analyzes early token-association learning through parameter dynamics rather than a cross-layer empirical law.
-
-[[index|Library home]]

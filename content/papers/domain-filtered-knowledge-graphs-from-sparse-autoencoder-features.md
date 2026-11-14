@@ -78,5 +78,3 @@ At sentence scale, the qualitative progression moves from diffuse active feature
 - Dunefsky, Chlenski, and Nanda (2024), "Transcoders Find Interpretable LLM Feature Circuits."
 - Marks et al. (2025), "Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models."
 - Ameisen et al. (2025), "Circuit Tracing: Revealing Computational Graphs in Language Models."
-
-[[index|Library home]]

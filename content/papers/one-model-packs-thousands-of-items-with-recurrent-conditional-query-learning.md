@@ -81,5 +81,3 @@ The context ablation generally favors recurrence, especially with short packed-b
 - Kool, van Hoof, and Welling (2019), "Attention, Learn to Solve Routing Problems!": supplies the attention-model and rollout-baseline context for learned combinatorial optimization.
 - Duan et al. (2019), "A Multi-task Selected Learning Approach for Solving 3D Flexible Bin Packing Problem": the principal learning-based packing baseline discussed by the paper.
 - Haarnoja et al. (2018), "Soft Actor-Critic": motivates entropy regularization and automatic temperature adjustment.
-
-[[index|Library home]]

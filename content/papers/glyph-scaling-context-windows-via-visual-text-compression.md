@@ -84,5 +84,3 @@ The searched rendering configuration outperforms random and manually designed co
 - Chen et al. (2024), *LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models*: extends long-context training through sparse attention and parameter-efficient fine-tuning rather than input representation compression.
 
 Source note: Synthesized from the supplied parsed Markdown for Cognitio job `378b3938-79c9-46ea-8c9d-2dac6c71075c`. The source provides the project URL `https://github.com/thu-coai/Glyph` but does not state a DOI, arXiv identifier, or publication venue.
-
-[[index|Library home]]

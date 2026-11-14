@@ -97,5 +97,3 @@ The authors report that extreme-bounds checks perturbing vote shares in marginal
 - Chen and Rodden (2013), "Unintentional Gerrymandering: Political Geography and Electoral Bias in Legislatures": motivates distinguishing strategic allocations from geographic baselines.
 
 Article: [10.1017/S0003055424000558](https://doi.org/10.1017/S0003055424000558). Replication data identified in the source: [APSR Dataverse](https://doi.org/10.7910/DVN/TM8ZDB).
-
-[[index|Library home]]

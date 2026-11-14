@@ -98,5 +98,3 @@ Population experiments range from 100 to 10,000 agents. A 10,000-agent, five-ste
 - Cao and Chen (2022), "Rebel on the Canal: Disrupted Trade Access and Social Conflict in China, 1650-1911," supplies the empirical benchmark for the Canal Decay experiment.
 - Allen, Bertazzini, and Heldring (2023), "The Economic Origins of Government," motivates the governance experiment.
 - Banerjee et al. (2024), "When Less Is More: Experimental Evidence on Information Delivery During India's Demonetisation," supplies the field design and directional benchmarks for information propagation.
-
-[[index|Library home]]

@@ -90,5 +90,3 @@ The evidence consists of observational regressions and robustness analyses.
 - Ru, Xue, Zhang, and Zhou (2020), "Social Connections Between Media and Firm Executives and the Properties of Media Reporting": cited prior work on relationships and reporting.
 - Hossain and Javakhadze (2020), "Corporate Media Connections and Merger Outcomes": cited precedent linking media connections to acquisition outcomes.
 - [[papers/measuring-agenda-setting-in-interactive-political-communication|Measuring Agenda Setting in Interactive Political Communication]]: a complementary library entry on measuring topic shifts and influence in interactions, rather than corporate news production.
-
-[[index|Library home]]

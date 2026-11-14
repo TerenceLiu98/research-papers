@@ -75,5 +75,3 @@ The extensive CLCMFG* approximation is usually moderately more accurate than the
 - Hu et al. (2023), "Graphon mean-field control for cooperative multi-agent reinforcement learning": the dense-network cooperative-control predecessor identified by the authors.
 - Lacker, Ramanan, and Wu (2023), "Local weak convergence for sparse networks of interacting processes": supplies the sparse-process convergence perspective used in the theoretical motivation.
 - Fabian et al. (2023; 2024): the $L^p$-graphon and graphex mean-field-game approaches used as approximation baselines.
-
-[[index|Library home]]

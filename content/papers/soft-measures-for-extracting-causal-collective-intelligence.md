@@ -112,5 +112,3 @@ Publication year, venue, and a stable identifier are absent from the supplied te
 - Aminpour et al. (2020), "Wisdom of stakeholder crowds in complex social-ecological systems": cited motivation for collective-intelligence modeling.
 - [[papers/politicause-an-annotation-scheme-and-corpus-for-causality-in-political-texts|PolitiCause: An Annotation Scheme and Corpus for Causality in Political Texts]]: library comparison, not a citation in this paper; annotates causal claims and spans in political text, but benchmarks sentence classification rather than signed graph extraction.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: library comparison, not a citation in this paper; similarly uses human judgments to validate text-derived measurements, with latent positions rather than graph edges as its target.
-
-[[index|Library home]]

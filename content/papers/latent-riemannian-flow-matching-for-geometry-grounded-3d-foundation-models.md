@@ -83,5 +83,3 @@ The flow model is trained for 320,000 steps on 59,103 RealEstate10K and ScanNet+
 - Chen and Lipman (2024), "Flow Matching on General Geometries": the Riemannian conditional-flow framework specialized by this paper.
 - Wang et al. (2025), "VGGT: Visual Geometry Grounded Transformer": supplies the frozen encoder and geometry decoders whose latent space is modeled.
 - Huang et al. (2026), "Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction": the closest baseline, which maps VGGT tokens into a video generative model's latent space.
-
-[[index|Library home]]

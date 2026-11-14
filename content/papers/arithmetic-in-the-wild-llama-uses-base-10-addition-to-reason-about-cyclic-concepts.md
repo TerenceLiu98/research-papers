@@ -102,5 +102,3 @@ The rest of the network remains intact in the keep-only condition. Table 6's cle
 - Geiger et al. (2023), "Finding Alignments Between Interpretable Causal Variables and Distributed Neural Representations," supplies the DAS methodology.
 
 Code repository listed in the supplied paper: [goodfire-ai/arithmetic-wild](https://github.com/goodfire-ai/arithmetic-wild).
-
-[[index|Library home]]

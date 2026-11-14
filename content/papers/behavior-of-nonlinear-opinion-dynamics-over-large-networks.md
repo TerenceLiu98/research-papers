@@ -76,5 +76,3 @@ Finite and continuum dynamics with matching parameters both settle into two clus
 - [[papers/what-is-a-graphon|What Is ... a Graphon?]]: introduces graphons as limits and sampling models for large networks.
 - Bizyaeva, Franci, and Leonard (2022), "Nonlinear opinion dynamics with tunable sensitivity": supplies the nonlinear model and bifurcation foundation used here.
 - Avella-Medina, Parise, Schaub, and Segarra (2018), "Centrality measures for graphons: Accounting for uncertainty in networks": provides related spectral graphon approximation techniques.
-
-[[index|Library home]]

@@ -18,7 +18,6 @@ tags:
 
 Small point advantages become large match advantages primarily because matches aggregate many points. A two-probability model shows how superior performance on crucial points can also produce a majority of match wins with a minority of points. ATP evidence supports a small departure from independent-point benchmarks, although its magnitude depends strongly on modelling the serve.
 
-[[index|Library home]]
 
 ## Research Question
 

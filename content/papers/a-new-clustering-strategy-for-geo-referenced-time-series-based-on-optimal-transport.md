@@ -13,7 +13,6 @@ tags:
   - spatiotemporal-clustering
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

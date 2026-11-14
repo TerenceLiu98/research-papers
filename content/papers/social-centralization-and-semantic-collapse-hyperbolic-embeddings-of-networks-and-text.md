@@ -73,5 +73,3 @@ Finally, lower entropy or angular spread is not automatically harmful: convergen
 - Roth and Cointet (2010), "Social and Semantic Coevolution in Knowledge Networks."
 - Lorenz et al. (2011), "How Social Influence Can Undermine the Wisdom of Crowd Effect."
 - March (1991), "Exploration and Exploitation in Organizational Learning."
-
-[[index|Library home]]

@@ -92,5 +92,3 @@ Format evaluation finds that GPT and Llama-2-70B backends adhere much more consi
 - Wang, Tian, and He (2023), "gDoc: Automatic Generation of Structured API Documentation": related structured API documentation generation.
 
 The supplied manuscript names the public implementation at `https://github.com/OpenBMB/RepoAgent` but does not provide a stable paper identifier.
-
-[[index|Library home]]

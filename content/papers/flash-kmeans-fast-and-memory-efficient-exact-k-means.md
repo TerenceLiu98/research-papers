@@ -29,7 +29,6 @@ tags:
 
 Flash-KMeans preserves exact Lloyd-style [[concepts/k-means-clustering|K-Means Clustering]] while redesigning its GPU dataflow. FlashAssign fuses distance computation with online argmin so the full point-by-centroid distance matrix is never written to high-bandwidth memory, and sort-inverse update replaces token-level atomic scatters with localized reductions over sorted assignments. On an NVIDIA H200, the paper reports up to 17.9x end-to-end speedup over the strongest baseline in its tested regimes, execution on as many as one billion points, and up to 175x lower configuration-tuning overhead.
 
-[[index|Library home]]
 
 ## Research Question
 

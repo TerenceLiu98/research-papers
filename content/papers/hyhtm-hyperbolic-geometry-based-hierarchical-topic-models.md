@@ -81,5 +81,3 @@ The reported efficiency advantage is specific to the compared implementations: H
 - Viegas et al. (2020), "CluHTM: Semantic Hierarchical Topic Modeling Based on CluWords."
 - Xu et al., "HyperMiner: Topic Taxonomy Mining with Hyperbolic Embedding."
 - Grootendorst (2022), "BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure."
-
-[[index|Library home]]

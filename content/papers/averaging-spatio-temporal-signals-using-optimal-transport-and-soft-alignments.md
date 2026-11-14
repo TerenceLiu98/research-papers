@@ -14,7 +14,6 @@ tags:
   - neuroimaging
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

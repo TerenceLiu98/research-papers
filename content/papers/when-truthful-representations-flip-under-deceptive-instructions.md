@@ -90,5 +90,3 @@ Related library reading, without implying citation by this paper:
 
 - [[papers/truth-as-a-trajectory-what-internal-representations-reveal-about-large-language-model-reasoning|Truth as a Trajectory: What Internal Representations Reveal About Large Language Model Reasoning]] compares static linear probes with learned layer-wise activation trajectories.
 - [[papers/layer-wise-perturbations-via-sparse-autoencoders-for-adversarial-text-generation|Layer-Wise Perturbations via Sparse Autoencoders for Adversarial Text Generation]] uses SAE latents for intervention rather than measurement alone.
-
-[[index|Library home]]

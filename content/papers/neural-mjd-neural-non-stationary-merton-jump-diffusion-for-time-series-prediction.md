@@ -86,5 +86,3 @@ With 10% of business training data and the full validation set, mean MAE is 66.7
 - [[papers/deep-zakaij-structured-filtering-for-jump-diffusion-time-series-forecasting|Deep ZakaiJ: Structured Filtering for Jump-Diffusion Time Series Forecasting]]: the existing Wiki note records Neural MJD as a comparator. Deep ZakaiJ adds an explicit latent-state filtering distribution; this is a library connection, not a citation in the supplied Neural MJD manuscript.
 
 Code URL supplied by the paper: [DSL-Lab/neural-MJD](https://github.com/DSL-Lab/neural-MJD).
-
-[[index|Library home]]

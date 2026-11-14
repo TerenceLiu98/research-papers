@@ -77,5 +77,3 @@ The main metrics compare policy-provision nodes rather than matching individual 
 - Li et al. (2024), "Which Side Are You On? A Multi-task Dataset for End-to-End Argument Summarisation and Evaluation."
 - Rago, Toni, Aurisicchio, and Baroni (2016), "Discontinuity-Free Decision Support with Quantitative Argumentation Debates."
 - Roush et al. (2024), "OpenDebateEvidence: A Massive-Scale Argument Mining and Summarization Dataset."
-
-[[index|Library home]]

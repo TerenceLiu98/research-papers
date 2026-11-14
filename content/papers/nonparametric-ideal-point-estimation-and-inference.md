@@ -110,5 +110,3 @@ The criminal-procedure/economics comparison in the 1970s gives $p=0.066$; other 
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: a later library comparison on temporal priors and missing responses, not a citation in Tahk's paper.
 
 Paper DOI: [10.1017/pan.2017.38](https://doi.org/10.1017/pan.2017.38). Replication data cited in the paper: Tahk (2017), [10.7910/DVN/WIRN6R](https://doi.org/10.7910/DVN/WIRN6R).
-
-[[index|Library home]]

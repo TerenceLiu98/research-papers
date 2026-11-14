@@ -102,5 +102,3 @@ S&D has the lowest median, while The Left has the smallest IQR but a higher medi
 - [[papers/power-to-the-parties-cohesion-and-competition-in-the-european-parliament-1979-2001|Power to the Parties: Cohesion and Competition in the European Parliament, 1979-2001]]: cited historical analysis of group cohesion and left-right coalition patterns. Its Agreement Index and joint-voting frequencies differ from the distance measure used here.
 - Rosalino, Curado, and Pinheiro (2025), "Multi-polarization during the 9th European Parliament": cited predecessor describing a multipolar, variable alliance system in the preceding term.
 - [[papers/roll-call-vote-selection-implications-for-the-study-of-legislative-politics|Roll-Call Vote Selection: Implications for the Study of Legislative Politics]]: related library reading on selection and representativeness; not identified as a citation in this study.
-
-[[index|Library home]]

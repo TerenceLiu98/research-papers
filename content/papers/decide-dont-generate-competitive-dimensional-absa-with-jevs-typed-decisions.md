@@ -73,5 +73,3 @@ The remaining extraction error is mainly structural. Gold valence-arousal values
 - Yan et al. (2021), "A unified generative framework for aspect-based sentiment analysis": representative generative ABSA formulation discussed by the paper.
 - Zhang et al. (2021), "Aspect sentiment quad prediction as paraphrase generation": generates sentiment quadruples as paraphrases.
 - [[papers/jev-as-a-judge-accept-when-confident-escalate-when-unsure|JEV-as-a-Judge: Accept When Confident, Escalate When Unsure]]: evaluates the same decision-only model family on judgment accuracy, confidence, and escalation.
-
-[[index|Library home]]

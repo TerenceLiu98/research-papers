@@ -68,6 +68,3 @@ The guarantees depend on strong and partly untestable representation assumptions
 - Bricken et al. (2023), "Towards monosemanticity: Decomposing language models with dictionary learning."
 - Movva et al. (2025), "Sparse autoencoders for hypothesis generation."
 - Schölkopf et al. (2021), "Toward causal representation learning."
-
-
-[[index|Library home]]

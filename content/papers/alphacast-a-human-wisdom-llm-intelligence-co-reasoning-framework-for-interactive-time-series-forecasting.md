@@ -89,5 +89,3 @@ Holistic generation outperforms step-wise generation on BE, PJM, and Windy Power
 - Liu et al. (2025), "Sundial: A Family of Highly Capable Time Series Foundation Models": a cited foundation-model baseline.
 - Cheng et al. (2026), "Position: Beyond Model-Centric Prediction-Agentic Time Series Forecasting": the cited position paper motivating the agentic formulation.
 - Tao et al. (2026), "Cast-R1: Learning Tool-Augmented Sequential Decision Policies for Time Series Forecasting": a cited related agentic forecasting system.
-
-[[index|Library home]]

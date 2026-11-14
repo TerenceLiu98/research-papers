@@ -13,7 +13,6 @@ tags:
   - continuous-normalizing-flows
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

@@ -82,5 +82,3 @@ Ablations find that removing the counterfactual term lowers AUPRC by up to 13.9%
 - Rajamanoharan et al. (2024), "Jumping Ahead: Improving Reconstruction Fidelity with JumpReLU Sparse Autoencoders": supplies TimeSAE's primary sparsification mechanism.
 - Crabbé and van der Schaar (2021), "Explaining Time Series Predictions with Dynamic Masks": supplies DynaMask and the precision/recall-based saliency evaluation protocol.
 - [[papers/causal-interpretation-of-sparse-autoencoder-features-in-vision|Causal Interpretation of Sparse Autoencoder Features in Vision]]: also tests whether SAE-based explanations track causal input evidence, but attributes internal vision features to image patches rather than decoding interventions on time-series concepts.
-
-[[index|Library home]]

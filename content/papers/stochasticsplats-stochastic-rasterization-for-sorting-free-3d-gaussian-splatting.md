@@ -137,5 +137,3 @@ Temporal anti-aliasing qualitatively reduces noise with reportedly negligible la
 - Radl et al. (2024), "StopThePop: Sorted Gaussian Splatting for View-Consistent Real-Time Rendering": improved depth handling, a baseline, and initialization for Table 1.
 - [[papers/sort-free-gaussian-splatting-via-weighted-sum-rendering|Sort-Free Gaussian Splatting via Weighted Sum Rendering]]: cited prior work using deterministic approximate blending rather than stochastic visibility.
 - [[papers/gaussian-point-splatting|Gaussian Point Splatting]]: a related library paper using sampled opaque points and collision-aware opacity correction; it is not evaluated in the supplied StochasticSplats manuscript.
-
-[[index|Library home]]

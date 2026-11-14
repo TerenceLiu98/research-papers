@@ -93,5 +93,3 @@ DynaMix is competitive without target training, but does not dominate specialize
 - Mikhaeil, Monfared, and Durstewitz (2022), "On the difficulty of learning chaotic dynamics with RNNs": cited basis for sparse teacher forcing.
 - Zhang and Gilpin (2025), "Zero-shot forecasting of chaotic systems": cited prior study of Chronos and context parroting.
 - [[papers/from-observations-to-states-latent-time-series-forecasting|From Observations to States: Latent Time Series Forecasting]]: library comparison of learned forecasting representations; not an evaluated baseline here.
-
-[[index|Library home]]

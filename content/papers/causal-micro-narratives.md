@@ -97,5 +97,3 @@ Publication year, venue, and a stable identifier are not supplied in the parsed 
 - Andre et al. (2023), "Narratives about the macroeconomy": cited survey and experimental work on household and expert causal narratives.
 - [[papers/politicause-an-annotation-scheme-and-corpus-for-causality-in-political-texts|PolitiCause: An Annotation Scheme and Corpus for Causality in Political Texts]]: a library comparison, not a citation in this paper, that annotates complete, explicit causal relations and cause-effect spans in political sentences. Its annotation scope differs from this paper's inclusion of implicit target-relative explanations.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: a library comparison on human validation of text-based measurements; it studies latent positions rather than narrative labels and is not cited by this paper.
-
-[[index|Library home]]

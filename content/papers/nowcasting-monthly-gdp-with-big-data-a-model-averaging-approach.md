@@ -98,5 +98,3 @@ The manuscript positions its approach relative to these cited works:
 - Kuzin, Marcellino, and Schumacher (2013), "Pooling versus Model Selection for Nowcasting GDP with Many Predictors": comparison of pooling and selection for GDP prediction.
 - Foroni and Marcellino (2014), "A Comparison of Mixed Frequency Approaches for Nowcasting Euro Area Macroeconomic Aggregates": related comparison of prediction pooling and factor approaches.
 - Ledoit and Wolf (2004), "Honey, I Shrunk the Sample Covariance Matrix": shrinkage method underlying the combination weights.
-
-[[index|Library home]]

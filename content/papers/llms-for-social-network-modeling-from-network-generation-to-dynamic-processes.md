@@ -78,5 +78,3 @@ For dynamic processes, dialogue and exposure studies produce consensus, fragment
 - Chuang et al. (2024), "Simulating Opinion Dynamics with Networks of LLM-Based Agents," studies dialogue-based belief updating, consensus, and prompted confirmation bias.
 - Gao et al. (2023), "S3: Social-network Simulation System with Large Language Model-empowered Agents," grounds content diffusion agents in social-network data.
 - Hu et al. (2025), "Simulating Rumor Spreading in Social Networks Using LLM Agents," models belief and retransmission across synthetic and real networks.
-
-[[index|Library home]]

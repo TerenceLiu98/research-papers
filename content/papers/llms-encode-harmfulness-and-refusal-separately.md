@@ -85,5 +85,3 @@ References discussed in the supplied paper:
 Related library reading, without implying citation by this paper:
 
 - [[papers/when-truthful-representations-flip-under-deceptive-instructions|When Truthful Representations Flip Under Deceptive Instructions?]] also compares internal representations with output behavior under an instruction-induced behavioral change.
-
-[[index|Library home]]

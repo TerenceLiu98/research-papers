@@ -11,7 +11,6 @@ tags:
   - knowledge-distillation
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

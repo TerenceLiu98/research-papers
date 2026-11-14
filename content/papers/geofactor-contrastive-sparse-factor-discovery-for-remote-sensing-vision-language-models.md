@@ -72,5 +72,3 @@ The main dataset contains 25,000 RSICD and 23,715 RSITMD image-caption pairs. Ge
 - [[papers/learning-retrieval-models-with-sparse-autoencoders|Learning Retrieval Models with Sparse Autoencoders]] trains retrieval through a pretrained language-model SAE rather than decomposing a frozen multimodal retriever post hoc.
 - [[papers/causal-interpretation-of-sparse-autoencoder-features-in-vision|Causal Interpretation of Sparse Autoencoder Features in Vision]] separates a vision SAE feature's activation location from the input patches that causally drive it.
 - [[papers/galileo-learning-global-and-local-features-of-many-remote-sensing-modalities|Galileo: Learning Global & Local Features of Many Remote Sensing Modalities]] learns general-purpose remote-sensing representations across heterogeneous Earth-observation inputs rather than interpreting a frozen image-text retrieval space.
-
-[[index|Library home]]

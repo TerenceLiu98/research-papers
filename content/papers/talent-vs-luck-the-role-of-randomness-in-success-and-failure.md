@@ -72,5 +72,3 @@ The education and environment experiments reinterpret parameter changes rather t
 - Fortin and Currie (2013), "Big Science vs. Little Science: How Scientific Impact Scales with Funding": cited evidence motivating diversified rather than concentrated funding.
 - Mongeon et al. (2016), "Concentration of research funding leads to decreasing marginal returns": cited evidence on funding concentration and research output.
 - [[papers/the-paradox-of-competition-how-funding-models-could-undermine-the-uptake-of-data-sharing-practices|The Paradox of Competition: How Funding Models Could Undermine the Uptake of Data Sharing Practices]]: a library comparison using a different agent-based model of competitive funding and researcher behavior; it is not cited by this paper.
-
-[[index|Library home]]

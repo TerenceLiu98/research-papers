@@ -87,5 +87,3 @@ Adding image and video transitions raises the five-domain average from 59.3 to 6
 - Kim et al. (2026), "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning": the principal video-model policy comparison and adaptation recipe.
 
 Source: supplied parsed manuscript, Cognitio job `d9963b4a-21db-40f8-911f-56ddfc5da5a3`.
-
-[[index|Library home]]

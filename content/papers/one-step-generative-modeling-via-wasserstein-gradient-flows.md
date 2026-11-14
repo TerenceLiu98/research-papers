@@ -122,5 +122,3 @@ The authors' state-of-the-art claim concerns the one-step comparisons reported i
 - Feydy et al. (2019), "Interpolating between Optimal Transport and MMD using Sinkhorn Divergences": foundation for the energy construction.
 - Hardion and Lacombe (2026), "The Wasserstein Gradient Flow of the Sinkhorn Divergence between Gaussian Distributions," arXiv:2602.10726: the cited Gaussian-case convergence result.
 - [[papers/the-earth-moves-but-so-does-the-bias-systematic-upward-bias-of-the-wasserstein-earth-movers-distance-and-permutation-based-null-calibration|The Earth Moves, But So Does the Bias]]: a thematic library connection, not a citation in W-Flow. Its distinction between entropic bias and empirical sampling bias helps clarify what Sinkhorn debiasing corrects.
-
-[[index|Library home]]

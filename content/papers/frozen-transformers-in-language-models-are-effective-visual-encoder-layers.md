@@ -78,5 +78,3 @@ The information-filtering hypothesis is supported by activation visualizations a
 - Dosovitskiy et al. (2021), "An Image Is Worth 16x16 Words": provides the image-token backbone used in the main classification experiments.
 - Dou et al. (2022), "An Empirical Study of Training End-to-End Vision-and-Language Transformers": provides the METER baseline for VQA and retrieval.
 - Schwettmann, Chowdhury, and Torralba (2023), "Multimodal Neurons in Pretrained Text-Only Transformers": studies visual concepts represented within text-only transformers.
-
-[[index|Library home]]

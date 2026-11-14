@@ -83,5 +83,3 @@ DLS-PP has the best reported in-sample KS discrepancy (0.2435). Under persistenc
 - Artico and Wit (2023), "Dynamic Latent Space Relational Event Model": continuous-time latent-position model for relational events.
 - Rastelli and Corneli (2023), "Continuous Latent Position Models for Instantaneous Interactions": closely related continuous latent-position framework with piecewise-linear paths.
 - [[papers/media-bias-and-polarization-through-the-lens-of-a-markov-switching-latent-space-network-model|Media Bias and Polarization Through the Lens of a Markov Switching Latent Space Network Model]]: uses nodal activity and latent distance but represents temporal change through recurring discrete states.
-
-[[index|Library home]]

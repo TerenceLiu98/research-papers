@@ -88,5 +88,3 @@ For conditional generation, an observation mask identifies known entries. At eve
 - [[papers/protoflow-prototype-guided-flow-matching-for-multivariate-time-series-forecasting|ProtoFlow: Prototype-Guided Flow Matching for Multivariate Time Series Forecasting]]: later related work that initializes conditional latent transport from learned prototypes.
 
 Source: supplied parsed manuscript, Cognitio job `f8441108-dca6-4d6c-b0bf-bf22a9a1dc55`. Publication year is unspecified in the source.
-
-[[index|Library home]]

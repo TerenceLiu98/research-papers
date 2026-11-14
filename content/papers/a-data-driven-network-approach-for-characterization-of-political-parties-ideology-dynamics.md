@@ -101,5 +101,3 @@ The supplied source gives the publication date but does not identify the article
 - Desposato (2006), "Parties for rent? ambition, ideology, and party switching in Brazil's chamber of deputies": cited substantive background on switching motives.
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: a later library comparison on temporal assumptions and sparse political measurements, not a citation in this 2019 paper.
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: a later library comparison on measuring and validating positions using textual evidence.
-
-[[index|Library home]]

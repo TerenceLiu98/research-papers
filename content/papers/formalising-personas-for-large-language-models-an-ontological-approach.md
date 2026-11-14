@@ -66,5 +66,3 @@ The supplied Markdown does not establish a publication year or stable identifier
 
 - [[llm-based-social-simulations-require-a-boundary|LLM-Based Social Simulations Require a Boundary]] provides a complementary validity perspective: preserving persona information does not establish realistic population-level behavioural diversity. This is a library connection, not a claimed citation.
 - PersonaGym: Evaluating Persona Agents and LLMs (Samuel et al., 2025), cited as reference 18, supplies the evaluation framework (DOI: 10.18653/v1/2025.findings-emnlp.368).
-
-[[index|Library home]]

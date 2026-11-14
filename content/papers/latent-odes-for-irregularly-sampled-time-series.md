@@ -13,7 +13,6 @@ tags:
   - variational-inference
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

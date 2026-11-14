@@ -13,7 +13,6 @@ tags:
   - multi-objective-optimization
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

@@ -90,5 +90,3 @@ Other examples are summarized from prior work: improved moment estimation and co
 - Li, Fang, He, and Peng (2022), "Representative Points from a Mixture of Two Normal Distributions": source of the reproduced density comparison.
 - Yang, He, and Fang (2021), "Three Kinds of Discrete Approximations of Statistical Multivariate Distributions and Their Applications": multivariate constructions and comparisons discussed in the review.
 - Tarpey, Li, and Flury (1995), "Principal Points and Self-Consistent Points of Elliptical Distributions": principal-subspace results reviewed in Section 5.
-
-[[index|Library home]]

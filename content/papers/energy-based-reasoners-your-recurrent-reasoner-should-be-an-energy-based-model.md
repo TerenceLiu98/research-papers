@@ -81,5 +81,3 @@ Within the EBR training configuration, replacing gradient recurrence with a dire
 - [[papers/probabilistic-tiny-recursive-model|Probabilistic Tiny Recursive Model]]: introduces stochastic recursive trajectories but selects them with a learned halting head.
 - Baek et al., *Generative Recursive Reasoning* (2026), supplies the multi-solution benchmarks and GRAM baseline.
 - Gladstone et al., *Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation* (2026), supplies the bidirectional matching principle extended by SXM.
-
-[[index|Library home]]

@@ -104,5 +104,3 @@ The experiments cover small synthetic and image-classification settings, not lan
 - Hinton, Vinyals, and Dean (2015), "Distilling the Knowledge in a Neural Network."
 - Kornblith et al. (2019), "Similarity of Neural Network Representations Revisited."
 - Marconato et al. (2025), "All or None: Identifiable Linear Properties of Next-Token Predictors in Language Modeling."
-
-[[index|Library home]]

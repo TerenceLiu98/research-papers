@@ -90,5 +90,3 @@ Within HiRAE-24, fusion increases mean spatial effective rank from 130.360 to 15
 - Zheng et al. (2025), "Diffusion Transformers with Representation Autoencoders": the original final-layer representation-autoencoder framework.
 - Wang et al. (2026), "DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders": an alternative intermediate-feature detail pathway.
 - Liu et al. (2026), "Improving Reconstruction of Representation Autoencoder": a separate low-level detail encoder approach.
-
-[[index|Library home]]

@@ -94,5 +94,3 @@ On the test set, the highest reported accuracies are 0.720 for Portuguese (a tie
 - Schmitt et al. (2024), "The Role of Explainability in Collaborative Human-AI Disinformation Detection": motivates explainability in misinformation analysis.
 - [[papers/causal-micro-narratives|Causal Micro-Narratives]]: a library comparison using fine-grained causal narrative labels in news.
 - [[papers/measuring-narrative-polarization-in-online-discourse|Measuring Narrative Polarization in Online Discourse]]: a library comparison that operationalizes narrative repertoires and polarization in online comments.
-
-[[index|Library home]]

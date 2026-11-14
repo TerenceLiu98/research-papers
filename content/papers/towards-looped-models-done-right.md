@@ -16,7 +16,6 @@ tags:
   - mixture-of-experts
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

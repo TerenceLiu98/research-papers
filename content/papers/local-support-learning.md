@@ -76,5 +76,3 @@ Works cited in the source, without matching Paper pages found in this library:
 - Li and Hoiem (2017), "Learning without Forgetting": a function-regularization baseline that penalizes changes to base-model outputs.
 - Xiong and Xie (2025), "Orthogonal Subspace Learning for Language Model Continual Learning": the orthogonal-projection LoRA baseline.
 - Saha et al. (2021), "Gradient Projection Memory for Continual Learning": prior-data subspace projection that motivates the paper's per-matrix interference analysis.
-
-[[index|Library home]]

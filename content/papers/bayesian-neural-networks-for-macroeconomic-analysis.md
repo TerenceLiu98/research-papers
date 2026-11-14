@@ -107,5 +107,3 @@ Deep networks achieve much stronger in-sample fit without a corresponding genera
 - Benigno and Eggertsson (2023), "It's Baaack: The Surge in Inflation in the 2020s and the Return of the Non-Linear Phillips Curve": motivates the simulation's nonlinear inflation mechanism.
 - Stock and Watson (2002), "Macroeconomic forecasting using diffusion indexes": basis for the factor-regression benchmark.
 - [[papers/do-bayesian-neural-networks-need-to-be-fully-stochastic|Do Bayesian Neural Networks Need To Be Fully Stochastic?]]: a related library paper, not a citation in this source; also distinguishes useful predictive distributions from fidelity to a full Bayesian posterior.
-
-[[index|Library home]]

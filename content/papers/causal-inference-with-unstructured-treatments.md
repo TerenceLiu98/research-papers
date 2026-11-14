@@ -118,5 +118,3 @@ The evaluations use known or semi-synthetic outcome mechanisms, so they test rec
 - [[papers/causal-inference-with-generative-artificial-intelligence-application-to-texts-as-treatments|Causal Inference with Generative Artificial Intelligence: Application to Texts as Treatments]]: estimates effects of user-specified textual features, whereas this paper searches for the feature defining the estimand.
 - [[papers/causal-inference-with-latent-treatments|Causal Inference with Latent Treatments]]: discovers latent treatment categories from texts, but does not use the MIF residual-outcome objective.
 - [[papers/a-design-based-solution-for-causal-inference-with-text-can-a-language-model-be-too-large|A Design-based Solution for Causal Inference with Text: Can a Language Model Be Too Large?]]: addresses overlap and preservation through paired text editing rather than observational feature search.
-
-[[index|Library home]]

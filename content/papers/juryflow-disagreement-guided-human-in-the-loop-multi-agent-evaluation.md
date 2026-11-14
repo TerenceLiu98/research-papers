@@ -99,5 +99,3 @@ Panel composition matters. With five judges, prompt-persona diversity within one
 - Jung, Brahman, and Choi (2025), "Trust or Escalate": routes low-confidence evaluations to stronger judges at the instance level.
 - Min et al. (2023), "FActScore": supplies the atomic-claim perspective used for fine-grained factuality evaluation.
 - [[papers/jev-as-a-judge-accept-when-confident-escalate-when-unsure|JEV-as-a-Judge: Accept When Confident, Escalate When Unsure]]: tests confidence-based escalation and shows that confident judge errors can limit routing.
-
-[[index|Library home]]

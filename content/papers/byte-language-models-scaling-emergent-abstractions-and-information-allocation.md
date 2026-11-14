@@ -86,5 +86,3 @@ With a 200M draft, BYTE and SUBWORD accept 9.527 and 2.831 native tokens per sim
 - Hwang et al. (2026), "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling": learns hierarchical chunks for tokenizer-free sequence modeling.
 - Limisiewicz et al. (2026), "Compute Optimal Tokenization": studies how token granularity changes data, sequence length, and compute trade-offs.
 - Leviathan et al. (2023), "Fast Inference from Transformers via Speculative Decoding": provides the draft-and-verify inference framework used in the acceptance analysis.
-
-[[index|Library home]]

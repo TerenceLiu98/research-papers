@@ -104,5 +104,3 @@ Across five sessions from 1979 to 2004, four have positive non-separability esti
 - Stoetzer and Zittlau (2020), "Vote Choice and the Nonseparability of Economic and Social Issues": cited account of cross-issue dependence in electoral choice.
 
 Published online on 24 May 2022; the journal volume is dated 2023. Article: [10.1017/pan.2022.11](https://doi.org/10.1017/pan.2022.11). Replication data cited in the source: [10.7910/DVN/XLY5AJ](https://doi.org/10.7910/DVN/XLY5AJ).
-
-[[index|Library home]]

@@ -88,5 +88,3 @@ Full pre-training uses Qwen3-0.6B, C4, 156B tokens, and 640 GPUs. Table 5 report
 - [[papers/geolan-geometric-learning-of-latent-explanatory-directions-in-large-language-models|GeoLAN]]: a library comparison involving geometric regularization with scale-dependent outcomes; it uses different objectives and does not constitute a direct replication.
 - Wang and He (2025), *Diffuse and Disperse*: cited precursor using representation regularization for image generation.
 - Li et al. (2026), *On the Predictive Power of Representation Dispersion in Language Models*: cited concurrent work emphasizing dispersion and perplexity.
-
-[[index|Library home]]

@@ -98,5 +98,3 @@ The reduced graphs for XIV and XV largely reflect within-party and within-coalit
 - Briatte (2016), "Network patterns of legislative collaboration in twenty parliaments": cited source of the legislative network data.
 
 Published in *Journal of the Royal Statistical Society: Series C*, as identified in the supplied manuscript. DOI: `10.1111/rssc.12234`.
-
-[[index|Library home]]

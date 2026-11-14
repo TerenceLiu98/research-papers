@@ -81,5 +81,3 @@ The corruption layer is a regime-dependent regularizer rather than a guaranteed 
 - Bishop (1995), "Training with noise is equivalent to Tikhonov regularization."
 - Happ and Greven (2018), "Multivariate functional principal component analysis for data observed on different (dimensional) domains."
 - Yao, Mueller, and Wang (2005), "Functional data analysis for sparse longitudinal data."
-
-[[index|Library home]]

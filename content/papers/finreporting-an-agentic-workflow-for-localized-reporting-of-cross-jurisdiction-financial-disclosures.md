@@ -94,5 +94,3 @@ On US filings, all six tested LLM backbones have the same 95.56 Filled Rate and 
 - Wang et al. (2025), "FinTagging": benchmarks extraction and structuring of financial information with LLMs.
 - Shu et al. (2025), "LAVA": develops logic-aware validation and augmentation for financial document auditing.
 - Chen et al. (2021), "FinQA," and Zhu et al. (2021), "TAT-QA": evaluate numerical reasoning over financial reports.
-
-[[index|Library home]]

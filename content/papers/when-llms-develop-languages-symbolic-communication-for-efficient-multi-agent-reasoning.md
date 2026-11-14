@@ -104,5 +104,3 @@ Cache-aware Qwen3-8B results remain favorable under the paper's reusable-prefix 
 - Gao et al. (2023), "PAL: Program-Aided Language Models," and Chen et al. (2023), "Program of Thoughts Prompting": external-execution comparisons motivating the interpreter-realizability analysis.
 - Fernando et al. (2024), "PromptBreeder": evolves prompts, whereas CLSR claims to evolve reusable symbol systems and their routing behavior.
 - Lazaridou and Baroni (2020), "Emergent Multi-Agent Communication in the Deep Learning Era": provides the broader emergent-communication framing.
-
-[[index|Library home]]

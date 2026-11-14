@@ -111,5 +111,3 @@ The following works are cited in the supplied manuscript; matching pages were no
 - Cabanac and Hartley (2013), "Issues of work-life balance among JASIST authors and editors." Motivates the analysis of academic work rhythms through journal metadata.
 
 Library comparison, not a citation made by this 2018 paper: [[papers/impacts-of-pm2-5-air-pollution-on-high-skilled-worker-productivity-in-china|Impacts of PM2.5 air pollution on high-skilled worker productivity in China]] also uses publication records to study research activity, but targets productivity with an instrumental-variable design. The comparison highlights the distinction between publication-based descriptive patterns and a separately specified causal estimand.
-
-[[index|Library home]]

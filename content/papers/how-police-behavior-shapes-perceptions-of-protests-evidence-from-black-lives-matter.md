@@ -91,5 +91,3 @@ The authors report similar perception results in a fall 2019 pilot and robustnes
 - Earl and Soule (2006), "Seeing Blue: A Police-Centered Explanation of Protest Policing": cited research on determinants of police response to protest.
 - Chenoweth and Stephan (2011), *Why Civil Resistance Works*: cited account of why nonviolent resistance can attract participation and support.
 - Wasow (2020), "Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion, and Voting": a cited comparison emphasizing how protest tactics and state response affect political consequences.
-
-[[index|Library home]]

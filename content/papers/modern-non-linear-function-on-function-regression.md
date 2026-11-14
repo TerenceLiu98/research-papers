@@ -86,5 +86,3 @@ The Adelaide application predicts half-hourly Saturday electricity demand from t
 - Kim, Staicu, Maity, Carroll, and Ruppert (2018), "Additive function-on-function regression."
 - Sun and Wang (2020), "Function-on-function quadratic regression models."
 - Wang, Wang, Gupta, Rao, and Khorasgani (2020), "A non-linear function-on-function model for regression with time series data."
-
-[[index|Library home]]

@@ -95,5 +95,3 @@ The circular model uses 40,000 retained posterior draws after 250,000 burn-in it
 - [[papers/ends-against-the-middle-measuring-latent-traits-when-opposites-respond-the-same-way-for-antithetical-reasons|Ends Against the Middle: Measuring Latent Traits when Opposites Respond the Same Way for Antithetical Reasons]]: a static unfolding alternative for responses shared by ideological opposites.
 - Martin and Quinn (2002), "Dynamic Ideal Point Estimation via Markov Chain Monte Carlo for the U.S. Supreme Court, 1953-1999": the principal dynamic Euclidean comparison.
 - Wang and Gelfand (2014), "Modeling Space and Space-Time Directional Data Using Projected Gaussian Processes": supplies the projected-process construction used for angular trajectories.
-
-[[index|Library home]]

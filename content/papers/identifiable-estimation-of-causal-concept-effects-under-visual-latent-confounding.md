@@ -90,5 +90,3 @@ Quantitative evaluation relies on synthetic outcomes and controlled hidden attri
 - Mita, Filippone, and Michiardi (2021), "An Identifiable Double VAE for Disentangled Representations": motivates the conditional-prior regularization and coupled objectives.
 - [[papers/causally-reliable-concept-bottleneck-models|Causally Reliable Concept Bottleneck Models]]: models directed causal relations among visible concepts, whereas UnCoVAEr focuses on latent common causes.
 - [[papers/statistical-and-structural-identifiability-in-representation-learning|Statistical and Structural Identifiability in Representation Learning]]: distinguishes stability across learned representations from recovery of data-generating latent structure.
-
-[[index|Library home]]

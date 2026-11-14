@@ -71,5 +71,3 @@ The cross-study comparison is descriptive: model families, prompts, temperatures
 - [[Multi-Agent Strategic Games with LLMs]] demonstrates controlled treatment comparisons with explicit limits on inference from model agents to people or states.
 - [[Public opinion dissemination simulation based on large language model multi-agent systems]] illustrates why generated diversity and plausible aggregate curves do not alone establish population fidelity.
 - [[Social opinions prediction utilizes fusing dynamics equation with LLM-based agents]] combines LLM agents with explicit dynamics but remains bounded by retrospective inputs, measurement dependence, and unvalidated individual behavior.
-
-[[index|Library home]]

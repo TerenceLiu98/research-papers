@@ -100,5 +100,3 @@ The supplementary inference-sector analysis cites expenditure-horizon results on
 - Eth and Davidson (2025), "Will AI R&D Automation Cause a Software Intelligence Explosion?": supplies a compute-centered comparison and historical calibration of algorithmic progress.
 - Gundlach et al. (2025), "On the Origin of Algorithmic Progress in AI": motivates the warning that algorithmic progress may be scale-dependent rather than equivalent to additional training compute at every scale.
 - [[papers/recursive-self-improvement-of-ai-research-agents|Recursive self-improvement of AI research agents]]: reports bounded scaffold-level improvements in an AI R&D agent; it offers a concrete mechanism relevant to the research-productivity channel but does not estimate a self-sustaining acceleration.
-
-[[index|Library home]]

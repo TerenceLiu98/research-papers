@@ -93,5 +93,3 @@ Migration rates did not significantly change during the refugee crisis, and the 
 - Steinmayr (2021), "Contact versus exposure: Refugee presence and voting for the far right." Cited research distinguishing exposure from potentially ameliorating contact.
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: Related library reading on how geographic transformations affect inference; not cited in this paper.
 - [[papers/dynamics-and-determinants-of-right-wing-populist-mobilisation-in-germany|Dynamics and determinants of right-wing populist mobilisation in Germany]]: Related library evidence on contextual correlates of street mobilisation rather than causal electoral responses; not cited in this paper.
-
-[[index|Library home]]

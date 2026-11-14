@@ -89,5 +89,3 @@ Works cited by the paper include:
 - Schmid (2022), "Dynamic Mode Decomposition and Its Variants": the linear dynamics method used for token-group trajectories.
 
 As library comparisons, [[papers/trajectory-geometry-of-transformer-representations-across-layers|Trajectory Geometry of Transformer Representations Across Layers]] studies depthwise paths observationally, while [[papers/beyond-logits-aligning-feature-dynamics-for-effective-knowledge-distillation|Beyond Logits: Aligning Feature Dynamics for Effective Knowledge Distillation]] trains students to match intermediate predictive dynamics. These links do not imply citation by the source paper.
-
-[[index|Library home]]

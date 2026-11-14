@@ -115,5 +115,3 @@ The authors inspect NIPEN-PGM(VAE) fitted to Politic2016. Topic displays connect
 - [[papers/how-they-vote-issue-adjusted-models-of-legislative-behavior|How They Vote: Issue-Adjusted Models of Legislative Behavior]]: cited topic-aware ideal-point model.
 - Wang, Wang, and Yeung (2015), "Collaborative Deep Learning for Recommender Systems": cited foundation for coupling autoencoder representations with collaborative filtering.
 - [[papers/the-neural-ideal-point-model|The Neural Ideal Point Model]]: a separate library work using a multimodal encoder-decoder and MMD regularization; it is not NIPEN or a cited predecessor in this source.
-
-[[index|Library home]]

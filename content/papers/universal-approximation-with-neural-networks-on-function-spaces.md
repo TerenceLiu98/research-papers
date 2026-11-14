@@ -77,5 +77,3 @@ The paper is theoretical and reports no empirical experiments. Its evidence cons
 - Stinchcombe (1999), "Neural Network Approximation of Continuous Functionals and Continuous Functions on Compactifications."
 - Gordon et al. (2019), "Convolutional Conditional Neural Processes."
 - Kawano et al. (2021), "Group Equivariant Conditional Neural Processes."
-
-[[index|Library home]]

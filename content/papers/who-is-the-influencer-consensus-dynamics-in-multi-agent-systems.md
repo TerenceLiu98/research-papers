@@ -15,7 +15,6 @@ tags:
   - opinion-dynamics
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

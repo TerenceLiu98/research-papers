@@ -90,5 +90,3 @@ The experiments are limited to image classification and paired image-text data; 
 - Oikarinen et al. (2023), "Label-Free Concept Bottleneck Models."
 - Yuksekgonul, Wang, and Zou (2023), "Post-hoc Concept Bottleneck Models."
 - Rao et al. (2024), "Discover-then-Name: Task-Agnostic Concept Bottlenecks via Automated Concept Discovery."
-
-[[index|Library home]]

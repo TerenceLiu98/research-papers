@@ -84,5 +84,3 @@ PerBench tests three complementary capabilities. Detailed object captions are ev
 - Lai et al. (2024), *LISA: Reasoning Segmentation via Large Language Model*, generates segmentation tokens but relies on separate visual and segmentation components.
 - Rasheed et al. (2024), *GLaMM: Pixel Grounding Large Multimodal Model*, combines grounded conversation and mask prediction through a modular vision-language pipeline.
 - Yuan et al. (2025), *Sa2VA: Marrying SAM2 with LLaVA for Dense Grounded Understanding of Images and Videos*, integrates explicit vision and segmentation experts rather than removing them at inference.
-
-[[index|Library home]]

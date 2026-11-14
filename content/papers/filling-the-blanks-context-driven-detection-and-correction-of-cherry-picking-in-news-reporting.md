@@ -89,5 +89,3 @@ On 2,453 held-out events containing about 97,000 statements, outlet cherry-picki
 - Beltagy, Peters, and Cohan (2020), "Longformer: The Long-Document Transformer": supplies the long-context supervised architecture used in the strongest correction configuration.
 
 Source: supplied parsed manuscript, Cognitio job `52d0a9d1-bfb8-4ef5-9dc4-76669b9dac48`. Publication metadata and DOI verified against the official ICWSM record.
-
-[[index|Library home]]

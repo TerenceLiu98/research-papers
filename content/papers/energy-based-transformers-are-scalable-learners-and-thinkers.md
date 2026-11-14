@@ -86,5 +86,3 @@ For autoregressive video prediction on Something-Something V2 latent frames, EBT
 - Geiping et al. (2025), "Scaling Up Test-Time Compute with Latent Reasoning," provides the recurrent-depth comparison discussed by the paper.
 - Peebles and Xie (2023), "Scalable Diffusion Models with Transformers," supplies the Diffusion Transformer baseline.
 - [[papers/thinking-with-looped-flows|Thinking with Looped Flows]] is related library reading on iterative latent computation and inference-depth scaling, but is not cited by the supplied manuscript.
-
-[[index|Library home]]

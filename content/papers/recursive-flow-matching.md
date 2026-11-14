@@ -96,5 +96,3 @@ On Navier-Stokes, one-step RecFM reports 0.031 CRPS, 0.0064 MSE, and 0.959 SSR, 
 Project page: https://jhhuangchloe.github.io/RecFM/
 
 Source: supplied parsed manuscript, Cognitio job `cfdadbe9-25e9-4d96-a50e-5d2b204f25a6`.
-
-[[index|Library home]]

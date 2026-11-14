@@ -95,5 +95,3 @@ The reward figures are reported aggregate agent rewards, not per-encounter payof
 - Ramchurn, Huynh, and Jennings (2004), "Trust in multi-agent systems": cited background on individual and system-level trust (reference 32).
 - Richters and Peixoto (2011), "Trust transitivity in social networks": cited motivation for indirect trust (reference 34).
 - [[papers/a-model-of-long-term-conflict-resolution-and-cooperation|A Model of Long-Term Conflict Resolution and Cooperation]]: a library comparison using repeated social dilemmas, reciprocity, and imitation to study cooperation; not cited by this paper.
-
-[[index|Library home]]

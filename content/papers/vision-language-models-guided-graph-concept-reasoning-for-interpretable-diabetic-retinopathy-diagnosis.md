@@ -80,5 +80,3 @@ The concept-free pipeline depends on two proprietary vision-language models and 
 - Hu et al. (2024), "Towards Multi-dimensional Explanation Alignment for Medical Classification."
 - Wen et al. (2024), "Concept-based Lesion Aware Transformer for Interpretable Retinal Disease Diagnosis."
 - Xu et al. (2024), "HACDR-Net: Heterogeneous-aware Convolutional Network for Diabetic Retinopathy Multi-lesion Segmentation."
-
-[[index|Library home]]

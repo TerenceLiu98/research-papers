@@ -77,5 +77,3 @@ Mechanistic diagnostics find Layer 0 keys more orthogonal than random-vector bas
 - Agarwal, Dalal, and Misra (2025), "Gradient Dynamics of Attention: How Cross-Entropy Sculpts Bayesian Manifolds," arXiv:2512.22473: the trilogy's second paper, cited for the proposed optimization dynamics behind the geometry.
 - Agarwal, Dalal, and Misra (2025), "Geometric Scaling of Bayesian Inference in LLMs," arXiv:2512.23752: the trilogy's third paper, cited as extending the geometric account toward larger language models.
 - Jelassi et al. (2024), "Repeat After Me: Transformers are Better than State Space Models at Copying," arXiv:2402.01032: motivates the distinction between state propagation and random-access retrieval.
-
-[[index|Library home]]

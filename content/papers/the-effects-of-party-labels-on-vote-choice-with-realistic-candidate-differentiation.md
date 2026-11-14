@@ -98,5 +98,3 @@ Matching candidate party to past vote remains the strongest predictor in the unl
 ## Source
 
 Based on the supplied parsed article. The source records acceptance on 7 February 2024 and gives DOI `10.1017/psrm.2024.20`; no volume, issue, or pagination is supplied. The year above follows the source's 2024 article metadata. The replication URL contains a broken identifier in the parsed text and is not reconstructed here.
-
-[[index|Library home]]

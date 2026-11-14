@@ -106,5 +106,3 @@ This page summarizes the manuscript dated May 14, 2024. No DOI or arXiv identifi
 - Benoit et al. (2016), "Crowd-sourced text analysis: Reproducible and agile production of political data": cited source of the manifesto and multilingual-speech benchmarks.
 - Wu et al. (2023), "Large language models can be used to estimate the latent positions of politicians": cited comparison using pairwise judgments about named politicians rather than their supplied texts.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: a library comparison on validating text-derived positions and uncertainty against human judgments; not a citation in this manuscript.
-
-[[index|Library home]]

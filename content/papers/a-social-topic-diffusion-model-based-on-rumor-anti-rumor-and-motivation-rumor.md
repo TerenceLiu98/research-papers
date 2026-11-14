@@ -77,5 +77,3 @@ Potential users are drawn from two follower layers, producing very large and imb
 - Wan et al. (2021), "Intervening Coupling Diffusion of Competitive Information in Online Social Networks."
 - Chen et al. (2019), "Information Diffusion Prediction via Recurrent Cascades Convolution."
 - Grover and Leskovec (2016), "node2vec: Scalable Feature Learning for Networks."
-
-[[index|Library home]]

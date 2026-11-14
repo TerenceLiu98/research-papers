@@ -74,5 +74,3 @@ Ablations indicate that the server-side privacy agent's backbone matters more th
 - [[papers/differential-privacy-in-generative-ai-agents-analysis-and-optimal-tradeoffs|Differential Privacy in Generative AI Agents: Analysis and Optimal Tradeoffs]] studies a formal, dataset-level privacy framing for generated agent responses, whereas EPEAgents evaluates role-based filtering through refusal behavior.
 - Bagdasarian et al. (2024), *AirGapAgent: Protecting Privacy-Conscious Conversational Agents*, informs the paper's evaluation design but does not yet have a library page.
 - Zyskind, South, and Pentland (2023), *Don't Forget Private Retrieval: Distributed Private Similarity Search for Large Language Models*, protects retrieval with multi-party computation and approximate search; the paper contrasts it with EPEAgents' role-aware mediation across retrieval and context exchange.
-
-[[index|Library home]]

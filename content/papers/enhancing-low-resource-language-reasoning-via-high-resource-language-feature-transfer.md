@@ -88,5 +88,3 @@ Automatic language identification shows an average absolute segment-level change
 - [[papers/knowledge-vector-of-logical-reasoning-in-large-language-models|Knowledge Vector of Logical Reasoning in Large Language Models]]: intervenes on activation directions associated with reasoning behavior, but does not select sparse features through paired cross-lingual successes and failures.
 - [[papers/interpretable-and-steerable-concept-bottleneck-sparse-autoencoders|Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]]: separates feature interpretability from causal steerability and modifies SAE representations for more reliable concept control.
 - [[papers/manifold-steering-reveals-the-shared-geometry-of-neural-network-representation-and-behavior|Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior]]: studies geometry-aware activation interventions rather than language-conditioned sparse feature transfer.
-
-[[index|Library home]]

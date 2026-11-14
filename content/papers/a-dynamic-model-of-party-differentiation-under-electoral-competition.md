@@ -129,5 +129,3 @@ Source: supplied manuscript dated September 2026. No DOI, arXiv identifier, or p
 - [[papers/why-are-us-parties-so-polarized-a-satisficing-dynamical-model|Why are U.S. Parties So Polarized? A 'Satisficing' Dynamical Model]]: cited as the satisficing precursor; the present manuscript adds distributional party states, arbitrary fixed party counts, and institutional feedback.
 - Lanzetti, Hajar, and Dörfler (2022), "Modeling of political systems using Wasserstein gradient flows": cited distributional modeling precursor (reference 25).
 - [[papers/electoral-rule-disproportionality-and-platform-polarization|Electoral Rule Disproportionality and Platform Polarization]]: cited institutional comparison (reference 11); differing choice and payoff assumptions matter when comparing predictions about electoral rules.
-
-[[index|Library home]]

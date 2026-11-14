@@ -12,7 +12,6 @@ tags:
   - signed-networks
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

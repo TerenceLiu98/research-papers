@@ -89,5 +89,3 @@ On Qwen3-4B, the dual-stream method at $\delta=0.1$ raises token accuracy from 8
 - Sun, Stolfo, and Sachan (2025), "Probing for Arithmetic Errors in Language Models," motivates decoding errors and correct answers from internal states.
 
 Code repository listed in the supplied paper: [RL-MIND/Shape-of-Addition](https://github.com/RL-MIND/Shape-of-Addition).
-
-[[index|Library home]]

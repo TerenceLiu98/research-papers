@@ -113,5 +113,3 @@ The manuscript lists code and generated state-field data at [COSWE_stat_phys](ht
 - Burridge and Blaxter (2021), "Inferring the drivers of language change using spatial models," Journal of Physics: Complexity 2, 035018: earlier spatial parameter fitting, reference 20.
 - Burridge (2026), "Statistical field theory for dialectology," Physical Review E 113, 044310: the binary statistical-field predecessor discussed in the introduction, reference 28.
 - [[papers/stochastic-thermodynamics-of-social-imitation-beyond-energetics|Stochastic Thermodynamics of Social Imitation beyond Energetics]]: a thematic library connection that also derives aggregate dynamics from individual imitation; it studies reaction-resolved thermodynamics rather than fitting dialect maps and is not presented here as a citation by Burridge and Vaux.
-
-[[index|Library home]]

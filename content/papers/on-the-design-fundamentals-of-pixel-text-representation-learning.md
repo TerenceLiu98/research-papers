@@ -77,5 +77,3 @@ The near-collapse ablation removes grounding and rendering variation together, s
 - [[papers/glyph-scaling-context-windows-via-visual-text-compression|Glyph: Scaling Context Windows via Visual-Text Compression]]: cited application of rendered text to longer effective contexts.
 - Xiao et al. (2024), “Pixel Sentence Representation Learning”: preceding work on semantic pixel representations.
 - Tschannen et al. (2023), “CLIPPO: Image-and-Language Understanding from Pixels Only”: related unified pixel-based encoding.
-
-[[index|Library home]]

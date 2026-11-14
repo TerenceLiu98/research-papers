@@ -87,5 +87,3 @@ In dimensions three through five, random parameter studies find low-rank limitin
 - [[papers/a-mathematical-perspective-on-transformers|A Mathematical Perspective on Transformers]]: analyzes normalized attention dynamics on the sphere, including layer normalization.
 - Zhong et al. (2022), "A Neural ODE Interpretation of Transformer Layers": develops the continuous-depth interpretation of Transformer layers.
 - [[papers/generative-modeling-via-drifting|Generative Modeling via Drifting]]: a library connection whose normalized Gaussian-kernel fields are analyzed as a side application in this paper.
-
-[[index|Library home]]

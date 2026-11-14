@@ -20,7 +20,6 @@ tags:
 
 Through close analysis of five videos drawn from a collection of 236 YouTube videos by three Laowai Wanghong accounts, Li, Wu, and Fitzgerald show how camera work, settings, embodied performance, speech, and cultural symbols jointly portray China as technologically modern, culturally rich, and welcoming to foreigners. Their [[concepts/multimodal-critical-discourse-analysis|Multimodal Critical Discourse Analysis]] interprets these apparently personal accounts as selective symbolic communication aligned with China's national image campaign: spectacular factories, accessible traditions, and pleasant work experiences are foregrounded while structural and social tensions are largely omitted.
 
-[[index|Library home]]
 
 ## Research Question
 
@@ -75,4 +74,3 @@ Across the cases, the authors interpret the vloggers' first-person witnessing as
 - Machin (2013), "What Is Multimodal Critical Discourse Studies?": provides the paper's methodological basis for analyzing ideology across semiotic modes.
 - Tian, Liang, and Huang (2025), "China Defenders from Abroad": analyzes self-presentation strategies and political frames among pro-China foreign influencers on X/Twitter.
 - Li and Feng (2022), "Influenced or to Be Influenced": examines social-media influencers in nation branding through authenticity.
-

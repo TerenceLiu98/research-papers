@@ -72,5 +72,3 @@ The match to aggregate election features does not uniquely validate the micro-le
 - [[papers/political-polarization-as-a-co-adaptive-process|Political Polarization as a Co-Adaptive Process]]
 - [[papers/nonlinear-polarization-modeling-via-dual-threshold-diffusion-evolution-dynamics|Nonlinear Polarization Modeling via Dual-Threshold Diffusion-Evolution Dynamics]]
 - [[papers/competing-activists-political-polarization|Competing Activists-Political Polarization]]
-
-[[index|Library home]]

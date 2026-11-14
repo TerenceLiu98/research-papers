@@ -111,5 +111,3 @@ The paper reports release of the road dataset through the [Heidelberg Institute 
 
 - Randhawa et al. (2025), "Paved or unpaved? a deep learning derived road surface global dataset from Mapillary street-view imagery": the cited predecessor supplies complementary local coverage but has limited global and temporal reach.
 - [[papers/structured-pixels-satellite-imagery-as-the-cause-in-causal-effect-estimation|Structured Pixels: Satellite Imagery as the Cause in Causal Effect Estimation]]: a library comparison that treats imagery as a causal treatment; the present paper extracts physical attributes and studies associations. It is not a benchmark in this study.
-
-[[index|Library home]]

@@ -133,5 +133,3 @@ The thesis identifies the following component studies in its Publications and So
 - Zhang, Imaizumi, Scholkopf, and Muandet (listed as 2021 in the thesis), "Maximum moment restriction for instrumental variable regression," [arXiv:2010.07684](https://arxiv.org/abs/2010.07684). Chapter 6; described as a submitted preprint in this source.
 
 The separately listed work on instrument-space selection is explicitly excluded from the thesis. A methodological comparison elsewhere in the library is [[papers/fast-unsupervised-ground-metric-learning-with-tree-wasserstein-distance|Fast Unsupervised Ground Metric Learning with Tree-Wasserstein Distance]]: it accelerates distribution comparisons through a tree ground metric, whereas QP uses univariate quantile projections for posterior approximation.
-
-[[index|Library home]]

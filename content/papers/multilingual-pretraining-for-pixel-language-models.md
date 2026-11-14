@@ -73,5 +73,3 @@ The supplied Markdown does not explicitly state the publication year or a stable
 - Lotz et al. (2023), “Text Rendering Strategies for Pixel Language Models”: supplies the bigram rendering baseline.
 - Salesky et al. (2023), “Multilingual Pixel Representations for Translation and Effective Cross-lingual Transfer”: studies multilingual visual encoders for translation rather than general-purpose representation learning.
 - [[papers/scaling-multilingual-pretraining-of-pixel-language-models|Scaling Multilingual Pretraining of Pixel Language Models]]: the library's related study separates language, script, and capacity scaling.
-
-[[index|Library home]]

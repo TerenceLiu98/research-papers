@@ -72,5 +72,3 @@ The supplied Markdown does not establish a publication year or stable identifier
 
 - [[papers/when-llms-play-the-telephone-game|When LLMs Play the Telephone Game]]: a library comparison studying property-level attraction in repeated text transmission, rather than lag-two paraphrase recurrence.
 - Tripto et al. (2023), “A Ship of Theseus: Curious Cases of Paraphrasing in LLM-Generated Texts,” is cited for earlier successive-paraphrasing work.
-
-[[index|Library home]]

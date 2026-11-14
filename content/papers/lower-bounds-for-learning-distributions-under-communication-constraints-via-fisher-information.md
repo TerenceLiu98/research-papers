@@ -18,7 +18,6 @@ tags:
 
 Barnes, Han, and Ozgur use [[concepts/fisher-information-under-quantization|Fisher Information under Quantization]] to derive minimax lower bounds when each of $n$ nodes observes one independent sample and communicates at most $k$ bits. The tails of the statistical score determine whether the information bound grows as $k$, $k^2$, or $2^k$. The bounds cover independent, sequential, and fully interactive blackboard protocols, recover known optimal rates for several models, and give a Gaussian diagonal-covariance lower bound whose tightness remains open in the paper.
 
-[[index|Library home]]
 
 ## Research Question
 

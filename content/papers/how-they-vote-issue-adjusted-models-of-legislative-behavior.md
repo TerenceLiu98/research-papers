@@ -105,5 +105,3 @@ The regularization study reports good generalization over $\lambda=0.0001$ to $1
 - Ramage, Hall, Nallapati, and Manning (2009), "Labeled LDA: A supervised topic model for credit attribution in multi-labeled corpora": cited basis for connecting document topics to named labels.
 - Clinton, Jackman, and Rivers (2004), "The statistical analysis of roll call data": cited Bayesian ideal-point foundation.
 - [[papers/nonparametric-ideal-point-estimation-and-inference|Nonparametric Ideal-Point Estimation and Inference]]: a library comparison that tests shared ordinal rankings across issue groups under different assumptions; it is not cited in the supplied paper.
-
-[[index|Library home]]

@@ -74,5 +74,3 @@ Representation experiments report ImageNet linear probing and fine-tuning from t
 - Assran et al. (2023), "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture," supplies the image JEPA foundation.
 - Li et al. (2023), "MAGE: Masked Generative Encoder to Unify Representation Learning and Image Synthesis," also combines masked modeling with generation.
 - Chang et al. (2022), "MaskGIT: Masked Generative Image Transformer," motivates iterative masked-token sampling.
-
-[[index|Library home]]

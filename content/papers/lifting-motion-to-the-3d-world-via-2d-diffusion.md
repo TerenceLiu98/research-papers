@@ -67,6 +67,3 @@ The approach still relies on priors and camera assumptions to resolve the depth 
 - Tevet et al. (2023), "Human motion diffusion model."
 - Bogo et al. (2016), "Keep it SMPL: Automatic estimation of 3D human pose and shape from a single image."
 - Poole et al. (2022), "DreamFusion: Text-to-3D using 2D diffusion."
-
-
-[[index|Library home]]

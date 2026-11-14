@@ -80,5 +80,3 @@ When $K$ varies from 2 to 10, low-$K$ solutions retain a common citywide pattern
 - Shi et al. (2023), "Nighttime light remote sensing in characterizing urban spatial structure": context for using nighttime lights to study urban form.
 
 The source reports data and computational tools at [gissuifeng/UEV](https://github.com/gissuifeng/UEV). The repository was not independently inspected during this ingest.
-
-[[index|Library home]]

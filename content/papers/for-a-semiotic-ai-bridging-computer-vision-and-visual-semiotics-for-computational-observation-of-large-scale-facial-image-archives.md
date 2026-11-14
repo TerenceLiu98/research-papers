@@ -78,5 +78,3 @@ The authors inspect retrieved images ranked by the overall score, the three leve
 - Mannisto et al. (2022), "Automatic Image Content Extraction: Operationalizing Machine Learning in Humanistic Photographic Studies of Large Visual Archives": the closest prior framework discussed by the authors, using visual grammar to organize computational analysis of photographic archives.
 - Arnold and Tilton (2019), "Distant Viewing: Analyzing Large Visual Corpora": cited as a semiotically informed approach to computational study of visual collections.
 - [[an-image-is-worth-k-topics-a-visual-structural-topic-model-with-pretrained-image-embeddings|An Image is Worth K Topics: A Visual Structural Topic Model with Pretrained Image Embeddings]]: a complementary library paper that represents large image collections through mixed-membership topics rather than hand-mapped semiotic variables; this connection is not made in the FRESCO paper.
-
-[[index|Library home]]

@@ -81,5 +81,3 @@ Validity requires an argument that the selected geography represents the relevan
 - Fotheringham and Wong (1991), "The Modifiable Areal Unit Problem in Multivariate Statistical Analysis." Establishes unpredictable MAUP effects in multivariate models.
 - Amrhein (1995), "Searching for the Elusive Aggregation Effect." Develops the argument that aggregation most consequentially changes relationships among variables.
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: Cited work on matching data across incompatible geographic units and diagnosing transformation difficulty.
-
-[[index|Library home]]

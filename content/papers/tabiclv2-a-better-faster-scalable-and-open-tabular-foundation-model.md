@@ -105,5 +105,3 @@ The main evaluations use TabArena's 51 datasets and TALENT's 300 datasets. TabAr
 - Nakanishi (2025), "Scalable-Softmax Is Superior for Attention": introduces length-scaled softmax, which QASSMax makes query-aware and element-wise.
 - Erickson et al. (2025), "TabArena: A Living Benchmark for Machine Learning on Tabular Data": supplies one of the two principal evaluations.
 - Ye et al. (2024), "A Closer Look at Deep Learning Methods on Tabular Datasets": introduces the TALENT benchmark.
-
-[[index|Library home]]

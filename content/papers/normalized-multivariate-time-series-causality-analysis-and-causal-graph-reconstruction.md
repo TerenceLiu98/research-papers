@@ -98,5 +98,3 @@ The supplied Markdown does not state the paper's publication year, venue, DOI, o
 - Liang (2015), "Normalizing the causality between time series": the normalization approach generalized here.
 - Liang (2016), "Information flow and causality as rigorous notions ab initio": the general theory underlying the estimator.
 - Palus et al. (2018), "Causality, dynamical systems and the arrow of time": a source for the coupled-oscillator experimental setup.
-
-[[index|Library home]]

@@ -83,5 +83,3 @@ For concept co-occurrences, generated and natural data have similar thresholded 
 - [[papers/same-concept-different-directions-cross-modal-feature-heterogeneity-in-sparse-autoencoders|Same Concept, Different Directions: Cross-Modal Feature Heterogeneity in Sparse Autoencoders]] shows that semantic correspondence need not imply a shared feature direction, further qualifying concept-space comparisons.
 - Bau et al. (2019), "Seeing What a GAN Cannot Generate," studies missing generated modes at image and object levels; this paper shifts the comparison to sparse concept features.
 - Fel et al. (2025), "Archetypal SAE: Adaptive and Stable Dictionary Learning for Concept Extraction in Large Vision Models," supplies the RA-SAE method used for concept extraction.
-
-[[index|Library home]]

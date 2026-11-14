@@ -85,5 +85,3 @@ The empirical results are descriptive; the measurement comparisons use simulated
 - Hug (2010), "Selection Effects in Roll Call Votes": cited comparison of Swiss individual voting behavior under expected recorded and unrecorded procedures.
 
 Source: [article DOI](https://doi.org/10.1017/S0003055420000192). The paper identifies [replication materials](https://doi.org/10.7910/DVN/XI7ENB); these were not independently inspected.
-
-[[index|Library home]]

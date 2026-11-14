@@ -78,5 +78,3 @@ The supplied text gives no explicit publication year, venue, DOI, or identifier 
 - Bakry, Barthe, Cattiaux, and Guillin (2008), *A Simple Proof of the Poincaré Inequality for a Large Class of Probability Measures*, supplies the drift-plus-local-inequality route.
 
 Source: supplied parsed Markdown for Cognitio job `2f33caa1-8785-4bd3-b15f-17c45bffef88`, especially Sections 2–3.
-
-[[index|Library home]]

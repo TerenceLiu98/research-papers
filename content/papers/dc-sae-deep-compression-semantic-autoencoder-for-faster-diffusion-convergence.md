@@ -77,5 +77,3 @@ The two feature maps are concatenated channel-wise and fused by a lightweight pr
 - Chen et al., "DC-AE 1.5: Accelerating Diffusion Model Convergence with Structured Latent Space": a structured-latent deep-compression baseline.
 - Shi et al., "Latent Diffusion Model without Variational Autoencoder": augments frozen semantic features with a residual branch for generative use.
 - [[papers/sage-salient-factor-discovery-and-generation-with-visual-foundation-representations|SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations]]: reuses a decodable semantic representation for factor discovery and conditional generation.
-
-[[index|Library home]]

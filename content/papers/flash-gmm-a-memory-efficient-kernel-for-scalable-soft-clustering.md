@@ -21,7 +21,6 @@ tags:
 
 Flash-GMM fuses the expectation and sufficient-statistic computations of isotropic [[concepts/gaussian-mixture-models|Gaussian Mixture Models]] so that the full $N \times K$ responsibility matrix is not materialized in GPU high-bandwidth memory. On an A100-80 GB, the paper reports 19–32x speedup over TorchGMM, execution at up to 100 million points, and improved recall-compute tradeoffs when GMM responsibilities drive adaptive multi-assignment in an [[concepts/inverted-file-index|Inverted File Index]].
 
-[[index|Library home]]
 
 ## Research Question
 

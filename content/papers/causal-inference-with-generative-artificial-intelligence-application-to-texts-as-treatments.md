@@ -139,5 +139,3 @@ Cited in the supplied manuscript:
 Related library reading:
 
 - [[papers/a-design-based-solution-for-causal-inference-with-text-can-a-language-model-be-too-large|A Design-based Solution for Causal Inference with Text: Can a Language Model Be Too Large?]]: uses paired human edits to obtain feature comparisons under preservation assumptions, offering a design-based counterpart to representation adjustment.
-
-[[index|Library home]]

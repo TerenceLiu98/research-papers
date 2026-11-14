@@ -112,5 +112,3 @@ The method separates rare, relatively balanced antagonistic blocs from overwhelm
 - Arinik, Figueiredo, and Labatut (2017), "Signed graph analysis for the interpretation of voting behavior": the integrated-network baseline reexamined in the case studies.
 - Lancichinetti and Fortunato (2012), "Consensus clustering in complex networks": the cited basis for constructing representative partitions, adapted here to signed networks.
 - [[papers/legislative-prediction-via-random-walks-over-a-heterogeneous-graph|Legislative Prediction via Random Walks over a Heterogeneous Graph]]: cited as a voter-bill network approach combining political and textual similarity for prediction; its objective differs from recovering recurring coalition patterns.
-
-[[index|Library home]]

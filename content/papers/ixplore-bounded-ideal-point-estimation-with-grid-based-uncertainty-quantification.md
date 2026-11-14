@@ -120,5 +120,3 @@ In the Smartvote 2023 dimensionality sweep, logistic PCA matches IXPLORE's train
 - Clinton, Jackman, and Rivers (2004), "The Statistical Analysis of Roll Call Data": cited Bayesian ideal-point baseline.
 - Imai, Lo, and Olmsted (2016), "Fast Estimation of Ideal Points with Massive Data": cited EM-based scalable estimation.
 - [[papers/uncertainty-aware-ideal-point-estimation-via-variational-em|Uncertainty-Aware Ideal Point Estimation via Variational EM]]: a library comparison, not a cited work in this manuscript; estimates likelihood-based standard errors through variational information calculations rather than a conditional grid posterior.
-
-[[index|Library home]]

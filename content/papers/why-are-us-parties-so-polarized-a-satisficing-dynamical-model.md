@@ -107,5 +107,3 @@ Source metadata are incomplete: the year follows the existing Wiki's citation of
 - Hill and Tausanovitch (2015), "A disconnect in representation? Comparison of trends in congressional and public polarization": cited evidence for different elite and public polarization trends.
 - [[papers/symmetry-breaking-hysteresis-and-convergence-to-the-mean-voter-in-two-party-spatial-competition|Symmetry Breaking, Hysteresis, and Convergence to the Mean Voter in two-party Spatial Competition]]: a related Wiki paper studying general satisfaction kernels, asymmetry, and hysteresis.
 - [[papers/beyond-the-median-voter-a-model-of-how-the-ideological-dimension-shapes-party-polarization|Beyond the median voter: A model of how the ideological dimension shapes party polarization]]: a related Wiki paper extending satisficing competition to multiple ideological dimensions.
-
-[[index|Library home]]

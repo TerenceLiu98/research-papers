@@ -92,5 +92,3 @@ Replication data and instructions: [Harvard Dataverse](https://doi.org/10.7910/D
 - Blumenau et al. (2017), "Open/closed list and party choice: experimental evidence from the UK": the cited experimental predecessor on Brexit; this paper extends its mechanism and tests another context.
 - [[papers/electoral-systems-and-ideological-voting|Electoral systems and ideological voting]]: a related Wiki study of cross-national associations between ballot structure and ideological distance; it addresses broader institutional variation rather than this randomized candidate-information mechanism.
 - [[papers/party-ambiguity-and-individual-preferences|Party ambiguity and individual preferences]]: a related Wiki study of perceived ambiguity and sympathy. Uncertainty about party positions differs from being offered candidates with known, distinct positions.
-
-[[index|Library home]]

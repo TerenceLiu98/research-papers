@@ -115,5 +115,3 @@ The following cited works have no matching Paper pages in the library:
 - Dorka (2024), “Quantile regression for distributional reward models in RLHF.”
 
 The authors provide implementation links to the [Hugging Face checkpoint](https://huggingface.co/Teburile/DRM) and [GitHub repository](https://github.com/thunlp/DRM).
-
-[[index|Library home]]

@@ -119,5 +119,3 @@ The empirical studies are synthetic or semi-synthetic, and the image and headlin
 Related library reading:
 
 - [[papers/exploratory-causal-inference-in-science|Exploratory Causal Inference in Science]]: discovers affected measurement channels in randomized experiments, a related exploratory goal with a different representation and testing procedure. This is a library connection, not a citation in the supplied manuscript.
-
-[[index|Library home]]

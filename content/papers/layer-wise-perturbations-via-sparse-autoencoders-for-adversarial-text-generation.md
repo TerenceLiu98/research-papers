@@ -92,5 +92,3 @@ The numerical results support increased jailbreak effectiveness, but not the con
 - Bricken et al. (2023), "Towards Monosemanticity: Decomposing Language Models with Dictionary Learning."
 - Cunningham et al. (2023), "Sparse Autoencoders Find Highly Interpretable Features in Language Models."
 - Makelov, Lange, and Nanda (2024), "Towards Principled Evaluations of Sparse Autoencoders for Interpretability and Control."
-
-[[index|Library home]]

@@ -73,5 +73,3 @@ Persona-specific experiments fine-tune eight LLaVA models on 500 annotations eac
 - [[for-a-semiotic-ai-bridging-computer-vision-and-visual-semiotics-for-computational-observation-of-large-scale-facial-image-archives|For a Semiotic AI: Bridging Computer Vision and Visual Semiotics for Computational Observation of Large Scale Facial Image Archives]]: a complementary approach that operationalizes visual semiotic properties as interpretable computer-vision measurements rather than modeling audience responses through captions.
 - Achlioptas et al. (2021), "ArtEmis: Affective Language for Visual Art": a related affective-captioning dataset that focuses on emotion, while Impressions also captures thoughts, beliefs, and aesthetic grounding.
 - Araujo, Lock, and van de Velde (2020), "Automated Visual Content Analysis (AVCA) in Communication Research": motivates computational analysis of images in communication research but focuses more heavily on observable content.
-
-[[index|Library home]]

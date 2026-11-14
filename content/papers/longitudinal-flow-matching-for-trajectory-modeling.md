@@ -84,5 +84,3 @@ For a downstream ADNI analysis, ventricular area forecast to roughly 36 months r
 - Tong et al. (2024), "Simulation-Free Schrodinger Bridges via Score and Flow Matching": supplies the simulation-free score-and-flow training decomposition.
 
 Code supplied by the paper: [github.com/niazoys/longitudinal-flow-matching](https://github.com/niazoys/longitudinal-flow-matching).
-
-[[index|Library home]]

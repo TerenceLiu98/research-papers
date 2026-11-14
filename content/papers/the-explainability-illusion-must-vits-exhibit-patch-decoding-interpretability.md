@@ -81,5 +81,3 @@ The toy construction establishes underdetermination at optimality rather than me
 - Belrose et al. (2023), "Eliciting Latent Predictions from Transformers with the Tuned Lens," learns layer-specific translators to correct representational drift rather than assuming the final unembedding is directly valid at every depth.
 - Li et al. (2023), "A Closer Look at the Explainability of Contrastive Language-Image Pre-training," documents opposite CLIP visualizations and proposes an architectural correction for dense inference.
 - Bousselham et al. (2024), "Grounding Everything: Emerging Localization Properties in Vision-Language Transformers," studies and modifies localization behavior in vision-language transformers.
-
-[[index|Library home]]

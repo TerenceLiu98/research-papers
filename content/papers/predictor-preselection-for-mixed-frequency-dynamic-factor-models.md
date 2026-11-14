@@ -109,5 +109,3 @@ Diebold-Mariano tests do not establish significance for every numerical gain. Fo
 - Siliverstovs (2017), "Short-Term Forecasting With Mixed-Frequency Data: A MIDASSO Approach": skip-sampling precedent discussed in the article.
 - [[papers/factor-augmented-sparse-midas-regressions-with-an-application-to-nowcasting|Factor-Augmented Sparse MIDAS Regressions with an Application to Nowcasting]]: a library comparison combining sparse coefficients and common factors in the final regression; not a citation claimed to appear in this paper.
 - [[papers/nowcasting-monthly-gdp-with-big-data-a-model-averaging-approach|Nowcasting monthly GDP with big data: A model averaging approach]]: a library comparison that pools small mixed-frequency models rather than screening one large factor model.
-
-[[index|Library home]]

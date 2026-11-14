@@ -107,5 +107,3 @@ Frozen features have shape $14\times14\times384$; projected features retain the 
 - Goroshin, Mathieu, and LeCun (2015), "Learning to Linearize Under Uncertainty": prior curvature regularization for video representations discussed in the paper.
 - Sobal et al. (2025), "Learning from Reward-Free Offline Data: A Case for Planning with Latent Dynamics Models": related JEPA planning from offline simulator data.
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]]: a library comparison on latent geometry and conditional planning guarantees; not a citation in the supplied bibliography.
-
-[[index|Library home]]

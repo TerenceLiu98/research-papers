@@ -79,5 +79,3 @@ The main training pool contains two million multimodal and two million text-only
 - Huang et al. (2024), "Deciphering Cross-Modal Alignment in Large Vision-Language Models with Modality Integration Rate": supplies the distribution-level alignment metric used in LoMo's analysis.
 - Cheng et al. (2025), "Glyph: Scaling Context Windows via Visual-Text Compression": renders text for context compression rather than complementary within-instance carrier alignment.
 - Jiang et al. (2024), "Mantis: Interleaved Multi-Image Instruction Tuning": reformats multimodal instructions into interleaved multi-image sequences without targeting semantic equivalence between carriers.
-
-[[index|Library home]]

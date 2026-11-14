@@ -104,5 +104,3 @@ The supplied Markdown gives no explicit publication year, venue, DOI, or identif
 - Nyrup and Bramwell (2020), "Who Governs? A New Global Dataset on Members of Cabinets." Formal-role data contrasted with extracted informal relationships.
 - [[A Real-Time System to Populate FRA Form 57 from News]]: Related Wiki reading on schema-based news extraction; not cited by this manuscript.
 - [[The dynamics of political polarization]]: Related Wiki reading on polarization and network mechanisms; not cited by this manuscript.
-
-[[index|Library home]]

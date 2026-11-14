@@ -71,5 +71,3 @@ A solve-rate criterion selects 15 tasks with large ImageNet gains: six involve m
 - [[papers/loopvit-scaling-visual-arc-with-looped-transformers|LoopViT: Scaling Visual ARC with Looped Transformers]] explores recurrent computation within the visual ARC paradigm; Nat-ARC instead isolates encoder initialization as its main intervention.
 - Hu et al. (2025), *ARC Is a Vision Problem!* (reference 27), supplies the VARC formulation and adaptation pipeline.
 - He et al. (2022), *Masked Autoencoders Are Scalable Vision Learners* (reference 22), supplies the ImageNet encoder checkpoints and reconstruction objective.
-
-[[index|Library home]]

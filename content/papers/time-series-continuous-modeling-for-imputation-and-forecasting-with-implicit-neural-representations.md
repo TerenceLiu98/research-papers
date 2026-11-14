@@ -82,5 +82,3 @@ Experiments use Electricity (321 customer series), Traffic (862 locations), and 
 - [[papers/towards-robust-real-world-multivariate-time-series-forecasting-a-unified-framework-for-dependency-asynchrony-and-missingness|Towards Robust Real-World Multivariate Time Series Forecasting: A Unified Framework for Dependency, Asynchrony, and Missingness]]: a library comparison that handles channel-specific sampling and missing input patches; it is not cited or evaluated by TimeFlow.
 
 OpenReview forum supplied by the paper: [P1vzXDklar](https://openreview.net/forum?id=P1vzXDklar).
-
-[[index|Library home]]

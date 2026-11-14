@@ -92,5 +92,3 @@ Independent coding evolution with Gemini 3.5 Flash raises Terminal-Bench from 64
 - Lee et al. (2026), "Meta-Harness: End-to-End Optimization of Model Harnesses"; Lin et al. (2026), "Agentic Harness Engineering"; Nie et al. (2026), "Test-Time Harness Evolution"; and Chen et al. (2026), "HarnessX": the four harness-evolution baselines used in the comparison.
 - Dwork et al. (2015), "Generalization in Adaptive Data Analysis and Holdout Reuse": motivates conservative selection under repeated adaptive measurements.
 - Zhang et al. (2026), "HarnessCompass": concurrent work that targets generalizable harness evolution as an explicit search objective.
-
-[[index|Library home]]

@@ -99,5 +99,3 @@ For thresholds uniform on $\{0,\ldots,k\}$, the MT-RA model differs from the fix
 - Ethier and Kurtz (2009), *Markov Processes: Characterization and Convergence*: the finite-dimensional density-dependent framework extended by the paper.
 - [[papers/rumor-propagation-on-hypergraphs|Rumor propagation on hypergraphs]]: studies a different departure from homogeneous pairwise stifling through group-aware interactions.
 - [[papers/the-physics-of-news-rumors-and-opinions|The Physics of News, Rumors, and Opinions]]: reviews statistical-physics approaches to information diffusion.
-
-[[index|Library home]]

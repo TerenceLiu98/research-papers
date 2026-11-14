@@ -87,5 +87,3 @@ The supplied source has unresolved reporting discrepancies: the abstract states 
 - Downs (1957), "An economic theory of political action in a democracy": spatial-competition foundation cited by the paper.
 - Hooghe et al. (2010), "Reliability and validity of measuring party positions: The Chapel Hill expert surveys of 2002 and 2006": cited work on expert-survey measurement.
 - Gamboa and Morales (2016), "Chile's 2015 electoral reform: Changing the rules of the game": cited institutional context for the fragmentation timeline.
-
-[[index|Library home]]

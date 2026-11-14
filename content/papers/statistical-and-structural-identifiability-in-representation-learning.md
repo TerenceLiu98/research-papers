@@ -74,5 +74,3 @@ The local bi-Lipschitz assumptions are difficult to test empirically, so the exp
 - Horan, Richardson, and Weiss (2021), "When Is Unsupervised Disentanglement Possible?"
 - Buchholz and Scholkopf (2024), "Robustness of Nonlinear Representation Learning."
 - Reizinger et al. (2025), "Position: An Empirically Grounded Identifiability Theory Will Accelerate Self-Supervised Learning Research."
-
-[[index|Library home]]

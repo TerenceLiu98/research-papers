@@ -81,5 +81,3 @@ Returning MEPs' first-dimension correlations across consecutive parliaments rang
 - [[papers/power-to-the-parties-cohesion-and-competition-in-the-european-parliament-1979-2001|Power to the Parties: Cohesion and Competition in the European Parliament, 1979-2001]]: cited companion study of cohesion and coalition patterns over the same historical period.
 - [[papers/polarization-and-ideology-partisan-sources-of-low-dimensionality-in-scaled-roll-call-analyses|Polarization and Ideology: Partisan Sources of Low Dimensionality in Scaled Roll Call Analyses]]: related library reading on why low-dimensional voting fit need not identify low-dimensional preferences; not a citation in this source.
 - [[papers/analysing-political-dynamics-in-the-new-european-parliament-political-cleavages-and-division-lines|Analysing political dynamics in the new European Parliament: Political Cleavages and Division Lines]]: later library comparison relating voting distances to expert party positions. Its period, aggregation, and distance method differ, so its integration-versus-left-right correlations are not a direct replication.
-
-[[index|Library home]]

@@ -113,5 +113,3 @@ The full pipeline averages about 24.8K tokens per instance. Preliminary offloadi
 - Halawi et al. (2024), "Approaching human-level forecasting with language models": cited precedent for query decomposition and retrieval-assisted forecasting (reference 19).
 - Ye et al. (2024), "MIRAI: Evaluating LLM Agents for Event Forecasting": cited structured forecasting comparison (reference 62).
 - [[papers/structured-complex-and-time-complete-temporal-event-forecasting|Structured, Complex and Time-complete Temporal Event Forecasting]]: related library work on conditional object ranking over event graphs, rather than free-form outcome generation; not a tested StkFEP baseline.
-
-[[index|Library home]]

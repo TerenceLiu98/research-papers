@@ -118,5 +118,3 @@ Thus adaptive evidence weighting does not improve the five-run heat average, but
 - Yang, Meng, and Karniadakis (2021), "B-PINNs: Bayesian physics-informed neural networks for forward and inverse PDE problems with noisy data": the cited HMC-based Bayesian PINN comparison.
 - Wang, Yu, and Perdikaris (2022), "When and why PINNs fail to train: A neural tangent kernel perspective": the cited account of gradient imbalance and NTK-guided loss scaling.
 - [[papers/challenges-in-markov-chain-monte-carlo-for-bayesian-neural-networks|Challenges in Markov Chain Monte Carlo for Bayesian Neural Networks]]: a library comparison on posterior-sampling difficulty and the distinction between predictive utility and posterior exploration; not cited in this manuscript.
-
-[[index|Library home]]

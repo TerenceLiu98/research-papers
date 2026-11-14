@@ -101,5 +101,3 @@ There are also reporting inconsistencies. The abstract refers to nine election y
 - Bokanyi, Szallasi, and Vattay (2018), "Universal scaling laws in metro area election results."
 - Cardoso, Souza, Neli, and Souza (2023), "Scaling laws from Brazilian state election results point out that, the candidate's chance to win increases by investing more campaign efforts in smaller electorates."
 - Cardoso, Silva, Neli, and Souza (2022), "Electorate involvement disorder: Universal relationship between the amplitude and electorate size in second round of Brazilian presidential election."
-
-[[index|Library home]]

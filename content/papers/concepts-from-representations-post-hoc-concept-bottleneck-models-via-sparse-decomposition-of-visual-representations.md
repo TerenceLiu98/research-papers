@@ -87,5 +87,3 @@ The experiments focus on image classification and CLIP-family representations, s
 - Oikarinen, Das, Nguyen, and Weng (2023), "Label-Free Concept Bottleneck Models."
 - Yang et al. (2023), "Language in a Bottle: Language Model Guided Concept Bottlenecks for Interpretable Image Classification."
 - Fel et al. (2023), "A Holistic Approach to Unifying Automatic Concept Extraction and Concept Importance Estimation."
-
-[[index|Library home]]

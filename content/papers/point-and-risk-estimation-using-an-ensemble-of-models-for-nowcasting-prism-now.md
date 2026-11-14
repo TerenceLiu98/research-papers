@@ -106,5 +106,3 @@ Table 4's one-tailed Diebold-Mariano tests for t+0 MSE give p-values of 0.095-0.
 - Seo (2025), "Econometric Forecasting Using Ubiquitous News Text: Text-Enhanced Factor Model": cited basis for the text-enhanced model.
 - [[papers/nowcasting-monthly-gdp-with-big-data-a-model-averaging-approach|Nowcasting monthly GDP with big data: A model averaging approach]]: library comparison using error-covariance weights for pooled mixed-frequency models.
 - [[papers/asymmetric-uncertainty-nowcasting-using-skewness-in-real-time-data|Asymmetric uncertainty: Nowcasting using skewness in real-time data]]: library comparison modeling time-varying distributional shape in macroeconomic indicators. These two library comparisons are thematic relationships, not citations asserted to occur in PRISM-Now.
-
-[[index|Library home]]

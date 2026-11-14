@@ -15,7 +15,6 @@ tags:
   - probabilistic-forecasting
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

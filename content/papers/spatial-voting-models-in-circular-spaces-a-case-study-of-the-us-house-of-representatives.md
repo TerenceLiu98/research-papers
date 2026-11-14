@@ -116,5 +116,3 @@ Three alternative prior settings yield nearly unchanged rankings in the 112th an
 - Clinton, Jackman, and Rivers (2004), "The statistical analysis of roll call data": the cited Bayesian Euclidean scaling framework.
 - [[papers/identifying-intraparty-voting-blocs-in-the-uk-house-of-commons|Identifying Intraparty Voting Blocs in the U.K. House of Commons]] (Spirling and Quinn, 2010): the cited clustering alternative, which does not order legislators within blocs.
 - Duck-Mayr and Montgomery (2020), "Ends against the middle: Scaling votes when ideological opposites behave the same for antithetical reasons": cited alternative based on non-monotonic utilities.
-
-[[index|Library home]]

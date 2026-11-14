@@ -82,5 +82,3 @@ Committee, geography, vote, and within-state comparisons support substantive val
 - [[papers/the-partypress-database-a-new-comparative-database-of-parties-press-releases|The PARTYPRESS Database: A new comparative database of parties' press releases]]: a later press-release resource using supervised issue classification across European parties; its existing Wiki bibliography supplies the 2010 publication year, which is absent from the supplied Markdown.
 - Quinn et al., "How to Analyze Political Attention with Minimal Assumptions and Costs" (cited as forthcoming): organizes political attention over time, whereas this model organizes it by author.
 - Mimno and McCallum (2008), "Topic Models Conditioned on Arbitrary Features with Dirichlet-Multinomial Regression": the cited basis for incorporating author covariates into the prior.
-
-[[index|Library home]]

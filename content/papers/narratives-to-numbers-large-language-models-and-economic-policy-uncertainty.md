@@ -82,5 +82,3 @@ For multilingual transfer, the English-trained Llama classifier is tested on tra
 - Keith et al. (2020), "Uncertainty over Uncertainty": examines assumptions and annotation choices underlying text-based EPU measures.
 - Carlson and Dell (2025), "A Unifying Framework for Robust and Efficient Inference with Unstructured Data": studies inference when machine predictions become structured variables.
 - [[papers/the-ai-gpr-index-measuring-geopolitical-risk-using-artificial-intelligence|The AI-GPR Index: Measuring Geopolitical Risk using Artificial Intelligence]]: uses semantic scoring and human auditing to construct a related news-based risk measure.
-
-[[index|Library home]]

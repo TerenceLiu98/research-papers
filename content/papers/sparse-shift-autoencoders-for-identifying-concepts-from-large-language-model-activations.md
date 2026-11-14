@@ -73,5 +73,3 @@ The evaluation measures recovery with mean correlation coefficient (MCC), which 
 - Lachapelle et al. (2023), "Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning."
 - Xu et al. (2024), "A Sparsity Principle for Partially Observable Causal Representation Learning."
 - Wu et al. (2025), "AxBench: Steering LLMs? Even Simple Baselines Outperform Sparse Autoencoders."
-
-[[index|Library home]]

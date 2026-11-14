@@ -73,5 +73,3 @@ Government environmental subsidies do not show a robust overall moderating effec
 - Dube, Legros, and Theriault (2014), "A Spatial Difference-in-Differences Estimator to Evaluate the Effect of Change in Public Mass Transit Systems on House Prices": cited as the basis for adding spatial outcome lags to DID.
 - Wang and Yue (2021), "Cross-Regional Radiation Effect of Environmental Protection Interview on Enterprises' Green Innovation": related evidence on cross-regional effects.
 - Cheng and Yu (2023), "Can Central Environmental Protection Inspection Induce Corporate Green Technology Innovation?": source for the policy-variable construction and a national comparison.
-
-[[index|Library home]]

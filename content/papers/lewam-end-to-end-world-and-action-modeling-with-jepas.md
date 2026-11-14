@@ -79,5 +79,3 @@ Removing LeWAM's policy head and planning with CEM isolates its learned dynamics
 - Chi et al. (2023), "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion": the behavior-cloning comparator in simulation and physical-robot experiments.
 
 Source: supplied parsed manuscript, Cognitio job `582fc17c-1229-4a68-9250-8bb51460b9fa`.
-
-[[index|Library home]]

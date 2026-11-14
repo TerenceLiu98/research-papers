@@ -97,5 +97,3 @@ The main evaluation randomly holds out 10% of votes, using 90% for training. Bas
 - Gerrish and Blei (2011), "Predicting legislative roll calls from text": cited text-based roll-call predecessor, reference 6.
 - Hofmann (1999), "Probabilistic latent semantic analysis": cited basis for the text mixture and EM updates, reference 10.
 - Wang and Blei (2011), "Collaborative topic modeling for recommending scientific articles": cited related combination of text and user-item behavior, reference 21.
-
-[[index|Library home]]

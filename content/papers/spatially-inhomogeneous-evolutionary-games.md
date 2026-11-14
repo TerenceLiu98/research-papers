@@ -96,5 +96,3 @@ The framework proves finite-time stability and convergence, not convergence to N
 - Canizo, Carrillo, and Rosado (2011), "A Well-Posedness Theory in Measures for Some Kinetic Models of Collective Motion": cited measure-theoretic foundation for mean-field interaction dynamics.
 - Ambrosio and Trevisan (2014), "Well-Posedness of Lagrangian Flows and Continuity Equations in Metric Measure Spaces": cited foundation for the superposition argument.
 - [[papers/modeling-of-political-systems-using-wasserstein-gradient-flows|Modeling of Political Systems using Wasserstein Gradient Flows]]: a distinct distributional game model whose dynamics are explicitly Wasserstein gradient flows rather than general replicator-driven transport.
-
-[[index|Library home]]

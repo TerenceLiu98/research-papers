@@ -14,7 +14,6 @@ tags:
   - mechanistic-interpretability
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

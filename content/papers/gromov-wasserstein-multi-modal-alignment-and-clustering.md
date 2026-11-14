@@ -86,5 +86,3 @@ The paper builds on Peyré, Cuturi, and Solomon's *Gromov-Wasserstein Averaging 
 [Published paper](https://doi.org/10.1145/3511808.3557339) · [Author code](https://github.com/rucnyz/GWMAC)
 
 Ingested from the supplied parsed Markdown for Cognitio job `0ca9dead-aee3-4404-b8d2-e052cfb78615`.
-
-[[index|Library home]]

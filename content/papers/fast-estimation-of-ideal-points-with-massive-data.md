@@ -102,5 +102,3 @@ A separate binary-model uncertainty study simulates 1,000 roll-call datasets fro
 - [[papers/uncertainty-aware-ideal-point-estimation-via-variational-em|Uncertainty-Aware Ideal Point Estimation via Variational EM]]: a library connection addressing standard-error computation through variational Louis information; it cites this paper.
 
 Source DOI: `10.1017/S000305541600037X`. Replication-data DOI reported in the references: `10.7910/DVN/HAU0EX`.
-
-[[index|Library home]]

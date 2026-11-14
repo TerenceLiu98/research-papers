@@ -74,5 +74,3 @@ Across the empirical nowcasts, the estimated factor count is one about 90% of th
 - Follett and Yu (2019), "Achieving Parsimony in Bayesian Vector Autoregressions With the Horseshoe Prior": supplies the correlated stochastic-volatility specification and particle-Gibbs implementation adapted here.
 - Bai and Ng (2002), "Determining the Number of Factors in Approximate Factor Models": provides a frequentist information-criterion alternative for factor-count estimation.
 - [[papers/nowcasting-gdp-with-a-pool-of-factor-models-and-a-fast-estimation-algorithm|Nowcasting GDP with a Pool of Factor Models and a Fast Estimation Algorithm]]: a related mixed-frequency GDP model that trades full MCMC inference for fast estimation and averages across factor specifications.
-
-[[index|Library home]]

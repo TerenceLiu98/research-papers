@@ -102,5 +102,3 @@ No new empirical sampling evaluation is reported. Figure 1 illustrates the varia
 - Masrani et al. (2021), "q-Paths: generalizing the geometric annealing path using power means": introduces the q-paths and their empirical study (reference 45).
 - Grosse, Maddison, and Salakhutdinov (2013), "Annealing between distributions by averaging moments": prior variational and moment-averaging path construction (reference 34).
 - Zhang (2004), "Divergence function, duality, and convex analysis," and Zhang (2013), "Nonparametric information geometry: from divergence function to referential-representational biduality on statistical manifolds": foundations for the representational divergence framework (references 77-78).
-
-[[index|Library home]]

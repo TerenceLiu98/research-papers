@@ -114,5 +114,3 @@ For the hawk example, mean per-chain CPU runtimes are 42 minutes 54 seconds for 
 - Pourzanjani, Jiang, and Petzold (2017), "Improving the identifiability of neural networks for Bayesian inference": cited treatment of weight symmetries and identifiability.
 - Wilson and Izmailov (2020), "Bayesian deep learning and a probabilistic perspective of generalization": cited motivation for interpreting ensembles through Bayesian marginalization.
 - [[papers/do-bayesian-neural-networks-need-to-be-fully-stochastic|Do Bayesian Neural Networks Need To Be Fully Stochastic?]]: related library paper, not a citation in this source; separates predictive usefulness from full posterior fidelity and examines predictive disagreement across HMC chains.
-
-[[index|Library home]]

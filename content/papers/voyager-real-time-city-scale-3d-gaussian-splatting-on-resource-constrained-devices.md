@@ -26,7 +26,6 @@ tags:
 
 VOYAGER accelerates city-scale [[3D Gaussian Splatting]] by reusing the previous frame's level-of-detail selection and reducing exponential evaluations during rasterization. On NVIDIA AGX Orin, Table 1 reports 42.19, 39.01, and 56.42 FPS on the HierarchicalGS, UrbanScene3D, and MegaNeRF dataset groups at $\tau=3$, with quality metrics close to the corresponding HierarchicalGS baseline. Coarser detail increases throughput, but the source contains conflicting quality and energy values and does not support its claim of at least 60 FPS on every tested scene.
 
-[[index|Library home]]
 
 ## Research Question
 

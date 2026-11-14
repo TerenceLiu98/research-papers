@@ -89,5 +89,3 @@ The evidence combines mathematical results with synthetic network simulations; n
 - Morris (2000), "Contagion": cohesive sets underpin the noninfection argument.
 - Jackson and Storms (2019), "Behavioral communities and the atomic structure of networks": related analysis of binary coordination in stochastic block models.
 - Parise and Ozdaglar (2023), "Graphon games: a statistical framework for network games and interventions": related continuum approximation and intervention framework; its smooth-game assumptions do not directly cover these discrete dynamics.
-
-[[index|Library home]]

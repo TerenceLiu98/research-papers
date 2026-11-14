@@ -73,5 +73,3 @@ The paper provides an analytical and numerical illustration rather than an empir
 
 - [[papers/one-step-generative-modeling-via-wasserstein-gradient-flows|One-Step Generative Modeling via Wasserstein Gradient Flows]]: also connects transport geometry to learned distributional dynamics, but targets generative modeling rather than growing cell populations.
 - [[papers/jko-schemes-with-general-transport-costs|JKO Schemes with General Transport Costs]]: studies when transport costs beyond the standard quadratic form generate a prescribed gradient-flow limit.
-
-[[index|Library home]]

@@ -95,5 +95,3 @@ The supplied Markdown contains damaged prose, equations, and references. In part
 - Pérez-Martínez et al. (2023), "Polarized opinion states in static networks driven by limited information horizons" (source reference 40): the one-dimensional static-network predecessor.
 - [[Multidimensional Party Polarization in Europe: Cross-Cutting Divides and Effective Dimensionality]]: a complementary measurement approach to correlated political dimensions, applied to party positions rather than simulated individual dynamics.
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]: a separate model distinguishing within-agent alignment from population consensus and finite-time polarization.
-
-[[index|Library home]]

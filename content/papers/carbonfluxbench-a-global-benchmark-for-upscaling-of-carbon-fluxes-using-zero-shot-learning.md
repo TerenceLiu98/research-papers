@@ -102,5 +102,3 @@ TAM-RL narrowly leads IGBP GPP, CT-LSTM leads IGBP RECO and Koppen GPP, and TAM-
 - Jung et al. (2020), "Scaling carbon fluxes from eddy covariance sites to globe: synthesis and evaluation of the FLUXCOM approach" (reference 110): a cited operational upscaling framework.
 
 Source: [KDD paper DOI](https://doi.org/10.1145/3770855.3817566).
-
-[[index|Library home]]

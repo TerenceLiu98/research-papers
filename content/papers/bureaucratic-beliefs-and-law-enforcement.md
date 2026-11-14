@@ -106,5 +106,3 @@ The source cites these foundations, which do not currently have separate library
 - Finan, Olken, and Pande (2017), "The personnel economics of the developing state": the bureaucratic recruitment, incentives, and monitoring literature motivating the model.
 
 [[papers/does-ai-erode-street-level-discretion-a-mixed-methods-study-on-automated-decision-making-in-chinas-tax-authorities|Does AI erode street-level discretion? A mixed-methods study on automated decision-making in China's tax authorities]] provides a thematic library comparison on frontline administrative decision-making. It studies perceived discretion under automation, rather than ruler-type signaling, and is not a citation attributed to Hong and Zhang.
-
-[[index|Library home]]

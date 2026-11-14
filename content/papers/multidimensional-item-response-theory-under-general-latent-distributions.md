@@ -117,5 +117,3 @@ Estimated loadings broadly follow the intended personality domains. Post-hoc Gau
 - Woods and Thissen (2006), "Item response theory with estimation of the latent population distribution using spline-based densities": cited alternative for flexible latent-density estimation.
 - [[papers/uncertainty-aware-ideal-point-estimation-via-variational-em|Uncertainty-Aware Ideal Point Estimation via Variational EM]]: a library comparison focused on standard errors in a different logistic latent-variable model; not cited in this manuscript.
 - [[papers/misspecifying-the-shape-of-a-random-effects-distribution-why-getting-it-wrong-may-not-matter|Misspecifying the Shape of a Random Effects Distribution: Why Getting It Wrong May Not Matter]]: a library comparison emphasizing target-specific robustness in mixed models; not cited in this manuscript, and its robustness findings do not directly establish MIRT robustness.
-
-[[index|Library home]]

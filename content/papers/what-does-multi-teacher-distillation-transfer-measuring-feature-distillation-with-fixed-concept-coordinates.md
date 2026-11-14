@@ -16,7 +16,6 @@ tags:
 
 Learned feature-prediction heads can absorb an invertible change of basis, so accurate teacher-feature regression does not show that a student uses corresponding internal coordinates. This paper evaluates [[concepts/fixed-coordinate-compatibility|Fixed-Coordinate Compatibility]] through a pretrained [[concepts/universal-concept-spaces|Universal Concept Space]] whose decoders are fixed before student training. Same-patch coordinate supervision improves direct held-out decoding for ViT-S and supervised external decoding for ConvNeXt-Tiny, while controls show that coordinate allocation without spatial correspondence and value matching without autonomous support selection are insufficient.
 
-[[index|Library home]]
 
 ## Research Question
 

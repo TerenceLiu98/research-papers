@@ -81,5 +81,3 @@ In the staggered design with $n=5{,}000$, the estimator pooling all not-yet-trea
 - Olden and Moen (2022), "The Triple Difference Estimator": studies the canonical DDD interpretation that this paper generalizes to covariates and staggered timing.
 - Strezhnev (2023), "Decomposing Triple-Differences Regression under Staggered Adoption": analyzes the interpretation problems of three-way fixed-effects DDD regressions under heterogeneous effects.
 - [[papers/evaluation-of-low-carbon-city-pilot-policy-effect-on-carbon-abatement-in-china|Evaluation of Low-Carbon City Pilot Policy Effect on Carbon Abatement in China]]: a library example of staggered policy evaluation whose comparison-group concerns are related but use an ordinary DiD design.
-
-[[index|Library home]]

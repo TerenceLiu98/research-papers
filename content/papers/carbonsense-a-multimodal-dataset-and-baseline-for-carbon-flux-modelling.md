@@ -91,5 +91,3 @@ EcoPerceiver has better means in 12 of 15 classes, but this is not 12 statistica
 - Pastorello et al. (2020), "The FLUXNET2015 Dataset and the ONEFlux Processing Pipeline for Eddy Covariance Data": the cited standardized measurement resource (reference 14).
 - Nelson et al. (2024), "X-BASE: The First Terrestrial Carbon and Water Flux Products from an Extended Data-Driven Scaling Framework, FLUXCOM-X": the cited model-preparation precedent for the XGBoost comparator (reference 4).
 - [[papers/towards-robust-real-world-multivariate-time-series-forecasting-a-unified-framework-for-dependency-asynchrony-and-missingness|Towards Robust Real-World Multivariate Time Series Forecasting: A Unified Framework for Dependency, Asynchrony, and Missingness]]: a library comparison on incomplete temporal inputs, not a citation or evaluated baseline in CarbonSense. It forecasts future values using channel summaries and patch removal; EcoPerceiver estimates flux from contemporaneous and preceding observations.
-
-[[index|Library home]]

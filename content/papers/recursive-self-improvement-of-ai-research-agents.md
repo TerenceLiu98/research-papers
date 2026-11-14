@@ -90,5 +90,3 @@ An appendix evaluates AIDE_0 and AIDE_85 with Gemini 3 Flash, GPT-5.6-Sol, and C
 - [[papers/darwin-godel-machine-open-ended-evolution-of-self-improving-agents|Darwin Godel Machine]]: evolves an archive of self-modifying coding agents and tests alternative lineage selection, model transfer, and objective-hacking behavior.
 - [[papers/hyperagents|HyperAgents]]: makes both task and modification procedures editable, providing a stronger metacognitive-self-modification comparison.
 - [[papers/frontis-ma1-training-an-ai4ai-model-towards-recursive-self-improvement-in-machine-learning-engineering|Frontis-MA1]]: trains program-improvement operators from executable experience, contrasting model-weight adaptation with AIDE^2's scaffold-level rewriting.
-
-[[index|Library home]]

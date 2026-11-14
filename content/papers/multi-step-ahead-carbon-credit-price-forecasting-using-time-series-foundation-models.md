@@ -80,5 +80,3 @@ Tables 8 and 10 report the following mean MAPE values within each horizon group.
 - Rasul et al. (2023), "Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting," reference [35], arXiv:2310.08278: the cited Lag-Llama source.
 - [[papers/time-series-foundation-models-for-multivariate-financial-time-series-forecasting|Time Series Foundation Models for Multivariate Financial Time Series Forecasting]]: a thematic library connection examining task-dependent financial forecasting and the distinction between transfer gains and conventional-baseline performance; not a cited experiment in this paper.
 - [[papers/moirai-moe-empowering-time-series-foundation-models-with-sparse-mixture-of-experts|MOIRAI-MOE: Empowering Time Series Foundation Models with Sparse Mixture of Experts]]: a related library paper on a different MOIRAI-family architecture; MOIRAI-MOE is not evaluated in this carbon-price benchmark.
-
-[[index|Library home]]

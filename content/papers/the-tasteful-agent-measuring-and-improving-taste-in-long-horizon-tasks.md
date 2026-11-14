@@ -110,5 +110,3 @@ On held-out engineering questions, the distilled student reaches 47.9% two-order
 - Rein et al. (2025), "HCAST: Human-Calibrated Autonomy Software Tasks": another source of research-task trajectories.
 - Parikh and Wijk (2025), "MALT: A Dataset of Natural and Prompted Behaviors that Threaten Eval Integrity": public transcript source used for research runs.
 - Hinton, Vinyals, and Dean (2015), "Distilling the Knowledge in a Neural Network": foundational teacher-student distillation work cited by the paper.
-
-[[index|Library home]]

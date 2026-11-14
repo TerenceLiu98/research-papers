@@ -81,5 +81,3 @@ These works are discussed in the supplied paper; matching library pages were not
 - Rathje et al. (2025), "Sycophantic AI Increases Attitude Extremity and Overconfidence": examines attitude polarization in political settings.
 - Batista and Griffiths (2026), "A Rational Analysis of the Effects of Sycophantic AI": analyzes how sycophantic advice can intensify confirmation bias.
 - Enke et al. (2025), "Behavioral Attenuation": supplies the pre-existing set of 30 decision environments used in the experiment.
-
-[[index|Library home]]

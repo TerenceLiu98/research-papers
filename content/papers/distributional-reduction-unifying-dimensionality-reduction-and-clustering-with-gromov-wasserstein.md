@@ -76,5 +76,3 @@ Additional studies vary the prototype count, embedding dimension, clustering ini
 - Chen et al. (2023), "A Gromov-Wasserstein Geometric View of Spectrum-Preserving Graph Coarsening": develops the link between GW graph reduction and kernel clustering.
 - Clark, Needham, and Weighill (2024), "Generalized Dimension Reduction Using Semi-Relaxed Gromov-Wasserstein Distance": independently studies semi-relaxed GW for multidimensional scaling.
 - Murray and Pickarski (2024), "On Probabilistic Embeddings in Optimal Dimension Reduction": independently develops a related probabilistic embedding perspective.
-
-[[index|Library home]]

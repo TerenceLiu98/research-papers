@@ -94,5 +94,3 @@ Training ablations on ARC support the combined formulation: removing both time c
 - [[papers/probabilistic-tiny-recursive-model|Probabilistic Tiny Recursive Model]]: injects noise directly into TRM recurrence and selects parallel trajectories with the same kind of learned Q head.
 - Lee et al. (2026), "Flow Map Language Models": the non-recurrent categorical-flow baseline used in the recurrence ablation.
 - [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] is related library reading, not a citation claimed by the supplied paper: both use ordered denoising objectives to train persistent recurrence, but that method removes timestep conditioning and can discard progressive denoising at inference.
-
-[[index|Library home]]

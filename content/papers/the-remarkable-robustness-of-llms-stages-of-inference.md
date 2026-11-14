@@ -68,5 +68,3 @@ The supplied Markdown does not give an explicit publication year or stable paper
 ## Related Papers
 
 The manuscript cites Belrose et al., *Eliciting Latent Predictions from Transformers with the Tuned Lens* (2023), Rushing and Nanda, *Explorations of Self-Repair in Language Models* (2024), and Gurnee et al., *Universal Neurons in GPT2 Language Models* (2024) as foundations for intermediate prediction, self-repair, and neuron classification. It also relates its robustness findings to Men et al., *ShortGPT* (2024), and Gromov et al., *The Unreasonable Ineffectiveness of the Deeper Layers* (2024).
-
-[[index|Library home]]

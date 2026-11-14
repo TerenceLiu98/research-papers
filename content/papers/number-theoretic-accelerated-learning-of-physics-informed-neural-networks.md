@@ -95,5 +95,3 @@ For system identification, GLT attains comparable parameter error with roughly h
 - Zeng et al. (2023), "Competitive Physics Informed Networks": supplies the adversarial PINN variant used to test whether GLT transfers beyond the standard squared-residual objective.
 - [[papers/bayesian-reasoning-for-physics-informed-neural-networks|Bayesian Reasoning for Physics-Informed Neural Networks]]: a library comparison focused on loss weighting, model selection, and local uncertainty rather than collocation design; not cited in this manuscript.
 - [[papers/a-new-resampling-method-for-meta-gaussian-distributions|A New Resampling Method for Meta Gaussian Distributions]]: a library comparison of good-lattice QMC points with alternative finite-support approximations in a statistical setting; not cited in this manuscript.
-
-[[index|Library home]]

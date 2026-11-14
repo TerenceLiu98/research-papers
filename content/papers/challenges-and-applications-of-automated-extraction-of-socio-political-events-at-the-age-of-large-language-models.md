@@ -67,5 +67,3 @@ The proposed evaluation scope is broader than extraction accuracy alone. It incl
 - Hu et al. (2024), "Leveraging Codebook Knowledge with NLI and ChatGPT for Zero-Shot Political Relation Classification": provides evidence cited for LLM use with political coding guidelines.
 - Olsen et al. (2024), "Socio-Political Events of Conflict and Unrest: A Survey of Available Datasets": surveys datasets and the gap between text-bound NLP annotations and real-world political-event records.
 - Hurriyetoglu et al. (2022), "Event Coreference Resolution for Contentious Politics Events": addresses linking multiple textual mentions of the same event.
-
-[[index|Library home]]

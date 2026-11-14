@@ -84,5 +84,3 @@ The supplied Markdown does not establish publication year or a stable paper iden
 
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: a complementary validation approach using human judgments of speeches to assess substantive ordering and uncertainty.
 - Slapin and Proksch (2008), "A Scaling Model for Estimating Time-Series Party Positions from Texts": the Wordfish methodological source cited by this paper.
-
-[[index|Library home]]

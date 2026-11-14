@@ -89,5 +89,3 @@ The conclusion also reports a German application for 1990-2014 in Online Appendi
 - [[papers/a-group-based-approach-to-measuring-polarization|A Group-Based Approach to Measuring Polarization]]: related library reading that uses variance decomposition to capture between-group separation and within-group cohesion; not cited in this article.
 
 Source: [Article DOI](https://doi.org/10.1080/01402382.2022.2110376). The issue citation is dated 2023; online publication was September 29, 2022.
-
-[[index|Library home]]

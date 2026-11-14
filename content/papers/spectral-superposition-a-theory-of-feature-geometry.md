@@ -92,5 +92,3 @@ Related library reading, without implying citation by this paper:
 
 - [[papers/projecting-assumptions-the-duality-between-sparse-autoencoders-and-concept-geometry|Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]] examines how SAE architectures constrain recoverable concept geometry.
 - [[papers/neural-collapse-a-review-on-modelling-principles-and-generalization|Neural Collapse: A Review on Modelling Principles and Generalization]] surveys another setting in which learned representations approach simplex tight-frame geometry.
-
-[[index|Library home]]

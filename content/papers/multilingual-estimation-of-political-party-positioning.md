@@ -103,5 +103,3 @@ Both continuous approaches regress toward the mean, but BigBird is especially co
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: places classification and embedding approaches within a broader measurement taxonomy.
 
 Source: [ACL Anthology](https://aclanthology.org/2023.emnlp-main.591/). Summary based on the supplied parsed paper; publication metadata verified against the official record.
-
-[[index|Library home]]

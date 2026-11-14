@@ -77,5 +77,3 @@ Group D reached $-0.034 \pm 0.031$, but its mechanism patches were not successfu
 - AIMing Lab (2026), "AutoResearchClaw: Multi-batch parallel autoresearch": extends autoresearch through parallel candidate evaluation while retaining a human-designed search mechanism.
 - [[papers/recursive-self-improvement-of-ai-research-agents|Recursive self-improvement of AI research agents]]: a library comparison that also uses an outer loop to rewrite an AI research harness, but evaluates longer scaffold lineages and held-out transfer.
 - [[papers/darwin-godel-machine-open-ended-evolution-of-self-improving-agents|Darwin Godel Machine]]: a library comparison that evolves self-modifying coding agents across archived lineages rather than injecting mechanisms into one hyperparameter-search runner.
-
-[[index|Library home]]

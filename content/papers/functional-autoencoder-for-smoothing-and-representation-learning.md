@@ -82,5 +82,3 @@ The method has several architecture and optimization hyperparameters, and grid s
 - [[Deep Learning for Functional Data Analysis with Adaptive Basis Layers]]
 - Wu, Beaulac, and Cao (2023), "Neural networks for scalar input and functional output."
 - Ramsay and Silverman (2005), "Functional Data Analysis."
-
-[[index|Library home]]

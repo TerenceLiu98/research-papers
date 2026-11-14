@@ -75,5 +75,3 @@ The temporal split reveals specific generalization failures. About 5% of test Si
 - Olsen et al. (2024), "Socio-Political Events of Conflict and Unrest: A Survey of Available Datasets": describes the abstraction gap between NLP corpora and political event databases.
 - Sharif et al. (2024), "Explicit, Implicit, and Scattered: Revisiting Event Extraction to Capture Complex Arguments": studies arguments that cannot be handled as simple local spans.
 - Semnani et al. (2025), "LEMON-ADE: A Large Multilingual Expert-Annotated Abstractive Event Dataset for the Real World": provides a concurrent multilingual abstractive benchmark derived from ACLED.
-
-[[index|Library home]]

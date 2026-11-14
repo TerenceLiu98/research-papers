@@ -95,5 +95,3 @@ The alternative shift-share IV analysis uses within-decade demographic trends ra
 - Levitt (1996), "How Do Senators Vote? Disentangling the Role of Voter Preferences, Party Affiliation, and Senator Ideology": examines related sources of legislative voting behavior.
 - Gerber and Lewis (2004), "Beyond the Median: Voter Preferences, District Heterogeneity, and Political Representation": studies the connection between district preferences and representation.
 - [[papers/partisan-alignment-increases-voter-turnout-evidence-from-redistricting|Partisan Alignment Increases Voter Turnout: Evidence from Redistricting]]: uses boundary changes to study voter participation rather than legislators' roll-call response.
-
-[[index|Library home]]

@@ -15,7 +15,6 @@ tags:
   - large-language-models
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

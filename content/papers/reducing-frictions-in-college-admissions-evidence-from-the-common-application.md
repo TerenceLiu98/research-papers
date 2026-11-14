@@ -90,5 +90,3 @@ SAT results are weaker. The full sample shows increases of 4.4 points at the 25t
 - Smith (2013), "The Effect of College Applications on Enrollment": uses nearby Common Application adoption to study how application volume changes enrollment probability.
 - Smith, Hurwitz, and Howell (2015), "Screening Mechanisms and Student Responses in the College Market": examines how fees, essays, and the Common Application shape applications.
 - Hoxby (2000), "The Effects of Geographic Integration and Increasing Competition in the Market for College Education": provides the longer-run geographic-integration context.
-
-[[index|Library home]]

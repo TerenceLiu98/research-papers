@@ -76,5 +76,3 @@ The computational model is a mechanism illustration rather than a calibrated rec
 - Casari (2007), "Emergence of Endogenous Legal Institutions: Property Rights and Community Governance in the Italian Alps."
 - Ostrom (2010), "Beyond Markets and States: Polycentric Governance of Complex Economic Systems."
 - [[papers/involution-game-with-migration-and-spatial-heterogeneity-of-social-resources|Involution Game with Migration and Spatial Heterogeneity of Social Resources]]
-
-[[index|Library home]]

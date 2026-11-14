@@ -97,5 +97,3 @@ The application uses two 96-node, 2,517-edge co-occurrence networks for Mount Ev
 - Gilmer et al. (2017), "Neural Message Passing for Quantum Chemistry": general message-passing framework.
 - Chamberlain et al. (2021), "GRAND: Graph Neural Diffusion": continuous graph diffusion baseline and the closest continuous-time comparison.
 - Rusch et al. (2022), "Graph-Coupled Oscillator Networks": heterophilic graph baseline and related dynamical treatment of oversmoothing.
-
-[[index|Library home]]

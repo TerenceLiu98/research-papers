@@ -110,5 +110,3 @@ The public analysis uses six repeated General Social Survey items from 1973-1998
 - Bailey (2001), "Ideal Point Estimation with a Small Number of Votes": the cited covariate-based random-effects comparison; Lewis additionally models group dispersion differences.
 - Adams (1997), "Abortion: Evidence of an Issue Evolution": the substantive analysis revisited using full group distributions.
 - [[papers/uncertainty-aware-ideal-point-estimation-via-variational-em|Uncertainty-Aware Ideal Point Estimation via Variational EM]]: a library comparison, not a citation in Lewis; integrates random bill parameters while retaining fixed individual positions, reversing which side of the voting matrix is marginalized.
-
-[[index|Library home]]

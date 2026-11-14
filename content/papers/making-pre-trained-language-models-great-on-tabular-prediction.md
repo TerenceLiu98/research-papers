@@ -23,7 +23,6 @@ tags:
 
 TP-BERTa adapts RoBERTa for prediction across heterogeneous tables by representing continuous values with shared relative-magnitude tokens and compressing each feature name-value pair through intra-feature attention. After pretraining on 202 classification and regression datasets, task-specific pretrained variants rank ahead of the evaluated tabular neural networks and competitively with tuned gradient-boosted trees across 145 downstream datasets. The advantage is concentrated in tables with informative categorical semantics; purely numerical or semantically opaque tables remain a weak setting.
 
-[[index|Library home]]
 
 ## Research Question
 

@@ -78,5 +78,3 @@ Learning curves provide limited support for sample size as the dominant bottlene
 - Savcisens et al. (2024), *Using sequences of life-events to predict human lives*: supplies a related foundation-model approach to registry life-course sequences.
 
 Source note: Synthesized from the supplied parsed Markdown for Cognitio job `a08f9526-9a00-405a-ad40-55e3442cbcad`. The focal paper's publication year, venue, DOI, and arXiv identifier are not stated in that source. The source lists more than 100 authors; the frontmatter abbreviates this as “Elizaveta Sivak et al.” while preserving the named lead author.
-
-[[index|Library home]]

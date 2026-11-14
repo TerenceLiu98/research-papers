@@ -100,5 +100,3 @@ Most importantly, deviation from the reference distribution is not evidence by i
 - Chatterjee, Mitrovic, and Fortunato (2013), *Scientific Reports* 3, 1049.
 - Klimek, Yegorov, Hanel, and Thurner (2012), *Proceedings of the National Academy of Sciences* 109, 16469.
 - Jimenez, Hidalgo, and Klimek (2017), *Science Advances* 3, e1602363.
-
-[[index|Library home]]

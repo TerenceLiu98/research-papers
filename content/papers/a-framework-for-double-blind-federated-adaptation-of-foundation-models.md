@@ -92,5 +92,3 @@ The FHE measurements are much heavier. At 128-bit security on an A100-PCIE-40GB 
 - Li et al. (2022), "MPCFormer: Fast, Performant and Private Transformer Inference with MPC": cited private-inference and distillation predecessor.
 - Zeng et al. (2023), "MPCViT: Searching for Accurate and Efficient MPC-Friendly Vision Transformer with Heterogeneous Attention": cited private-inference-friendly transformer design.
 - Liang et al. (2024), "Model Extraction Attacks Revisited": motivates protection against reconstruction from adjacent intermediate representations.
-
-[[index|Library home]]

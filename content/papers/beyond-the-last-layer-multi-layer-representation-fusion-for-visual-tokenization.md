@@ -79,5 +79,3 @@ Training is decoupled. Phase 1 trains a ViT-XL decoder for 100 epochs while the 
 - Gong et al., "RPiAE: A Representation-Pivoted Autoencoder Enhancing Both Image Generation and Editing": a representation-based tokenizer comparison.
 - [[papers/dc-sae-deep-compression-semantic-autoencoder-for-faster-diffusion-convergence|DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence]]: combines semantic and pixel branches to balance structured generation latents with reconstruction detail.
 - [[papers/sage-salient-factor-discovery-and-generation-with-visual-foundation-representations|SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations]]: reuses spatial RAE latents for factor discovery and conditional generation.
-
-[[index|Library home]]

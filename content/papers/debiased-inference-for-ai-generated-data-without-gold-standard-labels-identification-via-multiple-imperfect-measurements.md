@@ -121,5 +121,3 @@ Both DSL and DMM full-sample intervals contain the expert benchmark. The coverag
 - Egami et al. (2023), "Using imperfect surrogates for downstream inference: Design-based supervised learning for social science applications of large language models": validation-based alternative.
 - Angelopoulos et al. (2023), "Prediction-powered inference": prediction-and-correction inference using gold-standard labels.
 - [[papers/measuring-scalar-constructs-in-social-science-with-llms|Measuring Scalar Constructs in Social Science with LLMs]]: related library work on annotation quality and imperfect human benchmarks, rather than categorical downstream correction; not cited by this manuscript.
-
-[[index|Library home]]

@@ -6,7 +6,6 @@ year: 2026
 tags: [time-series-forecasting, foundation-models, mixture-of-experts, serial-token-prediction]
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

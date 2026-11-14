@@ -97,5 +97,3 @@ The headline 53% is the peak SWE-bench score, not the final iteration's score or
 
 - [[papers/frontis-ma1-training-an-ai4ai-model-towards-recursive-self-improvement-in-machine-learning-engineering|Frontis-MA1]] trains program-improvement operators and evaluates evolutionary search, offering a contrast between changing model weights and changing the agent scaffold.
 - [[papers/self-reference-in-large-language-models-the-introspection-threshold-for-recursive-self-improvement|Self-Reference in Large Language Models]] develops stronger theoretical criteria for sustained improvement, against which SICA supplies a bounded empirical example of scaffold revision.
-
-[[index|Library home]]

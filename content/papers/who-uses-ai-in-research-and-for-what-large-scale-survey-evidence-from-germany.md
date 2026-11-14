@@ -95,5 +95,3 @@ Continuous learning orientation is the organizational-climate dimension consiste
 - Humlum and Vestergaard (2025), "The unequal adoption of ChatGPT exacerbates existing inequalities among workers": cited evidence on unequal workplace adoption.
 - Carvajal, Franco, and Isaksson (2024), "Will artificial intelligence get in the way of achieving gender equality?": the cited source of the prompting task and a comparison for gendered adoption patterns.
 - [[papers/scaling-laws-for-economic-productivity-experimental-evidence-in-llm-assisted-translation|Scaling Laws for Economic Productivity: Experimental Evidence in LLM-Assisted Translation]]: a complementary Wiki comparison, not a citation in this paper; measures task performance under randomized AI access rather than surveying adoption and perceived benefits.
-
-[[index|Library home]]

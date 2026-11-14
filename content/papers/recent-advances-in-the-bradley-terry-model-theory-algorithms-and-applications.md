@@ -104,5 +104,3 @@ This page summarizes the manuscript dated September 18, 2026, including its supp
 - Han and Xu (2025), "A unified analysis of likelihood-based estimators in the Plackett-Luce model": cited analysis of likelihood estimators on heterogeneous comparison graphs.
 - Newman (2023), "Efficient computation of rankings from pairwise comparisons": cited source of the alternative fixed-point iteration.
 - Han, Lu, and Xu (2026), "Convergence analysis of a family of Zermelo-type iterations for the Bradley-Terry model": cited analysis of update schedules and convergence.
-
-[[index|Library home]]

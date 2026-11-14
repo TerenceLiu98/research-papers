@@ -103,5 +103,3 @@ Monocular annotations remain pseudo-ground truth, and training-data differences 
 - [[papers/biohuman-learning-biomechanical-human-representations-from-video|BioHuman: Learning Biomechanical Human Representations from Video]]: a related library paper that extends visual pose estimation to muscle activation; it is not a citation or evaluated baseline in 3DB.
 
 Source-listed resources: [Code](https://github.com/facebookresearch/sam-3d-body) and [project website](https://ai.meta.com/sam3d).
-
-[[index|Library home]]

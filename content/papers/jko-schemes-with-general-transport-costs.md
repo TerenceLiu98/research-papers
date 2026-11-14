@@ -12,7 +12,6 @@ tags:
   - partial-differential-equations
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

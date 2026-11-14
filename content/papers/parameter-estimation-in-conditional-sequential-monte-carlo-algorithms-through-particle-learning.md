@@ -88,5 +88,3 @@ The p-CSMC procedure runs for 90,000 iterations with 5,000 burn-in iterations, w
 - Storvik (2002), "Particle Filters for State-Space Models with the Presence of Unknown Static Parameters": supplies the sufficient-statistic particle-learning strategy extended here to conditional SMC.
 - Wigren et al. (2019), "Parameter Elimination in Particle Gibbs Sampling": provides the fully marginal alternative and motivates the computational comparison.
 - Cardoso et al. (2023), "State and Parameter Learning with PaRIS Particle Gibbs": another approach to state and parameter learning within Particle Gibbs.
-
-[[index|Library home]]

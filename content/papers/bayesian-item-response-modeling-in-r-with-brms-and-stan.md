@@ -90,5 +90,3 @@ The feature comparison covers `eRm`, `ltm`, `TAM`, `mirt`, `sirt`, `(b)lavaan`, 
 - Bürkner (2018), "Advanced Bayesian Multilevel Modeling with the R Package brms": cited foundation for nonlinear and distributional modeling.
 - [[papers/modeling-item-response-theory-with-stochastic-variational-inference|Modeling Item Response Theory with Stochastic Variational Inference]]: a library comparison between HMC-based Bayesian IRT and scalable approximate inference; not cited in this manuscript.
 - [[papers/multidimensional-item-response-theory-under-general-latent-distributions|Multidimensional Item Response Theory under General Latent Distributions]]: a library connection that shifts flexibility from the response family toward latent-density and posterior approximations; not cited in this manuscript.
-
-[[index|Library home]]

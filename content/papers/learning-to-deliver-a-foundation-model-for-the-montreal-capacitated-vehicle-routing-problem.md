@@ -79,5 +79,3 @@ The evaluation uses 1,000 instances at each size from 20 to 400 and 100 instance
 - Bengio, Lodi, and Prouvost (2021), "Machine Learning for Combinatorial Optimization: a Methodological Tour d'Horizon": formalizes the Montreal problem setting used here.
 
 Source scope: supplied parsed manuscript. It provides neither a publication year nor a stable identifier.
-
-[[index|Library home]]

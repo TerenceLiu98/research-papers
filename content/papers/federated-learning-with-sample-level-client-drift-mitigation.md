@@ -75,5 +75,3 @@ The supplied Markdown does not establish a publication year, venue, DOI, or iden
 - SCAFFOLD: Stochastic Controlled Averaging for Federated Learning (Karimireddy et al., 2020): a cited gradient-control baseline.
 - Federated Optimization in Heterogeneous Networks (Li et al., 2020): introduces the proximal approach used as FedProx.
 - [[papers/heterogeneous-federated-reinforcement-learning-using-wasserstein-barycenters|Heterogeneous Federated Reinforcement Learning Using Wasserstein Barycenters]]: a library comparison addressing model fusion through aggregation geometry rather than sample scheduling; not a cited FedBSS baseline.
-
-[[index|Library home]]

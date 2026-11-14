@@ -99,5 +99,3 @@ The supplied Markdown contains extraction artifacts and refers to supplementary 
 - [[papers/ai-mediated-communication-definition-research-agenda-and-ethical-considerations|AI-Mediated Communication: Definition, Research Agenda, and Ethical Considerations]]: a conceptual comparison within the library concerning AI participation in communication and agency, rather than a citation claimed by the source paper.
 - Risko and Gilbert (2016), *Trends in Cognitive Sciences* 20, 676 (source reference 70): background on cognitive offloading.
 - Clark and Chalmers (1998), *Analysis* 58, 7 (source reference 18): background on the extended mind.
-
-[[index|Library home]]

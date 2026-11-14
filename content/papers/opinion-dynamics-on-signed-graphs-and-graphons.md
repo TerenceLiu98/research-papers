@@ -82,5 +82,3 @@ The paper provides an illustrative simulation rather than an empirical evaluatio
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]]: connects attractive and repulsive opinion interactions to graph message passing.
 - Medvedev (2014), "The nonlinear heat equation on dense graphs and graph limits": a foundational continuum-limit analysis whose $L^2$ kernel control is strengthened here to operator-norm control for sampled graphs.
 - Prisant, Garin, and Frasca (2024), "Opinion dynamics on signed graphs and graphons: Beyond the piece-wise constant case": the authors' preliminary conference account, extended here with sparse sampling and interaction-speed parameters.
-
-[[index|Library home]]

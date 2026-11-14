@@ -72,5 +72,3 @@ The frontier comparison includes `gpt-4o-mini`, `gemini-2.5-flash`, `claude-3.5-
 - Myung et al. (2024), *BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages*: closed-form everyday cultural knowledge across 16 countries and 13 languages.
 - Chiu et al. (2025), *CulturalBench: A Robust, Diverse and Challenging Benchmark for Measuring LMs' Cultural Knowledge through Human-AI Red-Teaming*: human-authored multiple-choice cultural knowledge evaluation.
 - Rao et al. (2025), *NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models*: tests adaptation to cultural norms through situational vignettes.
-
-[[index|Library home]]

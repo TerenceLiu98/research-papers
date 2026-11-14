@@ -102,5 +102,3 @@ The following works are cited in the supplied paper:
 - Kulldorff (1997), "A spatial scan statistic." Circular-scan baseline.
 - Tango and Takahashi (2005), "A flexibly shaped spatial scan statistic for detecting clusters." Flexible-scan baseline.
 - Nandi et al. (2023), "disaggregation: An R package for Bayesian spatial disaggregation modeling." Related disaggregation implementation using TMB.
-
-[[index|Library home]]

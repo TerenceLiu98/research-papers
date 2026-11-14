@@ -112,5 +112,3 @@ Dictionary-width sweeps peak around $h=4d$ and deteriorate beyond that, especial
 - Gao et al. (2024), "Scaling and Evaluating Sparse Autoencoders": source of the TopK SAE and auxiliary reconstruction approach cited here.
 - Wang et al. (2024), "Non-negative Contrastive Learning": theoretical motivation for the nonnegative contrastive objective.
 - [[papers/concepts-from-representations-post-hoc-concept-bottleneck-models-via-sparse-decomposition-of-visual-representations|Concepts from Representations: Post-hoc Concept Bottleneck Models via Sparse Decomposition of Visual Representations]]: a related library paper using sparse decomposition of frozen visual embeddings for interpretable concept bottlenecks, rather than retrieval acceleration.
-
-[[index|Library home]]

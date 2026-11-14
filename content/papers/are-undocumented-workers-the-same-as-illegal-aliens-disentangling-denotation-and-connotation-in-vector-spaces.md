@@ -71,5 +71,3 @@ Diversity is measured over publisher leanings. Precision is manually assessed on
 
 - [[papers/ideology-prediction-of-german-political-texts|Ideology Prediction of German Political Texts]]: a library comparison focused on predicting political position; the present paper instead tries to separate partisan associations from referential content.
 - Romanov et al. (2019), “Adversarial decomposition of text representation”: cited by the authors as related content–style decomposition work.
-
-[[index|Library home]]

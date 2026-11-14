@@ -107,5 +107,3 @@ DIC values for one through four dimensions are 103,259.5, 102,248.0, 104,585.4, 
 - Yu and Chan (2001), "Bayesian Analysis of Wandering Vector Models for Displaying Ranking Data": cited basis for the ranking component.
 - Fosdick and Hoff (2015), "Testing and Modeling Dependencies between a Network and Modal Attributes": cited related dependence-testing work, distinguished here because the conditioning features are latent.
 - [[papers/estimating-stochastic-block-models-in-the-presence-of-covariates|Estimating Stochastic Block Models in the Presence of Covariates]]: a library comparison using discrete communities and observed covariates rather than continuous positions shared with rankings; not a claimed citation or experimental baseline.
-
-[[index|Library home]]

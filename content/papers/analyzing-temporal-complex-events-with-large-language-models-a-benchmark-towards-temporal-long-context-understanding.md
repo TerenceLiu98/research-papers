@@ -104,5 +104,3 @@ Longer inputs generally reduce detail accuracy, and most tested long-context mod
 - Bai et al. (2023), "LongBench: A bilingual, multitask benchmark for long context understanding": cited long-context benchmark.
 - Jin et al. (2021), "ForecastQA: A question answering challenge for event forecasting with temporal text data": supplies the forecasting-QA precedent and generation examples.
 - Liu et al. (2023), "Lost in the middle: How language models use long contexts": motivates the analysis of evidence position.
-
-[[index|Library home]]

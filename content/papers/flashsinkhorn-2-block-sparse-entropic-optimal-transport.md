@@ -83,5 +83,3 @@ The supplied manuscript states no publication year or stable identifier for Flas
 - Schmitzer (2019), "Stabilized Sparse Scaling Algorithms for Entropy Regularized Transport Problems": provides the potential-based truncation principle and hierarchical screening context.
 - Feydy et al. (2019), "Fast and Scalable Optimal Transport for Brain Tractograms": the GeomLoss multiscale approach used as the main baseline.
 - [[papers/simple-approximative-algorithms-for-free-support-wasserstein-barycenters|Simple Approximative Algorithms for Free-Support Wasserstein Barycenters]]: another approach to reducing the computational burden of discrete transport, focused on barycenter approximation rather than sparse EOT solves.
-
-[[index|Library home]]

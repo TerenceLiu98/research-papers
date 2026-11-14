@@ -113,5 +113,3 @@ An appendix visualization compares standard KAN training with the proximal updat
 - Tank et al. (2021), "Neural Granger Causality": introduces the component-wise MLP and structured sparsity baseline used in the experiments.
 - [[papers/kolmogorov-arnold-networks-for-time-series-bridging-predictive-power-and-interpretability|Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability]]: applies KANs to forecasting and interpretable lagged prediction without making the same causal-discovery claim.
 - [[papers/root-cause-analysis-of-anomalies-in-multi-variate-time-series-through-granger-causal-discovery|Root Cause Analysis of Anomalies in Multi-Variate Time Series through Granger Causal Discovery]]: combines neural Granger graph learning with exogenous-residual estimation for anomaly localization.
-
-[[index|Library home]]

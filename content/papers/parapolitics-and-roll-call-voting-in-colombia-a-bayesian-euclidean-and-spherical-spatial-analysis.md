@@ -101,5 +101,3 @@ Both slope intervals exclude zero. These estimates support a directional associa
 - Luque and Sosa (2023), "A Bayesian spatial voting model to characterize the legislative behavior of the Colombian Senate 2010-2014": cited application to the subsequent Senate term and methodological predecessor.
 - Clinton, Jackman, and Rivers (2004), "The statistical analysis of roll call data": cited Bayesian Euclidean scaling foundation.
 - [[papers/multiple-ideal-points-revealed-preferences-in-different-domains|Multiple Ideal Points: Revealed Preferences in Different Domains]]: cited in the discussion of future extensions; studies domain-specific preferences rather than changing latent geometry alone.
-
-[[index|Library home]]

@@ -87,5 +87,3 @@ SAGE reports the highest final score in every one of the 20 settings, improving 
 - Yang et al. (2026), "SkillOpt: Executive Strategy for Self-Evolving Agent Skills": supplies the controlled skill optimizer and aggregate-score gate used as SAGE's baseline.
 - Smith and Winkler (2006), "The Optimizer's Curse": motivates skepticism toward the best observed value under noisy selection.
 - Ben-Michael, Imai, and Jiang (2024), "Policy Learning with Asymmetric Counterfactual Utilities," and Träuble et al. (2021), "Backward-Compatible Prediction Updates": motivate asymmetric treatment of newly solved and newly broken cases.
-
-[[index|Library home]]

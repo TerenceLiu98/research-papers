@@ -112,5 +112,3 @@ The following are cited in the supplied paper; no matching Paper pages were foun
 - Geiping et al. (2025), "Scaling up test-time compute with latent reasoning: A recurrent depth approach" (reference 14): related use of internal recurrence for reasoning.
 - Reichert and Serre (2013), "Neuronal synchrony in complex-valued deep networks" (reference 11): synchrony for gating and grouping, contrasted with CTM's direct synchronization representation.
 - Schwarzschild et al. (2021), "Can you learn an algorithm? Generalizing from easy to hard problems with recurrent networks" (reference 37): recurrent algorithm learning, with a different maze output formulation.
-
-[[index|Library home]]

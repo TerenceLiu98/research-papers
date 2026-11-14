@@ -96,5 +96,3 @@ Using six GPUs on one machine, target-node partitioning of Webbase takes 42.08 s
 - Su et al. (2025), "GPIC: a GPU-based Parallel Independent Cascade Algorithm in Complex Networks": GPU IC baseline.
 - Miller and Ting (2020), "EoN (Epidemics on Networks)": epidemic-simulation baseline.
 - [[papers/a-unified-view-on-neural-message-passing-with-opinion-dynamics-for-social-networks|A Unified View on Neural Message Passing with Opinion Dynamics for Social Networks]]: another connection between graph message passing and mechanistic opinion updates, aimed at representation learning rather than simulation throughput.
-
-[[index|Library home]]

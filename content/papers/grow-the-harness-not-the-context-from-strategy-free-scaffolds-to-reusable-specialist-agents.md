@@ -103,5 +103,3 @@ The learned harness uses 5.5-6.0 calls per task on BrowseComp-Plus and 1.8-5.4 o
 - Hu, Lu, and Clune (2024), "Automated Design of Agentic Systems," and Zhang et al. (2024), "AFlow: Automating Agentic Workflow Generation": code-represented workflow and agent-system search.
 - Lou et al. (2026), "AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness," and Lee et al. (2026), "Meta-Harness: End-to-End Optimization of Model Harnesses": direct harness optimization approaches.
 - Wang, Kattakinda, and Feizi (2026), "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0": evidence motivating explicit regression control in continual agent optimization.
-
-[[index|Library home]]

@@ -107,5 +107,3 @@ For DIF analysis, the remaining 13 items anchor the scales while the two Farms i
 - Cai (2010), "A two-tier full-information item factor analysis model with applications": cited source for broader estimation and scoring details.
 - [[papers/fast-estimation-of-multiple-group-generalized-linear-latent-variable-models-for-categorical-observed-variables|Fast estimation of multiple group generalized linear latent variable models for categorical observed variables]]: library comparison using second-order Laplace approximation with more general loading structures; not cited by this 2011 paper.
 - [[papers/multidimensional-item-response-theory-under-general-latent-distributions|Multidimensional Item Response Theory under General Latent Distributions]]: library comparison that learns non-Gaussian latent distributions; not cited by this paper.
-
-[[index|Library home]]

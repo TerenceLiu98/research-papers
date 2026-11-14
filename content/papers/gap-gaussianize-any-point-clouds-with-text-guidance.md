@@ -92,5 +92,3 @@ These results support the geometry constraints particularly strongly on the repo
 - Zhou, Zhang, and Liu (2024), "DiffGS: Functional Gaussian Splatting Diffusion": a learned point-conditioned Gaussian-generation baseline.
 - Zhou et al. (2025), "GaussianPainter: Painting Point Cloud into 3D Gaussians with Normal Guidance": uses reference images rather than text for appearance control.
 - Kerbl et al. (2023), "3D Gaussian Splatting for Real-Time Radiance Field Rendering": the underlying explicit Gaussian rendering framework.
-
-[[index|Library home]]

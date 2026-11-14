@@ -80,5 +80,3 @@ Replacing CDF overlap with EMD removes the reported association between electora
 - Rubner, Tomasi, and Guibas (2000), "The Earth Mover's Distance as a Metric for Image Retrieval": develops the signature-based EMD formulation adapted by this paper.
 - Levina and Bickel (2001), "The Earth Mover's Distance Is the Mallows Distance": connects EMD to distances between probability distributions.
 - [[papers/the-earth-moves-but-so-does-the-bias-systematic-upward-bias-of-the-wasserstein-earth-movers-distance-and-permutation-based-null-calibration|The Earth Moves, But So Does the Bias]]: studies finite-sample upward bias and permutation-based null calibration for Wasserstein/EMD comparisons.
-
-[[index|Library home]]

@@ -94,5 +94,3 @@ The following works are cited in the supplied article:
 - DeMeritt (2012), "International Organizations and Government Killing: Does Naming and Shaming Save Lives?": informs the proposed costs of international condemnation.
 - Scharpf and Gläßel (2020), "Why Underachievers Dominate Secret Police Organizations: Evidence from Autocratic Argentina": related research on the Argentine coercive apparatus.
 - Weidmann (2016), "A Closer Look at Reporting Bias in Conflict Event Data": informs the discussion of media presence and recorded violence.
-
-[[index|Library home]]

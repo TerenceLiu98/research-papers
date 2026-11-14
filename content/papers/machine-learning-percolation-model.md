@@ -73,5 +73,3 @@ For unlabeled analysis, PCA is applied directly to the flattened configuration m
 - Wang (2016), "Discovering phase transitions with unsupervised learning": cited for interpreting principal components as physical indicators.
 - Zhang, Liu, and Wei (2018), "Machine learning of phase transitions in the percolation and XY models": cited for PCA-based analysis of percolation.
 - Yu and Lyu (2020), "Unsupervised machine learning of phase transition in percolation": the main contrasting study, which uses preprocessing before extracting a PCA-based order parameter.
-
-[[index|Library home]]

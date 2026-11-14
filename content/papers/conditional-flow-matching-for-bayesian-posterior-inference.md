@@ -84,5 +84,3 @@ The credible-set experiment uses 100 datasets and checks convex-hull regions aga
 - Kerrigan et al. (2024), “Dynamic conditional optimal transport through simulation-free flows”: targets conditional optimal transport with fixed conditioning observations.
 
 Source: supplied parsed manuscript, Cognitio job `12a2cf0e-c05b-44f4-aec1-064d10124146`.
-
-[[index|Library home]]

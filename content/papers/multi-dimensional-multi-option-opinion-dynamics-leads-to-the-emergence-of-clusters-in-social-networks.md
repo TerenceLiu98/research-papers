@@ -100,5 +100,3 @@ The supplied Markdown contains substantial OCR damage in symbols, prose, and sev
 - [[papers/consensus-polarization-and-nonlinear-response-in-a-two-layer-voter-model-with-intra-agent-cross-layer-reconciliation|Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]: separates context-specific binary opinions within each agent and distinguishes personal consistency from population consensus.
 - [[papers/behavior-of-nonlinear-opinion-dynamics-over-large-networks|Behavior of Nonlinear Opinion Dynamics over Large Networks]]: studies network-dependent bifurcation and continuum approximation for a scalar saturating opinion model.
 - Martins (2008), "Continuous opinions and discrete actions in opinion dynamics problems": the paper's cited predecessor for separating internal continuous opinions from final discrete actions.
-
-[[index|Library home]]

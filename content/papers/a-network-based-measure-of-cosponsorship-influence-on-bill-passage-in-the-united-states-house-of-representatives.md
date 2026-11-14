@@ -75,5 +75,3 @@ Influence is a proxy, not a causally identified interpersonal effect. Bill topic
 - Fowler's *Connecting the Congress: A study of cosponsorship networks* (2006), cited in the source, provides the connectedness-based antecedent; the present measure explicitly incorporates legislative outcomes.
 
 Published as an article in press in *EPJ Data Science*. [Paper DOI](https://doi.org/10.1140/epjds/s13688-026-00689-4). [Author code](https://github.com/sarahsotoudeh/LegislativeInfluence).
-
-[[index|Library home]]

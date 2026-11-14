@@ -85,5 +85,3 @@ Normalized likelihoods are intractable, and visual samples only assess the appro
 - [[papers/your-diffusion-model-is-secretly-a-zero-shot-classifier|Your Diffusion Model is Secretly a Zero-Shot Classifier]] explores the complementary direction: deriving a classifier from a conditional diffusion generator.
 - Du and Mordatch (2019), “Implicit Generation and Generalization in Energy-Based Models”: supplies the persistent sampling foundation and IGEBM comparison.
 - Xie et al. (2016), “A Theory of Generative ConvNet”: earlier classifier-to-energy connection using class-conditional models.
-
-[[index|Library home]]

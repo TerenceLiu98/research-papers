@@ -72,5 +72,3 @@ The model's main comparative results are:
 - Acemoglu and Autor (2011), "Skills, Tasks and Technologies: Implications for Employment and Earnings": the closest antecedent to the paper's static task-allocation framework.
 - Zeira (1998), "Workers, Machines, and Economic Growth": an earlier growth model based on capital-labor substitution across technologies.
 - Hémous and Olsen (2016), "The Rise of the Machines: Automation, Horizontal Innovation and Income Inequality": studies endogenous automation and inequality without the same long-run countervailing new-task mechanism.
-
-[[index|Library home]]

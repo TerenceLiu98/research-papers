@@ -84,5 +84,3 @@ V-JEPA 2 predicts latent targets only at masked positions. Its visible context t
 - Bardes et al. (2024), "Revisiting Feature Prediction for Learning Visual Representations from Video": introduces the earlier V-JEPA latent video-prediction approach.
 - Siméoni et al. (2025), "DINOv3": the principal dense-feature comparison and source of several linear-probe protocols.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]] tests V-JEPA 2.1 as a fixed latent space and reports action-insensitive PushT rollouts for its particular checkpoint and training recipe.
-
-[[index|Library home]]

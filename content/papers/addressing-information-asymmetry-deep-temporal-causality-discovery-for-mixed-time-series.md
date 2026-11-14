@@ -103,5 +103,3 @@ MiTCD has the highest listed scores in these main result tables. On DREAM3 its a
 - Yamayoshi, Tsuchida, and Yadohisa (2020), "An Estimation of Causal Structure Based on Latent LiNGAM for Mixed Data": cited precedent for latent continuous variables behind discrete observations.
 - Hyvarinen, Sasaki, and Turner (2019), "Nonlinear ICA Using Auxiliary Variables and Generalized Contrastive Learning": cited motivation for recovering latent information using statistically related auxiliary variables.
 - [[papers/root-cause-analysis-of-anomalies-in-multi-variate-time-series-through-granger-causal-discovery|Root Cause Analysis of Anomalies in Multi-Variate Time Series through Granger Causal Discovery]]: a related Wiki paper coupling Granger graph learning with exogenous-variable estimation for anomaly localization; it is not a reported MiTCD baseline.
-
-[[index|Library home]]

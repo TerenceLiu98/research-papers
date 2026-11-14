@@ -90,5 +90,3 @@ For Gaussian measures in $\mathbb R^3$, the Burer-Monteiro solver agrees with an
 - Gangbo and Swiech (1998), "Optimal Maps for the Multidimensional Monge-Kantorovich Problem": supplies the multimarginal quadratic-transport structure used in the rank argument.
 - Burer and Monteiro (2003), "A Nonlinear Programming Algorithm for Solving Semidefinite Programs via Low-Rank Factorization": provides the low-rank SDP parameterization used for multimarginal OT.
 - [[papers/probabilistic-representation-and-convergence-of-gromov-wasserstein-gradient-flows|Probabilistic Representation and Convergence of Gromov-Wasserstein Gradient Flows]]: studies relative-entropy dynamics under IGW geometry rather than static Gaussian alignment.
-
-[[index|Library home]]

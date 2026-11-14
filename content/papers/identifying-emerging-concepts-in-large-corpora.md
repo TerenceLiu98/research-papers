@@ -57,5 +57,3 @@ The supplied Markdown does not establish a publication year or stable identifier
 ## Related Papers
 
 - [[papers/cobwebtm-probabilistic-concept-formation-for-lifelong-and-hierarchical-topic-modeling|CobwebTM]] offers a library comparison: it builds a concept hierarchy incrementally, whereas this paper detects temporal density changes in a shared projection. This is not a claimed citation relationship.
-
-[[index|Library home]]

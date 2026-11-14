@@ -100,5 +100,3 @@ Appendix C gives a development-document pipeline example with 10/13 correct enti
 - Wagner, Keydar, and Abend (2023), "Event-location tracking in narratives: A case study on holocaust testimonies": cited narrative trajectory task with coarse location categories.
 - Kori et al. (2006), "Extraction of visitors typical route and its context from local blogs": cited predecessor using mention order as visiting order.
 - Li et al. (2023), "GeoLM: Empowering language models for geospatially grounded language understanding": cited possible foundation for geographic knowledge injection, not an evaluated system in this paper.
-
-[[index|Library home]]

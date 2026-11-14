@@ -15,7 +15,6 @@ tags:
   - faithfulness
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

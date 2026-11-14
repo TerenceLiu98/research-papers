@@ -115,5 +115,3 @@ Two-dimensional UN General Assembly fits use six historical periods spanning 194
 - [[papers/nonparametric-ideal-point-estimation-and-inference|Nonparametric Ideal-Point Estimation and Inference]]: later library comparison targeting ordinal positions under a shared error distribution across voters within each bill; not a citation in this paper.
 
 Source: [JSTOR stable record](https://www.jstor.org/stable/25792002).
-
-[[index|Library home]]

@@ -114,5 +114,3 @@ The reported advantage depends on bottleneck capacity, downstream predictor, dat
 - Mahinpei et al. (2021), "Promises and Pitfalls of Black-Box Concept Learning Models." Source reference [14]; motivates examining extra capacity and information beyond concept labels.
 - Yeh et al. (2020), "On Completeness-Aware Concept-Based Explanations in Deep Neural Networks." Source reference [15]; addresses whether a concept set captures task-relevant information.
 - Chen, Bei, and Rudin (2020), "Concept Whitening for Interpretable Image Recognition." Source reference [12]; another concept-aligned architecture, excluded from the intervention baselines because the authors identify no clear comparable intervention mechanism.
-
-[[index|Library home]]

@@ -105,5 +105,3 @@ The results concern infinite lattices with finite-range interactions and the sta
 - Agarwal, Simper, and Durrett (2021), "The q-voter model on the torus." Supplies higher-dimensional q-voter results and the subadditivity calculation motivating the drift criterion.
 - Cox, Durrett, and Perkins (2000), "Rescaled voter models converge to super-Brownian motion," *Annals of Probability* 28, 185-234. Establishes the unperturbed scaling-limit foundation.
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]] is a library comparison for finite-time, finite-network behavior; its simulation crossover is distinct from the infinite-lattice convergence theorem here.
-
-[[index|Library home]]

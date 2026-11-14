@@ -85,5 +85,3 @@ Related library reading, without implying citation by the source paper:
 
 - [[papers/projecting-assumptions-the-duality-between-sparse-autoencoders-and-concept-geometry|Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]] analyzes how SAE encoder geometry affects visual concept recovery.
 - [[papers/block-recurrent-dynamics-in-vits|Block-Recurrent Dynamics in ViTs]] studies the layerwise evolution of DINOv2 token representations from a dynamical perspective.
-
-[[index|Library home]]

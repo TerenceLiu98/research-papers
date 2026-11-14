@@ -109,5 +109,3 @@ The appendix gives a 2024 simulation using 2020 ANES and 2022 Census distributio
 - Muric et al. (2022), "Large-scale agent-based simulations of online social networks," cited as related large-population simulation work.
 - [[papers/public-opinion-dissemination-simulation-based-on-large-language-model-multi-agent-systems|Public opinion dissemination simulation based on large language model multi-agent systems]]: a smaller hybrid LLM social simulation with explicit probabilistic behavior and LLM-generated interactions.
 - [[papers/llm-based-social-simulations-require-a-boundary|LLM-Based Social Simulations Require a Boundary]]: a related validity framework for matching claims to demonstrated behavioral heterogeneity.
-
-[[index|Library home]]

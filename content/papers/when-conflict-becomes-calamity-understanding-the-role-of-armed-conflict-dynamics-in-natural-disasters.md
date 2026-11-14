@@ -72,5 +72,3 @@ Reported robustness checks cover monthly aggregation, the full province sample, 
 - Tennant and Gilmore (2020), “Government effectiveness and institutions as determinants of tropical cyclone mortality”: source of the hazard-exposure normalization approach.
 
 Published in *Journal of Peace Research* 62(4), 1030–1045 (2025; copyright 2024). [Original article](https://doi.org/10.1177/00223433241265028).
-
-[[index|Library home]]

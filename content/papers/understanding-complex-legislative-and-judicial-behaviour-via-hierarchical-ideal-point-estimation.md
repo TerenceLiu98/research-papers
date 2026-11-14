@@ -91,5 +91,3 @@ Estimated ideal-point variance is 1.17 for civil liberties and 0.36 for the comb
 - Bradlow, Wainer, and Wang (1999), *A Bayesian random effects model for testlets*: cited connection to the paper's general-position-plus-voteset-deviation extension.
 - [[papers/the-issue-adjusted-ideal-point-model|The Issue-Adjusted Ideal Point Model]]: a library comparison using bill-topic mixtures and ideological offsets; it is not cited in this source.
 - [[papers/polarization-and-ideology-partisan-sources-of-low-dimensionality-in-scaled-roll-call-analyses|Polarization and Ideology]]: a library comparison showing how party separation can obscure preference dimensionality, distinct from this paper's explicit group-dependent thresholds; it is not cited in this source.
-
-[[index|Library home]]

@@ -96,5 +96,3 @@ DiT-DH attaches a shallow, wide transformer head to the ordinary DiT backbone. T
 - [[papers/improved-baselines-with-representation-autoencoders|Improved Baselines with Representation Autoencoders]]: later extends RAE with multi-layer features, representation alignment, and internal guidance.
 
 Source: supplied parsed manuscript, Cognitio job `285daf12-2a8d-44eb-a859-504b80010cd4`.
-
-[[index|Library home]]

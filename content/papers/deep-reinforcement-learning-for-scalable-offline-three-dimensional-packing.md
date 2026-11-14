@@ -87,5 +87,3 @@ Ablations support each component within the tested setup. At 20, 30, and 50 item
 - Parreno et al. (2008), "A Maximal-Space Algorithm for the Container Loading Problem": the extreme maximal space mechanism used to manage available placements.
 
 Code: [Ashenone511/BBMP-DCS](https://github.com/Ashenone511/BBMP-DCS), as provided in the supplied manuscript.
-
-[[index|Library home]]

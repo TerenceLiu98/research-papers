@@ -81,5 +81,3 @@ Key reported results include:
 - Gu, Kelly, and Xiu (2019), "Empirical Asset Pricing via Machine Learning": studies supervised stock-return prediction on the same data without imposing a factor risk-return structure.
 - Kozak, Nagel, and Santosh (2018), "Interpreting Factor Models": extracts factors from anomaly-sorted portfolios and motivates comparison on individual stocks.
 - [[papers/deep-learning-with-non-linear-factor-models-adaptability-and-avoidance-of-curse-of-dimensionality|Deep Learning with Non-Linear Factor Models: Adaptability and Avoidance of Curse of Dimensionality]]: estimates nonlinear responses to observed factors and focuses on covariance estimation rather than latent conditional exposures.
-
-[[index|Library home]]

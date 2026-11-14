@@ -108,5 +108,3 @@ Michigan-style reform yields an estimated 8.3 additional Democratic seats per on
 - Kenny et al. (2023), "Widespread Partisan Gerrymandering Mostly Cancels Nationally, but Reduces Electoral Competition": supplies the electoral model and related map comparisons.
 
 Article identifier: [10.1017/S0003055426101610](https://doi.org/10.1017/S0003055426101610). Replication data identified in the source: [Harvard Dataverse](https://doi.org/10.7910/DVN/6HGLTN).
-
-[[index|Library home]]

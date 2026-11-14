@@ -96,5 +96,3 @@ The following relationships come from Section II and the supplied bibliography; 
 - Majmudar et al. (2022), "Differentially private decoding in large language models" [10]: decoding-stage privacy protection, discussed as an alternative to privacy-preserving retraining.
 - Thareja et al. (2025), "DP-Fusion: Tokenlevel differentially private inference for large language models" [14]: bounds sensitive-context influence by blending output distributions with and without sensitive tokens.
 - Koga et al. (2024), "Privacy-preserving retrieval-augmented generation with differential privacy" [7]: studies privacy at the retrieval stage, a related intervention point for database-connected generation.
-
-[[index|Library home]]

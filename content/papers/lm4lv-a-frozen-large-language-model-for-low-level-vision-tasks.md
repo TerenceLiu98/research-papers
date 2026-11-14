@@ -85,5 +85,3 @@ For restoration, the paper reports mean gains of 3.96 dB PSNR and 0.09 SSIM over
 - He et al. (2021), "Masked Autoencoders Are Scalable Vision Learners": provides the reconstruction-oriented visual encoder adapted by LM4LV.
 - Huh et al. (2024), "The Platonic Representation Hypothesis": motivates the paper's cross-model representation-alignment analysis.
 - Liu et al. (2023), "Language Quantized AutoEncoders": studies frozen-LLM visual processing through text-token quantization but does not solve the conditional low-level generation tasks tested here.
-
-[[index|Library home]]

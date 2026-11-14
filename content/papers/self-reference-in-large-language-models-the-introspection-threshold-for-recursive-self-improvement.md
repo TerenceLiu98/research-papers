@@ -97,5 +97,3 @@ These are reported findings from cited work, not replications. The authors call 
 - Schmidhuber (2003), "Godel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements": the proof-based framework compared in the appendix.
 - Madaan et al. (2023), "Self-Refine: Iterative Refinement with Self-Feedback," and Huang et al. (2024), "Large Language Models Cannot Self-Correct Reasoning Yet": self-refinement and its limitations.
 - Binder et al. (2024), "Looking Inward: Language Models Can Learn About Themselves by Introspection," and Song, Hu, and Mahowald (2025), "Language Models Fail to Introspect About Their Knowledge of Language": contrasting evidence about privileged self-access.
-
-[[index|Library home]]

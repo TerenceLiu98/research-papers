@@ -90,5 +90,3 @@ Against 100-request measurements for Qwen and Llama models on A40, A100, and H10
 - Liu et al. (2024), "PEARL: Parallel Speculative Decoding with Adaptive Draft Length": a cited two-node adaptive draft-length approach.
 - Agrawal et al. (2024), "VIDUR: A Large-Scale Simulation Framework for LLM Inference": supplies DSD-Sim's single-node latency predictors.
 - Zhong et al. (2024), "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving": a related distributed serving architecture that separates inference phases rather than draft and verification models.
-
-[[index|Library home]]

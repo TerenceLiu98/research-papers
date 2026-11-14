@@ -97,5 +97,3 @@ The authors provide [implementation code](https://github.com/eddardd/kddm). It w
 - Lohit and Jones (2022), "Model Compression Using Optimal Transport": cited optimal-transport approach to model compression.
 - Lv, Yang, and Li (2024), "Wasserstein Distance Rivals Kullback-Leibler Divergence for Knowledge Distillation": cited Gaussian Wasserstein and KL comparison.
 - [[papers/beyond-logits-aligning-feature-dynamics-for-effective-knowledge-distillation|Beyond Logits: Aligning Feature Dynamics for Effective Knowledge Distillation]]: aligns intermediate prediction trajectories rather than treating feature batches as distributions.
-
-[[index|Library home]]

@@ -110,5 +110,3 @@ Median effective sample sizes for ideological ranks are approximately 1,000-1,50
 - [[papers/multiple-ideal-points-revealed-preferences-in-different-domains|Multiple Ideal Points: Revealed Preferences in Different Domains]]: cited cross-domain preference model motivating further extensions.
 
 Paper: [DOI](https://doi.org/10.1007/s11222-025-10570-5). Code and processed data, as cited in the paper: [logit_unfolding_model](https://github.com/rayleigh/logit_unfolding_model/).
-
-[[index|Library home]]

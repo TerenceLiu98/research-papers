@@ -91,5 +91,3 @@ A component ablation at roughly 1M parameters reports that rational activations 
 - Boulle, Nakatsukasa, and Townsend (2020), "Rational Neural Networks," arXiv:2004.01902: studies neural networks built from rational functions.
 - Hu et al. (2023), "Interpretable Machine Learning Based on Functional ANOVA Framework: Algorithms and Comparisons," arXiv:2305.15670: develops functional-ANOVA models for interpretable learning.
 - Yang, Zhang, and Sudjianto (2021), "GAMI-Net: An Explainable Neural Network Based on Generalized Additive Models with Structured Interactions," arXiv:2003.07132: a related sparse interaction architecture.
-
-[[index|Library home]]

@@ -72,5 +72,3 @@ The evaluation uses five seeds and hold-one-out interpolation between endpoint s
 - Benamou and Brenier (2000), "A Computational Fluid Mechanics Solution to the Monge-Kantorovich Mass Transfer Problem."
 - Lipman et al. (2023), "Flow Matching for Generative Modeling."
 - Tong et al. (2024), "Improving and Generalizing Flow-Based Generative Models with Minibatch Optimal Transport."
-
-[[index|Library home]]

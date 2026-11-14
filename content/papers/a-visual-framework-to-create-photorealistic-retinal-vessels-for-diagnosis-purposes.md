@@ -79,5 +79,3 @@ The optic disc is excluded from synthesis and supplied as part of the background
 - Fiorini et al. (2014), "Automatic Generation of Synthetic Retinal Fundus Images": cited patch-texture approach for vascular and non-vascular fundus regions.
 - Costa et al. (2018), "End-to-end adversarial retinal image synthesis": cited GAN-based alternative that learns vessel and fundus appearance from real images.
 - Guibas, Virdi, and Li (2017), "Synthetic Medical Images from Dual Generative Adversarial Networks": cited two-stage GAN pipeline applied to retinal images.
-
-[[index|Library home]]

@@ -119,5 +119,3 @@ Two ablation sets each cover five Atari tasks (Figures 9-10). Full JEDI outperfo
 - Assran et al. (2023), "Self-supervised learning from images with a joint-embedding predictive architecture": predictive latent-learning predecessor (reference 17).
 - Alemi et al. (2016), "Deep variational information bottleneck": theoretical reference for the predictive-compression interpretation (reference 31).
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]]: a related library analysis of conditional representation identifiability, distinct from JEDI's bottleneck motivation; not listed as a cited work in the supplied paper.
-
-[[index|Library home]]

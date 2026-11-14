@@ -74,5 +74,3 @@ Publication year, venue, and a stable identifier are not established in the supp
 ## Related Papers
 
 - [[papers/learning-hawkes-processes-under-synchronization-noise|Learning Hawkes Processes Under Synchronization Noise]] addresses corrupted timestamps in event-process estimation, whereas FC-TPP studies rule-guided generation with limited or incomplete histories. These are distinct observation and modeling problems.
-
-[[index|Library home]]

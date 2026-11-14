@@ -81,5 +81,3 @@ The two-SD comparisons hold other covariates at their means or modes. Economic h
 - Steiner and Mader (2019), "Intra-party heterogeneity in policy preferences and its effect on issue salience: developing and applying a measure based on elite survey data": the source of the dimension-specific heterogeneity approach.
 - [[papers/strategic-ambiguity-of-party-positions-in-multi-party-competition|Strategic Ambiguity of Party Positions in Multi-Party Competition]]: cited explanation of deliberate platform ambiguity, distinguished here from candidate preference dispersion.
 - [[papers/party-ambiguity-and-individual-preferences|Party ambiguity and individual preferences]]: cited use of perceptual disagreement to measure ambiguity; this paper instead measures heterogeneity independently through candidate responses.
-
-[[index|Library home]]

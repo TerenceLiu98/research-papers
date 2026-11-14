@@ -107,5 +107,3 @@ The paper argues that marginalizing polygon effects improves scalability, but th
 - Lindgren, Rue, and Lindstrom (2011), "An explicit link between Gaussian fields and Gaussian Markov random fields: the stochastic partial differential equation approach." Supplies the finite-element representation of the Matern field.
 - [[papers/continuous-inference-for-aggregated-point-process-data|Continuous Inference for Aggregated Point Process Data]]: related MCMC augmentation for time-varying, overlapping, and uncertain observation regions.
 - [[papers/spatial-latent-gaussian-modelling-with-change-of-support|Spatial Latent Gaussian Modelling with Change of Support]]: related basis-projection approach for responses and predictors observed on mismatched supports.
-
-[[index|Library home]]

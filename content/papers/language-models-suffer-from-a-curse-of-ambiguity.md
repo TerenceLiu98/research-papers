@@ -105,5 +105,3 @@ Validation on the synthetic task gives Pearson correlation 0.86 and Spearman cor
 - Nichani et al. (2025), "Understanding Factual Recall in Transformers via Associative Memories": cited foundation for the Hebbian capacity construction.
 - Allen-Zhu and Li (2025), "Physics of Language Models: Part 3.3, Knowledge Capacity Scaling Laws": cited context for total parameter count as a capacity measure.
 - Olsson et al. (2022), "In-context learning and induction heads": relevant to the copying mechanism proposed for low-frequency, low-loss contexts.
-
-[[index|Library home]]

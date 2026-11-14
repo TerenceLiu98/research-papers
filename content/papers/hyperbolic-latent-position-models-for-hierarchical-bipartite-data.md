@@ -128,5 +128,3 @@ A Retailrocket temporal conversion stress test uses 20,834 visitor-product pairs
 - Kitsak, Papadopoulos, and Krioukov (2017), "Latent geometry of bipartite networks": cited geometric bipartite-network background.
 - [[papers/spatial-voting-models-in-circular-spaces-a-case-study-of-the-us-house-of-representatives|Spatial voting models in circular spaces: A case study of the U.S. House of Representatives]]: a library comparison using circular geometry for voting coalitions; not a HELPI experimental baseline.
 - [[papers/hyhtm-hyperbolic-geometry-based-hierarchical-topic-models|HyHTM: Hyperbolic Geometry based Hierarchical Topic Models]]: a library connection using hyperbolic geometry for topic hierarchies, with a different task and identification problem.
-
-[[index|Library home]]

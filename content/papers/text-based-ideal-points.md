@@ -118,5 +118,3 @@ The supplied Markdown has extensive extraction artifacts and provides no explici
 - Gerrish and Blei (2011), "Predicting legislative roll calls from text": cited method combining bill text with votes, whereas TBIP requires authored texts and author identities.
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: a later library review that explicitly places TBIP in its topic-modeling family.
 - [[papers/positioning-political-texts-with-large-language-models-by-asking-and-averaging|Positioning Political Texts with Large Language Models by Asking and Averaging]]: a later library comparison using prompted text scores and aggregation; its experiments are not part of this paper.
-
-[[index|Library home]]

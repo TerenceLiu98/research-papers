@@ -85,5 +85,3 @@ For guidance, the final diffusion output is expressed as clean-latent ($x$) pred
 - Singh et al. (2025), "What Matters for Representation Alignment: Global Information or Spatial Structure?," arXiv:2512.10794: motivates the spatial-structure interpretation used in the encoder analysis.
 - [[papers/beyond-the-last-layer-multi-layer-representation-fusion-for-visual-tokenization|Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization]]: learns a routed correction from intermediate encoder layers, whereas RAEv2 uses parameter-free summation.
 - [[papers/dc-sae-deep-compression-semantic-autoencoder-for-faster-diffusion-convergence|DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence]]: combines separate semantic and pixel branches instead of aggregating one frozen encoder across depth.
-
-[[index|Library home]]

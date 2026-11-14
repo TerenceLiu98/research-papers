@@ -19,7 +19,6 @@ tags:
 
 Analyzing 64 Xiaohongshu posts about Shouzi Chew, Ge, Zheng, and Tian argue that users construct a “fresh meat elite” ideal combining business success, cultural refinement, and physical and interpersonal appeal. Women's active evaluation of men asserts agency, yet the authors interpret accompanying marriage and self-improvement discourse as reproducing class hierarchy and gender expectations.
 
-[[index|Library home]]
 
 Published in *Social Semiotics* 36(4), 734–757 (2026); first published online March 7, 2025. [Article DOI](https://doi.org/10.1080/10350330.2025.2473996).
 

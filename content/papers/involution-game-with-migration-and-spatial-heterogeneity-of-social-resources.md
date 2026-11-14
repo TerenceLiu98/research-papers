@@ -104,5 +104,3 @@ These issues are present in the supplied parsed text; their origin cannot be res
 - Helbing and Yu (2009), "The outbreak of cooperation among success-driven individuals under noisy conditions": cited foundation for success-driven migration (reference 17).
 - Lee, Cleveland, and Szolnoki (2022), "When costly migration helps to improve cooperation": cited motivation for including migration costs (reference 41).
 - [[papers/a-model-of-long-term-conflict-resolution-and-cooperation|A Model of Long-Term Conflict Resolution and Cooperation]]: a library comparison, not a citation in this paper, examining how imitation and interaction opportunities shape cooperation in a different agent-based setting.
-
-[[index|Library home]]

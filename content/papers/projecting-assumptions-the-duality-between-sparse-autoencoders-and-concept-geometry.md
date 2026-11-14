@@ -101,5 +101,3 @@ Related library reading, without implying citation by this paper:
 
 - [[Sparse Autoencoders are Topic Models]] offers another account of the assumptions underlying SAE representations, using a continuous generative topic model.
 - [[Interpretable and Steerable Concept Bottleneck Sparse Autoencoders]] addresses concept coverage through explicit supervision and evaluates steering, complementing this paper's analysis of encoder geometry.
-
-[[index|Library home]]

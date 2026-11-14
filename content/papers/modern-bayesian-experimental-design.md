@@ -91,5 +91,3 @@ Works cited in the review, without matching Paper pages found in this library:
 - Foster et al. (2021), "Deep adaptive design: amortizing sequential Bayesian experimental design": history-to-design policies trained against total information gain.
 - Ivanova et al. (2021), "Implicit deep adaptive design: policy-based experimental design without likelihoods": policy learning for implicit likelihood models.
 - Goda et al. (2022), "Unbiased MLMC stochastic gradient-based optimization of Bayesian experimental designs": unbiased EIG and gradient estimation using multilevel Monte Carlo.
-
-[[index|Library home]]

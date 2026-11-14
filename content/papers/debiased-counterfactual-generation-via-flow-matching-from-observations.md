@@ -90,5 +90,3 @@ Library connections:
 - [[papers/flow-matching-for-scalable-simulation-based-inference|Flow Matching for Scalable Simulation-Based Inference]] uses flow matching for amortized conditional distribution estimation, but does not target confounding correction.
 - [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]] uses transport to stabilize causal estimation under limited overlap, whereas DECFM transports outcome distributions to construct a generative counterfactual law.
 - [[papers/a-primer-on-optimal-transport-for-causal-inference-with-observational-data|A Primer on Optimal Transport for Causal Inference with Observational Data]] surveys transport formulations for causal adjustment.
-
-[[index|Library home]]

@@ -89,5 +89,3 @@ At each inference step, FlowPlace extrapolates a predicted endpoint, applies a g
 - [[papers/fm-ts-flow-matching-for-time-series-generation|FM-TS: Flow Matching for Time Series Generation]]: another application in which deterministic transport reduces the sampling budget relative to diffusion, though in a different domain.
 
 Source: supplied parsed manuscript, Cognitio job `9e0ab760-92da-4103-a1f0-6de3f012b14e`.
-
-[[index|Library home]]

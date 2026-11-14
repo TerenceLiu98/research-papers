@@ -82,5 +82,3 @@ The additional computation is material. Table 2 reports training times around 1.
 - [[papers/learning-from-predictions-fusing-training-and-autoregressive-inference-for-long-term-spatiotemporal-forecasts|Learning from Predictions]] addresses long-horizon spatiotemporal forecasting by differentiating through autoregressive feedback rather than searching world-model samples with a domain reward.
 - Hafner et al. (2019), "Learning latent dynamics for planning from pixels," supplies the latent world-model precedent cited by the paper.
 - Luo et al. (2024), "A survey on model-based reinforcement learning," provides the paper's broader MBRL context.
-
-[[index|Library home]]

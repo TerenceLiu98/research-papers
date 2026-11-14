@@ -118,5 +118,3 @@ Appendix B.6 explicitly identifies only two L6 papers: Wiesinger et al. (2010), 
 - Evans et al. (2025), "ADAGE: A generic two-layer framework for adaptive agent based modelling": the other L6 example, with repeated environment-level parameter calibration.
 - [[papers/llm-based-social-simulations-require-a-boundary|LLM-Based Social Simulations Require a Boundary]]: a library comparison, not a citation in this paper, examining whether simulated populations preserve the behavioral heterogeneity needed for their research questions.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]]: a library comparison, not a citation in this paper, separating visual prediction quality from demonstrated usefulness for action-conditioned planning.
-
-[[index|Library home]]

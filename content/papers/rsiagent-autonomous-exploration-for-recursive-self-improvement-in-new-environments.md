@@ -105,5 +105,3 @@ The source cites the following works in Section 5:
 - Shinn et al. (2023), "Reflexion: Language Agents with Verbal Reinforcement Learning": a predecessor for learning through retained verbal experience.
 - Wang et al. (2023), "Voyager: An Open-Ended Embodied Agent with Large Language Models": a predecessor combining automatic curriculum and skill acquisition.
 - Zhu et al. (2026), "Hybrid Self-Evolving Structured Memory for Computer-Use Agents": HyMEM combines symbolic nodes and trajectory embeddings for memory retrieval and inference-time updates.
-
-[[index|Library home]]

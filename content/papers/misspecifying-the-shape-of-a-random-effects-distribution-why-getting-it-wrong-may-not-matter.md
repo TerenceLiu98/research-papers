@@ -101,5 +101,3 @@ These works are discussed in the supplied paper; matching library pages were not
 - Heagerty and Kurland (2001), "Misspecified maximum likelihood estimates and generalised linear mixed models": distinguishes shape misspecification from covariate-dependent random-effects variance.
 - McCulloch and Neuhaus (2011), "Prediction of random effects in linear and generalized linear models under model misspecification": examines prediction error separately from the distributional shape of predictions.
 - Neuhaus and McCulloch (2006), "Separating between and within-cluster covariate effects using conditional and partitioning methods": addresses random-effects association with covariates.
-
-[[index|Library home]]

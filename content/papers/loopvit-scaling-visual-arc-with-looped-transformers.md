@@ -83,5 +83,3 @@ Across iterations, prediction differences and entropy decline together. Attentio
 - [[papers/diffusion-as-a-training-curriculum-for-timestep-free-iterative-reasoning|Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning]] is related library reading: it trains a shared recurrent solver with local denoising objectives and uses output stability rather than entropy for stopping.
 
 Source code stated in the manuscript: `https://github.com/WenjieShu/LoopViT`.
-
-[[index|Library home]]

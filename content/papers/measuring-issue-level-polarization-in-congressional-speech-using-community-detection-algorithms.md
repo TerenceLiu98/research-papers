@@ -64,5 +64,3 @@ Modularity depends on the network construction and community-detection baseline.
 
 - [[papers/a-bayesian-hierarchical-topic-model-for-political-texts-measuring-expressed-agendas-in-senate-press-releases|A Bayesian Hierarchical Topic Model for Political Texts]]: related library work on comparable actor-level attention profiles; Erz instead aggregates hard topic assignments and analyzes their network structure.
 - Waugh et al. (2011), *Party Polarization in Congress: A Network Science Approach*: cited methodological precedent for network-based polarization measurement.
-
-[[index|Library home]]

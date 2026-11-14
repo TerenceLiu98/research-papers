@@ -78,5 +78,3 @@ The qualitative examples support an iterative-refinement account: later passes s
 - [[papers/a-mechanistic-analysis-of-looped-reasoning-language-models|A Mechanistic Analysis of Looped Reasoning Language Models]]: analyzes the hidden-state and attention dynamics of Ouro and recurrent retrofits.
 - Basu et al. (2025), "NESTful: A Benchmark for Evaluating LLMs on Nested Sequences of API Calls": evaluates dependency-preserving tool workflows.
 - Patil et al. (2025), "Berkeley Function Calling Leaderboard": evaluates single and independent multi-call function generation.
-
-[[index|Library home]]

@@ -71,5 +71,3 @@ The comparisons are descriptive and do not establish that party fragmentation ca
 
 - [[papers/party-system-polarization-and-the-effective-number-of-parties|Party system polarization and the effective number of parties]] — a later study relating effective counts to ideological dispersion, a dimension not measured here.
 - Taylor and Herman (1971), “Party systems and government stability” — prior work discussed in the paper's stability analysis.
-
-[[index|Library home]]

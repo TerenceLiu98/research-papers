@@ -105,5 +105,3 @@ For ETTh1/ETTh2 forecasting, NGMP replaces PVMP inside the same precision-gated 
 - Khan and Lin (2017), "Conjugate-Computation Variational Inference": turns natural-gradient contributions of non-conjugate terms into conjugate surrogate parameters.
 - Şenöz et al. (2021), "Variational Message Passing and Local Constraint Manipulation in Factor Graphs": supplies the constrained-Bethe framework on which the edge-local derivation builds.
 - Minka (2001), "Expectation Propagation for Approximate Bayesian Inference": provides the cavity, tilted-distribution, and moment-projection comparison.
-
-[[index|Library home]]

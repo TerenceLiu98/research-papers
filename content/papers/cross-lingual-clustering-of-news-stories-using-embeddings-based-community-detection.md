@@ -71,5 +71,3 @@ The supplied Markdown does not explicitly identify the paper’s publication yea
 - [[papers/measuring-issue-level-polarization-in-congressional-speech-using-community-detection-algorithms|Measuring issue-level polarization in congressional speech using community detection-algorithms]] — another use of text similarity networks and Leiden, measuring issue-attention structure rather than event identity.
 - Miranda et al. (2018), “Multilingual clustering of streaming news” — source of the second evaluation dataset.
 - Sannigrahi et al. (2023), “Are the best multilingual document embeddings simply based on sentence embeddings?” — cited motivation for sentence-level representations.
-
-[[index|Library home]]

@@ -104,5 +104,3 @@ Related library reading, without implying citation by this paper:
 - [[papers/functional-autoencoders-for-functional-data-representation-learning|Functional Autoencoders for Functional Data Representation Learning]] learns nonlinear bottlenecks for function-valued inputs using functional weights.
 
 The authors report experiment code at `https://github.com/AminMoradiXL/kan_ae` (reference 33).
-
-[[index|Library home]]

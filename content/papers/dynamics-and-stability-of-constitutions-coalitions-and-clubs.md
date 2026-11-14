@@ -80,5 +80,3 @@ Stable outcomes are not generally efficient. The paper's positive efficiency res
 - Chwe (1994), "Farsighted Coalitional Stability": relates consistent and stable sets when transitions follow exogenous rules.
 - Gomes and Jehiel (2005), "Dynamic Processes of Social and Economic Interactions: On the Persistence of Inefficiencies": studies dynamic bargaining position and inefficient outcomes with side payments.
 - Lagunoff (2009), "The Dynamic Stability and Reform of Political Institutions": connects political reform to time inconsistency in induced social rules.
-
-[[index|Library home]]

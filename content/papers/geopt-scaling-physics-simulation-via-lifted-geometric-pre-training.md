@@ -78,5 +78,3 @@ Most headline experiments concern complex 3D boundaries and approximately 100 la
 - Herde et al. (2024), "Poseidon: Efficient foundation models for PDEs."
 - Hao et al. (2024), "DPOT: Auto-regressive denoising operator transformer for large-scale PDE pre-training."
 - Holzschuh, Kohl, Redinger, and Thuerey (2026), "P3D: Highly scalable 3D neural surrogates for physics simulations with global context."
-
-[[index|Library home]]

@@ -74,5 +74,3 @@ The applications also have limited scope. The deliberation study concerns a spec
 - Boydstun, Glazier, and Pietryka (2013), "Playing to the Crowd: Agenda Control in Presidential Debates."
 - Grimmer and King (2011), "General Purpose Computer-Assisted Clustering and Conceptualization."
 - Vavreck (2009), *The Message Matters: The Economy and Presidential Campaigns*.
-
-[[index|Library home]]

@@ -86,5 +86,3 @@ Forecasting models are commonly trained for particular datasets or domains, whil
 - Nie et al. (2023), "A Time Series Is Worth 64 Words: Long-Term Forecasting with Transformers": supplies PatchTST, the patching precedent and a principal task-specific baseline.
 - Yang, Tsai, and Chen (2021), "Voice2Series: Reprogramming Acoustic Models for Time Series Classification": a cited cross-modal reprogramming predecessor.
 - [[papers/a-decoder-only-foundation-model-for-time-series-forecasting|A Decoder-Only Foundation Model for Time-Series Forecasting]]: a library comparison that pretrains a causal transformer directly on numerical patches rather than repurposing language-model weights.
-
-[[index|Library home]]

@@ -113,5 +113,3 @@ HBAM matches or exceeds the other models in respondent-position recovery across 
 - Hare et al. (2015), "Using Bayesian Aldrich-McKelvey Scaling to Study Citizens' Ideological Preferences and Perceptions": Bayesian predecessor and source of the empirical comparison.
 - Lo, Proksch, and Gschwend (2014), "A Common Left-Right Scale for Voters and Parties in Europe": cited application informing realistic stimulus counts and scale-flipping frequencies.
 - [[papers/modgirt-multidimensional-dynamic-scaling-of-aggregate-survey-data|MODGIRT: Multidimensional Dynamic Scaling of Aggregate Survey Data]]: a library comparison targeting changing group preferences from aggregate survey responses, whereas HBAM targets individual and stimulus positions from placements.
-
-[[index|Library home]]

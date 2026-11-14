@@ -82,5 +82,3 @@ These are thematic links to existing library pages, not claims that the supplied
 - [[papers/structure-aware-optimal-intervention-for-rumor-dynamics-on-networks|Structure-aware optimal intervention for rumor dynamics on networks]]: allocates continuous node-level intervention over time rather than moving discrete supervisory agents.
 - [[papers/rumor-propagation-on-hypergraphs|Rumor propagation on hypergraphs]]: replaces pairwise contacts with group-dependent spreading and stifling.
 - [[papers/modeling-of-rumor-propagation-in-large-populations-with-network-via-graphon-games|Modeling of Rumor Propagation in Large Populations with Network via Graphon Games]]: represents strategic individual communication in a large-population network game.
-
-[[index|Library home]]

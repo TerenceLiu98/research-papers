@@ -87,5 +87,3 @@ City-wide heterogeneity is summarized by pairwise Wasserstein-2 distances betwee
 - Webb, Yang, and Zhang (2016), “Price Jump Risk in the US Housing Market”: housing jump-risk precedent, reference [27].
 - McMillen (2008), “Changes in the distribution of house prices over time: Structural characteristics, neighborhood, or coefficients?”: distribution-sensitive hedonic precedent, reference [22].
 - [[papers/neural-mjd-neural-non-stationary-merton-jump-diffusion-for-time-series-prediction|Neural MJD: Neural Non-Stationary Merton Jump Diffusion for Time Series Prediction]]: a library comparison using learned time-varying jump-diffusion parameters for forecasting; not a cited work in this manuscript.
-
-[[index|Library home]]

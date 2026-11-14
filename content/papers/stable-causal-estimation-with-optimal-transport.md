@@ -82,5 +82,3 @@ The evaluation compares STE and EC-STE with IPW, stabilized IPW, augmented IPW, 
 
 - [[papers/a-design-based-solution-for-causal-inference-with-text-can-a-language-model-be-too-large|A Design-based Solution for Causal Inference with Text: Can a Language Model Be Too Large?]]: studies how treatment-predictive representations can destroy usable overlap and motivates design-based recovery of comparisons.
 - [[papers/causal-inference-with-unstructured-outcomes|Causal Inference with Unstructured Outcomes]]: another causal-inference setting in which learned nuisance representations and cross-fitting affect identification and inference.
-
-[[index|Library home]]

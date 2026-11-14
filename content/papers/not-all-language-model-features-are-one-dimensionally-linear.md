@@ -90,5 +90,3 @@ References discussed in the supplied paper:
 Related library reading, without implying citation by this paper:
 
 - [[papers/projecting-assumptions-the-duality-between-sparse-autoencoders-and-concept-geometry|Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry]] examines how encoder geometry constrains concept recovery, complementing this paper's grouping of dictionary directions into multidimensional features.
-
-[[index|Library home]]

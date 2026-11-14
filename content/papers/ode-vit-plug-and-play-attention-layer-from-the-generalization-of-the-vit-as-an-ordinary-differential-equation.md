@@ -85,5 +85,3 @@ A separate same-training comparison reports a 6.8M-parameter ViT from scratch at
 - Sander et al. (2022), "Do Residual Neural Networks Discretize Neural Ordinary Differential Equations?": source of the discrete-to-continuous approximation bound used by ODE-ViT.
 - Zhong et al. (2022), "A Neural ODE Interpretation of Transformer Layers": the autonomous Transformer-ODE baseline emphasized by the paper.
 - Qi et al. (2023), "LipsFormer: Introducing Lipschitz Continuity to Vision Transformers," and Yudin et al. (2025), "Pay Attention to Attention Distribution": motivate the stabilization mechanisms and JaSMin loss.
-
-[[index|Library home]]

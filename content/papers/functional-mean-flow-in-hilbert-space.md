@@ -90,5 +90,3 @@ This is not a prediction of the true future state at time $r$, as in a consisten
 - Kerrigan, Migliorini, and Smyth (2023), "Functional Flow Matching": supplies the conditional Hilbert-space transport framework.
 - Bond-Taylor and Willcocks (2024), "Infinity-Diff: Infinite Resolution Diffusion with Subsampled Mollified States": supplies the sparse-dense image architecture and multiresolution comparison.
 - Zhang and Wonka (2024), "Functional Diffusion": supplies the point-based SDF framework and 3D baseline.
-
-[[index|Library home]]

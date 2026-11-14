@@ -105,5 +105,3 @@ The supplied Markdown ends with the references and omits the appendix cited for 
 - Shapley (1953), "A Value for n-Person Games": the offline allocation benchmark used to define Shapley fairness (reference 33).
 
 Source: [AAMAS paper DOI](https://doi.org/10.65109/VZOJ2040).
-
-[[index|Library home]]

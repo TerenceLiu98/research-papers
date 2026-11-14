@@ -98,5 +98,3 @@ The following works are cited in the supplied Perspective:
 - Civilini et al. (2024), "Explosive cooperation in social dilemmas on higher-order networks," Physical Review Letters 132, 167401: cooperation in mixed two- and three-player games (reference 155).
 
 [[papers/coevolution-of-relationship-and-interaction-in-cooperative-dynamical-multiplex-networks|Coevolution of Relationship and Interaction in Cooperative Dynamical Multiplex Networks]] is a library comparison, not a citation in this Perspective. It studies adaptive relationship weights and dyadic strategic encounters, providing a distinct account of how interaction structure and cooperation influence each other.
-
-[[index|Library home]]

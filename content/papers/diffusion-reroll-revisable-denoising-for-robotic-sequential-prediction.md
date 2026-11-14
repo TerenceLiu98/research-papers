@@ -16,7 +16,6 @@ tags:
   - robot-learning
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

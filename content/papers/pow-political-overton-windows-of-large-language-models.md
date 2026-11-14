@@ -73,5 +73,3 @@ Model families also differ internally. The reported Llama window grows from 1.7%
 - Rozado (2024), "The political preferences of LLMs": a cited direct-questionnaire audit used as a methodological contrast.
 - [[papers/large-language-models-reflect-the-ideology-of-their-creators|Large language models reflect the ideology of their creators]]: related Wiki study using open-ended descriptions and multilingual comparisons rather than persona-conditioned Political Compass windows.
 - [[papers/the-political-ideology-of-large-language-models-measurement-inconsistency-and-persuasive-influence|The Political Ideology of Large Language Models: Measurement, Inconsistency, and Persuasive Influence]]: related Wiki study separating role-conditioned positions from effects on users.
-
-[[index|Library home]]

@@ -80,5 +80,3 @@ The supplied Markdown does not explicitly identify this paper's publication year
 
 - [[papers/a-mechanistic-analysis-of-looped-reasoning-language-models|A Mechanistic Analysis of Looped Reasoning Language Models]] provides a complementary view of recurrent-state stability; the present paper studies retrofitted finite-step reuse.
 - [[papers/looped-transformers-are-better-at-learning-learning-algorithms|Looped Transformers Are Better at Learning Learning Algorithms]] studies trained recurrence, contrasting with the frozen-checkpoint intervention here.
-
-[[index|Library home]]

@@ -120,5 +120,3 @@ For consistency, the study samples 50 legislator-bill pairs and repeats predicti
 - Mou et al. (2023), "Uppam: A unified pre-training architecture for political actor modeling based on language": cited pretraining baseline.
 - [[papers/how-they-vote-issue-adjusted-models-of-legislative-behavior|How They Vote: Issue-Adjusted Models of Legislative Behavior]]: related Wiki reading, not a citation in this manuscript; uses topic-conditioned latent positions to analyze legislative heterogeneity.
 - [[papers/llm-based-social-simulations-require-a-boundary|LLM-Based Social Simulations Require a Boundary]]: related Wiki reading, not a citation in this manuscript; develops criteria for bounding behavioral claims from LLM simulations.
-
-[[index|Library home]]

@@ -78,5 +78,3 @@ The paper reports no original benchmark or empirical study; it synthesizes theor
 - [[papers/stable-causal-estimation-with-optimal-transport|Stable Causal Estimation with Optimal Transport]]: uses transport maps for causal estimation under limited covariate overlap.
 
 Source scope: supplied parsed Markdown for job `d7cec24b-038b-47c4-bc5b-b9159c0e8761`. The source provides no publication year, DOI, or arXiv identifier.
-
-[[index|Library home]]

@@ -83,5 +83,3 @@ Table 4 reports $R^2$ values of 0.417-0.465; Table 5 reports 0.599-0.610. The au
 
 - [[papers/polarization-and-ideology-partisan-sources-of-low-dimensionality-in-scaled-roll-call-analyses|Polarization and Ideology: Partisan Sources of Low Dimensionality in Scaled Roll Call Analyses]]: related library reading on how party structure affects interpretation of roll-call patterns; not identified as a citation in the supplied source.
 - [[papers/unpredictable-voters-in-ideal-point-estimation|Unpredictable Voters in Ideal Point Estimation]]: related library reading examining legislator-specific unpredictability, including European Parliament sessions, rather than aggregate group agreement; not identified as a citation here.
-
-[[index|Library home]]

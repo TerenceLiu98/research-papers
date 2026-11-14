@@ -110,5 +110,3 @@ All methods converged after 36 iterations. AGHQ5 was closest to the AGHQ13 param
 - Jin and Andersson (2020), "A note on the accuracy of adaptive Gauss-Hermite quadrature": cited analysis of quadrature error rates and derivative symmetries.
 - [[papers/modeling-item-response-theory-with-stochastic-variational-inference|Modeling Item Response Theory with Stochastic Variational Inference]]: library comparison using amortized Bayesian inference; not a cited paper in this source.
 - [[papers/multidimensional-item-response-theory-under-general-latent-distributions|Multidimensional Item Response Theory under General Latent Distributions]]: library comparison that relaxes the Gaussian population assumption through normalizing flows; not a cited paper in this source.
-
-[[index|Library home]]

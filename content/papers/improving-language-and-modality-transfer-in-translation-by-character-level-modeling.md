@@ -70,5 +70,3 @@ The supplied Markdown does not establish this paper’s publication year or iden
 - SONAR (Duquenne et al., 2023) supplies the multilingual embedding space and decoder; MMS (Pratap et al., 2023) supplies the CTC acoustic encoder.
 - ZeroSwot (Tsiamas et al., 2024), cited by the paper, also learns speech translation from transcription supervision, using Wasserstein alignment rather than a sentence-level MSE target.
 - [[papers/mexma-token-level-objectives-improve-sentence-representations|MEXMA]] provides a related library treatment of multilingual sentence representations and retrieval. Its token-reconstruction objective differs from charSONAR’s teacher embedding matching; benchmark aggregates are not directly comparable.
-
-[[index|Library home]]

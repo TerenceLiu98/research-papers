@@ -70,5 +70,3 @@ The empirical claims are tied to six English-language datasets, one primary Sent
 - Grootendorst (2022), "BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure": the principal clustering-based comparison.
 - [[papers/neural-topic-modeling-via-contextual-and-graph-information-fusion|Neural Topic Modeling via Contextual and Graph Information Fusion]]: later compares topic-level contextual and graph fusion against FASTopic.
 - [[papers/sparse-autoencoders-are-topic-models|Sparse Autoencoders are Topic Models]]: a later embedding-space topic model evaluated against FASTopic.
-
-[[index|Library home]]

@@ -87,5 +87,3 @@ The supplied Markdown contains inconsistent mathematical notation: the zero-weig
 - Jain and Obermayer (2009), "Structure spaces": metric-space attributed graphs underlying the construction, reference [23].
 - Sukurdeep, Bauer, and Charon (2021), "A new variational model for shape graph registration with partial matching constraints": alternative weighted registration framework, reference [33].
 - Zhou and De la Torre, "Factorized graph matching": registration solver, references [45]-[46].
-
-[[index|Library home]]

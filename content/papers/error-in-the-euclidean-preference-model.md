@@ -89,5 +89,3 @@ These numerical results illustrate the proven expressions; they are not measurem
 - Peters (2017), "Recognising multidimensional Euclidean preferences": proves recognition hardness and representation-size results that motivate the use of indirect bounds.
 - [[papers/l1-based-bayesian-ideal-point-model-for-multidimensional-politics|L1-based Bayesian Ideal Point Model for Multidimensional Politics]]: replaces Euclidean distance with Manhattan distance to change the geometry and identification of multidimensional spatial voting.
 - [[papers/spatial-voting-models-in-circular-spaces-a-case-study-of-the-us-house-of-representatives|Spatial voting models in circular spaces: A case study of the U.S. House of Representatives]]: evaluates a circular alternative to conventional Euclidean spatial voting.
-
-[[index|Library home]]

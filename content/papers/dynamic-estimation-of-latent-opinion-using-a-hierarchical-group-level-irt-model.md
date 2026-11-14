@@ -120,5 +120,3 @@ Appendix C uses 72 polls from 1963-2010, approximately 166,000 respondents, and 
 - Mislevy (1983), "Item Response Models for Grouped Data": cited derivation of the group-level normal-ogive representation.
 - Park, Gelman, and Bafumi (2004), "Bayesian Multilevel Estimation with Poststratification: State-Level Estimates from National Polls": cited basis for geographic aggregation and pooling.
 - McGann (2014), "Estimating the Political Center from Aggregate Data: An Item Response Theory Alternative to the Stimson Dyad Ratios Algorithm": cited national-level group IRT comparison.
-
-[[index|Library home]]

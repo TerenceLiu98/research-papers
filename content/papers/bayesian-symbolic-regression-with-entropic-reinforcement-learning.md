@@ -111,5 +111,3 @@ Appendix D finds no clear AUC advantage of trajectory balance over detailed bala
 - Li, Marinescu, and Musslick (2023), "GFN-SR: Symbolic regression with generative flow networks": cited trajectory-balance predecessor.
 - Malkin et al. (2022), "Trajectory balance: Improved credit assignment in GFlowNets": cited training-objective foundation.
 - [[papers/modeling-item-response-theory-with-stochastic-variational-inference|Modeling Item Response Theory with Stochastic Variational Inference]]: library comparison for learned approximate Bayesian inference; it amortizes ability inference across respondents. This connection is not a citation in ERRLESS.
-
-[[index|Library home]]

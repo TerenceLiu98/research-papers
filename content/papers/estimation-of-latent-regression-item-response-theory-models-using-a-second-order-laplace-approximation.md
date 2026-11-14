@@ -104,5 +104,3 @@ The largest improvements concern item and covariance parameters. Regression RMSE
 - [[papers/fast-estimation-of-multiple-group-generalized-linear-latent-variable-models-for-categorical-observed-variables|Fast estimation of multiple group generalized linear latent variable models for categorical observed variables]]: the existing library page identifies this paper as a precursor; that work treats multiple groups and more general loading structures.
 - Thomas (1993), "Asymptotic corrections for multivariate posterior moments with factored likelihood functions": cited earlier work on higher-order corrections used for latent regression and covariance estimation with fixed item parameters.
 - Chalmers (2015), "Extended mixed-effects item response models with the MH-RM algorithm": cited stochastic-approximation approach to explanatory IRT estimation.
-
-[[index|Library home]]

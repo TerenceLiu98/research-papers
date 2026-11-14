@@ -101,5 +101,3 @@ The authors place the observed vote matrix among 19 posterior predictive matrice
 - Hartigan (2000), "Bloc Voting in the United States Senate": cited partition-based alternative for legislative blocs.
 - [[papers/spatial-voting-models-in-circular-spaces-a-case-study-of-the-us-house-of-representatives|Spatial voting models in circular spaces: A case study of the U.S. House of Representatives]]: a later library paper that cites this study and addresses coalitions of ideological opposites through circular geometry while retaining within-bloc rankings.
 - [[papers/polarization-and-ideology-partisan-sources-of-low-dimensionality-in-scaled-roll-call-analyses|Polarization and Ideology: Partisan Sources of Low Dimensionality in Scaled Roll Call Analyses]]: a library comparison on why aggregate roll-call structure can misrepresent underlying preferences; not cited in the supplied paper.
-
-[[index|Library home]]

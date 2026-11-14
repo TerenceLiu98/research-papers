@@ -94,5 +94,3 @@ The sample-efficiency probe trains on 2-14 years preceding 22 January 2021 and e
 - Fu, Hirano, and Imajo (2024), "Financial Fine-tuning a Large Time Series Model," reference [41], arXiv:2412.09880: cited prior work on financial adaptation of TimesFM.
 - [[papers/cpiri-channel-permutation-invariant-relational-interaction-for-multivariate-time-series-forecasting|CPiRi: Channel Permutation-Invariant Relational Interaction for Multivariate Time Series Forecasting]]: a thematic library connection using a frozen temporal foundation model with learned cross-channel interactions. It is not a cited comparison in this report.
 - [[papers/multivariate-time-series-forecasting-needs-cross-variable-loss|Multivariate Time Series Forecasting needs Cross Variable Loss]]: a thematic library connection about cross-variable forecasting objectives, rather than pretraining transfer; not a cited baseline here.
-
-[[index|Library home]]

@@ -82,5 +82,3 @@ Robustness exercises include detrending and differencing, macroeconomic controls
 - Gartzke (1999), "War is in the Error Term," *International Organization* 53(3): 567-587: cited treatment of idiosyncrasy and limits of systematic war explanation.
 - [[papers/accounting-for-variability-in-conflict-dynamics-a-pattern-based-predictive-model|Accounting for variability in conflict dynamics: A pattern-based predictive model]]: a thematic library connection using historical fatality patterns to forecast conflict trajectories; its target and evidence differ from interstate war onset here.
 - [[papers/next-generation-conflict-forecasting-unleashing-predictive-patterns-through-spatiotemporal-learning|Next-Generation Conflict Forecasting: Unleashing Predictive Patterns through Spatiotemporal Learning]]: a thematic comparison that learns from conflict histories rather than news and markets. It is later work, not a citation in this manuscript.
-
-[[index|Library home]]

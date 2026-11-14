@@ -89,5 +89,3 @@ The weight-recovery study uses 300 observations per replicate and 250 replicates
 - Rossi and Conan-Guez (2005), "Functional multi-layer perceptron: A non-linear tool for functional data analysis."
 - Cardot, Ferraty, and Sarda (1999), "Functional linear model."
 - Ramsay and Silverman (2005), "Functional Data Analysis."
-
-[[index|Library home]]

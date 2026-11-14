@@ -86,5 +86,3 @@ Ablations support both stages. Removing stochastic-gate selection lowers the Dec
 - Yamada et al. (2020), "Feature Selection Using Stochastic Gates": supplies the differentiable feature-selection mechanism.
 - Jin et al. (2024), "Time-LLM: Time Series Forecasting by Reprogramming Large Language Models": exemplifies aligning time-series representations with a language model's input space.
 - Merrill et al. (2024), "Language Models Still Struggle to Zero-Shot Reason about Time Series": documents limitations of language models on raw time-series reasoning.
-
-[[index|Library home]]

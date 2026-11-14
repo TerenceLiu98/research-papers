@@ -72,5 +72,3 @@ The source lists verification materials at https://doi.org/10.7910/DVN/SQTQBA. T
 - Persico, Pueblita, and Silverman (2011), “Factions and Political Competition”: cited foundation for modeling organizational rules and factional effort.
 - Dewan and Squintani (2016), “In Defense of Factions”: cited account of factions' informational and deliberative benefits.
 - [[papers/intra-party-heterogeneity-and-voter-perceptions-of-party-positions|Intra-party heterogeneity and voter perceptions of party positions]]: a complementary library study of how internal disagreement affects voter perceptions, rather than factional effort incentives.
-
-[[index|Library home]]

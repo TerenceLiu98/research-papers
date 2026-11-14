@@ -88,5 +88,3 @@ Across three gradient-ablation maps, the full method averages 77.0% win rate, ve
 - Maes et al. (2026), "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels": a single-agent, action-conditioned JEPA world-model predecessor.
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]]: the representation-identification result that MA-JEPA extends to joint-action prediction under a restricted Gaussian model.
 - [[papers/jedi-joint-embedding-diffusion-world-model-for-online-model-based-reinforcement-learning|JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning]]: another reconstruction-free JEPA world model, evaluated in single-agent online control with diffusion dynamics.
-
-[[index|Library home]]

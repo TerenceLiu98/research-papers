@@ -75,5 +75,3 @@ The review does not introduce a new benchmark suite or report original comparati
 - Jacot, Gabriel, and Hongler (2018), “Neural tangent kernel: Convergence and generalization in neural networks”: fixed-kernel training theory (reference 23).
 - Bordelon and Pehlevan (2022), “Self-consistent dynamical field theory of kernel evolution in wide neural networks”: evolving-kernel description of feature learning (reference 15).
 - [[papers/local-convergence-of-mean-field-langevin-dynamics-from-gradient-flows-to-linearly-monotone-games|Local Convergence of Mean-Field Langevin Dynamics: From Gradient Flows to Linearly Monotone Games]]: a library connection on local convergence of the same class of distributional dynamics; not identified as a citation in this review.
-
-[[index|Library home]]

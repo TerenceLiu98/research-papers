@@ -118,5 +118,3 @@ Additional studies apply DistDF to TQNet, TimeBridge, Fredformer, iTransformer, 
 - [[papers/kd2m-a-unifying-framework-for-feature-knowledge-distillation|KD2M: A Unifying Framework for Feature Knowledge Distillation]]: another supervised-learning framework that regularizes empirical or Gaussian feature distributions with Wasserstein discrepancies.
 
 Source: supplied parsed manuscript, Cognitio job `22970bfb-afc6-4780-b022-167664f7c5b6`. Publication metadata is unspecified in the source.
-
-[[index|Library home]]

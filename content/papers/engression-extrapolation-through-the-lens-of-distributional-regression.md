@@ -85,5 +85,3 @@ Multivariate experiments on air-quality and NHANES outcomes report lower out-of-
 The source contrasts engression with quantile regression (Koenker and Bassett, 1978; Koenker, 2005), quantile regression forests (Meinshausen, 2006), generative adversarial networks (Goodfellow et al., 2014), variational autoencoders (Kingma and Welling, 2014), normalizing flows (Papamakarios et al., 2021), and diffusion models (Sohl-Dickstein et al., 2015; Ho et al., 2020). Its energy-score objective follows Gneiting and Raftery (2007), and its discussion of post-nonlinear causal models draws on Zhang and Hyvarinen (2009).
 
 Software repository stated in the source: `https://github.com/xwshen51/engression`.
-
-[[index|Library home]]

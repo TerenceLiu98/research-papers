@@ -84,5 +84,3 @@ The supplied Markdown does not state a stable paper identifier or publication ye
 - Lotz et al. (2023), "Text Rendering Strategies for Pixel Language Models": studies structured rendering and patch-input efficiency.
 - Salesky et al. (2023), "Multilingual Pixel Representations for Translation and Effective Cross-lingual Transfer": applies multilingual visual text representations to translation.
 - Clark et al. (2022), "CANINE: Pre-training an Efficient Tokenization-Free Encoder for Language Representation": provides a character-level, tokenization-free comparison without visual glyph information.
-
-[[index|Library home]]

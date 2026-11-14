@@ -78,5 +78,3 @@ ADDS replaces the fine $n^s$ cell partition used by DDS with an $m^s$ block part
 - Mak and Joseph (2018), "Support Points": a model-free distributional comparator.
 - Hickernell (1998), "A Generalized Discrepancy and Quadrature Error Bound": provides discrepancy and integration-bound foundations.
 - [[papers/ud-dml-uniform-design-subsampling-for-double-machine-learning-over-massive-data|UD-DML: Uniform Design Subsampling for Double Machine Learning over Massive Data]]: applies uniform-design subsampling to causal estimation.
-
-[[index|Library home]]

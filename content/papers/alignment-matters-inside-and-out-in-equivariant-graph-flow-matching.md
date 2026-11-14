@@ -18,7 +18,6 @@ tags:
 
 Piening and Wald show that permutation-equivariant graph flow matching has two distinct coupling problems: **inner alignment** chooses compatible node labelings within a paired graph orbit, while **outer alignment** chooses which source and target graphs to pair. They connect exact inner alignment to transport on a graph quotient space and to Gromov-Monge distance, prove that quotient couplings can be lifted to aligned representatives without added quadratic cost, and show that diagonal symmetrization yields equivariant flow-matching minimizers. Approximate Gromov-Wasserstein alignment gives the strongest few-step results in their controlled graph and molecular experiments, although its advantage shrinks with more integration steps and comes at substantial computational cost.
 
-[[index|Library home]]
 
 ## Research Question
 

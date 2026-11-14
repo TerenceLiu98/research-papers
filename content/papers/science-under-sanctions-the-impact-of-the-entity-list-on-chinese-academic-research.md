@@ -96,5 +96,3 @@ Source metadata: the [article DOI](https://doi.org/10.1016/j.respol.2026.105584)
 - Jia et al. (2024), "The impact of US-China tensions on US science: Evidence from the NIH investigations": cited contrast involving a different policy instrument and researcher population.
 - Furman and Teodoridis (2020), "Automation, research technology, and researchers' trajectories: Evidence from computer science and electrical engineering": cited basis for disruption-driven exploration.
 - [[papers/the-paradox-of-competition-how-funding-models-could-undermine-the-uptake-of-data-sharing-practices|The paradox of competition: How funding models could undermine the uptake of data sharing practices]]: a library comparison, not a citation in this paper, examining adaptive scientific behavior under resource incentives using simulation rather than a policy event study.
-
-[[index|Library home]]

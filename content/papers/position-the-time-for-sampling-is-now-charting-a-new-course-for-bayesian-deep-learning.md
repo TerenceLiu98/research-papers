@@ -105,5 +105,3 @@ Figure 3 illustrates prediction cost by counting forward passes across published
 - Paulin et al. (2025), "Sampling from bayesian neural network posteriors with symmetric minibatch splitting langevin dynamics": source of the 73M-parameter example in Table 1.
 - Duffield et al. (2025), "Scalable bayesian learning with posteriors": cited tooling and LLM fine-tuning evidence.
 - Park et al. (2025), "Ensemble distribution distillation via flow matching": cited example of learned weight-space surrogates.
-
-[[index|Library home]]

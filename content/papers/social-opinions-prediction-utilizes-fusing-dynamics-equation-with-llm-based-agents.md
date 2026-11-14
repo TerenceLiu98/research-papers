@@ -97,5 +97,3 @@ FDE-LLM attains the best DTW on three events and the best correlation on three e
 - Chuang et al. (2024), "Simulating Opinion Dynamics with Networks of LLM-based Agents." Cited by the source for LLM opinion dynamics and discrete attitude representation (reference 24).
 - Mou, Wei, and Huang (2024), "Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation," arXiv:2402.16333. Cited for combining LLM core users with deductive agents and informing leader profiles (reference 22).
 - [[Public opinion dissemination simulation based on large language model multi-agent systems]] is a later related paper in this library that cites FDE-LLM. It combines probabilistic action selection with generated text, whereas FDE-LLM directly constrains attitude trajectories.
-
-[[index|Library home]]

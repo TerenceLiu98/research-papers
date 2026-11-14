@@ -138,5 +138,3 @@ Factor analysis nominates IL-18 plus NT5E/CD73 blockade. The authors report enha
 - Lippe et al. (2022), "CITRIS: Causal identifiability from temporal intervened sequences": the intervention benchmark and a distinct causal-identification approach (reference [21]).
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]] is a library comparison: its conditional latent-recovery theory addresses identification, whereas OPF's guarantees concern factor-coordinate synthesis. It is not listed in this paper's bibliography.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]] is a library comparison separating predictive representations from planning performance, not a cited baseline here.
-
-[[index|Library home]]

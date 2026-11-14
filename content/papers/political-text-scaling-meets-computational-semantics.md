@@ -105,5 +105,3 @@ Preprocessing and representation choices materially affect results, and named-en
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: a later library review that places SemScale within the embedding-based scaling family.
 
 Source: [Published article](https://doi.org/10.1145/3485666), ACM/IMS Transactions on Data Science 2(4), Article 29, May 2022. Summary based on the supplied parsed article.
-
-[[index|Library home]]

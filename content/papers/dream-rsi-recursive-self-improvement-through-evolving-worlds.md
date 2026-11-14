@@ -96,5 +96,3 @@ On KernelBench tasks, Dream-RSI reaches comparable VGG16 and LayerNorm performan
 - Ha and Schmidhuber (2018), "World Models," and Hafner et al. (2019-2025), the Dreamer series: motivate improving policies through simulated rather than repeated real-environment interaction.
 - Novikov et al. (2025), "AlphaEvolve"; Liu et al. (2026), "EvoX" and "SkyDiscover"; and Ye et al. (2026), "Evaluation-Driven Scaling for Scientific Discovery": principal agentic-discovery and exploration comparisons.
 - Ouyang et al. (2025), "KernelBench": supplies the GPU-kernel task setting.
-
-[[index|Library home]]

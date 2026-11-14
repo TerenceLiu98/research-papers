@@ -116,5 +116,3 @@ Related library readings, rather than claimed citations in this 2013 manuscript:
 
 - [[papers/party-system-polarization-and-the-effective-number-of-parties|Party system polarization and the effective number of parties]] develops a nonlinear relationship between effective party counts and dispersion, providing a different account of why linear party-count estimates can be weak.
 - [[papers/electoral-systems-and-ideological-voting|Electoral systems and ideological voting]] examines how electoral rules shape voters' reliance on ideological proximity, complementing the present model's fixed proximity-voting assumption.
-
-[[index|Library home]]

@@ -79,5 +79,3 @@ The labeling and validation pipeline requires many LLM calls and is expensive fo
 - Dieng, Ruiz, and Blei (2020), "Topic Modeling in Embedding Spaces."
 - O'Neill et al. (2024), "Towards Interpretable Scientific Foundation Models: Sparse Autoencoders for Disentangling Dense Embeddings of Scientific Concepts."
 - Bianchi, Terragni, and Hovy (2021), "Pre-training is a Hot Topic: Contextualized Document Embeddings Improve Topic Coherence."
-
-[[index|Library home]]

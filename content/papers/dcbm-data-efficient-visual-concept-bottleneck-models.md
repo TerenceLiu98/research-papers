@@ -84,5 +84,3 @@ The experiments address image classification and do not establish the framework 
 - Rao et al. (2024), "Discover-then-Name: Task-Agnostic Concept Bottlenecks via Automated Concept Discovery."
 - Oikarinen et al. (2023), "Label-Free Concept Bottleneck Models."
 - Yang et al. (2023), "Language in a Bottle: Language Model Guided Concept Bottlenecks for Interpretable Image Classification."
-
-[[index|Library home]]

@@ -118,5 +118,3 @@ Table 4 gives Mip-NeRF 360 PSNR of 25.99, 26.97, and 27.19 for direct, exponenti
 - Kerbl et al. (2023), "3D Gaussian Splatting for Real-Time Radiance Field Rendering": the representation, training, and sorted-rendering baseline.
 - Radl et al. (2024), "StopThePop: Sorted Gaussian Splatting for View-Consistent Real-Time Rendering": addresses popping through improved sorting.
 - [[Gaussian Point Splatting]]: a related library paper that uses stochastic opaque point samples to avoid sorted alpha compositing; it is not a comparison evaluated in this manuscript.
-
-[[index|Library home]]

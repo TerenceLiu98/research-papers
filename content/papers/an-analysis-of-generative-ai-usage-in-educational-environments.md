@@ -60,5 +60,3 @@ Source reporting also needs care: the manuscript describes 273 of 335 publicatio
 ## Related Papers
 
 The manuscript draws on Xia et al. (2024), *A scoping review on how generative artificial intelligence transforms assessment in higher education*, for assessment redesign; Bittle and El-Gayar (2025), *Generative AI and academic integrity in higher education: A systematic review and research agenda*, for integrity and detection concerns; and Hughes (1987), *The evolution of large technological systems*, for its theoretical framework.
-
-[[index|Library home]]

@@ -82,5 +82,3 @@ Raw Wild images produce the highest probe-model discrimination accuracy at 34.22
 - Zhao, Zhang, and Jin (2025), "MCCD: A Multi-Attribute Chinese Calligraphy Character Dataset Annotated with Script Styles, Dynasties, and Calligraphers": supplies multi-attribute labels but lacks preserved ink-color evidence and expert descriptions in HCSU's comparison.
 - [[papers/impressions-understanding-visual-semiotics-and-aesthetic-impact|Impressions: Understanding Visual Semiotics and Aesthetic Impact]]: similarly connects visible form to generated aesthetic language, but studies viewer impressions in photography rather than authorial calligraphy style.
 - [[papers/evaluating-large-vision-language-models-for-visual-framing-analysis-in-news-imagery-a-theory-driven-benchmark|Evaluating Large Vision-Language Models for Visual Framing Analysis in News Imagery]]: another expert-grounded LVLM benchmark that maps low-level visual evidence to higher-order judgments.
-
-[[index|Library home]]

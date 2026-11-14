@@ -71,5 +71,3 @@ For DistilBERT fine-tuned on SST-2, Table 3 uses 100 test examples. Final-layer 
 - Brunner et al., “On Identifiability in Transformers” (2020), motivates the loss of token identifiability across layers.
 - Jain and Wallace, “Attention is not Explanation” (2019), provides context for caution about attention-based explanations.
 - [[papers/transformers-are-graph-neural-networks|Transformers are Graph Neural Networks]] supplies a complementary graph interpretation of attention; this is a library connection, not a claimed citation in the paper.
-
-[[index|Library home]]

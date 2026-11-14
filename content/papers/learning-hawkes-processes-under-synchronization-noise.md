@@ -118,5 +118,3 @@ The authors report estimated synchronization noise averaging 12.5 ms, compared w
 - Zhou, Zha, and Song (2013), "Learning social infectivity in sparse low-rank networks using multi-dimensional Hawkes processes": the cited classic MLE baseline.
 - Shelton, Qin, and Shetty (2018), "Hawkes process inference with missing data": addresses missing events, a different observation problem from fixed stream offsets.
 - [[papers/approximate-inference-for-non-parametric-bayesian-hawkes-processes-and-beyond|Approximate Inference for Non-parametric Bayesian Hawkes Processes and Beyond]]: a related library treatment of flexible Hawkes kernels and approximate Bayesian inference; it is not a baseline evaluated here.
-
-[[index|Library home]]

@@ -78,5 +78,3 @@ Inference sweeps find peak language-model performance at one refinement step and
 - Prairie et al. (2026), *Parcae: Scaling Laws for Stable Looped Language Models*, is the main looped pretraining baseline.
 
 Source: supplied manuscript dated May 12, 2026. [Project website](https://attractor-models.github.io/) · [Code](https://github.com/jacobfa/Attractor).
-
-[[index|Library home]]

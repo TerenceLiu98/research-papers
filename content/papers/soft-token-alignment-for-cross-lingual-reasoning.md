@@ -89,5 +89,3 @@ The supplied Markdown does not state a stable paper identifier or publication ye
 - Liu and Niehues (2025), "Middle-Layer Representation Alignment for Cross-Lingual Transfer in Fine-Tuned LLMs": supplies the MidAlign baseline for hidden-state alignment.
 - She et al. (2024), "MAPO: Advancing Multilingual Reasoning through Multilingual-Alignment-as-Preference Optimization": provides a preference-optimization baseline based on translation scores.
 - Bu et al. (2025), "AlignX: Advancing Multilingual Large Language Models with Multilingual Representation Alignment": combines intermediate-layer contrastive alignment with language matching.
-
-[[index|Library home]]

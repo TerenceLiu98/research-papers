@@ -100,5 +100,3 @@ Appendix E constructs a high-order interaction example whose true choice probabi
 ## Resources
 
 The source reports a [replication archive](https://doi.org/10.7910/DVN/7EBDDY), [analysis code](https://github.com/jennahgosciak/adaptive_conjoint), and [adaptive experiment infrastructure](https://github.com/dmolitor/adaptive-infra). The Dataverse DOI identifies the replication data, not the article. Preregistrations are [immigration](https://osf.io/ctd54) and [job applicants](https://osf.io/ekjbm).
-
-[[index|Library home]]

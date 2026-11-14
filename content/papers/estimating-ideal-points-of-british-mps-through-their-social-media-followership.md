@@ -98,5 +98,3 @@ The year follows the source's first-online publication date, November 8, 2024. S
 - Barbera et al. (2015), "Tweeting from left to right: Is online political communication more than an echo chamber?": cited CA-based approach, DOI `10.1177/0956797615594620`.
 - [[papers/text-based-ideal-points|Text-Based Ideal Points]]: library comparison that derives political positions from authored text rather than audience connections; not a benchmark evaluated in this paper.
 - [[papers/validating-estimates-of-latent-traits-from-textual-data-using-human-judgment-as-a-benchmark|Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark]]: related library work on validating latent political scales against human judgments, including the distinction between positional agreement and uncertainty calibration; not an experiment in this paper.
-
-[[index|Library home]]

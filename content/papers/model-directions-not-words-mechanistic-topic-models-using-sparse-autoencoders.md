@@ -92,5 +92,3 @@ The evaluation also has scope limits. Topic judge assumes that GPT-4.1 is a reli
 - Cunningham et al. (2024), "Sparse Autoencoders Find Highly Interpretable Features in Language Models."
 - Lieberum et al. (2024), "Gemma Scope: Open Sparse Autoencoders Everywhere All at Once on Gemma 2."
 - Wu et al. (2025), "AxBench: Steering LLMs? Even Simple Baselines Outperform Sparse Autoencoders."
-
-[[index|Library home]]

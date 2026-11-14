@@ -19,7 +19,6 @@ tags:
 
 SHADE combines single-step deterministic latent transport with DINOv3 representation alignment for RGB-to-RAW reconstruction. It reports the best PSNR among compared methods on five camera-specific benchmarks, with mixed SSIM leadership and 1.51-second inference at 4096 × 4096 on an RTX 4090.
 
-[[index|Library home]]
 
 ## Research Question
 

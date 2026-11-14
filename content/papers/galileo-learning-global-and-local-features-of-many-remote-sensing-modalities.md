@@ -86,5 +86,3 @@ The evaluation reruns comparison models under common preprocessing and hyperpara
 - Tseng et al. (2023), "Lightweight, Pre-trained Transformers for Remote Sensing Timeseries," introduces Presto, the specialist pixel-time-series baseline.
 - Astruc et al. (2024), "AnySat: An Earth Observation Model for Any Resolutions, Scales, and Modalities," is the concurrent generalist most similar in supported spatial and temporal input forms.
 - Wei et al. (2024), "Masked Image Modeling with Denoising Contrast," supplies the PatchDisc latent contrastive objective adapted by Galileo.
-
-[[index|Library home]]

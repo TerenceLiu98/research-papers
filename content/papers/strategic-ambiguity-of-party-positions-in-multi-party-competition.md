@@ -95,5 +95,3 @@ Government parties have less ambiguous manifestos in the controlled models. Nich
 
 - [[papers/computational-measurement-of-political-positions-a-review-of-text-based-ideal-point-estimation-algorithms|Computational measurement of political positions: a review of text-based ideal point estimation algorithms]]: broader context for the text-scaling choices used to measure position and ambiguity.
 - [[papers/beyond-the-median-voter-a-model-of-how-the-ideological-dimension-shapes-party-polarization|Beyond the median voter: A model of how the ideological dimension shapes party polarization]]: a complementary model of party divergence based on dimensionality and satisficing, rather than activist priors and ambiguous platforms.
-
-[[index|Library home]]

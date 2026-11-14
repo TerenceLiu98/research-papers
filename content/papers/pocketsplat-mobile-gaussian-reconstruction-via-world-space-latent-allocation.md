@@ -83,5 +83,3 @@ Ablations attribute substantial sparse-budget gains to both allocation and suppo
 - Kim et al. (2026), "F4Splat: Feedforward Predictive Densification for Feed-Forward 3D Gaussian Splatting": threshold-controlled-count baseline.
 - Park et al. (2025), "EcoSplat: Efficiency-Controllable Feed-Forward 3D Gaussian Splatting from Multiview Images": image-space adaptive-density method.
 - Zhang et al. (2026), "SparseSplat: Towards Applicable Feedforward 3D Gaussian Splatting with Pixel-Unaligned Prediction": sparse primitive predictor without an exact output-budget guarantee.
-
-[[index|Library home]]

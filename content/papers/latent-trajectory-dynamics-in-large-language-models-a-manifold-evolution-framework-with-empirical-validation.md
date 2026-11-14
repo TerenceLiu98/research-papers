@@ -80,5 +80,3 @@ Related library reading, without implying citation by this paper:
 
 - [[papers/trajectory-geometry-of-transformer-representations-across-layers|Trajectory Geometry of Transformer Representations Across Layers]] measures path descriptors across network depth and emphasizes the distinction between descriptive geometry and stable attraction.
 - [[papers/temporal-straightening-for-latent-planning|Temporal Straightening for Latent Planning]] uses trajectory geometry as a training objective in a different temporal and task setting.
-
-[[index|Library home]]

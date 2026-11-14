@@ -77,5 +77,3 @@ Across six models, attention entropy correlates negatively with the number of mo
 - [[papers/logit-distance-bounds-representational-similarity|Logit Distance Bounds Representational Similarity]]: studies the converse relationship between output closeness and recoverable representation geometry.
 
 Source scope: supplied parsed manuscript. It provides a code repository but no explicit publication year or stable paper identifier.
-
-[[index|Library home]]

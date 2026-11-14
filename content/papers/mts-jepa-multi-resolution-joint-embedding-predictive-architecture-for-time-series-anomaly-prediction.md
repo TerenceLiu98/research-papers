@@ -94,5 +94,3 @@ The remaining baselines are K-Means, DeepSVDD, LSTM-VAE, and PAD. Highest mean F
 - Jhin, Lee, and Park (2023), "Precursor-of-anomaly detection for irregular time series": the PAD anomaly-prediction baseline.
 - Van Den Oord, Vinyals, et al. (2017), "Neural discrete representation learning": cited background for prototype-based latent representations.
 - Wang et al. (2024), "TimeMixer: Decomposable multiscale mixing for time series forecasting": cited multi-scale forecasting background, not a baseline in Table 1.
-
-[[index|Library home]]

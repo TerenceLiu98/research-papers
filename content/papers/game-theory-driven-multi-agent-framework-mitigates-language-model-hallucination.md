@@ -84,5 +84,3 @@ Adaptive concurrency reportedly improves throughput about 22-fold over synchrono
 ## Resources
 
 The manuscript lists [G-Frame code](https://github.com/Billy-Liu-DUT/G-Frame), [OmniChem weights](https://huggingface.co/Billy-Liu-DUT/OmniChem-7B-v1), and the [training dataset](https://huggingface.co/datasets/Billy-Liu-DUT/OmniChem). Its supporting-data DOI is [10.5281/zenodo.18446987](https://doi.org/10.5281/zenodo.18446987), not a paper DOI.
-
-[[index|Library home]]

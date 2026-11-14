@@ -117,5 +117,3 @@ GPT-3.5 judgments on 100 sampled news articles yield extraction precision of 0.4
 - Li et al. (2022), "Hismatch: Historical structure matching based temporal knowledge graph reasoning": strongest baseline in Table 4.
 - Ma et al. (2023), "Context-aware event forecasting via graph disentanglement": cited precursor for the regional data selection and contextual forecasting.
 - [[papers/dynamic-hawkes-processes-for-discovering-time-evolving-communities-states-behind-diffusion-processes|Dynamic Hawkes Processes for Discovering Time-evolving Communities' States behind Diffusion Processes]]: a related library paper modeling event arrival intensities and counts, rather than conditional object ranking; it is not a LoGo baseline.
-
-[[index|Library home]]

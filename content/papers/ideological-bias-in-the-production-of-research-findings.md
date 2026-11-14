@@ -86,5 +86,3 @@ Four or five randomly assigned participants reviewed each research design anonym
 - Saltelli et al. (2025), "Global sensitivity analysis unveils the hidden universe of uncertainty in multiverse studies." Cited for the importance of interactions among specification choices (reference 32).
 
 Published in *Science Advances* 12(1), eadz7173, on 1 January 2026. [Article](https://doi.org/10.1126/sciadv.adz7173). The paper provides [data and code](https://doi.org/10.5281/zenodo.17083885) and a [workflow repository](https://github.com/nbreznau/ideology_specification).
-
-[[index|Library home]]

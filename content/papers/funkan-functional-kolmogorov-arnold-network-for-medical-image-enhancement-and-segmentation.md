@@ -90,5 +90,3 @@ U-FunKAN reports 4.35 GFLOPs and 3.6 million parameters, the lowest compute amon
 - Penkin and Krylov (2025), "Adaptive Method for Selecting Basis Functions in Kolmogorov-Arnold Networks for Magnetic Resonance Image Enhancement": supplies the cited basis-selection procedure.
 - [[papers/kolmogorov-arnold-network-autoencoders|Kolmogorov-Arnold Network Autoencoders]]: another image model built with KAN layers, but one that flattens images rather than retaining feature maps.
 - [[papers/kolmogorov-arnold-networks-for-time-series-bridging-predictive-power-and-interpretability|Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability]]: applies KAN edge functions to temporal forecasting.
-
-[[index|Library home]]

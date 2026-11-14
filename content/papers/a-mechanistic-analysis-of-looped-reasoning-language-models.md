@@ -85,5 +85,3 @@ The architectural comparisons suggest that input injection promotes fixed-point 
 - Lad et al. (2024), "The Remarkable Robustness of LLMs: Stages of Inference?": introduces the stages-of-inference framing.
 - Queipo-de Llano et al. (2025), "Attention Sinks and Compression Valleys in LLMs Are Two Sides of the Same Coin": motivates the attention-mixing measurements and activation-based interpretation.
 - [[papers/block-recurrent-dynamics-in-vits|Block-Recurrent Dynamics in ViTs]] studies recurrent approximations and depthwise dynamics in vision models rather than native looped language models.
-
-[[index|Library home]]

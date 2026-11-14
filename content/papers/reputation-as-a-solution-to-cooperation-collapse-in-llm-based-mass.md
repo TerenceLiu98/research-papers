@@ -91,5 +91,3 @@ Figure 3 illustrates cooperative clusters and isolation of low-reputation agents
 - [[papers/coevolution-of-relationship-and-interaction-in-cooperative-dynamical-multiplex-networks|Coevolution of Relationship and Interaction in Cooperative Dynamical Multiplex Networks]]: a library comparison adapting relationship weights rather than LLM-generated reputations and edge creation/deletion; not cited in this paper.
 
 Source: [published paper](https://doi.org/10.65109/UEHN4980). The paper lists a [code repository](https://github.com/RGB-0000FF/RepuNet); this summary uses only the supplied manuscript.
-
-[[index|Library home]]

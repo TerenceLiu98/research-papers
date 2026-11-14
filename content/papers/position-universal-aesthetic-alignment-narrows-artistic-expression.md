@@ -98,5 +98,3 @@ For the curated AVA photographs, HPSv3 scores clean generated comparisons 5.90 p
 - Taylor et al. (2026), "The Algorithmic Gaze: An Audit and Ethnography of the LAION-Aesthetics Predictor Model": a concurrent critique of prescriptive aesthetic measurement.
 - [[papers/difusion-reward-models|Difusion Reward Models]]: models distributions of judgments rather than only a scalar mean, offering a related technical response to heterogeneous preferences.
 - [[papers/impressions-understanding-visual-semiotics-and-aesthetic-impact|Impressions: Understanding Visual Semiotics and Aesthetic Impact]]: treats aesthetic impact as audience interpretation and communicative force rather than beauty alone.
-
-[[index|Library home]]

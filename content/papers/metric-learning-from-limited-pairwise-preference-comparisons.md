@@ -63,5 +63,3 @@ The positive results require known subspace assignments and enough within-subspa
 - Canal et al. (2022), "One for All: Simultaneous Metric and Preference Learning over Multiple Users," provides the local estimator and the earlier $\Theta(d)$-comparisons-per-user result on which this paper builds.
 - Xu and Davenport (2020), "Simultaneous Preference and Metric Learning from Paired Comparisons," introduced joint recovery of a metric and an ideal point in the single-user setting.
 - Mason, Jain, and Nowak (2017), "Learning Low-Dimensional Metrics," studies metric recovery from comparison feedback under low-dimensional structure.
-
-[[index|Library home]]

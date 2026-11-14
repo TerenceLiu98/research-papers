@@ -91,5 +91,3 @@ Models are evaluated with at most 10,000 training examples and, for 30 larger da
 - Hollmann et al. (2025), "Accurate Predictions on Small Data with a Tabular Foundation Model": presents TabPFN-v2, the principal prior-data-fitted comparator.
 - Kim, Grinsztajn, and Varoquaux (2024), "CARTE: Pretraining and Transfer for Tabular Learning": represents tables as star-shaped graphs and transfers through semantic feature representations.
 - Yan et al. (2023), "Making Pre-trained Language Models Great on Tabular Prediction": introduces TP-BERTa and relative-magnitude tokenization for numerical features.
-
-[[index|Library home]]

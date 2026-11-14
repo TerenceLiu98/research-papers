@@ -95,5 +95,3 @@ The paper separately applies refinement pruning to the 3DGS garden baseline. A 0
 - Fang and Wang (2024), "Mini-Splatting: Representing Scenes with a Constrained Number of Gaussians": uses blur splitting and depth reinitialization to improve primitive distribution.
 - Deng et al. (2024), "Efficient Density Control for 3D Gaussian Splatting": related recovery-aware density control and pruning.
 - [[Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists]]: reduces overlap and training work at a prescribed Gaussian count, with a reported quality trade-off.
-
-[[index|Library home]]

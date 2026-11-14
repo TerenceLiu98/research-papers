@@ -72,5 +72,3 @@ Several claims rely on visual comparisons of simulation figures, and the supplie
 - [[A Modified Hegselmann-Krause Model for Interacting Voters and Political Parties]]
 - Kozma and Barrat, "Consensus formation on adaptive networks."
 - Deffuant et al., "How can extremism prevail? A study based on the relative agreement interaction model."
-
-[[index|Library home]]

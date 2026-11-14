@@ -84,5 +84,3 @@ The authors report robustness to modest window changes, alternative DE balancing
 - Chadefaux (2022), "A shape-based approach to conflict forecasting," *International Interactions* 48(4): 633-648: cited predecessor using weighted historical sequences rather than the filtered, clustered procedure.
 - Hegre et al. (2022), "Forecasting fatalities": cited source for the VIEWS benchmark.
 - [[papers/the-geometry-of-conflict-3d-spatio-temporal-patterns-in-fatalities-prediction|The geometry of conflict: 3D Spatio-temporal patterns in fatalities prediction]]: the library's spatial extension of ShapeFinder, which cites this paper and replaces temporal DTW matching with three-dimensional distribution matching.
-
-[[index|Library home]]

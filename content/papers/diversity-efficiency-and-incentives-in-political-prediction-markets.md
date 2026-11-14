@@ -80,5 +80,3 @@ Criticism of 2024 election markets often inferred biased prices from a young, ma
 - Rhode and Strumpf (2004), "Historical Presidential Betting Markets," *Journal of Economic Perspectives* 18(2), 127-141: documents the accuracy and institutional history of early U.S. election betting markets.
 - Rothschild and Sethi (2016), "Trading Strategies and Market Microstructure: Evidence from a Prediction Market," *Journal of Prediction Markets* 10(1), 1-29: studies trader behavior and market microstructure on Intrade.
 - Wolfers and Zitzewitz (2004), "Prediction Markets," *Journal of Economic Perspectives* 18(2), 107-126: overview of prediction-market design and interpretation.
-
-[[index|Library home]]

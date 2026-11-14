@@ -76,5 +76,3 @@ The claimed operational gains are conditional rather than empirical. Better AI n
 - Liang et al. (2024), "Monitoring AI-modified content at scale": cited evidence of AI-modified text in conference reviews and motivation for the shadow-AI problem.
 - Liel and Zalmanson (2025), "Turning off your better judgment": motivates concern that institutionally endorsed AI can induce algorithmic conformity.
 - Sahu et al. (2025), "ReviewerToo: Should AI join the program committee?": cited evidence on the task-specific strengths and limits of AI reviewers.
-
-[[index|Library home]]

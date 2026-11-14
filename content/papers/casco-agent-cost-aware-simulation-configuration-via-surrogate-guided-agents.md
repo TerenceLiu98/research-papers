@@ -15,7 +15,6 @@ tags:
 
 CASCO-Agent uses a lightweight surrogate to predict simulation error and computational cost, allowing an LLM to explore candidate configurations before spending expensive simulator calls. Across three PDE environments it improves cost-normalized rewards in many comparisons, although success-rate and reward gains are not universal.
 
-[[index|Library home]]
 
 ## Research Question
 

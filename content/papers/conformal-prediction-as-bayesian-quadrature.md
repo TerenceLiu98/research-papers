@@ -85,5 +85,3 @@ These comparisons show the intended trade-off: the posterior-quantile rule reduc
 
 - [[papers/robust-bayes-assisted-conformal-prediction|Robust Bayes-Assisted Conformal Prediction]]: uses Bayesian working models to improve conformal efficiency while retaining frequentist marginal coverage, rather than forming a posterior distribution over expected loss.
 - [[papers/generative-score-inference-for-multimodal-data|Generative Score Inference for Multimodal Data]]: targets conditional score distributions through a generative model, contrasting with the present paper's distribution-free, data-conditional risk bound.
-
-[[index|Library home]]

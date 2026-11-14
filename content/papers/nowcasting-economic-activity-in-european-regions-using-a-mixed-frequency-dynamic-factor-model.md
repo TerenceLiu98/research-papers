@@ -100,5 +100,3 @@ Factor counts range from one to the smaller of 12 and the country's number of re
 - [[papers/nowcasting-monthly-gdp-with-big-data-a-model-averaging-approach|Nowcasting monthly GDP with big data: A model averaging approach]]: library comparison using pooled bivariate models for temporal disaggregation. These library comparisons are not asserted to be citations in the source.
 
 Source: International Journal of Forecasting, 2025 copyright year; [DOI](https://doi.org/10.1016/j.ijforecast.2025.09.006). The source provides a [data and code repository](https://github.com/lucabarbaglia/RegionalNowcasting_replication_package_IJoF).
-
-[[index|Library home]]

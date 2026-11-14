@@ -10,7 +10,6 @@ tags:
   - stochastic-processes
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

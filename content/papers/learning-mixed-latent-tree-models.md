@@ -6,7 +6,6 @@ year: null
 tags: [latent-variable-models, structure-learning, mixed-data]
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

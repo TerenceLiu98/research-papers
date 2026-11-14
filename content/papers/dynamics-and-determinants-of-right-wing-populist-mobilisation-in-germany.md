@@ -99,5 +99,3 @@ The notes refer to quasi-Poisson and negative binomial alternatives and report c
 - Castelli Gattinara, Froio, and Pirro (2022), "Far-Right Protest Mobilisation in Europe: Grievances, Opportunities and Resources." Cited comparative research motivating attention to subnational variation.
 - Weidmann and Rød (2015), "Making Uncertainty Explicit: Separating Reports and Events in the Coding of Violence and Contention." Cited methodological basis for preserving report-level uncertainty.
 - [[papers/the-partypress-database-a-new-comparative-database-of-parties-press-releases|The PARTYPRESS Database]]: Related library reading on systematic political-communication data and radical-right immigration agendas. It studies party communication rather than street mobilisation and is not cited in this article.
-
-[[index|Library home]]

@@ -86,5 +86,3 @@ The raw softmax probabilities are reasonably calibrated on average in these expe
 - Kadavath et al. (2022), "Language Models (Mostly) Know What They Know": prior evidence on calibration in language-model multiple-choice tasks.
 - Jiang et al. (2021), "How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering": prior work on question-answering calibration.
 - [[Generative Score Inference for Multimodal Data]]: a later model-dependent approach to conditional score generation that also studies LLM uncertainty.
-
-[[index|Library home]]

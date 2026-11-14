@@ -123,5 +123,3 @@ At 51.5% Democratic support, Table A2 reports simulated Democratic seats of 223.
 - McCartan et al. (2022), "Simulated Redistricting Plans for the Analysis and Evaluation of Redistricting in the United States": documents the state-specific 2020 ensembles and their limitations.
 - Chen and Rodden (2013), "Unintentional Gerrymandering: Political Geography and Electoral Bias in Legislatures": motivates distinguishing geographic bias from strategic line drawing.
 - [[papers/partisan-alignment-increases-voter-turnout-evidence-from-redistricting|Partisan Alignment Increases Voter Turnout: Evidence from Redistricting]]: a complementary library study of participation responses to district composition; it is not cited in the supplied manuscript.
-
-[[index|Library home]]

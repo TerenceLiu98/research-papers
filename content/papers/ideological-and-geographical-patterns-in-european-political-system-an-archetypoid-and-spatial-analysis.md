@@ -115,5 +115,3 @@ Alternative spatial weights retain significant positive clustering for center an
 - Fernández, Manisera, and Zuccolotto (2026), "Identifying extreme European parties' ideological positioning across countries": the cited predecessor supplying the party-level ADA approach and intensity indices.
 - Vinué, Epifanio, and Alemany (2015), "Archetypoids: A new approach to define representative archetypal data": the cited methodological foundation.
 - [[papers/multidimensional-party-polarization-in-europe-cross-cutting-divides-and-effective-dimensionality|Multidimensional Party Polarization in Europe: Cross-Cutting Divides and Effective Dimensionality]]: a library comparison using CHES to measure dimensionality and dispersion, rather than geographic clustering of mean orientation; not presented as a citation by this paper.
-
-[[index|Library home]]

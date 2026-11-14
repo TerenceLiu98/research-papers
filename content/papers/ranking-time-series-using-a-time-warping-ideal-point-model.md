@@ -76,5 +76,3 @@ The supplied Markdown does not establish a publication year, venue, DOI, or arXi
 ## Related Papers
 
 - [[papers/metric-learning-from-limited-pairwise-preference-comparisons|Metric Learning from Limited Pairwise Preference Comparisons]]: a library connection concerning identifiability under pairwise supervision; it learns a shared Mahalanobis metric rather than an elastic waveform ideal.
-
-[[index|Library home]]

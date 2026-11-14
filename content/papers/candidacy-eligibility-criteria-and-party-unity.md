@@ -68,5 +68,3 @@ On the 0–100 Agreement Index scale, the paper reports an average marginal effe
 ## Related Papers
 
 - [[papers/measuring-party-loyalty|Measuring party loyalty]]: a complementary library comparison using leadership signals and roll calls to distinguish loyalty from policy preferences; not a work cited by this 2020 article.
-
-[[index|Library home]]

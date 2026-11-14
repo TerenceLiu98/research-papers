@@ -120,5 +120,3 @@ The first setup uses equal component priors, means 10, 20, and 40, Gaussian stan
 - Redner and Walker (1984), "Mixture densities, maximum likelihood and the EM algorithm": prior efficient EM scheme reinterpreted here.
 - Tishby, Pereira, and Bialek (1999), "The information bottleneck method": recovered as a special case of the compression objective.
 - [[papers/curved-representational-bregman-divergences-and-their-applications|Curved Representational Bregman Divergences and Their Applications]]: a later Wiki connection extending ambient centroid geometry to constrained sets; not a citation in this paper.
-
-[[index|Library home]]

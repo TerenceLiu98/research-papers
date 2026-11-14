@@ -90,5 +90,3 @@ The study covers three synthetic datasets (Gene, Dyngen, and a 1,000-dimensional
 - [[papers/dynamic-landscapes-and-statistical-limits-on-growth-during-cell-fate-specification|Dynamic Landscapes and Statistical Limits on Growth during Cell Fate Specification]]: a related library treatment of transport coupled to population growth in cell-fate dynamics.
 
 Source: supplied parsed Markdown for Cognitio job `0874c2ff-ed94-4b44-a240-98965deebf2e`.
-
-[[index|Library home]]

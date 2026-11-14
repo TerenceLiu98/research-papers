@@ -81,5 +81,3 @@ Controlling for the carbon-trading pilot leaves the low-carbon-city intensity es
 - Cai et al. (2018), "Local Strategies for China's Carbon Mitigation: An Investigation of Chinese City-Level CO2 Emissions": provides an alternative city inventory used for comparison.
 
 Publication metadata: *Cities*, 123, 103582. [DOI](https://doi.org/10.1016/j.cities.2022.103582).
-
-[[index|Library home]]

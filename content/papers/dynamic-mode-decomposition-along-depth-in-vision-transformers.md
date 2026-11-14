@@ -80,5 +80,3 @@ The study evaluates DINOv2 ViT-L/14 and ViT-G/14 and DINOv3 ViT-L/16 and ViT-H/1
 - Aubry et al. (2025), "Transformer Block Coupling and its Correlation with Generalization in LLMs": motivates a recurrent linear limit through residual-Jacobian alignment.
 - Schmid (2010), "Dynamic Mode Decomposition of Numerical and Experimental Data": introduces the operator-estimation method used here.
 - Kostic et al. (2022), "Learning Dynamical Systems via Koopman Operator Regression in Reproducing Kernel Hilbert Spaces": motivates the ridge and reduced-rank formulations.
-
-[[index|Library home]]

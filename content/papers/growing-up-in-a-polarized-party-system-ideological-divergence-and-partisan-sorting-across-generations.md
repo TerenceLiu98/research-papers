@@ -15,7 +15,6 @@ tags:
   - survey-research
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

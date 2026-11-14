@@ -75,5 +75,3 @@ The supplied Markdown does not establish a publication year or stable identifier
 - Boyd et al. (2023), *Probabilistic querying of continuous-time event sequences*: cited methodological foundation for importance sampling, extended here to set-valued marks.
 - Mei and Eisner (2017), *The neural Hawkes process*: cited recurrent temporal backbone.
 - [[papers/learning-hawkes-processes-under-synchronization-noise|Learning Hawkes Processes Under Synchronization Noise]] — a complementary library paper on distorted event timing, rather than genuine set-valued events.
-
-[[index|Library home]]

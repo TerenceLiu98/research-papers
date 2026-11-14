@@ -100,5 +100,3 @@ TimesFM had seen Electricity in pretraining, and Chronos had seen Electricity an
 - [[papers/a-decoder-only-foundation-model-for-time-series-forecasting|A Decoder-Only Foundation Model for Time-Series Forecasting]]: the cited TimesFM baseline and a related patch-based causal forecasting design.
 - Ansari et al. (2024), "Chronos: Learning the Language of Time Series": the cited quantized-token forecasting baseline, listed as arXiv:2403.07815 in the supplied bibliography.
 - Shazeer et al. (2017), "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer": a cited foundation for sparse expert routing.
-
-[[index|Library home]]

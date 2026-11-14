@@ -102,5 +102,3 @@ For ANES, nonresponse is a separate category on items with more than 1% nonrespo
 - Polson, Scott, and Windle (2013), "Bayesian inference for logistic models using Polya-Gamma latent variables": cited augmentation identity.
 - [[papers/uncertainty-aware-ideal-point-estimation-via-variational-em|Uncertainty-Aware Ideal Point Estimation via Variational EM]]: a library comparison using Polya-Gamma augmentation with variational inference and approximate information-based standard errors; not a citation in this article.
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: a library comparison using mixed response distributions, temporal priors, and a nonresponse hurdle; not a citation in this article.
-
-[[index|Library home]]

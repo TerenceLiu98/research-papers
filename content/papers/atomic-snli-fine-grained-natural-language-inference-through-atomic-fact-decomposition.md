@@ -71,5 +71,3 @@ Hard logical aggregation exhibits the expected error asymmetry. For three-fact e
 - Min et al. (2023), "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation": uses atomic decomposition for factuality evaluation.
 - Huang (2025), "DecMetrics: Structured Claim Decomposition Scoring for Factually Consistent LLM Outputs": supplies the decomposition model used by Atomic-SNLI.
 - Tang et al. (2024), "MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents": applies atomic claims in document-grounded fact checking.
-
-[[index|Library home]]

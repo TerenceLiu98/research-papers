@@ -103,5 +103,3 @@ Percentages above are author-reported averages, not reductions in a pooled error
 - Lipman et al., "Flow Matching for Generative Modeling" (2023): the cited foundation for the conditional velocity-field objective.
 
 Source-listed resources: [code](https://github.com/decisionintelligence/Aurora) and [model repository](https://huggingface.co/DecisionIntelligence/Aurora). Their current contents were not independently checked.
-
-[[index|Library home]]

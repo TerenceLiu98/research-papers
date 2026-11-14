@@ -95,5 +95,3 @@ The appendix also separates inference failures from modeling problems. In a spur
 - Izmailov et al. (2021), "What are Bayesian Neural Network posteriors really like?": supplies the classification experimental setup and a comparison centered on static predictive performance.
 - Fong, Holmes, and Walker (2023), "Martingale posterior distributions": develops the predictive-resampling framework adapted here.
 - Falck, Wang, and Holmes (2024), "Is in-context learning in large language models Bayesian? A martingale perspective": cited use of predictive diagnostics in a different model setting.
-
-[[index|Library home]]

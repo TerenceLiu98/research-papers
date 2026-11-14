@@ -85,5 +85,3 @@ The case study concerns 64 anonymized Lyon-area territories described by five no
 - Jacquet-Lagreze and Siskos (2001), "Preference Disaggregation: 20 Years of MCDA Experience": motivates indirect parameter elicitation from holistic judgments.
 - Chen et al. (2007), "Multiple-Criteria Sorting Using Case-Based Distance Models with an Application in Water Resources Management": a related distance-based MCDA model with non-monotonic preferences.
 - [[papers/error-in-the-euclidean-preference-model|Error in the Euclidean Preference Model]]: studies representational limits and ordinal approximation error for low-dimensional Euclidean preferences.
-
-[[index|Library home]]

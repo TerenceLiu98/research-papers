@@ -125,5 +125,3 @@ Temperature tests from 0.3 to 1.3 leave buy/sell counts broadly stable while rep
 - Cont (2001), "Empirical properties of asset returns: Stylized facts and statistical issues": the cited market-validation framework (reference 36).
 - [[papers/from-economic-agents-to-agentic-economies-a-systems-blueprint-for-economic-world-models|From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models]]: a library comparison on endogenous economic feedback and empirical alignment, not a citation in TwinMarket.
 - [[papers/public-opinion-dissemination-simulation-based-on-large-language-model-multi-agent-systems|Public opinion dissemination simulation based on large language model multi-agent systems]]: a library comparison using explicit interaction rules with LLM-generated social behavior, not a citation in TwinMarket.
-
-[[index|Library home]]

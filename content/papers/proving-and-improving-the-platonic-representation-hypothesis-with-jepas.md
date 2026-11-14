@@ -96,5 +96,3 @@ For composition, an orthogonal map connects frozen image encoders to a text-only
 - Balestriero and LeCun (2025), “LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics,” arXiv:2511.08544: supplies the practical alignment-plus-SIGReg objective.
 - [[papers/when-does-lejepa-learn-a-world-model|When Does LeJEPA Learn a World Model?]]: gives a complementary identifiability result for LeJEPA under Gaussian latent variables and isotropic Ornstein-Uhlenbeck transitions.
 - [[papers/convergence-without-understanding-when-language-models-agree-on-representations-but-disagree-on-reasoning|Convergence Without Understanding]]: cautions that representational similarity across language models need not imply shared reasoning computations.
-
-[[index|Library home]]

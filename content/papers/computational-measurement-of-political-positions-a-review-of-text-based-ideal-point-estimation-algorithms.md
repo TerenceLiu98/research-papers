@@ -101,5 +101,3 @@ The supplied Markdown reports online publication on December 4, 2025, but does n
 - Slapin and Proksch (2008), "A scaling model for estimating time-series party positions from texts": the Wordfish contribution used to illustrate Type I.
 - Vafa, Naidu, and Blei (2020), "Text-Based Ideal Points": the TBIP contribution used to illustrate topic-based joint estimation.
 - Rheault and Cochrane (2020), "Word embeddings for the analysis of ideological placement in parliamentary corpora": the Party Embeddings contribution used to illustrate Type III.
-
-[[index|Library home]]

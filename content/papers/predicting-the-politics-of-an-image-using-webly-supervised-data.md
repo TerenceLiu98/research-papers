@@ -91,5 +91,3 @@ The qualitative analyses show that the model attends to logos and public-figure 
 - Peng (2018), "Same candidates, different faces: Uncovering media bias in visual portrayals of presidential candidates with computer vision": cited related work on visual portrayals of political candidates.
 - Joo, Li, Steen, and Zhu (2014), "Visual persuasion: Inferring communicative intents of images": cited baseline adapted for political-bias prediction.
 - Le and Mikolov (2014), "Distributed representations of sentences and documents": cited source of the document-embedding method.
-
-[[index|Library home]]

@@ -73,5 +73,3 @@ Model weights indicate changing predictor relevance. Housing and stock-market in
 - Raftery, Kárný, and Ettler (2010), "Online Prediction Under Model Uncertainty via Dynamic Model Averaging": supplies the recursive model-weighting framework.
 - Marcellino, Porqueddu, and Venditti (2016), "Short-Term GDP Forecasting with a Mixed-Frequency Dynamic Factor Model with Stochastic Volatility": closely related stochastic-volatility factor model estimated with Bayesian methods.
 - [[papers/point-and-risk-estimation-using-an-ensemble-of-models-for-nowcasting-prism-now|PRISM-Now]]: a later ensemble-nowcasting approach that also uses cross-model distributions, but changes the selected quantile rather than recursively weighting each specification.
-
-[[index|Library home]]

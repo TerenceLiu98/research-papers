@@ -12,7 +12,6 @@ tags:
   - autoencoders
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

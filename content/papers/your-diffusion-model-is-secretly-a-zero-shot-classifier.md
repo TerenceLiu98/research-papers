@@ -93,5 +93,3 @@ For large label sets, an adaptive procedure evaluates all candidates briefly, ke
 - Zimmermann et al. (2021), "Score-Based Generative Classifiers": studies a related route from score-based generative models to classification.
 
 Source: supplied parsed manuscript, Cognitio job `df602cce-6c69-4f82-8170-198b0bbb52d8`.
-
-[[index|Library home]]

@@ -82,5 +82,3 @@ The applications validate different notions of similarity: preservation of artic
 - Devlin et al. (2018), "BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding": cited transformer foundation.
 - Carlson (2019), "Through the Grapevine: Informational Consequences of Inter-personal Political Communication": supplies the first application's experiment and original cosine-similarity measure.
 - Ying, Montgomery, and Stewart (2022), "Topics, Concepts, and Measurement: A Crowdsourced Procedure for Validating Topics as Measures": supplies the Facebook corpus and topic assignments used in the third application.
-
-[[index|Library home]]

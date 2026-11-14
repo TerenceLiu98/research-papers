@@ -108,5 +108,3 @@ Topic relevance does not guarantee group separation: the four most relevant abor
 - [[papers/political-text-scaling-meets-computational-semantics|Political Text Scaling Meets Computational Semantics]]: a related library paper using semantic representations to scale political documents; FrameAxis instead measures text on specified antonym axes. This is a methodological comparison, not a claimed citation in the supplied paper.
 
 Source: supplied parsed manuscript, Cognitio job `64312380-3e0b-4b5d-9e06-17bb23d4bb35`. Publication year, venue, and stable paper identifier are not stated in the supplied text; the year is left unknown.
-
-[[index|Library home]]

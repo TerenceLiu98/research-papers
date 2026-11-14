@@ -26,7 +26,6 @@ tags:
 
 TC-GS accelerates [[3D Gaussian Splatting]] by expressing Gaussian log-opacity evaluation as batched matrix multiplication on Tensor Cores. Tile-local coordinates make the FP16 formulation usable without the severe image degradation observed with global coordinates. On an NVIDIA A800, Table 3 shows roughly doubled forward-rendering throughput for original 3DGS, with smaller incremental gains for FlashGS. FlashGS with TC-GS reaches 479.338-735.777 FPS across the three dataset groups, with small changes in image-quality metrics.
 
-[[index|Library home]]
 
 ## Research Question
 

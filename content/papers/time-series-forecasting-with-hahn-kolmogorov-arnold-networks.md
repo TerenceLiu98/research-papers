@@ -78,5 +78,3 @@ The ablations support the complete architecture within the tested setup. Hahn ba
 - Huang et al. (2025), "TimeKAN: KAN-Based Frequency Decomposition Learning Architecture for Long-Term Time Series Forecasting": a frequency-decomposition KAN baseline contrasted with HaKAN's hierarchical patch mixing.
 - Chen et al. (2025), "TsKAN: A Transparent Architecture for Improving the Interpretability of Multivariate Time Series Forecasting": a multi-scale patching KAN baseline in the main comparison.
 - Liu et al. (2024), "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting": an attention-based multivariate forecasting baseline in the fixed-look-back comparison.
-
-[[index|Library home]]

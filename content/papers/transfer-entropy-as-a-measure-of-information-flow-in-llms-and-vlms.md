@@ -96,5 +96,3 @@ Appendix J describes at most 5,000 training and 1,000 evaluation examples per la
 - Schreiber (2000), “Measuring Information Transfer”: foundational TE definition cited in the manuscript.
 - Barnett, Barrett, and Seth (2009), “Granger Causality and Transfer Entropy Are Equivalent for Gaussian Variables”: the cited Gaussian connection.
 - [[papers/granger-causality-detection-with-kolmogorov-arnold-networks|Granger Causality Detection with Kolmogorov-Arnold Networks]]: a library comparison using explicit lagged prediction and sparse input mappings, rather than hidden-state alignment; not claimed as a citation by this manuscript.
-
-[[index|Library home]]

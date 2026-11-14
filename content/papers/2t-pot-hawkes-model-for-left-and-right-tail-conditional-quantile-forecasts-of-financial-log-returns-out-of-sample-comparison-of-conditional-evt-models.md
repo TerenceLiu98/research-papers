@@ -117,5 +117,3 @@ Estimated loss/gain branching and decay asymmetries are broadly stable across in
 - [[papers/dynamic-hawkes-processes-for-discovering-time-evolving-communities-states-behind-diffusion-processes|Dynamic Hawkes Processes for Discovering Time-evolving Communities' States behind Diffusion Processes]]: a related library paper on changing responsiveness and excitation time scales, not an evaluated comparator here.
 
 Source scope: supplied manuscript dated 14 October 2022, including its supplementary material. The supplied text does not give a stable identifier for this manuscript; identifiers belonging to cited papers are not assigned to it.
-
-[[index|Library home]]

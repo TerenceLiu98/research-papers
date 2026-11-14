@@ -102,5 +102,3 @@ DGM produces functioning code-editing agents in 51.3% of generated SWE-bench var
 - Zelikman et al. (2024), "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation": related recursive code optimization discussed in Section 2.
 
 Code repository named in the source: [jennyzzt/dgm](https://github.com/jennyzzt/dgm).
-
-[[index|Library home]]

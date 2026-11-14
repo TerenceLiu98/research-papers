@@ -82,5 +82,3 @@ Related library reading, without implying citation by this paper:
 - [[papers/truth-as-a-trajectory-what-internal-representations-reveal-about-large-language-model-reasoning|Truth as a Trajectory: What Internal Representations Reveal About Large Language Model Reasoning]] learns a validity classifier from token-by-layer trajectories and explicitly cites this paper as motivation.
 - [[papers/trajectory-geometry-of-transformer-representations-across-layers|Trajectory Geometry of Transformer Representations Across Layers]] measures hidden-state paths over transformer depth rather than over cumulative reasoning steps.
 - [[papers/temporal-straightening-for-latent-planning|Temporal Straightening for Latent Planning]] studies curvature over environment time and connects it to latent planning.
-
-[[index|Library home]]

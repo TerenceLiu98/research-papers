@@ -82,6 +82,3 @@ The paper is theoretical and reports no numerical experiments. Its quantitative 
 - [[papers/an-exponentially-converging-particle-method-for-the-mixed-nash-equilibrium-of-continuous-games|An Exponentially Converging Particle Method for the Mixed Nash Equilibrium of Continuous Games]]: a complementary local-convergence approach for discrete particle algorithms in continuous games.
 
 Source: supplied parsed Markdown for Cognitio job `31d263eb-d6a4-47b7-9035-53ba6f09dff2`.
-
-[[index|Library home]]
-

@@ -91,5 +91,3 @@ A placebo substitutes leader voting positions on randomly sampled roll calls for
 - [[papers/understanding-complex-legislative-and-judicial-behaviour-via-hierarchical-ideal-point-estimation|Understanding complex legislative and judicial behaviour via hierarchical ideal point estimation]]: related library work modeling party dependence using allysets, rather than leader-speech signals.
 
 Source identifiers: [article DOI](https://doi.org/10.1017/psrm.2025.10083); [replication material](https://doi.org/10.7910/DVN/JXVSP4). The year follows the source's final citation line.
-
-[[index|Library home]]

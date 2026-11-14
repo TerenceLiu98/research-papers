@@ -116,5 +116,3 @@ A separate statewide municipality-scale illustration fits a connected component 
 
 - [[papers/integrating-data-across-misaligned-spatial-units|Integrating Data Across Misaligned Spatial Units]]: develops the support diagnostics cited in this manuscript; the present paper focuses on temporal contrasts and differential reconstruction errors.
 - [[papers/spatial-latent-gaussian-modelling-with-change-of-support|Spatial Latent Gaussian Modelling with Change of Support]]: cited precedent for connecting misaligned observations through latent spatial models; the present estimator instead specifies a shared electoral baseline and incremental change on finite targets.
-
-[[index|Library home]]

@@ -79,5 +79,3 @@ For the molecule data, reported PEHE is $0.06 \pm 0.0$ for the contrastive model
 - Harada and Kashima (2021), "GraphITE: Estimating Individual Effects of Graph-Structured Treatments": learns representations for graph-valued treatments.
 - Pryzant et al. (2020), "Causal Effects of Linguistic Properties": studies causal attributes entangled within text treatments.
 - [[papers/structured-pixels-satellite-imagery-as-the-cause-in-causal-effect-estimation|Structured Pixels: Satellite Imagery as the Cause in Causal Effect Estimation]]: learns image-treatment representations with a generalized Robinson decomposition under observed-confounding assumptions.
-
-[[index|Library home]]

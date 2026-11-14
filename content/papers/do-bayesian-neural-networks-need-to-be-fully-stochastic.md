@@ -101,5 +101,3 @@ Supplementary Laplace and SWAG results also assess expected calibration error: s
 - Farquhar, Smith, and Gal (2020), "Liberty or depth: Deep bayesian neural nets do not need complex weight posterior approximations": related expressivity result discussed in Section 4.
 - Foong et al. (2020), "On the expressiveness of approximate inference in bayesian neural networks": related analysis of predictive expressivity and approximate inference.
 - Maddox et al. (2019), "A simple baseline for bayesian uncertainty in deep learning": cited SWAG method used in the comparisons.
-
-[[index|Library home]]

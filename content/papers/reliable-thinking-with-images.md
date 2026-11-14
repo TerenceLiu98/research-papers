@@ -76,5 +76,3 @@ Offline results similarly favor RTWI across the reported benchmark columns. Abla
 - Yang et al. (2025), *Deep but Reliable: Advancing Multi-Turn Reasoning for Thinking with Images*, improves self-reflection through reinforcement learning rather than inference-time filtering.
 
 Source note: Synthesized from the supplied parsed Markdown for Cognitio job `a74ca0c5-8d18-4c56-b821-37d0b92c67eb`. The source provides the project URL `https://github.com/XLearning-SCU/Reliable_TWI` but does not state a publication year, DOI, arXiv identifier, or venue.
-
-[[index|Library home]]

@@ -11,7 +11,6 @@ tags:
   - feature-attribution
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

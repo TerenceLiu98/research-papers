@@ -75,5 +75,3 @@ Scalar VQR curves closely resemble classical quantile regression at five expendi
 ## Related Papers
 
 The theoretical foundations include Brenier (1991), “Polar factorization and monotone rearrangement of vector-valued functions,” and McCann (1995), “Existence and uniqueness of monotone measure-preserving maps.” The scalar comparison is Koenker and Bassett (1978), “Regression quantiles.” Section 2.4 contrasts the construction with geometric quantiles, Rosenblatt-based conditional quantiles, and halfspace-depth approaches.
-
-[[index|Library home]]

@@ -88,5 +88,3 @@ Among controls, RFK has the highest average attractiveness rating and Trump the 
 - Guinaudeau, Munger, and Votta (2022), "Fifteen seconds of fame: TikTok and the supply side of social video": cited framework for content supply and limits of TikTok sampling.
 - Coppock, Hill, and Vavreck (2020), "The small effects of political advertising are small regardless of context, message, sender, or receiver: Evidence from 59 real-time randomized experiments": cited comparison for modest favorability effects.
 - Giacomin and Rule (2020), "How static facial cues relate to real-world leaders' success: A review and meta-analysis": cited background distinguishing subjective evaluations from electoral outcomes.
-
-[[index|Library home]]

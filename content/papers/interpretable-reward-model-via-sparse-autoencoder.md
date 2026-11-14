@@ -82,5 +82,3 @@ The supplied source links the authors' [SARM code repository](https://github.com
 - Wang et al. (2024), "HelpSteer2: Open-source dataset for training top-performing reward models": provides another multidimensional reward-modeling comparison.
 - Li et al. (2025), "SAFER: Probing Safety in Reward Models with Sparse Autoencoder": motivates the safety-feature scoring procedure used for intervention.
 - [[papers/difusion-reward-models|Difusion Reward Models]]: replaces deterministic scalar rewards with flexible conditional reward distributions rather than decomposing a scalar reward into sparse features.
-
-[[index|Library home]]

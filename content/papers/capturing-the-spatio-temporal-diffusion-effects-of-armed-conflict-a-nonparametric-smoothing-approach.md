@@ -98,5 +98,3 @@ Section 4.3 reports robustness checks involving alternative bases, basis size, s
 - Mueller, Rohner, and Schonholzer (2022), "Ethnic violence across space": cited evidence on spatial decay and ethnic-group structure.
 - [[papers/the-geometry-of-conflict-3d-spatio-temporal-patterns-in-fatalities-prediction|The geometry of conflict: 3D Spatio-temporal patterns in fatalities prediction]]: a library comparison using historical pattern retrieval rather than a fitted diffusion surface; not a benchmark in this paper.
 - [[papers/spatiotemporal-patterns-of-conflict-related-sexual-violence-in-colombia|Spatiotemporal patterns of conflict-related sexual violence in Colombia]]: a library comparison illustrating sensitivity of fitted excitation to background-rate specification; a different outcome and setting.
-
-[[index|Library home]]

@@ -104,5 +104,3 @@ The supplied Markdown reports acceptance on December 16, 2024, but does not esta
 - Centola (2010), "The spread of behavior in an online social network experiment": experimental reinforcement evidence discussed in the introduction, reference 30.
 - Romero, Meeder, and Kleinberg (2011), "Differences in the mechanics of information diffusion across topics: Idioms, political hashtags, and complex contagion on Twitter": exposure-dependent diffusion patterns, reference 35.
 - Ugander et al. (2012), "Structural diversity in social contagion": structural evidence discussed in relation to common neighbors and transmission, reference 36.
-
-[[index|Library home]]

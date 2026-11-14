@@ -90,5 +90,3 @@ The supplied Markdown omits this paper's publication year, venue, and stable ide
 - Li and Zhang (2023), "Does a Neural Network Really Encode Symbolic Concept?" Cited as theoretical support for interaction explanations (reference 26).
 - Ren et al. (2024), "Where We Have Arrived in Proving the Emergence of Sparse Interaction Primitives in DNNs." Cited for conditional sparsity theory (reference 42).
 - Zhou et al. (2024), "Explaining Generalization Power of a DNN Using Interactive Concepts." Supplies the sparse extraction approach followed here (reference 61).
-
-[[index|Library home]]

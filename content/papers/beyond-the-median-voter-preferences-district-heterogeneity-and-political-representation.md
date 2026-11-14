@@ -87,5 +87,3 @@ Adding the partisan electorate's median leaves the interaction similar at -0.30 
 - Levitt (1996), "How Do Senators Vote? Disentangling the Role of Voter Preferences, Party Affiliation, and Senator Ideology": a cited decomposition of constituency, party, and individual influences.
 - Kalt and Zupan (1990), "The Apparent Ideological Behavior of Legislators: Testing for Principal-Agent Slack in Political Institutions": cited evidence connecting constituency heterogeneity to unexplained legislative positioning.
 - Goff and Grier (1993), "On the (Mis)Measurement of Legislator Ideology and Shirking": cited study of heterogeneity and differences between same-state senators.
-
-[[index|Library home]]

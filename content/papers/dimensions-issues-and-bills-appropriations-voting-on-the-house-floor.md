@@ -83,5 +83,3 @@ The authors interpret the pooled appropriations scree plot as suggesting at leas
 - Lewis and Poole (2004), "Measuring Bias and Uncertainty in Ideal Point Estimates via the Parametric Bootstrap": cited motivation for avoiding reliance on a single estimated median member.
 - [[papers/how-they-vote-issue-adjusted-models-of-legislative-behavior|How They Vote: Issue-Adjusted Models of Legislative Behavior]]: a library comparison using topic-weighted offsets and held-out voting evaluation; not a citation in the supplied paper.
 - [[papers/multiple-ideal-points-revealed-preferences-in-different-domains|Multiple Ideal Points: Revealed Preferences in Different Domains]]: a library comparison that jointly estimates domain positions and their equality on a common scale; not a citation in the supplied paper.
-
-[[index|Library home]]

@@ -89,5 +89,3 @@ Permuting abstract tokens reduces Qwen3-8B MATH-500 accuracy from 87.4 to 83.2 b
 - Hao et al. (2025), "Training Large Language Model to Reason in a Continuous Latent Space": replaces verbal steps with continuous hidden states and provides a contrasting latent-reasoning mechanism.
 - Deng et al. (2024), "From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step": supplies the stepwise-internalization comparison.
 - Goyal et al. (2024), "Think Before You Speak: Training Language Models with Pause Tokens": motivates the filler-token baseline.
-
-[[index|Library home]]

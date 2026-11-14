@@ -76,5 +76,3 @@ Additional diagnostics report top-prefix concept accuracy from 92.44% at $K=8$ t
 - [[papers/zero-shot-concept-bottleneck-models|Zero-shot Concept Bottleneck Models]]
 - [[papers/concept-embedding-models-beyond-the-accuracy-explainability-trade-off|Concept Embedding Models: Beyond the Accuracy-Explainability Trade-Off]]
 - [[papers/causally-reliable-concept-bottleneck-models|Causally Reliable Concept Bottleneck Models]]
-
-[[index|Library home]]

@@ -19,7 +19,6 @@ tags:
 
 This paper models a heterogeneous graph dataset as a mixture of [[concepts/graphons|Graphons]]. It clusters graphs by vectors of empirical motif densities, estimates one graphon per cluster, and uses the inferred components in graphon-mixture-aware mixup (GMAM) and model-aware graph contrastive learning (MGCL). On the reported benchmarks, GMAM has the highest accuracy on six of seven supervised datasets, while MGCL ranks first on four and second on three unsupervised datasets, giving the best average rank.
 
-[[index|Library home]]
 
 ## Research Question
 

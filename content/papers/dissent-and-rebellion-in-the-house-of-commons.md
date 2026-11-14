@@ -65,5 +65,3 @@ The authors emphasize that the approach is noncausal and computationally less tr
 ## Related Papers
 
 - [[papers/identifying-intraparty-voting-blocs-in-the-uk-house-of-commons|Identifying Intraparty Voting Blocs in the U.K. House of Commons]]: a library comparison using probabilistic voting blocs to characterize intraparty heterogeneity, rather than centrality relative to a group reference matrix.
-
-[[index|Library home]]

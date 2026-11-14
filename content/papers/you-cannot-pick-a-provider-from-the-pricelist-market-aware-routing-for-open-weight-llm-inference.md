@@ -23,7 +23,6 @@ tags:
 
 Choosing an open-weight model does not determine the service a client receives: providers hosting the same weights can differ substantially in quality, latency, availability, and price. The paper formulates [[concepts/provider-aware-llm-routing|Provider-Aware LLM Routing]] as a downstream layer beneath model routing. Its measured-map policy selects the cheapest healthy provider within a task-specific quality margin, while FACET probes and certifies each provider-task pair before serving it and monitors certified routes for drift. Measurements and replay experiments show meaningful savings but also establish that safe routing depends on task labels, a maintained anchor, and trustworthy quality evidence.
 
-[[index|Library home]]
 
 ## Research Question
 
@@ -95,4 +94,3 @@ In a 36-hour Llama-3.3-70B run across 12 providers, FACET serves 538 queries and
 - Ong et al. (2025), "RouteLLM: Learning to Route LLMs from Preference Data": selects which model answers a query; the present provider layer is evaluated beneath a RouteLLM-style upstream router.
 - Chen et al. (2023), "FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance": a model-selection and cascading system that leaves same-model provider choice unresolved.
 - Li et al. (2026), "When Is the Same Model Not the Same Service? A Measurement Study of Hosted Open-Weight LLM APIs": concurrent measurement work on cross-provider variation without the paper's online task-conditioned routing loop.
-

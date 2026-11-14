@@ -94,5 +94,3 @@ The empirical experiment estimates rainfall thresholds from spatial vegetation s
 - Fan et al. (2021), "Anticipating synchronization with machine learning," uses parameter-aware reservoir computing for synchronization thresholds (reference 37).
 
 Published 15 July 2024. [DOI](https://doi.org/10.1103/PhysRevX.14.031009). The paper supplies a [code repository](https://github.com/m-serious/tipping-predictor) in reference 72.
-
-[[index|Library home]]

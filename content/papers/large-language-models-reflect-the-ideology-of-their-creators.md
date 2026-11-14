@@ -97,5 +97,3 @@ Prompt development found that a preliminary description reduced invalid answers,
 ## Resources
 
 The paper provides [study data](https://huggingface.co/datasets/aida-ugent/llm-ideology-analysis) and [analysis code](https://github.com/aida-ugent/llm-ideology-analysis). These resources are reported from the supplied source and were not executed or independently audited.
-
-[[index|Library home]]

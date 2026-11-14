@@ -84,5 +84,3 @@ The simulations find that method choice is a comparatively small predictor of er
 - Fisher and Langford (1995), "Modelling the Errors in Areal Interpolation Between Zonal Systems by Monte Carlo Simulation": cited precedent for simulation-based evaluation of areal interpolation.
 - Qiu, Zhang, and Zhou (2012), "The Development of an Areal Interpolation ArcGIS Extension and a Comparative Study": cited comparison of interpolation methods and software implementation.
 - Zhang and Qiu (2011), "A Point-Based Intelligent Approach to Areal Interpolation": cited source for interpolation error measures.
-
-[[index|Library home]]

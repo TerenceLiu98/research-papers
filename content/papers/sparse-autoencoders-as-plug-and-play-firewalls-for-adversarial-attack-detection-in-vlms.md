@@ -22,7 +22,6 @@ tags:
 
 SAEgis detects adversarially perturbed images by inserting [[concepts/sparse-autoencoders|Sparse Autoencoders]] into a frozen vision-language model, ranking sparse features by their activation difference between clean and attacked images, and thresholding how often the selected features activate. On Qwen2.5-VL-3B-Instruct, its three-layer ensemble reports average F1 scores of 97.3% in-domain and 94.4% cross-domain. Cross-attack performance remains strong for the ensemble, but single projection-layer detectors can lose substantial recall, and distribution shift can invalidate thresholds calibrated only on clean development data.
 
-[[index|Library home]]
 
 ## Research Question
 

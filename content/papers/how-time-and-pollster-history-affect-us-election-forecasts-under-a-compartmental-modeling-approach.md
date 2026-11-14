@@ -111,5 +111,3 @@ The historical pollster adjustments for 2024 average 2.1 points toward Republica
 Code and formatted data or download instructions: [authors' GitLab repository](https://gitlab.com/alexandriavolkening/forecasting-elections-using-compartmental-models-2), identified in source reference 30.
 
 Bibliographic note: The supplied source cites its 2024 preprint and includes a later post-election assessment. The [SIAM publication record](https://epubs.siam.org/doi/full/10.1137/24M1719505) confirms the canonical title and the journal publication in 2026, volume 25(1), pages 160-195. The frontmatter uses the journal year; the research summary follows the supplied Markdown.
-
-[[index|Library home]]

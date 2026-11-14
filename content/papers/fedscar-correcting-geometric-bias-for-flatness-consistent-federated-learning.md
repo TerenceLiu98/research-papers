@@ -15,7 +15,6 @@ tags:
   - data-heterogeneity
 ---
 
-[[index|Library home]]
 
 ## TL;DR
 

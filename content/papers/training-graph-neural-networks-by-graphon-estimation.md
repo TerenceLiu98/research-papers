@@ -77,5 +77,3 @@ Training and validation loss plots for 8-layer GCNs show the original model deve
 - Hasanzadeh et al. (2020), "Bayesian Graph Neural Networks with Adaptive Connection Sampling": connection-sampling approach compared in the related-work discussion.
 - Zhao et al. (2020), "Data Augmentation for Graph Neural Networks": related two-stage edge-probability estimation and graph augmentation using a graph autoencoder.
 - Oono and Suzuki (2019), "On Asymptotic Behaviors of Graph CNNs from Dynamical Systems Perspective": stationary-subspace account used to motivate randomized propagation.
-
-[[index|Library home]]
