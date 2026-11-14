@@ -19,9 +19,13 @@ Algorithmic state tracking asks a sequence model to maintain the result of repea
 - **Extrapolation protocol:** Report training lengths, test lengths, generator, supervision, and checkpoint selection. Select checkpoints using in-distribution validation rather than test-length performance, and compare models on shared held-out sequences.
 - **Capacity versus learning:** A recurrent computation path can support sequential composition, but its availability does not guarantee that optimization learns a general update rule. Perfect training-length accuracy can coexist with poor extrapolation.
 
+- **Ground-truth internal progress:** Directed permutation traversal makes every intermediate node known. Probe decodability can reveal progress across depth, but causal interventions and transfer tests are needed to distinguish readable states from reusable algorithmic updates.
+
 ## Important Papers
 
 - [[papers/recurrent-looped-transformer|Recurrent Looped Transformer]] reports strong parity and swap-based S5 extrapolation with temporal feedback, but near-chance standard S5 performance. Its depth and feedback-interval ablations show that different state-tracking tasks need different recurrent computation.
+
+- [[papers/inside-the-loop-a-mechanistic-study-of-weight-tied-transformers-on-depth-bound-algorithmic-tasks|Inside the Loop]] finds budget-dependent hop progression in weight-tied transformers, while documenting seed variation and weak cross-permutation state transfer.
 
 ## Related Concepts
 
