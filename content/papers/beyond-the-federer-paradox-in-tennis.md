@@ -7,6 +7,7 @@ authors:
   - Javier M. Buldú
 year: null
 source_job_id: "2b309245-efac-469c-9229-f01742d7ecbc"
+validated_job_id: "fd721f9e-dc09-459b-9bb5-01b3671fef5c"
 tags:
   - sports-statistics
   - hierarchical-scoring
