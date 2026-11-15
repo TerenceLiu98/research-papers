@@ -1,3 +1,4 @@
+import { QuartzTheme } from "@quartz-themes/core"
 import * as ExternalPlugin from "./.quartz/plugins"
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import { registerCondition } from "./quartz/plugins/loader/conditions"
@@ -27,5 +28,6 @@ ExternalPlugin.RecentNotes({
 })
 
 const config = await loadQuartzConfig()
+config.plugins.transformers.push(QuartzTheme({ theme: "kanagawa", mode: "both" }))
 export default config
 export const layout = await loadQuartzLayout()
