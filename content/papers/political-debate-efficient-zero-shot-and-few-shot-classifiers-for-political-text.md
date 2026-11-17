@@ -40,6 +40,10 @@ PolNLI construction removes source-specific artifacts, translates labels into hy
 
 Validation and test sets each contain roughly 15,000 documents. Test hypotheses and their paraphrases are excluded from training and validation, so zero-shot refers to unseen hypotheses rather than wholly unseen source datasets. The validation set combines roughly 10,000 documents with unseen hypotheses and 5,000 with training hypotheses. Checkpoint selection considers metrics and qualitative stability under minor text changes.
 
+## Practical Use
+
+Sections 8.1–8.3 recommend short hypotheses expressing a single topic, stance, or category. For mutually exclusive classes, select the highest-scoring class; otherwise, allow multiple labels. The authors recommend the large model for zero-shot and most few-shot applications, and the base model for simple few-shot or supervised tasks. They recommend fine-tuning for bespoke definitions, contextual knowledge, multi-condition labels, or long documents that cannot be segmented, and validating predictions against manually labeled data.
+
 ## Experiments
 
 Weighted F1 is the primary metric. Baselines include general-purpose DeBERTa NLI models, Llama 3.1 8B, Llama 3.3 70B, and Claude 3.5 Sonnet. GPT-4o is excluded because it helped validate labels.
