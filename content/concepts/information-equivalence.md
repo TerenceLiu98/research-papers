@@ -20,10 +20,14 @@ An informational treatment can induce more inferences than the researcher intend
 - Measuring correlated perceptions can diagnose a problem, but adding them to a regression does not automatically identify separate causal effects.
 - Design responses include holding unintended perceptions fixed or selecting outcomes unaffected by unintended signals; either strategy requires substantive justification.
 
+An additional design issue is when information becomes available. Leavitt and Rivera-Burgos (2024) show that holding a nonracial cue constant inside an email cannot resolve inferred-attribute explanations for recipients whose decision to open depends on the racial cue outside it. Symmetric exposure timing complements, but does not itself guarantee, equivalence of induced beliefs.
+
 ## Important Papers
 
 - Dafoe, Zhang, and Caughey (2018), “Information Equivalence in Survey Experiments”: framework cited by Landgrave and Weller.
 - [[papers/do-name-based-treatments-violate-information-equivalence-evidence-from-a-correspondence-audit-experiment|Do Name-Based Treatments Violate Information Equivalence? Evidence from a Correspondence Audit Experiment]]: combines name perceptions with legislative replies to demonstrate the attribution problem.
+
+- [[papers/audit-experiments-of-racial-discrimination-and-the-importance-of-symmetry-in-exposure-to-cues|Audit Experiments of Racial Discrimination and the Importance of Symmetry in Exposure to Cues]]: derives the exposure-timing problem and designs that align cue availability with the intended causal contrast.
 
 ## Related Concepts
 
