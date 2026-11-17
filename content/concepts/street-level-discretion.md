@@ -22,7 +22,11 @@ Street-level discretion is the latitude frontline public officials have to inter
 - **User competence can condition perceptions.** [[concepts/algorithm-literacy|Algorithm Literacy]] may affect how officials interpret and selectively use recommendations. Exploratory component-level interactions should not be treated as general causal laws.
 - **Discretion has a normative role beyond perceived autonomy.** Anastasopoulos argues that contextual judgment helps supply accountability, substantive equity, individual consideration, and reason-giving. This argument concerns [[concepts/public-value-failure|Public Value Failure]], a different evaluative question from whether officials report having more decision latitude under automation.
 
+- Digitalization can relocate discretion to interpreting anomalies and negotiating follow-up action. Wang’s county ethnography links this transformation to revenue targets and categorical sympathy for local small businesses.
+
 ## Important Papers
+
+- [[papers/street-level-bureaucracy-meets-big-data-the-moral-economy-of-taxation-in-china-in-the-digital-age|Street-level bureaucracy meets Big Data]]: ethnographic evidence on negotiated tax enforcement and the transformation of moral judgment under digitalization.
 
 - [[papers/artificial-intelligence-bureaucratic-discretion-and-democratic-administration|Artificial Intelligence, Bureaucratic Discretion, and Democratic Administration]]: normative institutional analysis proposing a centaur model with retained human authority in consequential decisions.
 - [[papers/does-ai-erode-street-level-discretion-a-mixed-methods-study-on-automated-decision-making-in-chinas-tax-authorities|Does AI erode street-level discretion? A mixed-methods study on automated decision-making in China's tax authorities]]: a 310-person vignette experiment and nine interviews; the positive adjusted automation result concerns perceived discretion and is nonsignificant without covariates.
