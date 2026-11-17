@@ -25,7 +25,12 @@ Bayesian process tracing evaluates within-case causal explanations by updating p
 
 - **Theory revision changes the updating problem.** Updating belief in a fixed hypothesis differs from modifying its content. Zaks (2021) calls for explicit guidance on priors and previously examined evidence after such revisions, and emphasizes additional evidence as a check on stability.
 
+- **Iteration can reopen the full comparison.** Bennett, Charman, and Fairfield prescribe assessing a newly introduced hypothesis against the original background information and all accumulated evidence. They distinguish this coherent recalculation from discarding earlier observations. Their defense addresses Zaks’s critique, while practical elicitation and cognitive-bias concerns remain relevant.
+- **Evidence is pair-relative.** A likelihood ratio of one leaves the odds between that pair unchanged. For n hypotheses, n − 1 independent ratios against a reference determine the remaining pairwise ratios.
+
 ## Important Papers
+
+- [[papers/understanding-bayesianism-fundamentals-for-process-tracers|Understanding Bayesianism: Fundamentals for Process Tracers]]: clarifies exclusive hypothesis construction, relative evidentiary support, multiple comparisons, and full-evidence iteration in response to Zaks.
 
 - [[papers/updating-bayesians-a-critical-evaluation-of-bayesian-process-tracing|Updating Bayesian(s): A Critical Evaluation of Bayesian Process Tracing]]: evaluates claims about iteration, timing, rival explanations, and bias, and proposes implementation and validation priorities.
 
