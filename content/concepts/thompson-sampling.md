@@ -22,10 +22,14 @@ Thompson sampling is a Bayesian adaptive allocation rule that assigns an arm acc
 - A posterior probability of optimality measures model-based uncertainty about selection; it is not a confidence interval for the selected arm's outcome probability.
 - Adaptive observations and selection complicate ordinary inference. A separate fixed-allocation validation phase is one way to estimate selected arms without the winner's curse; it does not prove optimal-arm selection.
 
+- Gaussian variants support rating outcomes beyond the Beta–Bernoulli case. In crowdsourced surveys, the arm set can grow during fieldwork, so late-arriving questions have less opportunity to accumulate observations.
+
 ## Important Papers
 
 - Thompson (1933), "On the Likelihood that One Unknown Probability Exceeds another in View of the Evidence of Two Samples": the foundational reference cited by the conjoint paper.
 - [[papers/adaptive-randomization-in-conjoint-survey-experiments|Adaptive Randomization in Conjoint Survey Experiments]]: uses posterior sampling to search for minimum and maximum focal-attribute choice probabilities across contexts.
+
+- [[papers/crowdsourced-adaptive-surveys|Crowdsourced Adaptive Surveys]]: uses Gaussian Thompson sampling with respondent-level updates to prioritize high mean importance or perceived-accuracy ratings in an expanding question bank.
 
 ## Related Concepts
 
