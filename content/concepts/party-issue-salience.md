@@ -21,9 +21,13 @@ Party issue salience measures relative emphasis rather than a party’s preferre
 - Absolute log ratios compare proportional discrepancies symmetrically, but exclude zero values unless an additional treatment is specified.
 - Party salience differs from [[concepts/voter-issue-salience|Voter Issue Salience]], which concerns voters’ priorities rather than party messages or media associations.
 
+Cardinal relative salience weights sum to a fixed budget over a specified issue set. Adding or removing an issue changes the normalization of remaining weights, so measurements are not separable across issues. Ordinal rankings avoid requiring cardinal distances. Manifesto emphasis and expert judgments of underlying priorities remain distinct operationalizations.
+
 ## Important Papers
 
 - [[papers/measuring-party-positions-and-issue-salience-with-mass-media-and-manifesto-data|Measuring party positions and issue salience with mass media and manifesto data]]: pooled salience correlation is 0.60, compared with 0.18–0.38 within the four issue domains; niche parties show greater relative divergence in the full regression.
+
+- [[papers/measuring-issue-salience-for-political-parties-using-llms|Measuring issue salience for political parties using LLMs]]: budgeted holistic scoring improves agreement with expert judgments, while disagreement between manifesto-based and expert measures highlights the importance of source choice.
 
 ## Related Concepts
 
