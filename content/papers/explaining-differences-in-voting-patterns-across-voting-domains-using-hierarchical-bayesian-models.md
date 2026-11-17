@@ -9,7 +9,7 @@ year: 2026
 doi: "10.1017/pan.2025.10014"
 arxiv: "2312.15049"
 venue: Political Analysis
-source_job_id: "1315d07c-390d-4912-9d3b-f738314ee6c7"
+source_job_id: "78e9c5bd-c7e9-4079-a1fd-c063cf17ad00"
 published_online: "2025-08-27"
 tags:
   - ideal-point-estimation
@@ -21,6 +21,8 @@ tags:
 ## TL;DR
 
 The paper jointly estimates whether U.S. House members have the same ideal point for procedural and final-passage votes and which observed characteristics predict that equality. Across the 93rd-113th Houses, minority-party members and members representing more electorally moderate districts are generally less likely to be "bridges" with a common ideal point across the two domains. The model propagates uncertainty from roll-call scaling into covariate selection, but the findings are associations under a two-domain spatial voting model rather than identified causal effects.
+
+The existing catalog records the 2026 publication year and arXiv identifier; the supplied parsed article explicitly records online publication on 27 August 2025. This ingest retains that catalog metadata.
 
 ## Research Question
 
@@ -51,6 +53,8 @@ where $\mathbf{x}_i$ contains centered legislator and constituency covariates. A
 
 Posterior inference uses Markov chain Monte Carlo with Polya-Gamma augmentation for the logistic components. The authors fit each House separately and use multiple chains and Gelman-Rubin diagnostics. Posterior inclusion probabilities summarize variable selection; bridge frequency averages the latent bridge indicators within a House (Section 3).
 
+Identification additionally requires at least $d+1$ bridges, a common orientation across domains, and anchors fixing the absolute scale. In the one-dimensional application, two anchors and at least two bridges are required, and the Republican whip has a positive position on both scales. The minimum-bridge constraint was not binding in the analyzed datasets. The posterior bridge probability conditional on votes is distinct from the posterior mean of the covariate-based bridge probability (Section 3.1).
+
 ## Experiments
 
 ### Data and Design
@@ -74,7 +78,7 @@ The supplied version reports four chains per House and 25,000 retained samples a
 - Covariate selection reports posterior associations with latent bridge status. It does not identify constituency pressure, party discipline, or any other mechanism causally.
 - Results depend on the spatial voting likelihood, common-scale assumptions, vote-domain coding, and the availability of enough bridge legislators for identification.
 - The 105th House has a bimodal posterior over model size: the dominant mode contains 2–5 predictors, while the secondary mode can contain up to 15. This complicates the otherwise favorable convergence assessment.
-- The 109th House is a conspicuous outlier with many selected predictors. Political circumstances may explain it, but misspecification in either the ideal-point or explanatory module remains an alternative.
+- The 109th House is a conspicuous outlier with 13 predictors having inclusion probabilities above 0.5, compared with generally 0–5 in other Houses. Political circumstances may explain it, but misspecification in either the ideal-point or explanatory module remains an alternative.
 - Standard Euclidean IRT can misrepresent cases in which ideological extremes vote together against the center. The authors identify flexible response models and modular or cut inference as directions for addressing this risk.
 
 ## Related Concepts
