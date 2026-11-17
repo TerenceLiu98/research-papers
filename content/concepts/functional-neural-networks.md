@@ -20,7 +20,7 @@ Functional neural networks use curves or other function-valued observations as i
 ## Key Ideas
 
 - A functional neuron computes an activation from terms of the form $\int_{\mathcal T}\beta(t)x(t)\,dt$, optionally combined with ordinary scalar covariates.
-- A continuous functional neuron can produce an entire function, applying a nonlinear activation to $b(s)+\sum_j\int w_j(s,t)H_j(t)\,dt$. Stacking these neurons supports nonlinear function-on-function regression without collapsing every hidden representation to a scalar.
+- A continuous functional neuron can produce an entire function, applying a nonlinear activation to $b(s)+\sum_j\int w_j(s,t)H_j(t)\,dt$. Stacking these neurons preserves functional hidden representations for function-on-function regression or, with a final integration layer, scalar-on-function prediction. The latter is the FDNN/FBNN design in [[papers/non-linear-functional-modeling-using-neural-networks|Nonlinear Functional Modeling Using Neural Networks]].
 - Representing $\beta(t)$ in a finite basis converts functional-weight learning into optimization over basis coefficients. Numerical quadrature evaluates the resulting inner products on sampled curves.
 - In function-valued layers, direct grid parameterization is straightforward for dense regular curves, while tensor-product basis expansions reduce parameter count and better accommodate irregular observation grids.
 - If a curve has $P$ sampled values but its weight uses $M<P$ basis functions, a first layer with $n$ neurons uses $(M+1)n$ rather than $(P+1)n$ parameters for that input and its biases.

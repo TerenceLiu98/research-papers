@@ -1,10 +1,14 @@
 ---
-title: "Non-linear Functional Modeling using Neural Networks"
+title: "Nonlinear Functional Modeling Using Neural Networks"
+aliases:
+  - "Non-linear Functional Modeling using Neural Networks"
 type: paper
 authors:
   - Aniruddha Rajendra Rao
   - Matthew Reimherr
-year: null
+year: 2023
+doi: "10.1080/10618600.2023.2165498"
+venue: "Journal of Computational and Graphical Statistics"
 tags:
   - functional-data-analysis
   - functional-neural-networks
