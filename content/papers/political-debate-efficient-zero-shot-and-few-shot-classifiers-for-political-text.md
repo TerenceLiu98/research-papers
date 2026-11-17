@@ -34,11 +34,11 @@ Proprietary annotation models create cost and replication barriers. General-purp
 
 ## Method
 
-Each document is paired with a hypothesis expressing a candidate label, and the encoder predicts entailment versus non-entailment. Existing general-purpose NLI models are fine-tuned on political data. The main results use DeBERTa V3; ModernBERT variants are also released and discussed in the supplement.
+Each document is paired with a hypothesis expressing a candidate label, and the encoder predicts entailment versus non-entailment. Existing general-purpose NLI models are fine-tuned on political data. The main results use DeBERTa V3; ModernBERT variants are also released and discussed in the supplement. Section 4 reports a 2–5× speed increase for ModernBERT on supported NVIDIA/Linux configurations; the main evaluation favors DeBERTa for performance and broader hardware/software compatibility.
 
 PolNLI construction removes source-specific artifacts, translates labels into hypotheses, and samples alternative hypotheses to create negative topic/event examples. Documents on which source labels and GPT-4/GPT-4o disagree are removed. A manual audit of 400 GPT-4o labels found 92.5% agreement, Cohen’s κ = 0.85, and 14 clear errors; the other 16 disagreements were judged interpretively reasonable. Reviewed paraphrases expand the hypothesis inventory to 2,834 phrases.
 
-Validation and test sets each contain roughly 15,000 documents. Test hypotheses and their paraphrases are excluded from training and validation, so zero-shot refers to unseen hypotheses rather than wholly unseen source datasets. Checkpoint selection considers metrics and qualitative stability under minor text changes.
+Validation and test sets each contain roughly 15,000 documents. Test hypotheses and their paraphrases are excluded from training and validation, so zero-shot refers to unseen hypotheses rather than wholly unseen source datasets. The validation set combines roughly 10,000 documents with unseen hypotheses and 5,000 with training hypotheses. Checkpoint selection considers metrics and qualitative stability under minor text changes.
 
 ## Experiments
 
@@ -61,7 +61,7 @@ English-only, contemporary training data emphasize U.S. politics. Performance on
 ## Related Papers
 
 - Laurer et al. (2023), *Building Efficient Universal Classifiers with Natural Language Inference*: supplies the general-purpose starting models.
-- Laurer et al. (2024), *Less Annotating, More Classifying*: establishes NLI transfer learning for data-scarce classification.
+- Laurer et al. (2024), [[papers/less-annotating-more-classifying|Less Annotating, More Classifying]]: establishes NLI transfer learning for data-scarce classification.
 - Block et al. (2022), *Perceived Risk, Political Polarization, and the Willingness to Follow Covid-19 Mitigation Guidelines*: supplies the few-shot task and regression application.
 
 Replication materials: [Harvard Dataverse](https://doi.org/10.7910/DVN/SV5VHH).
