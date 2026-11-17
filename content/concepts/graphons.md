@@ -34,6 +34,8 @@ A graphon is a measurable kernel $W:[0,1]^2\to[0,1]$ representing interactions b
 
 ## Important Papers
 
+- [[papers/graphon-games-a-statistical-framework-for-network-games-and-interventions|Graphon games: A statistical framework for network games and interventions]]: Connects continuum equilibria to sampled network equilibria and derives finite-rank welfare interventions.
+
 - [[papers/what-is-a-graphon|What Is ... a Graphon?]]: an expository introduction to homomorphism densities, cut distance, weak isomorphism, compactness, and extremal optimization.
 - [[papers/contagion-in-graphons|Contagion in graphons]]: defines continuum threshold dynamics, proves qualified sampled-network approximation results, and derives structured seeding policies.
 - [[papers/graphon-mean-field-games-and-the-gmfg-equations|Graphon Mean Field Games and the GMFG Equations]]: uses graphon sections to index local mean fields and transfers continuum feedback equilibria to large finite clustered networks under a stronger sectional approximation condition.

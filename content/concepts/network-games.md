@@ -27,6 +27,8 @@ Network games model strategic decisions whose payoffs depend on both an agent's 
 
 ## Important Papers
 
+- [[papers/graphon-games-a-statistical-framework-for-network-games-and-interventions|Graphon games: A statistical framework for network games and interventions]]: Provides conditional continuum approximation and asymptotically optimal interventions using a stochastic network model.
+
 - [[Network Game in Group Decision Making: Managing Consensus with Incentive and Interaction Interventions]]
 - Ballester, Calvo-Armengol, and Zenou (2006), "Who's Who in Networks. Wanted: The Key Player."
 - Jackson and Zenou (2015), "Games on Networks."
