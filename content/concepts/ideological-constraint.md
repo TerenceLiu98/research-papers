@@ -13,6 +13,8 @@ tags:
 
 Ideological constraint describes how strongly choices are organized by shared preferences. It concerns predictive strength, whereas ideological dimensionality concerns the number of shared axes. A population can have weak constraint within a one-dimensional space or strong constraint across multiple dimensions.
 
+Converse distinguishes constraint from centrality (which beliefs resist adjustment) and range (which objects a belief system encompasses). Constraint can arise through social transmission and shared group cues, rather than strict logical entailment. His aggregate correlations and later held-out predictive measures are different operationalizations.
+
 ## Key Ideas
 
 - Compare predictions using actor positions with an item-specific baseline that does not distinguish actors. Raw accuracy alone can be high because one answer is broadly popular.
@@ -24,10 +26,12 @@ Ideological constraint describes how strongly choices are organized by shared pr
 ## Important Papers
 
 - [[papers/the-structure-of-political-choices-distinguishing-between-constraint-and-multidimensionality|The Structure of Political Choices]]: formalizes the distinction and compares held-out predictive gains among American citizens and politicians.
-- Converse (1964), “The Nature of Belief Systems in Mass Publics”: foundational account of prediction across political attitudes, discussed by Marble and Tyler.
+- [[papers/the-nature-of-belief-systems-in-mass-publics|The Nature of Belief Systems in Mass Publics (1964)]]: defines static constraint as cross-attitude predictability and dynamic constraint as compensating belief adjustment; documents elite–mass differences and examines response stability.
 
 ## Related Concepts
 
 - [[concepts/ideological-dimensionality|Ideological Dimensionality]]: counts shared axes rather than their predictive strength.
 - [[concepts/item-response-theory|Item Response Theory]]: estimates actor traits and item characteristics jointly.
 - [[concepts/heteroskedastic-ideal-point-estimation|Heteroskedastic Ideal-Point Estimation]]: models actor-specific residual variability; such variability is distinct from a population-level held-out constraint measure.
+
+- [[concepts/issue-publics|Issue Publics]]: selective engagement helps explain why constraint varies across issues and respondent subsets.
