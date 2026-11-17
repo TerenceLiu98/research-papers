@@ -14,79 +14,67 @@ tags:
 
 ## TL;DR
 
-Corneo models NATO enlargement followed by Russia’s 2014 attack as equilibrium behavior under private information about state motives. The same observed sequence can reveal Russian revisionism, reveal American revisionism, or reveal neither, depending on beliefs and incentives. The paper derives conditions for these interpretations; its preference for a pooling explanation rests on qualitative historical judgments rather than estimated probabilities.
+Corneo models NATO enlargement followed by Russia’s 2014 attack as equilibrium behavior under private information about state motives. Rival narratives identifying either Russia or the United States as expansionist correspond to different separating equilibria, each requiring restrictive beliefs and preferences. A pooling equilibrium can generate the same observed sequence without revealing either state’s type. These are conditional theoretical results, not empirical identification of historical motives.
 
 ## Research Question
 
-What can an outside observer infer about American and Russian motives from NATO enlargement followed by Russia’s attack on Ukraine?
+What can an observer infer about American and Russian motives from NATO enlargement and Russia’s subsequent attack, if both actions must be optimal within a game of incomplete information?
 
 ## Motivation
 
-Competing narratives assign imperial ambitions to different states and rely on incompatible counterfactuals about cooperation. Translating those narratives into equilibrium strategies makes their logical requirements explicit, including what a security-seeking state would have done under alternative policies.
+Narratives attributing war to one side’s imperial ambitions imply counterfactual claims about how the other side would have behaved under cooperation. The paper turns these claims into equilibrium restrictions, connecting inference about motives to the [[concepts/security-dilemma|Security Dilemma]]. Its focal sequence is the 1994 enlargement decision and the 2014 attack, rather than a separate model of the 2022 invasion.
 
 ## Contributions
 
-- Represents two competing narratives as different combinations of pooling and separation in a game with two-sided private information.
-- Shows that each separating account depends critically on a favorable prior about the other state, rather than a hostile prior about the state it identifies as revisionist.
-- Demonstrates that pooling can reproduce the observed sequence without identifying either state’s type, and examines how ambiguity and limited enlargement change the conclusions.
+- Represents competing narratives as distinct combinations of pooling and separation by privately informed states.
+- Derives conditions for those equilibria, establishes possible multiplicity, and rules out separation by both players along the focal sequence.
+- Shows how pooling can reproduce observed actions without identifying motives, and examines extensions involving payoffs, ambiguous priors, and limited enlargement.
 
 ## Method
 
-The United States first chooses cooperation or NATO enlargement. Russia then chooses cooperation or war. If Russia cooperates after enlargement, the United States chooses cooperation or war after enlargement is completed, including hypothetical Ukrainian membership. Wars terminate the game. The model stylizes the 1994 enlargement decision and the 2014 attack, rather than separately modeling the 2022 invasion.
+The United States first chooses cooperation or NATO enlargement. Russia then cooperates or attacks. Following enlargement and Russian cooperation, the United States chooses cooperation or war after enlargement has included Ukraine. Each state is either revisionist (the paper’s “greedy” type) or security-seeking. Cooperation yields zero; war yields type-dependent benefits from victory and costs from defeat. American victory probabilities satisfy $q_1<q_2<q_3$ across no enlargement, enlargement without Ukraine, and enlargement including Ukraine. Wars terminate the game.
 
-Each state privately knows whether it is greedy or security-seeking. Types differ in their valuation of hegemony relative to defeat costs; security-seekers prefer peace at the initial balance of power but need not do so after power shifts. Cooperation has payoff zero. The American victory probabilities satisfy $q_1<q_2<q_3$, corresponding to no enlargement, enlargement without Ukraine, and enlargement with Ukraine. Let $p$ and $\pi$ denote prior probabilities of American and Russian greed, respectively; let $r_s=m_s/c_s$ and $\rho_t=\mu_t/\gamma_t$ denote benefit-to-cost ratios.
-
-Strategies and beliefs must form a perfect Bayesian equilibrium. Pooling leaves beliefs unchanged at the relevant decision point; separation reveals type.
+Perfect Bayesian equilibrium requires sequentially rational strategies and Bayesian updating wherever possible. Let $p$ and $\pi$ denote prior probabilities of American and Russian revisionism; $r_s$ is the American security-seeker’s victory-benefit/defeat-cost ratio, and $\rho_t$ is the corresponding Russian ratio.
 
 ## Experiments
 
-This is a formal theoretical study, with proofs and qualitative historical interpretation. No dataset or empirical parameter estimation is reported.
+This is an analytical study, with proofs and qualitative historical discussion rather than experiments or estimated datasets.
 
-| Configuration | Behavior and inference | Main result |
+| Equilibrium | Observed behavior | Inference within the model |
 | --- | --- | --- |
-| P–S | Both American types enlarge; only greedy Russia attacks | Supports the Russian-revisionism narrative under Proposition 1’s restrictions |
-| S–P | Only greedy America enlarges; both Russian types attack | Supports the American-revisionism narrative under Proposition 2’s restriction |
-| P–P | Both types on both sides take the observed actions | Neither action identifies motives |
-| S–S | Types separate at both decisions | Cannot be sustained in this model |
+| P–S | Both American types enlarge NATO; only revisionist Russia attacks | Attack reveals Russia’s type |
+| S–P | Only revisionist America enlarges NATO; both Russian types attack | Enlargement reveals America’s type |
+| P–P | Both types on each side take the observed actions | Neither action identifies type |
+| S–S | Both sides separate | Cannot be sustained |
 
-Proposition 1 requires jointly:
-
-$$
-r_s\leq\frac{1-q_3}{q_3},\qquad
-p\leq\frac{q_2-(1-q_2)\rho_s}{q_3-(1-q_3)\rho_s},
-$$
-
-and, if $\rho_g<q_2/(1-q_2)$,
+Proposition 1 requires $r_s\leq(1-q_3)/q_3$ and
 
 $$
-p\geq\frac{q_2-(1-q_2)\rho_g}{q_3-(1-q_3)\rho_g}.
+p\leq\frac{q_2-(1-q_2)\rho_s}{q_3-(1-q_3)\rho_s}
 $$
 
-Thus the Russian-revisionism interpretation requires a sufficiently dovish American security-seeker and sufficiently low perceived American greed; its existence does not depend on $\pi$.
+for P–S, plus a lower bound on $p$ when Russian revisionism is sufficiently weak. Thus the Russia-blaming narrative requires a sufficiently dovish American security-seeker and a sufficiently low prior of American revisionism; the prior of Russian revisionism does not determine its existence.
 
-Proposition 2 requires
+Proposition 2 gives the S–P condition:
 
 $$
 \pi\leq\frac{1-q_2(1+r_s)}{1-q_1(1+r_s)}.
 $$
 
-The American-revisionism interpretation therefore needs a sufficiently favorable prior about Russia, independently of $p$. Both separating equilibria can coexist and survive sequential-equilibrium refinement. Proposition 4 establishes pooling when the prior restrictions in conditions (4) and (6) are violated. Such pooling permits conflict even between security-seekers, illustrating the [[concepts/security-dilemma|Security Dilemma]].
+Here a sufficiently low prior of Russian revisionism makes initial American cooperation attractive to its security-seeking type. The prior of American revisionism does not determine existence. Both separating equilibria can coexist and survive sequential-equilibrium refinement. Proposition 4 establishes pooling when the relevant prior bounds for separation are violated.
 
-The extensions, summarized in the supplied article with detailed analysis assigned to an online appendix, report that varying the stakes of war tightens both separating-equilibrium conditions. Sufficient ambiguity about Russia under maxmin expected utility makes both American types enlarge for insurance, eliminating S–P. Allowing a commitment to limited enlargement instead makes American separation easier and Russian separation harder; sufficiently large American identity costs can make that option irrelevant.
+The extensions reported in the main text qualify these results: varying war payoffs tightens both separating-equilibrium conditions; sufficient ambiguity about Russia can make both American types enlarge NATO under maxmin expected utility; and a credible limited-enlargement option makes American separation easier while tightening Russian separation. Sufficient American identity costs can make that limited option irrelevant. Detailed extension derivations are assigned to an online appendix not included in the supplied Markdown.
 
 ## Limitations
 
-The unitary-state model omits independent Ukrainian and other European decision-making, domestic political mechanisms, and third-party reputation effects. Decisive wars, normalized cooperation payoffs, and monotonically increasing American victory probabilities are modeling assumptions. Equilibrium existence establishes logical consistency within this structure, not historical identification or moral justification.
-
-Priors and payoff parameters are not estimated. Corneo’s judgment that pooling is historically more plausible relies on his reading of events and uncertainty about motives. Multiple equilibria prevent observed actions alone from selecting a unique narrative. The detailed online appendix for the extensions is not part of the supplied Markdown.
+The model treats states as unitary actors and abstracts from Ukraine’s independent strategic choices, domestic politics, and prolonged or indecisive wars. Increasing American military advantage with enlargement is an assumption. Historical discussion assesses the plausibility of priors without estimating them, so the author’s preference for a pooling interpretation remains an interpretation. Pooling permits security-seeking actors but does not establish that either historical actor was security-seeking. The paper leaves reputational effects toward third countries for future research.
 
 ## Related Concepts
 
-- [[concepts/security-dilemma|Security Dilemma]] — security-seeking states can take mutually threatening actions when they distrust one another’s motives.
+- [[concepts/security-dilemma|Security Dilemma]] — uncertainty allows security-seeking and revisionist states to choose the same threatening actions.
 
 ## Related Papers
 
-- Kydd (2001), *Trust Building, Trust Breaking: The Dilemma of NATO Enlargement* — models reassurance and provocation through conditional guarantees; Corneo instead examines retrospective inference and allows Russian expansionist preferences.
-- Smith (2024), *Commitment Problems and Russia’s Invasion of Ukraine* — examines commitment problems under full information around the 2022 invasion.
-- Idrisoglu and Spaniel (2024), *Information Problems and Russia’s Invasion of Ukraine* — studies asymmetric information and bargaining breakdown before the 2022 invasion.
-- [[papers/offense-defense-balance-war-duration-and-the-security-dilemma|Offense–Defense Balance, War Duration, and the Security Dilemma]] — a complementary library paper on how assumptions about war shape security competition; it studies duration rather than inference about state types.
+- Kydd (2001), *Trust Building, Trust Breaking: The Dilemma of NATO Enlargement* — the paper’s closest comparison; examines enlargement and conditional guarantees, whereas Corneo evaluates observed behavior retrospectively and allows Russian expansionism.
+- [[papers/offense-defense-balance-war-duration-and-the-security-dilemma|Offense–Defense Balance, War Duration, and the Security Dilemma]] — complementary analysis of how assumptions about warfare affect security competition; studies duration rather than identification of private motives.
+- Idrisoglu and Spaniel (2024), *Information Problems and Russia’s Invasion of Ukraine* — cited for asymmetric information and bargaining breakdown before the 2022 invasion.

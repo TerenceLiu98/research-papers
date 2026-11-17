@@ -20,6 +20,8 @@ Corneo’s model of NATO enlargement shows how pooling can obscure motives: both
 
 ## Important Papers
 
+- [[papers/narratives-as-separating-equilibria-on-the-origins-of-the-ukraine-war|Narratives as Separating Equilibria: On the Origins of the Ukraine War]] — Corneo (2026) derives conditions under which observed enlargement and attack reveal motives or instead pool across types.
+
 - [[papers/offense-defense-balance-war-duration-and-the-security-dilemma|Offense–Defense Balance, War Duration, and the Security Dilemma]] — Nilsson (2012) tests the duration premise and develops its implications for security competition.
 - Jervis (1978), *Cooperation under the Security Dilemma* — foundational framework discussed and reconsidered by Nilsson.
 
