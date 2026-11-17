@@ -17,6 +17,8 @@ Dynamic ideal point models estimate how an unobserved position changes over time
 
 ## Key Ideas
 
+- **Polynomial trajectories and bootstrap uncertainty:** DW-NOMINATE links sessions through legislator-specific polynomial trajectories, commonly linear. Carroll et al. (2009) refit simulated vote matrices and align their scales to propagate uncertainty into positions and party medians; conditional errors that hold roll-call parameters fixed are smaller on average.
+
 - **Coupled latent trajectories:** Kubinec and Owen combine retweet-based IRT measurement with vector autoregressive priors linking ideological allies across countries. Joint estimation propagates measurement uncertainty into impulse responses, but the lag channels do not by themselves identify causal transmission.
 
 - **Measurement:** A binary specification uses $\Pr(Y_{ijt}=1)=\operatorname{logit}^{-1}(\gamma_j\alpha_{it}-\beta_j)$. Item discrimination $\gamma_j$ can have either sign, allowing items to indicate opposing ends of a latent dimension. Other likelihoods can accommodate counts, ordinal responses, or continuous measures.
