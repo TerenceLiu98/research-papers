@@ -5,7 +5,8 @@ authors:
   - Jeremy Ferwerda
   - Sascha Riaz
 year: 2025
-source_job_id: 327b037f-910b-4a07-9cf3-b2919bae04bf
+source_job_id: 611e1ce8-977b-460d-b11f-39388a660fcd
+previous_source_job_id: 327b037f-910b-4a07-9cf3-b2919bae04bf
 tags:
   - refugee-exposure
   - electoral-behavior
@@ -25,7 +26,7 @@ How geographically localized are electoral responses to refugee housing, and can
 
 Comparisons between municipalities that host refugees and those that do not can pool voters with very different exposure. Berlin also presents two measurement problems: 50% of in-person precincts and 67% of mail-in precincts changed between 2013 and 2017, and mail ballots accounted for 33.4% of votes in 2017. Excluding those ballots can create a selected sample because voting mode is associated with both refugee exposure and AfD support.
 
-The supplied research note records first online publication on 3 December 2025. It does not supply an article DOI or journal identification.
+The supplied research note records acceptance on 15 August 2025; it does not state a publication date, article DOI, or journal identification. The year above reflects the dated manuscript.
 
 ## Contributions
 
