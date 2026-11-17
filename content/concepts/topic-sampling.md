@@ -23,10 +23,14 @@ Topic sampling runs conceptually related experiments across multiple policy issu
 - Topic-level predictors explain systematic variation. The remaining heterogeneity SD is conditional on those predictors, rather than the overall spread of effects.
 - A diverse convenience collection does not inherit the design-based guarantees of a probability sample; broader inference requires modeling assumptions.
 
+A single-topic interval omits uncertainty from topic selection. In the stylized random-topic setting, the variance for inference about the typical effect adds between-topic variance to within-topic sampling variance. More respondents alone cannot remove this source of uncertainty. Deliberately selecting a high-effect topic instead shifts the estimate relative to the typical effect.
+
 ## Important Papers
 
 - [[papers/estimators-for-topic-sampling-designs|Estimators for Topic-Sampling Designs]]: develops design-based average-effect estimators and hierarchical heterogeneity models, with an empirical resampling evaluation.
 - Clifford, Leeper, and Rainey (2023), “Generalizing Survey Experiments Using Topic Sampling: An Application to Party Cues”: introduces the design motivating the estimator paper.
+
+- [[papers/the-limits-and-strengths-of-single-topic-experiments|The Limits (and Strengths) of Single-Topic Experiments]]: quantifies undercoverage when topic-specific intervals are interpreted as intervals for the typical effect, while explaining the value of initial single-topic studies.
 
 ## Related Concepts
 
