@@ -29,7 +29,13 @@ Validity boundaries for LLM social simulations specify which research questions 
 
 Distributional alignment alone does not establish that an intervention works through the intended mechanism. Information visibility, activation schedules, institutional incentives, and initial awareness should be specified and varied explicitly. Stable conclusions across seeds and prompt paraphrases, alongside sensitivity to meaningful mechanism changes, provide complementary checks. This is the methodological agenda of [[papers/ai-agents-alone-are-not-yet-sufficient-for-social-simulation|AI Agents Alone Are Not (Yet) Sufficient for Social Simulation]], which proposes these audits without empirically validating them.
 
+### Target-population and image-level agreement
+
+Synthetic perception judgments require validation against the population whose perceptions matter. In Detroit street-view ratings, Bollen, Higton, and Sands (2025) find stronger model correlations with national respondents than local residents; strong correlations can still coexist with significant per-image mean differences. Local and demographic persona prompts generally fail to repair alignment. This extends validity assessment to both the identity of the human reference population and the distinction between relative ordering and absolute ratings.
+
 ## Important Papers
+
+- [[papers/nationally-representative-locally-misaligned-the-biases-of-generative-artificial-intelligence-in-neighborhood-perception|Nationally Representative, Locally Misaligned]] compares multimodal neighborhood judgments with national and Detroit survey samples, demonstrating geographic and subgroup limits to synthetic perception ratings.
 
 - [[LLM-Based Social Simulations Require a Boundary]] develops the mean-variance framework, reviews 21 studies, and argues for validation and claim scope matched to heterogeneity requirements.
 - [[Lost in Simulation: LLM-Simulated Users are Unreliable Proxies for Human Users in Agentic Evaluations]] directly compares LLM-simulated and human users in agentic evaluation, finding simulator-model sensitivity, difficulty-dependent miscalibration, and unequal proxy quality across demographic groups.
