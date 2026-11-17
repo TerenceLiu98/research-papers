@@ -42,7 +42,7 @@ The learning model uses reactive strategies conditioned on the partner’s previ
 
 ## Experiments
 
-The two-player experiments include 550 linear-game and 554 threshold-game participants; four-player experiments add 312 and 276, respectively. Participants are Beijing Normal University students. Two sessions switch roles and partners. Linear sessions last 20–25 rounds, with the first 20 analyzed; threshold sessions last 20 rounds. Three two-player threshold treatments reuse Wang et al. (2023) data. Comparisons use group-level round averages and two-tailed nonparametric tests.
+The two-player experiments include 550 linear-game and 554 threshold-game participants; four-player experiments add 312 and 276, respectively. Participants are Beijing Normal University students. Two sessions switch roles and partners. Linear sessions last 20–25 rounds, with the first 20 analyzed; threshold sessions last 20 rounds. Three two-player threshold treatments reuse Wang et al. (2023) data. Comparisons use group-level round averages and two-tailed nonparametric tests: Mann–Whitney–Wilcoxon across treatments and Wilcoxon signed-rank within treatments. Each pair in each session is treated as an independent observation in the reported analysis.
 
 | Outcome | Linear games | Threshold games |
 | --- | --- | --- |

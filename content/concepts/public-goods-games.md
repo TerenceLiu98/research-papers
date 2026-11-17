@@ -1,6 +1,7 @@
 ---
 title: Public Goods Games
 type: concept
+definition: "Public goods games model costly individual contributions to a shared benefit, exposing tensions between private incentives and collective welfare."
 aliases:
   - Public Goods Game
   - Collective-Action Dilemma
