@@ -34,7 +34,11 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 
 - Language-driven simulations can produce directional influence without indiscriminate imitation. [[papers/selective-agreement-not-sycophancy-investigating-opinion-dynamics-in-llm-interactions|Selective agreement, not sycophancy]] finds preferential acceptance of more agreeable stances in a constrained Ship of Theseus debate, illustrating why collective convergence alone does not establish unconditional conformity or human realism.
 
+- State-dependent susceptibility scales responsiveness to averaging without requiring selective ties. [[papers/polar-opinion-dynamics-in-social-networks|Polar Opinion Dynamics in Social Networks]] proves convergence for three such models on strongly connected directed networks. In its stubborn-extremists model, opposing agents with exactly zero susceptibility sustain disagreement; interior initial opinions instead reach consensus. Partial resistance alone need not maintain disagreement.
+
 ## Important Papers
+
+- [[papers/polar-opinion-dynamics-in-social-networks|Polar Opinion Dynamics in Social Networks]]
 
 - [[Stochastic Thermodynamics of Social Imitation beyond Energetics]]
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]
