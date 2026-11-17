@@ -16,12 +16,16 @@ Stance detection classifies an expressed position relative to a target. Overall 
 
 ## Key Ideas
 
+- Context is part of measurement: explicit target mentions, coder knowledge, and document segmentation influence whether an expressed position is recoverable.
+
 - **Specify the target and labels together.** The same text may support one actor while opposing another.
 - **Validate the intended construct.** Accuracy against sentiment labels does not establish accuracy against stance labels, regardless of model sophistication.
 - **Evaluate downstream consequences.** Misclassified stance can weaken or obscure relationships between political opinions and other characteristics.
 - **Scope matters.** Sentiment and stance may correlate in one corpus and be nearly unrelated in another; validation should use the intended domain and target.
 
 ## Important Papers
+
+- [[papers/stance-detection-a-practical-guide-to-classifying-political-beliefs-in-text|Stance detection: a practical guide]]: defines stance through propositions and contextual entailment, and compares three classification paradigms.
 
 - [[papers/sentiment-is-not-stance-target-aware-opinion-classification-for-political-text-analysis|Sentiment is Not Stance: Target-Aware Opinion Classification for Political Text Analysis]]: contrasts sentiment and stance across protest tweets, survey responses, and confirmation-hearing tweets, including consequences for regression estimates.
 

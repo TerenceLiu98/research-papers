@@ -16,6 +16,8 @@ Natural language inference evaluates the relationship between a premise and a hy
 
 ## Key Ideas
 
+- Validate synonymous hypotheses and distinguish a single-hypothesis threshold from choosing the highest-scoring label: these decision rules can disagree even on the same entailment scores.
+
 - Label wording operationalizes the construct: a topic hypothesis and a support hypothesis ask different questions about the same document.
 - Binary entailment/non-entailment is sufficient for many annotation tasks; it should not be confused with separately identifying contradiction and missing evidence.
 - Zero-shot evaluation should specify what is unseen. Holding out hypotheses tests transfer across label statements, while holding out source datasets tests a different generalization boundary.
@@ -25,6 +27,8 @@ Natural language inference evaluates the relationship between a premise and a hy
 Intermediate NLI training preserves a reusable task head when downstream labels are expressed as hypotheses. This can reduce annotation requirements, but the wording must capture the construct and predictions still require independent validation.
 
 ## Important Papers
+
+- [[papers/stance-detection-a-practical-guide-to-classifying-political-beliefs-in-text|Stance detection: a practical guide]]: demonstrates hypothesis sensitivity checks and reproduces COVID-19 threat-minimization findings with zero-shot NLI.
 
 - [[papers/political-debate-efficient-zero-shot-and-few-shot-classifiers-for-political-text|Political DEBATE]]: adapts NLI encoders to political annotation, using held-out hypotheses and repeated few-shot experiments to study transfer and efficiency.
 
