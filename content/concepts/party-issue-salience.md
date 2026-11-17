@@ -25,7 +25,11 @@ Cardinal relative salience weights sum to a fixed budget over a specified issue 
 
 Internal unity can constrain issue emphasis. Lehmann finds that both candidate preference heterogeneity and expert-perceived public divisions are associated with lower party issue salience. Avoidance is less pronounced when the issue is highly salient across the party system, suggesting limits to parties’ control over their agendas. Expert assessments may register public infighting that party-controlled manifestos deemphasize. These observational associations do not identify deliberate avoidance independently of other consequences of divisions.
 
+Emphasis can affect perceived ideological location: randomized fictional-party messages in Germany and Austria shift broader perceptions toward the more emphasized stance. Some issue perceptions also change; mediation analyses support a largely direct pathway, although the economic tax-emphasis contrast against two short messages is not significant. Perceived aggregate movement therefore need not entail reversal of stated policy directions.
+
 ## Important Papers
+
+- [[papers/how-do-voters-form-perceptions-of-party-positions|How do Voters Form Perceptions of Party Positions?]]: tests emphasis-based ideological perceptions across economic and sociocultural issues.
 
 - [[papers/keeping-the-team-together-how-intra-party-divisions-shape-party-behavior-across-issues|Keeping the team together]]: compares issue avoidance, position change, and blurring across eight issues; avoidance receives the most consistent support with both expert and candidate measures of divisions.
 
