@@ -33,7 +33,13 @@ Distributional alignment alone does not establish that an intervention works thr
 
 Synthetic perception judgments require validation against the population whose perceptions matter. In Detroit street-view ratings, Bollen, Higton, and Sands (2025) find stronger model correlations with national respondents than local residents; strong correlations can still coexist with significant per-image mean differences. Local and demographic persona prompts generally fail to repair alignment. This extends validity assessment to both the identity of the human reference population and the distinction between relative ordering and absolute ratings.
 
+### Operational validity and evidence alignment
+
+Larooij and Törnberg's 35-study review frames operational validity around purpose alignment, external grounding, and robustness. A simulation of platform effects needs evidence about relevant behavior or interaction mechanisms; realistic prose alone is weak support. Internal consistency checks and comparisons with other models complement human-data validation but do not independently establish it. This broadens the mean–variance perspective to the fit between the intended scientific claim and the evidence actually collected.
+
 ## Important Papers
+
+- [[papers/validation-is-the-central-challenge-for-generative-social-simulation|Validation is the central challenge for generative social simulation]] reviews five validation strategies and finds that subjective assessments remain primary in 22 of 35 studies.
 
 - [[papers/nationally-representative-locally-misaligned-the-biases-of-generative-artificial-intelligence-in-neighborhood-perception|Nationally Representative, Locally Misaligned]] compares multimodal neighborhood judgments with national and Detroit survey samples, demonstrating geographic and subgroup limits to synthetic perception ratings.
 
