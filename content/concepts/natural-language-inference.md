@@ -22,9 +22,13 @@ Natural language inference evaluates the relationship between a premise and a hy
 - Paraphrase augmentation can improve robustness to equivalent label wording. It does not resolve substantive ambiguity in a construct.
 - Few-shot fine-tuning can teach project-specific definitions, but requires examples representative of the target population and independent validation.
 
+Intermediate NLI training preserves a reusable task head when downstream labels are expressed as hypotheses. This can reduce annotation requirements, but the wording must capture the construct and predictions still require independent validation.
+
 ## Important Papers
 
 - [[papers/political-debate-efficient-zero-shot-and-few-shot-classifiers-for-political-text|Political DEBATE]]: adapts NLI encoders to political annotation, using held-out hypotheses and repeated few-shot experiments to study transfer and efficiency.
+
+- [[papers/less-annotating-more-classifying|Less Annotating, More Classifying]]: compares eight political classification tasks and finds strong macro-F1 gains from NLI transfer under limited and imbalanced supervision.
 
 ## Related Concepts
 
