@@ -1,6 +1,7 @@
 ---
 title: Define–Combine Procedure
 type: concept
+definition: "A two-stage redistricting procedure in which one party draws twice the required number of equal-population contiguous subdistricts and the opposing party pairs adjacent subdistricts into final districts."
 aliases:
   - DCP
   - Define–Combine redistricting

@@ -8,6 +8,7 @@ authors:
 year: 2023
 doi: "10.1017/pan.2023.39"
 source_job_id: 25474daa-e5a9-4577-b491-f7ed48c62049
+validated_job_id: 40f7c059-fbff-4336-9106-d48274437c34
 tags:
   - redistricting
   - gerrymandering
@@ -56,6 +57,8 @@ Under simulated unilateral Democratic control, Democrats win 334 of 429 seats (7
 | Deviation from fairness target | 0.230 | 0.063 | 0.094 |
 | Partisan bias | 0.304 | 0.069 | 0.080 |
 | Magnitude of efficiency gap | 0.241 | 0.109 | 0.103 |
+
+Table 1 restricts partisan-bias calculations to states with a 2020 Democratic presidential vote share between 45% and 55%. The 46-seat DCP swing sums state-level differences rather than subtracting the national totals, because some states exhibit a second-mover advantage.
 
 The adopted-plan comparisons use the party controlling each state's actual process. DCP improves most clearly over legislatures and political commissions; its results are comparable to independent commissions and court or special-master plans on several metrics. Alternative vote swings and selected state-legislative maps also eliminate more than 80% of the URP seat swing.
 
