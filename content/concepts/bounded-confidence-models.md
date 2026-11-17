@@ -25,12 +25,16 @@ Bounded confidence models are continuous [[Opinion Dynamics|opinion-dynamics]] m
 - Adaptive-network variants allow disagreeing agents to cut ties and form new ones. Opinion proximity and network topology then coevolve rather than treating the contact graph as fixed.
 - Cluster size measures capture global outcomes, while local measures such as the fraction of neighbors within an agent's confidence bound can characterize how locally aligned the network has become.
 
+- Whole-group confidence gates allow a single dissenter to block compromise. Larger groups can smooth consensus transitions on sparse random hypergraphs, while spatial structure or high connectivity can preserve sharp transitions.
+
 ## Important Papers
 
 - Hegselmann and Krause (2002), "Opinion dynamics and bounded confidence: Models, analysis and simulation."
 - Kozma and Barrat, "Consensus formation on adaptive networks."
 - [[Political opinion formation: Initial opinion distribution and individual heterogeneity of tolerance]]
 - [[A Modified Hegselmann-Krause Model for Interacting Voters and Political Parties]]
+
+- [[papers/higher-order-interactions-destroy-phase-transitions-in-deffuant-opinion-dynamics-model|Higher order interactions destroy phase transitions in Deffuant opinion dynamics model]]: tests group-wide confidence gates and their topology-dependent transitions.
 
 ## Related Concepts
 
