@@ -17,6 +17,8 @@ Diffusion models learn to generate data by reversing a gradual noising process. 
 
 ## Key Ideas
 
+- A diffusion prior can regularize the information content of learned latents. [[papers/unified-latents-ul-how-to-train-your-latents|Unified Latents]] matches fixed encoder noise to the prior endpoint, uses an unweighted prior ELBO to bound latent information, and pairs it with a reweighted diffusion decoder. A separate generator then learns the frozen latent space; better reconstruction alone does not ensure better generation.
+
 - In continuous Gaussian diffusion, the forward process adds Gaussian noise over a sequence of timesteps; the reverse process iteratively predicts less noisy states until a sample is obtained.
 - Gaussian denoising diffusion probabilistic models can be understood through score estimation: predicted noise is related to the gradient of the noisy data's log density by a noise-level-dependent scaling and sign.
 - [[concepts/discrete-diffusion-models|Discrete Diffusion Models]] instead corrupt categorical states through transition matrices. Structured kernels can encode ordinal locality or use [[concepts/absorbing-state-diffusion|Absorbing-State Diffusion]] to replace tokens with persistent masks. Austin et al.'s D3PM experiments show that the useful corruption structure depends on the data domain.
