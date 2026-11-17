@@ -62,6 +62,8 @@ With the authors' semi-structured codebooks, weighted zero-shot F1 is 0.57/0.53 
 
 Manual analysis of Mistral-7B finds non-compliance in 0% of sampled BFRS outputs, 2% of CCC outputs, and 45% of Manifestos outputs. Semantics or reasoning mistakes account for 50%, 26%, and 29% of those samples. The authors also identify lexical-overlap shortcuts, ambiguous codebook precedence, document problems, and disputed gold labels.
 
+On BFRS, removing Mistral-7B's output reminder reduces weighted F1 from 0.53 to 0.42; removing positive and negative examples reduces it to 0.46 (Table 4). With all other components removed, retaining only the definition and label yields 0.20, while the label alone yields 0.29. These ablations support testing each codebook-model pairing rather than assuming that definitions are always used faithfully.
+
 ### Instruction-Tuning Results
 
 QLoRA improves every reported model-dataset combination. BFRS weighted F1 reaches 0.81 for Llama-8B and 0.82 for Mistral-7B, gains of 0.24 and 0.29 over zero-shot. CCC reaches 0.68 and 0.72, both gains of 0.07. Mistral-7B reaches 0.38 on Manifestos, a gain of 0.23; the Llama-8B Manifestos run is omitted after an out-of-memory failure at batch size one. The largest relative gain is 55% for Mistral-7B on BFRS.
