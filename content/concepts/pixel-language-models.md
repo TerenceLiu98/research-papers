@@ -28,7 +28,11 @@ Pixel language models process text after rendering it as an image. Instead of as
 
 - **Document transfer needs more than synthetic semantic matching.** PIXEL LINGUIST II combines contrastive text-pair learning with natural-image grounding, variable spatial scales, and rendering diversity; strong synthetic Visual STS performance alone does not imply strong real-document retrieval.
 
+- **Contrastive learning can unify text and images.** CLIPPO shares every encoder component across rendered text and natural images. Consecutive-sentence co-training improves language transfer but can reduce cross-modal retrieval, so interface unification does not eliminate task trade-offs.
+
 ## Important Papers
+
+- [[papers/clippo-image-and-language-understanding-from-pixels-only|CLIPPO: Image-and-Language Understanding from Pixels Only]]: learns a fully shared pixel encoder with image–text and sentence-pair contrastive objectives.
 
 - Rust et al. (2023), "Language Modelling with Pixels": introduces PIXEL, a ViT-MAE language encoder trained on rendered text.
 - Lotz et al. (2023), "Text Rendering Strategies for Pixel Language Models": shows that structured rendering can reduce patch redundancy and improve efficiency.
