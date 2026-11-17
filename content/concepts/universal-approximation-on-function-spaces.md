@@ -17,6 +17,8 @@ Universal approximation on function spaces studies when neural networks can appr
 
 ## Key Ideas
 
+- Approximation in probability is another function-space guarantee: Luo and Qi approximate random functional outputs in $L^2$ outside an event of arbitrarily small probability, under truncation and finite-dimensional continuity conditions. This differs from uniform approximation on a compact set.
+
 - Function-space affine layers can be represented by integral transforms, followed by pointwise nonlinear activations. Finite-dimensional dense layers are recovered when the index sets are finite.
 - A universal approximation guarantee is local to a specified class and topology. Approximation on every compact subset of $C_0(S)$ does not imply a single uniform approximation over the entire infinite-dimensional space.
 - On a noncompact index domain, $C_0(S)$ restricts attention to continuous functions that vanish at infinity. Compact families in this space are equivanishing, allowing their tails to be uniformly controlled by continuous cutoff functions.
@@ -26,6 +28,8 @@ Universal approximation on function spaces studies when neural networks can appr
 - The concept overlaps with [[concepts/neural-operators|Neural Operators]], but operator architectures may additionally seek discretization independence, computational efficiency, or domain-specific inductive biases that an abstract universality theorem does not establish.
 
 ## Important Papers
+
+- [[papers/general-nonlinear-function-on-function-regression-via-functional-universal-approximation|General Nonlinear Function-on-Function Regression via Functional Universal Approximation]]: develops smooth continuous-hidden-layer regression with a probabilistic approximation guarantee.
 
 - [[papers/universal-approximation-with-neural-networks-on-function-spaces|Universal Approximation with Neural Networks on Function Spaces]]: extends approximation to uniformly continuous maps between $C_0$ spaces on potentially noncompact domains and applies it to symmetry-aware learning algorithms.
 - Guss and Salakhutdinov (2019), "On Universal Approximation by Neural Networks with Uniform Guarantees on Approximation of Infinite Dimensional Maps": gives a compact-domain function-space result used as a foundation by Kumagai, Sannai, and Kawano.

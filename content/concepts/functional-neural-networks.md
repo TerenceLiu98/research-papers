@@ -19,6 +19,8 @@ Functional neural networks use curves or other function-valued observations as i
 
 ## Key Ideas
 
+- A continuous hidden index can replace a finite neuron sum with an integral. Luo and Qi fit this construction with second-derivative penalties and learned orthonormal input directions; component count and smoothing parameters still require selection.
+
 - A functional neuron computes an activation from terms of the form $\int_{\mathcal T}\beta(t)x(t)\,dt$, optionally combined with ordinary scalar covariates.
 - A continuous functional neuron can produce an entire function, applying a nonlinear activation to $b(s)+\sum_j\int w_j(s,t)H_j(t)\,dt$. Stacking these neurons preserves functional hidden representations for function-on-function regression or, with a final integration layer, scalar-on-function prediction. The latter is the FDNN/FBNN design in [[papers/non-linear-functional-modeling-using-neural-networks|Nonlinear Functional Modeling Using Neural Networks]].
 - Representing $\beta(t)$ in a finite basis converts functional-weight learning into optimization over basis coefficients. Numerical quadrature evaluates the resulting inner products on sampled curves.
@@ -31,6 +33,8 @@ Functional neural networks use curves or other function-valued observations as i
 - Related architectures differ in what is learned. Fixed-basis FNNs optimize coefficients over prespecified bases; [[Adaptive Basis Layers]] parameterize the basis functions themselves with neural networks; [[Function-Space Autoencoders]] learn unsupervised representations or reconstructions in function space.
 
 ## Important Papers
+
+- [[papers/general-nonlinear-function-on-function-regression-via-functional-universal-approximation|General Nonlinear Function-on-Function Regression via Functional Universal Approximation]]: develops smooth continuous-hidden-layer regression with a probabilistic approximation guarantee.
 
 - [[Nonlinear Functional Principal Component Analysis Using Neural Networks]]
 - [[Non-linear Functional Modeling using Neural Networks]]
