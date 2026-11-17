@@ -27,6 +27,8 @@ LLM multi-agent systems coordinate multiple language-model agents toward an indi
 
 ## Important Papers
 
+- [[papers/capable-language-models-can-outgrow-the-benefits-of-collaboration|Capable language models can outgrow the benefits of collaboration]] compares 260 configurations under matched system compute ceilings. Decomposable financial tasks benefit while sequential planning degrades; its approximately 45% single-agent baseline threshold is a validated selection heuristic within the tested setting, not a universal law.
+
 - [[papers/who-deserves-the-reward-sharp-shapley-credit-based-optimization-for-multi-agent-system|Who Deserves the Reward? SHARP: Shapley Credit-based Optimization for Multi-Agent System]] studies [[concepts/multi-agent-credit-assignment|agent-level credit assignment]] for a shared-policy planner-worker system, combining terminal accuracy, counterfactual worker contribution, and tool-validity rewards.
 - [[papers/llm-multi-agent-systems-challenges-and-open-problems|LLM Multi-Agent Systems: Challenges and Open Problems]] organizes the field around structural forms, global and local planning, layered context, and a taxonomy of memory, then identifies open problems in coordination and memory management.
 - Du et al. (2023), "Improving Factuality and Reasoning in Language Models through Multiagent Debate," studies iterative debate as a reasoning scaffold.
