@@ -25,6 +25,8 @@ Electoral district compactness quantifies boundary geometry. It can inform distr
 
 ## Important Papers
 
+- [[papers/lattice-studies-of-gerrymandering-strategies|Lattice Studies of Gerrymandering Strategies]]: synthetic lattice experiments produce connected partisan maps with much lower Polsby–Popper scores than a symmetric baseline; this does not establish a universal detection threshold.
+
 - [[papers/gerrymandering-and-compactness-implementation-flexibility-and-abuse|Gerrymandering and Compactness: Implementation Flexibility and Abuse]]: quantifies implementation sensitivity and demonstrates adversarial selection of measurement settings.
 
 ## Related Concepts
