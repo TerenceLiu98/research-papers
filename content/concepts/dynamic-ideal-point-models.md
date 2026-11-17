@@ -17,6 +17,8 @@ Dynamic ideal point models estimate how an unobserved position changes over time
 
 ## Key Ideas
 
+- **Spatially coupled measurement and evolution:** Juhl jointly estimates roll-call positions and neighbor/family dependencies. Uncertainty affects both lagged positions and proximity-based connectivity, so using posterior means as fixed regressors can understate downstream uncertainty. The direction of coefficient distortion is not universally attenuation.
+
 - **Polynomial trajectories and bootstrap uncertainty:** DW-NOMINATE links sessions through legislator-specific polynomial trajectories, commonly linear. Carroll et al. (2009) refit simulated vote matrices and align their scales to propagate uncertainty into positions and party medians; conditional errors that hold roll-call parameters fixed are smaller on average.
 
 - **Coupled latent trajectories:** Kubinec and Owen combine retweet-based IRT measurement with vector autoregressive priors linking ideological allies across countries. Joint estimation propagates measurement uncertainty into impulse responses, but the lag channels do not by themselves identify causal transmission.
@@ -31,6 +33,8 @@ Dynamic ideal point models estimate how an unobserved position changes over time
 - **Validation:** Recovery, rank order, uncertainty, and downstream regression errors answer different questions. Good recovery under a matching simulation model does not establish that an empirical trajectory measures ideology rather than another source of behavioral variation.
 
 ## Important Papers
+
+- [[papers/measurement-uncertainty-in-spatial-models-a-bayesian-dynamic-measurement-model|Measurement Uncertainty in Spatial Models: A Bayesian Dynamic Measurement Model]]: integrates institutional voting incentives and spatially coupled transitions; German state-legislature estimates support moderate family dependence but not positive neighbor responses.
 
 - [[papers/dynamic-ideal-point-estimation-for-the-european-parliament-1980-2009|Dynamic Ideal Point Estimation for the European Parliament, 1980-2009]]: uses structured variational estimation to place 2,710 MEPs on a common six-monthly scale from 1980 to 2009, then studies individual movement, party-group shifts, and ideological heterogeneity.
 - [[papers/generalized-ideal-point-models-for-noisy-dynamic-measures-in-the-social-sciences|Generalized Ideal Point Models for Noisy Dynamic Measures in the Social Sciences]]: combines temporal priors, mixed outcomes, missingness adjustment, and Bayesian computation; contrasts flexibility with sparsity in monthly U.S. House estimates.
