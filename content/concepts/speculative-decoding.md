@@ -22,6 +22,8 @@ Speculative decoding accelerates autoregressive generation by pairing a fast dra
 
 ## Important Papers
 
+- [[papers/next-latent-prediction-transformers-learn-compact-world-models|Next-Latent Prediction Transformers Learn Compact World Models]]: NextLat recursively composes a jointly trained latent transition to draft beyond its training horizon. It reports up to 3.32× speedup on Books in its tested B200 setup; longer-horizon JTP is faster on Code in the extended comparison.
+
 - Stern et al. (2018), "Blockwise Parallel Decoding for Deep Autoregressive Models": develops blockwise parallel generation with auxiliary prediction models.
 - Leviathan et al. (2023), "Fast Inference from Transformers via Speculative Decoding": presents a draft-and-verify procedure that preserves the target distribution.
 - Chen et al. (2023), "Accelerating Large Language Model Decoding with Speculative Sampling": independently develops speculative sampling for transformer decoding.
