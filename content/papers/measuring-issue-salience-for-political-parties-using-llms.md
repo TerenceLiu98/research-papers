@@ -55,6 +55,10 @@ Budgeted LLM correlations with raw expert ratings are strongest for environment 
 
 Figure 2 shows similar distributions for LLM and human-coded manifesto measures, both assigning greater economic and social weight than experts. Table 4 reports an MP–LLM Fisher-z-average correlation of 0.56 on 63 cases, with immigration unavailable and social-policy correlation −0.07. Distributional similarity therefore does not imply uniform party-level agreement.
 
+The party-group analysis finds significantly higher immigration-salience correlations for far-right parties than for other parties, without the same pattern on other issues. Green parties show high environmental salience with little variation, so their low within-group correlations do not imply low agreement in levels; they do not drive the aggregate environmental correlation.
+
+The authors suggest that forced pairwise choices discard information about near ties. More than half of unconstrained integer-score assignments give identical values to at least three issues, compared with just under 21% of budgeted assignments, while ranking and pairwise prompts do not permit ties. This is a proposed explanation for pairwise underperformance, rather than a separately identified mechanism.
+
 ## Limitations
 
 - Expert judgments are not observed true priorities; they may incorporate information absent from manifestos. Strategic ambiguity is an interpretation of source divergence, not an experimentally established cause.
