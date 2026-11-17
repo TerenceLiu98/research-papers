@@ -21,9 +21,13 @@ Differential item functioning is a violation of measurement invariance: the rela
 - Mixture components need not be substantively distinct populations. Similar components can require post-processing before interpreting how many measurement regimes exist.
 - Accounting for DIF within groups does not automatically align latent scales across groups.
 
+Substantive DIF can also reflect different issue–ideology relationships across countries, rather than response artifacts alone. Binding, Koedam, and Steenbergen separate country-varying discrimination and party–issue deviations from national scale use and expert noise, conditional on a common ideological dimensionality.
+
 ## Important Papers
 
 - [[papers/a-nonparametric-bayesian-model-for-detecting-differential-item-functioning-an-application-to-political-representation-in-the-us|Shiraito, Lo, and Olivella (2023)]]: uses a Dirichlet process prior over item response functions to discover comparable subsets of voters and legislators.
+
+- [[papers/the-comparative-meaning-of-political-space-a-comprehensive-modeling-approach|The comparative meaning of political space]]: models substantive and measurement-related variation jointly in repeated expert ratings of parties.
 
 ## Related Concepts
 
