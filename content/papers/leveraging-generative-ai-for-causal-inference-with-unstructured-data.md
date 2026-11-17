@@ -6,6 +6,7 @@ authors:
   - Kentaro Nakamura
 year: 2026
 source_job_id: fa56daa5-1672-4833-9571-c534c2498de7
+validated_job_id: 02d404b4-4063-4c13-b5b0-067971a00b5d
 tags:
   - causal-inference
   - generative-ai
