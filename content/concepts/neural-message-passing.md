@@ -16,6 +16,8 @@ Neural message passing is a general framework for learning representations on gr
 
 ## Key Ideas
 
+- [[papers/you-are-allset-a-multiset-learning-framework-for-hypergraph-neural-networks|AllSet]] generalizes graph message passing through two learned multiset functions, aggregating nodes into hyperedges and hyperedges into nodes. Its recipient-specific formulation recovers MPNNs on ordinary graphs; the experiments use a cheaper shared hyperedge state.
+
 - A message function determines what information one node sends along an edge; an aggregation such as sum, mean, or maximum makes the result insensitive to neighbor ordering.
 - An update function combines the aggregated message with the node's current state. Repeating this operation expands the receptive field across the graph.
 - Edge weights or attention scores can make influence depend on structure or learned node similarity.
