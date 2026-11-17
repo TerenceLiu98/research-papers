@@ -29,10 +29,14 @@ Including both components permits distinct between- and within-cluster coefficie
 - **Random slopes change the argument:** A within-cluster covariate may also have a random slope. Misspecifying that slope distribution can affect its corresponding fixed coefficient, so random-intercept robustness should not be extended automatically.
 - **Interpretation:** These are statistical contrasts. A within-cluster comparison alone does not establish a causal effect.
 
+In linear random-intercept models, adding the group means of all included lower-level regressors (including transformed terms) reproduces group-FE coefficients under a spherical working error specification. Hazlett and Wainstein show that cluster-robust standard errors also agree when finite-sample corrections match. This does not correct group-level coefficients or eliminate within-group confounding.
+
 ## Important Papers
 
 - [[papers/misspecifying-the-shape-of-a-random-effects-distribution-why-getting-it-wrong-may-not-matter|Misspecifying the Shape of a Random Effects Distribution: Why Getting It Wrong May Not Matter]]: uses this distinction to organize robustness results and compare within- and between-cluster coefficients in simulations.
 - Neuhaus and McCulloch (2006), "Separating between and within-cluster covariate effects using conditional and partitioning methods": identified in the 2011 review as a treatment of covariate dependence and bias reduction.
+
+- [[papers/understanding-choosing-and-unifying-multilevel-and-fixed-effect-approaches|Understanding, Choosing, and Unifying Multilevel and Fixed Effect Approaches]]: derives the bias-correction and inference equivalences for linear models.
 
 ## Related Concepts
 
