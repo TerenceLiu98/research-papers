@@ -21,10 +21,14 @@ A Cox proportional hazards model assumes that a covariate’s multiplicative eff
 - Test size and power answer different questions. Average p-values alone do not measure false-positive frequency or the probability of detecting a violation.
 - Correcting a quadratic term or interaction does not itself correct a time-varying coefficient. These are separate aspects of model specification.
 
+The full calculation can also overreject for a constant-effect covariate correlated with a true PH violator. In Metzger’s implementation study, this occurs even at absolute correlation 0.35 and persists at n = 1,000. The approximation controls false positives better in those two-covariate settings, but can lose power; this does not remove its sensitivity to functional-form misspecification.
+
 ## Important Papers
 
 - Grambsch and Therneau (1994), “Proportional Hazards Tests and Diagnostics Based on Weighted Residuals” — develops the diagnostic framework.
 - [[papers/proportionally-less-difficult-reevaluating-keeles-proportionally-difficult|Metzger (2023)]] — demonstrates calculation-dependent size and power under omitted quadratic and interaction terms; its results do not establish general immunity to misspecification.
+
+- [[papers/implementation-matters-evaluating-the-proportional-hazard-tests-performance|Implementation Matters]] — compares correlated-covariate scenarios and demonstrates that the full calculation’s advantage in earlier uncorrelated settings does not generalize.
 
 ## Related Concepts
 
