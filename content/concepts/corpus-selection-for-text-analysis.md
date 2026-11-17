@@ -16,6 +16,8 @@ Corpus selection connects a substantive target population to the documents actua
 
 ## Key Ideas
 
+- In longitudinal archives, source transitions can change segmentation and metadata coverage even when document lengths remain stable. Define whether procedural turns and inserted remarks belong to the target population.
+
 - Distinguish the source universe, the relevant population, and the retrieved corpus.
 - Keyword retrieval makes inclusion rules inspectable and portable, but omitted synonyms, vocabulary change, and sentiment-laden search terms can bias coverage.
 - Archive subject categories may incorporate expertise, yet proprietary or changing assignment rules complicate replication.
