@@ -24,6 +24,8 @@ Weakly supervised learning trains models from labels that are incomplete, noisy,
 
 ## Important Papers
 
+- [[papers/how-populist-are-parties|How Populist are Parties?]]: Inherits manifesto sentence labels from party classifications and aggregates random-forest predictions into party scores. Agreement with expert surveys and an Italian manually coded comparison supports the proxy, while country-specific scales and source-label confounding constrain interpretation.
+
 - [[papers/predicting-the-politics-of-an-image-using-webly-supervised-data|Predicting the Politics of an Image Using Webly Supervised Data]]
 - Chen and Gupta (2015), "Webly supervised learning of convolutional networks."
 - Oquab, Bottou, Laptev, and Sivic (2015), "Is object localization for free? Weakly-supervised learning with convolutional neural networks."
