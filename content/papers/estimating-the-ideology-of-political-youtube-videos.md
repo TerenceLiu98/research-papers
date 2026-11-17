@@ -9,6 +9,7 @@ authors:
   - Jonathan Nagler
   - Richard Bonneau
 year: 2024
+doi: 10.1017/pan.2023.42
 tags:
   - ideology-estimation
   - text-as-data
@@ -63,10 +64,14 @@ The application uses 345 respondents who watched 6,012 unique News & Politics vi
 
 ## Related Concepts
 
+- [[concepts/news-sharing-based-ideology-estimation|News-Sharing-Based Ideology Estimation]]: both infer ideology from shared links; this paper scales individual videos using subreddit reception and transfers those labels to metadata predictions.
+
 - [[concepts/social-media-ideal-point-estimation|Social-Media Ideal-Point Estimation]]: shared homophily motivation and relational scaling, applied here to video–community affinities rather than user–elite followership.
 - [[concepts/text-scaling-models|Text Scaling Models]]: supervised metadata regression transfers relational labels to previously unobserved videos.
 
 ## Related Papers
+
+- [[papers/news-sharing-on-social-media-mapping-the-ideology-of-news-media-politicians-and-the-mass-public|News Sharing on Social Media: Mapping the Ideology of News Media, Politicians, and the Mass Public]]: related shared-link measurement at the outlet and actor level; this paper cites its 2020 preprint as an antecedent.
 
 - [[papers/estimating-ideal-points-of-british-mps-through-their-social-media-followership|Estimating Ideal Points of British MPs Through Their Social Media Followership]]: a related correspondence-analysis application to political followership; the measured objects and source relationships differ.
 - Barberá (2015), “Birds of the Same Feather Tweet Together”: cited spatial-following foundation for the homophily assumption.

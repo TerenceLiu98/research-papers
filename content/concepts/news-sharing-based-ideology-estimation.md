@@ -16,6 +16,8 @@ News-sharing-based ideology estimation uses the distribution of links shared by 
 
 ## Key Ideas
 
+- Shared-link measurements can also target individual media items. Reddit video reception provides correspondence-analysis labels for a metadata regression model in the YouTube application. This differs from jointly estimating user and outlet positions with a spatial count model; both rely on an affinity interpretation of observed sharing.
+
 - A user-by-outlet count matrix provides equivalent behavioral observations for citizens and politicians.
 - A spatial count model separates sharing activity and outlet popularity from ideological proximity. Negative-binomial dispersion accommodates differences in how informative outlets are.
 - Hierarchical pooling stabilizes sparse estimates, but group-specific priors introduce information that should be distinguished from the sharing data themselves.
@@ -24,6 +26,8 @@ News-sharing-based ideology estimation uses the distribution of links shared by 
 - URLs offer a transferable data format, while cross-platform validity still requires evidence.
 
 ## Important Papers
+
+- [[papers/estimating-the-ideology-of-political-youtube-videos|Estimating the Ideology of Political YouTube Videos]]: extends shared-link measurement to individual videos and uses BERT to predict scores for videos absent from the source matrix.
 
 - [[papers/news-sharing-on-social-media-mapping-the-ideology-of-news-media-politicians-and-the-mass-public|News Sharing on Social Media: Mapping the Ideology of News Media, Politicians, and the Mass Public]]: develops a Bayesian negative-binomial spatial model and validates media scores using congressional votes and survey-linked Twitter users.
 
