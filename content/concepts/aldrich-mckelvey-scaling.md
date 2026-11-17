@@ -30,6 +30,10 @@ Aldrich-McKelvey scaling places respondents and political actors on a common lat
 - Hare et al. (2015), "Using Bayesian Aldrich-McKelvey Scaling to Study Citizens' Ideological Preferences and Perceptions": develops the unpooled Bayesian implementation.
 - [[papers/hierarchical-bayesian-aldrich-mckelvey-scaling|Hierarchical Bayesian Aldrich-McKelvey Scaling]]: combines hierarchical priors, noisy self-placement modeling, and scale-flipping mixtures; compares prediction and recovery with the unpooled and positive-only alternatives.
 
+## Assessment Application
+
+In [[papers/bridging-the-grade-gap-reducing-assessment-bias-in-a-multi-grader-class|Bridging the Grade Gap]], shared student assignments connect graders with different severity and scoring-range use. A sparse overlap permits calibration of singly graded assignments. One shared exam substantially reduces rank error in the reported course because a consistent severity difference dominates; this does not establish that one bridge suffices to recover arbitrary shifts and stretches in every assessment setting.
+
 ## Related Concepts
 
 - [[concepts/blackbox-scaling|Blackbox Scaling]]: related recovery of political coordinates from survey response matrices.
