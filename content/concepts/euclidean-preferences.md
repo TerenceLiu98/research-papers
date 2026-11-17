@@ -24,6 +24,8 @@ Euclidean preferences represent alternatives and individuals as points in a shar
 - **Embedding relevance is conditional:** Euclidean distance and cosine similarity on normalized vectors induce the same ordinal comparisons. Expressiveness limits therefore matter for proximity-based ranking, but need not transfer unchanged to a downstream nonlinear network that can compensate for the embedding geometry.
 - **Known alternative coordinates enable preference disaggregation:** In multi-criteria decision aiding, alternatives may already be located by their observed attributes. Pairwise judgments can then identify an individual's ideal point and attribute-specific distance weights, including when preferences peak at intermediate attribute values.
 
+In [[papers/trading-liberties-estimating-covid-19-policy-preferences-from-conjoint-data|Trading Liberties]], experimentally varied policy ratings identify a quadratic utility surface without imposing a Euclidean shape. The full-sample conditional policy surfaces support a spatial interpretation, while the representative unvaccinated group has non-convex preferences and boundary optima. This illustrates why fitting utility over policy coordinates and assuming distance-based preferences are distinct modeling choices.
+
 ## Important Papers
 
 - Bogomolnaia and Laslier (2007), "Euclidean preferences": characterizes dimensional sufficiency and develops obstructions to Euclidean representation.
