@@ -49,7 +49,11 @@ Exact count aggregation to a common coarse support identifies the contrast there
 
 Geocoded survey responses can support constituency means through a spatial response model, kriging at simulated citizen locations, and aggregation within target boundaries. Population-proportional sampling targets residents rather than land area. Monogan and Gill combine demographic prediction with covariance-weighted residual information; their 2008 application illustrates that flexible geographic aggregation does not imply uniformly better validation performance at every scale.
 
+Gill's 2021 extension illustrates why source geolocation and target population support must be handled separately. ZIP codes locate training respondents, whereas census blocks supply simulated population locations for aggregation. Replacing ZCTAs with address-derived ZIP polygons addresses one source of placement error; using finer census inputs addresses another. Neither alone validates district-level accuracy. Alaska and Hawaii additionally require an explicitly constructed ideological-neighbor geometry for prediction.
+
 ## Important Papers
+
+- [[papers/measuring-constituency-ideology-using-bayesian-universal-kriging|Measuring Constituency Ideology Using Bayesian Universal Kriging]]: extends point-to-block ideology estimation to all states and legislative scales with refined geolocation and census-block simulation.
 
 - [[papers/measuring-state-and-district-ideology-with-spatial-realignment|Measuring State and District Ideology with Spatial Realignment]]: estimates constituency ideology from geocoded surveys through Bayesian kriging and population-informed point-to-block aggregation.
 
