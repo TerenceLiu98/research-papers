@@ -34,7 +34,7 @@ Large indicator panels can introduce irrelevant variables and correlated idiosyn
 
 The final estimator is a mixed-frequency dynamic factor model (DFM), using principal-component initialization and Kalman smoothing in the two-step framework of Giannone, Reichlin, and Small (2008) and Doz, Giannone, and Reichlin (2011). Monthly latent GDP growth is linked to quarterly growth through the Mariano-Murasawa aggregation weights $(1/3,2/3,1,2/3,1/3)$. Missing releases are accommodated in the state-space observation system.
 
-Preselection uses the balanced historical portion of each information set. Monthly indicators are either aggregated into quarterly indicators (A) or split into three quarterly series representing the three months of each quarter (S, skip-sampling). Skip-sampling preserves within-quarter timing but triples the monthly predictor block. This is related to the blocking approach used in [[concepts/midas-regression|MIDAS Regression]]; the final prediction model here remains a DFM.
+Preselection uses the balanced historical portion of each information set. Monthly indicators are either aggregated into quarterly indicators using the geometric mean of the three monthly values (A; Section 2.2) or split into three quarterly series representing the three months of each quarter (S, skip-sampling). Skip-sampling preserves within-quarter timing but triples the monthly predictor block. This is related to the blocking approach used in [[concepts/midas-regression|MIDAS Regression]]; the final prediction model here remains a DFM.
 
 Eight targeted-predictor nowcast (TPN) specifications combine these frequency treatments with three selection strategies:
 
@@ -97,6 +97,8 @@ Diebold-Mariano tests do not establish significance for every numerical gain. Fo
 - The supplied Markdown has damaged equations and table captions. The summary uses readable prose and table entries rather than reconstructing corrupted optimization formulas. It supplies an acceptance date of 20 August 2024, but no explicit publication year, venue, DOI, or other stable identifier; publication year is therefore left null.
 
 ## Related Concepts
+
+- [[concepts/mixed-frequency-dynamic-factor-models|Mixed-Frequency Dynamic Factor Models]]: the downstream state-space estimator whose nowcast errors guide predictor-set validation.
 
 - [[concepts/targeted-predictors-for-factor-models|Targeted Predictors for Factor Models]]: supervised screening before factor extraction, with tuning evaluated against the final prediction task.
 - [[concepts/midas-regression|MIDAS Regression]]: related mixed-frequency treatment that preserves higher-frequency timing.

@@ -1,6 +1,7 @@
 ---
 title: Targeted Predictors for Factor Models
 type: concept
+definition: "Targeted predictors are a supervised subset of an indicator panel selected using the prediction target before factor extraction and forecasting."
 aliases:
   - Targeted Predictor Preselection
 tags:
@@ -28,6 +29,8 @@ Targeted predictors are a supervised subset of an indicator panel selected befor
 - [[papers/predictor-preselection-for-mixed-frequency-dynamic-factor-models|Predictor Preselection for Mixed-Frequency Dynamic Factor Models: A Simulation Study With an Empirical Application to GDP Nowcasting]]: compares elastic-net tuning strategies and proposes ranking candidate subsets by a preceding-quarter DFM nowcast error with release delays imposed.
 
 ## Related Concepts
+
+- [[concepts/mixed-frequency-dynamic-factor-models|Mixed-Frequency Dynamic Factor Models]]: use the selected panel at its original observation frequencies, accommodating aggregation and release delays in the final nowcast.
 
 - [[concepts/factor-augmented-sparse-regression|Factor-Augmented Sparse Regression]]: retains sparse individual effects alongside factors in the final prediction equation; preselection instead changes the panel used to estimate factors.
 - [[concepts/midas-regression|MIDAS Regression]]: represents higher-frequency predictors for lower-frequency targets; within-quarter blocking also provides inputs for mixed-frequency screening.
