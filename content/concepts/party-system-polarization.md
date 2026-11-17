@@ -37,7 +37,7 @@ Party-system polarization describes how widely consequential political parties a
 - Dalton (2008), "The quantity and the quality of party systems: Party system polarization, its measurement, and its consequences."
 - Esteban and Ray (1994), "On the measurement of polarization."
 - Gross and Sigelman (1984), "Comparing party systems: A multidimensional approach."
-- Andrews and Money (2009), "The spatial structure of party competition: Party dispersion within a finite policy space."
+- [[papers/the-spatial-structure-of-party-competition-party-dispersion-within-a-finite-policy-space|Andrews and Money (2009), The Spatial Structure of Party Competition]] — extreme-party ranges increase up to roughly five parties in twenty parliamentary democracies; the plateau concerns occupied policy breadth, not weighted variance.
 
 ## Related Concepts
 
