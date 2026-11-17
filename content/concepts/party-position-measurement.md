@@ -22,7 +22,11 @@ Party-position measurement assigns political parties locations on ideological or
 - Longitudinal changes in score distributions may reflect party entry, exit, coalition changes, or movement by continuing actors. A system-level trend does not automatically isolate repositioning by individual parties.
 - [[concepts/party-system-polarization|Party-System Polarization]] depends on both measured positions and the weights assigned to actors. Equal weighting of electoral lists and weighting by vote shares answer different questions.
 
+- Wikipedia ideology tags provide another source: proximity-based scaling can place parties and keywords jointly, with ordered left–right labels adding information. Expert agreement and short-term stability support this use, but do not by themselves establish accurate longitudinal change or validity for parties outside expert coverage.
+
 ## Important Papers
+
+- [[papers/party-positions-from-wikipedia-classifications-of-party-ideology|Party Positions from Wikipedia Classifications of Party Ideology]]: scales 2,147 parties from Wikipedia tags; the joint model correlates 0.79 with DALP and 0.90 with CHES left–right ratings.
 
 - [[papers/mapping-aideology-a-taxonomy-of-european-parties-using-generative-llms-as-zero-shot-learners|Mapping (A)Ideology]]: Uses zero-shot judgments of named European parties to recover reputational positions; strong agreement with expert levels does not extend to valid measurement of party shifts.
 
