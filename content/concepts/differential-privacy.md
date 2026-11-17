@@ -27,9 +27,13 @@ $$
 - **Generation as a mechanism:** An LLM's sampled response can be analyzed conditional on a prompt and context. Token guarantees can accumulate across a fixed or bounded response length; additional interactions need further accounting.
 - **Evidence versus guarantee:** Lower empirical divergence between two sampled distributions is a diagnostic. It does not establish a uniform privacy bound across all neighboring datasets and possible outputs.
 
+Post-processing a released dataset without accessing confidential data preserves its privacy guarantee. Statistical validity is a separate issue: known additive privacy noise can bias regression on noisy covariates, and correcting that bias must also account for increased uncertainty.
+
 ## Important Papers
 
 - [[papers/differential-privacy-in-generative-ai-agents-analysis-and-optimal-tradeoffs|Differential Privacy in Generative AI Agents: Analysis and Optimal Tradeoffs]]: applies record-level privacy to agent-accessible data and derives conditional token and message bounds from logit sensitivity (Section IV).
+
+- [[papers/statistically-valid-inferences-from-differentially-private-data-releases-with-application-to-the-facebook-urls-dataset|Evans and King (2023)]]: develops noise-aware regression and descriptive inference for Gaussian-noise data releases.
 
 ## Related Concepts
 
