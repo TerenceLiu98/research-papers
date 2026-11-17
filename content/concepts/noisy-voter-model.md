@@ -17,6 +17,8 @@ The noisy voter model extends the voter model by combining social copying with s
 
 ## Key Ideas
 
+- [[papers/is-the-voter-model-a-model-for-voters|Is the Voter Model a Model for Voters?]] couples residence and workplace imitation through census commuting flows. Its imperfect-imitation noise yields a noisy diffusion approximation that reproduces stationary electoral dispersion and logarithmic spatial correlations. This external-noise formulation should be distinguished from the standard spontaneous-flip birth-death model; its calibrated target is local vote-share fluctuations around the national mean.
+
 - In the voter mechanism, an agent copies another agent's binary state. The noisy extension adds an intrinsic mechanism that can change the selected agent independently of its neighbors.
 - For a well-mixed population with symmetric opinions, the number of agents in one state is sufficient to describe the macroscopic birth-death process. Its stationary distribution is symmetric around equal coexistence.
 - In the local formulation, weak noise relative to herding produces a bimodal finite-population distribution concentrated near consensus, while stronger noise produces a unimodal distribution centered on coexistence. The associated critical noise scale decreases with population size, so this standard transition is a finite-size effect.
