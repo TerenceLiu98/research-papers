@@ -24,6 +24,8 @@ The voter model is a stochastic binary-state process in which a selected agent a
 
 Degree-dependent continuous-time copying at rate $d(v)^\varphi$ has ancestral-walk stationary weights proportional to $d(v)^{1-\varphi}$. On [[concepts/hyperbolic-random-graphs|Hyperbolic Random Graphs]], the consensus scale can match the inverse stationary collision flux even with slow mixing; establishing this requires control of remeeting probabilities.
 
+A spatial interface can also change the continuum limit. In [[papers/the-voter-model-with-a-slow-membrane|The Voter Model with a Slow Membrane]], copying across a hyperplane at rate $\alpha N^{-\beta}$ produces unrestricted diffusion, Robin transmission, or Neumann reflection as $\beta$ passes through 1, for $d\geq4$. This concerns density evolution on an infinite lattice rather than finite-system consensus times.
+
 ## Important Papers
 
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]
