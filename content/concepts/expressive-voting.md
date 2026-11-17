@@ -20,6 +20,8 @@ Expressive voting treats casting a ballot as a source of value through expressin
 - **Alternative explanations:** Elite mobilization can also produce higher aligned turnout and greater candidate awareness. Contact measures help assess this alternative, but absence of a statistically detectable contact increase does not demonstrate absence of campaign influence.
 - **Evidence boundary:** Turnout changes, candidate awareness, and reported contact jointly inform the theory. None directly measures the utility of identity expression, and their association is not itself causal mediation evidence.
 
+- **Conflicting identities:** In Bourgeois-Gironde and Ferreira’s model, voting must respect every party identification to avoid a dominant betrayal cost. With disjoint party acceptance regions, dual identifiers abstain even if collectively a majority. This is a conditional theoretical mechanism, not an estimated turnout effect.
+
 ## Important Papers
 
 - Schuessler (2000), "Expressive voting," as discussed in the ingested article: Develops an identity-expression account in which group context affects the payoff from participation.
