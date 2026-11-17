@@ -28,7 +28,13 @@ Topic model evaluation distinguishes the quality of topic word lists from the us
 
 Coherent topic words do not establish that a researcher’s label measures the intended concept. Random 4 Word Set Intrusion supplies richer word context for coherence judgments. Label Intrusion asks readers to reject an unrelated conceptual label, while Optimal Label asks them to select the best label for a document. Comparisons within a substantive category test finer distinctions than comparisons across categories. Scores depend on this distractor design and cannot establish interval-scale properties of topic proportions or universal adequacy thresholds.
 
+### Task-specific validation and reporting
+
+A review of 789 studies finds no observable convergence toward common validation combinations. Its taxonomy separates model comparison, internal and external qualitative inspection, error-rate analysis, downstream tasks, information-theoretic metrics, top-word distinctiveness, and similarity measures. Model comparison needs another criterion to judge the alternatives; downstream success still requires validating the downstream task. Choose complementary evidence for the intended use and explain how interpretations were reached. Using the same substantive result both to validate a model and to confirm a hypothesis risks circular reasoning. The review samples explicit validation reports, so its findings concern standardization rather than the prevalence of absent validation.
+
 ## Important Papers
+
+- [[papers/beyond-standardization-a-comprehensive-review-of-topic-modeling-validation-methods-for-computational-social-science-research|Beyond standardization]] reviews validation practices across 789 studies and motivates transparent, context-sensitive combinations of evidence.
 
 - [[papers/topics-concepts-and-measurement-a-crowdsourced-procedure-for-validating-topics-as-measures|Topics, Concepts, and Measurement]] separates coherence from label validation and demonstrates repeatable crowdsourced tasks on senators’ Facebook posts.
 
