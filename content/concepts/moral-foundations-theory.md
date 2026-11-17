@@ -29,7 +29,11 @@ In multilingual party manifestos, Stecker and Hopp (2025) find that dictionary, 
 
 MFTC operationalizes each foundation as separate virtue and vice presence labels, allowing multiple concerns per tweet. Its coding guide treats disagreement as potentially meaningful subjectivity and cautions against forcing consensus. Its classification baselines collapse those poles, so annotation granularity and prediction targets must be distinguished.
 
+Hatemi, Crabtree, and Smith (2019) distinguish this descriptive framework from its use as a causal explanation of ideology. In two longitudinal samples, prior ideology predicted later questionnaire-based foundations more consistently than the reverse; an ANES comparison found little additional prediction of ideology from foundations. Observational panel evidence supports a predictive asymmetry without conclusively establishing causality.
+
 ## Important Papers
+
+- [[papers/ideology-justifies-morality-political-beliefs-predict-moral-foundations|Ideology Justifies Morality: Political Beliefs Predict Moral Foundations]]: measurement checks and longitudinal tests of the direction between ideology and moral judgments.
 
 - [[papers/moral-foundations-twitter-corpus-a-collection-of-35k-tweets-annotated-for-moral-sentiment|Moral Foundations Twitter Corpus]]: multi-domain human annotations, annotator metadata, and comparative classification baselines.
 
