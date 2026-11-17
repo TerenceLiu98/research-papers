@@ -23,7 +23,11 @@ Moral Foundations Theory describes moral judgment as drawing on multiple partial
 - Moral rhetoric can be emotionally intense and can co-occur with insults or other toxic language. Co-occurrence does not by itself establish that moral language causes toxicity.
 - The association between a foundation and toxicity can depend on the audience, political setting, outlet, and communication mode. In the Taiwanese comparison by Hsiao and colleagues, loyalty and authority language were especially associated with toxicity in YouTube talk shows.
 
+Textual measurement can separate the magnitude of foundation language from its virtue–vice direction and within-message variation. Duan et al.'s vec-tionary fits axes to signed dictionary relevance ratings, then computes mean absolute projection, mean projection, and projection variance. Its crowdsourced validation improves Strength rankings for three of five foundations in COVID-19 tweets; this does not establish the validity of every derived metric or transfer to other settings.
+
 ## Important Papers
+
+- [[papers/constructing-vec-tionaries-to-extract-message-features-from-texts-a-case-study-of-moral-content|Constructing Vec-tionaries to Extract Message Features from Texts: A Case Study of Moral Content]]: weighted dictionary-to-embedding measurement and pairwise validation.
 
 - [[Toxicity and Moral Rhetoric in Video- and Text-Based Digital Platforms: A Multimethod Study of Political Talk Shows and News Articles in Taiwan]]
 - Graham, Haidt, and Nosek (2009), ["Liberals and conservatives rely on different sets of moral foundations"](https://doi.org/10.1037/a0015141).
