@@ -84,5 +84,5 @@ Replication data and code: [Harvard Dataverse](https://doi.org/10.7910/DVN/HL7ZY
 ## Related Papers
 
 - McCandless, Gustafson, and Levy (2007), “Bayesian Sensitivity Analysis for Unmeasured Confounding in Observational Studies”: foundational parametric Bayesian sensitivity framework.
-- Pang, Liu, and Xu (2022), “A Bayesian Alternative to Synthetic Control for Comparative Case Studies”: Bayesian factor-model baseline extended here.
+- Pang, Liu, and Xu (2022), [[papers/a-bayesian-alternative-to-synthetic-control-for-comparative-case-studies|A Bayesian Alternative to Synthetic Control for Comparative Case Studies]]: Bayesian factor-model baseline extended here.
 - Rambachan and Roth (2023), “A More Credible Approach to Parallel Trends”: assesses departures from parallel trends through restrictions on bias rather than an explicit latent-confounder prior.
