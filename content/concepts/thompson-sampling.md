@@ -24,6 +24,8 @@ Thompson sampling is a Bayesian adaptive allocation rule that assigns an arm acc
 
 - Gaussian variants support rating outcomes beyond the Beta–Bernoulli case. In crowdsourced surveys, the arm set can grow during fieldwork, so late-arriving questions have less opportunity to accumulate observations.
 
+**Continuous optimization and amortization.** For a continuous objective, posterior sampling selects the maximizer of a sampled posterior function. A conditional generative model can instead approximate the distribution of that maximizer directly. [[papers/thompson-sampling-using-prior-fitted-diffusion-transformers|Thompson Sampling using Prior-fitted Diffusion Transformers]] learns this distribution from synthetic function priors with flow matching. This permits non-Gaussian priors and inexpensive batch proposals, while introducing finite-training approximation error.
+
 ## Important Papers
 
 - Thompson (1933), "On the Likelihood that One Unknown Probability Exceeds another in View of the Evidence of Two Samples": the foundational reference cited by the conjoint paper.
