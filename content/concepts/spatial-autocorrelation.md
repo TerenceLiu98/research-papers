@@ -21,9 +21,13 @@ Spatial autocorrelation describes whether values observed at geographically rela
 - Residual diagnostics assess whether geographic structure remains after modeling observed predictors. A nonsignificant residual test does not establish a particular causal mechanism or prove that all dependence has been eliminated.
 - A spatial autoregressive model $y=\rho Wy+X\beta+\epsilon$ represents simultaneous dependence among locations. A positive fitted $\rho$ supports modeled spatial association; interpreting it as causal diffusion requires additional identifying assumptions.
 
+- Network uncertainty can affect regression bias as well as spatial diagnostics. Under classical nondifferential error in a spatial lag, including that noisy lag can reduce own-unit coefficient bias relative to omitting it; this comparison does not extend automatically to differential error or endogenous ties.
+
 ## Important Papers
 
 - [[papers/ideological-and-geographical-patterns-in-european-political-system-an-archetypoid-and-spatial-analysis|Ideological and geographical patterns in European political system: An Archetypoid and Spatial Analysis]]: applies Moran diagnostics and a spatial autoregressive model to European parliamentary orientations, finding robust spatial clustering of a social conservative authoritarian policy component but weaker evidence for left-wing intensity.
+
+- [[papers/bias-from-network-misspecification-under-spatial-dependence|Bias from Network Misspecification Under Spatial Dependence]]: derives conditional omission and measurement-error bias bounds for SLX and SAR models.
 
 ## Related Concepts
 
