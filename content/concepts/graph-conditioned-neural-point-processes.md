@@ -22,6 +22,8 @@ Graph-conditioned neural point processes incorporate relationships among event s
 
 ## Important Papers
 
+- [[papers/hgthp-a-novel-hyperbolic-geometric-transformer-hawkes-process-for-event-prediction|HGTHP]]: combines graph embeddings with Lorentz-distance attention and Klein-model aggregation; time-prediction ablations favor both components, while event-type gains vary by dataset.
+
 - [[papers/gthp-a-novel-graph-transformer-hawkes-process-for-spatiotemporal-event-prediction|GTHP: a novel graph transformer Hawkes process for spatiotemporal event prediction]]: combines graph convolution with causal self-attention; its experiments show consistent RMSE improvements but mixed event-type gains.
 - Du et al. (2021), *Astrologer*, cited and compared in GTHP: combines graph convolution and recurrent temporal encoding.
 
