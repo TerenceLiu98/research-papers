@@ -29,6 +29,8 @@ Text embedding models map text to fixed-length numerical representations so that
 
 ## Important Papers
 
+- [[papers/cross-lingual-classification-of-political-texts-using-multilingual-sentence-embeddings|Cross-Lingual Classification of Political Texts Using Multilingual Sentence Embeddings]]: knowledge-distilled XLM-R features support manifesto classification with scarce labels and reduce unseen-language transfer losses relative to translation plus bag-of-words.
+
 - [[The Embedder's Dilemma: LLMs Are Better, but at What Cost?]]
 - [[papers/a-semantic-embedding-space-based-on-large-language-models-for-modelling-human-beliefs|A semantic embedding space based on large language models for modelling human beliefs]]
 - [[papers/jina-embeddings-v5-omni-geometry-preserving-embeddings-via-locked-aligned-towers|jina-embeddings-v5-omni: Geometry-preserving Embeddings via Locked Aligned Towers]]
