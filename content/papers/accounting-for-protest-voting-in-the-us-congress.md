@@ -6,6 +6,7 @@ authors:
   - Jefrey B. Lewis
 year: 2026
 source_job_id: "331d61d1-0265-45ff-bd53-457c806b0cf3"
+revalidated_job_id: "66e8442c-93a6-4e45-84e8-5f7b94a952c1"
 tags:
   - legislative-politics
   - ideal-point-estimation
