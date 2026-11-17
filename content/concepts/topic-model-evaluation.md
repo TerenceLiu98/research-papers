@@ -24,7 +24,13 @@ Topic model evaluation distinguishes the quality of topic word lists from the us
 - **Temporal and hierarchical structure:** Streaming models additionally require assignment stability and semantic-drift measures across updates. Hierarchical models require parent-child coherence and sibling diversity; neither flat coherence nor stability alone establishes a meaningful taxonomy.
 - **Efficiency scope:** Distinguish model fitting time from end-to-end processing. For example, [[papers/fastopic-pretrained-transformer-is-a-fast-adaptive-stable-and-transferable-topic-model|FASTopic]] reports runtime after data loading, so document embedding computation is outside its primary timing comparison.
 
+### Coherence and conceptual label validity
+
+Coherent topic words do not establish that a researcher’s label measures the intended concept. Random 4 Word Set Intrusion supplies richer word context for coherence judgments. Label Intrusion asks readers to reject an unrelated conceptual label, while Optimal Label asks them to select the best label for a document. Comparisons within a substantive category test finer distinctions than comparisons across categories. Scores depend on this distractor design and cannot establish interval-scale properties of topic proportions or universal adequacy thresholds.
+
 ## Important Papers
+
+- [[papers/topics-concepts-and-measurement-a-crowdsourced-procedure-for-validating-topics-as-measures|Topics, Concepts, and Measurement]] separates coherence from label validation and demonstrates repeatable crowdsourced tasks on senators’ Facebook posts.
 
 - [[papers/topic-modeling-in-embedding-spaces|Topic Modeling in Embedding Spaces]] evaluates predictive document completion separately from a topic-quality product combining NPMI coherence and topic diversity.
 - Chang et al. (2009), "Reading Tea Leaves: How Humans Interpret Topic Models," provides the intrusion-task reference used by CGTM.
