@@ -22,6 +22,8 @@ The voter model is a stochastic binary-state process in which a selected agent a
 - In multilayer variants, agents may carry one state per context. [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]] shows that frequent symmetric reconciliation between an agent's two states can suppress the same-layer imitation events needed for rapid global consensus.
 - A failure to reach consensus within a fixed simulation window is not by itself proof of a non-consensus thermodynamic phase; observation time and finite-size scaling must be reported explicitly.
 
+Degree-dependent continuous-time copying at rate $d(v)^\varphi$ has ancestral-walk stationary weights proportional to $d(v)^{1-\varphi}$. On [[concepts/hyperbolic-random-graphs|Hyperbolic Random Graphs]], the consensus scale can match the inverse stationary collision flux even with slow mixing; establishing this requires control of remeeting probabilities.
+
 ## Important Papers
 
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]
