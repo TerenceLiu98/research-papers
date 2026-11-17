@@ -15,6 +15,8 @@ Functional data classification predicts a label from an observation that is a cu
 
 ## Key Ideas
 
+- Derivatives can expose rate and curvature differences, while additive decomposition can separate trend, seasonal, and residual signals. Their usefulness is dataset-dependent: in [[papers/advanced-data-augmentation-methods-in-neural-network-for-functional-data-classification|Meng et al. (2026)]], derivative augmentation loses to the original FBNN on two of six datasets despite improving other tasks.
+
 - A common workflow smooths discrete noisy observations and represents each curve with FPCA scores, basis coefficients, distances, or learned coordinates before fitting a classifier.
 - FPCA is effective when leading covariance directions contain the class information, but it can be inefficient when phase variation or other nonlinear effects inflate ambient variance.
 - Manifold-based classification treats the curves as points on a lower-dimensional geometric object. Geodesic distances and nonlinear embeddings can reveal class boundaries that are difficult to express in the original function space.
