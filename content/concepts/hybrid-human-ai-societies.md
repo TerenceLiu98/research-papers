@@ -27,6 +27,8 @@ Hybrid human-AI societies are populations and institutions in which humans and a
 
 ## Important Papers
 
+- [[papers/on-the-optimal-integration-of-intelligent-agents-into-network-systems-to-steer-cooperation|On the optimal integration of intelligent agents into network systems to steer cooperation]] derives an intermediate optimal bot prevalence under weak-selection network imitation. Neutral bots dilute ordinary contacts; TFT-like bots additionally favor cooperators through differential payoffs. The optimum depends on the game and network, and the base model excludes imitation of bots.
+
 - [[papers/social-physics-in-the-age-of-artificial-intelligence|Social Physics in the Age of Artificial Intelligence]] organizes the field into six research directions spanning behavior, culture, language, delegation, epistemic processes, and regulation.
 - [[papers/reputation-as-a-solution-to-cooperation-collapse-in-llm-based-mass|Reputation as a Solution to Cooperation Collapse in LLM-based MASs]] demonstrates one simulated mechanism linking reputation, partner choice, and cooperation among language-model agents.
 - [[papers/llms-for-social-network-modeling-from-network-generation-to-dynamic-processes|LLMs for Social Network Modeling: From Network Generation to Dynamic Processes]] surveys language models as generators of networks and participants in dynamic social processes.
