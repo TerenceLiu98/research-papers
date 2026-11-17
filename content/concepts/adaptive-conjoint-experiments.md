@@ -1,6 +1,7 @@
 ---
 title: Adaptive Conjoint Experiments
 type: concept
+definition: "Adaptive conjoint experiments update allocation across profile contexts using accumulated responses to discover where a focal attribute has especially strong or weak effects."
 aliases:
   - Adaptive Conjoint Design
 tags:

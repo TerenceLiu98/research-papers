@@ -63,7 +63,7 @@ Warm-up and adaptive posterior means favored the college-educated profile in eve
 
 ### Job applicants
 
-Respondents compared equally qualified women applying for a human resources position. Motherhood was signaled through parent-teacher association involvement versus a neighborhood association role. Applicant race and educational institution rank defined four contexts. Data were collected on Prolific during February and March 2024, with adaptive updates in batches of 200 respondents (Section 4.2).
+Respondents compared equally qualified women applying for a human resources position. Motherhood was signaled through parent-teacher association involvement versus a neighborhood association role. Applicant race and educational institution rank defined four contexts. Appendix H reports that race was signaled with names drawn from prior research and Census surname lists, while institution rank was signaled with University of Pennsylvania/MIT versus California State University, Long Beach/San Diego State University. Data were collected on Prolific during February and March 2024, with adaptive updates in batches of 200 respondents (Section 4.2).
 
 Estimated probabilities of selecting the non-mother were close to 0.5 in all four contexts. The most probable maximum and minimum had posterior selection probabilities of 39% and 47%. The authors stopped after adaptive sampling and omitted validation because the observed heterogeneity was too small to justify further collection. This is a near-null result for these survey choices, not evidence that actual employers never discriminate against mothers.
 
@@ -81,7 +81,7 @@ Appendix E constructs a high-order interaction example whose true choice probabi
 - Similar profiles can reveal the focal comparison and invite social desirability bias. Different signals and one task per respondent mitigate this concern at the cost of fewer observations per respondent.
 - Prolific is a non-probability sample, and hypothetical hiring choices need not generalize to employer behavior. Poststratification does not remove unmeasured selection bias.
 - Optimal allocation across phases, stopping rules, and mixing of minimum and maximum searches remain open questions.
-- The supplied Markdown ends immediately after Appendix H's opening paragraph. Further signal-selection details are unavailable in this source; several numerical results appear only as images.
+- Several numerical results appear only as images in the supplied Markdown; exact validation estimates are not transcribed here.
 
 ## Related Concepts
 
