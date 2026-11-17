@@ -17,6 +17,8 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 
 ## Key Ideas
 
+- [[papers/opinion-dynamics-statistical-physics-and-beyond|Opinion dynamics: Statistical physics and beyond]] separates microscopic mechanisms from macroscopic outcomes: assimilation, distancing, similarity bias, and adaptive ties can contribute to different collective patterns depending on opinion representation and interaction structure.
+
 - A binary opinion model can represent the population by the number of agents holding one opinion when interaction symmetry makes that aggregation exact. More general networks usually require node-level or topology-aware states.
 - Herding or conformity moves an agent toward opinions observed in others. Anticonformity or differentiation moves it away from matching opinions. Their relative rates can determine whether a system favors consensus or polarization.
 - Nonlinear group interactions, such as q-voter rules and threshold rules, make the probability of change depend nonlinearly on the composition of a sampled group. For `q > 1`, these nonlinearities can support order-disorder transitions.
