@@ -46,6 +46,8 @@ Sampling solves $d\phi_t/dt=v_\theta(\phi_t,t)$ with $\phi_0=\epsilon$. The asso
 
 **Temporal coupling.** TFM couples adjacent-frame velocity magnitudes through a tridiagonal system and trains with equation-residual and direction losses. This changes independent conditional interpolation paths while retaining the video network’s temporal attention and standard inference procedure. Numerical integration adds training cost. See [[papers/temporal-aware-flow-matching-for-video-generation-with-temporally-coherent-motion|Temporal-aware Flow Matching]].
 
+**Contrastive target repulsion.** [[papers/contrastive-flow-matching|Contrastive Flow Matching]] subtracts a weighted squared distance to an independent minibatch velocity target from ordinary conditional regression. The negative can share the positive class. This changes the ideal regression target and improves reported image FID without extra prediction passes, but does not establish a general nonintersection guarantee across conditions. Excessive repulsion worsens quality, and some REPA comparisons trade recall for fidelity.
+
 ## Important Papers
 
 - [[papers/flare-flow-matching-with-local-axis-angle-representations-for-stochastic-micromagnetic-evolution|FLARE: Flow Matching with Local Axis-Angle Representations for Stochastic Micromagnetic Evolution]]: transports anchor-relative local rotation fields to sample finite-temperature magnetization endpoints while preserving pointwise unit norm through rotation-based decoding.
