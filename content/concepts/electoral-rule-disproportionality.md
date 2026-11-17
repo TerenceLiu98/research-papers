@@ -21,6 +21,8 @@ Electoral rule disproportionality concerns how electoral rules translate vote sh
 - Electoral rules can also affect entry. In the three-potential-party model of Matakos, Troumpounis, and Xefteris, stronger disproportionality eventually makes the centrist party's seat return insufficient to cover entry cost. This is a conditional mechanism, not a universal claim about which parties disappear.
 - Empirical proxies require care: the 2013 paper uses a non-FPTP indicator and log average district magnitude, both increasing with proportionality. These proxies are not direct estimates of the model's exponent or measures of an election's realized vote-seat discrepancy.
 
+Threshold exclusion and allocation among eligible parties should be distinguished. [[papers/national-electoral-thresholds-and-disproportionality|National Electoral Thresholds and Disproportionality]] estimates both jointly: omitting a threshold can inflate the estimated power-law advantage of larger parties. Its proportionality parameter applies to eligible parties, not to overall vote-seat discrepancy. See [[concepts/national-electoral-thresholds|National Electoral Thresholds]].
+
 ## Important Papers
 
 - [[papers/electoral-rule-disproportionality-and-platform-polarization|Electoral Rule Disproportionality and Platform Polarization]] derives direct moderation and indirect entry channels, with observational evidence for the electoral-rule association and weaker evidence for a separate party-count effect.
