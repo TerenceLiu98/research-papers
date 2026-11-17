@@ -22,7 +22,11 @@ Populism and ultranationalism can overlap when appeals to the sovereignty of the
 
 - **Separate host ideology from populist rhetoric:** PopBERT labels moralizing anti-elitism and people-centrism separately from left-wing and right-wing attachments. Its host-ideology annotations require a core populist dimension, so they do not measure all socialist or nativist language.
 
+- **Conditional communication outcomes:** Cross-national party evidence associates lower source factuality with the combination of populism and right-wing economic ideology. This does not make misinformation a defining attribute of populism or equate economic position with national exclusion.
+
 ## Important Papers
+
+- [[papers/when-do-parties-lie-misinformation-and-radical-right-populism-across-26-countries|When Do Parties Lie?]]: Compares elite source sharing across 26 countries and tests populism jointly with economic ideology.
 
 - [[papers/popbert-detecting-populism-and-its-host-ideologies-in-the-german-bundestag|PopBERT]]: Measures German parliamentary populist dimensions and their ideological attachments with a multilabel classifier.
 
