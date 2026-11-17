@@ -53,7 +53,7 @@ $$
 \left[\frac{p_1D}{2n-2(t-1)},\ p_1D\right].
 $$
 
-The last accession countries each pay $(p_1-p_0/2)D$ and remain frontline states. Earlier members become hinterland states. Transfer multiplicity reflects the candidates' off-path coordination possibilities; it does not change the final alliance geography. The appendix further restricts which pairs of transfers can occur at the interval boundaries.
+The last accession countries each pay $(p_1-p_0/2)D$ and remain frontline states. Earlier members become hinterland states. Transfer multiplicity reflects the candidates' off-path coordination possibilities; it does not change the final alliance geography.
 
 A hegemon's maximum total transfer is $np_1D-p_0D/2$. Corollary 1 reports increasing upper and lower transfer bounds in damage, buffer-zone war probability, and the number of accession countries. When $p_1<p_0$, full absorption raises expected aggregate battlefield damage from $p_1D$ to $p_0D$.
 
@@ -78,4 +78,4 @@ Sensitivity analysis changes the result when buffers reduce war risk sufficientl
 - Benson and Smith (2023), “Commitment Problems in Alliance Formation,” studies the power shifts and preventive-war incentives excluded from the baseline.
 - Genicot and Ray (2006), “Contracts and Externalities: How Things Fall Apart,” provides a related sequential-contracting perspective on effects imposed on agents outside an agreement.
 
-Source: supplied parsed Markdown for Cognitio job `2f8f77ba-288b-487d-949c-feb30c0097dc`. Bibliographic year follows the 2026 journal issue; the supplied article carries a 2025 copyright notice.
+Source: supplied parsed Markdown for Cognitio job `f39d8fae-9bf2-419a-b45e-3e81b108cf5e`. Bibliographic year follows the 2026 journal issue; the supplied article carries a 2025 copyright notice.
