@@ -19,6 +19,8 @@ Text scaling models estimate the relative position of documents or speakers alon
 
 ## Key Ideas
 
+- Implied-word scaling links narrow survey statements through their associations with contextually common words. Repeated-response stability and correspondence with human-coded content provide complementary validation; a stable dimension need not represent left–right ideology.
+
 - Schulz’s Wordsticks extension scales ordinal survey reports of intended phrase usage. Randomizing the hypothetical audience separates changes in lexical ideology from changes in outspokenness; unlike document corpora, the survey observes intended abstention. Phrase parameters learned outside the experimental sample keep the outcome scale fixed across treatment comparisons.
 
 - Parschan and Jakob distinguish three measurement decisions: generating numerical textual variation, capturing the variation relevant to a construct, and aggregating it into positions. These are conceptual roles that may be jointly estimated rather than separate software stages.
@@ -41,6 +43,8 @@ Text scaling models estimate the relative position of documents or speakers alon
 - Long-context access does not by itself remove the measurement problem. Direct BigBird and Longformer estimates avoid gold statement boundaries but underperform label aggregation and compress positions toward the center, especially in cross-country transfer. Rank agreement should therefore be checked alongside score dispersion, extreme-class recall, and absolute error.
 
 ## Important Papers
+
+- [[papers/categorizing-topics-versus-inferring-attitudes|Categorizing Topics Versus Inferring Attitudes]]: develops common-word-based scaling for open-ended answers and validates dimensions using survey panels, with embeddings as an optional scoring extension.
 
 - [[papers/what-would-you-say-estimating-causal-effects-of-social-context-on-political-expression|What Would You Say?]]: adapts text scaling to randomized survey contexts, measuring lexical code-switching and self-censorship relative to close-friend speech.
 
