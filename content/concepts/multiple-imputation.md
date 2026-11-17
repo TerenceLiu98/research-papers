@@ -22,6 +22,8 @@ Multiple imputation propagates missing-value uncertainty into substantive infere
 
 ## Important Papers
 
+- [[papers/choosing-imputation-models|Choosing Imputation Models]]: compares observed and imputed distributions after balancing covariates under MAR; simulation and survey rankings differ, supporting dataset-specific model choice.
+
 - [[papers/the-midas-touch-accurate-and-scalable-missing-data-imputation-with-deep-learning|The MIDAS Touch]]: combines observed-value reconstruction with stochastic dropout to make neural multiple imputation scalable.
 - Rubin (1987), *Multiple Imputation for Nonresponse in Surveys*: foundational reference cited by the MIDAS paper.
 
