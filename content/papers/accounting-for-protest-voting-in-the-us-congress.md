@@ -6,7 +6,9 @@ authors:
   - Jefrey B. Lewis
 year: 2026
 source_job_id: "331d61d1-0265-45ff-bd53-457c806b0cf3"
-revalidated_job_id: "66e8442c-93a6-4e45-84e8-5f7b94a952c1"
+revalidated_job_id: "320b53af-f3a2-451e-9c39-26ff288842c7"
+previous_revalidated_job_ids:
+  - "66e8442c-93a6-4e45-84e8-5f7b94a952c1"
 tags:
   - legislative-politics
   - ideal-point-estimation
@@ -52,6 +54,7 @@ These are observational measurement and validation analyses, not randomized expe
 - **External correspondence:** Majority-party correlations with campaign-finance scores improve in 20 of 21 Congresses. Adjusted scores outperform MC3-GGUM on this criterion in 7 of 10 overlapping Congresses.
 - **Historical prevalence:** Protest is eligible on 27.4% of bills, with an expected 3.0 protest votes per eligible bill. The authors estimate fewer than one in 500 individual roll-call votes are protests and only two roll calls whose outcomes were changed by them.
 - **Robustness:** Cohesion thresholds from 70% to 95% yield no substantial changes in conclusions. Allowing minority-party protests or protest yea votes produces rank correlations above 0.999 with baseline ideology estimates in the 117th Congress.
+- **Utility-function robustness:** With Gaussian NOMINATE utility, adjusted and unadjusted scores differ less, but adjusted scores still correlate more strongly with campaign-finance scores; the article reports this comparison from its supplement.
 - **Substantive applications:** The article reports greater polarization, stronger district–representative ideological correspondence, and a larger electoral penalty for extremism after adjustment. Conditional on ideology, protest is associated with weaker fundraising; no electoral reward for protest itself is found. Detailed analyses are assigned to the supplementary material.
 
 ## Limitations
