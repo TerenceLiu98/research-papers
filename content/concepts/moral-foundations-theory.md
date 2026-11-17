@@ -25,6 +25,8 @@ Moral Foundations Theory describes moral judgment as drawing on multiple partial
 
 Textual measurement can separate the magnitude of foundation language from its virtue–vice direction and within-message variation. Duan et al.'s vec-tionary fits axes to signed dictionary relevance ratings, then computes mean absolute projection, mean projection, and projection variance. Its crowdsourced validation improves Strength rankings for three of five foundations in COVID-19 tweets; this does not establish the validity of every derived metric or transfer to other settings.
 
+In multilingual party manifestos, Stecker and Hopp (2025) find that dictionary, embedding, and fine-tuned classifier scores can disagree enough to reverse estimated ideological associations. Cross-language consistency and agreement with human labels are separate validation questions; sharing the MFT framework does not make textual instruments interchangeable.
+
 ## Important Papers
 
 - [[papers/constructing-vec-tionaries-to-extract-message-features-from-texts-a-case-study-of-moral-content|Constructing Vec-tionaries to Extract Message Features from Texts: A Case Study of Moral Content]]: weighted dictionary-to-embedding measurement and pairwise validation.
