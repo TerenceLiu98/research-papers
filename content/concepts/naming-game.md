@@ -22,12 +22,18 @@ The naming game studies how a shared convention can emerge through local interac
 
 - **Heterogeneous influence can be isolated from correctness.** Seeding different model classes with different meaningless labels measures which initial convention spreads. In a speaker–listener variant, only the listener updates its FIFO memory; majority amplification can differ by model. This differs from simultaneous choices with coordination payoffs.
 
+### Two-channel listener dynamics
+
+In an inventory-based LLM variant, $\pi=P(\mathrm{YES}\mid w\in P_j)$ measures consolidation acceptance and $\phi=P(\mathrm{YES}\mid w\notin P_j)$ measures repaint acceptance. YES collapses both inventories; NO adds the word to the listener. For constant rates, the complete-graph two-word mean field amplifies an imbalance when $3\pi-2\phi-1>0$. Time-varying rates, inventory sizes, and finite-run censoring limit direct application of this threshold to simulations.
+
 ## Important Papers
 
 - Baronchelli et al. (2006), *Sharp transition towards shared vocabularies in multi-agent systems*, Journal of Statistical Mechanics, P06014: the minimal naming-game model cited by Flint et al.
 - [[papers/group-size-effects-and-collective-misalignment-in-llm-multi-agent-systems|Group size effects and collective misalignment in LLM multi-agent systems]] uses a binary, finite-memory LLM version to study population-size effects and collective bias.
 
 - [[papers/who-is-the-influencer-consensus-dynamics-in-multi-agent-systems|Who Is the Influencer? Consensus Dynamics in Multi-Agent Systems]] reports stronger-model influence in heterogeneous populations and tests a heuristic energy account, with in-sample fits and failures on some minority-model victories.
+
+- [[papers/microscopic-dynamics-of-consensus-formation-in-multi-agent-llm-naming-games|Microscopic dynamics of consensus formation in multi-agent LLM Naming Games]] derives the two-channel threshold and compares temperature responses across three models.
 
 ## Related Concepts
 
