@@ -15,6 +15,8 @@ Flow matching learns a time-dependent vector field that transports a simple nois
 
 ## Key Ideas
 
+**Statistical adaptation to singular targets.** [[papers/flow-matching-is-adaptive-to-manifold-structures|Flow Matching is Adaptive to Manifold Structures]] reports intrinsic-dimension convergence exponents for an early-stopped linear-path estimator under smooth-manifold, positive-density, and one-sided velocity-regularity assumptions. Ambient dimension can still enter constants. Its distribution-estimation guarantee differs from prescribed geometric attraction; the support-estimation component also retains a gap relative to the cited lower bound.
+
 **Prescribed geometric stabilization.** [[papers/manifold-stable-flow-matching|Manifold-Stable Flow Matching]] projects the learned velocity onto tangent directions and adds analytical normal contraction. This separates geometric adherence from regression accuracy. Known-manifold convergence requires smooth projection along the trajectory; switching affine proxies have a union-convergence guarantee under minimum-residual selection. Neither guarantee alone establishes matching of the tangential data distribution.
 
 **Physical-time dynamics.** [[papers/conditional-flow-matching-for-time-series-modelling|Conditional Flow Matching for Time Series Modelling]] conditions probability paths on observed trajectories and regresses smoothed local velocities. Here time indexes system evolution; Kalman smoothing or Gaussian-process state–derivative models supply the conditional targets. The loss-equivalence result applies to the constructed paths, while recovery of true dynamics remains an empirical question.
