@@ -20,7 +20,11 @@ Metacognitive self-modification makes the procedure that generates an agent's fu
 - **Specify the outer boundary.** DGM-H's main experiments permit changes to the task and meta agents while leaving model weights, selection, evaluation, and task distributions fixed. A separate editable-selection experiment does not significantly exceed the handcrafted selector.
 - **Transfer is weaker than indefinite compounding.** DGM-H's transferred modifier produces substantial gains in math grading, but its final 200-iteration advantage over a fresh initialization is not significant. Reusable improvement strategies are supported more directly than sustained acceleration.
 
+- **Distributed reflection can drive modifier edits.** FoH first revises a server harness from client reflections, then uses it to revise a shared task harness. Its fixed-server ablation supports the value of server adaptation within the tested setup, while reflection-only updates provide no guarantee of monotonic improvement. Runtime validity checks remain distinct from external task-performance supervision.
+
 ## Important Papers
+
+- [[papers/federation-over-harness|Federation over Harness]]: evolves aggregation and client-harness generation from distributed reflections without benchmark feedback; evaluates a fixed-server ablation on daily and scientific tasks.
 
 - [[papers/hyperagents|HyperAgents]]: introduces the hyperagent formulation, implements DGM-H, and tests fixed-modifier transfer from paper review and robotics to math grading (Sections 3 and 5.2-5.3; Appendices D-E).
 - [[papers/darwin-godel-machine-open-ended-evolution-of-self-improving-agents|Darwin Godel Machine]]: lets evolving coding agents implement their own revisions, but retains a fixed diagnostic instruction generator. HyperAgents identifies this boundary as a constraint on generalizing the improvement mechanism.
