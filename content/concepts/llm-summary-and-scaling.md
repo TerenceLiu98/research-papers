@@ -1,6 +1,7 @@
 ---
 title: LLM Summary-and-Scaling
 type: concept
+definition: "A two-stage measurement strategy that summarizes a document for a target construct, then scores that summary on a substantively anchored scale."
 aliases:
   - Summary-and-Scaling Pipeline
   - Issue-Specific Summary Scaling

@@ -7,7 +7,7 @@ authors:
   - Conor Laver
   - Michael Laver
   - Jinshuai Ma
-year: 2025
+year: 2026
 doi: 10.1111/ajps.70050
 tags:
   - large-language-models
@@ -52,6 +52,17 @@ The baseline run generated 4,230 summaries and 25,380 possible scores across bot
 For five of six dimensions, correlations between the LLM ensemble and expert-survey means are generally high; the paper reports values often between .87 and .92. Zero-shot and few-shot results are essentially the same. For economic, social, immigration, and EU policy, the LLM and expert score distributions also align more closely than Manifesto Project-derived distributions.
 
 Decentralization is the central negative result. Experts use the full scale, whereas almost all manifestos advocate some decentralization and contain little anti-decentralization language. LLM estimates consequently show restricted variation and correlate much less strongly with experts. Environmental policy shows a milder version of this divergence. Agreement with Manifesto Project content suggests that these discrepancies may reflect what parties choose to state in manifestos rather than a simple model error, but the unobserved true party positions do not permit that interpretation to be settled.
+
+Table 6 in the supplied corrected article reports the following Pearson correlations. The reported and replication columns follow the June 30, 2026 correction.
+
+| Issue | Reported ensemble vs. experts | Replication vs. experts | Repeat vs. original ensemble | Open-weight vs. proprietary ensemble |
+| --- | --- | --- | --- | --- |
+| Economic | .87 | .87 | .97 | .95 |
+| Social | .92 | .90 | .97 | .95 |
+| Immigration | .89 | .89 | .96 | .93 |
+| European integration | .91 | .91 | .98 | .96 |
+| Environment | .82 | .76 | .92 | .92 |
+| Decentralization | .49 | .40 | .69 | .78 |
 
 ### Missingness and reliability
 
