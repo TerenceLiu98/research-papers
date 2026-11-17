@@ -47,7 +47,7 @@ $$
 
 Here $N_i$ and $N'_j$ are residence and workplace populations, and the noise is independent, zero-mean Gaussian white noise across groups. The authors identify this with an Edwards–Wilkinson equation on a disordered medium. Without external noise, this deterministic approximation conserves total support and relaxes toward a homogeneous configuration. Simulations instead update group counts with binomial draws from the original transition rates, visiting groups in random order each Monte Carlo step.
 
-The 2000 Census supplies population and commuting flows. Time-use considerations motivate $\alpha=1/2$. Initial conditions come from the 2000 election. Matching county dispersion after 1,000 Monte Carlo steps gives $D=0.03$; matching county trajectory dispersion across successive elections gives 10 Monte Carlo steps per election, or 2.5 per year.
+The 2000 Census supplies population and commuting flows. Time-use considerations motivate $\alpha=1/2$. The authors report qualitatively similar behavior for other interior values of $\alpha$; at $\alpha=0$ or $1$, interaction is confined to disconnected workplace or residence groups, eliminating spatial diffusion between those groups. Initial conditions come from the 2000 election. Matching county dispersion after 1,000 Monte Carlo steps gives $D=0.03$; matching county trajectory dispersion across successive elections gives 10 Monte Carlo steps per election, or 2.5 per year.
 
 ## Experiments
 
