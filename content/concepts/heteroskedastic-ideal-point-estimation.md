@@ -1,6 +1,7 @@
 ---
 title: Heteroskedastic Ideal Point Estimation
 type: concept
+definition: "Ideal point estimation that allows actor-specific latent error scales, separating position on common political dimensions from responsiveness to those dimensions."
 aliases:
   - Heteroskedastic Spatial Voting Models
   - Legislator-Specific Voting Error

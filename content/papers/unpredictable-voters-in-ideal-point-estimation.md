@@ -10,6 +10,7 @@ issue: 2
 pages: "151-171"
 url: "https://www.jstor.org/stable/25792002"
 source_job_id: "45b647a8-49b6-4597-92d3-12e55ebb2675"
+validated_source_job_id: "a4cdcc45-1b58-4109-b44c-701adb3e0b12"
 tags:
   - political-methodology
   - ideal-point-estimation
