@@ -15,6 +15,8 @@ Photoplethysmography (PPG) records changes in light transmitted through or refle
 
 ## Key Ideas
 
+- PPG can complement ECG in shared pretrained representations, but PPG-only, ECG-only, and combined-input performance should be evaluated separately. Blood-pressure estimates using calibration segments from test subjects answer a different generalization question from subject-held-out estimation.
+
 - Transmittance sensing places the detector across tissue from the light source; reflectance sensing measures returning light on the same side.
 - The pulsatile AC component sits on a larger DC background. Tissue properties, motion, exposure, and channel clipping can change the usable signal.
 - Smartphone contact PPG can use a finger over the camera and flash. Spatially averaging each RGB channel yields time series, but broad camera bands differ from dedicated red/infrared oximeter channels.
