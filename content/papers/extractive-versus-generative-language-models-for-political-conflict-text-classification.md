@@ -10,7 +10,7 @@ authors:
   - Shreyas Meher
   - Javier Osorio
   - Marcus Sianan
-year: 2026
+year: 2025
 doi: "10.1017/pan.2025.10027"
 tags:
   - political-event-data
@@ -22,7 +22,7 @@ tags:
 
 Domain-trained ConfliBERT outperforms the tested general-purpose generative models on political-conflict classification at substantially lower inference time. GTD macro F1 is 0.74, versus 0.65 for the strongest fine-tuned ConflLlama variant and 0.40 for Qwen. The advantage is task-dependent: Gemma leads strict entity-level NER F1, while ConfliBERT obeys the entity schema without invalid labels.
 
-Published in *Political Analysis*; the supplied citation gives 2026, with online publication on 31 December 2025.
+Published in *Political Analysis*. The citation in the parsed manuscript supplied for this ingest gives 2025 (DOI: 10.1017/pan.2025.10027).
 
 ## Research Question
 
@@ -74,6 +74,8 @@ The comparison mixes domain pretraining, supervised adaptation, zero-shot prompt
 The supplied text contains unresolved reporting inconsistencies: BBC is described with 735 test records while Table 2 totals 322; GTD total times and per-document times do not reconcile with the narrative's 37,709 texts; and Figure 4's caption says 2017–2021 while the evaluation narrative says 2017–2020. Model descriptions also alternate between base and instruction-tuned variants and between 7B and 8B Llama; this summary follows the methodology and result tables where possible. These ambiguities limit exact replication from the manuscript alone.
 
 ## Related Concepts
+
+- [[concepts/socio-political-event-extraction|Socio-Political Event Extraction]]: evaluates filtering, attack-type classification, and entity extraction as distinct stages of political event coding.
 
 - [[concepts/full-parameter-fine-tuning|Full-Parameter Fine-Tuning]]: helps distinguish adaptation of pretrained representations from evaluation of frozen features or prompted models; ConflLlama instead uses parameter-efficient adapters.
 
