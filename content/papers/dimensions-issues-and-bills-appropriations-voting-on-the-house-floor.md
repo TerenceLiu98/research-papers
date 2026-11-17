@@ -4,8 +4,13 @@ type: paper
 authors:
   - Michael H. Crespin
   - David W. Rohde
-year: null
-source_job_id: "cb45d9ad-6b3f-42c9-8d52-04678a1c327b"
+year: 2010
+venue: The Journal of Politics
+volume: 72
+issue: 4
+pages: "976-989"
+doi: "10.1017/S0022381610000472"
+source_job_id: "1c16dc46-31c3-4521-a23e-5b64749f5b69"
 tags:
   - legislative-behavior
   - ideal-point-estimation
@@ -68,7 +73,7 @@ The authors interpret the pooled appropriations scree plot as suggesting at leas
 - Grouping ranks reduces reliance on exact estimated scores, but does not itself propagate estimation uncertainty or test whether every observed rank difference reflects a preference difference.
 - Unanchored scales permit ordinal comparisons, not comparisons of absolute ideological distances across jurisdictions. The 437-member median analysis is a pooled complete-case subset, not a single contemporaneous House.
 - Agenda control is offered as an explanation for why aggregate voting can hide cross-cutting interests; the analysis does not causally identify that mechanism or recover preferences on issues that never receive recorded votes.
-- The source gives an acceptance date of 8 June 2010 but no explicit publication year, venue, or stable identifier. Publication year is therefore left null. Footnote markers lack their corresponding notes. The Energy-Defense share more than one decile apart is 39.2% in the Table 4A discussion but 39.0% in Table 5; this minor inconsistency is not resolved by the supplied text.
+- Footnote markers lack their corresponding notes in the supplied Markdown. The Energy-Defense share more than one decile apart is 39.2% in the Table 4A discussion but 39.0% in Table 5; this minor inconsistency is not resolved by the supplied text.
 
 ## Related Concepts
 
