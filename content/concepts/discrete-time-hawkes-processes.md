@@ -1,6 +1,7 @@
 ---
 title: Discrete-Time Hawkes Processes
 type: concept
+definition: "A discrete-time Hawkes process models interval counts with a background rate and excitation from earlier counts, weighted by a temporal triggering kernel."
 aliases:
   - Discrete-Time Hawkes Process
   - DTHP
@@ -44,3 +45,5 @@ where $g$ is a nonnegative probability mass function over positive lags. Earlier
 - [[concepts/spatial-autocorrelation|Spatial Autocorrelation]]: regional baseline dependence can coexist with explicit spatial excitation.
 - [[concepts/non-parametric-bayesian-hawkes-processes|Non-parametric Bayesian Hawkes Processes]]: focuses on flexible triggering-kernel inference and uncertainty.
 - [[concepts/dynamic-hawkes-processes|Dynamic Hawkes Processes]]: an alternative construction with time-varying community responsiveness and transformed excitation time.
+
+- [[concepts/coarse-grained-hawkes-processes|Coarse-Grained Hawkes Processes]]: explicitly accounts for within-bin excitation when approximating aggregated continuous-time events; the conventional positive-lag model above excludes that mechanism.

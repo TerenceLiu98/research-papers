@@ -8,6 +8,8 @@ authors:
   - Kerrie Mengersen
 year: null
 source_job_id: "1ad5055b-8ee0-4968-ab63-6224e5447898"
+validated_job_ids:
+  - "00c6a566-ccb6-4867-8196-d28047f006a9"
 tags:
   - hawkes-processes
   - bayesian-inference
