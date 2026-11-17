@@ -1,6 +1,7 @@
 ---
 title: Dynamic Time Warping
 type: concept
+definition: "Dynamic Time Warping (DTW) compares ordered sequences by allowing nonlinear alignment along their time axes."
 aliases:
   - DTW
 tags:

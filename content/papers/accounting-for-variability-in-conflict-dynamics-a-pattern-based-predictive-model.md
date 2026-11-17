@@ -54,7 +54,7 @@ MSE evaluates fatality levels. DE rewards agreement between predicted and observ
 
 The data cover 1989-2023. Separate 12-month test periods are 2022 and 2023. The historical training periods end in 2020 and 2021 respectively, with input sequences taken from March-December of the immediately preceding year. Hyperparameter validation uses 2021 outcomes, 2020 inputs, and training data through 2019. VIEWS forecasts use information through the year before each test period; the downloaded data version is April 2024.
 
-Comparisons include VIEWS, an always-zero model, and the paper's previous-history baseline, labeled the t-1 model.
+Comparisons include VIEWS, an always-zero model, and the paper's previous-history baseline, labeled the t-1 model. Figure 4 reports mean log-ratios relative to the compound, with 95% confidence intervals: negative DE ratios and positive MSE ratios favor the compound. These comparisons summarize relative performance rather than absolute fatality-count errors.
 
 | Comparison | Reported finding | Evidence |
 | --- | --- | --- |

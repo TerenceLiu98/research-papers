@@ -1,6 +1,7 @@
 ---
 title: Spatiotemporal Analog Forecasting
 type: concept
+definition: "Spatiotemporal analog forecasting retrieves historical configurations resembling a current spatial and temporal sequence, then uses their observed continuations to construct forecasts."
 aliases:
   - Spatiotemporal Pattern-Based Forecasting
 tags:
