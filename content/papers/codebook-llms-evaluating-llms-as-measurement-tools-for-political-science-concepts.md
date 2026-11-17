@@ -56,11 +56,11 @@ The initial comparison includes Mistral-7B-Instruct-v0.2, Mistral-NeMo-Instruct-
 
 ### Behavioral and Zero-Shot Results
 
-Mistral-7B, Mistral-NeMo-12B, and Llama-8B perform well on legal-label output and verbatim recovery tests, but all tested models are sensitive to category order. In labeled behavioral tests, Mistral-7B and Llama-8B perform poorly when an artificial exclusion criterion must be applied consistently and degrade when meaningful labels are replaced or paired with different definitions. These results indicate reliance on label semantics rather than definitions alone.
+The label-free behavioral tests use BFRS, the only codebook with positive and negative examples; the labeled behavioral tests also use BFRS. Mistral-7B, Mistral-NeMo-12B, and Llama-8B perform well on legal-label output and verbatim recovery tests, but all tested models are sensitive to category order. In labeled behavioral tests, Mistral-7B and Llama-8B perform poorly when an artificial exclusion criterion must be applied consistently and degrade when meaningful labels are replaced or paired with different definitions. These results indicate reliance on label semantics rather than definitions alone.
 
 With the authors' semi-structured codebooks, weighted zero-shot F1 is 0.57/0.53 for Llama-8B/Mistral-7B on BFRS, 0.61/0.65 on CCC, and 0.19/0.15 on Manifestos. Original-codebook results are 0.55/0.44, 0.48/0.51, and 0.21/0.14, respectively. Reformatting therefore helps some codebook-model pairs but is not a general solution.
 
-Manual analysis of Mistral-7B finds non-compliance in 0% of sampled BFRS outputs, 2% of CCC outputs, and 45% of Manifestos outputs. Semantics or reasoning mistakes account for 50%, 26%, and 29% of those samples. The authors also identify lexical-overlap shortcuts, ambiguous codebook precedence, document problems, and disputed gold labels.
+Manual analysis of 24 BFRS, 50 CCC, and 62 Manifestos outputs from Mistral-7B finds non-compliance in 0% of sampled BFRS outputs, 2% of CCC outputs, and 45% of Manifestos outputs. Semantics or reasoning mistakes account for 50%, 26%, and 29% of those samples. The authors also identify lexical-overlap shortcuts, ambiguous codebook precedence, document problems, and disputed gold labels.
 
 On BFRS, removing Mistral-7B's output reminder reduces weighted F1 from 0.53 to 0.42; removing positive and negative examples reduces it to 0.46 (Table 4). With all other components removed, retaining only the definition and label yields 0.20, while the label alone yields 0.29. These ablations support testing each codebook-model pairing rather than assuming that definitions are always used faithfully.
 
