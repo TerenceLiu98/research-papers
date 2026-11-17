@@ -23,7 +23,11 @@ Human oversight of AI comprises the responsibilities and procedures through whic
 - **Centaur administration requires retained authority.** Anastasopoulos proposes that AI advise while officials decide in high-stakes or value-laden cases, with training to challenge outputs, authority to override them, and meaningful human appeal. Statutory review requirements and impact assessments are proposed protections against cost-cutting pressures that could otherwise make oversight nominal. These are normative recommendations, not evaluated intervention effects.
 - **Peer-review oversight must preserve independent judgment.** [[concepts/governed-ai-peer-review|Governed AI Peer Review]] treats AI feedback as contestable diagnostic input, prohibits automated publication recommendations, and uses holdouts and logging to measure whether shared AI advice anchors human reviewers.
 
+- **Adjustment authority can trade uptake against accuracy.** Sele and Chugunova's matched-advice experiment increased algorithm choice by 7 percentage points when users could intervene, while mean absolute prediction error rose from 17.4 to 18.0 percentiles. Users were less likely to adjust the largest errors, for both human and algorithmic sources. This distinguishes formal override authority from demonstrated monitoring effectiveness.
+
 ## Important Papers
+
+- [[papers/putting-a-human-in-the-loop-increasing-uptake-but-decreasing-accuracy-of-automated-decision-making|Putting a human in the loop]]: experimentally separates uptake gains from accuracy losses when users retain adjustment authority.
 
 - [[papers/artificial-intelligence-bureaucratic-discretion-and-democratic-administration|Artificial Intelligence, Bureaucratic Discretion, and Democratic Administration]]: grounds a centaur model in accountability, equity, individual consideration, and reason-giving.
 - [[papers/trustworthy-ai-in-public-administration-the-pro-trust-pipeline-for-ethical-fraud-detection-in-public-procurement|Trustworthy AI in public administration: The PRO-Trust pipeline for ethical fraud detection in public procurement]]: distinguishes strategic control from operational oversight and proposes concrete procedures for procurement auditing.
