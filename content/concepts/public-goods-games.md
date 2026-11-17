@@ -23,7 +23,15 @@ Public goods games model situations in which individuals contribute to a shared 
 - **Higher-order structure is substantive.** Hyperedges preserve which participants share one game. Overlapping groups can support group-level selection and information transfer that a pairwise projection would not represent.
 - **Simulation outcomes are conditional.** Cooperation levels depend on mutation, selection strength, group membership, and update rules. Results from a public goods model should not be treated as direct measurements of cooperation in a population.
 
+### Reward Functions and Inequality
+
+Linear rewards make each effective contribution increase the shared return. Threshold rewards instead require a minimum aggregate contribution before benefits appear, creating a coordination problem over who bears the cost. Equal absolute contributions and equal fractions of endowment can imply conflicting fairness norms when resources differ.
+
+Aligned inequality gives more resources to more productive contributors. Its benefits depend on the reward function: the experiments in Wang, Hilbe, and Zhang find higher surplus under aligned inequality in linear games, but lower surplus than equality in threshold games. Higher productive capacity alone therefore does not ensure successful coordination.
+
 ## Important Papers
+
+- [[papers/the-dynamics-of-cooperation-in-asymmetric-public-goods-games|The dynamics of cooperation in asymmetric public goods games]]: compares linear and threshold rewards under resource and productivity inequality in two- and four-player experiments.
 
 - [[papers/when-groups-attract-coevolutionary-dynamics-of-cooperation-and-individual-and-group-based-imitating-rules|When groups attract: coevolutionary dynamics of cooperation and individual- and group-based imitating rules]]: studies cooperation and coevolving imitation rules in public goods games on hypergraphs.
 - Nowak (2006), "Five rules for the evolution of cooperation": broad framework for mechanisms that can promote cooperation.
