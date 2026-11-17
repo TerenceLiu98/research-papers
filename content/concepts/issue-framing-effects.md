@@ -24,6 +24,8 @@ Issue framing changes how people evaluate a policy by emphasizing particular att
 
 ## Important Papers
 
+- [[papers/the-impact-of-media-framing-in-complex-information-environments|The Impact of Media Framing in Complex Information Environments]]: documents a large increase in crime framing with a near-zero immigration-attitude effect under natural exposure, highlighting politicization and exposure as scope conditions.
+
 - [[papers/how-government-controlled-media-shifts-policy-attitudes-through-framing|How government-controlled media shifts policy attitudes through framing]]: finds that opposing state-media frames move SOE and foreign-policy preferences in a Chinese survey experiment, with some effects persisting through 48 hours.
 - Chong and Druckman (2007), "Framing theory": theoretical synthesis cited by that study.
 - Druckman and Nelson (2003), "Framing and deliberation: How citizens' conversations limit elite influence": cited treatment of framing, knowledge, and predisposition.

@@ -23,6 +23,8 @@ Equivalence tests distinguish evidence of a negligible difference from failure t
 
 ## Important Papers
 
+- [[papers/the-impact-of-media-framing-in-complex-information-environments|The Impact of Media Framing in Complex Information Environments]]: uses a 0.15-point substantive threshold to assess a near-zero framing effect on a seven-point attitude scale.
+
 - [[papers/equivalence-testing-for-regression-discontinuity-designs|Equivalence Testing for Regression Discontinuity Designs]]: adapts equivalence inference to local covariate discontinuities and running-variable density ratios.
 - Hartman and Hidalgo (2018), *An Equivalence Approach to Balance and Placebo Tests*: antecedent for causal-design diagnostics discussed in Hartman's RD paper.
 
