@@ -60,6 +60,8 @@ The supplied main text refers to supplementary tables for all method definitions
 
 ## Related Papers
 
+- [[papers/less-annotating-more-classifying|Less Annotating, More Classifying]]: addresses annotation scarcity through entailment-based transfer learning, complementing this paper’s selection of documents before labeling.
+
 - Taddy (2013), “Measuring Political Sentiment on Twitter: Factor Optimal Design for Multinomial Inverse Regression”: the topic-model-based selection baseline.
 - Miller, Linder, and Mebane (2020), “Active Learning Approaches for Labeling Text”: label-adaptive selection that the author proposes combining with unsupervised initialization.
 - [[papers/multi-label-prediction-for-political-text-as-data|Multi-Label Prediction for Political Text-as-Data]]: a complementary approach that exploits label dependencies rather than changing which documents receive annotation.
