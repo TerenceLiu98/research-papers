@@ -16,6 +16,8 @@ Item response theory models an observed answer using a respondent's latent trait
 
 ## Key Ideas
 
+- **Theory-driven identification:** Theory-coded loading restrictions can connect latent dimensions to prespecified concepts while estimating factor covariance. IRT-M distinguishes excluded loadings (zero) from unknown relationships (NA); meaningful coding still requires informative response items.
+
 - **Sparse joint estimation:** For large political response matrices, analytic gradients and limited-memory optimization can operate only on observed entries. Peress combines this with block-diagonal asymptotic Hessian inference; efficient storage does not itself address informative missingness or weak cross-chamber links.
 
 - **Logistic response models:** A multidimensional two-parameter logistic model can be written as $\Pr(r_{ij}=1)=\sigma(\mathbf a_i^\top\mathbf k_j+d_j)$, where $\sigma$ is the logistic function, $\mathbf a_i$ is ability, $\mathbf k_j$ is discrimination, and $d_j$ is an item intercept. In this sign convention, larger $d_j$ increases success probability; it should not be read directly as increasing difficulty.
@@ -26,6 +28,8 @@ Item response theory models an observed answer using a respondent's latent trait
 - **Missingness and time:** Predicting omitted responses does not model why responses are absent. Static IRT also does not represent learning or temporal movement unless a temporal component is added.
 
 ## Important Papers
+
+- [[papers/measurement-that-matches-theory-theory-driven-identification-in-item-response-theory-models|Measurement That Matches Theory]]: develops theory-constrained multidimensional IRT with correlated latent factors and survey and congressional applications.
 
 - [[papers/bayesian-analysis-of-dynamic-item-response-models-in-educational-testing|Bayesian Analysis of Dynamic Item Response Models in Educational Testing]]: embeds ability in an irregular-time state-space process and models local dependence with daily and test random effects.
 - [[papers/a-modified-expectation-maximization-algorithm-for-accelerated-item-response-theory-model-estimation-with-large-datasets|A Modified Expectation-Maximization Algorithm for Accelerated Item Response Theory Model Estimation with Large Datasets]]: accelerates unidimensional 2PL marginal maximum-likelihood estimation by switching from full-data EM to sequential subset updates with iterate averaging.

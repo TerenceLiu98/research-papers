@@ -16,6 +16,8 @@ Rotational invariance occurs when jointly rotating latent actor and policy posit
 
 ## Key Ideas
 
+- **Theory-driven identification:** IRT-M orients dimensions through theory-coded sign and zero restrictions on item loadings and synthetic extreme respondents constructed from those rules. This shifts identification assumptions from known real-person positions to item–concept relationships; it does not remove the need to validate those relationships.
+
 - **Likelihood equivalence:** An orthogonal transformation $Q$ preserves $\|Q\mathbf x-Q\mathbf o\|_2=\|\mathbf x-\mathbf o\|_2$. A likelihood depending only on these distances cannot select among jointly transformed configurations without further restrictions.
 - **Different ambiguities require different conventions:** Fixing the origin or scale does not by itself fix rotation. Anchoring actor positions or imposing a principal-axis convention selects an orientation, but the choice affects interpretation and can be misspecified.
 - **Spatial roll-call anchors:** Clinton, Jackman, and Rivers describe $d(d+1)$ independent restrictions for a $d$-dimensional model, implemented by fixing $d+1$ suitably positioned legislators. In one dimension, zero mean and unit variance leave a sign ambiguity, while two distinct fixed positions also set orientation. Independently normalizing two periods identifies relative movement, but cannot distinguish a uniform preference shift from an agenda shift without additional linking assumptions.
@@ -27,6 +29,8 @@ Rotational invariance occurs when jointly rotating latent actor and policy posit
 - **Identification is conditional:** Replacing Euclidean distance with Manhattan distance changes the utility specification. A smaller symmetry group does not establish that the chosen geometry fits real preferences, nor does it select the number of dimensions.
 
 ## Important Papers
+
+- [[papers/measurement-that-matches-theory-theory-driven-identification-in-item-response-theory-models|Measurement That Matches Theory]]: develops theory-constrained multidimensional IRT with correlated latent factors and survey and congressional applications.
 
 - [[papers/scaling-politically-meaningful-dimensions-using-texts-and-votes|Scaling Politically Meaningful Dimensions Using Texts and Votes]]: uses LDA mixtures from Supreme Court opinions to constrain multidimensional probit loadings and recover issue-specific justice positions; topic count is selected using voting DIC and substantive inspection.
 - [[papers/modgirt-multidimensional-dynamic-scaling-of-aggregate-survey-data|MODGIRT: Multidimensional Dynamic Scaling of Aggregate Survey Data]]: combines within-estimation normalization with posterior alignment for aggregate multidimensional survey models, applying the RSP algorithm of Papastamoulis and Ntzoufras (2022).
