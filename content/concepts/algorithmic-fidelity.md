@@ -25,6 +25,8 @@ Matching aggregate means is insufficient for inferential fidelity. Bisbee et al.
 
 - [[papers/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models|Synthetic Replacements for Human Survey Data?]] demonstrates failures of distributional and associational fidelity despite approximate aggregate agreement.
 
+- [[papers/evaluating-the-statistical-realism-of-llm-generated-social-science-data|Evaluating the statistical realism of LLM-generated social science data]] extends validation to five statistical patterns, including life event sequences. Its bootstrap pass rates measure non-rejection under specified tests rather than proving population equivalence.
+
 ## Related Concepts
 
 - [[concepts/silicon-sampling|Silicon Sampling]] connects sample construction with its validation requirements.
