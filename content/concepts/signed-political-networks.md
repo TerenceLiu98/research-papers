@@ -22,10 +22,14 @@ Signed political networks distinguish cooperative, neutral, and antagonistic rel
 
 - In roll-call networks adjusted for group membership, signs describe departures from an expected alignment: negative edges can indicate within-party conflict and positive edges cross-party alliance. These signs have a different meaning from directly observed friendship or hostility. Separate positive-edge and absolute-negative-edge centralities can summarize individual departures, but depend on the chosen group reference.
 
+For statistical inference, signed exponential random graph models jointly represent positive, negative, and absent ties. Contemporaneous shared-partner statistics capture endogenous closure, while lagged stability terms capture persistence. Combining past and current edges into a single triangle can misclassify balance; significant closure of both signs can also reflect opportunities to interact rather than balance alone.
+
 ## Important Papers
 
 - [[Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline]]: Shows how signed relations expose the Polish PO-PiS cleavage when unsigned detection groups front-line opponents together.
 - Cartwright and Harary (1956), "Structural Balance: A Generalization of Heider's Theory." Cited theoretical reference for balance.
+
+- [[papers/exponential-random-graph-models-for-dynamic-signed-networks|Exponential Random Graph Models for Dynamic Signed Networks]]: introduces static and dynamic signed ERGMs and compares contemporaneous versus lagged balance measures in interstate relations.
 
 ## Related Concepts
 
