@@ -17,6 +17,8 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 
 ## Key Ideas
 
+- [[papers/emergence-of-polarized-ideological-opinions-in-multidimensional-topic-spaces|Emergence of Polarized Ideological Opinions in Multidimensional Topic Spaces]] combines homophilic temporal contacts with reinforcement across overlapping topics. It distinguishes independent polarization from [[concepts/issue-alignment|Issue Alignment]], where opposing camps take correlated positions across issues.
+
 - [[papers/political-context-and-attitude-change|Political Context and Attitude Change]] supplies observational panel evidence that influence depends on the attitude and campaign period: neighbors’ current vote intentions predict candidate evaluations, while their partisan loyalties better predict partisan identification. Selection and perceived-neighbor measurement limit causal interpretation.
 
 - [[papers/opinion-dynamics-statistical-physics-and-beyond|Opinion dynamics: Statistical physics and beyond]] separates microscopic mechanisms from macroscopic outcomes: assimilation, distancing, similarity bias, and adaptive ties can contribute to different collective patterns depending on opinion representation and interaction structure.
