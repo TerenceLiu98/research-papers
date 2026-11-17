@@ -25,6 +25,8 @@ Stance detection classifies an expressed position relative to a target. Overall 
 
 - [[papers/sentiment-is-not-stance-target-aware-opinion-classification-for-political-text-analysis|Sentiment is Not Stance: Target-Aware Opinion Classification for Political Text Analysis]]: contrasts sentiment and stance across protest tweets, survey responses, and confirmation-hearing tweets, including consequences for regression estimates.
 
+- [[papers/stay-tuned-improving-sentiment-analysis-and-stance-detection-using-large-language-models|Stay Tuned]]: compares continuous stance estimation and tuning on election tweets. Human-label tuning helps GPT models distinguish multiple targets; party-proxy transfer is more competitive for binary stance than for intensity estimation.
+
 ## Related Concepts
 
 - [[concepts/dimensional-aspect-based-sentiment-analysis|Dimensional Aspect-Based Sentiment Analysis]]: also attends to evaluation targets, but predicts structured aspect-level affect rather than necessarily political support or opposition.
