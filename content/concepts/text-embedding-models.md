@@ -29,7 +29,11 @@ Text embedding models map text to fixed-length numerical representations so that
 - Quality is workload-dependent. Reasoning-heavy retrieval can favor a model that jointly reads documents, while classification, similarity, and clustering can be served efficiently with specialized embeddings.
 - Behavioral supervision can encode associations beyond semantic resemblance. In [[concepts/belief-embeddings|Belief Embeddings]], debate co-voting triplets improve held-out belief-triplet discrimination while reducing S-BERT's GLUE-STSB Spearman correlation from 0.877 to 0.718. Domain-specific geometry therefore needs evaluation alongside general semantic similarity.
 
+- Domain-specific topic geometry can connect quiz responses to untested lecture content. In the conceptual-knowledge study below, a lecture-trained LDA model supports similarity-weighted knowledge estimates; its local resolution advantage over the tested BERT representation does not imply broad superiority across domains.
+
 ## Important Papers
+
+- [[papers/text-embedding-models-yield-detailed-conceptual-knowledge-maps-derived-from-short-multiple-choice-quizzes|Text embedding models yield detailed conceptual knowledge maps derived from short multiple-choice quizzes]]: evaluates transcript-derived conceptual geometry through held-out quiz responses and visualizes changes after instruction.
 
 - [[papers/cross-lingual-classification-of-political-texts-using-multilingual-sentence-embeddings|Cross-Lingual Classification of Political Texts Using Multilingual Sentence Embeddings]]: knowledge-distilled XLM-R features support manifesto classification with scarce labels and reduce unseen-language transfer losses relative to translation plus bag-of-words.
 
