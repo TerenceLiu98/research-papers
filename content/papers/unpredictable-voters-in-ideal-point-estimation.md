@@ -10,7 +10,7 @@ issue: 2
 pages: "151-171"
 url: "https://www.jstor.org/stable/25792002"
 source_job_id: "45b647a8-49b6-4597-92d3-12e55ebb2675"
-validated_source_job_id: "a4cdcc45-1b58-4109-b44c-701adb3e0b12"
+validated_source_job_id: "fe2e9c87-12e2-4fc4-abd6-4ad3306779e1"
 tags:
   - political-methodology
   - ideal-point-estimation
@@ -110,7 +110,7 @@ Two-dimensional UN General Assembly fits use six historical periods spanning 194
 ## Related Papers
 
 - Poole (2001), "The geometry of multidimensional quadratic utility in models of parliamentary roll call voting": cited predecessor estimating legislator-specific variances by conditional maximum likelihood.
-- Clinton, Jackman, and Rivers (2004), "The statistical analysis of roll call data": cited homoskedastic Bayesian foundation extended by this sampler.
+- Clinton, Jackman, and Rivers (2004), [[papers/the-statistical-analysis-of-roll-call-data|The Statistical Analysis of Roll Call Data]]: cited homoskedastic Bayesian foundation extended by this sampler.
 - Martin and Quinn (2002), "Dynamic ideal point estimation via Markov chain Monte Carlo for the U.S. Supreme Court, 1953-1999": cited approach to changing positions.
 - [[papers/how-they-vote-issue-adjusted-models-of-legislative-behavior|How They Vote: Issue-Adjusted Models of Legislative Behavior]]: library comparison of modeling topic-specific departures rather than summarizing unexplained behavior in one actor-specific scale; not a citation in this paper.
 - [[papers/nonparametric-ideal-point-estimation-and-inference|Nonparametric Ideal-Point Estimation and Inference]]: later library comparison targeting ordinal positions under a shared error distribution across voters within each bill; not a citation in this paper.
