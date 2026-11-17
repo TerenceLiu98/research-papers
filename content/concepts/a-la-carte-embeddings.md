@@ -29,6 +29,8 @@ tags:
 - Rodriguez, Spirling, and Stewart (2023), “Embedding Regression: Models for Context-Specific Description and Inference”: regression-based comparisons using context-specific embeddings.
 - [[papers/multilanguage-word-embeddings-for-social-scientists|Multilanguage Word Embeddings for Social Scientists]]: multilingual Wikipedia resources and validation, with ready-made products for 40 non-English languages and pipeline coverage of 157 languages.
 
+- [[papers/measuring-media-criticism-with-alc-word-embeddings|Measuring Media Criticism with ALC Word Embeddings]]: induces weekly leader vectors in a shared Arabic news embedding space and compares them with a support–opposition axis. Sparse-context robustness supports granular measurement, but criticism remains distinct from press autonomy.
+
 ## Related Concepts
 
 - [[concepts/text-embedding-models|Text Embedding Models]]: ALC is a context-based induction method within the broader family of vector representations of text.
