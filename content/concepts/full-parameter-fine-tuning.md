@@ -23,6 +23,8 @@ Full-parameter fine-tuning allows both pretrained representations and the task-s
 
 ## Important Papers
 
+- [[papers/topic-classification-for-political-texts-with-pretrained-language-models|Topic Classification for Political Texts with Pretrained Language Models]]: target-domain RoBERTa adaptation improves parliamentary topic accuracy with limited training labels; rare classes remain a weakness.
+
 - [[papers/on-finetuning-large-language-models|On Finetuning Large Language Models]]: full ConfliBERT adaptation reverses a dictionary-model advantage in conflict regression; a longer input window improves accuracy further at additional runtime cost.
 
 ## Related Concepts
