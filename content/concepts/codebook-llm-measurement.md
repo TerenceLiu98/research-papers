@@ -1,6 +1,7 @@
 ---
 title: Codebook-LLM Measurement
 type: concept
+definition: "Using a language model to assign labels to text according to the operational definitions and coding rules in a project-specific codebook."
 aliases:
   - Codebook-Based LLM Measurement
   - LLM Codebook Classification

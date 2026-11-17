@@ -4,7 +4,8 @@ type: paper
 authors:
   - Andrew Halterman
   - Katherine A. Keith
-year: null
+year: 2025
+doi: 10.1017/pan.2025.10017
 tags:
   - large-language-models
   - political-methodology
@@ -15,7 +16,7 @@ tags:
 
 ## TL;DR
 
-Using a large language model to apply a social-science codebook is a measurement problem, not merely a prompting task. Across three political-text datasets, 7-12B open-weight models show weak or marginal zero-shot classification and sensitivity to label wording, category order, and codebook details. A five-stage workflow combines codebook preparation, behavioral testing, labeled evaluation, error analysis, and supervised instruction tuning. QLoRA instruction tuning improves weighted F1 on all reported model-dataset combinations, but cross-codebook transfer remains poor.
+Using a large language model to apply a social-science codebook is a measurement problem, not merely a prompting task. Across three political-text datasets, 7-12B open-weight models show weak or marginal zero-shot classification and sensitivity to label wording, category order, and codebook details. A five-stage workflow combines codebook preparation, behavioral testing, labeled evaluation, error analysis, and supervised instruction tuning. QLoRA instruction tuning improves weighted F1 on all reported model-dataset combinations.
 
 ## Research Question
 
@@ -65,7 +66,7 @@ Manual analysis of Mistral-7B finds non-compliance in 0% of sampled BFRS outputs
 
 QLoRA improves every reported model-dataset combination. BFRS weighted F1 reaches 0.81 for Llama-8B and 0.82 for Mistral-7B, gains of 0.24 and 0.29 over zero-shot. CCC reaches 0.68 and 0.72, both gains of 0.07. Mistral-7B reaches 0.38 on Manifestos, a gain of 0.23; the Llama-8B Manifestos run is omitted after an out-of-memory failure at batch size one. The largest relative gain is 55% for Mistral-7B on BFRS.
 
-Instruction tuning does not produce strong transfer to unseen codebooks, even when training uses multiple codebooks. The reported gains therefore support codebook-specific adaptation rather than a demonstrated general codebook-following capability.
+Training runs on a single NVIDIA RTX 4090 take about 1.5–7 hours for CCC and BFRS and nearly 18 hours for Mistral-7B on Manifestos (Table 6). These results establish improvements on the corresponding development sets; this supplied version does not report cross-codebook transfer experiments.
 
 ## Limitations
 
@@ -73,9 +74,9 @@ Instruction tuning does not produce strong transfer to unseen codebooks, even wh
 - The principal models have 7-12B parameters and were selected for local reproducibility and 24GB-class deployment. Results do not characterize larger proprietary models or later model generations.
 - Ground-truth data are imperfect. In manual samples, the authors dispute 4% of BFRS, 10% of CCC, and 8% of Manifestos labels; scraped text and underspecified category precedence introduce additional error.
 - Aggregate weighted F1 can obscure rare-class failures. Some classes have very small support, especially in the 142-class Manifestos setting.
-- Instruction tuning requires labeled data and nontrivial compute, and the paper's cross-codebook experiments show poor generalization beyond the training codebook.
-- The manuscript estimates environmental costs and notes uncertainty about pretraining-data provenance. It also limits its contamination claims: the Manifesto texts and codebook may occur in pretraining data even though sentence-level labels require registered API access.
-- The supplied manuscript does not state a publication year, DOI, or arXiv identifier, so these metadata are not inferred here.
+- Instruction tuning requires labeled data and nontrivial compute, and does not establish generalization beyond the training codebook.
+- The authors argue that the datasets are mostly safe from training contamination, referring to supplementary material; this is not proof that all source texts were absent from pretraining.
+- Results are measured on development sets, not the reserved test sets. Higher classification accuracy alone does not establish valid downstream inference.
 
 ## Related Concepts
 
@@ -90,4 +91,8 @@ Instruction tuning does not produce strong transfer to unseen codebooks, even wh
 - [[papers/benchmarking-llms-for-political-science-a-united-nations-perspective|Benchmarking LLMs for Political Science: A United Nations Perspective]]: evaluates political classification and generation across linked UN Security Council tasks.
 - Egami et al. (2023), "Using Imperfect Surrogates for Downstream Inference": studies bias and uncertainty when model-generated labels enter later social-science analyses.
 - Ribeiro et al. (2020), "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList": supplies the behavioral-testing perspective adapted to codebook use.
-- Dettmers et al. (2024), "QLoRA: Efficient Finetuning of Quantized LLMs": supplies the parameter-efficient fine-tuning method used in Stage 4.
+- Dettmers et al. (2023), "QLoRA: Efficient Finetuning of Quantized LLMs": supplies the parameter-efficient fine-tuning method used in Stage 4.
+
+## Source
+
+Published online 19 September 2025. The supplied parsed article identifies supplementary material with DOI `10.1017/pan.2025.10017` and replication data with DOI `10.7910/DVN/NUWHQP`.
