@@ -5,6 +5,7 @@ authors:
   - Kevin M. Esterling
   - Ju Yeon Park
 year: 2024
+source_job_id: "54702542-3801-4a0f-a711-879df592a662"
 doi: 10.1017/pan.2024.6
 tags:
   - political-methodology
@@ -27,7 +28,7 @@ Roll-call positions reflect electoral, party, donor, and personal incentives. Ex
 ## Contributions
 
 - Recovers latent witness preferences within a model of dyadic communication, rather than imputing them exclusively from legislators’ ideology-to-roll-call mapping.
-- Allows witness-specific shifts and rotations relative to that mapping; conventional constrained bridging is a special case.
+- Allows the witness preference dimension to shift and rotate relative to that mapping; conventional constrained bridging is a special case.
 - Uses question types, organizational expertise, and testimony content to assess the substantive interpretation of the recovered dimension.
 
 ## Method
@@ -50,7 +51,7 @@ The application samples 29 Medicare hearings held during 2000–2003 across 12 c
 
 - **Constrained baseline:** No significant preference-distance relationship appears for any sentence type or either organizational group (Figure 1).
 - **Flexible model:** Greater distance predicts fewer falsifiable and opinion sentences, most strongly for falsifiable discourse. Differences by research affiliation support the authors’ information-seeking interpretation (Figure 3).
-- **Geometry:** The reported angle between constrained and flexible witness estimates is $\pi/2.47$, approximately 73 degrees. The authors characterize this as nearly orthogonal, rather than a shared one-dimensional scale (Figure 2).
+- **Geometry:** The supplied text characterizes the relationship between constrained and flexible witness estimates as nearly orthogonal, rather than a shared one-dimensional scale (Figure 2); it does not provide a numerical angle estimate.
 - **Model checks:** The paper reports lower WAIC for all three outcomes and improved posterior predictive fit; numerical WAIC tables are in supplementary material, not the supplied Markdown.
 - **Alternative bridge:** Substituting contribution-based CF scores reportedly reproduces the principal patterns with greater uncertainty. Using those scores directly as preferences again yields null results.
 - **Content interpretation:** Topic-stratified word frequencies in written testimony associate proximity to conservatives with costs and proximity to liberals with care and beneficiaries, supporting a cost–quality interpretation (Figure 4).
