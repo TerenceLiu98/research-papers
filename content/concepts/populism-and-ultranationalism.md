@@ -20,7 +20,11 @@ Populism and ultranationalism can overlap when appeals to the sovereignty of the
 - **Bottom-up expression:** Ordinary users can originate and circulate populist rhetoric without electoral competition or a singular populist leader. Posting and reposting document expression and circulation, not necessarily persuasion or offline mobilisation.
 - **Contextual measurement:** Keyword selection, annotation rules, censorship, and platform audiences shape observed discourse. A classifier trained on a particular national and temporal setting does not automatically provide a general measure of populism.
 
+- **Separate host ideology from populist rhetoric:** PopBERT labels moralizing anti-elitism and people-centrism separately from left-wing and right-wing attachments. Its host-ideology annotations require a core populist dimension, so they do not measure all socialist or nativist language.
+
 ## Important Papers
+
+- [[papers/popbert-detecting-populism-and-its-host-ideologies-in-the-german-bundestag|PopBERT]]: Measures German parliamentary populist dimensions and their ideological attachments with a multilabel classifier.
 
 - [[papers/its-all-about-us-vs-them-comparing-chinese-populist-discourses-on-weibo-and-twitter|It's All About US vs THEM!: Comparing Chinese Populist Discourses on Weibo and Twitter]]: Compares the overlap of populism and ultranationalism in Chinese-language posts from May 2022, distinguishing accountability-oriented and representation-oriented rhetoric.
 - Mudde (2004), "The Populist Zeitgeist": Conceptual source cited by Zhang and Schroeder for the people-versus-elite distinction.
