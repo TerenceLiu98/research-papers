@@ -22,6 +22,8 @@ Gaussian process regression places a probability distribution over functions rat
 - GP flexibility does not guarantee rapid adaptation outside the observed input regime. Strong smoothing can make predictions robust to isolated extremes but sluggish when a structural shock is already observed in predictors.
 - Exact GP computation scales cubically with the number of observations unless algebraic structure or approximations are used; high input dimension creates a separate statistical challenge.
 
+- Extrapolation uncertainty depends on the kernel: posterior function uncertainty can widen where support is sparse, while stationary kernels eventually revert to their prior mean and bounded variance. Polynomial components permit continuing growth but introduce substantive extrapolation assumptions. Observation-predictive intervals additionally include residual noise; conditional-mean intervals do not.
+
 ## Important Papers
 
 - Rasmussen and Williams (2006), "Gaussian Processes for Machine Learning": standard reference for GP regression, covariance functions, and predictive inference.
