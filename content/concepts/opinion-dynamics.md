@@ -17,6 +17,8 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 
 ## Key Ideas
 
+- [[papers/political-context-and-attitude-change|Political Context and Attitude Change]] supplies observational panel evidence that influence depends on the attitude and campaign period: neighbors’ current vote intentions predict candidate evaluations, while their partisan loyalties better predict partisan identification. Selection and perceived-neighbor measurement limit causal interpretation.
+
 - [[papers/opinion-dynamics-statistical-physics-and-beyond|Opinion dynamics: Statistical physics and beyond]] separates microscopic mechanisms from macroscopic outcomes: assimilation, distancing, similarity bias, and adaptive ties can contribute to different collective patterns depending on opinion representation and interaction structure.
 
 - A binary opinion model can represent the population by the number of agents holding one opinion when interaction symmetry makes that aggregation exact. More general networks usually require node-level or topology-aware states.
