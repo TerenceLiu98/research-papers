@@ -16,6 +16,8 @@ Item response theory models an observed answer using a respondent's latent trait
 
 ## Key Ideas
 
+- **Sparse joint estimation:** For large political response matrices, analytic gradients and limited-memory optimization can operate only on observed entries. Peress combines this with block-diagonal asymptotic Hessian inference; efficient storage does not itself address informative missingness or weak cross-chamber links.
+
 - **Logistic response models:** A multidimensional two-parameter logistic model can be written as $\Pr(r_{ij}=1)=\sigma(\mathbf a_i^\top\mathbf k_j+d_j)$, where $\sigma$ is the logistic function, $\mathbf a_i$ is ability, $\mathbf k_j$ is discrimination, and $d_j$ is an item intercept. In this sign convention, larger $d_j$ increases success probability; it should not be read directly as increasing difficulty.
 - **Response shape:** Rasch/1PL models constrain discrimination; 2PL estimates it; 3PL adds a lower asymptote for guessing. Logistic positive exponent models allow asymmetric curves. Ideal-point/unfolding response functions can be non-monotonic, so a larger latent value need not imply a higher response probability.
 - **Multiple dimensions:** Vector-valued ability and discrimination permit several traits to contribute to a response. Increasing dimensionality also increases inference and identification demands.
