@@ -6,8 +6,9 @@ authors:
   - Jefrey B. Lewis
 year: 2026
 source_job_id: "331d61d1-0265-45ff-bd53-457c806b0cf3"
-revalidated_job_id: "320b53af-f3a2-451e-9c39-26ff288842c7"
+revalidated_job_id: "b2cb761c-e2e5-446f-a432-49c908e3ea1b"
 previous_revalidated_job_ids:
+  - "320b53af-f3a2-451e-9c39-26ff288842c7"
   - "66e8442c-93a6-4e45-84e8-5f7b94a952c1"
 tags:
   - legislative-politics
