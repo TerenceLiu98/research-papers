@@ -16,6 +16,8 @@ Strategic ambiguity in party competition is the deliberate choice to leave a par
 
 ## Key Ideas
 
+- **Positional variance differs from noncommitment.** Praprotnik and Ennser-Jedenastik distinguish ambiguity across ideological signals from [[concepts/strategic-vagueness-in-party-communication|Strategic Vagueness in Party Communication]], the absence of objectively testable pledges. Their Austrian manifesto measures are essentially uncorrelated (r = 0.01), and perceived issue competence relates negatively to ambiguity but positively to vagueness.
+
 - **Two audiences can sustain ambiguity.** In Bräuninger and Giger's model, leaders seek both electoral votes and continued party office. Voters have diffuse priors, while decisive party members have concentrated priors near their own preferred policies. The same platform consequently produces different posterior beliefs.
 - **Risk aversion does not rule out strategic ambiguity.** At a fixed platform mean, greater variance reduces voter utility. Its benefit to the leader arises from preserving activist support while allowing movement toward the electorate; ambiguity need not be intrinsically attractive to voters.
 - **The electoral-only benchmark removes ambiguity.** With zero weight on retaining party office, Bräuninger and Giger's model yields unambiguous platforms at the mean voter position. Its explanation of ambiguity depends on the leader's internal accountability as well as the audiences' different priors.
@@ -28,6 +30,8 @@ Strategic ambiguity in party competition is the deliberate choice to leave a par
 - **Voter priorities condition the electoral association.** Han's analysis of the economy and immigration finds lower voting propensity associated with ambiguity among voters who prioritize the issue, but no significant benefit among other voters. Expert disagreement can also reflect internal party division or measurement uncertainty, so this evidence does not by itself identify intentional strategy.
 
 ## Important Papers
+
+- [[papers/ambiguity-and-vagueness-in-party-competition|Ambiguity and vagueness in party competition]]: distinguishes positional dispersion from policy noncommitment using coded Austrian manifesto statements.
 
 - [[papers/party-ambiguity-and-individual-preferences|Party ambiguity and individual preferences]]: develops a multidimensional voter-party ambiguity measure and relates it to sympathy, perceived distance, and political interest in eight European election surveys.
 - [[papers/who-refuses-ambiguity-voters-issue-salience-and-the-electoral-effect-of-party-position-ambiguity|Who refuses ambiguity? Voters' issue salience and the electoral effect of party position ambiguity]]: shows that the negative association between issue-specific expert disagreement and voting propensity is concentrated among voters prioritizing the issue.
