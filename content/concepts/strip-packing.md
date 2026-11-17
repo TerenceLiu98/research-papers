@@ -18,7 +18,11 @@ Strip packing places a collection of geometric items inside a container with fix
 - **Solution families:** Exact methods target optimality but scale poorly; approximation algorithms offer worst-case guarantees; heuristics encode placement rules; metaheuristics search over candidate solutions; learned policies attempt to acquire reusable packing strategies.
 - **Evaluation:** For a fixed-width strip, final height is the direct objective. Bin gap ratio measures unused volume within the bounding container and is positively related to final height for a fixed set of items.
 
+- **Heuristic-space refinement:** A learned placement scorer can be adapted to a target instance by evolutionary search over its weights, with feasibility enforced by the constructor. This trades additional per-instance computation for improved layouts.
+
 ## Important Papers
+
+- [[papers/improving-neural-based-heuristics-for-2d-strip-packing-through-local-search-in-heuristic-space|Improving neural-based heuristics for 2D strip packing through local search in heuristic space]] refines a pretrained corner-point scorer with Sep-CMA-ES, improving larger repeated-type instances while CP remains stronger on the smallest cases.
 
 - [[papers/one-model-packs-thousands-of-items-with-recurrent-conditional-query-learning|One Model Packs Thousands of Items with Recurrent Conditional Query Learning]] learns 2D and 3D policies for both online and offline strip packing.
 - Christensen et al. (2017), "Approximation and Online Algorithms for Multidimensional Bin Packing: A Survey": surveys approximation and online packing methods.
