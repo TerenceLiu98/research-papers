@@ -16,6 +16,8 @@ A hypergraph $\mathcal H=(V,E)$ represents entities as nodes and interactions as
 
 ## Key Ideas
 
+- **Adaptive membership couples structure and opinions.** In [[papers/polyadic-opinion-formation-the-adaptive-voter-model-on-a-hypergraph|Polyadic Opinion Formation]], group-size counts stabilize rapidly even though rewiring changes them; majority and proportional group updates then yield markedly different absorption times. Stable size counts do not imply fixed membership.
+
 - **Group identity survives.** A three-person meeting and three separate pairwise meetings have different hyperedge sets even though their pairwise clique projections can be identical. Projection can erase group size and inflate apparent transitivity.
 - **Incidence representations preserve membership.** A bipartite graph with actor nodes and group nodes can encode which actors belong to which groups. It should be distinguished from a pairwise projection that collapses the groups.
 - **Simplicial closure is an additional assumption.** A simplicial complex contains all faces of every simplex. General hypergraphs do not require every subset of an observed group to have its own interaction. Closure is useful for topological methods but may misrepresent observed group events.
