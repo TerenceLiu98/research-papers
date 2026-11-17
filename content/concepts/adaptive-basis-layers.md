@@ -26,6 +26,8 @@ Adaptive basis layers turn a functional input into a finite-dimensional represen
 - The projection is linear in the input function even though each basis is parameterized by a nonlinear micro-network; nonlinear prediction occurs in the downstream network.
 - The learned predictor may be identifiable even when its individual bases are not. Basis shapes should therefore be interpreted as one parameterization of the predictive map rather than uniquely recovered ground-truth functions.
 
+A multichannel extension assigns a distinct basis bank to each trajectory and concatenates the resulting projection coefficients before classification. This preserves channel-specific temporal representations while allowing the downstream network to learn cross-channel relationships.
+
 ## Important Papers
 
 - [[Deep Learning for Functional Data Analysis with Adaptive Basis Layers]]
