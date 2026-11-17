@@ -23,7 +23,11 @@ Bayesian process tracing evaluates within-case causal explanations by updating p
 - **Confidence depends on the analysis specification.** Concentrated posteriors do not independently validate the hypothesis set or elicited probabilities. Sensitivity checks and transparent reasoning help assess how assumptions drive conclusions.
 - **Narrative analysis needs bookkeeping.** Verbal comparisons must retain earlier evidence and prior weights to represent cumulative updating coherently.
 
+- **Theory revision changes the updating problem.** Updating belief in a fixed hypothesis differs from modifying its content. Zaks (2021) calls for explicit guidance on priors and previously examined evidence after such revisions, and emphasizes additional evidence as a check on stability.
+
 ## Important Papers
+
+- [[papers/updating-bayesians-a-critical-evaluation-of-bayesian-process-tracing|Updating Bayesian(s): A Critical Evaluation of Bayesian Process Tracing]]: evaluates claims about iteration, timing, rival explanations, and bias, and proposes implementation and validation priorities.
 
 - [[papers/return-to-the-scene-of-the-crime-revisiting-process-tracing-bayesianism-and-murder|Return to the Scene of the Crime: Revisiting Process Tracing, Bayesianism, and Murder]]: Zaks's worked critique of hypothesis construction, likelihood elicitation, and numerical and narrative updating.
 - Fairfield and Charman (2017), “Explicit Bayesian Analysis for Process Tracing: Guidelines, Opportunities, and Caveats”: methodological foundation discussed in Zaks's critique.
