@@ -23,9 +23,13 @@ A population average marginal component effect makes the profile distribution ex
 - Existing experiments can support model-based target averaging, at the cost of interaction-model assumptions and potentially substantial uncertainty.
 - Removing implausible combinations alone does not establish the intended target distribution. Specify the profile population and contrast before interpreting an average effect.
 
+In electoral conjoint applications, averaging over both target voters and candidate configurations gives the effect on expected vote share. This remains distinct from winning probability: majority-rule thresholds must be applied to each matchup before averaging across matchups. A positive average effect also need not mean that a majority of voters prefer the attribute.
+
 ## Important Papers
 
 - [[papers/improving-the-external-validity-of-conjoint-analysis|Improving the External Validity of Conjoint Analysis]]: defines the estimand, develops designs and estimators, and illustrates real-world and counterfactual targets.
+
+- [[papers/using-conjoint-experiments-to-analyze-election-outcomes|Using Conjoint Experiments to Analyze Election Outcomes]]: establishes the expected-vote-share interpretation and distinguishes nonlinear electoral estimands.
 
 ## Related Concepts
 
