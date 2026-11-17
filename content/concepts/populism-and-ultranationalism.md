@@ -1,6 +1,7 @@
 ---
 title: Populism and Ultranationalism
 type: concept
+definition: "The overlap of people-versus-elite claims with exclusionary national belonging, while preserving the distinction between populist anti-elitism and ultranationalist exclusion."
 tags:
   - populism
   - ultranationalism

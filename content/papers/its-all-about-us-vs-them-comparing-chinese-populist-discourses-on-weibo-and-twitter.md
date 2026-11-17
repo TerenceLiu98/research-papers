@@ -97,6 +97,8 @@ The account analysis reports ordinary individuals as 96.02% of populist dissemin
 
 ## Related Papers
 
+- [[papers/how-populist-are-parties|How Populist are Parties?]]: Cited supervised-learning precedent using party manifestos; contrasts institutional supply of populism with this study's grassroots social-media discourse.
+
 - Mudde (2004), "The Populist Zeitgeist": Cited conceptual foundation for the antagonism between the people and corrupt elites.
 - Huguet-Cabot et al. (2021), "Us vs. Them: A Dataset of Populist Attitudes, News Bias and Emotions": Cited computational precedent for measuring populist discourse.
 - Zhang (2020), "Right-Wing Populism with Chinese Characteristics? Identity, Otherness and Global Imaginaries in Debating World Politics Online": Cited account of Chinese online populist identity and anti-Western discourse.
