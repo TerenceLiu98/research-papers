@@ -15,6 +15,8 @@ Representation autoencoders pair a pretrained visual representation encoder with
 
 ## Key Ideas
 
+- **Semantic latents can support a shared language–vision objective.** [[papers/multimodal-flow-unified-flow-modeling-of-language-and-vision-in-embedding-spaces|Multimodal Flow]] models frozen SigLIP2 image grids and T5 text blocks with chunk-causal flow matching. Its representation comparison favors DINOv2 for image generation and SigLIP2 for balancing generation with captioning, showing that the best codec depends on the task mixture.
+
 - **Frozen semantic encoders can support pixel reconstruction.** [[papers/diffusion-transformers-with-representation-autoencoders|The original RAE paper]] trains only a ViT decoder over frozen DINOv2, SigLIP2, or MAE patch features. All three report lower ImageNet reconstruction FID than SD-VAE while retaining substantially stronger linear-probe accuracy.
 - **High-dimensional latent diffusion needs dimension-aware design.** The original RAE recipe matches denoiser width to latent token dimensionality, shifts the noise schedule using token count times channel dimension, and perturbs decoder inputs during training so generated latents need not land exactly on the encoder's empirical support.
 - **Decoder robustness trades reconstruction for generation.** Adding latent noise during decoder training worsens exact reconstruction FID but improves generation FID across encoder families and sizes. A decoder for generated representations must therefore model a neighborhood around encoded data, not only clean training latents.
