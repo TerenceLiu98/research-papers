@@ -17,6 +17,8 @@ Dynamic ideal point models estimate how an unobserved position changes over time
 
 ## Key Ideas
 
+- **Coupled latent trajectories:** Kubinec and Owen combine retweet-based IRT measurement with vector autoregressive priors linking ideological allies across countries. Joint estimation propagates measurement uncertainty into impulse responses, but the lag channels do not by themselves identify causal transmission.
+
 - **Measurement:** A binary specification uses $\Pr(Y_{ijt}=1)=\operatorname{logit}^{-1}(\gamma_j\alpha_{it}-\beta_j)$. Item discrimination $\gamma_j$ can have either sign, allowing items to indicate opposing ends of a latent dimension. Other likelihoods can accommodate counts, ordinal responses, or continuous measures.
 - **Temporal assumptions:** Random walks permit cumulative innovations; stationary AR(1) models describe mean reversion; splines constrain trajectories through degree and knots; Gaussian processes express covariance across time. These encode different assumptions about the latent trait.
 - **Latent geometry:** Temporal dependence need not operate on a Euclidean line. A projected Gaussian AR(1) process induces angular trajectories on a circle, accommodating end-against-the-middle coalitions while requiring care when converting positions back into ranks.
