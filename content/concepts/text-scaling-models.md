@@ -19,6 +19,8 @@ Text scaling models estimate the relative position of documents or speakers alon
 
 ## Key Ideas
 
+- Relational scores can supervise textual scaling: Lai et al. train BERT on video–subreddit correspondence-analysis coordinates, then score videos from metadata alone. Agreement with those proxy labels and agreement with human ideology judgments are distinct validation targets.
+
 - Implied-word scaling links narrow survey statements through their associations with contextually common words. Repeated-response stability and correspondence with human-coded content provide complementary validation; a stable dimension need not represent left–right ideology.
 
 - Schulz’s Wordsticks extension scales ordinal survey reports of intended phrase usage. Randomizing the hypothetical audience separates changes in lexical ideology from changes in outspokenness; unlike document corpora, the survey observes intended abstention. Phrase parameters learned outside the experimental sample keep the outcome scale fixed across treatment comparisons.
@@ -43,6 +45,8 @@ Text scaling models estimate the relative position of documents or speakers alon
 - Long-context access does not by itself remove the measurement problem. Direct BigBird and Longformer estimates avoid gold statement boundaries but underperform label aggregation and compress positions toward the center, especially in cross-country transfer. Rank agreement should therefore be checked alongside score dispersion, extreme-class recall, and absolute error.
 
 ## Important Papers
+
+- [[papers/estimating-the-ideology-of-political-youtube-videos|Estimating the Ideology of Political YouTube Videos]]: transfers Reddit-derived ideological affinity labels to YouTube metadata, with separate proxy-label and human validation.
 
 - [[papers/categorizing-topics-versus-inferring-attitudes|Categorizing Topics Versus Inferring Attitudes]]: develops common-word-based scaling for open-ended answers and validates dimensions using survey panels, with embeddings as an optional scoring extension.
 
