@@ -24,6 +24,8 @@ Party-position measurement assigns political parties locations on ideological or
 
 ## Important Papers
 
+- [[papers/mapping-aideology-a-taxonomy-of-european-parties-using-generative-llms-as-zero-shot-learners|Mapping (A)Ideology]]: Uses zero-shot judgments of named European parties to recover reputational positions; strong agreement with expert levels does not extend to valid measurement of party shifts.
+
 - [[papers/mapping-party-systems-over-time-a-spatial-distribution-of-ideological-competition-in-chile|Mapping party systems over time: a spatial distribution of ideological competition in Chile]] combines broad electoral coverage, source-based scores, and simulations constrained by political families.
 - [[papers/party-system-polarization-and-the-effective-number-of-parties|Party system polarization and the effective number of parties]] compares polarization relationships across sources and emphasizes standardization and electoral weights.
 - Benoit and Laver (2007), "Estimating party policy positions: Comparing expert surveys and hand-coded content analysis," cited in Bunker's measurement review.

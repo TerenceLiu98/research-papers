@@ -32,6 +32,8 @@ Bradley-Terry scaling estimates relative item scores from pairwise judgments or 
 
 ## Important Papers
 
+- [[papers/mapping-aideology-a-taxonomy-of-european-parties-using-generative-llms-as-zero-shot-learners|Mapping (A)Ideology]]: Aggregates repeated LLM judgments about which named party is more right-wing into cross-country ideological positions.
+
 - [[papers/recent-advances-in-the-bradley-terry-model-theory-algorithms-and-applications|Recent advances in the Bradley-Terry model: theory, algorithms, and applications]]: Fang et al. (2026) survey graph-dependent identification, inference, algorithms, and extensions beyond text measurement.
 - Bradley and Terry (1952), "Rank Analysis of Incomplete Block Designs: I. The Method of Paired Comparisons": foundational model cited in the scalar-measurement study.
 - [[papers/measuring-scalar-constructs-in-social-science-with-llms|Measuring Scalar Constructs in Social Science with LLMs]]: uses Bradley-Terry models for human reference scores, aggregation of LLM comparisons, and the pairwise fine-tuning objective.
