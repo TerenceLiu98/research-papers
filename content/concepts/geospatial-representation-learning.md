@@ -23,7 +23,11 @@ Geospatial representation learning converts coordinates, spatial objects, region
 - **Task-modality fit:** Built-environment features are naturally aligned with many socioeconomic targets, while overhead imagery can be more informative for environmental properties. A general representation should be assessed across distinct target families rather than a single benchmark.
 - **Fusion:** Independently learned modalities can be concatenated or aligned in a shared downstream space. Gains are empirical rather than automatic; fusion can add complementary information, reproduce a dominant modality, or overfit.
 
+- **Structural composition and evaluation scope:** Demographic, socioeconomic, business, and environmental tables can support transferable vectors without imagery or behavioral traces. PlacePulse separates full-grid reconstruction and spatial diagnostics from state-blocked downstream prediction; holding out downstream labels does not establish that the encoder generalizes to unobserved locations or new vintages.
+
 ## Important Papers
+
+- [[papers/placepulse-learning-transferable-place-representations-from-structural-geographic-data|PlacePulse: Learning Transferable Place Representations from Structural Geographic Data]] learns national H3 embeddings from structural attributes and ring summaries. Its comparison with PDFM shows domain-dependent strengths and illustrates how native spatial support and shared input-target covariates affect interpretation.
 
 - [[papers/s2vec-self-supervised-geospatial-embeddings-for-the-built-environment|S2Vec: Self-Supervised Geospatial Embeddings for the Built Environment]] rasterizes structured map features in hierarchical S2 cells and uses masked autoencoding to learn cell embeddings.
 - Mai et al. (2022), "A Review of Location Encoding for GeoAI: Methods and Applications," organizes analytical and learned approaches for representing geographic location.
