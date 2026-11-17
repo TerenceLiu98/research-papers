@@ -17,6 +17,8 @@ Echo chambers are communication environments in which people are disproportionat
 
 ## Key Ideas
 
+- **Static alignment differs from dynamic narrowing.** A sequence can track recently watched content and become less diverse without moving toward increasingly extreme partisan positions. Real-account audits can constrain immediate choices while retaining account histories, but remain stylized representations of normal browsing.
+
 - **Selection and influence are coupled.** People may choose congenial sources, and those sources may then stabilize their views. Observed alignment alone does not identify which direction of influence produced it.
 - **Network segregation is measurable.** Same-opinion clustering, neighbor-opinion distributions, cross-group exposure, and community structure capture different aspects of an echo chamber; no single measure establishes every form of polarization.
 - **Local rewiring can create collective separation.** In [[papers/media-preference-increases-polarization-in-an-agent-based-election-model|Media preference increases polarization in an agent-based election model]], allowing voters to replace disagreeing media raises same-opinion voter clustering and reduces modeled opinion switching.
@@ -25,6 +27,8 @@ Echo chambers are communication environments in which people are disproportionat
 - **Simulation and field evidence answer different questions.** Agent-based models can demonstrate that a mechanism is sufficient under stated assumptions; observational or experimental evidence is needed to estimate its prevalence and causal magnitude in real media systems.
 
 ## Important Papers
+
+- [[papers/evaluating-echo-chambers-rabbit-holes-and-radicalization-pathways-on-youtube|Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube]]: a fall 2020 audit finds modest partisan separation mainly under free choice, strong recent-content dependence, and narrowing recommendations without average divergence toward partisan extremes.
 
 - [[papers/media-preference-increases-polarization-in-an-agent-based-election-model|Media preference increases polarization in an agent-based election model]]: models selective media rewiring as a mechanism that increases clustering and reduces opinion changes.
 - Cinelli et al. (2021), "The echo chamber effect on social media": compares homophilic interaction patterns across major platforms.
