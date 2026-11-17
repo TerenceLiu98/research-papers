@@ -1,6 +1,7 @@
 ---
 title: Multiple Ideal Points
 type: concept
+definition: "Models that allow each voter to have distinct positions across predetermined voting domains while linking those positions on a common latent scale."
 aliases:
   - Domain-Specific Ideal Points
 tags:

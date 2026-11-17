@@ -8,8 +8,8 @@ authors:
 year: 2021
 doi: "10.1017/pan.2020.21"
 venue: Political Analysis
-source_job_id: "abfe479b-5b39-45fd-8cd8-6b65012ef672"
-source_revision: "2020-06-24"
+source_job_id: "7b61afa4-76af-47d5-b5f3-45aab7e2bca5"
+publication_date: "2021-03-09"
 tags:
   - ideal-point-estimation
   - legislative-behavior
@@ -20,7 +20,7 @@ tags:
 
 The paper estimates legislators' domain-specific ideal points on a common scale by learning which legislators have identical preferences across domains. A constrained clustering prior permits exact equality and partial pooling. Applied separately to 18 U.S. Houses, it finds increasing cross-issue consistency over much of 1981-2016, with a sharp exception in the 112th House. This consistency captures a different feature of voting from the fit of a conventional one-dimensional spatial model.
 
-This entry summarizes the supplied manuscript revised 24 June 2020 (first draft 5 March 2019). The publication year, venue, and DOI above are retained from the existing library record.
+This entry summarizes the supplied published article in *Political Analysis* 29 (2021), pages 139–166, published 9 March 2021.
 
 ## Research Question
 
