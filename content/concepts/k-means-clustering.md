@@ -22,6 +22,8 @@ K-means represents observations by $K$ centroids and assigns each observation to
 - **Systems behavior differs from arithmetic complexity:** On accelerators, materializing every point-centroid distance can dominate memory traffic, while parallel centroid updates can contend on shared accumulators.
 - **Approximation is optional:** Sampling, coresets, and skipped distance evaluations can change how work is reduced, whereas fused exact implementations can preserve the ordinary Lloyd assignment and update.
 
+- **Validation has several dimensions:** In [[papers/tagnet-temporal-attention-graph-network-for-defensive-tactical-pattern-recognition-in-professional-counter-strike-2|TAGNet]], count-sequence clustering beats learned embeddings on internal compactness indices, while seed agreement and domain interpretation provide different evidence. Indices computed in different feature spaces do not establish a universal ranking of tactical usefulness.
+
 ## Important Papers
 
 - Lloyd (1982), "Least Squares Quantization in PCM": a foundational statement of the alternating least-squares procedure.
