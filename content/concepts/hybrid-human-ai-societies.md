@@ -25,7 +25,13 @@ Hybrid human-AI societies are populations and institutions in which humans and a
 - **Institutional co-evolution:** laws, transparency rules, audits, market incentives, and ownership structures alter agent behavior while adoption and public response reshape regulation and development incentives.
 - **Evidence requirements:** formal models and [[concepts/hybrid-llm-agent-based-simulation|Hybrid LLM Agent-Based Simulations]] need calibration and validation against human experiments or field data. See [[concepts/validity-boundaries-for-llm-social-simulations|Validity Boundaries for LLM Social Simulations]].
 
+### Behavior, relationships, and collective outcomes
+
+Generative Human–AI Social Systems (GHASS) focus on generative AI participating in, mediating, or reshaping human social processes. This is a narrower focus than hybrid societies generally. The review distinguishes AI-mediated human–human, human–agent, agent–agent, and platform-mediated relations, and treats agent-only environments as testbeds rather than direct evidence about human systems.
+
 ## Important Papers
+
+- [[papers/from-observation-to-generation-a-complex-systems-perspective-on-generative-human-ai-social-systems|From observation to generation: A complex-systems perspective on generative Human–AI social systems]] develops a coupled behavior–relationship–collective framework and its cross-level evidence requirements.
 
 - [[papers/on-the-optimal-integration-of-intelligent-agents-into-network-systems-to-steer-cooperation|On the optimal integration of intelligent agents into network systems to steer cooperation]] derives an intermediate optimal bot prevalence under weak-selection network imitation. Neutral bots dilute ordinary contacts; TFT-like bots additionally favor cooperators through differential payoffs. The optimum depends on the game and network, and the base model excludes imitation of bots.
 

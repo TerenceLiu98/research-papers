@@ -37,7 +37,13 @@ Synthetic perception judgments require validation against the population whose p
 
 Larooij and Törnberg's 35-study review frames operational validity around purpose alignment, external grounding, and robustness. A simulation of platform effects needs evidence about relevant behavior or interaction mechanisms; realistic prose alone is weak support. Internal consistency checks and comparisons with other models complement human-data validation but do not independently establish it. This broadens the mean–variance perspective to the fit between the intended scientific claim and the evidence actually collected.
 
+### Behavior, relationships, and collective outcomes
+
+Cross-level validation measures changes in behavior, relationships, and collective outcomes within the same longitudinal design. Matching network topology does not establish that ties represent human trust or influence. Agent-only emergence supports claims about the generated environment; transfer requires triangulation with human experiments and observational evidence.
+
 ## Important Papers
+
+- [[papers/from-observation-to-generation-a-complex-systems-perspective-on-generative-human-ai-social-systems|From observation to generation: A complex-systems perspective on generative Human–AI social systems]] develops a coupled behavior–relationship–collective framework and its cross-level evidence requirements.
 
 - [[papers/validation-is-the-central-challenge-for-generative-social-simulation|Validation is the central challenge for generative social simulation]] reviews five validation strategies and finds that subjective assessments remain primary in 22 of 35 studies.
 
