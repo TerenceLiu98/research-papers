@@ -21,7 +21,11 @@ A denoising autoencoder learns to reconstruct a clean observation from a corrupt
 - **Stacking differs from direct composition.** Stacking trains on hidden codes; direct composition trains on reconstructed outputs. Their transport descriptions can be related through decoder maps under injectivity and generalized-DAE assumptions.
 - **Concentration has a time limit.** Continuous Gaussian examples reach singular measures in finite time. Population formulas do not themselves bound finite-data or finite-width errors.
 
+- **Missing-data reconstruction.** MIDAS masks genuinely missing targets out of the loss and uses stochastic dropout passes to generate multiple completions from one fitted network.
+
 ## Important Papers
+
+- [[papers/the-midas-touch-accurate-and-scalable-missing-data-imputation-with-deep-learning|The MIDAS Touch]]: adapts denoising to mixed-type missing data and evaluates accuracy and scalability.
 
 - [[papers/transport-analysis-of-infinitely-deep-neural-network|Transport Analysis of Infinitely Deep Neural Network]]: develops the transport interpretation, continuous-depth limit, and conditional stacking equivalence.
 - Alain and Bengio (2014), *What regularized auto-encoders learn from the data generating distribution*: population denoising analysis cited by the transport paper.
@@ -30,3 +34,5 @@ A denoising autoencoder learns to reconstruct a clean observation from a corrupt
 
 - [[concepts/wasserstein-gradient-flows|Wasserstein Gradient Flows]]: entropy descent describes ideal continuous denoising.
 - [[concepts/optimal-transport|Optimal Transport]]: provides a geometry for comparing transported distributions.
+
+- [[concepts/multiple-imputation|Multiple Imputation]]: combines multiple completed-data analyses to represent missing-value uncertainty.
