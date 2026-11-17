@@ -18,6 +18,8 @@ Misinformation spreading models describe how false or misleading information mov
 
 ## Key Ideas
 
+- Fraud-focused models distinguish inadvertent spreaders from deliberate defrauders. [[papers/an-effective-hybrid-method-for-the-optimal-control-of-fraud-rumor-propagation-on-online-social-networks|Khanduzi et al. (2025)]] jointly optimize awareness, filtering, and punitive transitions; combined control has the lowest reported simulated average cost-effectiveness ratio. The averted burden measures person-time, not unique prevented cases.
+
 - Compartment models classify users as ignorant, spreaders, stiflers or recovery states, and can add hesitators, debunkers, or other response states to represent behavioral differences.
 - Exposure thresholds can also be heterogeneous. In the [[papers/the-maki-thompson-model-with-random-awareness|Maki-Thompson model with random awareness]], a distribution over the number of exposures required before spreading creates countably many listener states and can generate multiple peaks without an external shock.
 - Rumor dynamics need not imply false content. URL-based cascades operationalize circulating information without verifying its truth, so empirical rumor-model results should not automatically be interpreted as misinformation-specific findings.
