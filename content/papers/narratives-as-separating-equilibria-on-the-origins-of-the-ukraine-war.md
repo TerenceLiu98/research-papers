@@ -53,7 +53,13 @@ $$
 p\leq\frac{q_2-(1-q_2)\rho_s}{q_3-(1-q_3)\rho_s}
 $$
 
-for P–S, plus a lower bound on $p$ when Russian revisionism is sufficiently weak. Thus the Russia-blaming narrative requires a sufficiently dovish American security-seeker and a sufficiently low prior of American revisionism; the prior of Russian revisionism does not determine its existence.
+for P–S. When $\rho_g<q_2/(1-q_2)$, Proposition 1 additionally requires
+
+$$
+p\geq\frac{q_2-(1-q_2)\rho_g}{q_3-(1-q_3)\rho_g}.
+$$
+
+This lower bound ensures that even a revisionist Russian type that dislikes immediate war prefers attacking to risking a later war against a stronger United States. Thus the Russia-blaming narrative requires a sufficiently dovish American security-seeker and a sufficiently low prior of American revisionism; the prior of Russian revisionism does not determine its existence.
 
 Proposition 2 gives the S–P condition:
 
