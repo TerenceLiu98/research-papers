@@ -20,9 +20,13 @@ Symbolic regression searches for an explicit mathematical formula that explains 
 - Supervised neural generators can amortize search through synthetic pretraining, while local refinement adapts candidate constants to new observations.
 - Numerical fit, expression simplicity, exact formula recovery, and extrapolation are different evaluation targets. Near-perfect fit over a finite domain need not identify the generating expression.
 
+Panel datasets can share an expression structure while retaining panel-specific constants. This pools evidence for common interactions without requiring identical trajectories. Complexity penalties and domain-specific bases constrain discovery, but neither guarantees causal identification.
+
 ## Important Papers
 
 - [[papers/symformer-end-to-end-symbolic-regression-using-transformer-based-architecture|SymFormer]]: jointly predicts symbols and constants, then refines constants with local gradient search; its evidence concerns univariate and bivariate functions.
+
+- [[papers/ai-assisted-discovery-of-quantitative-and-formal-models-in-social-science|AI-Assisted Discovery of Quantitative and Formal Models in Social Science]]: extends OccamNet with complexity controls and panel-shared equation discovery; illustrates sensitivity to priors and preprocessing.
 
 ## Related Concepts
 
