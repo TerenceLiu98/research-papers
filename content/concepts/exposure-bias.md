@@ -18,6 +18,8 @@ Exposure bias is the mismatch between the histories a sequential model receives 
 - **Validation should reflect deployment.** Autoregressive validation measures the behavior required in free-running forecasts and can reveal deterioration hidden by falling teacher-forced loss.
 - **The benefit of correction is empirical.** In the cited forecasting study, scheduled autoregression improves spatial cylinder-flow forecasts but offers little or no improvement on Mackey-Glass and Darwin pressure series. Exposure mismatch alone does not establish the size of its performance impact.
 
+- **Recurrent conditioning can also shift.** In [[papers/flow-reasoning-models-turning-flows-into-efficient-recurrent-reasoners|Flow Reasoning Models]], one-pass self-conditioning carries differ from recursive inference carries. Fixed-Point Forcing supplies detached rollout-derived carries while preserving the supervised flow interpolant and endpoint target; this addresses exposure without backpropagating through the rollout.
+
 ## Important Papers
 
 - [[papers/learning-from-predictions-fusing-training-and-autoregressive-inference-for-long-term-spatiotemporal-forecasts|Learning from Predictions]] compares teacher forcing, scheduled sampling, and differentiable scheduled autoregression in deterministic forecasting.
