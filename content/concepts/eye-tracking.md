@@ -24,6 +24,8 @@ Eye tracking records where and when people look, allowing researchers to study i
 
 ## Important Papers
 
+- [[papers/odd-profiles-in-conjoint-experimental-designs|Odd Profiles in Conjoint Experimental Designs]]: combines fixation counts and search transitions with choices, finding small and inconsistent responses to unusual attribute combinations in two conjoint scenarios.
+
 - [[papers/attention-and-political-choice-a-foundation-for-eye-tracking-in-political-science|Attention and Political Choice: A Foundation for Eye Tracking in Political Science]]: connects gaze measures to political research and explains design, analysis, and inference constraints.
 
 ## Related Concepts
