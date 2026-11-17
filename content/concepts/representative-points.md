@@ -29,6 +29,8 @@ Representative points are finite support values used to approximate a population
 - Representative points provide a compact, weighted alternative to empirical support points for simulation and resampling. Their statistical benefit depends on how they are obtained: when the population is unknown, estimating them typically introduces distributional assumptions or an additional fitting procedure.
 - A nonparametric construction first fits a kernel density estimate, then computes the centroids and Voronoi-cell probabilities under that density. Resampling from these weighted points differs from drawing directly from the smooth KDE. Density consistency and quantization convergence are separate requirements; neither alone establishes valid confidence intervals for the combined fitted procedure.
 
+Energy-distance constructions instead optimize an equal-weight empirical distribution against a target. Importance-weighted proposal samples can approximate a non-uniform target even when its normalizing constant is unknown. For sliced experimental designs, a hybrid criterion balances representativeness of the full set and each categorical slice; this is a different objective from nearest-neighbor MSE quantization.
+
 ## Important Papers
 
 - [[A Review of Representative Points of Statistical Distributions and Their Applications]]: surveys MC, QMC, and MSE constructions, their algorithms, and statistical applications.
@@ -39,6 +41,8 @@ Representative points are finite support values used to approximate a population
 - Flury (1990), "Principal Points."
 - Graf and Luschgy (2007), "Foundations of Quantization for Probability Distributions."
 - Fang, Zhou, and Wang (2014), "Applications of the Representative Points in Statistical Simulations."
+
+- [[papers/generalized-sliced-space-filling-design|Generalized sliced space-filling design]]: extends energy-based representative points to joint and sequential non-uniform designs with categorical slices and unequal slice sizes.
 
 ## Related Concepts
 
