@@ -41,7 +41,14 @@ Larooij and Törnberg's 35-study review frames operational validity around purpo
 
 Cross-level validation measures changes in behavior, relationships, and collective outcomes within the same longitudinal design. Matching network topology does not establish that ties represent human trust or influence. Agent-only emergence supports claims about the generated environment; transfer requires triangulation with human experiments and observational evidence.
 
+### Purpose and deployment risk
+
+For focus-group research, Novelli et al. distinguish bounded comparison from discovering meanings through live interaction. Their proposed framework allows simulations to inform comparative testing with grounding and calibration that rise with risk, but requires live human evidence for interaction-based meaning-making. High-stakes deployment requires empirical validation beyond simulation. This is an analytic governance prescription, not a validated accuracy threshold; maintaining qualitative interpretive expertise is part of its implementation.
+
 ## Important Papers
+
+- [[papers/fake-plastic-voters-when-political-parties-can-use-ai-simulated-focus-groups|Fake Plastic Voters]] develops this purpose–risk–grounding framework and distinguishes synthetic option filtering from human authorization.
+
 
 - [[papers/from-observation-to-generation-a-complex-systems-perspective-on-generative-human-ai-social-systems|From observation to generation: A complex-systems perspective on generative Human–AI social systems]] develops a coupled behavior–relationship–collective framework and its cross-level evidence requirements.
 
