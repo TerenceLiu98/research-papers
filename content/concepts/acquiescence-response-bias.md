@@ -21,9 +21,13 @@ An agreeable response can reflect a response tendency as well as a belief. When 
 - **Correct associations as well as means.** Key–covariate interactions model heterogeneous bias; balanced weighting across randomized keys offers an alternative for estimating associations.
 - **Make identification assumptions visible.** Logical equivalence, random assignment, and symmetry matter. Report results by key alongside corrected estimates because symmetry is not directly established by the wording experiment.
 
+- **Check sample quality before interpreting heterogeneity.** Invalid demographic codes and poor response quality can reverse education gradients; attention-check passage alone need not remove these patterns.
+
 ## Important Papers
 
 - [[papers/acquiescence-bias-inflates-estimates-of-conspiratorial-beliefs-and-political-misperceptions|Hill and Roberts (2023)]] — demonstrates key-sensitive political-belief estimates across six surveys and develops mean and regression corrections.
+
+- [[papers/survey-quality-and-acquiescence-bias-a-cautionary-tale|Cruz, Bouyamourn, and Ornstein (2026)]] — finds a positive education gradient on Lucid/Cint but no association on Bovitz after correcting the original coding error.
 
 ## Related Concepts
 
