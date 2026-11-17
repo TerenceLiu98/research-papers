@@ -67,7 +67,7 @@ Predictive improvement can exceed that of the oracle DFM: selecting the generati
 
 ### GDP Applications
 
-All three applications evaluate 2012 Q1-2019 Q3. The US panel has 87 monthly predictors after exclusions from FRED-MD; the German panel has 443 monthly predictors. The Baden-Wuerttemberg source panel contains 18 quarterly and 78 monthly indicators, with eight excluded for missing data and three more for proprietary-data restrictions. It combines regional, national, and international indicators.
+All three applications evaluate 2012 Q1-2019 Q3. The authors choose this relatively calm interval between the global financial crisis and COVID-19 to balance evaluation length against the risk of structural breaks (Section 4.1). The US panel has 87 monthly predictors after exclusions from FRED-MD; the German panel has 443 monthly predictors. The Baden-Wuerttemberg source panel contains 18 quarterly and 78 monthly indicators, with eight excluded for missing data and three more for proprietary-data restrictions. It combines regional, national, and international indicators.
 
 Table 3 reports RMSFE relative to CDFM; lower is better. A dash denotes a specification not evaluated because of computational cost.
 
