@@ -61,6 +61,8 @@ The journal citation is 2026, volume 33(11), pages 2822–2850; online publicati
 
 ## Related Concepts
 
+- [[concepts/party-issue-salience|Party Issue Salience]]: issue avoidance is the most consistently supported response to internal divisions; expert salience and manifesto emphasis capture different communication environments.
+
 - [[concepts/party-preference-cohesion|Party Preference Cohesion]]: candidate dispersion measures latent disagreement, distinct from public conflict.
 - [[concepts/strategic-ambiguity-in-party-competition|Strategic Ambiguity in Party Competition]]: unity seeking motivates ambiguity, although observed blurring need not be intentional.
 - [[concepts/voter-issue-salience|Voter Issue Salience]]: voter priorities are distinct from the party emphasis studied here.
