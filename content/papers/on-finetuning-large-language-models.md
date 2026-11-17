@@ -58,7 +58,7 @@ The evidence concerns one conflict-regression setting, not a universal ranking o
 
 ## Related Papers
 
-- Häfner et al. (2023), “Introducing an Interpretable Deep Learning Approach to Domain-Specific Dictionary Creation: A Use Case for Conflict Prediction”: the dictionary method and restricted baseline reexamined here. [DOI](https://doi.org/10.1017/pan.2023.7).
+- [[papers/introducing-an-interpretable-deep-learning-approach-to-domain-specific-dictionary-creation-a-use-case-for-conflict-prediction|Häfner et al. (2023), Introducing an Interpretable Deep Learning Approach to Domain-Specific Dictionary Creation: A Use Case for Conflict Prediction]]: the dictionary method and restricted baseline reexamined here. [DOI](https://doi.org/10.1017/pan.2023.7).
 - Hu et al. (2022), “ConfliBERT: A Pre-Trained Language Model for Political Conflict and Violence”: introduces the domain-specific encoder used in the experiments.
 - Devlin et al. (2019), “BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding”: establishes the pretraining and downstream fine-tuning framework.
 
