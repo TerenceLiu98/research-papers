@@ -43,6 +43,8 @@ Ideological dimensionality is the number of substantively independent axes neede
 
 ## Important Papers
 
+- [[papers/one-dimensional-multidimensional-or-non-dimensional-ideological-structure-in-mass-and-elite-opinion|One-dimensional, multidimensional, or non-dimensional?]]: finds several statistical factors in Belgian policy responses but weak variance explanation and thematic coherence; its “non-dimensional” interpretation concerns substantive organization, not a literal zero-factor result.
+
 - [[papers/nonparametric-ideal-point-estimation-and-inference|Nonparametric Ideal-Point Estimation and Inference]]: tests common Supreme Court orderings across issue areas and reports evidence against that restriction in the 1960s; other decades do not reject at the stated level.
 - [[Beyond the median voter: A model of how the ideological dimension shapes party polarization]]
 - [[A computational model of spatial politics: Hotelling-Downs model as statistical physics]]

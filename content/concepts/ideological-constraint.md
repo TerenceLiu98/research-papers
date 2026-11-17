@@ -25,6 +25,8 @@ Converse distinguishes constraint from centrality (which beliefs resist adjustme
 
 ## Important Papers
 
+- [[papers/one-dimensional-multidimensional-or-non-dimensional-ideological-structure-in-mass-and-elite-opinion|One-dimensional, multidimensional, or non-dimensional?]]: compares identical concrete policy items across Belgian VAA users and thirteen party leaders; citizen correlations are markedly weaker, while personally boosted item pairs show stronger association.
+
 - [[papers/the-structure-of-political-choices-distinguishing-between-constraint-and-multidimensionality|The Structure of Political Choices]]: formalizes the distinction and compares held-out predictive gains among American citizens and politicians.
 - [[papers/the-nature-of-belief-systems-in-mass-publics|The Nature of Belief Systems in Mass Publics (1964)]]: defines static constraint as cross-attitude predictability and dynamic constraint as compensating belief adjustment; documents elite–mass differences and examines response stability.
 
