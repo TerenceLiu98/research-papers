@@ -1,6 +1,7 @@
 ---
 title: Spatiotemporal History Smoothing
 type: concept
+definition: "Spatiotemporal history smoothing estimates a regularized response surface over the temporal lags and spatial distances of past outcomes."
 tags:
   - spatiotemporal-modeling
   - nonparametric-smoothing

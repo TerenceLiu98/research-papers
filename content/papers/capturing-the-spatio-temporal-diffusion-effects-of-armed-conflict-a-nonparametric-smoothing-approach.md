@@ -75,6 +75,8 @@ The M1 coefficient for the preceding month in the same cell is 0.5559: a one-uni
 
 For M2, the first-month adjacent-cell coefficients are 0.2048, 0.0981, and 0.0402 at the 5th, 50th, and 95th destination-population percentiles. Higher population has a positive baseline coefficient but a negative diffusion interaction. The authors interpret this as conflict originating in populous areas and spreading toward less populous areas; stronger relative diffusion coefficients do not by themselves imply larger absolute fatality increases there.
 
+The country-border extension described in Section 4.2 reports diffusion across national borders. Ring patterns remain for within-country diffusion but disappear for cross-country diffusion; the proposed actor-based explanation remains a hypothesis. Details are reported in supplementary material S.5.
+
 Section 4.3 reports robustness checks involving alternative bases, basis size, shorter history windows, unlogged fatalities, and expanded reference models. The authors report persistent main patterns, poorer performance with shorter histories, and weak performance for an unrestricted reference using the same history. They also report difficulty predicting rare high-fatality observations, no systematic spatial or temporal prediction bias in their diagnostics, an unsuitable negative-binomial fit in this setting, and no need for zero inflation. Detailed supplementary analyses are referenced but are not included in the supplied Markdown.
 
 ## Limitations
