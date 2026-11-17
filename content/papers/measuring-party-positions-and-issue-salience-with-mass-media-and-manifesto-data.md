@@ -31,7 +31,7 @@ Manifestos express party-controlled programs with both internal and external aud
 
 ## Method
 
-PolDem samples two newspapers per country during the two months before elections, excluding editorials and opinion pieces. Newspaper selection differs by region: quality/tabloid combinations in Northwestern Europe and center-left/center-right combinations elsewhere. Chronological sampling distributes observations through campaigns.
+PolDem samples two newspapers per country during the two months before elections, excluding editorials and opinion pieces. Newspaper selection differs by region: quality/tabloid combinations in Northwestern Europe and center-left/center-right combinations elsewhere. Chronological sampling distributes observations through campaigns. Coding generally covers the headline, lead, and first paragraph; short articles or articles without clear paragraph structure are capped at 20 sentences. For early elections, the observation window begins at the election announcement (notes 5–6).
 
 Core-sentence analysis codes relations between actors and issues or between actors, rather than treating grammatical sentences as indivisible units. Directions range from opposition to support, with intermediate categories used sparingly. Roughly two-thirds of observations are actor–issue relations. The data offer 17 broad and 105 detailed issue categories. Reported reliability exceeds 0.90 for aggregated issue domains and party affiliations after training and monitoring.
 
