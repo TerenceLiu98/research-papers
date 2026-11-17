@@ -26,7 +26,7 @@ A party issue agenda is the distribution of attention that a political party giv
 ## Important Papers
 
 - [[The PARTYPRESS Database A New Comparative Database of Parties Press Releases]]
-- Gessler and Hunger (2022), ["How the refugee crisis and radical right parties shape party competition on immigration"](https://doi.org/10.1017/psrm.2021.64).
+- [[papers/how-the-refugee-crisis-and-radical-right-parties-shape-party-competition-on-immigration|How the refugee crisis and radical right parties shape party competition on immigration]]: monthly press releases reveal rapid attention shifts and limited positional convergence; salience associations persist beyond the crisis.
 - Barbera et al. (2019), "Who leads? Who follows? Measuring issue attention and agenda setting by legislators and the mass public using social media data."
 - Green-Pedersen and Mortensen (2010), "Who sets the agenda and who responds to it in the Danish parliament? A new model of issue competition and agenda-setting."
 
