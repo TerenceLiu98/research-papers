@@ -22,7 +22,11 @@ Linear probing trains a linear prediction head on a model's representations to a
 - **Beyond accuracy:** Probe scores can themselves be analyzed. [[concepts/and-or-interaction-primitives|AND/OR Interaction Primitives]] decompose masked-input probe scores to compare task-accessible patterns across layers.
 - **Data limits:** The training dataset restricts what the probe can uncover. A probe is not an exhaustive inventory of a model's knowledge, and its capacity should match the question being asked.
 
+- **Geometry versus decoding:** Accurate readout does not establish that the decoded factors explain most feature variance. Reverse prediction from factors to features, spectral concentration, and transfer across conditions test complementary aspects of this stronger claim. These scores depend on the specified factors and their encoding.
+
 ## Important Papers
+
+- [[papers/is-a-linear-probe-evidence-of-a-linear-representation|Is a Linear Probe Evidence of a Linear Representation?]] contrasts accurate random-feature readouts with variance-dominant latent alignment and tests pretrained vision encoders using reverse predictivity, spectral concentration, and transfer.
 
 - [[papers/when-truthful-representations-flip-under-deceptive-instructions|When Truthful Representations Flip Under Deceptive Instructions?]] trains layer-wise LR and polarity-aware TTPD probes under truthful, neutral, and explicitly deceptive factual-verification instructions. The probes decode instructed outputs across conditions, but their success does not establish that the probed directions causally control the model's answers.
 - [[papers/a-law-of-next-token-prediction-in-large-language-models|A law of next-token prediction in large language models]] uses least-squares probes of intermediate token representations and reports an approximately geometric decline in unexplained next-token-index variance across layers; the result depends on the target encoding, normalization, and probing corpus.
