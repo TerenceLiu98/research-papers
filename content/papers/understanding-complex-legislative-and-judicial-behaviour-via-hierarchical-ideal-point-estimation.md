@@ -6,7 +6,9 @@ authors:
   - Xiaohui Wang
 year: 2011
 venue: "Applied Statistics, 60(1), 93-107"
-source_job_id: "d624429f-5ae8-497f-889d-6a6ba249c9da"
+source_job_id: "500988c5-0163-4c8e-856d-fec69a46324a"
+previous_source_job_ids:
+  - "d624429f-5ae8-497f-889d-6a6ba249c9da"
 tags:
   - ideal-point-estimation
   - legislative-behavior
@@ -87,7 +89,7 @@ Estimated ideal-point variance is 1.17 for civil liberties and 0.36 for the comb
 
 ## Related Papers
 
-- Clinton, Jackman, and Rivers (2004), *The statistical analysis of roll call data*: cited baseline for conventional ideal-point estimation.
+- [[papers/the-statistical-analysis-of-roll-call-data|Clinton, Jackman, and Rivers (2004), The Statistical Analysis of Roll Call Data]]: cited baseline for conventional ideal-point estimation.
 - Bradlow, Wainer, and Wang (1999), *A Bayesian random effects model for testlets*: cited connection to the paper's general-position-plus-voteset-deviation extension.
 - [[papers/the-issue-adjusted-ideal-point-model|The Issue-Adjusted Ideal Point Model]]: a library comparison using bill-topic mixtures and ideological offsets; it is not cited in this source.
 - [[papers/polarization-and-ideology-partisan-sources-of-low-dimensionality-in-scaled-roll-call-analyses|Polarization and Ideology]]: a library comparison showing how party separation can obscure preference dimensionality, distinct from this paper's explicit group-dependent thresholds; it is not cited in this source.
