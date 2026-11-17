@@ -23,6 +23,8 @@ It is a CATE indexed by a reduced covariate set. For continuous treatment, the a
 
 ## Key Ideas
 
+- **Flexible moderation needs flexible adjustment.** Omitted nonlinear effects of covariates correlated with the moderator can be mistaken for nonlinear moderation. Full moderation of linear control terms alone does not address this; expanded adjustment and regularized interactive models provide sensitivity checks. See [[papers/the-consequences-of-model-misspecification-for-the-estimation-of-nonlinear-interaction-effects|Beiser-McGrath and Beiser-McGrath (2023)]].
+
 - **Marginalization uses the conditional population.** Averaging over $Z\mid X=x$ differs from evaluating a regression at mean covariates or averaging over a fixed, common distribution of $Z$.
 - **Effect modification is not causal moderation.** A difference between $\theta(x_1)$ and $\theta(x_2)$ describes treatment-effect heterogeneity. It does not by itself establish what would happen if $X$ were changed by intervention.
 - **Support must hold locally.** [[concepts/causal-overlap|Causal Overlap]] requires treatment variation among comparable covariate profiles near the moderator values being interpreted. A smooth regression curve can extend into regions with no credible comparison.
