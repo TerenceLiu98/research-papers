@@ -17,6 +17,8 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 
 ## Key Ideas
 
+- In protein language models, SAEs can recover features associated with biological functions without annotation-supervised training. GO enrichment and metadata-based activation simulation evaluate these associations afterward; averaging amino acid features across a sequence limits residue-level interpretation.
+
 - An encoder maps a dense activation into an expanded latent vector, a sparsity mechanism selects or encourages a small number of active features, and a decoder reconstructs the original activation.
 - Reconstruction fidelity and sparsity are competing objectives. Top-k, Batch Top-k, ReLU-threshold, JumpReLU, and Matryoshka variants make different choices about this tradeoff.
 - [[concepts/matryoshka-sparse-autoencoders|Matryoshka Sparse Autoencoders]] train multiple prefixes of one ordered dictionary to reconstruct activations. This encourages early latents to retain broad features while later groups specialize, reducing feature absorption and splitting in the reported evaluations at a modest reconstruction and training-time cost.
@@ -50,6 +52,8 @@ Sparse autoencoders (SAEs) learn an overcomplete, sparse representation of a mod
 - SAE features can define a common basis for auditing generated and natural image distributions. [[concepts/conceptual-blindspots|Conceptual Blindspots]] compare feature prevalence across those distributions, while remaining conditional on the vision encoder and SAE dictionary recovering the relevant concepts.
 
 ## Important Papers
+
+- [[papers/sparse-autoencoders-uncover-biologically-interpretable-features-in-protein-language-model-representations|Sparse autoencoders uncover biologically interpretable features in protein language model representations]] — evaluates protein and amino acid SAEs and protein-level transcoders on ESM2.
 
 - [[papers/enhancing-low-resource-language-reasoning-via-high-resource-language-feature-transfer|Enhancing Low-Resource Language Reasoning via High-Resource Language Feature Transfer]]
 - [[papers/learning-multi-level-features-with-matryoshka-sparse-autoencoders|Learning Multi-Level Features with Matryoshka Sparse Autoencoders]]
