@@ -24,6 +24,8 @@ Signed political networks distinguish cooperative, neutral, and antagonistic rel
 
 For statistical inference, signed exponential random graph models jointly represent positive, negative, and absent ties. Contemporaneous shared-partner statistics capture endogenous closure, while lagged stability terms capture persistence. Combining past and current edges into a single triangle can misclassify balance; significant closure of both signs can also reflect opportunities to interact rather than balance alone.
 
+In virtual-world diplomacy, explicit standings permit daily triad tracking. Distinguishing one-negative-edge frustration from all-negative triples accommodates multipolar competition: persistent mutual antagonism need not imply the same instability as a hostile pair sharing a friend. Sign randomization, conditional transitions, and agreement with independently reported coalitions test different implications of balance; none alone identifies a causal mechanism.
+
 ## Important Papers
 
 - [[Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline]]: Shows how signed relations expose the Polish PO-PiS cleavage when unsigned detection groups front-line opponents together.
