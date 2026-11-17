@@ -26,7 +26,7 @@ Neural collapse is a geometric regularity observed in deep classifiers trained b
 
 ## Important Papers
 
-- Papyan, Han, and Donoho (2020), "Prevalence of neural collapse during the terminal phase of deep learning training": formulates the four canonical properties and documents them across architectures and datasets.
+- [[papers/prevalence-of-neural-collapse-during-the-terminal-phase-of-deep-learning-training|Papyan, Han, and Donoho (2020), Prevalence of neural collapse during the terminal phase of deep learning training]]: formulates the four canonical properties and documents them across architectures and datasets.
 - [[papers/neural-collapse-a-review-on-modelling-principles-and-generalization|Neural Collapse: A Review on Modelling Principles and Generalization]]: synthesizes unconstrained-feature and locally elastic explanations and evaluates claims about generalization and transfer.
 - Zhu et al. (2021), "A geometric analysis of neural collapse with unconstrained features": connects regularized cross-entropy minima and loss landscapes to collapse.
 - Galanti et al. (2021), "On the generalization of representations in supervised learning": relates normalized within-class variation to unseen-sample and unseen-class performance under stated assumptions.
