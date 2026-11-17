@@ -19,6 +19,8 @@ Text scaling models estimate the relative position of documents or speakers alon
 
 ## Key Ideas
 
+- Schulz’s Wordsticks extension scales ordinal survey reports of intended phrase usage. Randomizing the hypothetical audience separates changes in lexical ideology from changes in outspokenness; unlike document corpora, the survey observes intended abstention. Phrase parameters learned outside the experimental sample keep the outcome scale fixed across treatment comparisons.
+
 - Parschan and Jakob distinguish three measurement decisions: generating numerical textual variation, capturing the variation relevant to a construct, and aggregating it into positions. These are conceptual roles that may be jointly estimated rather than separate software stages.
 - Their four families differ in what is used to estimate positions: word counts, topic structure, semantic vectors, or prompted LLM judgments. An embedding-based topic model still belongs to the topic family when topics mediate position estimation; classification depends on the whole pipeline.
 - A common Poisson scaling formulation models each document--word count as a Poisson variable whose log rate combines document length, word-specific baseline frequency, and the document's latent position multiplied by a word-specific discrimination parameter.
@@ -39,6 +41,8 @@ Text scaling models estimate the relative position of documents or speakers alon
 - Long-context access does not by itself remove the measurement problem. Direct BigBird and Longformer estimates avoid gold statement boundaries but underperform label aggregation and compress positions toward the center, especially in cross-country transfer. Rank agreement should therefore be checked alongside score dispersion, extreme-class recall, and absolute error.
 
 ## Important Papers
+
+- [[papers/what-would-you-say-estimating-causal-effects-of-social-context-on-political-expression|What Would You Say?]]: adapts text scaling to randomized survey contexts, measuring lexical code-switching and self-censorship relative to close-friend speech.
 
 - [[papers/political-text-scaling-meets-computational-semantics|Political Text Scaling Meets Computational Semantics]]: introduces SemScale and its two-reference SemScores extension, testing representation, graph algorithms, linguistic filtering, and transfer from parliamentary speeches to manifestos.
 - [[papers/multilingual-estimation-of-political-party-positioning|Multilingual estimation of political-party positioning: From label aggregation to long-input Transformers]]: compares multilingual statement-label aggregation with BigBird and Longformer under held-out-country and future-election transfer.
