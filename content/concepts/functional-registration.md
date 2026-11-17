@@ -24,7 +24,11 @@ Functional registration aligns curves by transforming their domains so that corr
 - Evaluation is easiest in simulations with known warpings. On real data, within-class dispersion, total variation, landmark agreement, and downstream performance are proxies and should not be treated as proof that the true warping was recovered.
 - Registration differs from [[Dynamic Time Warping]], which aligns discrete sequences through a minimum-cost path. Functional methods typically impose smooth transformations and explicitly model curves as continuous objects.
 
+- An independent training-set template can preserve exchangeability for conformal prediction of aligned amplitude from partial curves. The resulting estimand is template-relative amplitude, and pointwise coverage does not imply coverage of the unaligned curve.
+
 ## Important Papers
+
+- [[papers/joint-registration-and-conformal-prediction-for-partially-observed-functional-data|Joint Registration and Conformal Prediction for Partially Observed Functional Data]]: integrates independent-template registration with conformal prediction of amplitude and relative phase.
 
 - [[Simulation of Warping Processes with Applications to Temperature Data]]
 - [[Sequential Bayesian Registration for Functional Data]]

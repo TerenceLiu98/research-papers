@@ -22,7 +22,11 @@ Conformal prediction wraps a predictive model with a calibration procedure that 
 - Marginal validity does not imply [[Conditional Prediction Coverage]] for each input or subgroup. Coverage diagnostics can reveal heterogeneity without creating a pointwise guarantee.
 - Conformal prediction is model-agnostic: it can calibrate scores from a fixed black-box model, but its usefulness still depends on the score function and calibration data.
 
+- For partially observed curves, constructing exchangeable pairs can require restricting all predictors to a common observed domain and learning any registration template on an independent subset. Pointwise marginal coverage across curves is distinct from simultaneous coverage over the time domain.
+
 ## Important Papers
+
+- [[papers/joint-registration-and-conformal-prediction-for-partially-observed-functional-data|Joint Registration and Conformal Prediction for Partially Observed Functional Data]]: integrates independent-template registration with conformal prediction of amplitude and relative phase.
 
 - Sadinle, Lei, and Wasserman (2019), "Least Ambiguous Set-Valued Classifiers with Bounded Error Levels": develops efficient set-valued classification with controlled error.
 - Angelopoulos and Bates (2021), "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification": practical introduction to conformal methods and their assumptions.
