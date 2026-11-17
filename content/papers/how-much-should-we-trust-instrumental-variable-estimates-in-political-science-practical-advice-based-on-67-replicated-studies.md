@@ -3,11 +3,12 @@ title: "How Much Should We Trust Instrumental Variable Estimates in Political Sc
 type: paper
 authors:
   - Apoorva Lal
-  - Mac Lockhart
+  - Mackenzie Lockhart
   - Yiqing Xu
   - Ziwen Zu
-year: null
-source_job_id: "cc3553eb-e3c3-4651-adf2-4d7532fc0341"
+year: 2024
+doi: "10.1017/pan.2024.2"
+source_job_id: "28326d78-7aae-4953-a20a-b3f5deca9a65"
 replication_data_doi: "10.7910/DVN/MM5THZ"
 tags:
   - instrumental-variables
@@ -73,8 +74,10 @@ The fraction failing to reject a zero effect at the 5% level depends on the infe
 | Originally reported inference | 7 (10%) | 70 |
 | Anderson-Rubin | 12 (17%) | 70 |
 | Bootstrap-t | 13 (19%) | 70 |
-| Bootstrap-c | 19 (27%) | 70 |
+| Bootstrap-c (Section 4.3 prose) | 19 (27%) | 70 |
 | tF | 19 (35%) | 54 single-instrument designs |
+
+Table 3 instead reports a bootstrap-c non-rejection fraction of 0.300 (21/70); the supplied text does not resolve this discrepancy.
 
 Within the tF subset, seven designs significant under conventional fixed critical values become insignificant. Non-rejection is not evidence that the true effect is zero, and the tF percentage uses a different denominator from the other rows.
 
@@ -89,7 +92,7 @@ Section 5 recommends reporting effective F with appropriate error structure, fir
 - The theoretical exposition primarily assumes constant effects. Most sampled treatments and instruments are continuous; a binary-treatment complier interpretation is not automatically appropriate.
 - Bootstrap procedures do not generally repair weak-identification failures. AR and tF still require instrument validity, and the paper applies tF only to the single-instrument subset. AR confidence sets can be unbounded or disconnected.
 - The supplied text has inconsistent sample accounting: the introduction gives 71 articles with complete materials, Section 3 gives 76 and an inconsistent 62%, and Table 1 separates 38 incomplete-data, four incomplete-code, and five replication-error cases. The prose also reverses the APSR/AJPS article totals relative to Table 1. The stable totals are 114 eligible articles, 67 replicated articles, and 70 designs.
-- No publication year or valid article DOI is established in the supplied Markdown. The supplementary-material DOI is a placeholder, and the referenced supplement is not included here. Claims about its simulations and heterogeneity analyses are therefore reported as the authors' statements, not independently inspected results.
+- The referenced supplement is not included in the supplied Markdown. Claims about its simulations and heterogeneity analyses are reported as the authors' statements, not independently inspected results.
 
 ## Related Concepts
 
