@@ -27,6 +27,8 @@ The Hotelling-Downs model represents voters and political parties as positions i
 - Electoral objectives require an explicit denominator. Integrating a candidate's choice probability over a normalized electorate gives expected support among all eligible voters; dividing by turnout gives share of votes cast. With endogenous abstention, these objectives need not yield the same positions, and neither is automatically equivalent to maximizing winning probability.
 - Numerical adjustment rules provide one way to study models without closed-form equilibria, but their stationary or metastable configurations must be interpreted relative to the specified dynamics.
 
+Policy motivation and uncertainty offer another route to divergence. [[papers/geography-uncertainty-and-polarization|Geography, Uncertainty, and Polarization]] models parties with opposing policy preferences and shared uncertainty about the median voter. Under its assumptions, platform separation equals the inverse density at the median of that belief distribution. Within-district preference dispersion can increase uncertainty, but dispersion alone is not a general failure of the median-voter result.
+
 ## Important Papers
 
 - [[A computational model of spatial politics: Hotelling-Downs model as statistical physics]]
