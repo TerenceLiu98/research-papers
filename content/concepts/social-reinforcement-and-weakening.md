@@ -20,9 +20,13 @@ Social reinforcement increases the propensity to adopt or forward after repeated
 - **Repeated exposure does not require explicit group interactions.** A graph-based response rule can depend on multiple neighbors without representing the groups used in hypergraph or simplicial contagion models.
 - **Aggregate fits have limited behavioral resolution.** A rise-then-fall curve averaged across small cascades does not establish the same shape for each message or identify an individual user's motives.
 
+- **Current state can reverse the response.** In Dong et al.’s online–offline model, cross-channel exposure promotes ignorant individuals into dual-channel spreading but stops single-channel spreaders; dual-channel spreaders are assumed immune. This state-dependent rule differs from an empirically measured exposure-response curve.
+
 ## Important Papers
 
 - [[papers/spreading-dynamics-of-information-on-online-social-networks|Spreading dynamics of information on online social networks]]: combines reinforcement and fresh-audience depletion, fits large WeChat and Weibo cascades, and examines averaged small-cascade responses on Weibo and Twitter.
+
+- [[papers/mass-media-interventions-and-social-reinforcements-drive-rumor-propagation|Mass media interventions and social reinforcements drive rumor propagation]]: combines state-dependent reinforcement with heterogeneous media suppression and channel coupling. Its Twitter fit observes only online spreaders.
 
 ## Related Concepts
 
