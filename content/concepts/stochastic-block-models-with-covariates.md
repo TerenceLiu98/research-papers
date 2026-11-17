@@ -15,6 +15,8 @@ A stochastic block model with covariates represents links using both observed ch
 
 For known groups and count-valued edges, Signorelli and Wit instead use a Poisson log-linear model with group productivity effects, pairwise block interactions, and dyadic covariates. Its target is conditional collaboration between supplied groups rather than recovery of latent memberships.
 
+In bipartite mixed-membership models, each node family has its own group system. Node covariates parameterize Dirichlet membership distributions, while dyadic covariates shift group-pair tie log odds. Keeping both families avoids losing item-specific information through projection.
+
 ## Key Ideas
 
 - **Two distinct probability objects.** Variation in observed connectivity can reflect changing community composition, changing connection probabilities conditional on communities, or both. Estimating $B$ and $\pi$ keeps these mechanisms distinct within the model.
@@ -27,6 +29,8 @@ For known groups and count-valued edges, Signorelli and Wit instead use a Poisso
 - **Sparse reduced graphs.** Adaptive lasso can shrink between-group interactions to zero while retaining unpenalized group activity effects. Positive and negative interactions describe deviations from the fitted baseline; zero interaction does not imply no edges. Under sum-to-zero interaction constraints, within-group effects are derived and are not independently penalized.
 
 ## Important Papers
+
+- [[papers/a-statistical-model-of-bipartite-networks-application-to-cosponsorship-in-the-united-states-senate|A Statistical Model of Bipartite Networks]]: extends covariate-dependent mixed memberships to both node families and uses collapsed stochastic variational inference to study Senate cosponsorship.
 
 - [[papers/estimating-stochastic-block-models-in-the-presence-of-covariates|Estimating Stochastic Block Models in the Presence of Covariates]]: develops local spectral clustering and nearest-neighbor probability estimators with non-asymptotic bounds, and explains the label-matching problem. The supplied version provides theoretical evidence without experiments.
 - [[papers/a-penalized-inference-approach-to-stochastic-block-modelling-of-community-structure-in-the-italian-parliament|A penalized inference approach to stochastic block modelling of community structure in the Italian Parliament]]: models cosponsorship counts between known parliamentary groups and uses adaptive lasso to derive sparse collaboration and repulsion graphs. Legislature-level aggregation limits treatment of changing memberships; its transitivity extension is exploratory.
