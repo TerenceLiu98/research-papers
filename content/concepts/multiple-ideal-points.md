@@ -26,9 +26,13 @@ Multiple ideal-point models allow a voter to occupy different positions across p
 - **Domains and dimensions differ:** The number of observed domains, the dimension of the common latent space, and a voter's number of distinct positions are separate choices or quantities. High fit from one conventional latent dimension need not imply identical positions across domains.
 - **Comparability is conditional:** The common scale depends on the stayer restriction and valid domain coding. Separate session fits do not automatically make ideal-point values comparable over time.
 
+A two-domain extension makes bridge probability a logistic function of observed covariates and estimates this regression jointly with the roll-call model. This propagates uncertainty in bridge identity into variable selection. The posterior probability of a bridge given votes is distinct from the posterior mean of its covariate-based bridge probability.
+
 ## Important Papers
 
 - [[papers/multiple-ideal-points-revealed-preferences-in-different-domains|Multiple Ideal Points: Revealed Preferences in Different Domains]]: develops constrained domain partitions and illustrates them with 17 policy domains across 18 U.S. Houses.
+
+- [[papers/explaining-differences-in-voting-patterns-across-voting-domains-using-hierarchical-bayesian-models|Explaining Differences in Voting Patterns across Voting Domains Using Hierarchical Bayesian Models]]: adds covariate-dependent bridge probabilities and Bayesian variable selection for two domains.
 
 ## Related Concepts
 

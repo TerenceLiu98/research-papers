@@ -9,7 +9,8 @@ year: 2026
 doi: "10.1017/pan.2025.10014"
 arxiv: "2312.15049"
 venue: Political Analysis
-source_job_id: "97f4bf77-f3bb-456c-a80c-4d40a1b2ff04"
+source_job_id: "1315d07c-390d-4912-9d3b-f738314ee6c7"
+published_online: "2025-08-27"
 tags:
   - ideal-point-estimation
   - legislative-behavior
@@ -61,8 +62,10 @@ The application analyzes procedural and final-passage roll calls separately for 
 - Estimated bridge frequency is generally high but varies across Houses, indicating that a shared ideal point fits many legislators while leaving meaningful cross-domain differences.
 - Majority-party status is the most consistently selected predictor. From the 99th House onward, raw bridge frequencies are generally higher in the majority party; the fitted coefficients correspondingly imply that minority-party members are more likely to differ across procedural and final-passage votes.
 - District presidential vote share has party-specific associations. In the Houses where the interaction is selected, moving toward a more electorally competitive district lowers bridge probability for both Democratic and Republican members.
-- Excluding the 109th-House outlier and a marginal 111th-House result, a five-percentage-point increase in Republican presidential vote share reduces a Democratic member's odds of bridging by factors between 1.3 and 3.2. For Republicans, the analogous increase raises bridge odds by factors between 1.5 and 3.3 in the reported non-outlier cases (Figure 7).
+- In the supplied version, the Democratic district-vote interaction is selected in 8 of 21 Houses and is negative in each; a five-percentage-point increase in Republican presidential vote share reduces bridge odds by factors of 1.4–4.3. The Republican interaction is selected in nine Houses and positive in eight, with the 109th House the exception; reported increases in bridge odds are factors of 1.3–3.4 (Figure 7).
 - Other legislator and constituency variables are not consistently selected across sessions. Gender and ethnicity, in particular, do not show stable explanatory value in this analysis.
+
+The supplied version reports four chains per House and 25,000 retained samples after 15,000 burn-in iterations and thinning every third iteration. Alternative intercept and coefficient priors yield broadly robust findings, although a mixture of $g$-priors slightly lowers inclusion probabilities. Majority-party status has posterior inclusion probability above 0.9 in 15 of 21 Houses (Sections 4.2–4.2.2).
 
 ## Limitations
 
@@ -70,6 +73,7 @@ The application analyzes procedural and final-passage roll calls separately for 
 - The application fits each House independently, so coefficients and bridge frequencies describe session-specific models rather than a single longitudinal process.
 - Covariate selection reports posterior associations with latent bridge status. It does not identify constituency pressure, party discipline, or any other mechanism causally.
 - Results depend on the spatial voting likelihood, common-scale assumptions, vote-domain coding, and the availability of enough bridge legislators for identification.
+- The 105th House has a bimodal posterior over model size: the dominant mode contains 2–5 predictors, while the secondary mode can contain up to 15. This complicates the otherwise favorable convergence assessment.
 - The 109th House is a conspicuous outlier with many selected predictors. Political circumstances may explain it, but misspecification in either the ideal-point or explanatory module remains an alternative.
 - Standard Euclidean IRT can misrepresent cases in which ideological extremes vote together against the center. The authors identify flexible response models and modular or cut inference as directions for addressing this risk.
 
