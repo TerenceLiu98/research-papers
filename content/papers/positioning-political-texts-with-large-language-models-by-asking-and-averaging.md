@@ -4,8 +4,9 @@ type: paper
 authors:
   - "Ga\u00ebl Le Mens"
   - Aina Gallego
-year: 2024
-date: "2024-09-06"
+year: 2025
+date: "2025-01-27"
+doi: "10.1017/pan.2024.29"
 tags:
   - text-as-data
   - political-methodology
@@ -13,6 +14,22 @@ tags:
   - ideological-scaling
   - human-validation
 ---
+
+## Published Version
+
+The published letter appeared online on January 27, 2025 (DOI: [10.1017/pan.2024.29](https://doi.org/10.1017/pan.2024.29)). This update uses the published main-text Markdown supplied for Cognitio job `310a3e07-6a4a-487c-8bb9-01d0054bd819`. The manuscript summary below is retained as a separately attributed account of the earlier source; its appendix-specific numbers were not revalidated against this main-text-only publication.
+
+### Publication Summary
+
+The paper asks whether instruction-tuned LLMs can recover ideological and policy positions directly from texts without task-specific training. Its method requests a numeric score or `NA` for each tweet or sentence, then averages numeric scores to position documents or actors. The protocol uses temperature 0, a 20-token output limit, and JSON responses where supported. EU speech prompts include debate context. This implements [[concepts/direct-query-text-scaling|Direct-Query Text Scaling]] within the broader family of [[concepts/text-scaling-models|Text Scaling Models]].
+
+Four evaluations cover 899 human-rated congressional tweets, 98 senators represented by 100 sampled tweets each, 18 British manifestos, and 36 EU speeches delivered in 10 languages. Benchmarks are crowd ratings, period-specific Nokken–Poole DW-NOMINATE scores, expert sentence coding, and the mean of six crowd-coded translation estimates, respectively. The abstract reports correlations exceeding .90 for the best LLMs; the main text describes strong within-party performance without supplying the figure-level numeric values as text. Supervised BERT, GloVe, and TF-IDF baselines do not match the best LLMs on tweets, and manifesto BERT does not improve on the best LLMs. GPT-4o performs particularly well on multilingual speeches (Sections 2–3).
+
+The published discussion retains an important task distinction: whole-manifesto prompting performs worse than sentence scoring and averaging, whereas jointly prompting with senators' tweets produces no significant degradation. It therefore gives no universal recommendation about splitting long inputs. Language-dependent errors, model abstention, and the information contained in sampled texts constrain interpretation. The authors explicitly require case-by-case empirical validation; agreement with these benchmarks does not establish validity in other domains.
+
+Replication data are identified in the supplied references by DOI [10.7910/DVN/YFM0BW](https://doi.org/10.7910/DVN/YFM0BW). No supplementary document was supplied for this update.
+
+## Earlier Manuscript Summary (September 6, 2024)
 
 ## TL;DR
 
@@ -95,7 +112,7 @@ The discussion reports a historical cost of USD 1.50 for GPT-4 scoring of 900 tw
 - Downloadable weights support reproducibility, but model versions, prompts, aggregation, and execution settings still need preservation; low temperature alone does not guarantee identical outputs.
 - The supplied source has unresolved reporting inconsistencies: Figure 2 and Appendix F report 98 senators, while Appendix A.2 says 97. Section 2.2.3 defines the manifesto benchmark as expert sentence coding, whereas captions A12-A13 call it expert survey placement. This page follows Section 2.2.3 for the main experiment and retains the ambiguity for the whole-manifesto comparison.
 
-This page summarizes the manuscript dated September 6, 2024. The supplied Markdown provides no DOI or arXiv identifier for this paper. Exact values above come from its textual tables; graph-only estimates are summarized qualitatively.
+This retained section summarizes the manuscript dated September 6, 2024. That earlier source provided no DOI or arXiv identifier; publication metadata above comes from the subsequently supplied published letter. Exact values above come from its textual tables; graph-only estimates are summarized qualitatively.
 
 ## Related Concepts
 
