@@ -22,7 +22,11 @@ Party preference cohesion is the similarity of policy preferences among a party'
 - **Treat electoral incentives conditionally.** In Carroll and Kubo's observational study, district magnitude has opposite associations with preference heterogeneity depending on intraparty competition. Competition itself has no significant overall association, so personal-vote incentives cannot simply be equated with ideological diversity.
 - **Internal dispersion can shape party images.** [[papers/intra-party-heterogeneity-and-voter-perceptions-of-party-positions|Imre's study of voter perceptions]] finds economic candidate heterogeneity associated with greater distance between voter placements and party-position benchmarks, especially as parties emphasize economic issues. Sociocultural results change with the benchmark. Preference dispersion therefore need not translate uniformly into perceptual disagreement across dimensions, and disagreement with a benchmark need not imply voter ignorance.
 
+Issue-specific preference dispersion can also constrain party behavior before disagreements become public. Lehmann distinguishes candidate heterogeneity from expert-perceived dissent: both predict lower issue emphasis, while candidate heterogeneity has weaker associations with position change and blurring. These measures should not be treated as interchangeable levels of the same observed quantity.
+
 ## Important Papers
+
+- [[papers/keeping-the-team-together-how-intra-party-divisions-shape-party-behavior-across-issues|Keeping the team together]]: compares latent candidate heterogeneity and publicly perceptible divisions across issue salience, position change, and blurring.
 
 - [[papers/measuring-and-comparing-party-ideology-and-heterogeneity|Measuring and comparing party ideology and heterogeneity]]: operationalizes heterogeneity as the within-party standard deviation of jointly scaled candidate positions and relates it to nomination control, policy emphasis, and electoral rules.
 - Hazan (2003), "Introduction: Does cohesion equal discipline? Towards a conceptual delineation": a conceptual reference cited by Carroll and Kubo.
