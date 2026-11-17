@@ -15,6 +15,8 @@ Flow matching learns a time-dependent vector field that transports a simple nois
 
 ## Key Ideas
 
+**Optimized particle paths.** [[papers/high-dimensional-mean-field-games-by-particle-based-flow-matching|High-dimensional Mean-Field Games by Particle-based Flow Matching]] fits velocities of trajectories updated by individual-cost optimization. Exact regression preserves time marginals while reducing or preserving kinetic cost, connecting Lagrangian particles to an Eulerian continuity equation. Regularity is required to recover classical ODE trajectories; practical neural regression only approximates this operation.
+
 **Statistical adaptation to singular targets.** [[papers/flow-matching-is-adaptive-to-manifold-structures|Flow Matching is Adaptive to Manifold Structures]] reports intrinsic-dimension convergence exponents for an early-stopped linear-path estimator under smooth-manifold, positive-density, and one-sided velocity-regularity assumptions. Ambient dimension can still enter constants. Its distribution-estimation guarantee differs from prescribed geometric attraction; the support-estimation component also retains a gap relative to the cited lower bound.
 
 **Prescribed geometric stabilization.** [[papers/manifold-stable-flow-matching|Manifold-Stable Flow Matching]] projects the learned velocity onto tangent directions and adds analytical normal contraction. This separates geometric adherence from regression accuracy. Known-manifold convergence requires smooth projection along the trajectory; switching affine proxies have a union-convergence guarantee under minimum-residual selection. Neither guarantee alone establishes matching of the tangential data distribution.
