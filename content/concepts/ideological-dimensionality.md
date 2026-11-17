@@ -18,6 +18,8 @@ Ideological dimensionality is the number of substantively independent axes neede
 
 ## Key Ideas
 
+- Relative axis salience can reverse without changing dimension count. [[papers/the-transformation-of-the-european-parliaments-voting-dimensions-agenda-driven-or-secular-change|Cheysson and Fraccaroli’s European Parliament study]] finds integration overtaking left-right after 2009 even with policy-area shares fixed. This separates broad agenda composition from within-area alignment changes, without holding individual proposals fixed or identifying a causal effect of party entry.
+
 - [[papers/flexible-estimation-of-policy-preferences-for-witnesses-in-committee-hearings|Esterling and Park (2024)]] show why actor roles matter: Medicare witnesses’ communication-derived policy preferences differ sharply from a shared ideological mapping. Their flexible model associates preference proximity with questioning where constrained bridging yields null results; this concerns actor-specific preference structure, not a general dimension-count test.
 
 - [[papers/the-structure-of-political-choices-distinguishing-between-constraint-and-multidimensionality|The Structure of Political Choices]] separates dimension count from [[concepts/ideological-constraint|Ideological Constraint]], the predictive contribution of shared positions. Cell-level holdouts favor a one-dimensional approximation in its American samples despite much lower predictive gains among citizens; weak constraint alone does not imply additional shared axes.
