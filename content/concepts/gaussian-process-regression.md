@@ -24,11 +24,15 @@ Gaussian process regression places a probability distribution over functions rat
 
 - Extrapolation uncertainty depends on the kernel: posterior function uncertainty can widen where support is sparse, while stationary kernels eventually revert to their prior mean and bounded variance. Polynomial components permit continuing growth but introduce substantive extrapolation assumptions. Observation-predictive intervals additionally include residual noise; conditional-mean intervals do not.
 
+In sparse election polling, a linear-trend kernel plus smooth nonlinear deviations supports extrapolation. Passing the resulting support distribution into an outcome model preserves the distinction between uncertainty about public opinion and uncertainty about final votes; hyperparameters can be selected for election prediction rather than poll fit.
+
 ## Important Papers
 
 - Rasmussen and Williams (2006), "Gaussian Processes for Machine Learning": standard reference for GP regression, covariance functions, and predictive inference.
 - [[papers/nowcasting-with-mixed-frequency-data-using-gaussian-processes|Nowcasting with Mixed Frequency Data Using Gaussian Processes]]: uses structured MIDAS lag compression to define the inputs and induced kernel geometry for macroeconomic nowcasting.
 - Guhaniyogi and Dunson (2016), "Compressed Gaussian process for manifold regression": develops random projection for GP regression in high-dimensional predictor spaces.
+
+- [[papers/polls-context-and-time-a-dynamic-hierarchical-bayesian-forecasting-model-for-us-senate-elections|Polls, Context, and Time]]: combines analytic GP support projections with a historical Dirichlet election model, calibrated separately by forecast horizon.
 
 ## Related Concepts
 
