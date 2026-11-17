@@ -19,6 +19,8 @@ Codebook-LLM measurement uses a language model to assign structured labels to te
 
 ## Key Ideas
 
+- **Locate coding within the whole instrument.** [[papers/beyond-the-conventional-pipeline-large-language-models-for-social-science-measurement|Bao's pipeline taxonomy]] places codebook-guided classification at Level 1: observation is automated while aggregation remains external. Compliance checks must be complemented by comparability tests and downstream sensitivity analysis; higher integration is not automatically better measurement.
+
 - **Operationalization comes first.** A codebook translates a broad background concept into a measurable construct. LLM automation does not remove the need to define category boundaries and ambiguous cases.
 - **Structure codebooks for people and models.** A useful semi-structured category includes an exact output label, a concise definition, clarifications, negative clarifications, and optional positive and negative examples.
 - **Test behavior before trusting accuracy.** Label-free checks can measure legal-label compliance, retrieval of definitions and examples, and invariance to category order. Labeled tests can modify exclusion criteria or replace and swap label names to reveal whether the model follows definitions or relies on pretrained label semantics.
