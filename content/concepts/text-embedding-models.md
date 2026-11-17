@@ -17,6 +17,8 @@ Text embedding models map text to fixed-length numerical representations so that
 
 ## Key Ideas
 
+- In political question–answer measurement, fine-tuning on observed pairs can make cosine similarity a proxy for answer relevance without quality labels for training. Recognizability still does not establish truthfulness, completeness, or effective accountability.
+
 - Encoder-based systems produce vectors for documents, queries, or sentences; cosine similarity or another distance then supplies the comparison operation.
 - Contrastive training, hard-negative mining, instruction tuning, and multi-stage distillation are common ways to align vector geometry with retrieval and semantic tasks.
 - A single embedding model can support different pipelines: k-nearest neighbors for classification, cosine similarity for STS and retrieval, and k-means for clustering.
