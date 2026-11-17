@@ -45,7 +45,13 @@ When two elections are reconstructed separately onto fixed targets, fixed linear
 
 Exact count aggregation to a common coarse support identifies the contrast there. It does not recover variation within merged areas, and centroid-based proximity classifications can change with the support. A fixed weighted average of fine changes additionally requires common within-unit weights across elections. Method choice therefore depends on whether counts aggregate exactly to the substantive target, retained supports cross it, or historical fine reporting detail has been lost.
 
+### Population-Weighted Point-to-Block Prediction
+
+Geocoded survey responses can support constituency means through a spatial response model, kriging at simulated citizen locations, and aggregation within target boundaries. Population-proportional sampling targets residents rather than land area. Monogan and Gill combine demographic prediction with covariance-weighted residual information; their 2008 application illustrates that flexible geographic aggregation does not imply uniformly better validation performance at every scale.
+
 ## Important Papers
+
+- [[papers/measuring-state-and-district-ideology-with-spatial-realignment|Measuring State and District Ideology with Spatial Realignment]]: estimates constituency ideology from geocoded surveys through Bayesian kriging and population-informed point-to-block aggregation.
 
 - [[papers/spatio-temporal-disaggregation-with-changing-areal-boundaries|Spatio-Temporal Disaggregation with Changing Areal Boundaries]]: jointly uses repeated counts reported on changing administrative partitions through a shared latent risk surface.
 - [[papers/crossing-the-boundaries-an-implementation-of-two-methods-for-projecting-data-across-boundary-changes|Crossing the Boundaries: An Implementation of Two Methods for Projecting Data across Boundary Changes]]: Implements area- and population-weighted transfer matrices and evaluates them on electoral boundary changes and simulations.
