@@ -20,7 +20,7 @@ A hypergraph $\mathcal H=(V,E)$ represents entities as nodes and interactions as
 
 - **Group identity survives.** A three-person meeting and three separate pairwise meetings have different hyperedge sets even though their pairwise clique projections can be identical. Projection can erase group size and inflate apparent transitivity.
 - **Incidence representations preserve membership.** A bipartite graph with actor nodes and group nodes can encode which actors belong to which groups. It should be distinguished from a pairwise projection that collapses the groups.
-- **Simplicial closure is an additional assumption.** A simplicial complex contains all faces of every simplex. General hypergraphs do not require every subset of an observed group to have its own interaction. Closure is useful for topological methods but may misrepresent observed group events.
+- **Downward closure is an additional assumption.** A simplicial complex contains all faces of every simplex. General hypergraphs do not require every subset of an observed group to have its own interaction. Closure is useful for topological methods but may misrepresent observed group events.
 - **Overlap and nesting differ.** Groups can share members without one being contained in another. Measures of motifs, nestedness, and recurring groups describe aspects of organization that ordinary degree and clustering may miss.
 - **Temporal events retain social memory.** Time-indexed hyperedges can record repeated groups, burstiness, and assembly or disassembly. Recovering such events from pairwise proximity measurements requires temporal resolution and explicit reconstruction assumptions.
 - **Structure and dynamics are separate.** Group membership does not by itself establish irreducible social influence. Transmission and payoff rules determine whether a process can be reduced to pairwise contributions and whether higher-order effects change its outcomes.
@@ -31,7 +31,7 @@ A hypergraph $\mathcal H=(V,E)$ represents entities as nodes and interactions as
 - [[papers/higher-order-interactions-shape-collective-human-behaviour|Higher-order interactions shape collective human behaviour]]: reviews social applications and illustrates representation-dependent findings with arXiv coauthorship data from 2007-2022.
 - [[papers/when-groups-attract-coevolutionary-dynamics-of-cooperation-and-individual-and-group-based-imitating-rules|When groups attract: coevolutionary dynamics of cooperation and individual- and group-based imitating rules]]: models public goods games and coevolving individual- and group-level imitation on hypergraphs.
 - Battiston et al. (2020), "Networks beyond pairwise interactions: structure and dynamics": foundational review cited as reference 17 by the Perspective.
-- Benson et al. (2018), "Simplicial closure and higher-order link prediction": work on group closure cited as reference 28 by the Perspective.
+- [[papers/simplicial-closure-and-higher-order-link-prediction|Simplicial closure and higher-order link prediction]]: predicts first joint group interactions from subset histories across 19 temporal datasets. Its temporal [[concepts/simplicial-closure|Simplicial Closure]] differs from the downward-closure axiom of simplicial complexes.
 
 ## Related Concepts
 
