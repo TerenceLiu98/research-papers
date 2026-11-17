@@ -27,7 +27,11 @@ Textual measurement can separate the magnitude of foundation language from its v
 
 In multilingual party manifestos, Stecker and Hopp (2025) find that dictionary, embedding, and fine-tuned classifier scores can disagree enough to reverse estimated ideological associations. Cross-language consistency and agreement with human labels are separate validation questions; sharing the MFT framework does not make textual instruments interchangeable.
 
+MFTC operationalizes each foundation as separate virtue and vice presence labels, allowing multiple concerns per tweet. Its coding guide treats disagreement as potentially meaningful subjectivity and cautions against forcing consensus. Its classification baselines collapse those poles, so annotation granularity and prediction targets must be distinguished.
+
 ## Important Papers
+
+- [[papers/moral-foundations-twitter-corpus-a-collection-of-35k-tweets-annotated-for-moral-sentiment|Moral Foundations Twitter Corpus]]: multi-domain human annotations, annotator metadata, and comparative classification baselines.
 
 - [[papers/constructing-vec-tionaries-to-extract-message-features-from-texts-a-case-study-of-moral-content|Constructing Vec-tionaries to Extract Message Features from Texts: A Case Study of Moral Content]]: weighted dictionary-to-embedding measurement and pairwise validation.
 
