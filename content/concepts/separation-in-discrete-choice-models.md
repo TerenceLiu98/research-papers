@@ -21,9 +21,13 @@ Separation can arise in a finite sample even when the population parameters are 
 - Penalized likelihood can stabilize estimation. Jeffreys penalties depend on the information matrix; density-based penalties offer alternatives when its curvature makes the logged determinant unusable.
 - Reduced coefficient bias does not guarantee reduced probability bias. Penalty sensitivity and uncertainty calibration require separate attention.
 
+In binary logistic regression, separation can make the ordinary Wald standard error grow faster than the coefficient, destroying power. Likelihood ratio tests compare restricted and unrestricted likelihood values, while score tests evaluate the null-model gradient. These can support coefficient testing without a penalty, although finite-sample calibration still matters. Testing a coefficient and estimating substantive effect magnitudes remain separate tasks.
+
 ## Important Papers
 
 - [[papers/detecting-and-correcting-for-separation-in-strategic-choice-models|Detecting and Correcting for Separation in Strategic Choice Models]] extends diagnostics and corrections to two-player strategic models, with Monte Carlo and deterrence-replication evidence.
+
+- [[papers/hypothesis-tests-under-separation|Hypothesis Tests under Separation]] compares these tests across 150 logistic DGPs and illustrates prior-free coefficient testing in a Medicaid-expansion reanalysis.
 
 ## Related Concepts
 
