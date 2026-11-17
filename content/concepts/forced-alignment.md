@@ -1,6 +1,7 @@
 ---
 title: Forced Alignment
 type: concept
+definition: "Forced alignment assigns time intervals in an audio recording to units of an existing transcript."
 aliases:
   - Audio-Text Alignment
 tags:

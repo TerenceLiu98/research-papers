@@ -1,6 +1,7 @@
 ---
 title: Audio as Data
 type: concept
+definition: "Audio as data uses recorded sound and extracted acoustic representations as evidence about communication, speakers, and vocal delivery."
 aliases:
   - Audio-as-Data
 tags:

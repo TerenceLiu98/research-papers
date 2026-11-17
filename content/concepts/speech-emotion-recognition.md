@@ -1,6 +1,7 @@
 ---
 title: Speech Emotion Recognition
 type: concept
+definition: "Speech emotion recognition predicts emotion categories or affective dimensions from recorded speech."
 aliases:
   - Audio Emotion Recognition
 tags:
