@@ -22,7 +22,11 @@ Dynamic Time Warping (DTW) compares ordered sequences by allowing nonlinear alig
 - **Retrieval is not prediction:** A low historical distance selects an analog; transferring its future requires the additional assumption that similar histories have informative continuations. Clustering several continuations can reduce dependence on an outlier match.
 - **Forecast evaluation:** DTW can also compare predicted and realized trajectories when timing displacement is tolerated. That measures a different objective from exact month-by-month error.
 
+- **Counterfactual alignment:** Dynamic synthetic control learns donor-to-treated timing relationships before treatment and transfers them through within-donor historical pattern matches. Aligning directly to treated post-intervention outcomes could remove the treatment effect itself.
+
 ## Important Papers
+
+- [[papers/dynamic-synthetic-controls-accounting-for-varying-speeds-in-comparative-case-studies|Dynamic Synthetic Controls: Accounting for Varying Speeds in Comparative Case Studies]]: uses indirect donor warping before synthetic-control estimation to address heterogeneous reaction speeds.
 
 - [[papers/spatio-temporal-alignments-optimal-transport-through-space-and-time|Spatio-Temporal Alignments: Optimal transport through space and time]]: derives the conditional temporal-shift bound and combines Soft-DTW with a geometry-aware unbalanced transport cost.
 - [[papers/accounting-for-variability-in-conflict-dynamics-a-pattern-based-predictive-model|Accounting for variability in conflict dynamics: A pattern-based predictive model]]: matches 10-month conflict-fatality inputs to 8-12-month historical sequences, then clusters their 12-month continuations. It also reports DTW evaluation as a robustness check.
