@@ -17,6 +17,8 @@ Optimal transport compares probability distributions by finding a transport plan
 
 ## Key Ideas
 
+- Network opinion snapshots can have unequal active mass. [[papers/a-distance-measure-for-the-analysis-of-polar-opinion-dynamics-in-social-networks|A Distance Measure for the Analysis of Polar Opinion Dynamics in Social Networks]] balances this mass with local bank nodes, making the penalty sensitive to activation locations and using model-derived shortest-path propagation costs.
+
 - A discrete transport problem minimizes the inner product between a nonnegative transport plan and a ground-cost matrix, subject to matching the two distributions' marginals.
 - The ground metric determines which movements are cheap. Learning it can therefore change the geometry of downstream tasks such as document comparison or cell-type clustering.
 - Exact linear-programming solutions can be expensive. Entropic regularization, sliced constructions, and tree-based formulas trade approximation structure for faster computation.
