@@ -17,6 +17,8 @@ Dynamic ideal point models estimate how an unobserved position changes over time
 
 ## Key Ideas
 
+- **Context shifts versus movement:** König, Marbach, and Osnabrügge combine Legendre trajectories with country and election shifts for manifesto indicators. Equal-position bridge assumptions identify contextual shifts; smoothing alone does not establish cross-context comparability.
+
 - **Spatially coupled measurement and evolution:** Juhl jointly estimates roll-call positions and neighbor/family dependencies. Uncertainty affects both lagged positions and proximity-based connectivity, so using posterior means as fixed regressors can understate downstream uncertainty. The direction of coefficient distortion is not universally attenuation.
 
 - **Polynomial trajectories and bootstrap uncertainty:** DW-NOMINATE links sessions through legislator-specific polynomial trajectories, commonly linear. Carroll et al. (2009) refit simulated vote matrices and align their scales to propagate uncertainty into positions and party medians; conditional errors that hold roll-call parameters fixed are smaller on average.
@@ -33,6 +35,8 @@ Dynamic ideal point models estimate how an unobserved position changes over time
 - **Validation:** Recovery, rank order, uncertainty, and downstream regression errors answer different questions. Good recovery under a matching simulation model does not establish that an empirical trajectory measures ideology rather than another source of behavioral variation.
 
 ## Important Papers
+
+- [[papers/estimating-party-positions-across-countries-and-time-a-dynamic-latent-variable-model-for-manifesto-data|Estimating Party Positions across Countries and Time]]: combines manifesto measurement, expert-informed priors, and cross-election bridges to estimate a common party space.
 
 - [[papers/measurement-uncertainty-in-spatial-models-a-bayesian-dynamic-measurement-model|Measurement Uncertainty in Spatial Models: A Bayesian Dynamic Measurement Model]]: integrates institutional voting incentives and spatially coupled transitions; German state-legislature estimates support moderate family dependence but not positive neighbor responses.
 
