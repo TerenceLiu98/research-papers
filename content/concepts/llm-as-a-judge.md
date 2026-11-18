@@ -23,6 +23,8 @@ LLM-as-a-Judge uses a language model to evaluate responses under a natural-langu
 
 ## Important Papers
 
+- [[papers/the-simulation-of-judgment-in-llms|The simulation of judgment in LLMs]]: extends the evaluation-validity question to news outlets; expert-label agreement coexists with political error asymmetries and different criterion priorities from nonexpert humans. Keyword explanations and URL-only performance remain behavioral proxies for the underlying process.
+
 - [[papers/jev-as-a-judge-accept-when-confident-escalate-when-unsure|JEV-as-a-Judge: Accept When Confident, Escalate When Unsure]]: measures the accuracy, confidence, validity, and cost of a decision-only judge and its escalation policies.
 - [[papers/tracing-partisan-bias-to-its-emotional-fingerprints-a-computational-approach-to-mitigation|Tracing Partisan Bias to Its Emotional Fingerprints: A Computational Approach to Mitigation]]: uses an LLM to identify stance-bearing words before lexicon scoring, illustrating how inspectable intermediate outputs coexist with evaluator bias and instability.
 - Zheng et al. (2023), "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena": cited by the JEV study as background on LLM evaluation and presentation biases.
