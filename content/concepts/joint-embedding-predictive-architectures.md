@@ -16,6 +16,8 @@ Joint-embedding predictive architectures learn representations by predicting a t
 
 ## Key Ideas
 
+- **Predictor alignment can define an explicit objective:** [[papers/peira-learning-predictive-encoders-through-inter-view-regressor-alignment|PEIRA]] rewards the trace of an optimal ridge predictor while controlling feature scale. With population moments, distinct canonical correlations, and regularization below the leading spectral threshold, its stable equilibria recover a maximal leading nonlinear canonical subspace. The corresponding self-distillation dynamics also admit stable collapse; the practical neural-network algorithm retains an estimation and optimization gap.
+
 - **Generative anchoring in language:** LLM-JEPA combines paired-sequence embedding prediction with next-token loss and implements its predictor using appended tokens in the same transformer. Its gains support this combined objective; removing the generative term produces empty outputs in its regex ablation.
 
 - **Context, predictor, and target:** A context encoder processes observed portions of an input, a predictor estimates representations of held-out portions, and a target encoder supplies the embeddings to match. This differs from reconstructing missing raw values.
