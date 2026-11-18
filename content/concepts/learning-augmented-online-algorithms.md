@@ -22,6 +22,8 @@ Learning-augmented online algorithms make sequential decisions using forecasts a
 - **Combining prediction and fallback requires problem structure.** In bin packing, reservations for complementary future sizes can temporarily look wasteful. A rule comparing only prefix costs can discard precisely the reservations that make accurate predictions useful.
 - **Tradeoffs can be unavoidable.** In fixed-capacity discrete bin packing, very strong consistency with frequency advice forces worst-case robustness to grow with capacity.
 
+Mixed-strategy search games extend the same two-objective perspective to expected game payoffs, including unnormalized search time. A prediction can specify a subset of possible target locations without assigning probabilities to them; adversarial hiding distributions then certify the limits of prediction-guided search.
+
 ## Important Papers
 
 - [[papers/online-bin-packing-with-predictions|Online Bin Packing with Predictions]]: uses item-size frequencies to construct reusable packing profiles and derives error-dependent guarantees for a hybrid with conventional online packing.
