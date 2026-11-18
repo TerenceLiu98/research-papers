@@ -21,6 +21,8 @@ A Stackelberg game represents strategic commitment followed by a rational respon
 - Resource constraints can make both strategy spaces combinatorial even when a best response is easy to compute.
 - Exact payoff evaluation and exact equilibrium search are separate computational requirements. A greedy search can remain approximate despite using exact payoffs.
 
+A strong Stackelberg equilibrium permits leader commitment to a mixed strategy and resolves follower indifference in the leader's favor. With asymmetric network information, the parties may evaluate outcomes on different graphs, so opposing security objectives need not produce complementary perceived payoffs.
+
 ## Important Papers
 
 - [[papers/nonlinear-dynamics-of-state-dependent-attacks-in-network-systems-a-stackelberg-game-approach|Nonlinear dynamics of state-dependent attacks in network systems: A Stackelberg game approach]]: applies attacker-led selection to bilinear network disturbances and adaptive observation channels, with Gramian-based payoffs.
