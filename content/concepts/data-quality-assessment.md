@@ -22,6 +22,8 @@ Data quality assessment asks whether an existing measure supports a particular t
 - **Shared errors:** high agreement can coexist with systematic bias. Raters shared across indicators can induce correlated errors, including in apparent factor structure.
 - **Consequences for research:** use the assessment to select cases and measures, propagate uncertainty, and qualify substantive conclusions rather than treating validation as a one-time approval.
 
+- **Inherited-label validation:** when text units inherit source-level labels, held-out prediction may recover source identity rather than the intended construct. Inspect predictive features and perturb content-to-label assignments; validate temporal variation separately from aggregate agreement. Jankowski and Huber’s manifesto reanalysis demonstrates this distinction.
+
 ## Important Papers
 
 - [[papers/assessing-data-quality-an-approach-and-an-application|Assessing Data Quality: An Approach and An Application]]: integrates the three components for data consumers and demonstrates them with V-Dem corruption indicators.
