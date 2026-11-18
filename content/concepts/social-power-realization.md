@@ -25,6 +25,8 @@ Social power specifies how strongly each initial opinion contributes to the fina
 
 - [[papers/susceptibility-optimization-for-wisdom-of-crowds-a-social-power-reformulation-and-realization-framework|Susceptibility optimization for wisdom of crowds]] establishes full and target-specific susceptibility realizability and uses it for global bias minimization.
 
+Strategic selection of weights is a different problem from realizing a prescribed target. [[papers/social-power-games-for-parallel-friedkin-johnsen-models|Social Power Games for Parallel Friedkin-Johnsen Models]] couples independent discussions through individual stubbornness budgets and maximizes each player’s own total influence. Its equilibrium existence result does not imply collective accuracy or convergence of best-response dynamics.
+
 ## Related Concepts
 
 - [[concepts/opinion-dynamics|Opinion Dynamics]] supplies the interaction models whose parameters determine aggregation weights.
