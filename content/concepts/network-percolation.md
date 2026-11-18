@@ -20,6 +20,8 @@ Network percolation relates local node or edge availability to collective connec
 - **Separate fits from universal claims.** A regression over a limited degree range does not establish an infinite-degree threshold for arbitrary networks.
 - **Connectivity enables transmission but does not prove adoption.** Social interpretations require additional assumptions about message acceptance and behavior.
 
+Opinion clusters can also emerge through correlated state updates. [[papers/non-consensus-opinion-models-on-complex-networks|Non-consensus Opinion Models on Complex Networks]] reports mean-field-like critical cluster scaling under self-inclusive local majority updates. Its order parameter measures a giant minority cluster, so loss of that component need not imply that every minority node disappears.
+
 ## Important Papers
 
 - [[papers/managing-social-networks-applying-the-percolation-theory-methodology-to-understand-individuals-attitudes-and-moods|Managing social networks: Applying the percolation theory methodology to understand individuals' attitudes and moods]] compares node and bond simulations and interprets connectivity through a simplified attitude model; its social applications remain conceptual.
