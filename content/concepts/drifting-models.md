@@ -23,10 +23,16 @@ Drifting Models learn a static noise-to-data map by prescribing how its generate
 - **Guidance can be learned.** Mixing unconditional real examples into the negative pool and conditioning on the mixture's guidance scale preserves single-pass sampling. This differs from combining conditional and unconditional network outputs at inference.
 - **Related fields need distinct foundations.** Gradients of [[concepts/maximum-mean-discrepancy|Maximum Mean Discrepancy]] induce related interactions. [[concepts/wasserstein-gradient-flows|Wasserstein Gradient Flows]] instead specify distribution dynamics from an energy and transport geometry; an arbitrary drifting field need not have that interpretation.
 
+### Kernel-gradient extension
+
+Replacing weighted displacements by normalized kernel gradients gives $V=\nabla\log\hat p_k-\nabla\log\hat q_k$. Gaussian displacement drifting agrees up to bandwidth scaling; other kernels generally require the gradient correction. Under regularity and characteristic-kernel assumptions, vanishing population drift identifies the target distribution. Riemannian gradients and exponential-map targets extend this construction to curved spaces, including categorical relaxations through Fisher–Rao simplex geometry. The associated KL descent argument concerns smoothed Euclidean laws, rather than a general convergence guarantee for practical training.
+
 ## Important Papers
 
 - [[papers/generative-modeling-via-drifting|Generative Modeling via Drifting]]: introduces the field-based objective, normalized attraction-repulsion implementation, feature-space image training, and robotics experiments.
 - [[papers/one-step-generative-modeling-via-wasserstein-gradient-flows|One-Step Generative Modeling via Wasserstein Gradient Flows]]: compares with Drifting and develops a Sinkhorn-energy approach to training one-step generators.
+
+- [[papers/kernel-gradient-drifting-models|Kernel-Gradient Drifting Models]]: derives the smoothed-score field and evaluates intrinsic and categorical extensions.
 
 ## Related Concepts
 
