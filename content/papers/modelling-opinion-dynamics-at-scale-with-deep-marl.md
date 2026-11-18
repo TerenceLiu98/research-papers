@@ -4,8 +4,8 @@ type: paper
 authors:
   - Lukas Seier
   - Brandon Kaplowitz
-  - Sebastian Towers
   - Richard Bailey
+  - Sebastian Towers
   - Jakob Foerster
 year: null
 tags:
@@ -45,17 +45,14 @@ Attention is averaged over trajectories. Perceived importance rescales each inco
 
 ## Experiments
 
-The study uses a 1,000-node Bluesky likes network, a 475-node Congress X/Twitter interaction network, and a 37-node dynamic Hadza proximity network. Episodes last 20 steps. Private-signal probabilities are 0.14, 0.08, and 1 respectively to match initial neighborhood signal density. Nine of ten training seeds are evaluated over 200 episodes; one seed that collapsed to abstention is excluded.
+The study uses a 1,000-node Bluesky likes network, a 475-node Congress X/Twitter interaction network, and a 37-node dynamic Hadza proximity network. Episodes last 20 steps. Private-signal probabilities are 0.14, 0.07, and 1 respectively to match initial neighborhood signal density. The Hadza interaction switching parameter is tested at $r=5$ and $r=10$. Training uses 20 parallel environments and sweeps $\alpha$ in increments of 0.05. Nine of ten training seeds are evaluated over 200 episodes; one seed that collapsed to abstention is excluded.
 
 | Evaluation | Reported result |
 |---|---|
 | Scaling | One million training steps for 1,000 agents in 35 minutes on an A100; JAX pipeline 101× faster than the CPU baseline at 100 agents |
 | Bluesky validation | Best importance-distribution match at $\alpha=0.2$, or 80% conformity reward weight; competitive with the strongest heuristic baselines |
-| Truth-seeking on a 100-agent stochastic block model | Final accuracy 0.98 ± 0.01 versus 0.89 ± 0.01 and 0.87 ± 0.01 for two Bayes-like heuristics |
-| Polarization on that block model | Polarized episodes 0.01 ± 0.01 versus 0.37 ± 0.03 and 0.31 ± 0.03 |
-| Conformity on a 100-agent preferential-attachment graph | Mean reward threshold 0.09 reached at step 3, compared with step 10 for DeGroot with waiting; binary DeGroot and local majority never reach it |
 
-Conformity increases the fraction of correct guesses at intermediate steps in the Hadza simulation by encouraging uncertain agents to speak. This advantage disappears when accuracy is conditioned on non-abstaining agents. Larger social-media graphs exhibit sharp accuracy transitions near $\alpha=0.3$ for Bluesky and $\alpha=0.45$ for Congress, with worse outcomes under stronger conformity. Belief–action disagreement is more prevalent on these graphs. Removing memory or agent IDs particularly harms static-network performance (Appendices C, F, N).
+Conformity marginally increases the fraction of correct guesses, particularly at early steps, in the Hadza simulation with restricted communication ($r=5$) by encouraging uncertain agents to speak. This advantage disappears when accuracy is conditioned on non-abstaining agents. Larger social-media graphs exhibit sharp accuracy transitions near $\alpha=0.3$ for Bluesky and $\alpha=0.45$ for Congress, with worse outcomes under stronger conformity. Belief–action disagreement is more prevalent on these graphs. Removing memory or agent IDs particularly harms static-network performance (Appendices E, M, N).
 
 ## Limitations
 
@@ -73,4 +70,4 @@ The model fails to reproduce the Congress importance distribution and misses a h
 - Hu et al. (2020), “Other-play” for zero-shot coordination: supplies the symmetry-based coordination method extended here to general-sum incentives.
 - Aymanns et al. (2017): the deep-learning opinion model used as a computational baseline.
 
-Source: supplied parsed manuscript, Sections 1–7 and Appendices A–Q. Publication year and a stable paper identifier are not stated in the supplied text. Code link reported by the manuscript: https://github.com/flipbagels/OpiniMARL.
+Source: supplied parsed manuscript, Sections 1–7 and Appendices A–P. Publication year and a stable paper identifier are not stated in the supplied text. Code link reported by the manuscript: https://github.com/flipbagels/OpiniMARL.
