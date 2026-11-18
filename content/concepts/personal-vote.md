@@ -24,6 +24,8 @@ The personal vote is the portion of a candidate's electoral support attributable
 - Candidate-centred rules may improve perceived personal representation and satisfaction while reducing party-voter ideological congruence. Evaluating reform therefore requires attention to multiple dimensions of representation.
 - Personal-vote incentives can also affect nomination, party cohesion, legislative behavior, constituency service, and the kinds of candidates parties recruit; observed preference voting captures only one stage of this broader process.
 
+Personal-vote incentives need not weaken party unity. In [[papers/when-reelection-increases-party-unity-evidence-from-parties-in-mexico|Motolinia’s study of Mexican reelection reform]], speech alignment increases while voting unity remains statistically unchanged. Party control over renomination and constituency-serving resources can make cultivating personal support depend on satisfying leaders. The subgroup evidence supports this mechanism without directly identifying resource transfers as the mediator.
+
 ## Important Papers
 
 - Cain, Ferejohn, and Fiorina (1987), *The Personal Vote: Constituency Service and Electoral Independence*.
