@@ -11,6 +11,8 @@ authors:
 year: 2020
 doi: "10.1017/S0003055420000192"
 source_job_id: "63674a1b-33b9-4f6d-8a6f-a546ced27f8e"
+validated_job_ids:
+  - "1bf755af-8b6b-42e3-8203-97f53bd82a2e"
 tags:
   - legislative-politics
   - roll-call-voting
