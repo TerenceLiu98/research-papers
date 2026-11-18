@@ -11,7 +11,7 @@ pages: "275-297"
 jstor: "25791649"
 url: https://www.jstor.org/stable/25791649
 source_job_id: "ea31d11b-cbfb-4ac2-80e2-6b250a3100a1"
-last_validated_job_id: "f7b440ac-bd1e-47d5-8155-aee648d2ea5b"
+last_validated_job_id: "dcfc5181-bdb2-4a70-b26c-795da00723d5"
 tags:
   - ideal-point-estimation
   - item-response-theory
