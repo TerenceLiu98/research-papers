@@ -7,7 +7,7 @@ authors:
   - Ping He
   - Huajun Ye
 year: 2025
-source_job_id: 6be6ecdd-d41e-4721-9346-cf15fcae9b57
+source_job_id: 8387f363-9665-4f63-be89-22d3563f674b
 tags:
   - representative-points
   - meta-gaussian-distributions
@@ -41,6 +41,8 @@ Meta-Gaussian models separate marginal distributions from dependence through a G
 
 For a target distribution with Gaussian-copula correlation matrix $R$ and marginal CDFs $F_1,\ldots,F_p$, the method begins with low-discrepancy points. It maps them to a multivariate Gaussian representation, applies $u_i=\Phi(z_i)$, and obtains observations through $x_i=F_i^{-1}(u_i)$. A large transformed QMC design supplies the training observations and an initial design supplies the starting centers for k-means. The converged centers are used as MSE representative points, minimizing empirical nearest-center squared error.
 
+Each center $\xi_j$ receives weight $\hat p_j=N_j/N_{\mathrm{train}}$, the fraction of training observations in its Voronoi cell. Equation (12) shows that $\hat\mu=\sum_j\hat p_j\xi_j$ equals the mean of the entire QMC training design, independently of the number of centers. Equation (13) computes covariance from weighted center second moments. Thus compression preserves the training mean; the small mean errors reflect the large training design as well as the compact output representation.
+
 The comparison evaluates four constructions: random Monte Carlo points, QMC points based on good lattice points, QMC points based on generalized good lattice points, and the proposed MSE points. Accuracy is measured by the Euclidean error of the sample mean and Frobenius error of the sample correlation matrix. The paper uses 70,000 training observations in two dimensions and about 140,000 in three and four dimensions for the MSE construction.
 
 The theoretical section fixes a copula and lets coordinatewise strictly increasing transformations act on its continuous marginals. It argues that the copula is a maximal invariant under this action; consequently, association measures expressible as functions of the copula, including Spearman's rho, Kendall's tau, Blomqvist's beta, and tail-dependence measures, are invariant to those marginal transformations.
@@ -51,13 +53,14 @@ The synthetic study combines normal, exponential, and Student-$t$ marginals unde
 
 The timing results expose a trade-off. Monte Carlo and ordinary QMC are fastest. Generalized-good-lattice-point construction is reported as cubic in the requested point count, whereas the MSE method pays for its much larger k-means training design. At larger point counts, MSE is substantially faster than generalized-good-lattice-point QMC in the reported experiments, but slower than ordinary MC and QMC.
 
-For the empirical study, the paper models drought duration, severity, and peak with fitted Weibull, normal, and Weibull marginals. Among five candidate copulas, the Gaussian copula has the largest reported Cramer-von Mises goodness-of-fit p-value, 0.9985, narrowly above the $t$ and Clayton alternatives. With 35 to 597 points, the MSE construction reports mean errors of 0.0003 throughout. Its correlation error is best at four of five point counts; ordinary QMC is better at $N=35$ (0.083 versus 0.126).
+For the empirical study, the paper models drought duration, severity, and peak with fitted Weibull, normal, and Weibull marginals. Among five candidate copulas, the Gaussian copula has the largest reported Cramer-von Mises goodness-of-fit p-value, 0.9985, narrowly above the $t$ and Clayton alternatives. With 35 to 597 points, the MSE construction reports mean errors of 0.0003 throughout. Its correlation error is best at four of five point counts; both QMC variants are better at $N=35$ (0.083 versus 0.126).
 
 ## Limitations
 
 - The simulations use selected dimensions, sample sizes, margins, and correlation matrices; they do not establish uniform superiority over QMC.
 - The MSE method depends on k-means initialization and a finite training design, so the computed centers are empirical local solutions rather than guaranteed population-optimal quantizers.
-- Mean estimates from optimally weighted representative points would normally use Voronoi-cell probabilities. The reported comparisons treat the generated point sets as samples, and the supplied text does not analyze the effect of weighting.
+- The weighted MSE mean uses the entire large QMC training design, whereas comparators use the requested output count. Equal output size therefore does not imply equal numbers of target-distribution evaluations.
+- Monte Carlo is run only once for each simulation setting; the tables do not quantify variability across repeated Monte Carlo runs.
 - Runtime comparisons are implementation- and training-size-dependent. The study reports wall-clock values but does not provide a standardized hardware or software analysis in the supplied Markdown.
 - The drought application fits and evaluates candidate copulas on one dataset; its goodness-of-fit comparison is not an out-of-sample validation.
 - The principal-subspace discussion is strongest for two-point configurations. The plotted higher-cardinality patterns do not by themselves prove a general geometric characterization for non-elliptical meta distributions.
