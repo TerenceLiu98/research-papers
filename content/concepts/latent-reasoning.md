@@ -17,6 +17,8 @@ Latent reasoning is task-relevant computation carried by a model's hidden repres
 
 ## Key Ideas
 
+- **Translation gains can saturate early.** [[papers/latentmt-machine-translation-with-latent-reasoning|LatentMT]] adapts a frozen recurrent backbone with language-pair LoRA modules. Chinese and Egyptian Arabic depth sweeps show early quality gains followed by diminishing returns, accompanied by smaller hidden-state changes and fewer top-token flips. The efficiency comparison includes an explicit-reasoning baseline that emits longer outputs.
+
 - **Iterative refinement benefits from intermediate supervision.** SpiralThinker aligns prefix-conditioned latent-step summaries with an explicit teacher across iterations, emphasizing later updates. Its ablations show that iteration alone can reduce accuracy; fewer textual tokens also need not mean fewer forward passes.
 
 - **Behavioral evidence is indirect.** Producing a correct answer from a short or empty reasoning trace is consistent with latent computation, but it can also reflect memorization, shortcuts, or answer leakage. Controlled perturbations and trace inspection help separate these explanations.
