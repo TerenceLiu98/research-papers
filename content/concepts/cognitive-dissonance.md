@@ -24,7 +24,11 @@ Cognitive dissonance describes the discomfort associated with contradictory beli
 - In [[concepts/belief-embeddings|Belief Embeddings]], Lee et al. (2025) instead use distance from a user's mean belief vector to a candidate belief as a dissonance proxy. Their relative measure is $d^*=(d_{\max}-d_{\min})/d_{\min}$, comparing the farther and nearer of two candidate stances for $d_{\min}>0$. This measures geometric deviation from prior beliefs, rather than private-public mismatch.
 - In their debate data, larger relative dissonance is associated with a higher probability of choosing the nearer stance. This observational result is consistent with an alignment preference but does not directly measure discomfort or identify a causal effect on belief adoption.
 
+- In human–AI advisory decisions, Ansari and Ghasemaghaei (2026) measure dissonance using adapted psychological scales. Greater disagreement increases discomfort, while discomfort is associated with reduced epistemic and prosocial motivation. The negative epistemic association contradicts their predicted increase in information-seeking motivation; it should not be generalized to every dissonance context.
+
 ## Important Papers
+
+- [[papers/partner-or-rival-how-human-artificial-intelligence-conflict-shapes-artificial-intelligence-aversion|Partner or Rival?]]: factorial evidence on disagreement, competitive framing, and decision criticality in AI advice uptake.
 
 - [[Who Should Fight the Spread of Fake News?]]
 - [[papers/a-semantic-embedding-space-based-on-large-language-models-for-modelling-human-beliefs|A semantic embedding space based on large language models for modelling human beliefs]]
