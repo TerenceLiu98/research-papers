@@ -26,6 +26,8 @@ Degree-dependent continuous-time copying at rate $d(v)^\varphi$ has ancestral-wa
 
 A spatial interface can also change the continuum limit. In [[papers/the-voter-model-with-a-slow-membrane|The Voter Model with a Slow Membrane]], copying across a hyperplane at rate $\alpha N^{-\beta}$ produces unrestricted diffusion, Robin transmission, or Neumann reflection as $\beta$ passes through 1, for $d\geq4$. This concerns density evolution on an infinite lattice rather than finite-system consensus times.
 
+Multistate models with fixed zealots can also infer stationary affiliation distributions on directed, weighted networks. When every evaluated user is reachable from a zealot, fixed reference opinions anchor a unique equilibrium. In [[papers/voter-model-can-accurately-predict-individual-opinions-in-online-populations|Voter model can accurately predict individual opinions in online populations]], retweet-based stationary marginals recover 92.5% of labeled affiliations. This validates equilibrium correspondence in one election dataset, rather than temporal opinion trajectories. Pairwise discord requires joint-state equations unless independence conditions hold.
+
 ## Important Papers
 
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]
