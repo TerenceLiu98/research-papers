@@ -20,7 +20,11 @@ Relational AI refers to algorithmic systems with which users form socioemotional
 - Relational failures threaten attachment and partner identity, not only task completion. Repair is therefore asymmetric: the user interprets the failure and performs the adjustment while the system cannot intentionally reciprocate.
 - [[Algorithmic Relational Fracture]] describes the acute sensemaking that follows a breakdown, while [[Pseudo-Relational Accommodation]] describes the user's one-sided response.
 
+Adolescent developmental research adds questions about whether companion interactions support or displace reciprocal relationships and social skill practice. The expert survey below identifies these as priorities; it does not establish developmental effects. Availability, validation, and perceived social agency should be studied alongside individual vulnerability and social context.
+
 ## Important Papers
+
+- [[papers/already-outdated-and-still-under-review|“Already outdated and still under review”]]: surveys 141 professionals and interviews 15 to identify adolescent research priorities, including AI companionship and developmental design protections.
 
 - [[Algorithmic Relational Fracture and Pseudo-Relational Accommodation]]
 - Brandtzaeg, Skjuve, and Folstad (2022), ["My AI friend: How users of a social chatbot understand their human-AI friendship"](https://doi.org/10.1093/hcr/hqac008).
