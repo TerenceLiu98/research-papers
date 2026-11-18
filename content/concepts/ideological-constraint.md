@@ -15,6 +15,8 @@ Ideological constraint describes how strongly choices are organized by shared pr
 
 Converse distinguishes constraint from centrality (which beliefs resist adjustment) and range (which objects a belief system encompasses). Constraint can arise through social transmission and shared group cues, rather than strict logical entailment. His aggregate correlations and later held-out predictive measures are different operationalizations.
 
+Static constraint does not entail dynamic constraint: correlated attitudes need not adjust together after an intervention. Coppock and Green find little cross-domain propagation even among elites with higher static constraint. Their experiments distinguish spontaneous adjustment from consistency induced by an explicit corrective prompt.
+
 ## Key Ideas
 
 - Compare predictions using actor positions with an item-specific baseline that does not distinguish actors. Raw accuracy alone can be high because one answer is broadly popular.
@@ -24,6 +26,8 @@ Converse distinguishes constraint from centrality (which beliefs resist adjustme
 - Weak constraint is model- and agenda-relative; it does not alone establish irrationality, instability, or additional common dimensions.
 
 ## Important Papers
+
+- [[papers/do-belief-systems-exhibit-dynamic-constraint|Do Belief Systems Exhibit Dynamic Constraint?]]: experimentally separates target attitude change from cross-domain spillovers in mass and elite samples; develops an assumption-dependent causal-graph test of belief-system mediation.
 
 - [[papers/one-dimensional-multidimensional-or-non-dimensional-ideological-structure-in-mass-and-elite-opinion|One-dimensional, multidimensional, or non-dimensional?]]: compares identical concrete policy items across Belgian VAA users and thirteen party leaders; citizen correlations are markedly weaker, while personally boosted item pairs show stronger association.
 
