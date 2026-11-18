@@ -23,7 +23,11 @@ Stance detection classifies an expressed position relative to a target. Overall 
 - **Evaluate downstream consequences.** Misclassified stance can weaken or obscure relationships between political opinions and other characteristics.
 - **Scope matters.** Sentiment and stance may correlate in one corpus and be nearly unrelated in another; validation should use the intended domain and target.
 
+- In rumour conversations, agreement with a parent message and stance toward the underlying claim need separate labels: agreeing with a denial opposes the claim. Expressed certainty and evidence provision are separate annotation dimensions.
+
 ## Important Papers
+
+- [[papers/analysing-how-people-orient-to-and-spread-rumours-in-social-media-by-looking-at-conversational-threads|Zubiaga et al. (2016)]]: annotates source and nested-reply stance separately and finds that pre-resolution support alone is insufficient for judging rumour truth.
 
 - [[papers/stance-detection-a-practical-guide-to-classifying-political-beliefs-in-text|Stance detection: a practical guide]]: defines stance through propositions and contextual entailment, and compares three classification paradigms.
 
