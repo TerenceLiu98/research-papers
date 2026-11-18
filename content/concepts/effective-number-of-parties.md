@@ -35,12 +35,16 @@ The generalized family $N_a=(\sum_i p_i^a)^{1/(1-a)}$ includes the squared-share
 
 Changes in effective counts describe changes in concentration, not all changes in party identity or governmental durability. Laakso and Taagepera's West European application finds little association between the mean effective count and executive instability; party-system fluctuation and coalition instability should be measured separately.
 
+Magyar’s analysis of 17 European democracies separates concentration from the balance between the largest two parties. ENP correlates with the first PCA dimension at 0.93 but with the second at only 0.04. A concentration-adjusted count should therefore not automatically serve as a measure of competitiveness; the largest-two-party gap and opposition structure address different features.
+
 ## Important Papers
 
 - [[papers/effective-number-of-parties-a-measure-with-application-to-west-europe|Laakso and Taagepera (1979), “Effective” Number of Parties]] — develops the generalized effective-count framework and compares vote and seat distributions across West Europe.
 - Taagepera (1997), "Effective number of parties for incomplete data."
 - Shugart and Taagepera (2017), *Votes from Seats: Logical Models of Electoral Systems*.
 - [[Party system polarization and the effective number of parties]]
+
+- [[papers/what-makes-party-systems-different|Magyar (2022), What Makes Party Systems Different?]] — compares effective counts and competition measures against dimensions recovered from ranked party shares.
 
 ## Related Concepts
 
