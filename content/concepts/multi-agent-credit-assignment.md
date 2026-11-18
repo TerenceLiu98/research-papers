@@ -24,6 +24,8 @@ Multi-agent credit assignment determines how a shared outcome should update the 
 - **Process rewards complement outcome attribution.** Tool validity, formatting, or other local checks can identify execution failures that terminal success alone misses. These proxies should not be interpreted as evidence that an action was useful.
 - **Better attribution can cost more.** Counterfactual evaluation adds training computation. The relevant comparison includes accuracy, training latency, inference cost, stability, and the fraction of redundant or harmful interactions.
 
+- **Temporal credit and role baselines are distinct from marginal contribution.** MARSHAL sums rewards from each turn onward and centers these returns within player-role groups. This distinguishes decisions over time and avoids pooling asymmetric roles, but does not estimate the causal contribution of removing an agent.
+
 ## Important Papers
 
 - [[papers/who-deserves-the-reward-sharp-shapley-credit-based-optimization-for-multi-agent-system|Who Deserves the Reward? SHARP: Shapley Credit-based Optimization for Multi-Agent System]] uses worker masking, planner credit derived from positive worker contributions, and group-relative normalization for tool-using planner-worker agents.
