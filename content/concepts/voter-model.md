@@ -28,6 +28,8 @@ A spatial interface can also change the continuum limit. In [[papers/the-voter-m
 
 Multistate models with fixed zealots can also infer stationary affiliation distributions on directed, weighted networks. When every evaluated user is reachable from a zealot, fixed reference opinions anchor a unique equilibrium. In [[papers/voter-model-can-accurately-predict-individual-opinions-in-online-populations|Voter model can accurately predict individual opinions in online populations]], retweet-based stationary marginals recover 92.5% of labeled affiliations. This validates equilibrium correspondence in one election dataset, rather than temporal opinion trajectories. Pairwise discord requires joint-state equations unless independence conditions hold.
 
+Innovation can make the number of opinions fluctuate even in a population of fixed size. When each innovation introduces an absent opinion, the mean waiting time between innovations competes with the time for copying to restore consensus. On a complete graph of $N$ agents, a single dissenter takes about $\log N$ generations on average to reach unanimity through copying. Innovations arriving more slowly allow frequent returns to consensus. See [[papers/analysis-of-a-voter-model-with-an-evolving-number-of-opinion-states|Analysis of a voter model with an evolving number of opinion states]].
+
 ## Important Papers
 
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]
