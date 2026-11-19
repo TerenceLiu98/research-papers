@@ -17,6 +17,8 @@ Opinion dynamics studies how individual opinions or other social attributes chan
 
 ## Key Ideas
 
+- The locations of two opinion peaks distinguish camps concentrated at extreme positions from camps centered on more moderate ones. In [[papers/emergence-of-polarization-in-coevolving-networks|Emergence of Polarization in Coevolving Networks]], the symmetric model has two transitions as neighbor influence increases at fixed network parameters. First the peaks move off the boundaries, then they merge at the center. The population mean stays zero throughout.
+
 - Reward-trained policies can distinguish truth seeking from conformity. [[papers/modelling-opinion-dynamics-at-scale-with-deep-marl|Modelling Opinion Dynamics at Scale with Deep MARL]] learns recurrent interaction rules for up to 1,000 agents. Its small-network conformity benefit depends on counting abstentions as unsuccessful guesses; consensus and accuracy among expressed guesses are different outcomes.
 
 - [[papers/emergence-of-polarized-ideological-opinions-in-multidimensional-topic-spaces|Emergence of Polarized Ideological Opinions in Multidimensional Topic Spaces]] combines homophilic temporal contacts with reinforcement across overlapping topics. It distinguishes independent polarization from [[concepts/issue-alignment|Issue Alignment]], where opposing camps take correlated positions across issues.
