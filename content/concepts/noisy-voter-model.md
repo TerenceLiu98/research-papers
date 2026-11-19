@@ -17,6 +17,8 @@ The noisy voter model extends the voter model by combining social copying with s
 
 ## Key Ideas
 
+- Selective exposure changes the effective copying rate even on a fixed network. In [[papers/effect-of-algorithmic-bias-and-network-structure-on-coexistence-consensus-and-polarization-of-opinions|Peralta et al. (2021)]], hiding disagreeing neighbors at each update can stabilize opposite majorities in two weakly connected communities at low noise. A population-wide opinion share near one-half can therefore conceal strong agreement within each community.
+
 - In the multistate homogeneous model, grouping all other opinions yields an exact single-opinion birth-death process. For more than two states, marginals are generally asymmetric: distinct boundary thresholds separate two boundary peaks, a decreasing marginal, and an interior peak. Heterogeneous-rate closure is approximate, and combining single-opinion hitting times into consensus-switching times requires an additional independence approximation. See [[papers/consensus-and-diversity-in-multistate-noisy-voter-models|Consensus and diversity in multistate noisy voter models]].
 
 - [[papers/is-the-voter-model-a-model-for-voters|Is the Voter Model a Model for Voters?]] couples residence and workplace imitation through census commuting flows. Its imperfect-imitation noise yields a noisy diffusion approximation that reproduces stationary electoral dispersion and logarithmic spatial correlations. This external-noise formulation should be distinguished from the standard spontaneous-flip birth-death model; its calibrated target is local vote-share fluctuations around the national mean.
