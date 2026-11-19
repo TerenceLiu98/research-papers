@@ -11,6 +11,8 @@ authors:
   - Jan Lorenz
   - Katarzyna Sznajd-Weron
 year: 2026
+date: "2026-09-10"
+doi: "10.1103/j1zg-ddqv"
 tags:
   - opinion-dynamics
   - sociophysics
@@ -19,7 +21,7 @@ tags:
 
 ## TL;DR
 
-This review organizes [[concepts/opinion-dynamics|Opinion Dynamics]] by collective phenomena and microscopic mechanisms, connecting empirical research to statistical-physics models and analytical tools. Its contribution is an interdisciplinary synthesis rather than a new predictive model.
+This review connects collective patterns in [[concepts/opinion-dynamics|opinion dynamics]] to the individual decisions that can produce them. For example, clusters can persist when people compromise only with others who already agree closely. Experiments that record whom people listen to and how far they revise their estimates can test that explanation directly.
 
 ## Research Question
 
@@ -47,7 +49,7 @@ The methods survey covers master equations, large-population approximations, pai
 
 ## Experiments
 
-The paper reviews existing evidence rather than presenting a single original experimental protocol. Controlled experiments examine conformity and opinion revision; elections, surveys, and online traces characterize population patterns. These sources differ in what they reveal about mechanisms and collective outcomes.
+Section III.A.2 reviews an experiment by Chacoma and Zanette (2015) in which participants could keep their estimate, adopt someone else's estimate, or compromise. Keeping the initial estimate was most frequent and copying was least frequent. Differences in expressed confidence predicted which response participants chose, while the distance between estimates had little explanatory power in this setting. This gives an empirical test of the distance threshold used in bounded-confidence models. Section III.B turns to elections, surveys, and online traces to characterize population patterns.
 
 The network-model survey illustrates how conclusions depend on interaction structure. Reviewed temporal-network work finds that static aggregation can overestimate consensus speed. Multilayer voter studies show prolonged coexistence that single-layer approximations can miss. Higher-order models demonstrate that nonlinear group influence and adaptive membership can change convergence and fragmentation. These are findings of individual reviewed studies under their own assumptions, not universal effect sizes.
 
@@ -55,7 +57,7 @@ The network-model survey illustrates how conclusions depend on interaction struc
 
 Behavioral data can measure opinions indirectly or with bias, so increased availability does not automatically validate models. Mechanisms and outcomes overlap; the taxonomy is not a one-to-one causal mapping. Representation, topology, update rules, and approximation assumptions affect conclusions.
 
-Cultural dynamics, language dynamics, and social contagion are explicitly outside the detailed scope despite their connections. AI agents are an emerging research direction rather than an established substitute for human behavioral validation. The supplied manuscript is dated May 21, 2026; no venue or stable identifier is inferred.
+Cultural dynamics, language dynamics, and social contagion fall outside the detailed scope. Section VI treats AI agents as experimental test beds whose responses still require validation against human behavior.
 
 ## Related Concepts
 

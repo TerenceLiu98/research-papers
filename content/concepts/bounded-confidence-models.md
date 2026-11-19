@@ -19,6 +19,7 @@ Bounded confidence models are continuous [[Opinion Dynamics|opinion-dynamics]] m
 ## Key Ideas
 
 - The confidence bound defines which pairs can influence one another. Small bounds suppress interaction and preserve many clusters; larger bounds connect more of the opinion space and can support consensus.
+- A confidence bound measures distance between opinions. A participant's reported confidence measures certainty in their own estimate. In the Chacoma and Zanette experiment discussed in [[papers/opinion-dynamics-statistical-physics-and-beyond|Opinion dynamics: Statistical physics and beyond]] (Sec. III.A.2), relative certainty predicted whether participants revised their estimates, while distance between estimates had little explanatory power.
 - Initial conditions matter because separated peaks may never enter one another's interaction range. Uniform, unimodal, and multimodal starting distributions can therefore produce different outcomes under the same update rule.
 - Heterogeneous update rates represent differences in agents' willingness to compromise. Fixed or nearly fixed extreme agents can anchor clusters, while moderate reductions in willingness may mainly change convergence time.
 - External opinion sources can be admitted through the same confidence gate as peers. Distinguishing nonuse, conditional reliance, and unconditional adoption separates selective influence from consensus imposed by an update rule.
