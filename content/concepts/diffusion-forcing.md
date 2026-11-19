@@ -22,6 +22,7 @@ Diffusion forcing models sequences with a separate noise level for each frame or
 
 ## Important Papers
 
+- [[papers/asynchronous-flow-map-language-models|Asynchronous Flow Map Language Models]] uses one diffusion-forcing denoiser to compare token schedules. On hard Sudoku, advancing confident cells under an entropy budget raises the same denoiser's 32-step solving accuracy from 40.1% to 95.6%. Distilling those trajectories also improves one-step accuracy.
 - Chen et al. (2024), "Diffusion forcing: Next-token prediction meets full-sequence diffusion," is the foundational method cited by Nano World Models.
 - [[papers/nano-world-models-a-minimalist-implementation-of-future-video-prediction|Nano World Models: A Minimalist Implementation of Future Video Prediction]] uses diffusion forcing as a shared experimental interface and measures target-schedule effects, action sensitivity, and rollout error.
 - [[papers/diffusion-reroll-revisable-denoising-for-robotic-sequential-prediction|Diffusion ReRoll: Revisable Denoising for Robotic Sequential Prediction]] combines per-token schedule matrices with selective re-noising and linear-chunk training for robotic sequence generation.
