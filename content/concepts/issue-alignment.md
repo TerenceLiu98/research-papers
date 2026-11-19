@@ -21,10 +21,12 @@ Issue alignment describes how positions on different issues covary across indivi
 - Alignment can reduce the effective dimensionality of opinions, with a small number of recurring stance combinations organizing many issues.
 - In Baumann et al.'s model, overlapping topics couple reinforcing social influence across issues, while homophilic contacts support opposing camps. The resulting polarized ideological state combines polarization and alignment.
 - Shared dependence on an additional topic can align two issues without direct overlap between them.
+- Initial alignment can affect how polarized camps dissolve. In the social compass model, stronger peer influence draws two opposing camps together continuously. Four equally spaced camps can undergo an abrupt transition with hysteresis when conviction is concentrated near its maximum.
 - Survey correlations describe alignment but do not identify its mechanism. Their signs depend on how response scales are oriented, and temporal or network evidence is needed to test coevolving influence and selection.
 
 ## Important Papers
 
+- [[papers/modeling-explosive-opinion-depolarization-in-interdependent-topics|Modeling Explosive Opinion Depolarization in Interdependent Topics]] derives the conditions for gradual and abrupt depolarization and compares them in simulations initialized with survey responses.
 - [[papers/emergence-of-polarized-ideological-opinions-in-multidimensional-topic-spaces|Emergence of Polarized Ideological Opinions in Multidimensional Topic Spaces]] — derives a mechanism for emergent alignment and illustrates the distinction from independent polarization using ANES responses.
 
 ## Related Concepts
