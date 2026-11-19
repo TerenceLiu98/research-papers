@@ -24,6 +24,7 @@ Dynamic hysteresis is the lagged response of a driven system that traces a loop 
 
 ## Important Papers
 
+- [[papers/anisotropic-opinion-dynamics|Anisotropic opinion dynamics]] traces a loop by raising and lowering mean peer influence. Clusters aligned with a fixed social rule persist on the outward sweep and take time to re-form on the return sweep. The paper measures how the loop area relative to the sweep width changes with heterogeneity in peer influence.
 - [[Consensus, polarization, and nonlinear response in a two-layer voter model with intra-agent cross-layer reconciliation]]
 - Sides, Rikvold, and Novotny (1998), "Hysteresis loop areas in kinetic Ising models: Effects of the switching mechanism."
 - Broner, Goldsztein, and Strogatz (1997), "Dynamical hysteresis without static hysteresis: scaling laws and asymptotic expansions."
