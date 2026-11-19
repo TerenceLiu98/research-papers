@@ -13,6 +13,7 @@ Two people may disagree because they formed their views independently. Anticonfo
 
 ## Key Ideas
 
+- A voter can conform locally and dissent nationally. In [[papers/dislike-of-general-opinion-makes-for-tight-elections|Dislike of general opinion makes for tight elections]], agreement with neighbors keeps geographic camps cohesive, while opposition to the poll leader limits how far either camp can expand.
 - Distancing oneself from an opposing faction can widen an existing divide. Seeking distinction among like-minded peers can introduce variation within a faction, even in the absence of contact with opponents.
 - The available choices matter. In a binary model, rejecting one choice selects its opposite. With two poles and a middle option, a one-step departure from an extreme produces a moderate, while departure from the middle produces an extremist.
 - A population can display the same nominal rate of anticonformity because everyone occasionally dissents or because some people consistently dissent. These assumptions can produce different distributions of opinions across factions.
