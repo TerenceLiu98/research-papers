@@ -17,6 +17,7 @@ Activity-driven networks are temporal network models in which nodes become activ
 
 ## Key Ideas
 
+- Activity governs when a node initiates contact. Partner choice can depend separately on node attributes. In [[papers/modeling-echo-chambers-and-polarization-dynamics-in-social-networks|Modeling Echo Chambers and Polarization Dynamics in Social Networks]], active agents preferentially contact peers with similar opinions. As opinions change, so do the probabilities of future contacts, even though individual activity rates stay fixed.
 - Each node receives an activity value from a distribution `F(alpha)`. Higher-activity nodes initiate contacts more often and can play a larger role in diffusion.
 - At each time step, active nodes create `m` links. Inactive nodes can still receive links, so a node's instantaneous degree combines its own activity with incoming contacts from other active nodes.
 - The temporal construction gives an activity-conditioned neighbor distribution. In the model used by Gong and Small, this distribution depends on both endpoint activity and the mean activity of the population.
